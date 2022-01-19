@@ -1,0 +1,1019 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{00FC749C-CAD6-4388-A798-99C387A3B047}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AFTACWebSite</RootNamespace>
+    <AssemblyName>AFTACWebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AFTACWebSite.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>AFTACWebSite.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_Photos\AFTACAwards\" />
+    <Folder Include="_Photos\Wall\" />
+    <Folder Include="_Reports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddObits.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Main.aspx" />
+    <Content Include="MemberShip.aspx" />
+    <Content Include="Memlookup.aspx" />
+    <Content Include="myService.asmx" />
+    <Content Include="Password.aspx" />
+    <Content Include="Statistics for aftacaa.us %282018-05%29 - main.html" />
+    <Content Include="_Images\Adobe_Reader_PDF.png" />
+    <Content Include="_Images\AFTAC Alumni Wreath.jpg" />
+    <Content Include="_Images\Air Show.png" />
+    <Content Include="_Images\air_Banner.jpg" />
+    <Content Include="_Images\April2017.png" />
+    <Content Include="_Images\April2018.png" />
+    <Content Include="_Images\August2017.png" />
+    <Content Include="_Images\August2018.png" />
+    <Content Include="_Images\Award.jpg" />
+    <Content Include="_Images\Award2.jpg" />
+    <Content Include="_Images\Baseball.jpg" />
+    <Content Include="_Images\Cardboard_Tree.jpg" />
+    <Content Include="_Images\checked.jpg" />
+    <Content Include="_Images\Christmas.jpg" />
+    <Content Include="_Images\December2017.png" />
+    <Content Include="_Images\December2018.png" />
+    <Content Include="_Images\Dollar.png" />
+    <Content Include="_Images\Gold-Banner.png" />
+    <Content Include="_Images\golf.jpg" />
+    <Content Include="_Images\hockey.jpg" />
+    <Content Include="_Images\HockeyLogo.png" />
+    <Content Include="_Images\new.jpg" />
+    <Content Include="_Images\nocheck.jpg" />
+    <Content Include="_Images\Red_Banner.png" />
+    <Content Include="_Images\snoopy.gif" />
+    <Content Include="_Images\TaxReturn.jpg" />
+    <Content Include="_Images\ThankYou.jpg" />
+    <Content Include="_Images\Wonderland Page.jpg" />
+    <Content Include="_Photos\20YearWall\Clark.jpg" />
+    <Content Include="_Photos\20YearWall\Conrad.jpg" />
+    <Content Include="_Photos\20YearWall\Dave_Johnson.jpg" />
+    <Content Include="_Photos\20YearWall\DeMarco1.jpg" />
+    <Content Include="_Photos\20YearWall\Ciambrone.jpg" />
+    <Content Include="_Photos\20YearWall\Dunn.jpg" />
+    <Content Include="_Photos\20YearWall\French.jpg" />
+    <Content Include="_Photos\20YearWall\Gilb.jpg" />
+    <Content Include="_Photos\20YearWall\Gindlesperger.jpg" />
+    <Content Include="_Photos\20YearWall\Harris.jpg" />
+    <Content Include="_Photos\20YearWall\Hummel.jpg" />
+    <Content Include="_Photos\20YearWall\Kemna.jpg" />
+    <Content Include="_Photos\20YearWall\Manley.jpg" />
+    <Content Include="_Photos\20YearWall\Marshall.jpg" />
+    <Content Include="_Photos\20YearWall\Penn.jpg" />
+    <Content Include="_Photos\20YearWall\Smith.jpg" />
+    <Content Include="_Photos\20YearWall\Smith_C.jpg" />
+    <Content Include="_Photos\AftacHistory\DO1.png" />
+    <Content Include="_Photos\AftacHistory\DO11.png" />
+    <Content Include="_Photos\AftacHistory\DO12.png" />
+    <Content Include="_Photos\AftacHistory\DO13.png" />
+    <Content Include="_Photos\AftacHistory\DO10.png" />
+    <Content Include="_Photos\AftacHistory\DO14.png" />
+    <Content Include="_Photos\AftacHistory\DO15.png" />
+    <Content Include="_Photos\AftacHistory\DO16.png" />
+    <Content Include="_Photos\AftacHistory\DO17.png" />
+    <Content Include="_Photos\AftacHistory\DO18.png" />
+    <Content Include="_Photos\AftacHistory\DO19.png" />
+    <Content Include="_Photos\AftacHistory\DO2.png" />
+    <Content Include="_Photos\AftacHistory\DO20.png" />
+    <Content Include="_Photos\AftacHistory\DO21.png" />
+    <Content Include="_Photos\AftacHistory\DO22.png" />
+    <Content Include="_Photos\AftacHistory\DO23.png" />
+    <Content Include="_Photos\AftacHistory\DO24.png" />
+    <Content Include="_Photos\AftacHistory\DO25.png" />
+    <Content Include="_Photos\AftacHistory\DO26.png" />
+    <Content Include="_Photos\AftacHistory\DO27.png" />
+    <Content Include="_Photos\AftacHistory\DO28.png" />
+    <Content Include="_Photos\AftacHistory\DO29.png" />
+    <Content Include="_Photos\AftacHistory\do3.png" />
+    <Content Include="_Photos\AftacHistory\DO30.png" />
+    <Content Include="_Photos\AftacHistory\DO31.png" />
+    <Content Include="_Photos\AftacHistory\DO32.png" />
+    <Content Include="_Photos\AftacHistory\DO33.png" />
+    <Content Include="_Photos\AftacHistory\DO34.png" />
+    <Content Include="_Photos\AftacHistory\DO35.png" />
+    <Content Include="_Photos\AftacHistory\DO36.png" />
+    <Content Include="_Photos\AftacHistory\DO37.png" />
+    <Content Include="_Photos\AftacHistory\DO38.png" />
+    <Content Include="_Photos\AftacHistory\DO39.png" />
+    <Content Include="_Photos\AftacHistory\DO4.png" />
+    <Content Include="_Photos\AftacHistory\DO40.png" />
+    <Content Include="_Photos\AftacHistory\DO41.png" />
+    <Content Include="_Photos\AftacHistory\DO42.png" />
+    <Content Include="_Photos\AftacHistory\DO43.png" />
+    <Content Include="_Photos\AftacHistory\DO44.png" />
+    <Content Include="_Photos\AftacHistory\DO45.png" />
+    <Content Include="_Photos\AftacHistory\DO46.png" />
+    <Content Include="_Photos\AftacHistory\DO47.png" />
+    <Content Include="_Photos\AftacHistory\DO48.png" />
+    <Content Include="_Photos\AftacHistory\DO49.png" />
+    <Content Include="_Photos\AftacHistory\DO5.png" />
+    <Content Include="_Photos\AftacHistory\DO50.png" />
+    <Content Include="_Photos\AftacHistory\DO51.png" />
+    <Content Include="_Photos\AftacHistory\DO52.png" />
+    <Content Include="_Photos\AftacHistory\DO53.png" />
+    <Content Include="_Photos\AftacHistory\DO54.png" />
+    <Content Include="_Photos\AftacHistory\DO55.png" />
+    <Content Include="_Photos\AftacHistory\DO6.png" />
+    <Content Include="_Photos\AftacHistory\DO7.png" />
+    <Content Include="_Photos\AftacHistory\DO8.png" />
+    <Content Include="_Photos\AftacHistory\DO9.png" />
+    <Content Include="_Photos\Aircraft\B-29.png" />
+    <Content Include="_Photos\Aircraft\b-36.jpg" />
+    <Content Include="_Photos\Aircraft\c-47.png" />
+    <Content Include="_Photos\AOY\Alumni2018.jpg" />
+    <Content Include="_Photos\AOY\Edit-for-Dad.jpg" />
+    <Content Include="_Photos\AOY\Gilbert.JPG" />
+    <Content Include="_Photos\AOY\Kemna_1.jpg" />
+    <Content Include="_Photos\AOY\Kemna_2.jpg" />
+    <Content Include="_Photos\AOY\SnowballAOY.jpg" />
+    <Content Include="_Photos\AOY\snyder.png" />
+    <Content Include="_Photos\Board Members\Ryan.png" />
+    <Content Include="_Photos\Board Members\whidden.png" />
+    <Content Include="_Photos\brinkman.jpg" />
+    <Content Include="_Photos\Daytona.jpg" />
+    <Content Include="_Photos\Dining\DO1.jpg" />
+    <Content Include="_Photos\Dining\DO2.jpg" />
+    <Content Include="_Photos\Dining\DO3.jpg" />
+    <Content Include="_Photos\Dining\DO4.jpg" />
+    <Content Include="_Photos\Dining\DO13.jpg" />
+    <Content Include="_Photos\Dining\DO14.jpg" />
+    <Content Include="_Photos\Dining\DO15.jpg" />
+    <Content Include="_Photos\Dining\DO16.jpg" />
+    <Content Include="_Photos\Dining\DO17.jpg" />
+    <Content Include="_Photos\Dining\DO18.jpg" />
+    <Content Include="_Photos\Dining\DO19.jpg" />
+    <Content Include="_Photos\Dining\DO20.jpg" />
+    <Content Include="_Photos\Dining\DO5.jpg" />
+    <Content Include="_Photos\Dining\DO6.jpg" />
+    <Content Include="_Photos\Dining\DO7.jpg" />
+    <Content Include="_Photos\Dining\DO8.jpg" />
+    <Content Include="_Photos\Dining\DO9.jpg" />
+    <Content Include="_Photos\Dining\DO10.jpg" />
+    <Content Include="_Photos\Dining\DO11.jpg" />
+    <Content Include="_Photos\Dining\DO12.jpg" />
+    <Content Include="_Photos\LadiesLunch\LL1.jpg" />
+    <Content Include="_Photos\LadiesLunch\LL2.jpg" />
+    <Content Include="_Photos\News2Know\A1C.jpg" />
+    <Content Include="_Photos\News2Know\Award1.jpg" />
+    <Content Include="_Photos\News2Know\Award2.jpg" />
+    <Content Include="_Photos\News2Know\Award3.jpg" />
+    <Content Include="_Photos\News2Know\Award4.jpg" />
+    <Content Include="_Photos\News2Know\Award5.jpg" />
+    <Content Include="_Photos\News2Know\Award6.jpg" />
+    <Content Include="_Photos\News2Know\Award7.jpg" />
+    <Content Include="_Photos\News2Know\Award8.jpg" />
+    <Content Include="_Photos\News2Know\Award9.jpg" />
+    <Content Include="_Photos\News2Know\B2B1.JPG" />
+    <Content Include="_Photos\News2Know\B2B2.JPG" />
+    <Content Include="_Photos\News2Know\B2B3.JPG" />
+    <Content Include="_Photos\News2Know\Exchange.jpg" />
+    <Content Include="_Photos\News2Know\Sampling1.JPG" />
+    <Content Include="_Photos\News2Know\sampling2.JPG" />
+    <Content Include="_Photos\News2Know\Sampling3.JPG" />
+    <Content Include="_Photos\News2Know\Sampling4.JPG" />
+    <Content Include="_Photos\News2Know\Sampling5.JPG" />
+    <Content Include="_Photos\News2Know\Staffers.JPG" />
+    <Content Include="_Photos\ObitPics\Anderson_Daniel.JPG" />
+    <Content Include="_Photos\News2Know\Antarctic1.jpg" />
+    <Content Include="_Photos\News2Know\Antarctic2.jpg" />
+    <Content Include="_Photos\News2Know\Antarctic3.jpg" />
+    <Content Include="_Photos\News2Know\Antarctic4.jpg" />
+    <Content Include="_Photos\News2Know\Antarctic5.jpg" />
+    <Content Include="_Photos\News2Know\Antarctic6.jpg" />
+    <Content Include="_Photos\News2Know\Buzz1.jpg" />
+    <Content Include="_Photos\News2Know\Buzz2.jpg" />
+    <Content Include="_Photos\News2Know\Buzz3.jpg" />
+    <Content Include="_Photos\News2Know\Buzz4.jpg" />
+    <Content Include="_Photos\News2Know\Change1.jpg" />
+    <Content Include="_Photos\News2Know\Change2.jpg" />
+    <Content Include="_Photos\News2Know\Change3.jpg" />
+    <Content Include="_Photos\News2Know\Change4.jpg" />
+    <Content Include="_Photos\News2Know\Change5.jpg" />
+    <Content Include="_Photos\News2Know\Chemist1.jpg" />
+    <Content Include="_Photos\News2Know\chemist2.jpg" />
+    <Content Include="_Photos\News2Know\Chemist3.jpg" />
+    <Content Include="_Photos\News2Know\Chief1.jpg" />
+    <Content Include="_Photos\News2Know\Chief2.jpg" />
+    <Content Include="_Photos\News2Know\Citizen1.JPG" />
+    <Content Include="_Photos\News2Know\Citizen2.JPG" />
+    <Content Include="_Photos\News2Know\comm1.jpg" />
+    <Content Include="_Photos\News2Know\comm2.jpg" />
+    <Content Include="_Photos\News2Know\comm3.jpg" />
+    <Content Include="_Photos\News2Know\comm4.jpg" />
+    <Content Include="_Photos\News2Know\comm5.jpg" />
+    <Content Include="_Photos\News2Know\Command1.jpg" />
+    <Content Include="_Photos\News2Know\Command2.jpg" />
+    <Content Include="_Photos\News2Know\Command3.jpg" />
+    <Content Include="_Photos\News2Know\command4.jpg" />
+    <Content Include="_Photos\News2Know\Command5.jpg" />
+    <Content Include="_Photos\News2Know\Command6.jpg" />
+    <Content Include="_Photos\News2Know\cyberspace1.jpg" />
+    <Content Include="_Photos\News2Know\cyberspace2.jpg" />
+    <Content Include="_Photos\News2Know\Failure1.jpg" />
+    <Content Include="_Photos\News2Know\Failure2.jpg" />
+    <Content Include="_Photos\News2Know\Failure3.jpg" />
+    <Content Include="_Photos\News2Know\General.jpg" />
+    <Content Include="_Photos\News2Know\Grass1.jpg" />
+    <Content Include="_Photos\News2Know\Grass2.jpg" />
+    <Content Include="_Photos\News2Know\Grass3.jpg" />
+    <Content Include="_Photos\News2Know\Harkins1.jpg" />
+    <Content Include="_Photos\News2Know\Harkins2.jpg" />
+    <Content Include="_Photos\News2Know\Harkins3.jpg" />
+    <Content Include="_Photos\News2Know\Hockey.jpg" />
+    <Content Include="_Photos\News2Know\Hockey1.jpg" />
+    <Content Include="_Photos\News2Know\Hockey2.jpg" />
+    <Content Include="_Photos\News2Know\Hockey3.jpg" />
+    <Content Include="_Photos\News2Know\Hockey4.jpg" />
+    <Content Include="_Photos\News2Know\HockeyWin1.jpg" />
+    <Content Include="_Photos\News2Know\HockeyWin2.jpg" />
+    <Content Include="_Photos\News2Know\Holmes1.jpg" />
+    <Content Include="_Photos\News2Know\Holmes2.jpg" />
+    <Content Include="_Photos\News2Know\Holmes3.jpg" />
+    <Content Include="_Photos\News2Know\Holmes4.jpg" />
+    <Content Include="_Photos\News2Know\Holmes5.jpg" />
+    <Content Include="_Photos\News2Know\Holmes6.jpg" />
+    <Content Include="_Photos\News2Know\Holmes7.jpg" />
+    <Content Include="_Photos\News2Know\Hoop1.jpg" />
+    <Content Include="_Photos\News2Know\Hoop2.jpg" />
+    <Content Include="_Photos\News2Know\Hoop3.jpg" />
+    <Content Include="_Photos\News2Know\Hope.jpg" />
+    <Content Include="_Photos\News2Know\Hurricane1.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane10.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane11.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane12.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane13.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane14.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane15.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane16.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane17.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane18.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane2.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane3.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane4.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane5.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane6.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane7.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane8.JPG" />
+    <Content Include="_Photos\News2Know\Hurricane9.JPG" />
+    <Content Include="_Photos\News2Know\Industry1.jpg" />
+    <Content Include="_Photos\News2Know\Industry2.jpg" />
+    <Content Include="_Photos\News2Know\ions1.jpg" />
+    <Content Include="_Photos\News2Know\ions2.jpg" />
+    <Content Include="_Photos\News2Know\ions3.jpg" />
+    <Content Include="_Photos\News2Know\macgyver1.jpg" />
+    <Content Include="_Photos\News2Know\macgyver2.jpg" />
+    <Content Include="_Photos\News2Know\macgyver3.jpg" />
+    <Content Include="_Photos\News2Know\macgyver4.jpg" />
+    <Content Include="_Photos\News2Know\Maria1.jpg" />
+    <Content Include="_Photos\News2Know\Maria2.jpg" />
+    <Content Include="_Photos\News2Know\Maria3.jpg" />
+    <Content Include="_Photos\News2Know\Monitoring1.jpg" />
+    <Content Include="_Photos\News2Know\Monitoring2.jpg" />
+    <Content Include="_Photos\News2Know\Monitoring3.jpg" />
+    <Content Include="_Photos\News2Know\Monitoring4.jpg" />
+    <Content Include="_Photos\News2Know\NOK1.jpg" />
+    <Content Include="_Photos\News2Know\NOK2.jpg" />
+    <Content Include="_Photos\News2Know\NOK3.JPG" />
+    <Content Include="_Photos\News2Know\nuclear1.jpg" />
+    <Content Include="_Photos\News2Know\nuclear2.jpg" />
+    <Content Include="_Photos\News2Know\nuclear3.jpg" />
+    <Content Include="_Photos\News2Know\Outreach1.jpg" />
+    <Content Include="_Photos\News2Know\Outreach2.jpg" />
+    <Content Include="_Photos\News2Know\Outreach3.jpg" />
+    <Content Include="_Photos\News2Know\Outreach4.jpg" />
+    <Content Include="_Photos\News2Know\Phone1.jpg" />
+    <Content Include="_Photos\News2Know\Phone2.jpg" />
+    <Content Include="_Photos\News2Know\ProtoType1.jpg" />
+    <Content Include="_Photos\News2Know\ProtoType2.jpg" />
+    <Content Include="_Photos\News2Know\ProtoType3.jpg" />
+    <Content Include="_Photos\News2Know\Relocate1.jpg" />
+    <Content Include="_Photos\News2Know\Relocate2.jpg" />
+    <Content Include="_Photos\News2Know\Relocate3.jpg" />
+    <Content Include="_Photos\News2Know\Relocate4.jpg" />
+    <Content Include="_Photos\News2Know\Sailor1.jpg" />
+    <Content Include="_Photos\News2Know\Sailor2.jpg" />
+    <Content Include="_Photos\News2Know\SecAF1.jpg" />
+    <Content Include="_Photos\News2Know\SecAF2.jpg" />
+    <Content Include="_Photos\News2Know\SecAF3.jpg" />
+    <Content Include="_Photos\News2Know\SecAF4.jpg" />
+    <Content Include="_Photos\News2Know\SecAF5.jpg" />
+    <Content Include="_Photos\News2Know\selfie.jpg" />
+    <Content Include="_Photos\News2Know\SFS1.jpg" />
+    <Content Include="_Photos\News2Know\SFS2.jpg" />
+    <Content Include="_Photos\News2Know\sfs3.jpg" />
+    <Content Include="_Photos\News2Know\Skills.jpg" />
+    <Content Include="_Photos\News2Know\Skype1.jpg" />
+    <Content Include="_Photos\News2Know\Skype2.jpg" />
+    <Content Include="_Photos\News2Know\st1.jpg" />
+    <Content Include="_Photos\News2Know\st2.jpg" />
+    <Content Include="_Photos\News2Know\st3.jpg" />
+    <Content Include="_Photos\News2Know\st4.jpg" />
+    <Content Include="_Photos\News2Know\st5.jpg" />
+    <Content Include="_Photos\News2Know\st6.jpg" />
+    <Content Include="_Photos\News2Know\st7.jpg" />
+    <Content Include="_Photos\News2Know\st8.jpg" />
+    <Content Include="_Photos\News2Know\st9.jpg" />
+    <Content Include="_Photos\News2Know\stem1.jpg" />
+    <Content Include="_Photos\News2Know\Stem2.jpg" />
+    <Content Include="_Photos\News2Know\Stem3.jpg" />
+    <Content Include="_Photos\News2Know\Stem4.jpg" />
+    <Content Include="_Photos\News2Know\stem5.jpg" />
+    <Content Include="_Photos\News2Know\stem6.jpg" />
+    <Content Include="_Photos\News2Know\stem7.jpg" />
+    <Content Include="_Photos\News2Know\stem8.jpg" />
+    <Content Include="_Photos\News2Know\StemGirls1.jpg" />
+    <Content Include="_Photos\News2Know\StemGirls2.jpg" />
+    <Content Include="_Photos\News2Know\StemGirls3.jpg" />
+    <Content Include="_Photos\News2Know\StemGirls4.jpg" />
+    <Content Include="_Photos\News2Know\StemGirls5.jpg" />
+    <Content Include="_Photos\News2Know\StemGirls6.jpg" />
+    <Content Include="_Photos\News2Know\Testla1.jpg" />
+    <Content Include="_Photos\News2Know\Testla2.jpg" />
+    <Content Include="_Photos\News2Know\Testla3.jpg" />
+    <Content Include="_Photos\News2Know\tops1.JPG" />
+    <Content Include="_Photos\News2Know\tops2.JPG" />
+    <Content Include="_Photos\News2Know\tops3.JPG" />
+    <Content Include="_Photos\News2Know\Valor1.jpg" />
+    <Content Include="_Photos\News2Know\valor2.jpg" />
+    <Content Include="_Photos\News2Know\WE18.jpg" />
+    <Content Include="_Photos\News2Know\Wise1.jpg" />
+    <Content Include="_Photos\News2Know\Wise2.jpg" />
+    <Content Include="_Photos\News2Know\Wise3.jpg" />
+    <Content Include="_Photos\News2Know\Wise4.jpg" />
+    <Content Include="_Photos\News2Know\Wise5.jpg" />
+    <Content Include="_Photos\News2Know\Wise6.jpg" />
+    <Content Include="_Photos\News2Know\WOH1.jpg" />
+    <Content Include="_Photos\News2Know\WOH2.jpg" />
+    <Content Include="_Photos\ObitPics\Amerena.jpg" />
+    <Content Include="_Photos\ObitPics\Baker.jpg" />
+    <Content Include="_Photos\ObitPics\Bauman.png" />
+    <Content Include="_Photos\ObitPics\Bennett.png" />
+    <Content Include="_Photos\ObitPics\Bev_Hall.jpg" />
+    <Content Include="_Photos\ObitPics\Biddle.png" />
+    <Content Include="_Photos\ObitPics\Bradford.jpg" />
+    <Content Include="_Photos\ObitPics\Brewster.jpg" />
+    <Content Include="_Photos\ObitPics\CalBrown.jpg" />
+    <Content Include="_Photos\ObitPics\Crouse.png" />
+    <Content Include="_Photos\ObitPics\Dickinson.jpg" />
+    <Content Include="_Photos\ObitPics\Douthett.jpg" />
+    <Content Include="_Photos\ObitPics\Faulconer.jpg" />
+    <Content Include="_Photos\ObitPics\Griffin.jpg" />
+    <Content Include="_Photos\ObitPics\Hall.jpg" />
+    <Content Include="_Photos\ObitPics\Hummel.jpg" />
+    <Content Include="_Photos\ObitPics\JBrown.jpg" />
+    <Content Include="_Photos\ObitPics\JohnAnderson.jpg" />
+    <Content Include="_Photos\ObitPics\carfora.png" />
+    <Content Include="_Photos\ObitPics\Chunn.jpg" />
+    <Content Include="_Photos\ObitPics\griffiths.jpg" />
+    <Content Include="_Photos\ObitPics\HART.jpg" />
+    <Content Include="_Photos\ObitPics\holbrook.jpg" />
+    <Content Include="_Photos\ObitPics\ivan.jpg" />
+    <Content Include="_Photos\ObitPics\Johnson.png" />
+    <Content Include="_Photos\ObitPics\Jordan.jpg" />
+    <Content Include="_Photos\ObitPics\Joseph.jpg" />
+    <Content Include="_Photos\ObitPics\Leathers.png" />
+    <Content Include="_Photos\ObitPics\Lubin.png" />
+    <Content Include="_Photos\ObitPics\Martin.jpg" />
+    <Content Include="_Photos\ObitPics\mason1.jpg" />
+    <Content Include="_Photos\ObitPics\mason2.jpg" />
+    <Content Include="_Photos\ObitPics\McCune.jpg" />
+    <Content Include="_Photos\ObitPics\milstead.jpg" />
+    <Content Include="_Photos\ObitPics\morton.jpg" />
+    <Content Include="_Photos\ObitPics\Murphy.png" />
+    <Content Include="_Photos\ObitPics\obrien.png" />
+    <Content Include="_Photos\ObitPics\Paquette.jpg" />
+    <Content Include="_Photos\ObitPics\Payne.png" />
+    <Content Include="_Photos\ObitPics\Peters.png" />
+    <Content Include="_Photos\ObitPics\Piccoli.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="_Audio\taps.mp3" />
+    <Content Include="_Images\AFTAC Smybol.png" />
+    <Content Include="_Images\AFTACares.png" />
+    <Content Include="_Images\AFTACLogo.JPG" />
+    <Content Include="_Images\alumniLogo.jpg" />
+    <Content Include="_Images\April2016.png" />
+    <Content Include="_Images\August2016.png" />
+    <Content Include="_Images\BasketContents.png" />
+    <Content Include="_Images\Building Dedication.png" />
+    <Content Include="_Images\calendar.jpg" />
+    <Content Include="_Images\Constitution.jpg" />
+    <Content Include="_Images\CurrentPomo.png" />
+    <Content Include="_Images\December2016.png" />
+    <Content Include="_Images\EFAE.jpg" />
+    <Content Include="_Images\Events.jpg" />
+    <Content Include="_Images\lovingmemory.jpg" />
+    <Content Include="_Images\Not Included.jpg" />
+    <Content Include="_Images\picnic.jpg" />
+    <Content Include="_Images\Snowball.png" />
+    <Content Include="_Images\SocialBasket.png" />
+    <Content Include="_Images\UnderConstruction.jpg" />
+    <Content Include="_Images\upgrade.png" />
+    <Content Include="_Images\WALLOFHONOR.png" />
+    <Content Include="_Images\winterflyer.png" />
+    <Content Include="_Images\wintersocial.png" />
+    <Content Include="_Images\WinterSocialFlier.png" />
+    <Content Include="_Images\wwr2015.png" />
+    <Content Include="_Photos\20YearWall\Ace.jpg" />
+    <Content Include="_Photos\20YearWall\Alexander.jpg" />
+    <Content Include="_Photos\20YearWall\Amerena.jpg" />
+    <Content Include="_Photos\20YearWall\Aning.jpg" />
+    <Content Include="_Photos\20YearWall\Baker.jpg" />
+    <Content Include="_Photos\20YearWall\Balentine.jpg" />
+    <Content Include="_Photos\20YearWall\Blau.jpg" />
+    <Content Include="_Photos\20YearWall\Breitweieser.jpg" />
+    <Content Include="_Photos\20YearWall\Butler.jpg" />
+    <Content Include="_Photos\20YearWall\Calenda.jpg" />
+    <Content Include="_Photos\20YearWall\Clambrone.jpg" />
+    <Content Include="_Photos\20YearWall\Cronin.jpg" />
+    <Content Include="_Photos\20YearWall\Dahlgren.jpg" />
+    <Content Include="_Photos\20YearWall\Davis.jpg" />
+    <Content Include="_Photos\20YearWall\DeSrosier.jpg" />
+    <Content Include="_Photos\20YearWall\Draper.jpg" />
+    <Content Include="_Photos\20YearWall\Fish.jpg" />
+    <Content Include="_Photos\20YearWall\Fuhr.jpg" />
+    <Content Include="_Photos\20YearWall\Gailey.jpg" />
+    <Content Include="_Photos\20YearWall\Gardner.jpg" />
+    <Content Include="_Photos\20YearWall\Gonzales.jpg" />
+    <Content Include="_Photos\20YearWall\Horsch.jpg" />
+    <Content Include="_Photos\20YearWall\Huhs.jpg" />
+    <Content Include="_Photos\20YearWall\Iske.jpg" />
+    <Content Include="_Photos\20YearWall\Johnson.jpg" />
+    <Content Include="_Photos\20YearWall\Jones.jpg" />
+    <Content Include="_Photos\20YearWall\Klug.jpg" />
+    <Content Include="_Photos\20YearWall\Labarre.jpg" />
+    <Content Include="_Photos\20YearWall\Lucas.jpg" />
+    <Content Include="_Photos\20YearWall\Magness.jpg" />
+    <Content Include="_Photos\20YearWall\McBrearty.jpg" />
+    <Content Include="_Photos\20YearWall\McGettigan.jpg" />
+    <Content Include="_Photos\20YearWall\Milam.jpg" />
+    <Content Include="_Photos\20YearWall\Mirda.jpg" />
+    <Content Include="_Photos\20YearWall\Murray.jpg" />
+    <Content Include="_Photos\20YearWall\Myers.jpg" />
+    <Content Include="_Photos\20YearWall\Noe.jpg" />
+    <Content Include="_Photos\20YearWall\Nolan%27.jpg" />
+    <Content Include="_Photos\20YearWall\Nolan.jpg" />
+    <Content Include="_Photos\20YearWall\O%27Brien.jpg" />
+    <Content Include="_Photos\20YearWall\Olmsted.jpg" />
+    <Content Include="_Photos\20YearWall\Osbourne.jpg" />
+    <Content Include="_Photos\20YearWall\Ovitsky.jpg" />
+    <Content Include="_Photos\20YearWall\Paquette.jpg" />
+    <Content Include="_Photos\20YearWall\Pavik.jpg" />
+    <Content Include="_Photos\20YearWall\Phillips.jpg" />
+    <Content Include="_Photos\20YearWall\Post.jpg" />
+    <Content Include="_Photos\20YearWall\Secoy.jpg" />
+    <Content Include="_Photos\20YearWall\Silhanek.jpg" />
+    <Content Include="_Photos\20YearWall\Snelgrove.jpg" />
+    <Content Include="_Photos\20YearWall\Stack.jpg" />
+    <Content Include="_Photos\20YearWall\Sullivan.jpg" />
+    <Content Include="_Photos\20YearWall\Sykes.jpg" />
+    <Content Include="_Photos\20YearWall\Vlassick.jpg" />
+    <Content Include="_Photos\20YearWall\Vlassick2.jpg" />
+    <Content Include="_Photos\20YearWall\Warfield.carol.jpg" />
+    <Content Include="_Photos\20YearWall\Warfield.jpg" />
+    <Content Include="_Photos\Alumni.png" />
+    <Content Include="_Photos\AOY\black.png" />
+    <Content Include="_Photos\AOY\calenda.png" />
+    <Content Include="_Photos\AOY\carson.png" />
+    <Content Include="_Photos\AOY\gibbons1.png" />
+    <Content Include="_Photos\AOY\gibbons2.png" />
+    <Content Include="_Photos\AOY\goldian.png" />
+    <Content Include="_Photos\AOY\jackson.png" />
+    <Content Include="_Photos\AOY\klug.png" />
+    <Content Include="_Photos\AOY\Melchoior1.png" />
+    <Content Include="_Photos\AOY\Melchoior2.png" />
+    <Content Include="_Photos\AOY\payne.png" />
+    <Content Include="_Photos\AOY\ryan.png" />
+    <Content Include="_Photos\AOY\Schmied1.png" />
+    <Content Include="_Photos\AOY\Schmied2.png" />
+    <Content Include="_Photos\AOY\smith1.png" />
+    <Content Include="_Photos\AOY\smith2.png" />
+    <Content Include="_Photos\AOY\wiley.png" />
+    <Content Include="_Photos\Board Members\horsch.jpg" />
+    <Content Include="_Photos\Board Members\Joseph.png" />
+    <Content Include="_Photos\Board Members\Judy-June2016.jpg" />
+    <Content Include="_Photos\Board Members\Linsey.png" />
+    <Content Include="_Photos\Board Members\Massey.png" />
+    <Content Include="_Photos\Board Members\Steskal-2016.png" />
+    <Content Include="_Photos\Board Members\Trudel.png" />
+    <Content Include="_Photos\Board Members\Wiley.png" />
+    <Content Include="_Photos\golfGetTogether\gg1.jpg" />
+    <Content Include="_Photos\golfGetTogether\gg2.jpg" />
+    <Content Include="_Photos\golfGetTogether\gg3.jpg" />
+    <Content Include="_Photos\golfGetTogether\gg4.jpg" />
+    <Content Include="_Photos\Golf\Picture1.png" />
+    <Content Include="_Photos\Golf\Picture2.png" />
+    <Content Include="_Photos\Golf\Picture3.png" />
+    <Content Include="_Photos\Golf\Picture4.png" />
+    <Content Include="_Photos\Golf\Picture5.png" />
+    <Content Include="_Photos\Golf\Picture6.png" />
+    <Content Include="_Photos\Gorski.png" />
+    <Content Include="_Photos\ObitPics\alexander.png" />
+    <Content Include="_Photos\ObitPics\Anderson.png" />
+    <Content Include="_Photos\ObitPics\britz.jpg" />
+    <Content Include="_Photos\ObitPics\brown.jpg" />
+    <Content Include="_Photos\ObitPics\Chigazola.png" />
+    <Content Include="_Photos\ObitPics\cline.png" />
+    <Content Include="_Photos\ObitPics\Dibble.png" />
+    <Content Include="_Photos\ObitPics\disanto.jpg" />
+    <Content Include="_Photos\ObitPics\Gardiner.png" />
+    <Content Include="_Photos\ObitPics\gay.png" />
+    <Content Include="_Photos\ObitPics\goldian.jpg" />
+    <Content Include="_Photos\ObitPics\goldian2.jpg" />
+    <Content Include="_Photos\ObitPics\Harold-Baker.png" />
+    <Content Include="_Photos\ObitPics\hollis.png" />
+    <Content Include="_Photos\ObitPics\jackson.png" />
+    <Content Include="_Photos\ObitPics\Joe Renier.jpg" />
+    <Content Include="_Photos\ObitPics\KlugDale.jpg" />
+    <Content Include="_Photos\ObitPics\Laurie Kemna.png" />
+    <Content Include="_Photos\ObitPics\Matthews.png" />
+    <Content Include="_Photos\ObitPics\McManus.png" />
+    <Content Include="_Photos\ObitPics\newman.png" />
+    <Content Include="_Photos\ObitPics\nylander.png" />
+    <Content Include="_Photos\ObitPics\osteen.jpg" />
+    <Content Include="_Photos\ObitPics\pabst.png" />
+    <Content Include="_Photos\ObitPics\PaulGoforth.png" />
+    <Content Include="_Photos\ObitPics\price.png" />
+    <Content Include="_Photos\ObitPics\reinhart.jpg" />
+    <Content Include="_Photos\ObitPics\Richardson.png" />
+    <Content Include="_Photos\ObitPics\Riley.png" />
+    <Content Include="_Photos\ObitPics\Robinson.jpg" />
+    <Content Include="_Photos\ObitPics\RoseKlug1.jpg" />
+    <Content Include="_Photos\ObitPics\RoseKlug2.jpg" />
+    <Content Include="_Photos\ObitPics\Rouse.jpg" />
+    <Content Include="_Photos\ObitPics\Rudy Howell.png" />
+    <Content Include="_Photos\ObitPics\sailers.jpg" />
+    <Content Include="_Photos\ObitPics\Secoy.png" />
+    <Content Include="_Photos\ObitPics\Sharratt.png" />
+    <Content Include="_Photos\ObitPics\Shulstad.png" />
+    <Content Include="_Photos\ObitPics\Smith.jpg" />
+    <Content Include="_Photos\ObitPics\Steele.jpg" />
+    <Content Include="_Photos\ObitPics\Stoeckert.png" />
+    <Content Include="_Photos\ObitPics\tabeling.jpg" />
+    <Content Include="_Photos\ObitPics\Willadsen.png" />
+    <Content Include="_Photos\ObitPics\Williams.jpg" />
+    <Content Include="_Photos\ObitPics\Wills.png" />
+    <Content Include="_Photos\ObitPics\Yacoub.jpg" />
+    <Content Include="_Photos\OpenHouse\OpenHouse1.jpg" />
+    <Content Include="_Photos\OpenHouse\OpenHouse2.jpg" />
+    <Content Include="_Photos\OpenHouse\OpenHouse3.jpg" />
+    <Content Include="_Photos\OpenHouse\OpenHouse4.jpg" />
+    <Content Include="_Photos\OpenHouse\OpenHouse5.jpg" />
+    <Content Include="_Photos\Outline of Head.png" />
+    <Content Include="_Photos\Penn.jpg" />
+    <Content Include="_Photos\Retreat\Retreat1.jpg" />
+    <Content Include="_Photos\Retreat\Retreat2.jpg" />
+    <Content Include="_Photos\Retreat\Retreat3.jpg" />
+    <Content Include="_Photos\Retreat\Retreat4.jpg" />
+    <Content Include="_Photos\Retreat\Retreat5.jpg" />
+    <Content Include="_Photos\Retreat\Retreat6.jpg" />
+    <Content Include="_Photos\Snowball2\sb2-1.jpg" />
+    <Content Include="_Photos\Snowball2\sb2-10.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-11.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-12.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-13.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-14.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-15.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-16.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-17.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-18.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-19.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-2.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-20.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-21.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-22.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-23.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-3.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-4.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-5.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-6.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-7.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-8.JPG" />
+    <Content Include="_Photos\Snowball2\sb2-9.JPG" />
+    <Content Include="_Photos\SnowBall\SB1.jpg" />
+    <Content Include="_Photos\SnowBall\SB10.JPG" />
+    <Content Include="_Photos\SnowBall\SB11.JPG" />
+    <Content Include="_Photos\SnowBall\SB12.JPG" />
+    <Content Include="_Photos\SnowBall\SB13.JPG" />
+    <Content Include="_Photos\SnowBall\SB14.JPG" />
+    <Content Include="_Photos\SnowBall\SB15.JPG" />
+    <Content Include="_Photos\SnowBall\SB16.JPG" />
+    <Content Include="_Photos\SnowBall\SB17.JPG" />
+    <Content Include="_Photos\SnowBall\SB18.JPG" />
+    <Content Include="_Photos\SnowBall\SB19.JPG" />
+    <Content Include="_Photos\SnowBall\SB2.jpg" />
+    <Content Include="_Photos\SnowBall\SB20.JPG" />
+    <Content Include="_Photos\SnowBall\SB21.JPG" />
+    <Content Include="_Photos\SnowBall\SB22.JPG" />
+    <Content Include="_Photos\SnowBall\SB23.JPG" />
+    <Content Include="_Photos\SnowBall\SB24.JPG" />
+    <Content Include="_Photos\SnowBall\SB25.JPG" />
+    <Content Include="_Photos\SnowBall\SB26.JPG" />
+    <Content Include="_Photos\SnowBall\SB27.JPG" />
+    <Content Include="_Photos\SnowBall\SB28.JPG" />
+    <Content Include="_Photos\SnowBall\SB29.JPG" />
+    <Content Include="_Photos\SnowBall\SB3.JPG" />
+    <Content Include="_Photos\SnowBall\SB30.JPG" />
+    <Content Include="_Photos\SnowBall\SB31.JPG" />
+    <Content Include="_Photos\SnowBall\SB32.JPG" />
+    <Content Include="_Photos\SnowBall\SB33.JPG" />
+    <Content Include="_Photos\SnowBall\SB34.JPG" />
+    <Content Include="_Photos\SnowBall\SB35.JPG" />
+    <Content Include="_Photos\SnowBall\SB36.JPG" />
+    <Content Include="_Photos\SnowBall\SB4.JPG" />
+    <Content Include="_Photos\SnowBall\SB5.JPG" />
+    <Content Include="_Photos\SnowBall\SB6.JPG" />
+    <Content Include="_Photos\SnowBall\SB7.JPG" />
+    <Content Include="_Photos\SnowBall\SB8.JPG" />
+    <Content Include="_Photos\SnowBall\SB9.JPG" />
+    <Content Include="_Photos\ToiletBowl\TB1.JPG" />
+    <Content Include="_Photos\ToiletBowl\TB2.JPG" />
+    <Content Include="_Photos\ToiletBowl\TB3.JPG" />
+    <Content Include="_Photos\ToiletBowl\TB4.JPG" />
+    <Content Include="_Photos\WallofHonor.png" />
+    <Content Include="_Photos\WOH\Butler.png" />
+    <Content Include="_Photos\WOH\Ciambrone.png" />
+    <Content Include="_Photos\WOH\Davis.png" />
+    <Content Include="_Photos\WOH\Harkins.png" />
+    <Content Include="_Photos\WOH\Hayden.png" />
+    <Content Include="_Photos\WOH\Kniedler.png" />
+    <Content Include="_Photos\WOH\Leggett.png" />
+    <Content Include="_Photos\WOH\Leies.png" />
+    <Content Include="_Photos\WOH\Marshall.png" />
+    <Content Include="_Photos\WOH\McBrearty.png" />
+    <Content Include="_Photos\WOH\Niquette.png" />
+    <Content Include="_Photos\WOH\Northrup.png" />
+    <Content Include="_Photos\WOH\Owen.png" />
+    <Content Include="_Photos\WOH\Pavik.png" />
+    <Content Include="_Photos\WOH\Pilotte.png" />
+    <Content Include="_Photos\WOH\Romney.png" />
+    <Content Include="_Photos\WOH\Singlevich.png" />
+    <Content Include="_Photos\WOH\Solari.png" />
+    <Content Include="_Photos\Wooden HQ.jpg" />
+    <Content Include="_Scripts\myScript.js" />
+    <Content Include="_Statistics\android.png" />
+    <Content Include="_Statistics\audio.png" />
+    <Content Include="_Statistics\awstats%281%29.html" />
+    <Content Include="_Statistics\awstats.html" />
+    <Content Include="_Statistics\awstats_logo6.png" />
+    <Content Include="_Statistics\bsd.png" />
+    <Content Include="_Statistics\chrome.png" />
+    <Content Include="_Statistics\css.png" />
+    <Content Include="_Statistics\dotnet.png" />
+    <Content Include="_Statistics\firefox.png" />
+    <Content Include="_Statistics\he.png" />
+    <Content Include="_Statistics\hh.png" />
+    <Content Include="_Statistics\hk.png" />
+    <Content Include="_Statistics\hp.png" />
+    <Content Include="_Statistics\hr1.png" />
+    <Content Include="_Statistics\hr10.png" />
+    <Content Include="_Statistics\hr11.png" />
+    <Content Include="_Statistics\hr12.png" />
+    <Content Include="_Statistics\hr2.png" />
+    <Content Include="_Statistics\hr3.png" />
+    <Content Include="_Statistics\hr4.png" />
+    <Content Include="_Statistics\hr5.png" />
+    <Content Include="_Statistics\hr6.png" />
+    <Content Include="_Statistics\hr7.png" />
+    <Content Include="_Statistics\hr8.png" />
+    <Content Include="_Statistics\hr9.png" />
+    <Content Include="_Statistics\hx.png" />
+    <Content Include="_Statistics\image.png" />
+    <Content Include="_Statistics\ip.png" />
+    <Content Include="_Statistics\java.png" />
+    <Content Include="_Statistics\jscript.png" />
+    <Content Include="_Statistics\linux.png" />
+    <Content Include="_Statistics\mac.png" />
+    <Content Include="_Statistics\mozilla.png" />
+    <Content Include="_Statistics\msie.png" />
+    <Content Include="_Statistics\netscape.png" />
+    <Content Include="_Statistics\notavailable.png" />
+    <Content Include="_Statistics\page%281%29.png" />
+    <Content Include="_Statistics\page.png" />
+    <Content Include="_Statistics\pdaphone.png" />
+    <Content Include="_Statistics\pdf.png" />
+    <Content Include="_Statistics\pl.png" />
+    <Content Include="_Statistics\safari.png" />
+    <Content Include="_Statistics\unix.png" />
+    <Content Include="_Statistics\unknown%281%29.png" />
+    <Content Include="_Statistics\unknown%282%29.png" />
+    <Content Include="_Statistics\unknown.png" />
+    <Content Include="_Statistics\vh.png" />
+    <Content Include="_Statistics\video.png" />
+    <Content Include="_Statistics\vk.png" />
+    <Content Include="_Statistics\vp.png" />
+    <Content Include="_Statistics\vu.png" />
+    <Content Include="_Statistics\vv.png" />
+    <Content Include="_Statistics\win.png" />
+    <Content Include="_Styles\BasicStyles.css" />
+    <Content Include="_Styles\myStyles.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddObits.aspx.designer.vb">
+      <DependentUpon>AddObits.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddObits.aspx.vb">
+      <DependentUpon>AddObits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.vb">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.vb">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberShip.aspx.designer.vb">
+      <DependentUpon>MemberShip.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MemberShip.aspx.vb">
+      <DependentUpon>MemberShip.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Memlookup.aspx.designer.vb">
+      <DependentUpon>Memlookup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Memlookup.aspx.vb">
+      <DependentUpon>Memlookup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="myParameters.vb" />
+    <Compile Include="myService.asmx.vb">
+      <DependentUpon>myService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Password.aspx.designer.vb">
+      <DependentUpon>Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Password.aspx.vb">
+      <DependentUpon>Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\AftabWebzite.pubxml" />
+    <None Include="My Project\PublishProfiles\AftacAA.pubxml" />
+    <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="My Project\PublishProfiles\pete.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="packages.config" />
+    <Content Include="TaxInfo.pdf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="_Audio\taps.ogg" />
+    <Content Include="_PDFs\California Membership Application.pdf" />
+    <Content Include="_PDFs\Colorado Membership Application.pdf" />
+    <Content Include="_PDFs\Florida Membership Application.pdf" />
+    <Content Include="_PDFs\Requested Calendar.pdf" />
+    <Content Include="_PDFs\AFTACAA Bylaws.pdf" />
+    <Content Include="_PDFs\AFTACAA Constitution.pdf" />
+    <Content Include="_PDFs\SageStore.pdf" />
+    <Content Include="_PDFs\Goodman.pdf" />
+    <Content Include="_PDFs\FallSocialSignupForm.pdf" />
+    <Content Include="_PDFs\ColoradoDinnerAnnouncement.pdf" />
+    <Content Include="_PDFs\VeteransDaySpecials.pdf" />
+    <Content Include="_PDFs\Agenda.pdf" />
+    <Content Include="_PDFs\Minutes.pdf" />
+    <Content Include="_PDFs\TaxInfo.pdf" />
+    <Content Include="_Minutes\1-11-2016_Minutes.pdf" />
+    <Content Include="_Minutes\10-11-2016_Minutes.pdf" />
+    <Content Include="_Minutes\10-13-2015_Minutes.pdf" />
+    <Content Include="_Minutes\11-14-2016_Minutes.pdf" />
+    <Content Include="_Minutes\11-9-2015_Minutes.pdf" />
+    <Content Include="_Minutes\12-12-2016_minutes.pdf" />
+    <Content Include="_Minutes\2-8-2016_Minutes.pdf" />
+    <Content Include="_Minutes\3-14-2016_Minutes.pdf" />
+    <Content Include="_Minutes\4-11-2016_Minutes.pdf" />
+    <Content Include="_Minutes\5-9-2016_Minutes.pdf" />
+    <Content Include="_Minutes\6-13-2016_Minutes.pdf" />
+    <Content Include="_Minutes\7-11-2016_Minutes.pdf" />
+    <Content Include="_Minutes\8-8-2016_Minutes.pdf" />
+    <Content Include="_Minutes\9-9-2016_Minutes.pdf" />
+    <Content Include="_Minutes\1-8-2018-Minutes.pdf" />
+    <Content Include="_Minutes\1-9-2017_Minutes.pdf" />
+    <Content Include="_Minutes\10-6-2017_Minutes.pdf" />
+    <Content Include="_Minutes\11-13-2017_Minutes.pdf" />
+    <Content Include="_Minutes\12-11-2017_Minutes.pdf" />
+    <Content Include="_Minutes\2-12-2018_Minutes.pdf" />
+    <Content Include="_Minutes\2-13-2017_Minutes.pdf" />
+    <Content Include="_Minutes\3-12-2018_Minutes.pdf" />
+    <Content Include="_Minutes\3-13-2017_Minutes.pdf" />
+    <Content Include="_Minutes\4-10-2017_Minutes.pdf" />
+    <Content Include="_Minutes\4-9-2018_Minutes.pdf" />
+    <Content Include="_Minutes\5-8-2017_Minutes.pdf" />
+    <Content Include="_Minutes\6-12-2017_Minutes.pdf" />
+    <Content Include="_Minutes\7-10-2017_Minutes.pdf" />
+    <Content Include="_Minutes\8-14-2017_Miniutes.pdf" />
+    <Content Include="_PDFs\Project Analyst Jobs.pdf" />
+    <Content Include="_Minutes\5-14-2018_Minutes.pdf" />
+    <Content Include="_PDFs\dram-shop-theory.pdf" />
+    <Content Include="_PDFs\Stars and Stripes Flier.pdf" />
+    <Content Include="_Minutes\6-11-2018_Minutes.pdf" />
+    <Content Include="_Minutes\7-9-2018_Minutes.pdf" />
+    <Content Include="_Minutes\8-13-2018_Minutes.pdf" />
+    <Content Include="_Minutes\9-7-2018_Minutes.pdf" />
+    <Content Include="_PDFs\HockeySchedule.pdf" />
+    <Content Include="_Minutes\10-9-2018_Minutes.pdf" />
+    <Content Include="_PDFs\2019 Reunion Registration Form.pdf" />
+    <Content Include="_Minutes\11-13-2018-Minutes.pdf" />
+    <Content Include="_PDFs\Fall 2018 Golf Outing.pdf" />
+    <Content Include="_PDFs\Spring 2018 Golf Outing.pdf" />
+    <Content Include="_PDFs\SnowballRSVP.pdf" />
+    <Content Include="_Minutes\12-10-2018-Minutes.pdf" />
+    <Content Include="_Minutes\1-14-2019_Minutes.pdf" />
+    <Content Include="_PDFs\Calendar.pdf" />
+    <Content Include="_PDFs\Volunteers.pdf" />
+    <Content Include="_Minutes\2-11-2019_Minutes.pdf" />
+    <Content Include="_Minutes\3-11-2019_Minutes.pdf" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5121</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:5121/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
