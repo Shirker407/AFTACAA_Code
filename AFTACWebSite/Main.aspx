@@ -26,7 +26,6 @@
      <%--golfGetArt = Golf N’GetTogether 2016 --%>                                      
      <%--toiletArt = Toilet Bowl 2016 --%>                                      
 <%--*****************************************************************************--%>
-<%--*****************************************************************************--%>
      
 <!DOCTYPE html>
 
@@ -370,7 +369,7 @@
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
                     <p class="blueText fontSize1_Halfem centerText">Friday, 21 January<br />
-                        11:30 - 13:30 Hrs<br />
+                        11:30 - 13:00 Hrs<br />
                         --------------------------<br />
                         Florida AFTAC Alumni Association (AFTACAA) Monthly
                         General Membership Off-Site Luncheon and Teleconference Meeting
@@ -379,7 +378,7 @@
                         --------------------------<br />
                         Beef O'Brady's<br />
                         3030 Lake Washington Road Melbourne, FL 32934-7613<br />
-                        <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note: Change of local for this meeting.</span><br />
+                        <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note: Change of locale for this meeting.</span><br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Phil Godfrey, AFTACAA President, at <a href="MailTo:afsophil@gmail.com">afsophil@gmail.com</a>
