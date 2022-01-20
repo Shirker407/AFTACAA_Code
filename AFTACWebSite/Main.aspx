@@ -273,6 +273,11 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                               <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="meetingMinutes" class="announcement blueText">December Minutes were posted.</td>
+                                    <td class="posted blueText">1/20/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDohaney" class="announcement blueText">Brian Dohaney added to 20 Year Wall</td>
                                     <td class="posted blueText">1/18/2022</td>
@@ -2611,6 +2616,7 @@
                 <p class="centerText">2021</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                        <li><a href="_Minutes/12-17-2021_Minutes.pdf" target="_blank">12/17/2021</a></li>
                         <li><a href="_Minutes/11-8-2021_Minutes.pdf" target="_blank">11/8/2021</a></li>
                         <li><a href="_Minutes/10-8-2021_Minutes.pdf" target="_blank">10/8/2021</a></li>
                         <li><a href="_Minutes/9-10-2021_Minutes.pdf" target="_blank">9/10/2021</a></li>
