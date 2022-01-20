@@ -3991,7 +3991,7 @@ $(document).ready(function () {
     });
 
     $('#meetingMinutes').click(function () {
-        window.open('_Minutes/10-8-2021_Minutes.pdf', '');
+        window.open('_Minutes/12-17-2021_Minutes.pdf', '');
     });
 
     $('#showAgenda').click(function () {
