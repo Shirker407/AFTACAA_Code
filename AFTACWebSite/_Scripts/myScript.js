@@ -1275,6 +1275,11 @@ $(document).ready(function () {
                 $('#SnyderP').removeClass('noDisplay').addClass('block');
                 $('#AOYCarousel').removeClass('block').addClass('noDisplay');
                 break;
+            case 'milampSel':
+                $('.alumArt').removeClass('block').addClass('noDisplay');
+                $('#MilamP').removeClass('noDisplay').addClass('block');
+                $('#AOYCarousel').removeClass('block').addClass('noDisplay');
+                break;
             default:
                 $('.alumArt').removeClass('block').addClass('noDisplay');
                 $('#notIncluded').removeClass('noDisplay').addClass('block');

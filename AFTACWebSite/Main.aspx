@@ -4000,7 +4000,7 @@
                     <li id="ryanSel">Sean Ryan-2014</li>
                     <li id="gibbonsSel" class="yellowText">Lonnie Gibbons-2013</li>
                     <li id="melchiorSel" class="yellowText">Gene & Dee Melchior-2012</li>
-                </ul>
+                </ul>   
                 <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
                     <li id="klugSel" class="yellowText">Dale Klug-2011</li>
                     <li id="smithSel" class="yellowText">Jack Smith-2010</li>
@@ -4018,7 +4018,7 @@
                     <li class="yellowText">Ben Vlassick-2000</li>
                     <li class="yellowText">John & Christel Horsch-1999</li>
                     <li class="yellowText">Frank Hall-1998</li>
-                    <li class="yellowText">Judy Milam-1997</li>
+                    <li id="milampSel" class="yellowText">Judy Milam-1997</li>
                     <li class="yellowText">Carl Gailey-1996</li>
                     <li class="yellowText">Clark Creery-1995</li>
                 </ul>
@@ -4769,6 +4769,22 @@
                     Judy Milam announced the “Alumni of the Year” selectee, Pat Snyder. She also noted the many things Pat had done for the alumni in the past, especially in 2003. She is one of our insiders working in the building on a daily basis. As such, she ensures outstanding continuity with the active duty force. Also she was instrumental in many activities of the 2003 World Wide Reunion held in and around the  Patrick Air Force Base, Florida area.
                     <br /><br />
                     We all applauded Pat for what she had done for us, even though she arranged not to be there, As it turned out she was cruisin’ the ocean blue while we recognized her and thanked her for all her efforts. Judy held up the award for all to see and Pat actually received the award at the “Center Awards Banquet”
+                </p>
+            </article>
+
+            <article id="MilamP" class="alumArt noDisplay">
+                <p class="pTitle centerText titlePara">
+                    1997 ALUMNI OF THE YEAR <br />Judy Milam                    
+                </p>
+                <p>
+                    <img alt="Milam_AOY.png" class="maroonBorder showShadow left rightMargin1em" src="_Photos/AOY/Milam_AOY.png" />
+                    Congratulations, Judy Milam, our 1997 Alumni of the Year.
+                    <br />
+                    For all she does, and has done. Judy is most deserving of this honor.
+                    <br /><br />
+                    She is our "perennial" secretary and has served this alumni since 1989. A forml presentation was made at the AFTAC Annual Awards Dining Out on March 5th.
+                    <br /><br />
+                    Judy joinms Clark Creery ('95) and Carl Gailey ('96) as reciipents ofv this high honor.
                 </p>
             </article>
 
