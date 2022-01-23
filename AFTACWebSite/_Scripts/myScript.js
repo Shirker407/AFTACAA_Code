@@ -1280,6 +1280,11 @@ $(document).ready(function () {
                 $('#MilamP').removeClass('noDisplay').addClass('block');
                 $('#AOYCarousel').removeClass('block').addClass('noDisplay');
                 break;
+            case 'johnsonpSel':
+                $('.alumArt').removeClass('block').addClass('noDisplay');
+                $('#JohnsonP').removeClass('noDisplay').addClass('block');
+                $('#AOYCarousel').removeClass('block').addClass('noDisplay');
+                break;
             default:
                 $('.alumArt').removeClass('block').addClass('noDisplay');
                 $('#notIncluded').removeClass('noDisplay').addClass('block');

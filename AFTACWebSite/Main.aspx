@@ -4013,7 +4013,7 @@
                     <li id="snyderpSel" class="yellowText">Pat Snyder-2003</li>
                 </ul>
                 <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
-                    <li id="johnsonSel" class="yellowText">Joe Johnson-2002</li>
+                    <li id="johnsonpSel"  id="johnsonSel" class="yellowText">Joe Johnson-2002</li>
                     <li id="payneSel" class="yellowText">Jim Payne-2001</li>
                     <li class="yellowText">Ben Vlassick-2000</li>
                     <li class="yellowText">John & Christel Horsch-1999</li>
@@ -4786,6 +4786,27 @@
                     <br /><br />
                     Judy joinms Clark Creery ('95) and Carl Gailey ('96) as reciipents ofv this high honor.
                 </p>
+            </article>
+
+            <article id="JohnsonP" class="alumArt noDisplay">
+                <p class="pTitle centerText titlePara">
+                    SMSGT (Ret) ,JOSEPH 'JOE' JOHNSON<br />
+                    Alumni of the Year 2002                   
+                </p>
+                <p>
+                    <img alt="Johnson_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Johnson_AOY.png" />
+                    We spotlight Joe this quarter for his many deeds to earn this honor. 'Congratulations Joe.
+                    <br /><br />
+                    He is a vital member of the alumni association, especially the West Coast Chapter, to include being a charter member and past President. Joe was critical to the
+                    formation of the chapter in '99, and was 'Committee Chair' for the worldwide reunion that year held in conjunction with the TOD Inactivation Ceremony in April. Joe has continued from that point to serve the alumni, both at the local level and at the worldwide level. He can be counted on to support events and never fails to 'lend a hand.'
+                    <br /><br />
+                    Joe's selection was announced at the Florida Chapter's annual SnowBall (Feb 8th). He was honored there and at the Command Awards Banquet on February 27th; he will also be recognized at the '2003 Worldwide Reunion' occurring in late May '03.
+                    <br /><br />
+                    Joe's service to his country began in Sept 1950 and to AFTAC in May 1951, being first assigned to the 1009th Special Weapons Squadron. He retired as a Senior Master Sergeant May 1974 being assigned to the 1155th TOS as Superin­ tendent Seismic Systems Engineering. Joe's only 'AF' assignment was his initial training, all subsequent assignments were within AFTAC.
+                    <br /><br />
+                    His AFTAC assignments and duties included: '51-'52, 1009th SWS Seismology Training, installed and operated 1 of 50 seismic stations monitoring atomic tests at the Nevada Test Site; '52-'54 Det 142 Equipment operations, met and married wife Gayle; '55-'56 Det 204 Operator/ Maint., son Robert born; '57-'60 Hq 1035th, established/operated first real time recording system for Technical Director, daughter Carol born; '60-'61 1155th Depot Maintenance; '61-'62 Det 423 Operator/Maintenance established new Det from the ground up; '62-66 1155th Operations made initial seismic installations on Attu & Mur­ phy Dome AFS, Alaska; '66-'67 1159th Opera­ tions Established new Tech Ops Sq; '67-'70 1156th Operations performed technical surveys for Det 452; '70-'74 1155th Eng Superintendent directed support for the worldwide Seismic Sys­ tem; retired May 1974.
+                    <br /><br />
+                    Thanks Joe, for your service to the country, the US Air Force, AFTAC and now, the Alumni Asso­ ciation. Your ongoing dedication is appreciated.                </p>
             </article>
 
             </div>
