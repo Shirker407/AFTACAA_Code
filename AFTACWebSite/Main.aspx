@@ -4859,6 +4859,24 @@
                     brought closer together because of it.                </p>
             </article>
 
+            <article id="HorschP" class="alumArt noDisplay">
+                <p class="pTitle centerText titlePara">
+                    2000 ALUMNI OF THE YEAR <br />BEN VLASSICK                  
+                </p>
+
+                <p>
+                    At the annual SnowBall event, it has become
+                    customary to announce and recognize our
+                    "Alumni of the Year." Two special people
+                    were chosen this year, John and Chris
+                    Horsch. For four years they have been authoring the Post-Monitor. They have performed superbly in representing the association to the membership. With the far flung
+                    nature of the association, the newsletter is
+                    many member's only real attachment to the
+                    alumni. John and Chris toil many hours to
+                    create the quarterly Post-Monitor and we are
+                    brought closer together because of it.                </p>
+            </article>
+
             </div>
 
             <div class="clear"></div>
