@@ -4015,11 +4015,11 @@
                 <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
                     <li id="johnsonpSel"  id="johnsonSel" class="yellowText">Joe Johnson-2002</li>
                     <li id="payneSel" class="yellowText">Jim Payne-2001</li>
-                    <li class="yellowText">Ben Vlassick-2000</li>
+                    <li id="vlassickpSel" class="yellowText">Ben Vlassick-2000</li>
                     <li id="horschpSel" class="yellowText">John & Christel Horsch-1999</li>
                     <li id="hallpSel" class="yellowText">Frank Hall-1998</li>
                     <li id="milampSel" class="yellowText">Judy Milam-1997</li>
-                    <li class="yellowText">Carl Gailey-1996</li>
+                    <li id="gaileypSel" class="yellowText">Carl Gailey-1996</li>
                     <li class="yellowText">Clark Creery-1995</li>
                 </ul>
                 <div class="clear"></div>
@@ -4777,7 +4777,7 @@
                     1997 ALUMNI OF THE YEAR <br />Judy Milam                    
                 </p>
                 <p>
-                    <img alt="Milam_AOY.png" class="maroonBorder showShadow left rightMargin1em" src="_Photos/AOY/Milam_AOY.png" />
+                    <img alt="Milam_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Milam_AOY.png" />
                     Congratulations, Judy Milam, our 1997 Alumni of the Year.
                     <br />
                     For all she does, and has done. Judy is most deserving of this honor.
@@ -4856,25 +4856,53 @@
                     many member's only real attachment to the
                     alumni. John and Chris toil many hours to
                     create the quarterly Post-Monitor and we are
-                    brought closer together because of it.                </p>
+                    brought closer together because of it.
+                </p>
             </article>
 
-            <article id="HorschP" class="alumArt noDisplay">
+            <article id="VlassickP" class="alumArt noDisplay">
                 <p class="pTitle centerText titlePara">
-                    2000 ALUMNI OF THE YEAR <br />BEN VLASSICK                  
+                    2000 ALUMNI OF THE YEAR <br />Ben Vlassick               
                 </p>
 
                 <p>
-                    At the annual SnowBall event, it has become
-                    customary to announce and recognize our
-                    "Alumni of the Year." Two special people
-                    were chosen this year, John and Chris
-                    Horsch. For four years they have been authoring the Post-Monitor. They have performed superbly in representing the association to the membership. With the far flung
-                    nature of the association, the newsletter is
-                    many member's only real attachment to the
-                    alumni. John and Chris toil many hours to
-                    create the quarterly Post-Monitor and we are
-                    brought closer together because of it.                </p>
+                    A 'First' with this 'Second Salute' to a member ... we 'Saluted' Ben in September '96 (gosh, that was over 4 years ago) right after he had organized an International AFTAC Alumni Reunion in Colorado and here we go again. He's planning another one for June '01 - hope you're there cause the Colorado Chapter knows how to 'reunion.' 
+                    <br /><br />
+                    At that time we noted Ben was the backbone and President of the Colorado Chapter ... that continues to this date and because of the unceasing nature of his service, and the quality and quantity of that service, Ben was selected as 'Alumni of The Year.' He was recognized for this honor at the Florida Chapter's January 'SnowBall' and will be again at the Command Award Ceremony in April and at the very reunion he organizes in June. 
+                    <br /><br />
+                    Ben is also the first AFTAC Alumni member to receive this honor who does not serve the Florida Chapter ... a true honor and certainly deserved because of his unswerving and outstanding work on behalf of Alumni everywhere. 
+                    <br /><br />
+                    Ben's service to his country began on June 3, 1954 and to AFTAC three months later after completing basic training at Sampson AFB. His AFTAC assignments began with B-Technique training at Lowry AFB with assignments as follows: Det 405 (1955), Det 142 (1956), SPINSTRA - Q- School (1959), Det 155 (1960), Det O'seas (1961), 1155th TOS (1963), Det O'seas (1966), HQ at Alexandria (1969), 1157 TOS (1972), 3454th (1977), Det  057  (1978),  retiring in  June  1980. 
+                    <br /><br />
+                    His  AFTAC  duties  included  B  and  Q  Technique operator,  analyst,  and  maintenance  technician, B20-5  technician,  staff  positions  at  depot  and  HQ, instructor  at  SPINSTRA  completing  his  career  as the  Det  057  Commander. 
+                    <br /><br />
+                    The Colorado Chapter  was  founded following  a National  AFTAC  Reunion held  in Denver  in August 1989.  Members  of  the  '89  reunion  committee  decided at that time  to establish a Chapter. Ben was 'elected'  president  and  the  rest  is  history.  Ben  has never  wavered in his  support, both  on a local  basis, and  throughout  the  Alumni  community. 
+                    <br /><br />
+                    Thanks  Ben,  for  your  service to the country, the US Air Force,  AFTAC  and the Alumni  Association. Your  service  is  truly  appreciated.
+                </p>
+            </article>
+
+            <article id="GaileyP" class="alumArt noDisplay">
+                <p class="pTitle centerText titlePara">
+                    1996 ALUMNI OF THE YEAR <br />Carl Gailey             
+                </p>
+
+                <p>
+                    Not only is Carl recognized by our "Sage Salute" this quarter, but congradulations also for being selected as our 
+                    1996 Alumni of the Year, what an honor and so well deserved. Carl was on active duty from 1954 to 1979, serving the 
+                    organization in the CS-Ds area for 30 of his 24 years and has been with the association since 1985 serving on it's 
+                    board since 1992. Since then he has been our perennial treasurer, newsletter publisher (Gets it printed/addressed/mailed), 
+                    golf beer runner and an "always there person".
+                    <br /><br />
+                    Importantly, Carl is the "Money Conscience" on our board (guarding your dollars as if thet were his), in that capacity, 
+                    he researched and submitted the IRS package that recieved approval for non-profit status and a package to Florida to be 
+                    recognized as tax-exempt. The combination of these actions allows the ssociation to be eligable for reduced postage rates.
+                    <br /><br />
+                    Also importantly Carl is one of those "Always There" people, whether it be a meeting or an event. If carl is around he's there helping.
+                    First one in, last one out. His support has been critical both in the continuance of the alumni and the success of most of the events.
+                    <br /><br />
+                    Thank you Carl, we know with your continuing support we'll have a balenced budget and a successfull association.
+                </p>
             </article>
 
             </div>

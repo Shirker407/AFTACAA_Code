@@ -113,6 +113,7 @@
     <Content Include="Default.aspx" />
     <Content Include="EastGate.png" />
     <Content Include="Main.aspx" />
+    <Content Include="PAYNE_AOY.png" />
     <Content Include="_Images\91Years\4Photos.png" />
     <Content Include="_Images\91Years\Badge.png" />
     <Content Include="_Images\91Years\Logo1.png" />
@@ -973,7 +974,7 @@
     <Content Include="_Photos\AOY\klug.png" />
     <Content Include="_Photos\AOY\Melchoior1.png" />
     <Content Include="_Photos\AOY\Melchoior2.png" />
-    <Content Include="_Photos\AOY\payne.png" />
+    <Content Include="_Photos\AOY\payne_AOY.png" />
     <Content Include="_Photos\AOY\ryan.png" />
     <Content Include="_Photos\AOY\Schmied1.png" />
     <Content Include="_Photos\AOY\Schmied2.png" />
