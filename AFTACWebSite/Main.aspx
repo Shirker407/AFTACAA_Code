@@ -4017,7 +4017,7 @@
                     <li id="payneSel" class="yellowText">Jim Payne-2001</li>
                     <li class="yellowText">Ben Vlassick-2000</li>
                     <li class="yellowText">John & Christel Horsch-1999</li>
-                    <li class="yellowText">Frank Hall-1998</li>
+                    <li id="hallpSel" class="yellowText">Frank Hall-1998</li>
                     <li id="milampSel" class="yellowText">Judy Milam-1997</li>
                     <li class="yellowText">Carl Gailey-1996</li>
                     <li class="yellowText">Clark Creery-1995</li>
@@ -4806,7 +4806,32 @@
                     <br /><br />
                     His AFTAC assignments and duties included: '51-'52, 1009th SWS Seismology Training, installed and operated 1 of 50 seismic stations monitoring atomic tests at the Nevada Test Site; '52-'54 Det 142 Equipment operations, met and married wife Gayle; '55-'56 Det 204 Operator/ Maint., son Robert born; '57-'60 Hq 1035th, established/operated first real time recording system for Technical Director, daughter Carol born; '60-'61 1155th Depot Maintenance; '61-'62 Det 423 Operator/Maintenance established new Det from the ground up; '62-66 1155th Operations made initial seismic installations on Attu & Mur­ phy Dome AFS, Alaska; '66-'67 1159th Opera­ tions Established new Tech Ops Sq; '67-'70 1156th Operations performed technical surveys for Det 452; '70-'74 1155th Eng Superintendent directed support for the worldwide Seismic Sys­ tem; retired May 1974.
                     <br /><br />
-                    Thanks Joe, for your service to the country, the US Air Force, AFTAC and now, the Alumni Asso­ ciation. Your ongoing dedication is appreciated.                </p>
+                    Thanks Joe, for your service to the country, the US Air Force, AFTAC and now, the Alumni Asso­ ciation. Your ongoing dedication is appreciated.
+
+                </p>
+            </article>
+
+            <article id="HallP" class="alumArt noDisplay">
+                <p class="pTitle centerText titlePara">
+                    1998 ALUMNI OF THE YEAR <br />Frank Hall                  
+                </p>
+                <p>
+                    <img alt="Hall_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Hall_AOY.png" />
+                    Franklin D. Hall was   honored
+                    tonight by the AFTAC Command at the NCO Club, Patric AFB, Florida.
+                    Frank, the foundation of our AFTAC Alumni Association,
+                    Col. Frank Clark was the   recipient   of   the
+                    Beatty	Hall	creery	1998  Alumni  of   the  Year This award
+                    has  been long coming and it is Col. (Retired)
+                    <br /><br />
+                    Frank Hall who is primarily responsible for the reactivation of the modern day association. We won't belabor you with all his involvement-if you know him, read the newsletters, talk to folks, you know what he has done. Above and Beyond has been his motto and we thank him for his service. Col. Harold J. Beatty (AFTAC CC) opened th evening with a welcome, our own Senior Enlisted Advisor (Ret.) (John Horsch) conducted the cere mony for the POW/MIA personnel still "out there" but not forgotten, and the High Flight Band provided entertainment music for the evening. The ceremony was a tribute to all of the Committee Members who gave of their time to make it a precise military  event.
+                    <br /><br />
+                    The Alumni wishes to thank those from that committee, the personnel from the Club, the NCO's and Officer's who gav of their time and all the awardees for a night to remember.	
+                    Colonel Beatty closed with three words:
+                    Let us not forget that success in any endeavor is based  on such  a  principle,  most  emphatically our AFTAC Alumni Association.
+                    <br /><br />
+                    P.S. I had the honor of being seated beside Mrs. Bobby Cobb, Colonel Cobb's wife. He is doing as well as can be expected, and he sends his best. Remember Alumni "He is our Chairman of the Board." Godspeed sir and congratulations to Frank Hall.
+                </p>
             </article>
 
             </div>

@@ -1285,6 +1285,11 @@ $(document).ready(function () {
                 $('#JohnsonP').removeClass('noDisplay').addClass('block');
                 $('#AOYCarousel').removeClass('block').addClass('noDisplay');
                 break;
+            case 'hallpSel':
+                $('.alumArt').removeClass('block').addClass('noDisplay');
+                $('#HallP').removeClass('noDisplay').addClass('block');
+                $('#AOYCarousel').removeClass('block').addClass('noDisplay');
+                break;
             default:
                 $('.alumArt').removeClass('block').addClass('noDisplay');
                 $('#notIncluded').removeClass('noDisplay').addClass('block');
