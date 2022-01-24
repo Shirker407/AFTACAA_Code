@@ -4016,7 +4016,7 @@
                     <li id="johnsonpSel"  id="johnsonSel" class="yellowText">Joe Johnson-2002</li>
                     <li id="payneSel" class="yellowText">Jim Payne-2001</li>
                     <li class="yellowText">Ben Vlassick-2000</li>
-                    <li class="yellowText">John & Christel Horsch-1999</li>
+                    <li id="horschpSel" class="yellowText">John & Christel Horsch-1999</li>
                     <li id="hallpSel" class="yellowText">Frank Hall-1998</li>
                     <li id="milampSel" class="yellowText">Judy Milam-1997</li>
                     <li class="yellowText">Carl Gailey-1996</li>
@@ -4832,6 +4832,31 @@
                     <br /><br />
                     P.S. I had the honor of being seated beside Mrs. Bobby Cobb, Colonel Cobb's wife. He is doing as well as can be expected, and he sends his best. Remember Alumni "He is our Chairman of the Board." Godspeed sir and congratulations to Frank Hall.
                 </p>
+            </article>
+
+            <article id="HorschP" class="alumArt noDisplay">
+                <p class="pTitle centerText titlePara">
+                    1999 ALUMNI OF THE YEAR <br />John and Chris Horsch                  
+                </p>
+                <div class="autoMarginLeftRight width50">
+                    <figure>
+                        <img alt="Horsch_AOY.png" class="maroonBorder showShadow rightMargin1em" src="_Photos/AOY/Horsch_AOY.png" />
+                        <figcaption class="topMargin1em maroonText">
+                            Chris and John Horsch with Assoc President Mike Shilkitus
+                        </figcaption>
+                    </figure>
+                </div>
+                <p>
+                    At the annual SnowBall event, it has become
+                    customary to announce and recognize our
+                    "Alumni of the Year." Two special people
+                    were chosen this year, John and Chris
+                    Horsch. For four years they have been authoring the Post-Monitor. They have performed superbly in representing the association to the membership. With the far flung
+                    nature of the association, the newsletter is
+                    many member's only real attachment to the
+                    alumni. John and Chris toil many hours to
+                    create the quarterly Post-Monitor and we are
+                    brought closer together because of it.                </p>
             </article>
 
             </div>
