@@ -113,7 +113,6 @@
     <Content Include="Default.aspx" />
     <Content Include="EastGate.png" />
     <Content Include="Main.aspx" />
-    <Content Include="PAYNE_AOY.png" />
     <Content Include="_Images\91Years\4Photos.png" />
     <Content Include="_Images\91Years\Badge.png" />
     <Content Include="_Images\91Years\Logo1.png" />
@@ -140,13 +139,10 @@
     <Content Include="_Photos\20YearWall\Marshall2.jpg" />
     <Content Include="_Photos\20YearWall\Schwarting.jpg" />
     <Content Include="_Photos\20YearWall\Stiewig.jpg" />
-    <Content Include="_Fun_Spot\Korean_Taxi.webm" />
-    <Content Include="_Fun_Spot\Korean_Taxi.ogv" />
     <Content Include="MemberShip.aspx" />
     <Content Include="Memlookup.aspx" />
     <Content Include="myService.asmx" />
     <Content Include="Password.aspx" />
-    <Content Include="_Fun_Spot\Korean_Taxi.mp4" />
     <Content Include="_Images\Adobe_Reader_PDF.png" />
     <Content Include="_Images\AFTAC Alumni Wreath.jpg" />
     <Content Include="_Images\Air Show.png" />
@@ -1372,8 +1368,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="packages.config" />
-    <Content Include="PoMo2000-09.pdf" />
-    <Content Include="PoMo1999-06.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
