@@ -4760,8 +4760,8 @@
                     2003 ALUMNI OF THE YEAR <br />Pat Snyder                    
                 </p>
                 <figure>
-                    <img alt="Snyder-P.png" class="maroonBorder showShadow autoMarginLeftRight" src="_Photos/AOY/Snyder-Pat.png" />
-                    <figcaption class="topMarginHalfem italic width60 bold maroonText autoMarginLeftRight">
+                    <img alt="Snyder-P.png" class="maroonBorder showShadow autoMarginLeftRight width75" src="_Photos/AOY/Snyder-Pat.png" />
+                    <figcaption class="topMargin1em italic width60 bold maroonText autoMarginLeftRight">
                         Col Bendorf, the AFTAC Commander, presented this award to Pat at The Center Awards Banquet. It is the Alumni Plaque containing the AFTAC Coin flown aboard the shuttle the flew during the celebration of the Air Force and AFTAC’s 50th anniversary. It also contains a certificate recording this shuttle event.
                     </figcaption>
                 </figure>
@@ -4840,7 +4840,7 @@
                 </p>
                 <div class="autoMarginLeftRight width50">
                     <figure>
-                        <img alt="Horsch_AOY.png" class="maroonBorder showShadow rightMargin1em" src="_Photos/AOY/Horsch_AOY.png" />
+                        <img alt="Horsch_AOY.png" class="maroonBorder showShadow rightMargin1em width75" src="_Photos/AOY/Horsch_AOY.png" />
                         <figcaption class="topMargin1em maroonText">
                             Chris and John Horsch with Assoc President Mike Shilkitus
                         </figcaption>
