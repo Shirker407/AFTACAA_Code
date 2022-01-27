@@ -4842,7 +4842,7 @@
                     <figure>
                         <img alt="Horsch_AOY.png" class="maroonBorder showShadow rightMargin1em width75" src="_Photos/AOY/Horsch_AOY.png" />
                         <figcaption class="topMargin1em maroonText">
-                            Chris and John Horsch with Assoc President Mike Shilkitus
+                            Chris and John Horsch
                         </figcaption>
                     </figure>
                 </div>
