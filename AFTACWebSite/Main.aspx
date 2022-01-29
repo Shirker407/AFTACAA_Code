@@ -274,6 +274,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="coloBreakfast" class="announcement greenText">Colorado Alumni Breakfast</td>
+                                    <td class="posted greenText">1/29/2022</td>
+                                    <td class="event greenText">2/19/2022</td>
+                                </tr>
+                               <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="meetingMinutes" class="announcement blueText">December Minutes were posted.</td>
                                     <td class="posted blueText">1/20/2022</td>
                                     <td class="event blueText"></td>
@@ -393,6 +398,19 @@
             </div>
 
             <div class="clear"></div>
+        </article>
+
+        <article id="coloBreakfastArt" class="myArts noDisplay maroonBorder showShadow">
+            <p class="pTitle centerText">COLORADO GENERAL MEMBERSHIP BREAKFAST</p>
+
+            <p>
+                OUR FEBRUARY GENERAL MEMBERSHIP BREAKFAST WILL BE AT THE TIN CUP BANQUET ROOM 50 S. PEORIA ST.ON 19 FEBRUARY 2022 SERVED AT 0900. Everyone is invited. 
+                <br /><br />
+                PLEASE RSVP BY 10 FEBRUARY TO MAUREEN HAMPSON AT 303.695.0477 (LEAVE A MESSAGE). We need to get a good head count for the food.
+                <br /><br />
+                COST IS $20 PER PERSON, ACTIVE DUTY MILITARY<br />
+                $15 AND CHILDREN AGE 10 AND UNDER ARE FREE.
+            </p>
         </article>
 
         <article id="WWR2022Art" class="myArts noDisplay maroonBorder showShadow">

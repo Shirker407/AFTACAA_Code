@@ -121,6 +121,14 @@ $(document).ready(function () {
         $(this).children('td').css("background-color", oldBack);
     });
 
+    $('#coloBreakfast').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#coloBreakfastArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#coloBreakfastArt").offset().top
+        }, 500);
+    });
+
     $('#butmemReturn').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#MemorialArt').removeClass('noDisplay').addClass('block');
