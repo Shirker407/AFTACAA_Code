@@ -72,6 +72,10 @@ $(document).ready(function () {
         $('#btnPage1').addClass('myPageSelected').removeClass('myPageOriginal');
     });
 
+    $('#atomicVets').click(function () {
+        window.open("https://www.military.com/daily-news/2022/01/27/atomic-veterans-finally-get-commemorative-service-medal.html", "")
+    });
+
     $('#WCCPicAttendees').click(function () {
         window.open("http://www.aftacwcc.org/Forms/20210918_PicnicAttendees.pdf", "")
     });

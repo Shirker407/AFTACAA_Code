@@ -274,9 +274,14 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="atomicVets" class="announcement blueText">Atomic Veterans</td>
+                                    <td class="posted blueText">1/29/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                               <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="coloBreakfast" class="announcement greenText">Colorado Alumni Breakfast</td>
                                     <td class="posted greenText">1/29/2022</td>
-                                    <td class="event greenText">2/19/2022</td>
+                                    <td class="event greenText">2/29/2022</td>
                                 </tr>
                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="meetingMinutes" class="announcement blueText">December Minutes were posted.</td>
