@@ -56,8 +56,8 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Server.CreateObject(""ADODB.Connection"") ConnHandle.Open ""driver={SQL Server}; ser"& _ 
-            "ver=db900239191.hosting-.io;uid=db900239191;pwd=Yh812q1&database=db900239191;")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=db900239191.hosting-data.io; Initial Catalog=dbo900239191; User ID=db"& _ 
+            "o900239191; Password='Yh812q1&';")>  _
         Public ReadOnly Property ComString() As String
             Get
                 Return CType(Me("ComString"),String)

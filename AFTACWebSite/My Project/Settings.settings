@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="ComString" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Server.CreateObject("ADODB.Connection") ConnHandle.Open "driver={SQL Server}; server=db900239191.hosting-.io;uid=db900239191;pwd=Yh812q1&amp;database=db900239191;</Value>
+      <Value Profile="(Default)">Data Source=db900239191.hosting-data.io; Initial Catalog=dbo900239191; User ID=dbo900239191; Password='Yh812q1&amp;';</Value>
     </Setting>
     <Setting Name="Loading" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">True</Value>
