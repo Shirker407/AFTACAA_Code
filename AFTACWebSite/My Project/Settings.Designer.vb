@@ -56,8 +56,8 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=db900239191.hosting-data.io; Initial Catalog=dbo900239191; User ID=db"& _ 
-            "o900239191; Password='Yh812q1&';")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=access900229157.webspace-data.io; Initial Catalog=dbo900239191; User "& _ 
+            "ID=u107337066; Password='Yh812q1&';")>  _
         Public ReadOnly Property ComString() As String
             Get
                 Return CType(Me("ComString"),String)
