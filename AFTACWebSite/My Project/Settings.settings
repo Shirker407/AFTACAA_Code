@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="ComString" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Data Source=access900229157.webspace-data.io; Initial Catalog=dbo900239191; User ID=u107337066; Password='Yh812q1&amp;';</Value>
+      <Value Profile="(Default)">Data Source=db900239191.hosting-data.io; Initial Catalog=dbo900239191; User ID=dbo900239191; Password='Yh812q1&amp;';</Value>
     </Setting>
     <Setting Name="Loading" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">True</Value>
