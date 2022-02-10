@@ -383,7 +383,7 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday, 21 January<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday, 18 February<br />
                         11:30 - 13:00 Hrs<br />
                         --------------------------<br />
                         Florida AFTAC Alumni Association (AFTACAA) Monthly
