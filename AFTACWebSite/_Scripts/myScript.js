@@ -72,6 +72,10 @@ $(document).ready(function () {
         $('#btnPage1').addClass('myPageSelected').removeClass('myPageOriginal');
     });
 
+    $('#myFun').click(function () {
+        window.open("https://www.youtube.com/embed/u_Qoo6qoY_I", "")
+    });
+
     $('#atomicVets').click(function () {
         window.open("https://www.military.com/daily-news/2022/01/27/atomic-veterans-finally-get-commemorative-service-medal.html", "")
     });
@@ -259,7 +263,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#butCOE').mouseover(function () {
+    $('#butCOEF').mouseover(function () {
         $('#butCOE').css('background-color', 'lightblue').css('border - color', 'darkblue');
         $('#butCOE span').css('background-color', 'lightblue').css('color', 'darkblue');
     });
