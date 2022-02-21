@@ -275,7 +275,7 @@
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myFun" class="announcement blueText">Fun Spot - Spanish Magic</td>
-                                    <td class="posted blueText">11/5/2021</td>
+                                    <td class="posted blueText">2/13/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                             <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="atomicVets" class="announcement blueText">Atomic Veterans</td>
