@@ -1,12 +1,12 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
-
+<%--Hello Ed! How are you?  --%>
 <%--*****************************************************************************--%>
 <%--*****************************************************************************--%>
      <%--TABLE OF CONTENTS--%>
      <%--myHeader = Header--%>
-     <%--mainMenu = Menu--%>
+     <%--mainMenu = Menu--%> 
      <%--defaultArt = Main Page--%> 
      <%--passwordArt = Password Page--%>     
      <%--picnicArt = AFTAC Annual Spring Picnic --%>                                     
