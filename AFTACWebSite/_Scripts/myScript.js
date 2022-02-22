@@ -1423,14 +1423,6 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#myColoradoBreakfast').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#ColoradoBreakfastArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#ColoradoBreakfastArt").offset().top
-        }, 500);
-    });
-
     $('#my91Years').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#AFTAC91Art').removeClass('noDisplay').addClass('block');

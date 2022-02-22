@@ -347,31 +347,6 @@
                                     <td class="posted blueText">1/3/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">November Minutes Posted</td>
-                                    <td class="posted blueText">12/16/2021</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myColoradoBreakfast" class="announcement greenText">Colorado General Membership Breakfast</td>
-                                    <td class="posted greenText">12/11/2021</td>
-                                    <td class="event greenText">2/19/2022</td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWoodcock" class="announcement blueText">"Rick" Woodcock's Obituary Posted</td>
-                                    <td class="posted blueText">12/11/2021</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myHarvey" class="announcement blueText">Harv Harvey's Obituary Posted</td>
-                                    <td class="posted blueText">12/1/2021</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myFun" class="announcement blueText">Fun Spot - Indian Hills Funny Signs</td>
-                                    <td class="posted blueText">11/5/2021</td>
-                                    <td class="event blueText"></td>
-                                </tr>--%>
 <%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="meetingMinutes" class="announcement blueText">October Minutes were posted.</td>
                                     <td class="posted blueText">11/3/2021</td>
@@ -597,30 +572,6 @@
                     <div class="clear"></div>
                 </div>
 
-        </article>
-
-        <article id="ColoradoBreakfastArt" class="myArts noDisplay maroonBorder showShadow">
-            <p class="centerText">
-            <span class="redText fontSize2em">Colorado General Membership Breakfast</span>
-            </p>
-            <hr class="myHR" />
-            <p>
-                Dear AFTAC & LRD Alumni, Active Duty, Civilians, Family and Friends, you are invited to attend our General Membership Breakfast on Saturday, 19 February 2022. Breakfast will be served at 0900. 
-                Location:  Aurora Hills Golf Course, Tin Cup Banquet Room, 50 S. Peoria St. Aurora, CO 80012
-                The menu is the Tin Cup buffet which includes: eggs, potatoes, bacon, sausage,  biscuits & gravy, toast, green chili, fruit, juice and coffee. 
-                <br /><br />
-                We need RSVPs to our Hostess by 10 February to ensure we have enough food.  
-                <br /><br />
-                To RSVP you can:<br />
-                - Reply to this original email (from EchoesPublisher@aftacco.org)<br />
-                - call our new Treasurer, Maureen Hampson, at 303-695-0477 (leave a message)<br />
-                - or email Maureen Hampson at <a href="MailTo:mareen.hampson@comcast.net">mareen.hampson@comcast.net</a><br />
-                Cost is $20, Active Duty Military $15 and Children age 10 and under Free.
-                <br /><br />
-                Payment will be collected at the breakfast – please make checks out to Maureen Hampson. 
-                We are looking for nominations for President, Vice-President and Secretary for paid members to vote on after the breakfast. 
-                Looking forward to seeing you there. 
-            </p>
         </article>
 
         <article id="WinterSocialArt" class="myArts noDisplay maroonBorder showShadow">
