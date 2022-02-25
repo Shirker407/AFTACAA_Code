@@ -273,7 +273,12 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWare" class="announcement blueText">James Ware's Obituary Posted</td>
+                                    <td class="posted blueText">2/24/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myFun" class="announcement blueText">Fun Spot - Spanish Magic</td>
                                     <td class="posted blueText">2/13/2022</td>
                                     <td class="event blueText"></td>
@@ -11711,7 +11716,36 @@
                 <h1 class="maroonText centerText bold underLine">Recent Obituaries</h1>
 
 <%--                <p class="pTitle centerText padding5 maroonBorder showShadow">Currently at this time there are no Recent Obituaries.<br>Look in Archived Obituaries.</p>--%>
-                
+ 
+                <article>
+                    <div>
+                        <h2 id="WareH2" class="obitH1">James Ware - 2/16/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="WarePara" class="obitPara noDisplay">
+                        <p>
+                            Click <a href="https://www.nealfuneralhome.com/obituary/james-ware" target="_blank">here </a>
+                            to see James Ware's Obituary.
+                        </p>
+
+                        <p>
+                           <img alt="Ware.jpg" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Ware.jpg"/>
+                            (Contacted by Frank Calenda, AFTACAA Member, passing along information from Bill Cooley, Retired 99, AFTACAA Member, regarding James Ware.)
+                            <br /><br />
+                            "I am sorry to announce that James Ware passed away last Tuesday.  He worked in AFTAC HQ computer section at Patrick AFB until he left to become a Physician Assistant, eventually retiring as a Major.  We were close friends and he will be missed.  Those who wish to send a message to his wife and daughters can leave them at the funeral home website. 
+                            <br /><br />
+                            James E. Ware, October 26, 1962 - February 16, 2022
+                            Major James E. Ware, retired United States Air force, formerly of Washington, died suddenly of natural causes, on February 16, 2022, in San Antonio, TX.
+                            <br /><br />
+                            Arrangements are incomplete. A full obituary will be added later.
+                            <br /><br />
+                            A memorial service will be planned and take place in Washington.
+                            <br /><br />
+                            NOTE: Additional data will be provided when available. This information will be posted on the AFTACAA Website, www.aftacaa.us and published in the PoMo.
+                         </p>
+                    </div>
+                </article>             
+  
                 <article>
                     <div>
                         <h2 id="MeisenheimerH2" class="obitH1">Bob Meisenheimer - 1/10/2022</h2>

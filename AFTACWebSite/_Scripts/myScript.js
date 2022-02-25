@@ -1451,6 +1451,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myWare').click(function () {
+        OpenObit('Ware');
+    });
+
     $('#myMeisenheimer').click(function () {
         OpenObit('Meisenheimer');
     });
@@ -1458,7 +1462,10 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
-            case 'MeisenheimerH2':
+           case 'WareH2':
+                ShowMyObit('Ware')
+                break;
+           case 'MeisenheimerH2':
                 ShowMyObit('Meisenheimer')
                 break;
         }
