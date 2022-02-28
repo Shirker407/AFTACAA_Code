@@ -56,16 +56,6 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=A2NWPLSK14SQL-v02.shr.prod.iad2.secureserver.net; Initial Catalog=aft"& _ 
-            "acaa8_aftacaa; User ID=Pete Password='Yh812q1&;")>  _
-        Public ReadOnly Property ComString() As String
-            Get
-                Return CType(Me("ComString"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("True")>  _
         Public ReadOnly Property Loading() As Boolean
             Get
@@ -88,6 +78,16 @@ Namespace My
         Public ReadOnly Property MailPwd() As String
             Get
                 Return CType(Me("MailPwd"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=A2NWPLSK14SQL-v02.shr.prod.iad2.secureserver.net; Initial Catalog=aft"& _ 
+            "acaa8_aftacaa; User ID=aftacaa8_aftac Password=’Shirley@8’;")>  _
+        Public ReadOnly Property ComString() As String
+            Get
+                Return CType(Me("ComString"),String)
             End Get
         End Property
     End Class
