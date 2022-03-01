@@ -12,7 +12,7 @@
       <Value Profile="(Default)">Shirley@1</Value>
     </Setting>
     <Setting Name="ComString" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Data Source=hgws6.win.hostgator.com; Initial Catalog=aftacaa8_aftacaa; User ID=aftacaa8_aftac Password=’Shirley@8’;</Value>
+      <Value Profile="(Default)">Data Source=A2NWPLSK14SQL-v02.shr.prod.iad2.secureserver.net; Initial Catalog=aftacaa8_aftacaa; User ID=Pete; Password=’Shirley@8’;</Value>
     </Setting>
   </Settings>
 </SettingsFile>
