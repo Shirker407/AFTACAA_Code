@@ -25,13 +25,13 @@ Public Class _Default
 
             lstNamesData = New DataSet
 
-            sql = "Exec ArchiveNames"
-            Get_Dataset(sql, lstNamesData, "ArchiveNames")
+            'sql = "Exec ArchiveNames"
+            'Get_Dataset(sql, lstNamesData, "ArchiveNames")
 
-            ddObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
-            ddObitNames.DataTextField = "Name"
-            ddObitNames.DataValueField = "ID"
-            ddObitNames.DataBind()
+            'ddObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
+            'ddObitNames.DataTextField = "Name"
+            'ddObitNames.DataValueField = "ID"
+            'ddObitNames.DataBind()
         End If
     End Sub
 

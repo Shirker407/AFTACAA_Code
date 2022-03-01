@@ -83,8 +83,8 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=A2NWPLSK14SQL-v02.shr.prod.iad2.secureserver.net; Initial Catalog=aft"& _ 
-            "acaa8_aftacaa; User ID=aftacaa8_aftac Password=’Shirley@8’;")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=hgws6.win.hostgator.com; Initial Catalog=aftacaa8_aftacaa; User ID=af"& _ 
+            "tacaa8_aftac Password=’Shirley@8’;")>  _
         Public ReadOnly Property ComString() As String
             Get
                 Return CType(Me("ComString"),String)
