@@ -84,7 +84,7 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("Data Source=SQL5086.site4now.net;Initial Catalog=db_a83b08_aftac;User Id=db_a83b0"& _ 
-            "8_aftac_admin;Password=#EDCFT^3edcft6")>  _
+            "8_aftac_admin;Password='#EDCFT^3edcft6'")>  _
         Public ReadOnly Property ComString() As String
             Get
                 Return CType(Me("ComString"),String)
