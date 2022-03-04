@@ -63,7 +63,6 @@
         Dim ws As New myService
         Dim ds As New DataSet
         Dim del As Int16
-        Dim x As Int32
 
         If deleteChkYes.Visible = True Then
             del = 1

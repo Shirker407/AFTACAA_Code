@@ -10,7 +10,6 @@ Public Class _Default
         Dim ds As New DataSet
         Dim sb As New StringBuilder
         Dim ws As New myService
-        Dim sql As String
 
         If Not IsPostBack Then
 
