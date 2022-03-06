@@ -1370,13 +1370,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="packages.config" />
-    <Content Include="Weby.config" />
-    <None Include="Weby.Debug.config">
-      <DependentUpon>Weby.config</DependentUpon>
-    </None>
-    <None Include="Weby.Release.config">
-      <DependentUpon>Weby.config</DependentUpon>
-    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
