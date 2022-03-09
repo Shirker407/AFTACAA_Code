@@ -362,16 +362,14 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday, 18 February<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday, 18 March<br />
                         11:30 - 13:00 Hrs<br />
                         --------------------------<br />
-                        Florida AFTAC Alumni Association (AFTACAA) Monthly
-                        General Membership Off-Site Luncheon and Teleconference Meeting
-                        <br />
+                        AFTAC Alumni Association (AFTACAA) Quarterly General Membership Off-Site Luncheon and Teleconference Meeting                        <br />
                         <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note:  Please arrive at 1100 to order food, prior to start of meeting.<br /></span>
                         --------------------------<br />
                         Beef O'Brady's<br />
-                        3030 Lake Washington Road Melbourne, FL 32934-7613<br />
+                        724 South Patrick Drive, Satellite Beach<br />
                         <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note: Change of locale for this meeting.</span><br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
