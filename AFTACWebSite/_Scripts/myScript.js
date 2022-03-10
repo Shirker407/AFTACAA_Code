@@ -263,7 +263,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#butCOEF').mouseover(function () {
+    $('#butCOE').mouseover(function () {
         $('#butCOE').css('background-color', 'lightblue').css('border - color', 'darkblue');
         $('#butCOE span').css('background-color', 'lightblue').css('color', 'darkblue');
     });
