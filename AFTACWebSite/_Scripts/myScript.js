@@ -263,7 +263,17 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#butCOEF').mouseover(function () {
+    $('#butChat').mouseover(function () {
+        $('#butChat').css('background-color', 'lightblue').css('border - color', 'darkblue');
+        $('#butChat span').css('background-color', 'lightblue').css('color', 'darkblue');
+    });
+
+    $('#butChat').mouseout(function () {
+        $('#butChat').css('border - color', 'lightblue').css('background-color', 'darkblue');
+        $('#butChat span').css('background-color', 'darkblue').css('color', 'lightblue');
+    });
+
+    $('#butCOE').mouseover(function () {
         $('#butCOE').css('background-color', 'lightblue').css('border - color', 'darkblue');
         $('#butCOE span').css('background-color', 'lightblue').css('color', 'darkblue');
     });

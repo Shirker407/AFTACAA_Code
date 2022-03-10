@@ -235,37 +235,32 @@
         
         <article id="defaultArt" class="myArts noDisplay">
             <div class="floatLeft width55">
-<%--                <div class="centerDiv autoMarginLeftRight width50">
-                    <div id="butWWR" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
+                <div class="centerDiv width95">
+                    <div id="butWWR" class="floatLeft leftMargin1em backYellow width45 blackBorder padding5 showShadow" style="cursor:pointer;">
                         <span class="centerText backYellow bold" style="color:black;">World Wide Reunion Information</span>
                     </div>
-                </div>                --%>
-                <div class="floatLeft centerDiv width50">
-                    <div id="butWWR" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
-                        <span class="centerText backYellow bold" style="color:black;">World Wide Reunion Information</span>
-                    </div>
-                    <div id="butChat" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue; border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Chat<br />Room</span>
-                    </div>
-                </div>
-
-                <div class="floatLeft centerDiv width50">
-                    <div id="butWallNames" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
+                    <div id="butWallNames" class="floatLeft leftMargin1em backYellow width45 blackBorder padding5 showShadow" style="cursor:pointer;">
                         <span class="centerText backYellow bold" style="color:black;">Posting of Our Memorial<br />Names - 9/5/2020</span>
                     </div>
-                    <div id="butCoronaInfo" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue; border:solid;border:solid;border-radius:10px;">
+                    <div class="clear"></div>
+                </div>
+                <div class="centerDiv width95">
+                    <div id="butChat" class="floatLeft leftMargin1em backDarkBlue width45 padding5 showShadow" style="cursor:pointer;border-color:lightblue; border:solid;border:solid;border-radius:10px;">
+                        <span class="centerText bold backDarkBlue lightBlueText">Chat<br />Room</span>
+                    </div>
+                    <div id="butCoronaInfo" class="floatLeft leftMargin1em backDarkBlue width45 padding5 showShadow" style="cursor:pointer;border-color:lightblue; border:solid;border:solid;border-radius:10px;">
                         <span class="centerText bold backDarkBlue lightBlueText">PSFB Current Status regarding Covid-19</span>
                     </div>
+                    <div class="clear"></div>
                 </div>
-
-                <div class="floatLeft centerDiv width50">
-                    <div id="memWall" class="autoMarginLeftRight backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
+                <div class="centerDiv width95">
+                    <div id="memWall" class="floatLeft leftMargin1em backDarkBlue width45 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
                         <span class="centerText bold backDarkBlue lightBlueText">AFTAC Memorial Corp<br />Updated 8/14</span>
                     </div>
-
-                    <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
+                    <div id="butCOE" class="floatLeft leftMargin1em backDarkBlue width45 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
                         <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 2/8/2022</span>
                     </div>
+                    <div class="clear"></div>
                 </div>
 
                 <div class="clear"></div>
