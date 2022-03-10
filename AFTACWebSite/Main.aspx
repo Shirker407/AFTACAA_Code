@@ -235,11 +235,20 @@
         
         <article id="defaultArt" class="myArts noDisplay">
             <div class="floatLeft width55">
-                <div class="centerDiv autoMarginLeftRight width50">
+<%--                <div class="centerDiv autoMarginLeftRight width50">
                     <div id="butWWR" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
                         <span class="centerText backYellow bold" style="color:black;">World Wide Reunion Information</span>
                     </div>
-                </div>                
+                </div>                --%>
+                <div class="floatLeft centerDiv width50">
+                    <div id="butWWR" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
+                        <span class="centerText backYellow bold" style="color:black;">World Wide Reunion Information</span>
+                    </div>
+                    <div id="butChat" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue; border:solid;border:solid;border-radius:10px;">
+                        <span class="centerText bold backDarkBlue lightBlueText">Chat<br />Room</span>
+                    </div>
+                </div>
+
                 <div class="floatLeft centerDiv width50">
                     <div id="butWallNames" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
                         <span class="centerText backYellow bold" style="color:black;">Posting of Our Memorial<br />Names - 9/5/2020</span>
@@ -248,6 +257,7 @@
                         <span class="centerText bold backDarkBlue lightBlueText">PSFB Current Status regarding Covid-19</span>
                     </div>
                 </div>
+
                 <div class="floatLeft centerDiv width50">
                     <div id="memWall" class="autoMarginLeftRight backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
                         <span class="centerText bold backDarkBlue lightBlueText">AFTAC Memorial Corp<br />Updated 8/14</span>
