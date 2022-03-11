@@ -1451,6 +1451,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myRedlin').click(function () {
+        OpenObit('Redlin');
+    });
+
     $('#mySummers').click(function () {
         OpenObit('Summers');
     });
@@ -1466,6 +1470,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'RedlinH2':
+                ShowMyObit('Redlin')
+                break;
             case 'SummersH2':
                 ShowMyObit('Summers')
                 break;
