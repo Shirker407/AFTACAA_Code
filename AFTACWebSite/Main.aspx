@@ -274,7 +274,7 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySummers" class="announcement blueText">Richard Summers Death Notice</td>
+                                    <td id="mySummers" class="announcement blueText">Richard Summers' Death Notice</td>
                                     <td class="posted blueText">2/24/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                
