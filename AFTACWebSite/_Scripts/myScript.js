@@ -4067,22 +4067,6 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#openHouse2021').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#openHouse2021Art').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#openHouse2021Art").offset().top
-        }, 500);
-    });
-
-    $('#myGolf2021').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#Golf2021Art').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#mainHeader").offset().top
-        }, 500);
-    });
-
     $('#showAppointed').click(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
@@ -4155,15 +4139,15 @@ $(document).ready(function () {
         window.open('https://www.scmp.com/news/china/military/article/3154476/us-spy-planes-over-south-china-sea-likely-surveyed-nuclear', '');
     });
 
-    $('#myPomo').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#pomoArt').removeClass('noDisplay').addClass('block');
-        $('#sectPomoArchived').removeClass('block').addClass('noDisplay');
-        $('#sectPomoCurrent').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#pomoArt").offset().top
-        }, 500);
-    });
+    //$('#myPomo').click(function () {
+    //    $('.myArts').removeClass('block').addClass('noDisplay');
+    //    $('#pomoArt').removeClass('noDisplay').addClass('block');
+    //    $('#sectPomoArchived').removeClass('block').addClass('noDisplay');
+    //    $('#sectPomoCurrent').removeClass('noDisplay').addClass('block');
+    //    $([document.documentElement, document.body]).animate({
+    //        scrollTop: $("#pomoArt").offset().top
+    //    }, 500);
+    //});
 
     $('#pomosCurrent').click(function () {
         subclicked = true;

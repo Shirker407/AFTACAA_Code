@@ -327,36 +327,6 @@
                                     <td class="posted blueText">1/10/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPomo" class="announcement blueText">December 2021 Pomo</td>
-                                    <td class="posted blueText">1/6/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myGolf2021" class="announcement blueText">Fall 2021 Golf N’Get Together</td>
-                                    <td class="posted blueText">1/6/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="openHouse2021" class="announcement blueText">2021 AFTAC Open House</td>
-                                    <td class="posted blueText">1/7/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWonner" class="announcement blueText">Michael Wonner's Obituary Posted</td>
-                                    <td class="posted blueText">1/3/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBrown" class="announcement blueText">Brian Brown's Obituary Posted</td>
-                                    <td class="posted blueText">1/3/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="meetingMinutes" class="announcement blueText">October Minutes were posted.</td>
-                                    <td class="posted blueText">11/3/2021</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                --%>
                           </table>
                         </div>
                     </div>
@@ -374,7 +344,7 @@
                         <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note:  Please arrive at 1100 to order food, prior to start of meeting.<br /></span>
                         --------------------------<br />
                         Beef O'Brady's<br />
-                        724 South Patrick Drive, Satellite Beach<br />
+                        3030 Lake Washington Rd., Melbourne, FL<br />
                         <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note: Change of locale for this meeting.</span><br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
