@@ -274,6 +274,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySummers" class="announcement blueText">Richard Summers Death Notice</td>
+                                    <td class="posted blueText">2/24/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWare" class="announcement blueText">James Ware's Obituary Posted</td>
                                     <td class="posted blueText">2/24/2022</td>
                                     <td class="event blueText"></td>
@@ -11710,6 +11715,36 @@
 
 <%--                <p class="pTitle centerText padding5 maroonBorder showShadow">Currently at this time there are no Recent Obituaries.<br>Look in Archived Obituaries.</p>--%>
  
+                <article>
+                    <div>
+                        <h2 id="SummersH2" class="obitH1">Richard Summers - 3/9/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="SummersPara" class="obitPara noDisplay">
+                        <p>
+                           <img alt="Summers.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Summers.png"/>
+                            As per a telephone call from Rita Summers, 2022.03.09, Rita's Facebook Posting follows:
+                            <br /><br />
+                            "What better way to honor my husband today, than with a picture from his passport.
+                            We traveled the world together and he was so very respected in the Air Force.
+                            He passed away today and hopefully, I’ve notified as many of my relatives as possible.
+                            I came home from work and found him with his loyal sidekick Max. That dog would not leave his side. RIP Richard: 4-8-1935 - 3-9-2022. He died on my father's birthday."
+                            <br /><br />
+                            PERSONAL NOTE: I don't normally comment when I see a friend has died. However in this case I must. 'Alky' and I shared so many times during assignments to Pinedale, WY, and an accompanied overseas location. We lived together in Pinedale, and became very close friends, and married local ladies during that tour. Chris and Rita had graduated in the same Senior Class; we often double-dated. Richard could crack me up in a heartbeat and we'd both fall to the floor, literally, bent over laughing. I have a friend today that can do that to me ... you don't ever forget those people or that closeness. 
+                            <br /><br />
+                            Pinedale was my first assignment from school as well for SSgt Summers who had been a 702 at one of our overseas locations and thought so much of our mission to become a 99125 himself; it was there he 'earned' that nickname that would follow him during his time with AFTAC. Chris and I followed he and Rita into an overseas tour and continued our close friendship living less than a block apart. From there we both served a tour at the Headquarters in VA. Good times continued at these assignments. 
+                            <br /><br />
+                            Richard and Rita eventually left AFTAC and he finished his Air Force time in computers, finally retiring in Shreveport, LA ... Chris and I never went close without staying over with them for several days and the 'old days' would come back within minutes of being together. 
+                            <br /><br />
+                            Rita, thank you for the call yesterday. My feelings for ‘Alky’ and you run deep … there were no better friends while you guys were in our lives.
+                            <br /><br />
+                            NOTE: Any additional information will be shared upon receipt and will be posted at the Alumni Website and in the Post-Monitor. 
+                            <br /><br />
+                            John Horsch
+                         </p>
+                    </div>
+                </article>             
+  
                 <article>
                     <div>
                         <h2 id="WareH2" class="obitH1">James Ware - 2/16/2022</h2>

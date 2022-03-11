@@ -1451,6 +1451,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#mySummers').click(function () {
+        OpenObit('Summers');
+    });
+
     $('#myWare').click(function () {
         OpenObit('Ware');
     });
@@ -1462,6 +1466,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'SummersH2':
+                ShowMyObit('Summers')
+                break;
            case 'WareH2':
                 ShowMyObit('Ware')
                 break;
