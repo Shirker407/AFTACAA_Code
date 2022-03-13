@@ -312,7 +312,7 @@
                                     <td class="posted blueText">1/14/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myCovidKit" class="announcement blueText">VA won’t mail out COVID kits</td>
                                     <td class="posted blueText">1/14/2022</td>
                                     <td class="event blueText"></td>
@@ -356,7 +356,7 @@
                                     <td id="myBrown" class="announcement blueText">Brian Brown's Obituary Posted</td>
                                     <td class="posted blueText">1/3/2022</td>
                                     <td class="event blueText"></td>
-                                </tr>                                
+                                </tr>                                --%>
 <%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="meetingMinutes" class="announcement blueText">October Minutes were posted.</td>
                                     <td class="posted blueText">11/3/2021</td>
