@@ -254,7 +254,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 2/8/2022</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 3/13/2022</span>
                     </div>
                 </div>
 
