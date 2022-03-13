@@ -275,24 +275,25 @@
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myRedlin" class="announcement blueText">Gerry Redlin's Obituary was posted.</td>
-                                    <td class="posted blueText">2/24/2022</td>
+                                    <td class="posted blueText">3/12/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySummers" class="announcement blueText">Richard Summers' Death Notice</td>
-                                    <td class="posted blueText">2/24/2022</td>
+                                    <td class="posted blueText">3/12/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWare" class="announcement blueText">James Ware's Obituary Posted</td>
-                                    <td class="posted blueText">2/24/2022</td>
+                                    <td class="posted blueText">3/12/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myFun" class="announcement blueText">Fun Spot - Spanish Magic</td>
                                     <td class="posted blueText">2/13/2022</td>
                                     <td class="event blueText"></td>
-                                </tr>                             <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                </tr>                             
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="atomicVets" class="announcement blueText">Atomic Veterans</td>
                                     <td class="posted blueText">1/29/2022</td>
                                     <td class="event blueText"></td>
