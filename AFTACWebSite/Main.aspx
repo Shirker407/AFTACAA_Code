@@ -379,7 +379,7 @@
                         <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note:  Please arrive at 1100 to order food, prior to start of meeting.<br /></span>
                         --------------------------<br />
                         Beef O'Brady's<br />
-                        724 South Patrick Drive, Satellite Beach<br />
+                        3030 Lake Washington Rd., Melbourne, FL<br />
                         <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note: Change of locale for this meeting.</span><br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
