@@ -3719,7 +3719,7 @@
                         <hr class="myHR" />
                         <div>
                             <div class='floatLeft width30'>
-                                <asp:Button ID="btnClark" CssClass="wohBut" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="SMSgt Mike Clark" OnClick="btnClark_Click" />
+                                <asp:Button ID="btnClark" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="SMSgt Mike Clark" OnClick="btnClark_Click" />
                             </div>
                             <div class='floatLeft width30'>
                                 <asp:Button ID="btnDeMarco" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="SMSgt Tony DeMarco" OnClick="btnDeMarco_Click" />
