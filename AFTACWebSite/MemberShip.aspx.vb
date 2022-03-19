@@ -49,6 +49,7 @@
         Session("UserID") = lstMembers.SelectedValue
         Session("PWUser") = lstMembers.SelectedItem.Text
         Session("myIndex") = lstMembers.SelectedIndex
+        MsgBox(Session("UserID"))
         FillBoxes()
         lblDBMess.Text = "Edit Data"
         lblDBMess.ForeColor = Drawing.Color.DarkBlue
@@ -608,6 +609,7 @@
         Dim chaps As String
         Dim cmdPosition As String = ""
         Dim cmdDates As String = ""
+
         Get_Dataset(sql, ds)
 
         lblID.Text = "ID " & ds.Tables(0).Rows(0).Item("id")
