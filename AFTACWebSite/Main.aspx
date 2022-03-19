@@ -2599,7 +2599,7 @@
         <article id="minutesArt" class="myArts noDisplay">
             <p class="pTitle centerText">AFTACAA Board Meeting Minutes by Year</p>
 
-            <div class="floatLeft">
+            <div class="floatLeft topMarginMinus1em">
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -2609,9 +2609,7 @@
                 </div>
             </div>
 
-            <div class="clear"></div>
-
-            <div class="floatLeft">
+            <div class="floatLeft topMarginMinus1em">
                 <p class="centerText">2021</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -2628,9 +2626,9 @@
                         <li><a href="_Minutes/1-11-2021_Minutes.pdf" target="_blank">1/11/2021</a></li>
                     </ul>
                 </div>
-            </div>
-
-            <div class="floatLeft">
+            </div>            
+            
+            <div class="floatLeft topMarginMinus1em">
                 <p class="centerText">2020</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -2650,7 +2648,9 @@
                 </div>
             </div>
 
-            <div class="floatLeft">
+            <div class="clear"></div>
+
+            <div class="floatLeft" style="margin-top:-3em;">
                 <p class="centerText">2019</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -2670,9 +2670,7 @@
                 </div>
             </div>
 
-            <div class="clear"></div>
-
-            <div class="floatLeft leftMargin1em" style="margin-top:-3em">
+            <div class="floatLeft" style="margin-top:-3em;">
                 <p class="centerText">2018</p>
                 <div class="autoMarginLeftRight backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -2692,7 +2690,7 @@
                 </div>
             </div>
 
-            <div class="floatLeft" style="margin-top:-3em">
+            <div class="floatLeft" style="margin-top:-3em;">
                 <p class="centerText">2017</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -2711,7 +2709,9 @@
                 </div>
             </div>
 
-            <div class="floatLeft" style="margin-top:-3em"````````````````````````````````````````````````````````````````````````````````````````>
+            <div class="clear"></div>
+
+            <div class="floatLeft" style="margin-top:-3em;">
                 <p class="pTitle centerText">2016</p>
                 <div class="autoMarginLeftRight backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -4012,7 +4012,7 @@
                     <li id="snyderpSel" class="yellowText">Pat Snyder-2003</li>
                 </ul>
                 <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
-                    <li id="johnsonpSel"  id="johnsonSel" class="yellowText">Joe Johnson-2002</li>
+                    <li id="johnsonpSel" class="yellowText">Joe Johnson-2002</li>
                     <li id="payneSel" class="yellowText">Jim Payne-2001</li>
                     <li id="vlassickpSel" class="yellowText">Ben Vlassick-2000</li>
                     <li id="horschpSel" class="yellowText">John & Christel Horsch-1999</li>
