@@ -2599,7 +2599,7 @@
         <article id="minutesArt" class="myArts noDisplay">
             <p class="pTitle centerText">AFTACAA Board Meeting Minutes by Year</p>
 
-            <div class="floatLeft topMarginMinus1em">
+            <div class="floatLeft" style="margin-top:-2em;">
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -2609,7 +2609,7 @@
                 </div>
             </div>
 
-            <div class="floatLeft topMarginMinus1em">
+            <div class="floatLeft" style="margin-top:-2em;">
                 <p class="centerText">2021</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -2628,7 +2628,7 @@
                 </div>
             </div>            
             
-            <div class="floatLeft topMarginMinus1em">
+            <div class="floatLeft" style="margin-top:-2em;">
                 <p class="centerText">2020</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">

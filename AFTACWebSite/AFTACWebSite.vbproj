@@ -328,6 +328,7 @@
     <Content Include="_Photos\Board Members\DeMarco.jpg" />
     <Content Include="_Photos\Board Members\godfrey.jpg" />
     <Content Include="_Photos\Board Members\Hammond.jpg" />
+    <Content Include="_Photos\Board Members\Lindsay.png" />
     <Content Include="_Photos\Board Members\Long.png" />
     <Content Include="_Photos\Board Members\Moon.png" />
     <Content Include="_Photos\Board Members\Ryan.png" />
@@ -979,8 +980,6 @@
     <Content Include="_Photos\AOY\wiley.png" />
     <Content Include="_Photos\Board Members\horsch.jpg" />
     <Content Include="_Photos\Board Members\Judy-June2016.jpg" />
-    <Content Include="_Photos\Board Members\Linsey.png" />
-    <Content Include="_Photos\Board Members\Massey.png" />
     <Content Include="_Photos\Board Members\Steskal-2016.png" />
     <Content Include="_Photos\Board Members\Trudel.png" />
     <Content Include="_Photos\Board Members\Wiley.png" />
@@ -1593,7 +1592,6 @@
     <Content Include="_Minutes\10-8-2021_Minutes.pdf" />
     <Content Include="_Minutes\11-8-2021_Minutes.pdf" />
     <Content Include="_Minutes\12-17-2021_Minutes.pdf" />
-    <Content Include="_Minutes\1-AFTACAA January 2022 Minutes.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
