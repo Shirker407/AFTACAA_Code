@@ -1593,6 +1593,7 @@
     <Content Include="_Minutes\10-8-2021_Minutes.pdf" />
     <Content Include="_Minutes\11-8-2021_Minutes.pdf" />
     <Content Include="_Minutes\12-17-2021_Minutes.pdf" />
+    <Content Include="_Minutes\1-AFTACAA January 2022 Minutes.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

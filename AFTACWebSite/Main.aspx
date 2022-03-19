@@ -2600,6 +2600,18 @@
             <p class="pTitle centerText">AFTACAA Board Meeting Minutes by Year</p>
 
             <div class="floatLeft">
+                <p class="centerText">2022</p>
+                <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
+                    <ul class="minutesUL">
+                        <li><a href="_Minutes/2-18-2022_Minutes.pdf" target="_blank">2/18/2022</a></li>
+                        <li><a href="_Minutes/1-21-2022_Minutes.pdf" target="_blank">1/21/2022</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="floatLeft">
                 <p class="centerText">2021</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -11935,9 +11947,9 @@
                 </li>
 
                 <li>
-                    <img alt="Arlin Massey" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/massey.png" />
+                    <img alt="Ed Lindsay" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/lindsay.png" />
                     <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Arlin Massey<br />(Secretary)
+                        Ed Lindsay<br />(Secretary)
                     </div>
                     <div class="clear"></div>
                 </li>
@@ -11999,7 +12011,7 @@
             <ul class="aLeft width45 leftMargin2em floatLeft appOfficersList">
 
                 <li>
-                    <img alt="_Photos/Board Members/Linsey.png" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Linsey.png" />
+                    <img alt="_Photos/Board Members/Lindsay.png" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Lindsay.png" />
                     <div class="floatLeft maroonText topMargin2em leftMargin1em">
                         Ed Lindsay<br />(Webpage Services)
                     </div>
@@ -12023,7 +12035,7 @@
                 </li>
 
                 <li>
-                    <img alt="_Photos/Board Members/Linsey.png" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Linsey.png" />
+                    <img alt="_Photos/Board Members/Lindsay.png" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Lindsay.png" />
                     <div class="floatLeft maroonText topMargin2em leftMargin1em">
                         Ed Lindsay<br />(Sage Shop)
                     </div>
