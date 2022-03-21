@@ -274,6 +274,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCosner" class="announcement blueText">Dale Cosner's Obituary was posted.</td>
+                                    <td class="posted blueText">3/21/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myRedlin" class="announcement blueText">Gerry Redlin's Obituary was posted.</td>
                                     <td class="posted blueText">3/12/2022</td>
                                     <td class="event blueText"></td>
@@ -11733,6 +11738,25 @@
 
 <%--                <p class="pTitle centerText padding5 maroonBorder showShadow">Currently at this time there are no Recent Obituaries.<br>Look in Archived Obituaries.</p>--%>
  
+                <article>
+                    <div>
+                        <h2 id="CosnerH2" class="obitH1">Dale Cosner - 3/17/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="CosnerPara" class="obitPara noDisplay">
+                        <p>
+                            "With sad news I inform you of the passing of a fellow airman, Dale Cosner, Dale was stationed at McClellan in the depot, he worked in Pickup and Delivery from 1969-1973. The following email was received from his daughter."
+                            <br /><br />
+                            --Hi John,  this is Denise Cosner, dale’s daughter. I unfortunately have to let you know that dad passed away on 3/17. 3 of us kids were able to be there with him at the end.
+                            <br /><br />
+                            He was admitted on 3/6 with breathing issues again. Not sure if you knew he had been inpatient in early January for pneumonia and I think his lungs were just never really better.
+                            <br /><br />
+                            Click <a href="https://www.becksfuneralhome.com/obituaries/Dale-Edward-Cosner?obId=24330741#/obituaryInfo" target="_blank">here</a> to see obituary.
+
+                         </p>
+                    </div>
+                </article>             
+  
                 <article>
                     <div>
                         <h2 id="RedlinH2" class="obitH1">Geraldine Redlin - 2/10/2022</h2>

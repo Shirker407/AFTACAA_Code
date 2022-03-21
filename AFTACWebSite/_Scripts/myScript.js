@@ -1451,6 +1451,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myCosner').click(function () {
+        OpenObit('Cosner');
+    });
+
     $('#myRedlin').click(function () {
         OpenObit('Redlin');
     });
@@ -1470,6 +1474,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'CosnerH2':
+                ShowMyObit('Cosner')
+                break;
             case 'RedlinH2':
                 ShowMyObit('Redlin')
                 break;
