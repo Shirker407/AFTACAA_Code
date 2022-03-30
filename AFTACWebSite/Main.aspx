@@ -11745,6 +11745,7 @@
                     <div class="clear"></div>
                     <div id="CosnerPara" class="obitPara noDisplay">
                         <p>
+                           <img alt="Cosner.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Cosner.png"/>
                             "With sad news I inform you of the passing of a fellow airman, Dale Cosner, Dale was stationed at McClellan in the depot, he worked in Pickup and Delivery from 1969-1973. The following email was received from his daughter."
                             <br /><br />
                             --Hi John,  this is Denise Cosner, dale’s daughter. I unfortunately have to let you know that dad passed away on 3/17. 3 of us kids were able to be there with him at the end.
