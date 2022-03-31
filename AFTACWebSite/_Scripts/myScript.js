@@ -209,11 +209,7 @@ $(document).ready(function () {
     });
 
     $('#butWWR').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#WWR2022Art').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#WWR2022Art").offset().top
-        }, 500);
+        window.open('https://www.acompletereunion.com/aftac', '')
     });
 
     $('#butWallNames').mouseover(function () {

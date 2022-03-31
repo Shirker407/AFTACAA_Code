@@ -237,7 +237,7 @@
             <div class="floatLeft width55">
                 <div class="centerDiv autoMarginLeftRight width50">
                     <div id="butWWR" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
-                        <span class="centerText backYellow bold" style="color:black;">World Wide Reunion Information</span>
+                        <span class="centerText backYellow bold" style="color:black;">World Wide Reunion Information (Updated)</span>
                     </div>
                 </div>                
                 <div class="floatLeft centerDiv width50">
@@ -408,25 +408,6 @@
                 <br /><br />
                 COST IS $20 PER PERSON, ACTIVE DUTY MILITARY<br />
                 $15 AND CHILDREN AGE 10 AND UNDER ARE FREE.
-            </p>
-        </article>
-
-        <article id="WWR2022Art" class="myArts noDisplay maroonBorder showShadow">
-            <p class="pTitle centerText">2022 World Wide Reunion</p>
-            <p class="centerText">
-                ****************<br /> 
-                WORLDWIDE REUNION<br />
-                SAVE THE DATE NOTICE!<br />
-                2022 AFTAC Alumni Association Worldwide Reunion<br />
-                18 to 22 May 2022<br />
-                Reunion Headquarters: Radisson Resort at the Port<br />
-                8701 Astronaut Boulevard, Cape Canaveral, FL 32920<br />
-                FL AFTACAA Chair/POC: Sean P. Ryan<br /> 
-                Email: <a href="mailto:oceanblueview@yahoo.com">oceanblueview@yahoo.com</a>, Cell: 321-591-9053 (Unlisted)<br /> 
-                FL AFTACAA Co-Chair/POC: Phil Godfrey<br /> 
-                Email: <a href="mailto:afsophil@gmail.com">afsophil@gmail.com</a>, Cell: 321-446-8775 (Unlisted)<br />
-                WATCH FOR FURTHER INFORMATION<br />
-                ****************
             </p>
         </article>
 
