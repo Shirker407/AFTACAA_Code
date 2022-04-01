@@ -104,6 +104,15 @@ $(document).ready(function () {
         $('#btnPage2').addClass('myPageSelected').removeClass('myPageOriginal');
     });
 
+    $('#my9s').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#9sArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("9sArt").offset().top
+        }, 500);
+    });
+
+
     $('#myBreakfast').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#BreakfastArt').removeClass('noDisplay').addClass('block');

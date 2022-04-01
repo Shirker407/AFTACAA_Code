@@ -274,6 +274,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="my9s" class="announcement blueText">Saving the 9S Career Field<br />by CMSgt (ret) Larry Silhanek.</td>
+                                    <td class="posted blueText">4/1/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myCooley" class="announcement blueText">Bill Cooley added to 20 Year Wall.</td>
                                     <td class="posted blueText">4/1/2022</td>
                                     <td class="event blueText"></td>
@@ -406,6 +411,40 @@
             </div>
 
             <div class="clear"></div>
+        </article>
+
+        <article id="9sArt" class="myArts noDisplay maroonBorder showShadow">
+            <p class="pTitle centerText">
+                Saving the 9S Career Field <br />by CMSgt (ret) Larry Silhanek
+            </p>
+            <hr class="myHR" />
+            <p>
+                Below is one of my EPR write-ups during my last few years (96-98) as AFTAC Superintendent:
+            </p>
+            <div class="leftMargin2em">
+                <ul>
+                    <li class="maroonText fontSize1_Halfem bold bottomDotRed bottomMargin1em left">Restructured RI 9SX00 career field (500+ personnel)</li>
+                    <li class="maroonText fontSize1_Halfem bold bottomDotRed bottomMargin1em left">Facilitated Utilization and Training Conference, creating modular training format</li>
+                    <li class="maroonText fontSize1_Halfem bold bottomDotRed bottomMargin1em left">Set time-line for combining 3 RI’s into one technical applications specialist field</li>
+                    <li class="maroonText fontSize1_Halfem bold bottomDotRed left">MAJCOM, AETC, and AFPC go-ahead; flexible, technical work force for future</li>
+                </ul>
+            </div>
+
+            `<p>
+                Here is a short narrative of those few years in the mid-90s that led to creating the “Just in time training” approach for the 9S career field.  
+                <br /><br />
+                I arrived at the HQs from serving as Det Chief in Thailand (one of the best senior NCO assignments at that time for AFTAC—another story sometime).  I worked in Advanced Systems directorate for a year and with being selected for Chief, I was assigned as Maintenance Superintendent for the next 3 years.  Col Shaffer selected me to serve as AFTAC’s first Superintendent following the retirement of Chief Nick Lewis, AFTAC’s last Senior Enlisted Advisor. Coming up with the title AFTAC Superintendent title is another story entailing a new Major Command line at that time and the other Centers of Excellence within the MAJCOM.
+                <br /><br />
+                As I remember, there was a working group of senior 9Ss at the HQ working during the early 90s on structuring the 9S career force and setting up the training guidelines for all the changes the 9S reporting identifier was going thru during those turbulent years.  The operators had been largely removed from the field sites for analysis to be done at the HQs; manpower drawdowns were coming in waves during those years; actions being planned for the depot to be combined at San Antonio with MAJCOM and ultimately the seismic depot portion ended up being contract supported; and then the Lab at McClellan was shut down. These are only a few of the highlights, many more actions within AFTAC and from Air Force and DOD evolved each year.  
+                <br /><br />
+                I was asked to be part of the working group; and as Maintenance Superintendent I was part of the PAT team for the combined depot and then served as a lead in big manpower drawdown for the seismic mission due to funding constraints.  The working group had a sense that the end was near for the career field; they were expecting various support functions and jobs to be contracted out as mission requirements changed with command line restructuring and manpower cuts continuing.  The contracting out of the depot lead some to believe this, and that the shrinking of the RI would end the AETC training course.  
+                <br /><br />
+                After the first few years with the group, I made my views known by stating the decision for the future of the career field was not at our pay level--that was 4 to 5 levels above us.  Our job in my view was to manage the resources we were assigned to the best of our ability, provide training guidelines to AETC and justify the numbers needed to accomplish the mission as efficiently and effectively as possible.  As the above changes and restructuring played out, I was able to work with some great senior enlisted folks to oversee and manage our highly technical force and when I became AFTAC Superintendent we moved forward with idea for the one Technical Applications Specialist field under the 9S100 Reporting Identifier (RI). 
+                <br /><br />
+                The person I remember as coming up with the “just in time training” approach was Steve Cook and I worked with him on this vision—I know there are dozens of folks that contributed to this idea but he is the one that hatched this concept and I was able to champion the initiative.  The career force of operators, maintainer, SEOs, lab techs and area techs would become one identifier, all falling under the 9S100 umbrella.  They would be trained in a shortened overview of all the missions and sampling of scientific and technical knowledge as a basis, and then they would be placed in a specific training module (seismic maintenance, seismic analysis, area tech, space ops, SEO, etc.) for their next assignment.  And the concept would follow that as their career progressed, they would go thru another training module enroute to their next assignment.  This was a monumental undertaking, and not without controversy. There were some of negative views from the old hats that we would lose the specialty knowledge (in depth technique experts) that we had consummately grew over the years by reassigning techs to new jobs every few years, but application of this vision worked for a down-sized field of highly specialized personnel.  
+                <br /><br />
+                The benefits largely overshadowed the drawbacks, and hopefully we would be able to get the right folks into the right jobs and allow all folks to have a fairer opportunity at various assignments.  I retired from the Air Force in 1999 and “just in time training” was going strong. I had a sense that I had stayed in during those trying years to set a path for the future of RI.  I worked as a contractor for the next 19 years supporting AFTAC up to my next retirement in 2018 and it was still going from what I could witness. And that is the rest of the story on how we (large team of old 99s and new 9Ss) saved the 9S career field back in the 90s. 
+            </p>
         </article>
 
         <article id="FitzArt" class="myArts noDisplay maroonBorder showShadow">
