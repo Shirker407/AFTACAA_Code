@@ -274,6 +274,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCooley" class="announcement blueText">Bill Cooley added to 20 Year Wall.</td>
+                                    <td class="posted blueText">4/1/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myFitz" class="announcement redText">Bob Fitzgerald was hacked. (Important)</td>
+                                    <td class="posted redText">4/1/2022</td>
+                                    <td class="event redText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myCosner" class="announcement blueText">Dale Cosner's Obituary was posted.</td>
                                     <td class="posted blueText">3/21/2022</td>
                                     <td class="event blueText"></td>
@@ -396,6 +406,21 @@
             </div>
 
             <div class="clear"></div>
+        </article>
+
+        <article id="FitzArt" class="myArts noDisplay maroonBorder showShadow">
+            <p>
+                To All my friends, my apologies if you have recently received an email message supposedly from R.L. Fitzgerald asking for money or a gift card.  That wasn’t me!
+                <br /><br />
+                If you look at the Email address they used it was probably dcdrizle@hotmail.com, and not my actual dcdrizle@pacbell.net address.
+                <br /><br />
+                I don’t know how the spammer managed to get my address book, but it appears that just about everyone I’ve ever Emailed has gotten that spam and for that I am sorry.
+                <br /><br />
+                Please DO NOT open that email or reply to it and definitely do not open any attachments that came with it.
+                <br /><br />
+                Thank you,<br />
+                Bob
+            </p>
         </article>
 
         <article id="coloBreakfastArt" class="myArts noDisplay maroonBorder showShadow">

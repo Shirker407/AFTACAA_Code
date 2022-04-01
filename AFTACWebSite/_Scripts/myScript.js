@@ -137,6 +137,14 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myFitz').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#FitzArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#memTitle").offset().top
+        }, 500);
+    });
+
     $('#butmemReturn').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#MemorialArt').removeClass('noDisplay').addClass('block');
@@ -197,6 +205,11 @@ $(document).ready(function () {
     //    MainPageIndex = 'recentTitle'
     //    Open20Year('Wien');
     //});
+
+    $('#myCooley').click(function () {
+        MainPageIndex = 'recentTitle'
+        Open20Year('Cooley');
+    });
 
     $('#butWWR').mouseover(function () {
         $('#butWWR').css('background-color', 'red');
