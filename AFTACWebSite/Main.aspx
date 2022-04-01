@@ -3557,6 +3557,7 @@
                             <li id="Conrad" class="my20YearLi">Conrad, Charles E.</li>
                             <li id="Cramlet" class="my20YearLi">Cramlet, Alan B.</li>
                             <li id="Cronin" class="my20YearLi">Cronin, George E.</li>
+                            <li id="Cooley" class="my20YearLi">Cooley, William R.</li>
                             <li id="Dahlgren" class="my20YearLi">Dahlgren, Arthur L.</li>
                             <li id="Davis" class="my20YearLi">Davis, Jim C.</li>
                             <li id="DeForest" class="my20YearLi">DeForest, Daniel L.</li>
@@ -3568,12 +3569,12 @@
                             <li id="Draper" class="my20YearLi">Draper, Reginald A.</li>
                             <li id="Dunn" class="my20YearLi">Dunn, Bryce B.</li>
                             <li id="Farrell" class="my20YearLi">Farrell, Michael F.</li>
-                            <li id="Fish" class="my20YearLi">Fish, Norman</li>
                         </ul>
                     </div>
 
                     <div class="floatLeft leftMargin1em topMarginMinus1em backMoccasin maroonBorder" style="height:32em;width:22%;">
                         <ul id="WallList3" class="myList20Year topMargin1em">
+                            <li id="Fish" class="my20YearLi">Fish, Norman</li>
                             <li id="French" class="my20YearLi">French, Lloyd S.</li>
                             <li id="Fuhr" class="my20YearLi">Fuhr, William R.</li>
                             <li id="Gailey" class="my20YearLi">Gailey, Carl W. (D)</li>
@@ -3593,12 +3594,12 @@
                             <li id="Dave_Johnson" class="my20YearLi">Johnson, David M.</li>
                             <li id="Johnson" class="my20YearLi">Johnson, Joseph M. (D)</li>
                             <li id="Jones" class="my20YearLi">Jones, Robert H. (D)</li>
-                            <li id="Kemna" class="my20YearLi">Kemna, John G.</li>
                         </ul>
                     </div>
 
                     <div class="floatLeft leftMargin1em topMarginMinus1em backMoccasin maroonBorder" style="height:32em;width:22%;">
                         <ul id="WallList4" class="myList20Year topMargin1em">
+                            <li id="Kemna" class="my20YearLi">Kemna, John G.</li>
                             <li id="Klug" class="my20YearLi">Klug, Dale E.</li>
                             <li id="Labarre" class="my20YearLi">Labarre, Gerald R. (D)</li>
                             <li id="Lindsay_Ed" class="my20YearLi">Lindsay, Edward W.</li>
