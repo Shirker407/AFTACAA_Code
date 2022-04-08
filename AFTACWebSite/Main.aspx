@@ -393,10 +393,11 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday, 18 March<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday, 15 April<br />
                         11:30 - 13:00 Hrs<br />
                         --------------------------<br />
-                        AFTAC Alumni Association (AFTACAA) Quarterly General Membership Off-Site Luncheon and Teleconference Meeting                        <br />
+                        AFTAC Alumni Association General Membership Off-Site Luncheon and Teleconference Meeting<br />
+                        <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Focus on Reunion<br /></span>
                         <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note:  Please arrive at 1100 to order food, prior to start of meeting.<br /></span>
                         --------------------------<br />
                         Beef O'Brady's<br />
