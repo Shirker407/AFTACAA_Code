@@ -24,13 +24,6 @@ Public Class _Default
 
             lstNamesData = New DataSet
 
-            'sql = "Exec ArchiveNames"
-            'Get_Dataset(sql, lstNamesData, "ArchiveNames")
-
-            'ddObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
-            'ddObitNames.DataTextField = "Name"
-            'ddObitNames.DataValueField = "ID"
-            'ddObitNames.DataBind()
         End If
     End Sub
 
@@ -471,10 +464,6 @@ Public Class _Default
             ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
             winnerPnl.Visible = False
         End If
-    End Sub
-
-    Private Sub liMainPage_Click()
-
     End Sub
 
     Private Sub SendMail()
