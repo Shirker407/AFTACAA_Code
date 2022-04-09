@@ -473,6 +473,10 @@ Public Class _Default
         End If
     End Sub
 
+    Private Sub liMainPage_Click()
+
+    End Sub
+
     Private Sub SendMail()
         Try
 
