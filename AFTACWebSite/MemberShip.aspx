@@ -216,7 +216,7 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="width100">
-                                            <asp:Label ID="Label56" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Dets"></asp:Label>
+                                            <asp:Label ID="Label56" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="LRD Assignments"></asp:Label>
                                             <asp:TextBox ID="txtDets" CssClass="padding5 block" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>
                                         </div>
                                     </div>
