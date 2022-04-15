@@ -1596,6 +1596,7 @@
     <Content Include="_Minutes\12-17-2021_Minutes.pdf" />
     <Content Include="_Pomos\PoMo2021_12.pdf" />
     <Content Include="_PDFs\Calendar.pdf" />
+    <Content Include="_Minutes\3-18-2022_Minutes.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
