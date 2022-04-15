@@ -1439,7 +1439,6 @@
     <Content Include="_PDFs\Spring 2018 Golf Outing.pdf" />
     <Content Include="_Minutes\12-10-2018-Minutes.pdf" />
     <Content Include="_Minutes\1-14-2019_Minutes.pdf" />
-    <Content Include="_PDFs\Calendar.pdf" />
     <Content Include="_PDFs\Volunteers.pdf" />
     <Content Include="_Minutes\2-11-2019_Minutes.pdf" />
     <Content Include="_Minutes\3-11-2019_Minutes.pdf" />
@@ -1596,6 +1595,7 @@
     <Content Include="_Minutes\11-8-2021_Minutes.pdf" />
     <Content Include="_Minutes\12-17-2021_Minutes.pdf" />
     <Content Include="_Pomos\PoMo2021_12.pdf" />
+    <Content Include="_PDFs\Calendar.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

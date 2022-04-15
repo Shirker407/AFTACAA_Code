@@ -91,14 +91,15 @@ Module Module1
     Public Sub Run_Sql(ByVal S As String)
         'Will run a sql statement with no return value
         Dim cmd As New SqlCommand
-        Dim cn As New SqlConnection
+        Dim cn As New SqlConnection With {.ConnectionString = cs}
+        Dim x As Integer
 
-        cn.ConnectionString = cs
+        'cn.ConnectionString = cs
         cn.Open()
         cmd.Connection = cn
         cmd.CommandType = CommandType.Text
         cmd.CommandText = S
-        cmd.ExecuteNonQuery()
+        x = cmd.ExecuteNonQuery()
         cn.Close()
 
     End Sub
