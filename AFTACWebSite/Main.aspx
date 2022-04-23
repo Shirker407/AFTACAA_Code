@@ -4093,7 +4093,7 @@
                             <p class="centerText whiteText">The Alumni of the Year that attended the 2021 AOY Presentation</p>
                         </div>
                         <img alt="_Photos/SB2020/AOY2021.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2021.jpg" />
-                        <p class="italic fontSize1em width65 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Bob Wiley (2008), Sean P. Ryan (2014), Frank Calenda (2015), Dee & Gene Melchior (2012), Pete Gilbert (2018), Bryce Dunn (2019)</p>
+                        <p class="italic fontSize1em width65 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Sean P. Ryan (2014), Bob Wiley (2008), Lou Seiler (2021), Frank Hall (1998), Frank Calenda (2015), Ed Lindsay (2020), Judy Milam (1997), Gene Melchior (2012)</p>
                    </div>
                     <div class="carousel-item">
                         <div class="width95 autoMarginLeftRight italic">
