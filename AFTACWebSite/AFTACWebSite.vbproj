@@ -312,6 +312,8 @@
     <Content Include="_Photos\AOY-2020\AOY1.jpg" />
     <Content Include="_Photos\AOY-2020\AOY2.jpg" />
     <Content Include="_Photos\AOY-2020\AOY3.JPG" />
+    <Content Include="_Photos\AOY-2021\Seiler1.jpg" />
+    <Content Include="_Photos\AOY-2021\Seiler2.jpg" />
     <Content Include="_Photos\AOY\Alumni2019.JPG" />
     <Content Include="_Photos\AOY\Alumni2018.jpg" />
     <Content Include="_Photos\AOY\Dunn.JPG" />
@@ -323,6 +325,7 @@
     <Content Include="_Photos\AOY\Kemna_1.jpg" />
     <Content Include="_Photos\AOY\Kemna_2.jpg" />
     <Content Include="_Photos\AOY\Lindsay.png" />
+    <Content Include="_Photos\AOY\Seiler1.jpg" />
     <Content Include="_Photos\AOY\SnowballAOY.jpg" />
     <Content Include="_Photos\AOY\Snyder-Pat.png" />
     <Content Include="_Photos\AOY\snyder.png" />
@@ -1083,6 +1086,7 @@
     <Content Include="_Photos\Retreat\Retreat5.jpg" />
     <Content Include="_Photos\Retreat\Retreat6.jpg" />
     <Content Include="_Photos\SB2020\AOY2020.jpg" />
+    <Content Include="_Photos\SB2020\AOY2021.JPG" />
     <Content Include="_Photos\SB2020\MP1.png" />
     <Content Include="_Photos\SB2020\MP10.png" />
     <Content Include="_Photos\SB2020\MP11.png" />

@@ -4043,6 +4043,7 @@
         
             <div class="italic width90 autoMarginLeftRight maroonBorder smallShadow backChocolate padding5">
                 <ul class="alumniList leftMargin5em floatLeft leftMargin1em">
+                    <li id="seilerSel">Lou Seiler-2021</li>
                     <li id="lindsaySel">Ed Lindsay-2020</li>
                     <li id="dunnSel">Bryce Dunn-2019</li>
                     <li id="gilbertSel">Pete Gilbert-2018</li>
@@ -4051,9 +4052,9 @@
                     <li id="calendaSel">Frank Calenda-2015</li>
                     <li id="ryanSel">Sean Ryan-2014</li>
                     <li id="gibbonsSel" class="yellowText">Lonnie Gibbons-2013</li>
-                    <li id="melchiorSel" class="yellowText">Gene & Dee Melchior-2012</li>
                 </ul>   
                 <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
+                    <li id="melchiorSel" class="yellowText">Gene & Dee Melchior-2012</li>
                     <li id="klugSel" class="yellowText">Dale Klug-2011</li>
                     <li id="smithSel" class="yellowText">Jack Smith-2010</li>
                     <li id="jacksonSel" class="yellowText">Jack Jackson-2009</li>
@@ -4062,9 +4063,9 @@
                     <li id="carsonSel" class="yellowText">Deborah Carson-2006</li>
                     <li id="blackSel" class="yellowText">Mike Black-2005</li>
                     <li id="goldianSel" class="yellowText">Joe Goldian-2004</li>
-                    <li id="snyderpSel" class="yellowText">Pat Snyder-2003</li>
                 </ul>
                 <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
+                    <li id="snyderpSel" class="yellowText">Pat Snyder-2003</li>
                     <li id="johnsonpSel" class="yellowText">Joe Johnson-2002</li>
                     <li id="payneSel" class="yellowText">Jim Payne-2001</li>
                     <li id="vlassickpSel" class="yellowText">Ben Vlassick-2000</li>
@@ -4088,6 +4089,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <div class="width95 autoMarginLeftRight italic">
+                            <p class="centerText whiteText">The Alumni of the Year that attended the 2021 AOY Presentation</p>
+                        </div>
+                        <img alt="_Photos/SB2020/AOY2021.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2021.jpg" />
+                        <p class="italic fontSize1em width65 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Bob Wiley (2008), Sean P. Ryan (2014), Frank Calenda (2015), Dee & Gene Melchior (2012), Pete Gilbert (2018), Bryce Dunn (2019)</p>
+                   </div>
+                    <div class="carousel-item">
                         <div class="width95 autoMarginLeftRight italic">
                             <p class="centerText whiteText">The Alumni of the Year that attended the 2020 Florida Snowball</p>
                         </div>
@@ -4122,6 +4130,30 @@
                 <img alt="Not Included" class="autoMarginLeftRight width30 topMargin2em maroonBorder smallShadow" src="_Images/Not Included.jpg" />
 
                 <p class="pTitle centerText">This page is still under construction.<br />We are still looking for some documentation.</p>
+            </article>
+
+            <article id="seiler" class="alumArt noDisplay">
+                <p class="pTitle centerText titlePara">
+                    Lou Seiler<br />
+                    2021 ALUMNI OF THE YEAR
+                </p>
+                <figure>
+                    <img alt="Seiler.jpg" class="width45 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/Seiler1.jpg" />
+                    <figcaption class="width40 autoMarginLeftRight topMargin1em maroonText italic fontSize1em">
+                        Lou Seiler
+                    </figcaption>
+                </figure>
+                <p>
+                    The AFTACAA Alumni of the Year (AOY) selectee for 2021 is Lou Seiler. Lou joined the Air Force in 1969, completing OTS on 22 December 1969. After assignments at Offutt AFB and Wright-Patterson AFB, Lou was assigned to AFTAC in 1976. He worked as a “T” alert officer out of TFE, working the last known atmospheric tests on record including C-19, C-21, and “747.” 
+                    <br /><br />
+                    After an assignment to Eglin AFB/Armament Laboratory working basic research in materials strength, shaped charge warhead development, and the “Star Wars” programs for Rail Gun and Boosted Space Interceptors, Lou returned to AFTAC in 1985 and worked as a “T” alert officer in the now TTE office. In 1987 Lou was designated chief of the new “DOSB” alert operations office within DO, where he worked until retiring in October 1989. 
+                    <br /><br />
+                    After retirement Lou worked at Harris (now L3Harris) in various space programs. Lou has been a regular at the AFTAC Alumni meetings and was president of the Association for three years (2014-15-16) overseeing the 2015 AFTAC Worldwide Reunion (WWR). 
+                    <br /><br />
+                    In October of 2012 Lou was introduced to an organization called Space Coast Honor Flight and was totally hooked on their mission to provide Veterans (primarily WWII Vets at that time) a trip to visit their memorials in Washington, D.C., and he supported the activity as a photographer/videographer and was elected to the Board of Directors to fully manage these activities for the organization. He continues in that role. 
+                    <br /><br />
+                    After moving into the new AFTAC building, the AFTAC Commander asked if the Alumni would take on a project to replace the plaques from the old building lobby with some sort of memorial to fallen AFTAC members. Lou volunteered to lead the effort.
+                </p>
             </article>
 
             <article id="lindsay" class="alumArt noDisplay">

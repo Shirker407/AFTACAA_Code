@@ -1214,6 +1214,11 @@ $(document).ready(function () {
         //image = '_Photos/Wall/' + $(this).attr('id') + '.jpg';
 
         switch ($(this).attr('id')) {
+            case 'seilerSel':
+                $('.alumArt').removeClass('block').addClass('noDisplay');
+                $('#seiler').removeClass('noDisplay').addClass('block');
+                $('#AOYCarousel').removeClass('block').addClass('noDisplay');
+                break;
             case 'lindsaySel':
                 $('.alumArt').removeClass('block').addClass('noDisplay');
                 $('#lindsay').removeClass('noDisplay').addClass('block');
