@@ -4129,16 +4129,17 @@
 
                 <p id="aoyDirections" class="centerText topMarginMinus1em whiteText block fontSize1em italic">Mouse Cursor in Blue Box = Pause Slide Show<br />Click Left Side = Previous&nbsp;&nbsp;&nbsp;Click Right Side = Next</p>
 
-                <input id="btnShowSlides" class="myBut autoMarginLeftRight noDisplay" type="button" value=" Show SlideShow "/> 
             </div>
 
-            <div class="clear">
+            <input id="btnShowSlides" class="myBut autoMarginLeftRight noDisplay" type="button" value=" Show SlideShow "/> 
 
             <article id="notIncluded" class="alumArt noDisplay">
                 <img alt="Not Included" class="autoMarginLeftRight width30 topMargin2em maroonBorder smallShadow" src="_Images/Not Included.jpg" />
 
                 <p class="pTitle centerText">This page is still under construction.<br />We are still looking for some documentation.</p>
             </article>
+
+            <div id="ScrollTarget" style="height:0px;"></div> <%--ScrollTarget is just a target I point to for scrolling--%>
 
             <article id="seiler" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -4255,7 +4256,7 @@
 
             <article id="snyder" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Carol Snyder <br />2016 ALUMNUS OF THE YEAR
+                    Carol Snyder <br />2016 ALUMNA OF THE YEAR
                 </p>
                 <img alt="Snyder.png" class="autoMarginLeftRight width40 maroonBorder showShadow" src="_Photos/AOY/snyder.png" />
                 <p>
@@ -4997,9 +4998,9 @@
                 </p>
             </article>
 
+            <div class="centerDiv">
+                <input id="butAOYTop" class="myBut autoMarginLeftRight noDisplay" type="button" value="Go Back to Top of Page" />
             </div>
-
-            <div class="clear"></div>
 
         </article>
 

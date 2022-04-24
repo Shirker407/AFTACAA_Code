@@ -179,7 +179,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#FloridaTodayArticle').click(function (){
+    $('#FloridaTodayArticle').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#FloridaTodayArt').removeClass('noDisplay').addClass('block');
     });
@@ -191,12 +191,12 @@ $(document).ready(function () {
     $('#myFun').click(function () {
         //window.open('https://rumble.com/vff98d-room-with-a-view-by-frank.html', '');
         //window.open('https://rumble.com/vcs90t-incredible-dust-pan-artist.html', '');
-        window.open('https://www.youtube.com/watch?v=up36KS0X6zI','');
-    //    $('.myArts').removeClass('block').addClass('noDisplay');
-    //    $('#millerArt').removeClass('noDisplay').addClass('block');
-    //    $([document.documentElement, document.body]).animate({
-    //        scrollTop: $("#millerPara").offset().top
-    //    }, 500);
+        window.open('https://www.youtube.com/watch?v=up36KS0X6zI', '');
+        //    $('.myArts').removeClass('block').addClass('noDisplay');
+        //    $('#millerArt').removeClass('noDisplay').addClass('block');
+        //    $([document.documentElement, document.body]).animate({
+        //        scrollTop: $("#millerPara").offset().top
+        //    }, 500);
     });
 
     $('#myDohaney').click(function () {
@@ -358,7 +358,7 @@ $(document).ready(function () {
     });
 
     $('#btnInvite').click(function () {
-        window.open('https://einvitations.afit.edu/inv/anim.cfm?i=476640&k=0666440F7F57','')
+        window.open('https://einvitations.afit.edu/inv/anim.cfm?i=476640&k=0666440F7F57', '')
     })
 
     $('#triCare').click(function () {
@@ -414,7 +414,7 @@ $(document).ready(function () {
         $('#wallListings').removeClass('block').addClass('noDisplay');
         $('#hideListings').removeClass('noDisplay').addClass('block');
         $('#wallImg').removeClass('noDisplay').addClass('block');
-        $('#wallImg').attr('src','_photos/20yearwall/lindsay_ed.jpg')
+        $('#wallImg').attr('src', '_photos/20yearwall/lindsay_ed.jpg')
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#hideListings").offset().top
         }, 500);
@@ -494,7 +494,7 @@ $(document).ready(function () {
         $('#wohDiv').removeClass('block').addClass('noDisplay');
         $('#wohName').html('');
         $('#wohImg').attr('src', 'xxx');
-        $('#wohVerbage').attr('text','');
+        $('#wohVerbage').attr('text', '');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#pWOH_Honorees").offset().top
         }, 500);
@@ -785,7 +785,7 @@ $(document).ready(function () {
         $('#alumniArt').removeClass('noDisplay').addClass('block');
         $('#AOYList').removeClass('noDisplay').addClass('block');
         $('#AOYCarousel').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({ scrollTop: $(".myAlumni").offset().top}, 500);
+        $([document.documentElement, document.body]).animate({ scrollTop: $(".myAlumni").offset().top }, 500);
     });
 
     $('#liOfficers').click(function () {
@@ -1360,29 +1360,28 @@ $(document).ready(function () {
                 $('#AOYCarousel').removeClass('block').addClass('noDisplay');
         }
 
-        var position = $("#image").offset().top;
-
-        $(function () {
-            $("#top").on('click', function () {
-                var position = $("#image").offset().top;
-                $("HTML, BODY").animate({
-                    scrollTop: position
-                }, 1000);
-            });
-        });
-
         $('#btnShowSlides').removeClass('noDisplay').addClass('block');
         $('#aoyDirections').removeClass('block').addClass('noDisplay');
 
+        $('#butAOYTop').removeClass('noDisplay').addClass('block');
+
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#btnShowSlides").offset().top
+            scrollTop: $("#ScrollTarget").offset().top
         }, 500);
+
+    });
+
+    $('#butAOYTop').click(function (){
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#lblAOY").offset().top
+        }, 500)
     });
 
     $('#btnShowSlides').click(function () {
         $('#aoyDirections').removeClass('noDisplay').addClass('block');
         $('#AOYCarousel').removeClass('noDisplay').addClass('block');
         $('#btnShowSlides').removeClass('block').addClass('noDisplay');
+        $('#butAOYTop').removeClass('block').addClass('noDisplay');
         $('.alumArt').removeClass('block').addClass('noDisplay');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#lblAOY").offset().top
@@ -4322,6 +4321,8 @@ $(document).ready(function () {
         $('.underSel').css('color', 'yellow');
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#alumniArt').removeClass('noDisplay').addClass('block');
+        $('#AOYList').removeClass('noDisplay').addClass('block');
+        $('#AOYCarousel').removeClass('noDisplay').addClass('block');
 
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#lblAOY").offset().top
