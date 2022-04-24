@@ -1384,8 +1384,7 @@ $(document).ready(function () {
         $('#butAOYTop').removeClass('block').addClass('noDisplay');
         $('.alumArt').removeClass('block').addClass('noDisplay');
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#lblAOY").offset().top
-        }, 500);
+            scrollTop: $("#lblAOY").offset().top}, 500);
     });
     //**********************************************************************
 
