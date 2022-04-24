@@ -104,6 +104,15 @@ $(document).ready(function () {
         $('#btnPage2').addClass('myPageSelected').removeClass('myPageOriginal');
     });
 
+    $('#AOY2021').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#alumniArt').removeClass('noDisplay').addClass('block');
+        $('#AOYList').removeClass('block').addClass('noDisplay');
+        $('#AOYCarousel').removeClass('block').addClass('noDisplay');
+        $('#seiler').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({ scrollTop: $("#lblAOY").offset().top }, 500);
+    });
+
     $('#my9s').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#9sArt').removeClass('noDisplay').addClass('block');
@@ -772,10 +781,11 @@ $(document).ready(function () {
         $('.underMenu').removeClass('block').addClass('noDisplay');
         $('.underSel').css('color', 'yellow');
         $('.myArts').removeClass('block').addClass('noDisplay');
+        $('.myAlumni').removeClass('block').addClass('noDisplay');
         $('#alumniArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#lblAOY").offset().top
-        }, 500);
+        $('#AOYList').removeClass('noDisplay').addClass('block');
+        $('#AOYCarousel').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({ scrollTop: $(".myAlumni").offset().top}, 500);
     });
 
     $('#liOfficers').click(function () {
@@ -1350,6 +1360,16 @@ $(document).ready(function () {
                 $('#AOYCarousel').removeClass('block').addClass('noDisplay');
         }
 
+        var position = $("#image").offset().top;
+
+        $(function () {
+            $("#top").on('click', function () {
+                var position = $("#image").offset().top;
+                $("HTML, BODY").animate({
+                    scrollTop: position
+                }, 1000);
+            });
+        });
 
         $('#btnShowSlides').removeClass('noDisplay').addClass('block');
         $('#aoyDirections').removeClass('block').addClass('noDisplay');
@@ -4302,6 +4322,7 @@ $(document).ready(function () {
         $('.underSel').css('color', 'yellow');
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#alumniArt').removeClass('noDisplay').addClass('block');
+
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#lblAOY").offset().top
         }, 500);

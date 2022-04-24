@@ -274,6 +274,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="AOY2021" class="announcement blueText">Lou Seiler Latest Alumni of Year</td>
+                                    <td class="posted blueText">4/23/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="my9s" class="announcement blueText">Saving the 9S Career Field<br />by CMSgt (ret) Larry Silhanek.</td>
                                     <td class="posted blueText">4/1/2022</td>
                                     <td class="event blueText"></td>
@@ -4041,52 +4046,55 @@
         <article id="alumniArt" class="myArts noDisplay">
             <asp:Label ID="lblAOY" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="Alumni of the Year"></asp:Label>
         
-            <div class="italic width90 autoMarginLeftRight maroonBorder smallShadow backChocolate padding5">
-                <ul class="alumniList leftMargin5em floatLeft leftMargin1em">
-                    <li id="seilerSel">Lou Seiler-2021</li>
-                    <li id="lindsaySel">Ed Lindsay-2020</li>
-                    <li id="dunnSel">Bryce Dunn-2019</li>
-                    <li id="gilbertSel">Pete Gilbert-2018</li>
-                    <li id="kemnaSel">John "Butch" Kemna-2017</li>
-                    <li id="snyderSel">Carol Snyder-2016</li>
-                    <li id="calendaSel">Frank Calenda-2015</li>
-                    <li id="ryanSel">Sean Ryan-2014</li>
-                    <li id="gibbonsSel" class="yellowText">Lonnie Gibbons-2013</li>
-                </ul>   
-                <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
-                    <li id="melchiorSel" class="yellowText">Gene & Dee Melchior-2012</li>
-                    <li id="klugSel" class="yellowText">Dale Klug-2011</li>
-                    <li id="smithSel" class="yellowText">Jack Smith-2010</li>
-                    <li id="jacksonSel" class="yellowText">Jack Jackson-2009</li>
-                    <li id="wileySel" class="yellowText">Bob Wiley-2008</li>
-                    <li id="schmiedSel" class="yellowText">Bill Schmied-2007</li>
-                    <li id="carsonSel" class="yellowText">Deborah Carson-2006</li>
-                    <li id="blackSel" class="yellowText">Mike Black-2005</li>
-                    <li id="goldianSel" class="yellowText">Joe Goldian-2004</li>
-                </ul>
-                <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
-                    <li id="snyderpSel" class="yellowText">Pat Snyder-2003</li>
-                    <li id="johnsonpSel" class="yellowText">Joe Johnson-2002</li>
-                    <li id="payneSel" class="yellowText">Jim Payne-2001</li>
-                    <li id="vlassickpSel" class="yellowText">Ben Vlassick-2000</li>
-                    <li id="horschpSel" class="yellowText">John & Christel Horsch-1999</li>
-                    <li id="hallpSel" class="yellowText">Frank Hall-1998</li>
-                    <li id="milampSel" class="yellowText">Judy Milam-1997</li>
-                    <li id="gaileypSel" class="yellowText">Carl Gailey-1996</li>
-                    <li class="yellowText">Clark Creery-1995</li>
-                </ul>
-                <div class="clear"></div>
+            <div id="AOYList" class="block">
+                <div class="italic width90 autoMarginLeftRight maroonBorder smallShadow backChocolate padding5">
+                    <ul class="alumniList leftMargin5em floatLeft leftMargin1em">
+                        <li id="seilerSel">Lou Seiler-2021</li>
+                        <li id="lindsaySel">Ed Lindsay-2020</li>
+                        <li id="dunnSel">Bryce Dunn-2019</li>
+                        <li id="gilbertSel">Pete Gilbert-2018</li>
+                        <li id="kemnaSel">John "Butch" Kemna-2017</li>
+                        <li id="snyderSel">Carol Snyder-2016</li>
+                        <li id="calendaSel">Frank Calenda-2015</li>
+                        <li id="ryanSel">Sean Ryan-2014</li>
+                        <li id="gibbonsSel" class="yellowText">Lonnie Gibbons-2013</li>
+                    </ul>   
+                    <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
+                        <li id="melchiorSel" class="yellowText">Gene & Dee Melchior-2012</li>
+                        <li id="klugSel" class="yellowText">Dale Klug-2011</li>
+                        <li id="smithSel" class="yellowText">Jack Smith-2010</li>
+                        <li id="jacksonSel" class="yellowText">Jack Jackson-2009</li>
+                        <li id="wileySel" class="yellowText">Bob Wiley-2008</li>
+                        <li id="schmiedSel" class="yellowText">Bill Schmied-2007</li>
+                        <li id="carsonSel" class="yellowText">Deborah Carson-2006</li>
+                        <li id="blackSel" class="yellowText">Mike Black-2005</li>
+                        <li id="goldianSel" class="yellowText">Joe Goldian-2004</li>
+                    </ul>
+                    <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
+                        <li id="snyderpSel" class="yellowText">Pat Snyder-2003</li>
+                        <li id="johnsonpSel" class="yellowText">Joe Johnson-2002</li>
+                        <li id="payneSel" class="yellowText">Jim Payne-2001</li>
+                        <li id="vlassickpSel" class="yellowText">Ben Vlassick-2000</li>
+                        <li id="horschpSel" class="yellowText">John & Christel Horsch-1999</li>
+                        <li id="hallpSel" class="yellowText">Frank Hall-1998</li>
+                        <li id="milampSel" class="yellowText">Judy Milam-1997</li>
+                        <li id="gaileypSel" class="yellowText">Carl Gailey-1996</li>
+                        <li class="yellowText">Clark Creery-1995</li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+
+                <p id="AOYPara" class="centerText italic fontSize1em maroonText">
+                    Click a name in the list to see their biography
+                </p>
             </div>
 
-            <p id="AOYPara" class="centerText italic fontSize1em maroonText">
-                Click a name in the list to see their biography
-            </p>
-
-            <div id="AOYCarousel" class="carousel block slide backDarkBlue" data-ride="carousel">
-                <ol class="carousel-indicators">
+            <div id="AOYCarousel" class="carousel block slide whiteBorder backDarkBlue" data-ride="carousel">
+<%--                <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
-                </ol>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>--%>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="width95 autoMarginLeftRight italic">
@@ -4094,7 +4102,7 @@
                         </div>
                         <img alt="_Photos/SB2020/AOY2021.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2021.jpg" />
                         <p class="italic fontSize1em width65 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Sean P. Ryan (2014), Bob Wiley (2008), Lou Seiler (2021), Frank Hall (1998), Frank Calenda (2015), Ed Lindsay (2020), Judy Milam (1997), Gene Melchior (2012)</p>
-                   </div>
+                </div>
                     <div class="carousel-item">
                         <div class="width95 autoMarginLeftRight italic">
                             <p class="centerText whiteText">The Alumni of the Year that attended the 2020 Florida Snowball</p>
@@ -4118,12 +4126,12 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div> 
+
+                <p id="aoyDirections" class="centerText topMarginMinus1em whiteText block fontSize1em italic">Mouse Cursor in Blue Box = Pause Slide Show<br />Click Left Side = Previous&nbsp;&nbsp;&nbsp;Click Right Side = Next</p>
+
+                <input id="btnShowSlides" class="myBut autoMarginLeftRight noDisplay" type="button" value=" Show SlideShow "/> 
             </div>
 
-            <p id="aoyDirections" class="centerText block fontSize1em italic maroonText">Mouse Cursor in Blue Box = Pause Slide Show<br />Click Left Side = Previous&nbsp;&nbsp;&nbsp;Click Right Side = Next</p>
-
-            <input id="btnShowSlides" class="myBut autoMarginLeftRight noDisplay" type="button" value=" Show SlideShow "/> 
-            
             <div class="clear">
 
             <article id="notIncluded" class="alumArt noDisplay">
@@ -4132,13 +4140,13 @@
                 <p class="pTitle centerText">This page is still under construction.<br />We are still looking for some documentation.</p>
             </article>
 
-            <article id="seiler" class="alumArt noDisplay">
+            <article id="seiler" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Lou Seiler<br />
-                    2021 ALUMNI OF THE YEAR
+                    2021 ALUMNUS OF THE YEAR
                 </p>
                 <figure>
-                    <img alt="Seiler.jpg" class="width45 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/Seiler1.jpg" />
+                    <img alt="Seiler1.jpg" class="width45 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY-2021/Seiler1.jpg" />
                     <figcaption class="width40 autoMarginLeftRight topMargin1em maroonText italic fontSize1em">
                         Lou Seiler
                     </figcaption>
@@ -4156,10 +4164,10 @@
                 </p>
             </article>
 
-            <article id="lindsay" class="alumArt noDisplay">
+            <article id="lindsay" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Edward Lindsay<br />
-                    2020 ALUMNI OF THE YEAR
+                    2020 ALUMNUS OF THE YEAR
                 </p>
                 <figure>
                     <img alt="Lindsay.png" class="width45 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/Lindsay.png" />
@@ -4186,10 +4194,10 @@
                 </p>
             </article>
 
-            <article id="dunn" class="alumArt noDisplay">
+            <article id="dunn" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Wallace Bryce Dunn<br />
-                    2019 ALUMNI OF THE YEAR
+                    2019 ALUMNUS OF THE YEAR
                 </p>
                 <figure>
                     <img alt="Dunn.jpg" class="width60 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/Dunn.jpg" />
@@ -4208,10 +4216,10 @@
                 </p>
             </article>
 
-            <article id="gilbert" class="alumArt noDisplay">
+            <article id="gilbert" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Pete Gilbert<br />
-                    2018 ALUMNI OF THE YEAR
+                    2018 ALUMNUS OF THE YEAR
                 </p>
                 <img alt="Gilbert.jpg" class="width40 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/Gilbert.jpg" />
                 <p>
@@ -4231,10 +4239,10 @@
                 </p>
             </article>
 
-            <article id="kemna" class="alumArt noDisplay">
+            <article id="kemna" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText">
                     John "Butch" Kemna<br />
-                    2017 ALUMNI OF THE YEAR
+                    2017 ALUMNUS OF THE YEAR
                 </p>
                 <img alt="Kemna1" class="width40 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/Kemna_1.jpg" />
                 <p>
@@ -4245,9 +4253,9 @@
                 </p>
             </article>
 
-            <article id="snyder" class="alumArt noDisplay">
+            <article id="snyder" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Carol Snyder <br />2016 ALUMNI OF THE YEAR
+                    Carol Snyder <br />2016 ALUMNUS OF THE YEAR
                 </p>
                 <img alt="Snyder.png" class="autoMarginLeftRight width40 maroonBorder showShadow" src="_Photos/AOY/snyder.png" />
                 <p>
@@ -4263,9 +4271,9 @@
                 </p>
             </article>                                                                                                                                                                  
 
-            <article id="calenda" class="alumArt noDisplay">
+            <article id="calenda" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Frank S. Calenda <br />2015 ALUMNI OF THE YEAR
+                    Frank S. Calenda <br />2015 ALUMNUS OF THE YEAR
                 </p>
                 <p>
                     Frank started his Air Force career in August 1955 and was in one of the last flights to complete the 3
@@ -4320,9 +4328,9 @@
                 <p class="pTitle centerText">Very Well Deserved!!</p>
             </article>
 
-            <article id="ryan" class="alumArt noDisplay">
+            <article id="ryan" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Sean Ryan<br />2014 ALUMNI OF THE YEAR
+                    Sean Ryan<br />2014 ALUMNUS OF THE YEAR
                 </p>
                 <p>
                     Sean stepped up in September, 2009, to offer his services as the Chapter Secretary for the FY2010 Board and has continued in that
@@ -4351,9 +4359,9 @@
                 </p>
             </article>
 
-            <article id="gibbons" class="alumArt noDisplay">
+            <article id="gibbons" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Alumni of the year, 2013<br />MSgt (Ret) Lonnie Gibbons
+                    ALUMNUS of the year, 2013<br />MSgt (Ret) Lonnie Gibbons
                 </p>
 
                 <img alt="gibbons2.png" class="width50 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/gibbons2.png"/>
@@ -4414,7 +4422,7 @@
                 </p>
             </article>
 
-            <article id="melchior" class="alumArt noDisplay">
+            <article id="melchior" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Alumni of the year, 2012<br />MSgt (Ret) Gene and Dee Mechior
                 </p>
@@ -4459,9 +4467,9 @@
                 </p>
             </article>
 
-            <article id="klug" class="alumArt noDisplay">
+            <article id="klug" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Alumni of the year, 2011<br />Dale Klug
+                    ALUMNUS of the year, 2011<br />Dale Klug
                 </p>
 
                 <p>
@@ -4518,9 +4526,9 @@
                 </p>
             </article>
 
-            <article id="smith" class="alumArt noDisplay">
+            <article id="smith" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Jack Smith<br />ALUMNI OF THE YEAR, 2010
+                    Jack Smith<br />ALUMNUS OF THE YEAR, 2010
                 </p>
 
                 <img alt="smith1.png" class="width50 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/smith1.png"/>
@@ -4579,9 +4587,9 @@
                 </p>
             </article>
 
-            <article id="jackson" class="alumArt noDisplay">
+            <article id="jackson" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Walter ‘Jack’ Jackson <br />ALUMNI OF THE YEAR, 2009
+                    Walter ‘Jack’ Jackson <br />ALUMNUS OF THE YEAR, 2009
                 </p>
 
                 <p>
@@ -4626,9 +4634,9 @@
                 <div class="clear"></div>
             </article>
 
-            <article id="wiley" class="alumArt noDisplay">
+            <article id="wiley" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Robert ‘Bob’ Wiley<br />Alumni Of The Year, 2008!!                     
+                    Robert ‘Bob’ Wiley<br />ALUMNUS Of The Year, 2008!!                     
                 </p>
                 <img alt="wiley.png" class="autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/wiley.png" /> 
                 <p class="centerText italic maroonText" style="font-size:.8em;">
@@ -4647,9 +4655,9 @@
                 </p>
             </article>
 
-            <article id="schmied" class="alumArt noDisplay">
+            <article id="schmied" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    2007 ALUMNI OF THE YEAR <br />WILLIAM "BILL" SCHMIED                     
+                    2007 ALUMNUS OF THE YEAR <br />WILLIAM "BILL" SCHMIED                     
                 </p>
                 <img alt="schmied1.png" class="maroonBorder showShadow autoMarginLeftRight" src="_Photos/AOY/schmied1.png" />
                 <p>
@@ -4689,9 +4697,9 @@
 
             </article>
 
-            <article id="carson" class="alumArt noDisplay">
+            <article id="carson" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    2006 ALUMNI OF THE YEAR <br />DEBORAH CARSON                     
+                    2006 ALUMNA OF THE YEAR <br />DEBORAH CARSON                     
                 </p>
                 <img alt="carson.png" class="maroonBorder showShadow autoMarginLeftRight" src="_Photos/AOY/carson.png" />
                 <p>
@@ -4709,9 +4717,9 @@
                 </p>
             </article>
             
-            <article id="black" class="alumArt noDisplay">
+            <article id="black" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    2005 ALUMNI OF THE YEAR <br />MIKE BLACK                    
+                    2005 ALUMNUS OF THE YEAR <br />MIKE BLACK                    
                 </p>
 
                 <img alt="black.png" class="width50 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/black.png" />
@@ -4772,9 +4780,9 @@
                 </p>
             </article>
             
-            <article id="goldian" class="alumArt noDisplay">
+            <article id="goldian" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    2004 ALUMNI OF THE YEAR <br />JOE GOLDIAN                    
+                    2004 ALUMNUS OF THE YEAR <br />JOE GOLDIAN                    
                 </p>
                 <img alt="goldian.png" class="maroonBorder showShadow autoMarginLeftRight" src="_Photos/AOY/goldian.png" />
                 <p>
@@ -4821,9 +4829,9 @@
                 </p>
             </article>
  
-            <article id="payne" class="alumArt noDisplay">
+            <article id="payne" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    2001 ALUMNI OF THE YEAR <br />JIM PAYNE                    
+                    2001 ALUMNUS OF THE YEAR <br />JIM PAYNE                    
                 </p>
                 <img alt="payne.png" class="maroonBorder showShadow autoMarginLeftRight" src="_Photos/AOY/payne.png" />
                 <p>
@@ -4839,9 +4847,9 @@
                 </p>
             </article>
 
-            <article id="SnyderP" class="alumArt noDisplay">
+            <article id="SnyderP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    2003 ALUMNI OF THE YEAR <br />Pat Snyder                    
+                    2003 ALUMNA OF THE YEAR <br />Pat Snyder                    
                 </p>
                 <figure>
                     <img alt="Snyder-P.png" class="maroonBorder showShadow autoMarginLeftRight width75" src="_Photos/AOY/Snyder-Pat.png" />
@@ -4856,9 +4864,9 @@
                 </p>
             </article>
 
-            <article id="MilamP" class="alumArt noDisplay">
+            <article id="MilamP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    1997 ALUMNI OF THE YEAR <br />Judy Milam                    
+                    1997 ALUMNA OF THE YEAR <br />Judy Milam                    
                 </p>
                 <p>
                     <img alt="Milam_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Milam_AOY.png" />
@@ -4872,10 +4880,10 @@
                 </p>
             </article>
 
-            <article id="JohnsonP" class="alumArt noDisplay">
+            <article id="JohnsonP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     SMSGT (Ret) ,JOSEPH 'JOE' JOHNSON<br />
-                    Alumni of the Year 2002                   
+                    ALUMNUS of the Year 2002                   
                 </p>
                 <p>
                     <img alt="Johnson_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Johnson_AOY.png" />
@@ -4895,9 +4903,9 @@
                 </p>
             </article>
 
-            <article id="HallP" class="alumArt noDisplay">
+            <article id="HallP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    1998 ALUMNI OF THE YEAR <br />Frank Hall                  
+                    1998 ALUMNUS OF THE YEAR <br />Frank Hall                  
                 </p>
                 <p>
                     <img alt="Hall_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Hall_AOY.png" />
@@ -4918,9 +4926,9 @@
                 </p>
             </article>
 
-            <article id="HorschP" class="alumArt noDisplay">
+            <article id="HorschP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    1999 ALUMNI OF THE YEAR <br />John and Chris Horsch                  
+                    1999 ALUMNUS OF THE YEAR <br />John and Chris Horsch                  
                 </p>
                 <div class="autoMarginLeftRight width50">
                     <figure>
@@ -4944,9 +4952,9 @@
                 </p>
             </article>
 
-            <article id="VlassickP" class="alumArt noDisplay">
+            <article id="VlassickP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    2000 ALUMNI OF THE YEAR <br />Ben Vlassick               
+                    2000 ALUMNUS OF THE YEAR <br />Ben Vlassick               
                 </p>
 
                 <p>
@@ -4966,9 +4974,9 @@
                 </p>
             </article>
 
-            <article id="GaileyP" class="alumArt noDisplay">
+            <article id="GaileyP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    1996 ALUMNI OF THE YEAR <br />Carl Gailey             
+                    1996 ALUMNUS OF THE YEAR <br />Carl Gailey             
                 </p>
 
                 <p>
