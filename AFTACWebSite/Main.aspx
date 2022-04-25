@@ -11463,17 +11463,17 @@
 
                 <div id="pomo2" class="noDisplay">
                     <p class="centerText">Click on the Pomo of your choice.</p>
-                    <div id="decemberPomo" class="floatLeft width25 leftMargin8em">
-                        <img alt="December2021.png" class="myPomo width75 blackBorder showShadow" src="_Images/December2021.png" />
+                    <div id="aprilPomo" class="floatLeft leftMargin8em width25">
+                        <img alt="April2022.png" class="myPomo blackBorder showShadow" src="_Images/April2022.png" style="height:15em;" />
+                        <p class="centerText">April 2022</p>
+                    </div>
+                    <div id="decemberPomo" class="floatLeft width25">
+                        <img alt="December2021.png" class="myPomo blackBorder showShadow" src="_Images/December2021.png" style="height:15em;" />
                         <p class="centerText">December 2021</p>
                     </div>
-                    <div id="augustPomo" class="floatLeft width25 leftMargin1em">
-                        <img alt="April2021.png" class="myPomo width75 blackBorder showShadow" src="_Images/August2021.png" />
+                    <div id="augustPomo" class="floatLeft width25">
+                        <img alt="August2021.png" class="myPomo blackBorder showShadow" src="_Images/August2021.png" style="height:15em;" />
                         <p class="centerText">August 2021</p>
-                    </div>
-                    <div id="aprilPomo" class="floatLeft width25 leftMargin1em">
-                        <img alt="April2020.png" class="myPomo width75 blackBorder showShadow" src="_Images/April2021.png" />
-                        <p class="centerText">April 2021</p>
                     </div>
                 </div>
 
@@ -11513,7 +11513,21 @@
                     Simply click on the one you would like to see.
                 </p>
                 <hr class="myHR" />
+<%--               <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
+                    <p class="underLine">2021</p>
+                    <ul class="archList">
+                        <li><a class="maroonText" href="_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
+                    </ul>
+                </div>--%>
+
                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
+                    <p class="underLine">2021</p>
+                    <ul class="archList">
+                        <li><a class="maroonText" href="_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
+                    </ul>
+                </div>
+
+               <div class="floatLeft aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2020</p>
                     <ul class="archList">
                         <li><a class="maroonText" href="_Pomos/PoMo2020_12.pdf" target="_blank">December</a></li>
@@ -11559,7 +11573,11 @@
                     </ul>
                 </div>
 
-               <div class="floatLeft aLeft width15" style="margin-top:-1em;">
+                <div class="clear"></div>
+
+                <hr class="myHR autoMarginLeftRight" />
+
+               <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2015</p>
                     <ul class="archList">
                         <li><a class="maroonText" href='_Pomos/PoMo2015-12.pdf' target="_blank">December</a></li>
@@ -11568,11 +11586,7 @@
                     </ul>
                 </div>
 
-                <div class="clear"></div>
-
-                <hr class="myHR autoMarginLeftRight" />
-
-                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
+                <div class="floatLeft aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2014</p>
                     <ul class="archList">
                         <li><a class="maroonText" href='_Pomos/PoMo2014-12.pdf' target="_blank">December</a></li>
@@ -11617,7 +11631,11 @@
                     </ul>
                 </div>
 
-                <div class="floatLeft aLeft width15" style="margin-top:-1em;">
+                <div class="clear"></div>
+
+                <hr class="myHR autoMarginLeftRight" />
+
+                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2009</p>
                     <ul class="archList">
                         <li><a class="maroonText" href='_Pomos/PoMo2009-12.pdf' target="_blank">December</a></li>
@@ -11626,11 +11644,7 @@
                     </ul>
                 </div>
 
-                <div class="clear"></div>
-
-                <hr class="myHR autoMarginLeftRight" />
-
-                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
+                <div class="floatLeft aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2008</p>
                     <ul class="archList">
                         <li><a class="maroonText" href='_Pomos/PoMo2008-12.pdf' target="_blank">December</a></li>
@@ -11680,7 +11694,11 @@
                     </ul>
                 </div>
 
-                <div class="floatLeft aLeft width15" style="margin-top:-1em;"">
+                <div class="clear"></div>
+
+                <hr class="myHR autoMarginLeftRight" />
+
+                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;"">
                     <p class="underLine">2003</p>
                     <ul class="archList">
                         <li><a class="maroonText" href="_Pomos/PoMo2003-12.pdf" target="_blank">December</a></li>
@@ -11690,21 +11708,7 @@
                     </ul>
                 </div>
 
-<%--                <div class="floatLeft aLeft width15" style="margin-top:-1em;"">
-                    <p class="underLine">2002</p>
-                    <ul class="archList">
-                        <li><a class="maroonText" href="_Pomos/PoMo2002-12.pdf" target="_blank">December</a></li>
-                        <li><a class="maroonText" href='_Pomos/PoMo2002-09.pdf' target="_blank">September</a></li>
-                        <li><a class="maroonText" href='_Pomos/PoMo2002-06.pdf' target="_blank">June</a></li>
-                        <li><a class="maroonText" href='_Pomos/PoMo2002-03.pdf' target="_blank">March</a></li>
-                    </ul>
-                </div>--%>
-
-                <div class="clear"></div>
-
-                <hr class="myHR autoMarginLeftRight" />
-
-                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;"">
+                <div class="floatLeft aLeft width15" style="margin-top:-1em;"">
                     <p class="underLine">2002</p>
                     <ul class="archList">
                         <li><a class="maroonText" href="_Pomos/PoMo2002-12.pdf" target="_blank">December</a></li>
@@ -11754,7 +11758,11 @@
                     </ul>
                 </div>
 
-                <div class="floatLeft aLeft width15" style="margin-top:-1em;">
+                <div class="clear"></div>
+
+                <hr class="myHR autoMarginLeftRight" />
+
+                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">1997</p>
                     <ul class="archList">
                         <li><a class="maroonText" href='_Pomos/PoMo1997-12.pdf' target="_blank">December</a></li>
@@ -11764,11 +11772,7 @@
                     </ul>
                 </div>
 
-                <div class="clear"></div>
-
-                <hr class="myHR autoMarginLeftRight" />
-
-                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;"">
+                <div class="floatLeft aLeft width15" style="margin-top:-1em;"">
                     <p class="underLine">1996</p>
                     <ul class="archList">
                         <li><a class="maroonText" href="_Pomos/PoMo1996-12.pdf" target="_blank">December</a></li>

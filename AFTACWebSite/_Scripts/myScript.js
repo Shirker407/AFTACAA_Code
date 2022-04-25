@@ -2086,7 +2086,7 @@ $(document).ready(function () {
     });
 
     $('#aprilPomo').click(function () {
-        window.open('http://aftacaa.us/_Pomos/PoMo2021_04.pdf', '');
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_04.pdf', '');
     });
 
     $('#augustPomo').click(function () {

@@ -119,6 +119,7 @@
     <Content Include="_Images\91Years\Logo2.png" />
     <Content Include="_Images\91Years\Service.png" />
     <Content Include="_Images\April2021.png" />
+    <Content Include="_Images\April2022.png" />
     <Content Include="_Images\August2021.png" />
     <Content Include="_Images\Bob Land Celebration.png" />
     <Content Include="_Images\Borowski Obituary.jpg" />
@@ -1601,6 +1602,7 @@
     <Content Include="_Pomos\PoMo2021_12.pdf" />
     <Content Include="_PDFs\Calendar.pdf" />
     <Content Include="_Minutes\3-18-2022_Minutes.pdf" />
+    <Content Include="_Pomos\PoMo2022_04.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
