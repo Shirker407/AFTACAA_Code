@@ -254,7 +254,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 4/13/2022</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 4/23/2022</span>
                     </div>
                 </div>
 
@@ -273,6 +273,16 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpaceA" class="announcement blueText">Space Available Air Travel is back.</td>
+                                    <td class="posted blueText">4/25/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCwikla" class="announcement blueText">Jim Cwikla's Obituary was posted.</td>
+                                    <td class="posted blueText">4/25/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="AOY2021" class="announcement blueText">Lou Seiler Latest Alumni of Year</td>
                                     <td class="posted blueText">4/23/2022</td>
@@ -398,16 +408,14 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday, 15 April<br />
+                    <p class="blueText fontSize1_Halfem centerText">Thursday 12 May<br />
                         11:30 - 13:00 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association General Membership Off-Site Luncheon and Teleconference Meeting<br />
-                        <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Focus on Reunion<br /></span>
                         <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note:  Please arrive at 1100 to order food, prior to start of meeting.<br /></span>
                         --------------------------<br />
                         Beef O'Brady's<br />
                         3030 Lake Washington Rd., Melbourne, FL<br />
-                        <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note: Change of locale for this meeting.</span><br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Phil Godfrey, AFTACAA President, at <a href="MailTo:afsophil@gmail.com">afsophil@gmail.com</a>
@@ -11831,6 +11839,21 @@
 
 <%--                <p class="pTitle centerText padding5 maroonBorder showShadow">Currently at this time there are no Recent Obituaries.<br>Look in Archived Obituaries.</p>--%>
  
+                <article>
+                    <div>
+                        <h2 id="CwiklaH2" class="obitH1">Jim Cwikla - 4/24/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="CwiklaPara" class="obitPara noDisplay">
+                        <p>
+                            (Contacted by Ed LIndsay passing along email from Mike Stiewig.)
+                            "Apr 21, 2022, want to let folks know Jim Cwikla passed this morning.  He had cancer and had been failing. Not sure of the arrangements, but will pass that info on when I get it."
+                            <br /><br />
+                            Mike later added information of interest: "Jim was indeed a hell of a hand.  I was stationed with him for a few months at 423 in 75/76 (my first assignment). I have to admit he didn’t seem to trust my rookie capabilities too much back then, had me doing corrosion control pretty much solid…”if it doesn’t move, paint it!” Jim retired to Mesquite, NV, 8-10 years ago. He’s being cremated and I don’t believe there’s going to be any kind of service per se. His daughter is writing up an obit and I’ll pass it on with any other details when I get them."
+                         </p>
+                    </div>
+                </article>             
+  
                 <article>
                     <div>
                         <h2 id="CosnerH2" class="obitH1">Dale Cosner - 3/17/2022</h2>

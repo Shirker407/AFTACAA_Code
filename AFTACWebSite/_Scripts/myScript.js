@@ -76,6 +76,10 @@ $(document).ready(function () {
         window.open("https://www.youtube.com/embed/u_Qoo6qoY_I", "")
     });
 
+    $('#mySpaceA').click(function () {
+        window.open("https://www.amc.af.mil/AMC-Travel-Site/AMC-Space-Available-Travel-Page/", "")
+    });
+
     $('#atomicVets').click(function () {
         window.open("https://www.military.com/daily-news/2022/01/27/atomic-veterans-finally-get-commemorative-service-medal.html", "")
     });
@@ -1492,6 +1496,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myCwikla').click(function () {
+        OpenObit('Cwikla');
+    });
+
     $('#myCosner').click(function () {
         OpenObit('Cosner');
     });
@@ -1515,6 +1523,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'CwiklaH2':
+                ShowMyObit('Cwikla')
+                break;
             case 'CosnerH2':
                 ShowMyObit('Cosner')
                 break;
