@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AFTACWebSite",
+    "\\AFTACWebSite\\_Scripts"
   ],
+  "SelectedNode": "\\AFTACWebSite\\_Scripts\\myScript.js",
   "PreviewInSolutionExplorer": false
 }
