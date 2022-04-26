@@ -175,13 +175,11 @@
                 btnSearch.Enabled = True
 
                 Session("ListAction") = "name"
-                FillBoxes()
+                SearchListBox(searchname)
+
                 btnSave.Text = " Save Changes "
                 btnAdd.Text = " Add New "
                 pnlReasonForChange.Visible = True
-                SearchListBox(searchname)
-
-                FillBoxes()
             Catch
                 lblDBMess.Text = "Data was NOT Saved."
                 lblDBMess.ForeColor = Drawing.Color.Red
@@ -200,6 +198,7 @@
         For x = 0 To lstMembers.Items.Count - 1
             If UCase(lstMembers.Items(x).Text) = s Then
                 lstMembers.SelectedIndex = x
+                FillBoxes()
             End If
         Next
 
