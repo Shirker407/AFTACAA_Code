@@ -49,7 +49,6 @@
         Session("UserID") = lstMembers.SelectedValue
         Session("PWUser") = lstMembers.SelectedItem.Text
         Session("myIndex") = lstMembers.SelectedIndex
-        MsgBox(Session("UserID"))
         FillBoxes()
         lblDBMess.Text = "Edit Data"
         lblDBMess.ForeColor = Drawing.Color.DarkBlue
