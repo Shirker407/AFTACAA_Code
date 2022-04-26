@@ -77,15 +77,6 @@ Partial Public Class MemberShip
     Protected WithEvents lblMemCount As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Label12 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label12 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''lblSearchErr control.
     '''</summary>
     '''<remarks>
@@ -113,15 +104,6 @@ Partial Public Class MemberShip
     Protected WithEvents btnSearch As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Label69 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label69 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''searchChkNameNo control.
     '''</summary>
     '''<remarks>
@@ -140,15 +122,6 @@ Partial Public Class MemberShip
     Protected WithEvents searchChkNameYes As Global.System.Web.UI.WebControls.ImageButton
 
     '''<summary>
-    '''Label70 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label70 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''searchChkIDNo control.
     '''</summary>
     '''<remarks>
@@ -165,15 +138,6 @@ Partial Public Class MemberShip
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents searchChkIDYes As Global.System.Web.UI.WebControls.ImageButton
-
-    '''<summary>
-    '''Label71 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label71 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''btnMemAll control.
@@ -239,15 +203,6 @@ Partial Public Class MemberShip
     Protected WithEvents lblDBMess As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Label15 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label15 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtFirst control.
     '''</summary>
     '''<remarks>
@@ -255,15 +210,6 @@ Partial Public Class MemberShip
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtFirst As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label23 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label23 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtLast control.
@@ -275,15 +221,6 @@ Partial Public Class MemberShip
     Protected WithEvents txtLast As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label24 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label24 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtInitial control.
     '''</summary>
     '''<remarks>
@@ -291,15 +228,6 @@ Partial Public Class MemberShip
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtInitial As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label25 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label25 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtJoined control.
@@ -320,15 +248,6 @@ Partial Public Class MemberShip
     Protected WithEvents lblID As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Label26 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label26 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtSuffix control.
     '''</summary>
     '''<remarks>
@@ -336,15 +255,6 @@ Partial Public Class MemberShip
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtSuffix As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label29 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label29 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtSpouse control.
@@ -356,15 +266,6 @@ Partial Public Class MemberShip
     Protected WithEvents txtSpouse As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label30 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label30 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''TxtEMail control.
     '''</summary>
     '''<remarks>
@@ -372,15 +273,6 @@ Partial Public Class MemberShip
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents TxtEMail As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label31 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label31 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtPhone control.
@@ -410,15 +302,6 @@ Partial Public Class MemberShip
     Protected WithEvents txtAddress As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label40 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label40 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtCity control.
     '''</summary>
     '''<remarks>
@@ -426,15 +309,6 @@ Partial Public Class MemberShip
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtCity As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label41 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label41 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtState control.
@@ -446,15 +320,6 @@ Partial Public Class MemberShip
     Protected WithEvents txtState As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label42 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label42 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtZip control.
     '''</summary>
     '''<remarks>
@@ -462,15 +327,6 @@ Partial Public Class MemberShip
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtZip As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label43 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label43 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtCountry control.
@@ -536,15 +392,6 @@ Partial Public Class MemberShip
     Protected WithEvents txtcmdDates As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label56 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label56 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtDets control.
     '''</summary>
     '''<remarks>
@@ -554,15 +401,6 @@ Partial Public Class MemberShip
     Protected WithEvents txtDets As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''Label58 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label58 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''txtRemarks control.
     '''</summary>
     '''<remarks>
@@ -570,15 +408,6 @@ Partial Public Class MemberShip
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtRemarks As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label59 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label59 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtComments control.
@@ -608,15 +437,6 @@ Partial Public Class MemberShip
     Protected WithEvents calChkNo As Global.System.Web.UI.WebControls.ImageButton
 
     '''<summary>
-    '''Label60 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label60 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''colChkYes control.
     '''</summary>
     '''<remarks>
@@ -635,15 +455,6 @@ Partial Public Class MemberShip
     Protected WithEvents colChkNo As Global.System.Web.UI.WebControls.ImageButton
 
     '''<summary>
-    '''Label61 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label61 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''flaChkYes control.
     '''</summary>
     '''<remarks>
@@ -660,15 +471,6 @@ Partial Public Class MemberShip
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents flaChkNo As Global.System.Web.UI.WebControls.ImageButton
-
-    '''<summary>
-    '''Label62 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label62 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''deceasedChkNo control.
@@ -804,15 +606,6 @@ Partial Public Class MemberShip
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblModDate As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Label67 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label67 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtReason control.

@@ -63,7 +63,7 @@
         Dim newentry As Boolean = False
         Dim ws As New myService
         Dim ds As New DataSet
-        Dim del As Int16
+        Dim del As Int16 = 0
 
         If deleteChkYes.Visible = True Then
             del = 1
@@ -149,6 +149,9 @@
 
             FillBoxes()
         Else 'btnsave text does not equal "Save Changes" so we are adding a new member
+            Dim searchname As String = UCase(txtLast.Text & ", " & txtFirst.Text)
+
+            searchname = txtLast.Text & ", " & txtFirst.Text
 
             sql = "Exec AddNewMemberInfo '" & Capitolize(txtFirst.Text) & "','" & Apos(Capitolize(txtLast.Text)) & "','" &
             UCase(txtInitial.Text) & "','" & txtJoined.Text & "','" & Capitolize(txtSuffix.Text) & "','" & Capitolize(txtSpouse.Text) & "','" &
@@ -159,9 +162,10 @@
             txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & Session("myName") & "'"
 
             Try
-                Dim searchname As String = UCase(txtLast.Text & ", " & txtFirst.Text)
 
                 Run_Sql(sql)
+
+                FillList(Session("ListAction")) 'refreshes the list box of members to include new member
 
                 lblDBMess.Text = "Data Saved."
                 lblDBMess.ForeColor = Drawing.Color.DarkBlue
@@ -170,16 +174,12 @@
                 lstMembers.Enabled = True
                 btnSearch.Enabled = True
 
-                searchname = txtLast.Text & ", " & txtFirst.Text
                 Session("ListAction") = "name"
+                FillBoxes()
                 btnSave.Text = " Save Changes "
                 btnAdd.Text = " Add New "
                 pnlReasonForChange.Visible = True
-
-                FillList(Session("ListAction")) 'refreshes the list box of members to include new member
-
-                MsgBox(SearchListBox(searchname))
-                lstMembers.SelectedValue = SearchListBox(searchname)
+                SearchListBox(searchname)
 
                 FillBoxes()
             Catch
@@ -194,19 +194,16 @@
         End If
     End Sub
 
-    Protected Function SearchListBox(s As String) As Int32
+    Protected Sub SearchListBox(s As String)
         Dim x As Int32
-
+        s = UCase(s)
         For x = 0 To lstMembers.Items.Count - 1
             If UCase(lstMembers.Items(x).Text) = s Then
                 lstMembers.SelectedIndex = x
-                Return x
             End If
         Next
 
-        Return 0
-
-    End Function
+    End Sub
 
     Protected Sub btnAdd_Click(sender As Object, e As EventArgs)
 
