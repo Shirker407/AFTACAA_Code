@@ -348,56 +348,6 @@
                                     <td class="posted blueText">1/14/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                
-<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCovidKit" class="announcement blueText">VA won’t mail out COVID kits</td>
-                                    <td class="posted blueText">1/14/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myHomeDepot" class="announcement blueText">Veterans Can Get Home Depot’s New Military Discount</td>
-                                    <td class="posted blueText">1/14/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myTaxFree" class="announcement blueText">5 More States Make Military Retirement Tax Free</td>
-                                    <td class="posted blueText">1/11/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpy" class="announcement blueText">US spy planes over South China Sea</td>
-                                    <td class="posted blueText">1/10/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPomo" class="announcement blueText">December 2021 Pomo</td>
-                                    <td class="posted blueText">1/6/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myGolf2021" class="announcement blueText">Fall 2021 Golf N’Get Together</td>
-                                    <td class="posted blueText">1/6/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="openHouse2021" class="announcement blueText">2021 AFTAC Open House</td>
-                                    <td class="posted blueText">1/7/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWonner" class="announcement blueText">Michael Wonner's Obituary Posted</td>
-                                    <td class="posted blueText">1/3/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBrown" class="announcement blueText">Brian Brown's Obituary Posted</td>
-                                    <td class="posted blueText">1/3/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                --%>
-<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="meetingMinutes" class="announcement blueText">October Minutes were posted.</td>
-                                    <td class="posted blueText">11/3/2021</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                --%>
                           </table>
                         </div>
                     </div>
