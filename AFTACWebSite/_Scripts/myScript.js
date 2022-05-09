@@ -1496,6 +1496,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myMarcus').click(function () {
+        OpenObit('Marcus');
+    });
+
     $('#myCwikla').click(function () {
         OpenObit('Cwikla');
     });
@@ -1523,6 +1527,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'MarcusH2':
+                ShowMyObit('Marcus')
+                break;
             case 'CwiklaH2':
                 ShowMyObit('Cwikla')
                 break;
