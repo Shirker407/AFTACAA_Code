@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
+﻿ <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
 <%--Swell %>
@@ -274,6 +274,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMarcus" class="announcement blueText">Donald Marcus' Obituary was posted.</td>
+                                    <td class="posted blueText">5/9/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpaceA" class="announcement blueText">Space Available Air Travel is back.</td>
                                     <td class="posted blueText">4/25/2022</td>
                                     <td class="event blueText"></td>
@@ -348,56 +353,6 @@
                                     <td class="posted blueText">1/14/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                
-<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCovidKit" class="announcement blueText">VA won’t mail out COVID kits</td>
-                                    <td class="posted blueText">1/14/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myHomeDepot" class="announcement blueText">Veterans Can Get Home Depot’s New Military Discount</td>
-                                    <td class="posted blueText">1/14/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myTaxFree" class="announcement blueText">5 More States Make Military Retirement Tax Free</td>
-                                    <td class="posted blueText">1/11/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpy" class="announcement blueText">US spy planes over South China Sea</td>
-                                    <td class="posted blueText">1/10/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPomo" class="announcement blueText">December 2021 Pomo</td>
-                                    <td class="posted blueText">1/6/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myGolf2021" class="announcement blueText">Fall 2021 Golf N’Get Together</td>
-                                    <td class="posted blueText">1/6/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="openHouse2021" class="announcement blueText">2021 AFTAC Open House</td>
-                                    <td class="posted blueText">1/7/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWonner" class="announcement blueText">Michael Wonner's Obituary Posted</td>
-                                    <td class="posted blueText">1/3/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBrown" class="announcement blueText">Brian Brown's Obituary Posted</td>
-                                    <td class="posted blueText">1/3/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                --%>
-<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="meetingMinutes" class="announcement blueText">October Minutes were posted.</td>
-                                    <td class="posted blueText">11/3/2021</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                --%>
                           </table>
                         </div>
                     </div>
@@ -11839,6 +11794,22 @@
 
 <%--                <p class="pTitle centerText padding5 maroonBorder showShadow">Currently at this time there are no Recent Obituaries.<br>Look in Archived Obituaries.</p>--%>
  
+                <article>
+                    <div>
+                        <h2 id="MarcusH2" class="obitH1">Donald Marcus - 5/4/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="MarcusPara" class="obitPara noDisplay">
+                        <p>
+                           <img alt="Marcus.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Marcus.png"/>
+                            With deep regret, I must report that our beloved Donald passed away on May 4th at 6:00 PM. He was a devoted husband and father. Services will be held at Audubon Funeral Home Monday May 9th from 1030 AM with chapel services at 12:30 PM. He will be buried with full military honors following at Southeast Louisiana Veterans Cemetery at 1:30 PM. He will be missed by his beloved family and friends.
+                            <br /><br />
+                            Martha later added:<br />
+                            Lt. Col Donald R. Marcus, of Slidell, Louisiana, passed away on May 4, 2022 at the age of 87. He was a native of Birmingham, Alabama, born on March 4, 1935 to his loving parents, the late Kathrine Lucile Keith and Aubrey Renfroe Marcus. Donald is the beloved husband of 67 years to Martha Forbus Marcus; proud father of Donna Marcus Jones and Beverly Marcus Jones (Randal J. Jones); proud grandfather of Theresa Marie Jones, Tonya Jones Williams, Tina Jones Ritchie (Shane Ritchie), and Jaquelin Jenae Talbert; great-grandfather of Jamie Heston, B.J. Heston, Eric Zanco II, Zoey Goodeaux, Payton Keyes, Brandon Ritchie, Michael Ritchie, Kaitlyn Ritchie, and Abigail Ritchie; caring brother of the late Charles Ronald Marcus; uncle of Villeta Linton, Kelly Marcus, and David Marcus; cousin of Jeanne Salvago (daughters, Jessica and Johnica); and brother-in-law of Terry Marcus Long. Donald earned a Bachelor of Science degree from Howard College and a Master of Business Administration degree from Florida Institute of Technology. He retired from the United States Air Force, where he received many recognitions for his service including the Bronze Star, AF Commendation Medal with one oak leaf cluster, Meritorious Service Medal with two oak leaf clusters, and Republic of the Vietnam Campaign Medal. Donald taught courses at both Phillips Jr. College and Louisiana Technical College. He enjoyed fishing and golf in his spare time but treasured nothing more than the time he spent with family and friends. Donald will be greatly missed by all who knew and loved him. Relatives and friends are invited to attend a visitation on Monday, May 9, 2022 from 10:30 a.m. to 12:30 p.m. at Audubon Funeral Home in Slidell. A funeral service will begin in the chapel at 12:30. Donald will be laid to rest in the Southeast Louisiana Veterans Cemetery at 1:30 p.m. Memories and condolences may be expressed at <a href="http://AudubonFuneralHome.com" target="_blank">Audubon Funeral Home</a>
+                         </p>
+                    </div>
+                </article>             
+  
                 <article>
                     <div>
                         <h2 id="CwiklaH2" class="obitH1">Jim Cwikla - 4/24/2022</h2>
