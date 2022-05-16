@@ -1,7 +1,10 @@
 ﻿Public Class MemberShip
     Inherits System.Web.UI.Page
 
-    Private currentindex As Int32
+    'Global Variables
+    '************************************************************************
+    Dim currentindex As Int32
+    Dim _id As Int32
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not IsPostBack Then
@@ -238,26 +241,21 @@
 
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
         Dim ok As Boolean = False
-        'Dim sb As New StringBuilder
-        Dim x As Int32
         Dim s As String
+        Dim ds As New DataSet
+        Dim hidedeceased As Short
 
-        'If Session("ListAction") = "name" Then
         s = UCase(txtSearch.Text) + "*"
 
         lblSearchErr.Visible = False
 
-        For x = 0 To lstMembers.Items.Count - 1
-            If UCase(lstMembers.Items(x).Text) Like (s) Then
-                ok = True
-                lblDBMess.Visible = True
-                lblSearchErr.Visible = False
-                lstMembers.SelectedIndex = x
-                Session("UserID") = lstMembers.SelectedValue
-                FillBoxes()
-                Exit Sub
-            End If
-        Next
+        If btnDeceased.Text = "show Deceased" Then
+            hidedeceased = 0
+        Else
+            hidedeceased = 1
+        End If
+
+        GetList(ds, "Search", hidedeceased, txtSearch.Text)
 
         If Not ok Then
             lblSearchErr.Visible = True
@@ -541,18 +539,13 @@
         FillList(Session("ListAction"))
     End Sub
 
-    Function GetList(ByVal ds As DataSet, chap As String, hidedesc As Int16) As Boolean
+    Function GetList(ByRef ds As DataSet, chap As String, hidedesc As Short, Optional Search As String = "") As Boolean
         Dim sql As String
-        Dim r As DataRow
 
-        sql = "exec GetMemberList '" & chap & "'," & hidedesc
-            Try
+        sql = "exec GetMemberList '" & chap & "'," & hidedesc & ",'" & Search & "'"
+
+        Try
             Get_Dataset(sql, ds)
-
-            For Each r In ds.Tables(0).Rows
-                r.Item("Name") = Capitolize(r.Item("Name"))
-            Next
-
             Return True
         Catch
             Return False
@@ -561,41 +554,42 @@
 
     Private Sub FillList(listType As String)
         Dim ds As New DataSet
-        Dim r As DataRow
         Dim x As Int16 = 0
 
-        GetList(ds, getAction(), DeceasedStatus())
-
-        For Each r In ds.Tables(0).Rows
-            ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
-            x = x + 1
-        Next
-
-        ds.AcceptChanges()
-
-        lstMembers.DataSource = ds.Tables(0)
-
-        If listType = "name" Then
-            lstMembers.DataTextField = "Name"
-            ds.Tables(0).DefaultView.Sort = "Name asc"
-            ds.Tables(0).AcceptChanges()
+        If GetList(ds, getAction(), DeceasedStatus(), txtSearch.Text) = False Then
+            MsgBox("There was an error " + Err.Description)
+            Exit Sub
         Else
-            lstMembers.DataTextField = "id"
-            ds.Tables(0).DefaultView.Sort = "ID asc"
-            ds.Tables(0).AcceptChanges()
+            For Each r In ds.Tables(0).Rows
+                ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
+                x = x + 1
+            Next
+
+            ds.AcceptChanges()
+
+            lstMembers.DataSource = ds.Tables(0)
+
+            If listType = "name" Then
+                lstMembers.DataTextField = "Name"
+                ds.Tables(0).DefaultView.Sort = "Name asc"
+                ds.Tables(0).AcceptChanges()
+            Else
+                lstMembers.DataTextField = "id"
+                ds.Tables(0).DefaultView.Sort = "ID asc"
+                ds.Tables(0).AcceptChanges()
+            End If
+
+            lstMembers.DataValueField = "id"
+            lstMembers.DataBind()
+
+            lblMemCount.Text = "List Count " & lstMembers.Items.Count
+            lstMembers.SelectedIndex = 0
+            lblSearchErr.Visible = False
+
+            _id = lstMembers.SelectedValue
+
+            FillBoxes()
         End If
-
-        lstMembers.DataValueField = "id"
-        lstMembers.DataBind()
-
-        lblMemCount.Text = "List Count " & lstMembers.Items.Count
-        lstMembers.SelectedIndex = 0
-        lblSearchErr.Visible = False
-
-        '_id = lstMembers.SelectedValue
-
-        FillBoxes()
-
     End Sub
 
     Private Sub FillBoxes()

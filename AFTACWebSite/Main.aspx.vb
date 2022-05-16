@@ -1057,7 +1057,6 @@ Public Class _Default
         sql = "Select * From #tmpEmails"
 
         Get_Dataset(sql, ds)
-
-
     End Sub
+
 End Class
