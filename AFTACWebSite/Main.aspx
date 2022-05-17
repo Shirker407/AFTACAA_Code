@@ -446,7 +446,7 @@
 
         <article id="MembershipArt" class="myArts noDisplay">
             <aside class=" leftMargin1em floatLeft" style="margin-top:-2em;width:19%;">
-                <asp:Label ID="lblListTitle" CssClass="block centerText" Font-Size="1.5em" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Entire Database<br/>Deceased Shown"></asp:Label>
+                <asp:Label ID="lblListTitle" CssClass="block centerText topMargin1em" Font-Size="1.5em" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Entire Database<br/>Deceased Shown"></asp:Label>
                 <asp:Button ID="btnDeceased" Font-Size="1em" CssClass="block myBut autoMarginLeftRight centerText" runat="server" Text="Hide Deceased" OnClick="btnDeceased_Click" />
                 <asp:ListBox ID="lstMembers" CssClass="block topMargin1em padding5" Font-Size=".9em" Font-Bold="true" BackColor="LightGoldenrodYellow" Rows="10" Width="95%" runat="server"  AutoPostBack="True" OnSelectedIndexChanged="lstMembers_SelectedIndexChanged"></asp:ListBox>
                 

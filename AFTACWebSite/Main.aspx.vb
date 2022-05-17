@@ -8,6 +8,7 @@ Public Class _Default
     Dim pb As Boolean
     Dim _id As Int32
     Dim currentindex As Int32
+    Dim ListType As String = "Name"
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim ds As New DataSet
