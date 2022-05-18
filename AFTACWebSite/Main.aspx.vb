@@ -9,6 +9,7 @@ Public Class _Default
     Dim _id As Int32
     Dim currentindex As Int32
     Dim ListType As String = "Name"
+    Dim isSearch As Boolean = False
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim ds As New DataSet
@@ -1021,10 +1022,44 @@ Public Class _Default
         End If
     End Sub
 
+    Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
+        Dim ok As Boolean = False
+        Dim ds As New DataSet
+        Dim hidedeceased As Short
+
+        lblSearchErr.Visible = False
+
+        If btnDeceased.Text = "show Deceased" Then
+            hidedeceased = 0
+        Else
+            hidedeceased = 1
+        End If
+
+        If btnSearch.Text = "Search" Then
+            btnSearch.Text = "Clear Search"
+            isSearch = True
+        Else
+            btnSearch.Text = "Search"
+            isSearch = False
+        End If
+
+
+        OpenArticle("MembershipArt")
+
+        ScrollTo("MembershipArt")
+
+    End Sub
+
     Function GetList(ByRef ds As DataSet, chap As String, hidedesc As Short, Optional Search As String = "") As Boolean
         Dim sql As String
 
-        sql = "exec GetMemberList '" & chap & "'," & hidedesc & ",'" & Search & "'"
+        If isSearch = False Then
+            sql = "exec GetMemberList '" & chap & "'," & hidedesc & ",'" & Search & "'"
+        Else
+            sql = "exec GetMemberList '" & Search & "'," & hidedesc & ",'" & txtSearch.Text & "'"
+        End If
+
+        isSearch = False
 
         Try
             Get_Dataset(sql, ds)
@@ -1133,27 +1168,6 @@ Public Class _Default
         Get_Dataset(sql, ds, "Command")
 
         txtFirst.Focus()
-
-    End Sub
-
-    Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
-        Dim ok As Boolean = False
-        Dim ds As New DataSet
-        Dim hidedeceased As Short
-
-        lblSearchErr.Visible = False
-
-        If btnDeceased.Text = "show Deceased" Then
-            hidedeceased = 0
-        Else
-            hidedeceased = 1
-        End If
-
-        GetList(ds, "Search", hidedeceased, txtSearch.Text)
-
-        OpenArticle("MembershipArt")
-
-        ScrollTo("MembershipArt")
 
     End Sub
 
