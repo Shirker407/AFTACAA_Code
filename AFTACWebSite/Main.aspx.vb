@@ -466,7 +466,6 @@ Public Class _Default
             sb.Append("$('#defaultArt').removeClass('noDisplay').addClass('block');")
             sb.Append("</script>")
             ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-            winnerPnl.Visible = False
         End If
     End Sub
 
@@ -701,7 +700,7 @@ Public Class _Default
     End Sub
 
     Protected Sub btnChangePW_Click(sender As Object, e As EventArgs)
-        PWuser = txtPWUserName.Text
+        PWUser = txtPWUserName.Text
         action = "openPasswordChange"
     End Sub
 
@@ -931,7 +930,7 @@ Public Class _Default
     End Sub
 
     Protected Sub btnPWSubmit_Click(sender As Object, e As EventArgs)
-        PWuser = txtPWUserName.Text
+        PWUser = txtPWUserName.Text
         action = "PasswordSubmit"
     End Sub
 
@@ -948,7 +947,26 @@ Public Class _Default
     End Sub
 
     Protected Sub btnMemAdmin_Click(sender As Object, e As EventArgs)
+        'Dim sb As New StringBuilder
+
+        FillList(ListAction)
+        FillCommandList()
+
+        If Session("adminLevel") = 1 Then
+            pnlButs.Visible = True
+        Else
+            pnlButs.Visible = False
+        End If
+
         OpenArticle("MembershipArt")
+        ScrollTo("MembershipArt")
+        'sb = New StringBuilder
+        'sb.Append("<script>")
+        'sb.Append("showMembership();")
+        'sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#MembershipArt').offset().top}, 500);")
+        'sb.Append("</script>")
+
+        'RunScript(sb.ToString)
     End Sub
 
     Protected Sub lstMembers_SelectedIndexChanged(sender As Object, e As EventArgs)
@@ -1784,7 +1802,7 @@ Public Class _Default
         Dim sql As String
 
         sql = "Exec ArchiveNames"
-        Get_Dataset(Sql, lstNamesData, "ArchiveNames")
+        Get_Dataset(sql, lstNamesData, "ArchiveNames")
 
         ddObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
         ddObitNames.DataTextField = "Name"

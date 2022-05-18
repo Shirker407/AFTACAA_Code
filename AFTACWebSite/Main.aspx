@@ -1,4 +1,4 @@
-﻿ <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
 <%--Swell %>
@@ -457,8 +457,8 @@
 
                 <div>
                     <asp:Label ID="lblSearchErr" CssClass="autoMarginLeftRight padding5" runat="server" Visible="false" ForeColor="Red" Font-Size="1em" Font-Bold="true" Text="Name Not Found"></asp:Label>
-                    <asp:TextBox ID="txtSearch" CssClass="inline autoMarginLeftRight padding5" width="8em" Font-Size="1em" Font-Bold="true" ForeColor="DarkBlue" BackColor="LightGoldenrodYellow" runat="server"></asp:TextBox>
-                    <asp:Button ID="btnSearch" CssClass="inline myBut leftPaddingHalfem" Width="1em" Height="1em" runat="server" Text="" OnClick="btnSearch_Click" />        
+                    <asp:TextBox ID="txtSearch" CssClass="block autoMarginLeftRight padding5" width="8em" Font-Size="1em" Font-Bold="true" ForeColor="DarkBlue" BackColor="LightGoldenrodYellow" runat="server"></asp:TextBox>
+                    <asp:Button ID="btnSearch" CssClass="block myBut autoMarginLeftRight topMargin1em padding5" Font-Size="1em" Font-Bold="true" runat="server" Text="Search" OnClick="btnSearch_Click" />        
                 </div>
 
                 <div class="width90 topMargin1em autoMarginLeftRight thinMaroonBorder aLeft">
@@ -12552,7 +12552,7 @@
 
             <div class="width60 autoMarginLeftRight bottomMargin2em maroonBorder smallShadow">
                 <asp:Button ID="btnMemAdmin" CssClass="smallBut block autoMarginLeftRight topMargin1em bottomMargin1em"  runat="server" Text=" Membership Administration " onclick="btnMemAdmin_Click"/>
-<%--                <asp:Button ID="btnPickWinner" CssClass="smallBut topMargin1em autoMarginLeftRight block fontSize1em" Visible="false" runat="server" Text=" Pick a Winner " OnClick="btnPickWinner_Click" />--%>
+
                 <hr class="myHR" />
 
                 <div class="clear bottomMargin1em"></div>
@@ -12575,35 +12575,6 @@
                 </div>
             </div>
         </article>
-
-        <asp:Panel ID="winnerPnl" Visible="false" runat="server">
-            <div class="width60 leftMargin20em">
-                 <p class="pTitle centerText">The Winner Is....</p>
-
-                <div>
-                    <asp:Label ID="lblWinId" runat="server" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="ID#: "></asp:Label>
-                    <asp:Label ID="lblWinName" runat="server" CssClass="leftMargin2em" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="Name: "></asp:Label>
-                </div>
-
-                <div>
-                    <asp:Label ID="lblWinAddress" runat="server" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="Address: "></asp:Label>
-                </div>
-
-                <div>
-                    <asp:Label ID="lblWinCity" runat="server" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="City: "></asp:Label>
-                    <asp:Label ID="lblWinState" runat="server" CssClass="leftMargin2em" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="State: "></asp:Label>
-                    <asp:Label ID="lblWinZip" runat="server" CssClass="leftMargin2em" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="Zip Code: "></asp:Label>
-                </div>
-
-                <div>
-                    <asp:Label ID="lblWinEmail" runat="server" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="Email: "></asp:Label>
-                    <asp:Label ID="lblWinPhone" runat="server" CssClass="leftMargin2em" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="Phone: "></asp:Label>
-                </div>
-
-                <asp:Button ID="btnPickAnother" CssClass="smallBut autoMarginLeftRight block" runat="server" Text=" Pick Another " OnClick="btnPickAnother_Click" />
-                <asp:Button ID="btnWinReturnMenu" runat="server" CssClass="smallBut bottomMarginHalfem topMargin1em autoMarginLeftRight block" Text=" Return to Admin Menu " OnClick="btnWinReturnMenu_Click"/>
-            </div>
-        </asp:Panel>
 
         <article id="passwordArt" class="myArts noDisplay">
             <div class="width60 autoMarginLeftRight bottomMargin2em">
