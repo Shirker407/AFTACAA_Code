@@ -235,11 +235,6 @@
         
         <article id="defaultArt" class="myArts noDisplay">
             <div class="floatLeft width55">
-                <div class="centerDiv autoMarginLeftRight width50">
-                    <div id="butWWR" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
-                        <span class="centerText backYellow bold" style="color:black;">World Wide Reunion Information (Updated)</span>
-                    </div>
-                </div>                
                 <div class="floatLeft centerDiv width50">
                     <div id="butWallNames" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
                         <span class="centerText backYellow bold" style="color:black;">Posting of Our Memorial<br />Names - 9/5/2020</span>

@@ -233,20 +233,6 @@ $(document).ready(function () {
         Open20Year('Cooley');
     });
 
-    $('#butWWR').mouseover(function () {
-        $('#butWWR').css('background-color', 'red');
-        $('#butWWR span').css('background-color', 'red').css('color', 'yellow');
-    });
-
-    $('#butWWR').mouseout(function () {
-        $('#butWWR').css('background-color', 'yellow');
-        $('#butWWR span').css('background-color', 'yellow').css('color', 'black');
-    });
-
-    $('#butWWR').click(function () {
-        window.open('https://www.acompletereunion.com/aftac', '')
-    });
-
     $('#butWallNames').mouseover(function () {
         $('#butWallNames').css('background-color', 'red');
         $('#butWallNames span').css('background-color', 'red').css('color', 'yellow');
