@@ -1,4 +1,4 @@
-﻿ <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
 <%--Swell %>
@@ -442,6 +442,249 @@
                 COST IS $20 PER PERSON, ACTIVE DUTY MILITARY<br />
                 $15 AND CHILDREN AGE 10 AND UNDER ARE FREE.
             </p>
+        </article>
+
+        <article id="MembershipArt" class="myArts noDisplay">
+            <aside class=" leftMargin1em floatLeft" style="margin-top:-2em;width:19%;">
+                <asp:Label ID="lblListTitle" CssClass="block centerText topMargin1em" Font-Size="1.5em" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Entire Database<br/>Deceased Shown"></asp:Label>
+                <asp:Button ID="btnDeceased" Font-Size="1em" CssClass="block myBut autoMarginLeftRight centerText" runat="server" Text="Hide Deceased" OnClick="btnDeceased_Click" />
+                <asp:ListBox ID="lstMembers" CssClass="block topMargin1em padding5" Font-Size=".9em" Font-Bold="true" BackColor="LightGoldenrodYellow" Rows="10" Width="95%" runat="server"  AutoPostBack="True" OnSelectedIndexChanged="lstMembers_SelectedIndexChanged"></asp:ListBox>
+                
+                <div>
+                    <asp:Label ID="lblMemCount" CssClass="block" ForeColor="Maroon" Font-Bold="true" Font-Size="1em" runat="server" Text="Label"></asp:Label>
+                    <asp:Label CssClass="block" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Search"></asp:Label>
+                </div>
+
+                <div>
+                    <asp:Label ID="lblSearchErr" CssClass="autoMarginLeftRight padding5" runat="server" Visible="false" ForeColor="Red" Font-Size="1em" Font-Bold="true" Text="Name Not Found"></asp:Label>
+                    <asp:TextBox ID="txtSearch" CssClass="block autoMarginLeftRight padding5" width="8em" Font-Size="1em" Font-Bold="true" ForeColor="DarkBlue" BackColor="LightGoldenrodYellow" runat="server"></asp:TextBox>
+                    <asp:Button ID="btnSearch" CssClass="block myBut autoMarginLeftRight topMargin1em padding5" Font-Size="1em" Font-Bold="true" runat="server" Text="Search" OnClick="btnSearch_Click" />        
+                </div>
+
+                <div class="width90 topMargin1em autoMarginLeftRight thinMaroonBorder aLeft">
+                    <asp:Label CssClass="leftMargin1em autoMarginLeftRight" Font-Size="1.2em" Font-Underline="true" ForeColor="Maroon" Font-Bold="true" runat="server" Text="List By"></asp:Label>
+                        
+                    <div class="leftMargin1em">
+                        <asp:CheckBox ID="searchChkName" CssClass="block autoMarginLeftRight myChk" Font-Size="1em" Font-Bold="true" Checked="true" Text="Name" Style="color:maroon;" AutoPostBack="True" runat="server" OnCheckedChanged="searchChkName_CheckedChanged"/>
+                        <asp:CheckBox ID="searchChkID" CssClass="block autoMarginLeftRight myChk" Font-Size="1em" Font-Bold="true" Text="ID" Style="color:maroon;" AutoPostBack="True" runat="server" OnCheckedChanged="searchChkID_CheckedChanged"/>
+                    </div>
+                </div>
+
+                <div class="topMargin1em centerDiv">
+                    <asp:Button ID="btnMemAll" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" All Members " OnClick="btnMemAll_Click" />
+                    <asp:Button ID="btnMemCalifornia" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" California " OnClick="btnMemCalifornia_Click" />
+                    <asp:Button ID="btnMemColorado" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" Colorado " OnClick="btnMemColorado_Click"/>
+                    <asp:Button ID="btnMemFlorida" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" Florida " OnClick="btnMemFlorida_Click" />
+                    <asp:Button ID="btnNonMem" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" Non-Members " OnClick="btnNonMem_Click"/>
+                    <asp:Button ID="btnEntire" CssClass="mySelBut hotBut" Width="85%" Font-Size="1em" runat="server" Text=" Entire Database " OnClick="btnEntire_Click"/>
+                </div>
+
+                <div class="clear"></div>
+
+            </aside>
+
+            <section id="demos" class="floatLeft leftMargin2em bottomMargin2em width75 maroonBorder smallShadow maroonBorder">
+                <asp:Label ID="lblMess" CssClass="autoMarginLeftRight" Font-Size="2em" Font-Bold="true" Visible="False" ForeColor="Blue" runat="server" Text="Data Saved"></asp:Label>
+                <section>
+                    <div class="float-left leftMargin2em width20">
+                        <asp:Label ForeColor="Maroon" Font-Bold="true" Font-Size="1em" runat="server" Text="First Name: "></asp:Label>
+                        <asp:TextBox ID="txtFirst" CssClass="padding5" Width="90%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                    </div>
+                    <div class="float-left width30">
+                        <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="Last Name: "></asp:Label>
+                        <asp:TextBox ID="txtLast" CssClass="padding5" Width="90%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                    </div>
+                    <div class="float-left width10">
+                        <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="Initial: "></asp:Label>
+                        <asp:TextBox ID="txtInitial" CssClass="padding5" Width="50%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                    </div>
+                    <div class="float-left width20">
+                        <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="Date Joined: "></asp:Label>
+                        <asp:TextBox ID="txtJoined" CssClass="padding5" Width="90%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                    </div>
+                    <div class="float-left width10">
+                        <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="ID: "></asp:Label>
+                        <asp:Label ID="lblMemID" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="4051"></asp:Label>
+                    </div>
+                        <div class="clear"></div>
+                </section>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <asp:Label ID="Label26" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Suffix: "></asp:Label>
+                            <asp:TextBox ID="txtSuffix" CssClass="block padding5" Width="100%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="col-sm-3">
+                            <asp:Label ID="Label29" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Spouse: "></asp:Label>
+                            <asp:TextBox ID="txtSpouse" Width="100%" CssClass="padding5" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="col-sm-4">
+                            <asp:Label ID="Label30" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="EMail: "></asp:Label>
+                            <asp:TextBox ID="txtMemEmail" Width="100%" CssClass="block padding5" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="col-sm-3">
+                            <asp:Label ID="Label31" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Phone: "></asp:Label>
+                            <asp:TextBox ID="txtPhone" CssClass="block padding5" Width="100%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="col-sm-offset-1"></div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="floatLeft width50">
+                        <asp:Panel ID="pnlAddress1" CssClass="thinMaroonBorder" Visible="true" runat="server">
+                            <div class="centerDiv">
+                                <div class="centerDiv">
+                                    <asp:Label runat="server" Font-Size="1.5em" ForeColor="Maroon" Font-Bold="true" Text="Demographics"></asp:Label>
+                                </div>
+                                <div class="centerDiv">
+                                    <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="Address: "></asp:Label>
+                                    <asp:TextBox ID="txtAddress" CssClass="padding5" Width="12em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                                </div>
+
+                                <div>
+                                    <div class="inlineBlock">
+                                        <asp:Label ForeColor="Maroon" Font-Bold="true" Font-Size="1em" runat="server" Text="City: "></asp:Label>
+                                        <asp:TextBox ID="txtCity" CssClass="padding5" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                                    </div>
+
+                                    <div class="inlineBlock leftMargin1em">
+                                        <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="State: "></asp:Label>
+                                        <asp:TextBox ID="txtState" CssClass="padding5" Width="4em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                                    </div>
+
+                                    <div>
+                                        <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="Zip: "></asp:Label>
+                                        <asp:TextBox ID="txtZip" CssClass="padding5" Width="8em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                                    </div>
+
+                                    <div>
+                                        <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="Country: "></asp:Label>
+                                        <asp:TextBox ID="txtCountry" CssClass="padding5" Width="10em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                                    </div>
+
+                                </div>
+                           </div>
+                        </asp:Panel>
+                    </div>
+
+                    <div class="floatLeft topMargin1em width45">
+                        <div class="width60" style="margin-top:-1.5em;">
+                            <asp:Label CssClass="aLeft" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Cell Phone: "></asp:Label>
+                            <asp:TextBox ID="txtCellPhone" CssClass="padding5 aLeft leftMargin3em" Width="10em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                        </div>
+             
+                        <div class="width60">
+                            <asp:Label CssClass="block leftMargin3em aLeft" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Rank: "></asp:Label>
+                            <asp:TextBox ID="txtRank" CssClass="block leftMargin3em aLeft padding5" Width="8em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                        </div>
+             
+                        <div class="width60">
+                            <asp:Label CssClass="block leftMargin3em aLeft" ForeColor="Maroon"  Font-Bold="true" Font-Size="1em" runat="server" Text="Dues: "></asp:Label>
+                            <asp:TextBox ID="txtDues" CssClass="padding5 block leftMargin3em aLeft" Width="4em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                        </div>
+
+                        <div class="centerText">
+                            <asp:Label ForeColor="Maroon" CssClass="block leftMargin3em aLeft" Font-Bold="true" Font-Size="1em" runat="server" Text="SEO Number: "></asp:Label>
+                            <asp:TextBox ID="txtSEO" CssClass="padding5 block leftMargin3em aLeft" Font-Size="1em" Width="4em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                        </div>
+
+                        <div class="clear"></div>
+                        <div class="width70 autoMarginLeftRight">
+                            <asp:Label CssClass="block" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="Transparent" runat="server" Text="Command Status:"></asp:Label>
+                            <asp:DropDownList ID="ddlCommand" CssClass="padding5" Width="15em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:DropDownList>
+                        </div>
+
+                        <div class="centerText">
+                            <asp:Label ForeColor="Maroon" CssClass="block aLeft leftMargin6em" Font-Bold="true" Font-Size="1em" runat="server" Text="Cmd Dates: "></asp:Label>
+                            <asp:TextBox ID="txtcmdDates" CssClass="padding5 block leftMargin6em" Font-Size="1em" Width="10em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                        </div>
+
+                    </div>
+
+                    <div class="clear"></div>
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="width100">
+                                    <asp:Label ID="Label56" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Dets"></asp:Label>
+                                    <asp:TextBox ID="txtDets" CssClass="padding5 block" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="width100"> 
+                                    <asp:Label ID="Label58" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Remarks"></asp:Label>
+                                    <asp:TextBox ID="txtRemarks" CssClass="padding5" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="width50 autoMarginLeftRight">
+                            <asp:Label ID="Label59" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Comments: "></asp:Label>
+                            <asp:TextBox ID="txtComments" CssClass="padding5 block" Width="100%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>
+                        </div>
+                    </div>
+
+                    <div class="thinMaroonBorder width80 centerDiv autoMarginLeftRight">
+                        <p id="chaptersPara" class="centerText pTitle">Chapters</p>
+
+                        <div class="autoMarginLeftRight topMarginMinus1em width90">
+                            <asp:CheckBox ID="calChkBox" CssClass="floatLeft myChk" Font-Size="1.5em" Font-Bold="true" Text="California" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="colChkBox" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Style="color:maroon;" Text="Colorado" runat="server" />
+                            <asp:CheckBox ID="flaChkBox" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Style="color:maroon;" Text="Florida" runat="server" />
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="thinMaroonBorder width80 centerDiv autoMarginLeftRight">
+                        <p id="otherStuffPara" class="centerText pTitle">Other Stuff</p>
+                        <div class="autoMarginLeftRight topMarginMinus1em width90">
+                            <asp:CheckBox ID="deceasedChk" CssClass="floatLeft myChk" Font-Size="1.5em" Font-Bold="true" Text="Deceased" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="elecPomoChk" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Elec. Pomo" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="RecieveEallsChk" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Ealls" Style="color:maroon;" runat="server" />
+                            <div class="clear"></div>
+                        </div>
+
+                        <div class="autoMarginLeftRight width90">
+                            <asp:CheckBox ID="deletedChk" CssClass="floatLeft myChk" Font-Size="1.5em" Font-Bold="true" Text="Deleted" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="mailPomoChk" CssClass="floatLeft myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Mail Pomo" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="badEmailChk" CssClass="floatLeft myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Bad Email" Style="color:maroon;" runat="server" />
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="clear"></div>
+
+                <asp:Panel ID="pnlMemErr" Visible="false" runat="server">
+                    <asp:Label ID="lblMemErr" runat="server" ForeColor="Red" Font-Bold="true" Font-Size="1.5em" Text="Label"></asp:Label>
+                </asp:Panel>
+
+                <div id="MemButs" class="autoMarginLeftRight menuItem menu1 width80 topMargin1em">
+                    <div class="centerDiv">
+                        <asp:Label CssClass="autoMarginLeftRight block" ForeColor="Maroon" Font-Bold="true" 
+                            Font-Size="1.5em" runat="server" Text="Reason for Change:"></asp:Label>
+                        <asp:TextBox ID="txtReason" CssClass="autoMarginLeftRight block padding5" Width="60%" Font-Size="1em" ForeColor="Maroon" 
+                            Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                    </div>
+
+                    <asp:Panel ID="pnlButs" CssClass="autoMarginLeftRight topMargin2em menuItem menu1 centerDiv" runat="server">
+                        <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
+                        <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
+                    </asp:Panel>
+
+                    <div class="width75 autoMarginLeftRight topMargin2em">
+                        <asp:Label ID="lblModDate" CssClass="block" Font-Size="1.5em" ForeColor="Maroon" Font-Bold="true" runat="server" 
+                            Text="Date Last Modified:"></asp:Label>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </section>
+
+            <div class="clear"></div>
+
         </article>
 
         <article id="openHouse2021Art" class="myArts noDisplay maroonBorder showShadow">
@@ -12309,7 +12552,7 @@
 
             <div class="width60 autoMarginLeftRight bottomMargin2em maroonBorder smallShadow">
                 <asp:Button ID="btnMemAdmin" CssClass="smallBut block autoMarginLeftRight topMargin1em bottomMargin1em"  runat="server" Text=" Membership Administration " onclick="btnMemAdmin_Click"/>
-<%--                <asp:Button ID="btnPickWinner" CssClass="smallBut topMargin1em autoMarginLeftRight block fontSize1em" Visible="false" runat="server" Text=" Pick a Winner " OnClick="btnPickWinner_Click" />--%>
+
                 <hr class="myHR" />
 
                 <div class="clear bottomMargin1em"></div>
@@ -12332,35 +12575,6 @@
                 </div>
             </div>
         </article>
-
-        <asp:Panel ID="winnerPnl" Visible="false" runat="server">
-            <div class="width60 leftMargin20em">
-                 <p class="pTitle centerText">The Winner Is....</p>
-
-                <div>
-                    <asp:Label ID="lblWinId" runat="server" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="ID#: "></asp:Label>
-                    <asp:Label ID="lblWinName" runat="server" CssClass="leftMargin2em" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="Name: "></asp:Label>
-                </div>
-
-                <div>
-                    <asp:Label ID="lblWinAddress" runat="server" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="Address: "></asp:Label>
-                </div>
-
-                <div>
-                    <asp:Label ID="lblWinCity" runat="server" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="City: "></asp:Label>
-                    <asp:Label ID="lblWinState" runat="server" CssClass="leftMargin2em" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="State: "></asp:Label>
-                    <asp:Label ID="lblWinZip" runat="server" CssClass="leftMargin2em" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="Zip Code: "></asp:Label>
-                </div>
-
-                <div>
-                    <asp:Label ID="lblWinEmail" runat="server" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="Email: "></asp:Label>
-                    <asp:Label ID="lblWinPhone" runat="server" CssClass="leftMargin2em" ForeColor="DarkRed" Font-Bold="true" Font-Size="1.5em" Text="Phone: "></asp:Label>
-                </div>
-
-                <asp:Button ID="btnPickAnother" CssClass="smallBut autoMarginLeftRight block" runat="server" Text=" Pick Another " OnClick="btnPickAnother_Click" />
-                <asp:Button ID="btnWinReturnMenu" runat="server" CssClass="smallBut bottomMarginHalfem topMargin1em autoMarginLeftRight block" Text=" Return to Admin Menu " OnClick="btnWinReturnMenu_Click"/>
-            </div>
-        </asp:Panel>
 
         <article id="passwordArt" class="myArts noDisplay">
             <div class="width60 autoMarginLeftRight bottomMargin2em">
