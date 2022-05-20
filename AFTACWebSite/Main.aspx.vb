@@ -1027,6 +1027,10 @@ Public Class _Default
         Dim ds As New DataSet
         Dim hidedeceased As Short
 
+        OpenArticle("MembershipArt")
+
+        ScrollTo("MembershipArt")
+
         lblSearchErr.Visible = False
 
         If btnDeceased.Text = "show Deceased" Then
@@ -1043,10 +1047,6 @@ Public Class _Default
             isSearch = False
         End If
 
-
-        OpenArticle("MembershipArt")
-
-        ScrollTo("MembershipArt")
 
     End Sub
 
