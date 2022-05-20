@@ -80,10 +80,6 @@ $(document).ready(function () {
         window.open("https://www.amc.af.mil/AMC-Travel-Site/AMC-Space-Available-Travel-Page/", "")
     });
 
-    $('#atomicVets').click(function () {
-        window.open("https://www.military.com/daily-news/2022/01/27/atomic-veterans-finally-get-commemorative-service-medal.html", "")
-    });
-
     $('#WCCPicAttendees').click(function () {
         window.open("http://www.aftacwcc.org/Forms/20210918_PicnicAttendees.pdf", "")
     });
@@ -202,31 +198,6 @@ $(document).ready(function () {
         //        scrollTop: $("#millerPara").offset().top
         //    }, 500);
     });
-
-    $('#myDohaney').click(function () {
-        MainPageIndex = 'recentTitle'
-        Open20Year('Dohaney');
-    });
-
-    //$('#myWard').click(function () {
-    //    MainPageIndex = 'recentTitle'
-    //    Open20Year('Ward');
-    //});
-
-    //$('#myDoberstein').click(function () {
-    //    MainPageIndex = 'recentTitle'
-    //    Open20Year('Doberstein');
-    //});
-
-    //$('#myRevels').click(function () {
-    //    MainPageIndex = 'recentTitle'
-    //    Open20Year('Revels');
-    //});
-
-    //$('#myWien').click(function () {
-    //    MainPageIndex = 'recentTitle'
-    //    Open20Year('Wien');
-    //});
 
     $('#myCooley').click(function () {
         MainPageIndex = 'recentTitle'
@@ -1504,10 +1475,6 @@ $(document).ready(function () {
 
     $('#myWare').click(function () {
         OpenObit('Ware');
-    });
-
-    $('#myMeisenheimer').click(function () {
-        OpenObit('Meisenheimer');
     });
 
     $('.obitH1').click(function () {

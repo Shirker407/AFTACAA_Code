@@ -323,31 +323,6 @@
                                     <td class="posted blueText">3/12/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myFun" class="announcement blueText">Fun Spot - Spanish Magic</td>
-                                    <td class="posted blueText">2/13/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                             
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="atomicVets" class="announcement blueText">Atomic Veterans</td>
-                                    <td class="posted blueText">1/29/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                               <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="meetingMinutes" class="announcement blueText">December Minutes were posted.</td>
-                                    <td class="posted blueText">1/20/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDohaney" class="announcement blueText">Brian Dohaney added to 20 Year Wall</td>
-                                    <td class="posted blueText">1/18/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMeisenheimer" class="announcement blueText">Robert Meisenheimer's Obituary Posted (Updated)</td>
-                                    <td class="posted blueText">1/14/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
                           </table>
                         </div>
                     </div>
