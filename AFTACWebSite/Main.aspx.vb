@@ -10,6 +10,7 @@ Public Class _Default
     Dim currentindex As Int32
     Dim ListType As String = "Name"
     Dim isSearch As Boolean = False
+    Dim hidedeceased As Short
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim ds As New DataSet
@@ -982,17 +983,94 @@ Public Class _Default
 
     End Sub
 
+    Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
+        Dim ok As Boolean = False
+        Dim ds As New DataSet
+
+        lblSearchErr.Visible = False
+
+        If btnDeceased.Text = "show Deceased" Then
+            hidedeceased = 0
+        Else
+            hidedeceased = 1
+        End If
+
+        If btnSearch.Text = "Search" Then
+            btnSearch.Text = "Clear Search"
+            isSearch = True
+        Else
+            btnSearch.Text = "Search"
+            isSearch = False
+        End If
+
+        OpenArticle("MembershipArt")
+
+        ScrollTo("MembershipArt")
+
+        GetList(getAction(), DeceasedStatus(), txtSearch.Text)
+    End Sub
+
+    Function GetList(chap As String, hidedesc As Short, Optional Search As String = "") As Boolean
+        Dim sql As String
+        Dim ds As New DataSet
+        Dim x As Int32 = 0
+
+        If isSearch = False Then
+            sql = "exec GetMemberList '" & chap & "'," & hidedesc & ",'" & Search & "'"
+        Else
+            sql = "exec GetMemberList '" & Search & "'," & hidedesc & ",'" & txtSearch.Text & "'"
+        End If
+
+        isSearch = False
+
+        Try
+            Get_Dataset(sql, ds)
+            For Each r In ds.Tables(0).Rows
+                ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
+                x += 1
+            Next
+
+            ds.AcceptChanges()
+
+            lstMembers.DataSource = ds.Tables(0)
+
+            If ListType = "name" Then
+                lstMembers.DataTextField = "Name"
+                ds.Tables(0).DefaultView.Sort = "Name asc"
+                ds.Tables(0).AcceptChanges()
+            Else
+                lstMembers.DataTextField = "id"
+                ds.Tables(0).DefaultView.Sort = "ID asc"
+                ds.Tables(0).AcceptChanges()
+            End If
+
+            lstMembers.DataValueField = "id"
+            lstMembers.DataBind()
+
+            lblMemCount.Text = "List Count " & lstMembers.Items.Count
+            lstMembers.SelectedIndex = 0
+            lblSearchErr.Visible = False
+
+            _id = lstMembers.SelectedValue
+
+            FillBoxes()
+            Return True
+        Catch
+            Return False
+        End Try
+    End Function
+
     Private Sub FillList(listType As String)
         Dim ds As New DataSet
-        Dim x As Int16 = 0
+        Dim x As Int32 = 0
 
-        If GetList(ds, getAction(), DeceasedStatus(), txtSearch.Text) = False Then
+        If GetList(getAction(), DeceasedStatus(), txtSearch.Text) = False Then
             MsgBox("There was an error " + Err.Description)
             Exit Sub
         Else
             For Each r In ds.Tables(0).Rows
                 ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
-                x = x + 1
+                x += 1
             Next
 
             ds.AcceptChanges()
@@ -1021,53 +1099,6 @@ Public Class _Default
             FillBoxes()
         End If
     End Sub
-
-    Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
-        Dim ok As Boolean = False
-        Dim ds As New DataSet
-        Dim hidedeceased As Short
-
-        OpenArticle("MembershipArt")
-
-        ScrollTo("MembershipArt")
-
-        lblSearchErr.Visible = False
-
-        If btnDeceased.Text = "show Deceased" Then
-            hidedeceased = 0
-        Else
-            hidedeceased = 1
-        End If
-
-        If btnSearch.Text = "Search" Then
-            btnSearch.Text = "Clear Search"
-            isSearch = True
-        Else
-            btnSearch.Text = "Search"
-            isSearch = False
-        End If
-
-
-    End Sub
-
-    Function GetList(ByRef ds As DataSet, chap As String, hidedesc As Short, Optional Search As String = "") As Boolean
-        Dim sql As String
-
-        If isSearch = False Then
-            sql = "exec GetMemberList '" & chap & "'," & hidedesc & ",'" & Search & "'"
-        Else
-            sql = "exec GetMemberList '" & Search & "'," & hidedesc & ",'" & txtSearch.Text & "'"
-        End If
-
-        isSearch = False
-
-        Try
-            Get_Dataset(sql, ds)
-            Return True
-        Catch
-            Return False
-        End Try
-    End Function
 
     Private Sub FillBoxes()
         Dim sql As String
