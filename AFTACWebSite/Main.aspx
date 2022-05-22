@@ -423,22 +423,13 @@
                 
                 <div>
                     <asp:Label ID="lblMemCount" CssClass="block" ForeColor="Maroon" Font-Bold="true" Font-Size="1em" runat="server" Text="Label"></asp:Label>
-                    <asp:Label CssClass="block" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Search"></asp:Label>
                 </div>
-
+                <hr class="myHR" />
                 <div>
+                    <asp:Label CssClass="block" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Name Search"></asp:Label>
                     <asp:Label ID="lblSearchErr" CssClass="autoMarginLeftRight padding5" runat="server" Visible="false" ForeColor="Red" Font-Size="1em" Font-Bold="true" Text="Name Not Found"></asp:Label>
                     <asp:TextBox ID="txtSearch" CssClass="block autoMarginLeftRight padding5" width="8em" Font-Size="1em" Font-Bold="true" ForeColor="DarkBlue" BackColor="LightGoldenrodYellow" runat="server"></asp:TextBox>
                     <asp:Button ID="btnSearch" CssClass="block myBut autoMarginLeftRight topMargin1em padding5" Font-Size="1em" Font-Bold="true" runat="server" Text="Search" OnClick="btnSearch_Click" />        
-                </div>
-
-                <div class="width90 topMargin1em autoMarginLeftRight thinMaroonBorder aLeft">
-                    <asp:Label CssClass="leftMargin1em autoMarginLeftRight" Font-Size="1.2em" Font-Underline="true" ForeColor="Maroon" Font-Bold="true" runat="server" Text="List By"></asp:Label>
-                        
-                    <div class="leftMargin1em">
-                        <asp:CheckBox ID="searchChkName" CssClass="block autoMarginLeftRight myChk" Font-Size="1em" Font-Bold="true" Checked="true" Text="Name" Style="color:maroon;" AutoPostBack="True" runat="server" OnCheckedChanged="searchChkName_CheckedChanged"/>
-                        <asp:CheckBox ID="searchChkID" CssClass="block autoMarginLeftRight myChk" Font-Size="1em" Font-Bold="true" Text="ID" Style="color:maroon;" AutoPostBack="True" runat="server" OnCheckedChanged="searchChkID_CheckedChanged"/>
-                    </div>
                 </div>
 
                 <div class="topMargin1em centerDiv">

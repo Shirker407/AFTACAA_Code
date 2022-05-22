@@ -3,6 +3,7 @@
 
 Public Class _Default
     Inherits System.Web.UI.Page
+    Dim globalData As DataSet
     Dim action As String 'The Admin Level Of the User
     Dim PWUser As String 'The Name of thr person that is logged in.
     Dim pb As Boolean
@@ -10,7 +11,8 @@ Public Class _Default
     Dim currentindex As Int32
     Dim ListType As String = "Name"
     Dim isSearch As Boolean = False
-    Dim hidedeceased As Short
+    Dim hidedeceased As Short = 0
+    Dim blank As String = ""
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim ds As New DataSet
@@ -951,7 +953,8 @@ Public Class _Default
     Protected Sub btnMemAdmin_Click(sender As Object, e As EventArgs)
         'Dim sb As New StringBuilder
 
-        FillList(ListAction)
+        GetList(getAction())
+
         FillCommandList()
 
         If Session("adminLevel") = 1 Then
@@ -998,107 +1001,58 @@ Public Class _Default
         If btnSearch.Text = "Search" Then
             btnSearch.Text = "Clear Search"
             isSearch = True
-        Else
+            GetList(getAction(), txtSearch.Text)
+        ElseIf btnSearch.Text = "Clear Search" Then
             btnSearch.Text = "Search"
             isSearch = False
+            txtSearch.Text = ""
+            GetList(getAction())
         End If
 
         OpenArticle("MembershipArt")
 
         ScrollTo("MembershipArt")
 
-        GetList(getAction(), DeceasedStatus(), txtSearch.Text)
     End Sub
 
-    Function GetList(chap As String, hidedesc As Short, Optional Search As String = "") As Boolean
+    Function GetList(chap As String, Optional Search As String = "") As Boolean
         Dim sql As String
-        Dim ds As New DataSet
         Dim x As Int32 = 0
 
-        If isSearch = False Then
-            sql = "exec GetMemberList '" & chap & "'," & hidedesc & ",'" & Search & "'"
+        globalData = New DataSet
+
+        If Search = "" Then
+            sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & blank & "'"
         Else
-            sql = "exec GetMemberList '" & Search & "'," & hidedesc & ",'" & txtSearch.Text & "'"
+            sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & txtSearch.Text & "'"
         End If
 
-        isSearch = False
-
         Try
-            Get_Dataset(sql, ds)
-            For Each r In ds.Tables(0).Rows
-                ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
+            Get_Dataset(sql, globalData)
+            For Each r In globalData.Tables(0).Rows
+                globalData.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
                 x += 1
             Next
 
-            ds.AcceptChanges()
+            globalData.AcceptChanges()
 
-            lstMembers.DataSource = ds.Tables(0)
+            lstMembers.DataSource = globalData.Tables(0)
 
-            If ListType = "name" Then
-                lstMembers.DataTextField = "Name"
-                ds.Tables(0).DefaultView.Sort = "Name asc"
-                ds.Tables(0).AcceptChanges()
-            Else
-                lstMembers.DataTextField = "id"
-                ds.Tables(0).DefaultView.Sort = "ID asc"
-                ds.Tables(0).AcceptChanges()
-            End If
-
+            lstMembers.DataTextField = "Name"
             lstMembers.DataValueField = "id"
             lstMembers.DataBind()
 
+            lstMembers.SelectedIndex = -1
+
             lblMemCount.Text = "List Count " & lstMembers.Items.Count
-            lstMembers.SelectedIndex = 0
             lblSearchErr.Visible = False
-
-            _id = lstMembers.SelectedValue
-
             FillBoxes()
             Return True
         Catch
             Return False
         End Try
+
     End Function
-
-    Private Sub FillList(listType As String)
-        Dim ds As New DataSet
-        Dim x As Int32 = 0
-
-        If GetList(getAction(), DeceasedStatus(), txtSearch.Text) = False Then
-            MsgBox("There was an error " + Err.Description)
-            Exit Sub
-        Else
-            For Each r In ds.Tables(0).Rows
-                ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
-                x += 1
-            Next
-
-            ds.AcceptChanges()
-
-            lstMembers.DataSource = ds.Tables(0)
-
-            If listType = "name" Then
-                lstMembers.DataTextField = "Name"
-                ds.Tables(0).DefaultView.Sort = "Name asc"
-                ds.Tables(0).AcceptChanges()
-            Else
-                lstMembers.DataTextField = "id"
-                ds.Tables(0).DefaultView.Sort = "ID asc"
-                ds.Tables(0).AcceptChanges()
-            End If
-
-            lstMembers.DataValueField = "id"
-            lstMembers.DataBind()
-
-            lblMemCount.Text = "List Count " & lstMembers.Items.Count
-            lstMembers.SelectedIndex = 0
-            lblSearchErr.Visible = False
-
-            _id = lstMembers.SelectedValue
-
-            FillBoxes()
-        End If
-    End Sub
 
     Private Sub FillBoxes()
         Dim sql As String
@@ -1202,78 +1156,51 @@ Public Class _Default
 
     End Sub
 
-    Protected Sub searchChkName_CheckedChanged(sender As Object, e As EventArgs)
-        Dim sb As New StringBuilder
+    'Protected Sub searchChkName_CheckedChanged(sender As Object, e As EventArgs)
+    '    Dim sb As New StringBuilder
 
-        If searchChkName.Checked Then
-            searchChkID.Checked = False
-        End If
+    '    If searchChkName.Checked Then
+    '        searchChkID.Checked = False
+    '    End If
 
-        ListAction = "name"
+    '    ListAction = "name"
 
-        FillList(ListAction)
-        FillCommandList()
+    '    FillList(ListAction)
+    '    FillCommandList()
 
-        sb = New StringBuilder
-        sb.Append("<script>")
-        sb.Append("showMembership();")
-        sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#MembershipArt').offset().top}, 500);")
-        sb.Append("</script>")
-        If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-            Page.ClientScript.RegisterStartupScript _
-        (Me.GetType(), "Mems", "showMembership();", True)
-        End If
-    End Sub
+    '    sb = New StringBuilder
+    '    sb.Append("<script>")
+    '    sb.Append("showMembership();")
+    '    sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#MembershipArt').offset().top}, 500);")
+    '    sb.Append("</script>")
+    '    If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
+    '        Page.ClientScript.RegisterStartupScript _
+    '    (Me.GetType(), "Mems", "showMembership();", True)
+    '    End If
+    'End Sub
 
-    Protected Sub searchChkID_CheckedChanged(sender As Object, e As EventArgs)
-        Dim sb As New StringBuilder
+    'Protected Sub searchChkID_CheckedChanged(sender As Object, e As EventArgs)
+    '    Dim sb As New StringBuilder
 
-        If searchChkID.Checked Then
-            searchChkName.Checked = False
-        End If
+    '    If searchChkID.Checked Then
+    '        searchChkName.Checked = False
+    '    End If
 
-        ListAction = "id"
+    '    ListAction = "id"
 
-        FillList(ListAction)
-        FillCommandList()
+    '    FillList(ListAction)
+    '    FillCommandList()
 
-        sb = New StringBuilder
-        sb.Append("<script>")
-        sb.Append("showMembership();")
-        sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#MembershipArt').offset().top}, 500);")
-        sb.Append("</script>")
-        If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-            Page.ClientScript.RegisterStartupScript _
-        (Me.GetType(), "Mems", "showMembership();", True)
-        End If
-    End Sub
-
-    Protected Sub btnMemFlorida_Click(sender As Object, e As EventArgs)
-        Dim sb As New StringBuilder
-
-        btnMemCalifornia.CssClass = "mySelBut myBut autoMarginLeftRight"
-        btnMemColorado.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnMemFlorida.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
-        btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        If btnDeceased.Text = "Hide Deceased" Then
-            lblListTitle.Text = "Florida Members<br>Deceased Shown"
-        Else
-            lblListTitle.Text = "Florida Members<br>Deceased Hidden"
-        End If
-
-        FillList(ListAction)
-
-        sb.Append("<script>)")
-        sb.Append("showMembership();")
-        sb.Append("/<script>)")
-
-        If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-            Page.ClientScript.RegisterStartupScript _
-        (Me.GetType(), "Mems", "showMembership();", True)
-        End If
-    End Sub
+    '    sb = New StringBuilder
+    '    sb.Append("<script>")
+    '    sb.Append("showMembership();")
+    '    sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#MembershipArt').offset().top}, 500);")
+    '    sb.Append("</script>")
+    '    If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
+    '        Page.ClientScript.RegisterStartupScript _
+    '    (Me.GetType(), "Mems", "showMembership();", True)
+    '    End If
+    'End Sub
 
     Private Sub ClearBoxes()
         txtFirst.Text = ""
@@ -1313,33 +1240,6 @@ Public Class _Default
         badEmailChk.Checked = False
 
         ddlCommand.Text = "None"
-    End Sub
-
-    Protected Sub btnNonMem_Click(sender As Object, e As EventArgs)
-        Dim sb As New StringBuilder
-
-        btnMemCalifornia.CssClass = "mySelBut myBut autoMarginLeftRight"
-        btnMemColorado.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnMemFlorida.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnNonMem.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
-        btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        If btnDeceased.Text = "Hide Deceased" Then
-            lblListTitle.Text = "NonMembers<br>Deceased Shown"
-        Else
-            lblListTitle.Text = "NonMembers<br>Deceased Hidden"
-        End If
-
-        FillList(ListAction)
-
-        sb.Append("<script>)")
-        sb.Append("showMembership();")
-        sb.Append("/<script>)")
-
-        If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-            Page.ClientScript.RegisterStartupScript _
-        (Me.GetType(), "Mems", "showMembership();", True)
-        End If
     End Sub
 
     Protected Sub btnDelete_Click(sender As Object, e As EventArgs)
@@ -1429,7 +1329,7 @@ Public Class _Default
                 'Exit Sub
             End Try
 
-            FillList(ListAction)
+            GetList(getAction())
 
             lstMembers.SelectedIndex = currentindex
 
@@ -1540,16 +1440,11 @@ Public Class _Default
             lblListTitle.Text = "California Members<br>Deceased Hidden"
         End If
 
-        FillList(ListAction)
+        GetList(getAction())
 
-        sb.Append("<script>)")
-        sb.Append("showMembership();")
-        sb.Append("/<script>)")
+        OpenArticle("MembershipArt")
 
-        If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-            Page.ClientScript.RegisterStartupScript _
-        (Me.GetType(), "Mems", "showMembership();", True)
-        End If
+        ScrollTo("MembershipArt")
     End Sub
 
     Protected Sub btnMemColorado_Click(sender As Object, e As EventArgs)
@@ -1566,9 +1461,57 @@ Public Class _Default
             lblListTitle.Text = "Colorado Members<br>Deceased Hidden"
         End If
 
-        FillList(ListAction)
+        GetList(getAction())
 
         OpenArticle("MembershipArt")
+
+        ScrollTo("MembershipArt")
+
+    End Sub
+
+    Protected Sub btnMemFlorida_Click(sender As Object, e As EventArgs)
+        Dim sb As New StringBuilder
+
+        btnMemCalifornia.CssClass = "mySelBut myBut autoMarginLeftRight"
+        btnMemColorado.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnMemFlorida.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
+        btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        If btnDeceased.Text = "Hide Deceased" Then
+            lblListTitle.Text = "Florida Members<br>Deceased Shown"
+        Else
+            lblListTitle.Text = "Florida Members<br>Deceased Hidden"
+        End If
+
+        GetList(getAction())
+
+        OpenArticle("MembershipArt")
+
+        ScrollTo("MembershipArt")
+
+    End Sub
+
+    Protected Sub btnNonMem_Click(sender As Object, e As EventArgs)
+        Dim sb As New StringBuilder
+
+        btnMemCalifornia.CssClass = "mySelBut myBut autoMarginLeftRight"
+        btnMemColorado.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnMemFlorida.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnNonMem.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
+        btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        If btnDeceased.Text = "Hide Deceased" Then
+            lblListTitle.Text = "NonMembers<br>Deceased Shown"
+        Else
+            lblListTitle.Text = "NonMembers<br>Deceased Hidden"
+        End If
+
+        GetList(getAction())
+
+        OpenArticle("MembershipArt")
+
+        ScrollTo("MembershipArt")
 
     End Sub
 
@@ -1587,16 +1530,12 @@ Public Class _Default
             lblListTitle.Text = "Entire Database<br>Deceased Hidden"
         End If
 
-        FillList(ListAction)
+        GetList(getAction())
 
-        sb.Append("<script>)")
-        sb.Append("showMembership();")
-        sb.Append("/<script>)")
+        OpenArticle("MembershipArt")
 
-        If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-            Page.ClientScript.RegisterStartupScript _
-        (Me.GetType(), "Mems", "showMembership();", True)
-        End If
+        ScrollTo("MembershipArt")
+
     End Sub
 
     Protected Sub btnMemAll_Click(sender As Object, e As EventArgs)
@@ -1614,16 +1553,11 @@ Public Class _Default
             lblListTitle.Text = "All Members<br>Deceased Hidden"
         End If
 
-        FillList(ListAction)
+        GetList(getAction())
 
-        sb.Append("<script>)")
-        sb.Append("showMembership();")
-        sb.Append("/<script>)")
+        OpenArticle("MembershipArt")
 
-        If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-            Page.ClientScript.RegisterStartupScript _
-        (Me.GetType(), "Mems", "showMembership();", True)
-        End If
+        ScrollTo("MembershipArt")
     End Sub
 
     Protected Function GetChapters() As String
@@ -1778,7 +1712,9 @@ Public Class _Default
             btnDeceased.Text = "Hide Deceased"
             lblListTitle.Text = "Entire Database<br/>Deceased Shown"
         End If
-        FillList(ListAction)
+
+        GetList(getAction())
+
         sb.Append("<script>")
         sb.Append("showMembership();")
         sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#lblListTitle').offset().top}, 500);")
