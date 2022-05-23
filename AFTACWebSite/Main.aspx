@@ -434,7 +434,7 @@
 
                 <div class="topMargin1em centerDiv">
                     <asp:Button ID="btnMemAll" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" All Members " OnClick="btnMemAll_Click" />
-                    <asp:Button ID="btnMemCalifornia" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" California " OnClick="btnMemCalifornia_Click" />
+                    <asp:Button ID="btnMemCalifornia" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" Style="margin-top:.5em;" runat="server" Text=" California " OnClick="btnMemCalifornia_Click" />
                     <asp:Button ID="btnMemColorado" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" Colorado " OnClick="btnMemColorado_Click"/>
                     <asp:Button ID="btnMemFlorida" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" Florida " OnClick="btnMemFlorida_Click" />
                     <asp:Button ID="btnNonMem" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" Non-Members " OnClick="btnNonMem_Click"/>
@@ -452,21 +452,20 @@
                         <asp:Label ForeColor="Maroon" Font-Bold="true" Font-Size="1em" runat="server" Text="First Name: "></asp:Label>
                         <asp:TextBox ID="txtFirst" CssClass="padding5" Width="90%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
                     </div>
+                    <div class="float-left" style="width:4em;">
+                        <asp:Label ForeColor="Maroon" CssClass="block centerText" Font-Bold="true" runat="server" Text="Initial: "></asp:Label>
+                        <asp:TextBox ID="txtInitial" CssClass="block leftMargin1em padding5" Width="2em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                    </div>
                     <div class="float-left width30">
                         <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="Last Name: "></asp:Label>
                         <asp:TextBox ID="txtLast" CssClass="padding5" Width="90%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
-                    </div>
-                    <div class="float-left width10">
-                        <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="Initial: "></asp:Label>
-                        <asp:TextBox ID="txtInitial" CssClass="padding5" Width="50%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
                     </div>
                     <div class="float-left width20">
                         <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="Date Joined: "></asp:Label>
                         <asp:TextBox ID="txtJoined" CssClass="padding5" Width="90%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
                     </div>
-                    <div class="float-left width10">
-                        <asp:Label ForeColor="Maroon" Font-Bold="true" runat="server" Text="ID: "></asp:Label>
-                        <asp:Label ID="lblMemID" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="4051"></asp:Label>
+                    <div class="float-left topMargin2em width10">
+                        <asp:Label ID="lblMemID" ForeColor="Maroon" Width="6em" Font-Bold="true" runat="server" Text=""></asp:Label>
                     </div>
                         <div class="clear"></div>
                 </section>
@@ -474,9 +473,9 @@
                     <div class="row">
                         <div class="col-sm-1">
                             <asp:Label ID="Label26" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Suffix: "></asp:Label>
-                            <asp:TextBox ID="txtSuffix" CssClass="block padding5" Width="100%" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtSuffix" CssClass="block padding5" Width="3em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 leftMargin1em">
                             <asp:Label ID="Label29" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Spouse: "></asp:Label>
                             <asp:TextBox ID="txtSpouse" Width="100%" CssClass="padding5" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
                         </div>
@@ -570,7 +569,7 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="width100">
-                                    <asp:Label ID="Label56" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Dets"></asp:Label>
+                                    <asp:Label ID="Label56" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Assignments"></asp:Label>
                                     <asp:TextBox ID="txtDets" CssClass="padding5 block" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>
                                 </div>
                             </div>

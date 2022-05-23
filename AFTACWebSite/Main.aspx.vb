@@ -1060,7 +1060,7 @@ Public Class _Default
 
         Get_Dataset(sql, ds)
 
-        lblMemID.Text = "ID " & ds.Tables(0).Rows(0).Item("id")
+        lblMemID.Text = "ID: " & ds.Tables(0).Rows(0).Item("id")
         txtFirst.Text = Capitolize(ds.Tables(0).Rows(0).Item("First"))
         txtLast.Text = Capitolize(ds.Tables(0).Rows(0).Item("Last"))
         txtInitial.Text = Capitolize(ds.Tables(0).Rows(0).Item("Initial"))
@@ -1392,7 +1392,6 @@ Public Class _Default
     End Sub
 
     Protected Sub btnAdd_Click(sender As Object, e As EventArgs)
-        Dim sb As New StringBuilder
 
         If btnMemSave.Text = " Save Changes " Then
             btnMemSave.Text = " Save New "
@@ -1405,18 +1404,13 @@ Public Class _Default
             btnAdd.Text = " Add New "
             lstMembers.Enabled = True
             _id = Session("SelectedValue")
-            FillBoxes()
         End If
 
-        sb = New StringBuilder
-        sb.Append("<script>)")
-        sb.Append("showMembership();")
-        sb.Append("/<script>)")
+        GetList(getAction())
 
-        If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-            Page.ClientScript.RegisterStartupScript _
-        (Me.GetType(), "Mems", "showMembership();", True)
-        End If
+        OpenArticle("MembershipArt")
+
+        ScrollTo("MembershipArt")
 
     End Sub
 
@@ -1434,6 +1428,9 @@ Public Class _Default
         Else
             lblListTitle.Text = "California Members<br>Deceased Hidden"
         End If
+
+        txtSearch.Text = ""
+        btnsearch.Text="Search"
 
         GetList(getAction())
 
@@ -1455,6 +1452,9 @@ Public Class _Default
         Else
             lblListTitle.Text = "Colorado Members<br>Deceased Hidden"
         End If
+
+        txtSearch.Text = ""
+        btnSearch.Text = "Search"
 
         GetList(getAction())
 
@@ -1479,6 +1479,9 @@ Public Class _Default
             lblListTitle.Text = "Florida Members<br>Deceased Hidden"
         End If
 
+        txtSearch.Text = ""
+        btnSearch.Text = "Search"
+
         GetList(getAction())
 
         OpenArticle("MembershipArt")
@@ -1501,6 +1504,9 @@ Public Class _Default
         Else
             lblListTitle.Text = "NonMembers<br>Deceased Hidden"
         End If
+
+        txtSearch.Text = ""
+        btnSearch.Text = "Search"
 
         GetList(getAction())
 
@@ -1525,6 +1531,9 @@ Public Class _Default
             lblListTitle.Text = "Entire Database<br>Deceased Hidden"
         End If
 
+        txtSearch.Text = ""
+        btnSearch.Text = "Search"
+
         GetList(getAction())
 
         OpenArticle("MembershipArt")
@@ -1547,6 +1556,9 @@ Public Class _Default
         Else
             lblListTitle.Text = "All Members<br>Deceased Hidden"
         End If
+
+        txtSearch.Text = ""
+        btnSearch.Text = "Search"
 
         GetList(getAction())
 

@@ -275,15 +275,6 @@ Partial Public Class _Default
     Protected WithEvents txtFirst As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''txtLast control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents txtLast As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
     '''txtInitial control.
     '''</summary>
     '''<remarks>
@@ -291,6 +282,15 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtInitial As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''txtLast control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtLast As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''txtJoined control.
@@ -489,15 +489,6 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtcmdDates As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Label56 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label56 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtDets control.
