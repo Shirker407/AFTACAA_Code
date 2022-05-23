@@ -964,14 +964,9 @@ Public Class _Default
         End If
 
         OpenArticle("MembershipArt")
-        ScrollTo("MembershipArt")
-        'sb = New StringBuilder
-        'sb.Append("<script>")
-        'sb.Append("showMembership();")
-        'sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#MembershipArt').offset().top}, 500);")
-        'sb.Append("</script>")
 
-        'RunScript(sb.ToString)
+        ScrollTo("MembershipArt")
+
     End Sub
 
     Protected Sub lstMembers_SelectedIndexChanged(sender As Object, e As EventArgs)
