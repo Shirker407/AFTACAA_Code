@@ -80,7 +80,7 @@ Public Class Memlookup
         id = ds.Tables(0).Rows(0).Item("ID").ToString
         pnlHyper.Visible = True
 
-        mailURL = "MailTo:Steskalm@aol.com,fCalenda@aol.com?subject=Member Information Request&body=Please send me any information you have on " & fname & " " & lname & " ID:" & id
+        mailURL = "MailTo:Piston_Horse@hotmail.com,fCalenda@aol.com?subject=Member Information Request&body=Please send me any information you have on " & fname & " " & lname & " ID:" & id
 
         HyperLink1.NavigateUrl = Replace(mailURL, " ", "%20")
 
