@@ -95,6 +95,15 @@ Partial Public Class _Default
     Protected WithEvents lbl2017 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''btnFriends control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnFriends As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''mainHeader control.
     '''</summary>
     '''<remarks>
@@ -138,6 +147,177 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label20 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''lstMems control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lstMems As Global.System.Web.UI.WebControls.ListBox
+
+    '''<summary>
+    '''TextBox1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''lblmemmess control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblmemmess As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''lblErrSearch control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblErrSearch As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Button2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''pnlMemDefault control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlMemDefault As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''Label4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''pnlMemDeceased control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlMemDeceased As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''lblDeceasedMess control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblDeceasedMess As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''pnlNonMember control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlNonMember As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''lblNonMember control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblNonMember As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''pnlMemAlive control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlMemAlive As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''lblMemAlive control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblMemAlive As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''imgCal control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents imgCal As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
+    '''imgCol control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents imgCol As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
+    '''imgFla control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents imgFla As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
+    '''pnlHyper control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlHyper As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''Label9 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label9 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''HyperLink1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
     '''lblListTitle control.
@@ -489,6 +669,15 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents txtcmdDates As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Label56 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label56 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''txtDets control.
