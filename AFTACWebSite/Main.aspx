@@ -173,7 +173,7 @@
                     </li>
 
                     <li id="liLookup" class="bottomDot">
-                        <a id="looka" href="Memlookup.aspx" class="yellowText fontSize1em">AFTAC Friends Search</a>
+                        <asp:Button ID="btnFriends" runat="server" ForeColor="Yellow" Font-Bold="true" BorderStyle="None" Text="Friends Search" OnClick="btnFriends_Click" />
                     </li>
 
                     <li id="liObituaries" class="liMainMenu bottomDot">Obituaries
@@ -414,6 +414,68 @@
                 $15 AND CHILDREN AGE 10 AND UNDER ARE FREE.
             </p>
         </article>
+
+        <article id="FriendsArt" class="myArts noDisplay">
+            <aside class="floatLeft width25 topMargin2em leftMargin5em">
+                <p class="centerText pTitle" style="font-size:1.5em;">Member's List</p>
+                <asp:ListBox ID="lstMems" style="margin-top:-.5em;padding:5px;" Width="95%" CssClass="maroonBorder smallShadow" BackColor="Moccasin" Font-Bold="true" ForeColor="#990000" Rows="15" runat="server" Font-Size="Larger" OnSelectedIndexChanged="lstMems_SelectedIndexChanged" AutoPostBack="True"></asp:ListBox>
+                <asp:TextBox ID="TextBox1" Font-Size="1.5em" Width="70%" CssClass="topMargin1em padding5" BackColor="Maroon" ForeColor="Yellow" runat="server" ToolTip="Enter a whole name or the first few letters"></asp:TextBox>
+                <asp:Label ID="lblmemmess" runat="server" ForeColor="Maroon" BackColor="Transparent" Visible="false" Text=""></asp:Label>
+                <asp:Label ID="lblErrSearch" ForeColor="Red" CssClass="block" Visible="false" Font-Bold="true" Font-Italic="true" runat="server" Text="Name was not found"></asp:Label>
+                <asp:Button ID="Button2" CssClass="myBut topMargin1em" runat="server" Text=" Search " OnClick="btnSearch_Click" />   
+            </aside>
+
+            <section class="floatLeft width50 leftMargin2em">
+                <p class="centerText topMargin1em" style="font-size:1em;">
+                    This Web-page Search Interrogates our Membership Database.<br />
+                    It is Continually Being Updated.<br />
+                    Check Back Regularly For New Or Revised Entries            
+                </p>
+            </section>
+
+            <section class="floatLeft leftMargin2em bottomMarginHalfem topMargin1em width50 maroonBorder smallShadow">
+                <asp:Panel ID="pnlMemDefault" Width="90%" Visible="true" runat="server">
+                    <div class=" width60 autoMarginLeftRight">
+                        <asp:Label ID="Label4" runat="server" Font-Size="2em" ForeColor="Maroon" Font-Bold="true" Text="Either Search for a name or Select a name from the Member List"></asp:Label>
+                    </div>
+                </asp:Panel>
+
+                <asp:Panel ID="pnlMemDeceased" Visible="false" runat="server">
+                    <div class=" width60 autoMarginLeftRight topMargin2em bottomMargin2em">
+                        <asp:Label ID="lblDeceasedMess" runat="server" Font-Size="2em" ForeColor="Maroon" Font-Bold="true" Text="Label"></asp:Label>
+                    </div>
+                </asp:Panel>
+
+                <asp:Panel ID="pnlNonMember" Visible="false" runat="server">
+                    <div class=" width60 autoMarginLeftRight topMargin2em bottomMargin2em">
+                        <asp:Label ID="lblNonMember" runat="server" Font-Size="2em" ForeColor="Maroon" Font-Bold="true" Text="Label"></asp:Label>
+                    </div>
+                </asp:Panel>
+
+                <asp:Panel ID="pnlMemAlive" Visible="false" runat="server">
+                    <div class=" width80 autoMarginLeftRight topMargin2em bottomMargin2em">
+                        <asp:Label ID="lblMemAlive" runat="server" Font-Size="2em" ForeColor="Maroon" Font-Bold="true" Text="Label"></asp:Label>
+                        <div>
+                            <asp:Image ID="imgCal" ImageUrl="~/_Images/checked.jpg" Width="5%" runat="server" /><span class="maroonText bold" style="font-size:1.5em;"> California</span>
+                            <asp:Image ID="imgCol" CssClass=" leftMargin1Halfem" ImageUrl="~/_Images/checked.jpg" Width="5%" runat="server" /><span class="maroonText bold" style="font-size:1.5em;"> Colorado</span>
+                            <asp:Image ID="imgFla" CssClass=" leftMargin1Halfem" ImageUrl="~/_Images/checked.jpg" Width="5%" runat="server" /><span class="maroonText bold" style="font-size:1.5em;"> Florida</span>
+                        </div>
+                    </div>
+                </asp:Panel>
+
+                <div class="clear"></div>
+
+                <asp:Panel ID="pnlHyper" Visible="false" runat="server">
+                    <asp:Label ID="Label9" runat="server" ForeColor="Maroon" CssClass="block" Font-Bold="true" Font-Size="1.5em" Text="Click the link below to send EMail to our Membership Chairman to get more information on this individual."></asp:Label>
+                    <asp:HyperLink ID="HyperLink1" NavigateUrl="#" ForeColor="Red" CssClass="block topMargin1em bottomMargin1em" Font-Size="1.5em" Font-Bold="true" 
+                        runat="server"> Send EMail </asp:HyperLink>
+                </asp:Panel>
+
+            </section>
+
+            <div class="clear bottomMargin2em"></div>
+
+    </article>
 
         <article id="MembershipArt" class="myArts noDisplay">
             <aside class=" leftMargin1em floatLeft" style="margin-top:-2em;width:19%;">

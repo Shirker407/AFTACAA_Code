@@ -27,7 +27,7 @@ Public Class Memlookup
     End Sub
 
     Protected Sub lstMems_SelectedIndexChanged(sender As Object, e As EventArgs)
-        SetupForm()
+        SetupFriends()
     End Sub
 
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
@@ -52,7 +52,7 @@ Public Class Memlookup
 
         If ok Then
             lstMems.SelectedIndex = x
-            SetupForm()
+            SetupFriends()
         Else
             lblErrSearch.Text = "Search String not Found"
             lblErrSearch.Visible = True
@@ -63,7 +63,7 @@ Public Class Memlookup
         Response.Redirect("Main.aspx")
     End Sub
 
-    Private Sub SetupForm()
+    Private Sub SetupFriends()
         Dim ds As New DataSet
         Dim sql As String = "exec GetMemberData " & lstMems.SelectedValue
         Dim mailURL As String
