@@ -981,6 +981,41 @@ Public Class _Default
 
     End Sub
 
+    Protected Sub btnFriendSearch_Click(sender As Object, e As EventArgs)
+        Dim ok As Boolean = False
+        Dim ds As New DataSet
+
+        lblSearchErr.Visible = False
+
+        If btnDeceased.Text = "show Deceased" Then
+            hidedeceased = 0
+        Else
+            hidedeceased = 1
+        End If
+
+        If btnSearch.Text = "Search" Then
+            btnSearch.Text = "Clear Search"
+            isSearch = True
+            GetList(getAction(), txtSearch.Text)
+        ElseIf btnSearch.Text = "Clear Search" Then
+            btnSearch.Text = "Search"
+            isSearch = False
+            txtSearch.Text = ""
+            GetList(getAction())
+        End If
+
+        lstMems.DataSource = ds.Tables(0)
+        lstMems.DataTextField = "Name"
+        lstMems.DataValueField = "id"
+        lstMems.DataBind()
+
+        OpenArticle("FriendsArt")
+
+        ScrollTo("FriendsArt")
+
+    End Sub
+
+
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
         Dim ok As Boolean = False
         Dim ds As New DataSet
@@ -1004,17 +1039,21 @@ Public Class _Default
             GetList(getAction())
         End If
 
-        OpenArticle("MembershipArt")
+        lstMems.DataSource = ds.Tables(0)
+        lstMems.DataTextField = "Name"
+        lstMems.DataValueField = "id"
+        lstMems.DataBind()
 
-        ScrollTo("MembershipArt")
+        OpenArticle("FriendsArt")
+
+        ScrollTo("FriendsArt")
 
     End Sub
 
     Function GetList(chap As String, Optional Search As String = "") As Boolean
         Dim sql As String
         Dim x As Int32 = 0
-
-        globalData = New DataSet
+        Dim ds As New DataSet
 
         If Search = "" Then
             sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & blank & "'"
@@ -1023,15 +1062,15 @@ Public Class _Default
         End If
 
         Try
-            Get_Dataset(sql, globalData)
-            For Each r In globalData.Tables(0).Rows
-                globalData.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
+            Get_Dataset(sql, ds)
+            For Each r In ds.Tables(0).Rows
+                ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
                 x += 1
             Next
 
-            globalData.AcceptChanges()
+            ds.AcceptChanges()
 
-            lstMembers.DataSource = globalData.Tables(0)
+            lstMembers.DataSource = ds.Tables(0)
 
             lstMembers.DataTextField = "Name"
             lstMembers.DataValueField = "id"
@@ -1963,6 +2002,7 @@ Public Class _Default
             pnlMemDeceased.Visible = False
         End If
 
+        OpenArticle("FriendsArt")
     End Sub
 
     Protected Sub lstMems_SelectedIndexChanged(sender As Object, e As EventArgs)

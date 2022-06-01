@@ -422,7 +422,7 @@
                 <asp:TextBox ID="TextBox1" Font-Size="1.5em" Width="70%" CssClass="topMargin1em padding5" BackColor="Maroon" ForeColor="Yellow" runat="server" ToolTip="Enter a whole name or the first few letters"></asp:TextBox>
                 <asp:Label ID="lblmemmess" runat="server" ForeColor="Maroon" BackColor="Transparent" Visible="false" Text=""></asp:Label>
                 <asp:Label ID="lblErrSearch" ForeColor="Red" CssClass="block" Visible="false" Font-Bold="true" Font-Italic="true" runat="server" Text="Name was not found"></asp:Label>
-                <asp:Button ID="Button2" CssClass="myBut topMargin1em" runat="server" Text=" Search " OnClick="btnSearch_Click" />   
+                <asp:Button ID="btnFriendSearch" CssClass="myBut topMargin1em" runat="server" Text=" Search " OnClick="btnFriendSearch_Click" />   
             </aside>
 
             <section class="floatLeft width50 leftMargin2em">
