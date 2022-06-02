@@ -984,7 +984,7 @@ Public Class _Default
     Protected Sub btnFriendSearch_Click(sender As Object, e As EventArgs)
         Dim ok As Boolean = False
         Dim ds As New DataSet
-
+        Dim sql As String
         lblSearchErr.Visible = False
 
         If btnDeceased.Text = "show Deceased" Then
