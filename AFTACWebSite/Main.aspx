@@ -178,8 +178,8 @@
 
                     <li id="liObituaries" class="liMainMenu bottomDot">Obituaries
                         <div id="divObits" class="underMenu noDisplay">
-                            <span id="obitsRecent" class="underSel block leftMargin1em">Recent Obituaries</span>
-                            <span id="obitsArchived" class="underSel block leftMargin1em">Archived Obituaries</span>
+                            <span id="obitsRecent" class="underSel block leftMargin1em">Recent</span>
+                            <span id="obitsArchived" class="underSel block leftMargin1em">Archived</span>
                         </div>
                     </li>
 

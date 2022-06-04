@@ -13,11 +13,11 @@ Public Class _Default
     Dim isSearch As Boolean = False
     Dim hidedeceased As Short = 0
     Dim blank As String = ""
-
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim ds As New DataSet
         Dim sb As New StringBuilder
         Dim ws As New myService
+        Dim sql As String
 
         If Not IsPostBack Then
 
@@ -31,6 +31,14 @@ Public Class _Default
             End If
 
             lstNamesData = New DataSet
+
+            sql = "Exec ArchiveNames"
+            Get_Dataset(Sql, lstNamesData, "ArchiveNames")
+
+            ddObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
+            ddObitNames.DataTextField = "Name"
+            ddObitNames.DataValueField = "ID"
+            ddObitNames.DataBind()
 
         End If
     End Sub
@@ -984,7 +992,6 @@ Public Class _Default
     Protected Sub btnFriendSearch_Click(sender As Object, e As EventArgs)
         Dim ok As Boolean = False
         Dim ds As New DataSet
-        Dim sql As String
         lblSearchErr.Visible = False
 
         If btnDeceased.Text = "show Deceased" Then
