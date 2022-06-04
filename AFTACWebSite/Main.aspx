@@ -402,27 +402,14 @@
             </p>
         </article>
 
-        <article id="coloBreakfastArt" class="myArts noDisplay maroonBorder showShadow">
-            <p class="pTitle centerText">COLORADO GENERAL MEMBERSHIP BREAKFAST</p>
-
-            <p>
-                OUR FEBRUARY GENERAL MEMBERSHIP BREAKFAST WILL BE AT THE TIN CUP BANQUET ROOM 50 S. PEORIA ST.ON 19 FEBRUARY 2022 SERVED AT 0900. Everyone is invited. 
-                <br /><br />
-                PLEASE RSVP BY 10 FEBRUARY TO MAUREEN HAMPSON AT 303.695.0477 (LEAVE A MESSAGE). We need to get a good head count for the food.
-                <br /><br />
-                COST IS $20 PER PERSON, ACTIVE DUTY MILITARY<br />
-                $15 AND CHILDREN AGE 10 AND UNDER ARE FREE.
-            </p>
-        </article>
-
         <article id="FriendsArt" class="myArts noDisplay">
             <aside class="floatLeft width25 topMargin2em leftMargin5em">
                 <p class="centerText pTitle" style="font-size:1.5em;">Member's List</p>
                 <asp:ListBox ID="lstMems" style="margin-top:-.5em;padding:5px;" Width="95%" CssClass="maroonBorder smallShadow" BackColor="Moccasin" Font-Bold="true" ForeColor="#990000" Rows="15" runat="server" Font-Size="Larger" OnSelectedIndexChanged="lstMems_SelectedIndexChanged" AutoPostBack="True"></asp:ListBox>
-                <asp:TextBox ID="TextBox1" Font-Size="1.5em" Width="70%" CssClass="topMargin1em padding5" BackColor="Maroon" ForeColor="Yellow" runat="server" ToolTip="Enter a whole name or the first few letters"></asp:TextBox>
+                <asp:TextBox ID="txtSearchName" Font-Size="1.5em" Width="70%" CssClass="topMargin1em padding5" BackColor="Maroon" ForeColor="Yellow" runat="server" ToolTip="Enter a whole name or the first few letters"></asp:TextBox>
                 <asp:Label ID="lblmemmess" runat="server" ForeColor="Maroon" BackColor="Transparent" Visible="false" Text=""></asp:Label>
                 <asp:Label ID="lblErrSearch" ForeColor="Red" CssClass="block" Visible="false" Font-Bold="true" Font-Italic="true" runat="server" Text="Name was not found"></asp:Label>
-                <asp:Button ID="btnFriendSearch" CssClass="myBut topMargin1em" runat="server" Text=" Search " OnClick="btnFriendSearch_Click" />   
+                <asp:Button ID="btnFriendSearch" CssClass="myBut topMargin1em padding5" runat="server" Text="Search" OnClick="btnFriendSearch_Click" />   
             </aside>
 
             <section class="floatLeft width50 leftMargin2em">
@@ -475,7 +462,7 @@
 
             <div class="clear bottomMargin2em"></div>
 
-    </article>
+        </article>
 
         <article id="MembershipArt" class="myArts noDisplay">
             <aside class=" leftMargin1em floatLeft" style="margin-top:-2em;width:19%;">

@@ -158,13 +158,13 @@ Partial Public Class _Default
     Protected WithEvents lstMems As Global.System.Web.UI.WebControls.ListBox
 
     '''<summary>
-    '''TextBox1 control.
+    '''txtSearchName control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtSearchName As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''lblmemmess control.

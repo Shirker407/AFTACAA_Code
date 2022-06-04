@@ -997,26 +997,29 @@ Public Class _Default
     End Sub
 
     Protected Sub btnFriendSearch_Click(sender As Object, e As EventArgs)
-        Dim ok As Boolean = False
         Dim ds As New DataSet
+        Dim sql As String
+
         lblSearchErr.Visible = False
 
         If btnDeceased.Text = "show Deceased" Then
-            hidedeceased = 0
-        Else
             hidedeceased = 1
+        Else
+            hidedeceased = 0
         End If
 
-        If btnSearch.Text = "Search" Then
-            btnSearch.Text = "Clear Search"
-            isSearch = True
-            GetList(getAction(), txtSearch.Text)
-        ElseIf btnSearch.Text = "Clear Search" Then
-            btnSearch.Text = "Search"
-            isSearch = False
-            txtSearch.Text = ""
-            GetList(getAction())
+        If btnFriendSearch.Text = "Search" Then
+            btnFriendSearch.Text = "Clear Search"
+            'isSearch = True
+            sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & txtSearchName.Text & "% ' Order By Last, First, Initial"
+        Else
+            btnFriendSearch.Text = "Search"
+            'isSearch = False
+            txtSearchName.Text = ""
+            sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac Order By Last, First, Initial"
         End If
+
+        Get_Dataset(sql, ds)
 
         lstMems.DataSource = ds.Tables(0)
         lstMems.DataTextField = "Name"
@@ -1036,11 +1039,11 @@ Public Class _Default
 
         lblSearchErr.Visible = False
 
-        If btnDeceased.Text = "show Deceased" Then
-            hidedeceased = 0
-        Else
-            hidedeceased = 1
-        End If
+        'If btnDeceased.Text = "show Deceased" Then
+        '    hidedeceased = 0
+        'Else
+        '    hidedeceased = 1
+        'End If
 
         If btnSearch.Text = "Search" Then
             btnSearch.Text = "Clear Search"
@@ -1975,6 +1978,10 @@ Public Class _Default
             pnlMemAlive.Visible = False
             pnlNonMember.Visible = False
             pnlMemDeceased.Visible = True
+
+            OpenArticle("FriendsArt")
+            ScrollTo("FriendsArt")
+
             Exit Sub
         End If
 
@@ -2005,6 +2012,10 @@ Public Class _Default
             pnlMemAlive.Visible = True
             pnlNonMember.Visible = False
             pnlMemDeceased.Visible = False
+
+            OpenArticle("FriendsArt")
+
+            ScrollTo("FriendsArt")
             Exit Sub
         End If
 
@@ -2017,6 +2028,8 @@ Public Class _Default
         End If
 
         OpenArticle("FriendsArt")
+
+        ScrollTo("FriendsArt")
     End Sub
 
     Protected Sub lstMems_SelectedIndexChanged(sender As Object, e As EventArgs)
