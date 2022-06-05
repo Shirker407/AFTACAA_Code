@@ -489,32 +489,32 @@ Public Class _Default
     End Sub
 
     Private Sub SendMail()
-        Try
+        'Try
 
-            Dim SmtpServer As New SmtpClient()
-            Dim mail As New MailMessage()
-            SmtpServer.UseDefaultCredentials = False
-            SmtpServer.Credentials = New Net.NetworkCredential("aftacaawebmaster@gmail.com", "Shirley@6")
-            SmtpServer.EnableSsl = True
-            SmtpServer.Port = 465
-            SmtpServer.Host = "smtp.gmail.com"
-            SmtpServer.DeliveryMethod = SmtpDeliveryMethod.Network
+        '    Dim SmtpServer As New SmtpClient()
+        '    Dim mail As New MailMessage()
+        '    SmtpServer.UseDefaultCredentials = False
+        '    SmtpServer.Credentials = New Net.NetworkCredential("aftacaawebmaster@gmail.com", "Shirley@6")
+        '    SmtpServer.EnableSsl = True
+        '    SmtpServer.Port = 465
+        '    SmtpServer.Host = "smtp.gmail.com"
+        '    SmtpServer.DeliveryMethod = SmtpDeliveryMethod.Network
 
-            mail = New MailMessage
-            mail.From = New MailAddress("aftacaawebmaster@gmail.com")
-            mail.To.Add("pete@seagullusa.net")
-            mail.Subject = "This is the subject"
-            mail.Body = "This is the body"
+        '    mail = New MailMessage
+        '    mail.From = New MailAddress("aftacaawebmaster@gmail.com")
+        '    mail.To.Add("pete@seagullusa.net")
+        '    mail.Subject = "This is the subject"
+        '    mail.Body = "This is the body"
 
-            SmtpServer.Send(mail)
+        '    SmtpServer.Send(mail)
 
-            MsgBox("Mail Sent")
+        '    MsgBox("Mail Sent")
 
-        Catch ex As Exception
+        'Catch ex As Exception
 
-            MsgBox(Err.Number & vbNewLine & ex.Message)
+        '    MsgBox(Err.Number & vbNewLine & ex.Message)
 
-        End Try
+        'End Try
     End Sub
 
     Protected Sub btnCalenda_Click(sender As Object, e As EventArgs)
