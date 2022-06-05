@@ -250,7 +250,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 4/23/2022</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 6/6/2022</span>
                     </div>
                 </div>
 
@@ -270,6 +270,26 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWOH" class="announcement blueText">Added 2022 WOH Recipients</td>
+                                    <td class="posted blueText">6/5/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCiambrone" class="announcement blueText">Terry Ciambrone's Obituary was posted.</td>
+                                    <td class="posted blueText">6/5/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWiley" class="announcement blueText">Judith Wiley's Obituary was posted.</td>
+                                    <td class="posted blueText">6/5/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myRobbirds" class="announcement blueText">James Robbird's Obituary was posted.</td>
+                                    <td class="posted blueText">6/5/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMarcus" class="announcement blueText">Donald Marcus' Obituary was posted.</td>
                                     <td class="posted blueText">5/9/2022</td>
                                     <td class="event blueText"></td>
@@ -299,10 +319,10 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Thursday 12 May<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 24 June<br />
                         11:30 - 14:00 Hrs<br />
                         --------------------------<br />
-                        AFTAC Alumni Association General Membership Off-Site Luncheon and Teleconference Meeting<br />
+                        AFTAC Alumni Association Quarterly General Membership Off-Site Luncheon and Teleconference Meeting<br />
                         <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note:  Please arrive at 1100 to order food, prior to start of meeting.<br /></span>
                         --------------------------<br />
                         Beef O'Brady's<br />
@@ -3932,173 +3952,173 @@
                             <div class="clear"></div>
                         </div>
                     </div>
-                </div>
-                <div class="maroonBorder leftMargin1em rightMargin1em">
-                    <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
-                        <h1 class="centerText maroonText bold">2021</h1>
+                    </div>
+                    <div class="maroonBorder leftMargin1em rightMargin1em">
+                        <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
+                            <h1 class="centerText maroonText bold">2021</h1>
+                            <hr class="myHR" />
+                            <div>
+                                <div class='floatLeft width30'>
+                                    <asp:Button ID="btnClark" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="SMSgt Mike Clark" OnClick="btnClark_Click" />
+                                </div>
+                                <div class='floatLeft width30'>
+                                    <asp:Button ID="btnDeMarco" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="SMSgt Tony DeMarco" OnClick="btnDeMarco_Click" />
+                                </div>
+                                <div class='floatLeft width30'>
+                                    <asp:Button ID="btnHarris" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Eunice Harris" OnClick="btnHarris_Click" />
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="maroonBorder leftMargin1em rightMargin1em">
+                        <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
+                        <h1 class="centerText maroonText bold">2020</h1>
                         <hr class="myHR" />
                         <div>
                             <div class='floatLeft width30'>
-                                <asp:Button ID="btnClark" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="SMSgt Mike Clark" OnClick="btnClark_Click" />
+                                <asp:Button ID="btnHorsch" CssClass="wohBut" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt John T. Horsch" OnClick="btnHorsch_Click" />
                             </div>
                             <div class='floatLeft width30'>
-                                <asp:Button ID="btnDeMarco" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="SMSgt Tony DeMarco" OnClick="btnDeMarco_Click" />
+                                <asp:Button ID="btnSilhanek" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt Larry D. Silhanek" OnClick="btnSilhanek_Click" />
                             </div>
                             <div class='floatLeft width30'>
-                                <asp:Button ID="btnHarris" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Eunice Harris" OnClick="btnHarris_Click" />
+                                <asp:Button ID="btnWhitney" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col. Donald Whitney" OnClick="btnWhitney_Click" />
                             </div>
                             <div class="clear"></div>
                         </div>
                     </div>
-                </div>
-
-                <div class="maroonBorder leftMargin1em rightMargin1em">
-                    <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
-                    <h1 class="centerText maroonText bold">2020</h1>
-                    <hr class="myHR" />
-                    <div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnHorsch" CssClass="wohBut" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt John T. Horsch" OnClick="btnHorsch_Click" />
-                        </div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnSilhanek" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt Larry D. Silhanek" OnClick="btnSilhanek_Click" />
-                        </div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnWhitney" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col. Donald Whitney" OnClick="btnWhitney_Click" />
-                        </div>
-                        <div class="clear"></div>
                     </div>
-                </div>
-                </div>
 
-                <div class="maroonBorder leftMargin1em rightMargin1em">
-                    <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
-                    <h1 class="centerText maroonText bold">2019</h1>
-                    <hr class="myHR" />
-                    <div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnHall" CssClass="wohBut" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col Franklin Hall" OnClick="btnHall_Click" />
-                        </div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnMacInnes" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Lt Col George MacInnes" OnClick="btnMacInnes_Click" />
-                        </div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnRothe" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. George Rothe" OnClick="btnRothe_Click" />
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-                <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
-                    <h1 class="centerText maroonText bold">2018</h1>
-                    <hr class="myHR" />
-                    <div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnMcClelland" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt W. J. McClelland" OnClick="btnMcClelland_Click" />
-                        </div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnSpencer" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt Susan J. Spencer" OnClick="btnSpencer_Click" />
-                        </div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnWiley" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Lt Col Robert E. Wiley" OnClick="btnWiley_Click" />
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-                <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
-                    <h1 class="centerText maroonText bold">2017</h1>
-                    <hr class="myHR" />
-                    <div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnPavik" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col. Alvin L. Pavik" OnClick="btnPavik_Click" />
-                        </div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnMarshall" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Mr. Joe D. Marshall" OnClick="btnMarshall_Click" />
-                        </div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnDavis"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt James C. Davis" OnClick="btnDavis_Click" />
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-                <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
-                    <h1 class="centerText maroonText bold">2016</h1>
-                    <hr class="myHR" />
-                    <div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnHarkins"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Mr. Michael L. Harkins" OnClick="btnHarkins_Click" />
-                        </div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnButler"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt Charles A. Butler" OnClick="btnButler_Click" />
-                        </div>
-                        <div class='floatLeft width30'>
-                            <asp:Button ID="btnLeies" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. Gerard M. Leies" OnClick="btnLeies_Click" />
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-                <div class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
-                    <div class="centerText maroonText bold">
-                        <h1 class="centerText maroonText bold">2015</h1>
+                    <div class="maroonBorder leftMargin1em rightMargin1em">
+                        <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
+                        <h1 class="centerText maroonText bold">2019</h1>
                         <hr class="myHR" />
-                        <div  class="float-left" style="border-right:2px solid maroon; padding-left:2px;width:33%;">
-                            <ul>
-                                <li class="left">
-                                    <asp:Button ID="btnSinglevich"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Mr. Walter Singlevich" OnClick="btnSinglevich_Click" />
-                                </li>
-                                <li class="left">
-                                    <asp:Button ID="btnCiambrone" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col Thomas Ciambrone" OnClick="btnCiambrone_Click" />
-                                </li>
-                                <li class="left">
-                                    <asp:Button ID="btnNorthrup" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Mr. Doyle Northrup" OnClick="btnNorthrup_Click" />
-                                </li>
-                                <li class="left">
-                                    <asp:Button ID="btnRomney"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. Carl Romney" OnClick="btnRomney_Click" />
-                                </li>
-                            </ul>
+                        <div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnHall" CssClass="wohBut" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col Franklin Hall" OnClick="btnHall_Click" />
+                            </div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnMacInnes" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Lt Col George MacInnes" OnClick="btnMacInnes_Click" />
+                            </div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnRothe" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. George Rothe" OnClick="btnRothe_Click" />
+                            </div>
+                            <div class="clear"></div>
                         </div>
-
-                        <div  class="float-left" style="border-right:2px solid maroon; padding-left:2px;width:33%;">
-                            <ul>
-                                <li class="left">
-                                    <asp:Button ID="btnMcBrearty" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col Charles McBrearty, Jr." OnClick="btnMcBrearty_Click" />
-                                </li>
-                                <li class="left">
-                                    <asp:Button ID="btnLeggett" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt Kathy Leggett" OnClick="btnLeggett_Click" />
-                                </li>
-                                <li class="left">
-                                    <asp:Button ID="btnPilotte"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. Frank F. Pilotte" OnClick="btnPilotte_Click" />
-                                </li>
-                                <li class="left">
-                                    <asp:Button ID="btnSolari"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="SMSgt Delbe Solari" OnClick="btnSolari_Click" />
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div  class="float-left" style="padding-left:2px;width:33%;">
-                            <ul>
-                                <li class="left">
-                                    <asp:Button ID="btnHayden" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Lt Col Howard Hayden" OnClick="btnHayden_Click" />
-                                </li>
-                                <li class="left">
-                                    <asp:Button ID="btnKniedler" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. Marc Kniedler" OnClick="btnKniedler_Click1" />
-                                </li>
-                                <li class="left">
-                                    <asp:Button ID="btnOwen"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Mr. Marvin Owen" OnClick="btnOwen_Click" />
-                                </li>
-                                <li class="left">
-                                    <asp:Button ID="btnNiquette" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col Thomas Niquette" OnClick="btnNiquette_Click" />
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="clear"></div>
-
                     </div>
-                </div>
+
+                    <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
+                        <h1 class="centerText maroonText bold">2018</h1>
+                        <hr class="myHR" />
+                        <div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnMcClelland" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt W. J. McClelland" OnClick="btnMcClelland_Click" />
+                            </div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnSpencer" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt Susan J. Spencer" OnClick="btnSpencer_Click" />
+                            </div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnWiley" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Lt Col Robert E. Wiley" OnClick="btnWiley_Click" />
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
+                        <h1 class="centerText maroonText bold">2017</h1>
+                        <hr class="myHR" />
+                        <div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnPavik" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col. Alvin L. Pavik" OnClick="btnPavik_Click" />
+                            </div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnMarshall" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Mr. Joe D. Marshall" OnClick="btnMarshall_Click" />
+                            </div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnDavis"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt James C. Davis" OnClick="btnDavis_Click" />
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
+                        <h1 class="centerText maroonText bold">2016</h1>
+                        <hr class="myHR" />
+                        <div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnHarkins"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Mr. Michael L. Harkins" OnClick="btnHarkins_Click" />
+                            </div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnButler"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt Charles A. Butler" OnClick="btnButler_Click" />
+                            </div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnLeies" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. Gerard M. Leies" OnClick="btnLeies_Click" />
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+
+                    <div class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
+                        <div class="centerText maroonText bold">
+                            <h1 class="centerText maroonText bold">2015</h1>
+                            <hr class="myHR" />
+                            <div  class="float-left" style="border-right:2px solid maroon; padding-left:2px;width:33%;">
+                                <ul>
+                                    <li class="left">
+                                        <asp:Button ID="btnSinglevich"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Mr. Walter Singlevich" OnClick="btnSinglevich_Click" />
+                                    </li>
+                                    <li class="left">
+                                        <asp:Button ID="btnCiambrone" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col Thomas Ciambrone" OnClick="btnCiambrone_Click" />
+                                    </li>
+                                    <li class="left">
+                                        <asp:Button ID="btnNorthrup" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Mr. Doyle Northrup" OnClick="btnNorthrup_Click" />
+                                    </li>
+                                    <li class="left">
+                                        <asp:Button ID="btnRomney"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. Carl Romney" OnClick="btnRomney_Click" />
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div  class="float-left" style="border-right:2px solid maroon; padding-left:2px;width:33%;">
+                                <ul>
+                                    <li class="left">
+                                        <asp:Button ID="btnMcBrearty" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col Charles McBrearty, Jr." OnClick="btnMcBrearty_Click" />
+                                    </li>
+                                    <li class="left">
+                                        <asp:Button ID="btnLeggett" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="CMSgt Kathy Leggett" OnClick="btnLeggett_Click" />
+                                    </li>
+                                    <li class="left">
+                                        <asp:Button ID="btnPilotte"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. Frank F. Pilotte" OnClick="btnPilotte_Click" />
+                                    </li>
+                                    <li class="left">
+                                        <asp:Button ID="btnSolari"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="SMSgt Delbe Solari" OnClick="btnSolari_Click" />
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div  class="float-left" style="padding-left:2px;width:33%;">
+                                <ul>
+                                    <li class="left">
+                                        <asp:Button ID="btnHayden" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Lt Col Howard Hayden" OnClick="btnHayden_Click" />
+                                    </li>
+                                    <li class="left">
+                                        <asp:Button ID="btnKniedler" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. Marc Kniedler" OnClick="btnKniedler_Click1" />
+                                    </li>
+                                    <li class="left">
+                                        <asp:Button ID="btnOwen"  ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Mr. Marvin Owen" OnClick="btnOwen_Click" />
+                                    </li>
+                                    <li class="left">
+                                        <asp:Button ID="btnNiquette" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col Thomas Niquette" OnClick="btnNiquette_Click" />
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="clear"></div>
+
+                        </div>
+                    </div>
 
                 <p class="autoMarginLeftRight width90 topMargin1em backMoccasin maroonBorder showShadow" style="font-size:1.5em;">
                     <strong>AFTAC Wall of Honor:</strong> The annual selection process honors individuals who served with great distinction and contributed immeasurably to successful mission accomplishment. The Wall of Honor preserves the legacy of AFTAC’s former members, highlights their deeds, and honors their contributions to the center and the nation. Since the activation of the 1035th Field Activities Group (FAG)/Air Force Technical Applications Center (AFTAC) on 7 July 1959, Airmen and Air Force civilians have maintained a 24/7/365 vigilance as monitors of international nuclear treaties. Though largely unheralded, these talented members have possessed special skill sets and an unselfish dedication to the mission that have collectively established an exemplary legacy for more than half a century.
@@ -4186,7 +4206,7 @@
                 </div>
 
                 <div>
-                    <asp:TextBox ID="wohVerbage" Font-Bold="true" ForeColor="Maroon" Font-Size="1.3em" Width="90%" CssClass="autoMarginLeftRight padding5 maroonBorder" Style="min-height:10em;" runat="server" TextMode="MultiLine"></asp:TextBox>
+                    <asp:TextBox ID="wohVerbage" Font-Bold="true" ForeColor="Maroon" Font-Size="1.3em" Width="90%" CssClass="autoMarginLeftRight padding5 maroonBorder" Style="min-height:50em;" runat="server" TextMode="MultiLine"></asp:TextBox>
                 </div>
 
                 <div class="clear"></div>
@@ -11981,6 +12001,21 @@
 
 <%--                <p class="pTitle centerText padding5 maroonBorder showShadow">Currently at this time there are no Recent Obituaries.<br>Look in Archived Obituaries.</p>--%>
  
+                <article>
+                    <div>
+                        <h2 id="CiambroneH2" class="obitH1">Theresa (Terry) Ciambrone - 5/11/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="CiambronePara" class="obitPara noDisplay">
+                        <p>
+                            (Contacted by Don Whitney.)
+                            <br />
+                            "Theresa (Terry) Ciambrone, wife of former AFTAC Vice commander and building name sake Col Thomas (Tom) Ciambrone (deceased) passed away 11 May 22 after a brief stay in the hospital."
+                            <br /><br />
+                            Personal Note: As the Col neared retirement, 1987, there was a groundswell of enlisted support to honor he and Terry for what they meant to the enlisted women and men of AFTAC. To my knowledge, Col Ciambrone was the only Headquarters Officer ever celebrated as an Honorary CMSgt and Terry the only CMSgt's Mate!! Chiefs from around the AFTAC World were there to participate in an official ceremony and all AFTAC enlisted invited to a congratulatory event after. 
+                         </p>
+                    </div>
+                </article>             
                 <article>
                     <div>
                         <h2 id="RobbirdsH2" class="obitH1">James Robbirds - 3/2/2022</h2>
