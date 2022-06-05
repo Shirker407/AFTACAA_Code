@@ -328,6 +328,8 @@
                         Beef O'Brady's<br />
                         3030 Lake Washington Rd., Melbourne, FL<br />
                         --------------------------<br />
+                        1230 - 1400 - 2022 AFTAC WWR Hot Wash<br /> 
+                        --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Phil Godfrey, AFTACAA President, at <a href="MailTo:afsophil@gmail.com">afsophil@gmail.com</a>
                     </p>
