@@ -1445,6 +1445,23 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myWOH').click(function () {
+        $('#myArts').removeClass('noDisplay').addClass('block');
+        $('#honorArt').removeClass('block').addClass('noDisplay');
+    });
+
+    $('#myCiambrone').click(function () {
+        OpenObit('Ciambrone');
+    });
+
+    $('#myWiley').click(function () {
+        OpenObit('Wiley');
+    });
+
+    $('#myRobbirds').click(function () {
+        OpenObit('Robbirds');
+    });
+
     $('#myMarcus').click(function () {
         OpenObit('Marcus');
     });
@@ -1456,6 +1473,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'CiambroneH2':
+                ShowMyObit('Ciambrone')
+                break;
             case 'RobbirdsH2':
                 ShowMyObit('Robbirds')
                 break;
