@@ -1185,6 +1185,7 @@
     <Content Include="_Photos\WOH2021\WOH3.png" />
     <Content Include="_Photos\WOH2021\WOH4.png" />
     <Content Include="_Photos\WOH\Butler.png" />
+    <Content Include="_Photos\WOH\calenda.png" />
     <Content Include="_Photos\WOH\Ciambrone.png" />
     <Content Include="_Photos\WOH\Davis.png" />
     <Content Include="_Photos\WOH\Hall.png" />
@@ -1208,9 +1209,11 @@
     <Content Include="_Photos\WOH\Rothe.png" />
     <Content Include="_Photos\WOH\Silhanek.png" />
     <Content Include="_Photos\WOH\Singlevich.png" />
+    <Content Include="_Photos\WOH\Smith.png" />
     <Content Include="_Photos\WOH\Solari.png" />
     <Content Include="_Photos\WOH\Spencer.png" />
     <Content Include="_Photos\20YearWall\Wilberg.jpg" />
+    <Content Include="_Photos\WOH\Whidden.png" />
     <Content Include="_Photos\WOH\Whitney.png" />
     <Content Include="_Photos\WOH\Wiley.png" />
     <Content Include="_Photos\WOH\Silhanek.jpg" />

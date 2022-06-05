@@ -3917,6 +3917,24 @@
                 
                 <div class="maroonBorder leftMargin1em rightMargin1em">
                     <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
+                        <h1 class="centerText maroonText bold">2022</h1>
+                        <hr class="myHR" />
+                        <div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnCalenda" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="SMSgt Frank Calenda" OnClick="btnCalenda_Click" />
+                            </div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnSmith" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="MSgt Curtis Smith" OnClick="btnSmith_Click" />
+                            </div>
+                            <div class='floatLeft width30'>
+                                <asp:Button ID="btnWhidden" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col. James Whidden" OnClick="btnWhidden_Click" />
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="maroonBorder leftMargin1em rightMargin1em">
+                    <div  class="leftMargin1em rightMargin1em backMoccasin maroonBorder">
                         <h1 class="centerText maroonText bold">2021</h1>
                         <hr class="myHR" />
                         <div>

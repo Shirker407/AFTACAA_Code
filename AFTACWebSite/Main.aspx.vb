@@ -517,6 +517,23 @@ Public Class _Default
         End Try
     End Sub
 
+    Protected Sub btnCalenda_Click(sender As Object, e As EventArgs)
+        dsWOH = New DataSet
+        Get_Dataset("exec woh_data 'Frank Calenda'", dsWOH, "wohData")
+        action = "WOH"
+    End Sub
+
+    Protected Sub btnSmith_Click(sender As Object, e As EventArgs)
+        dsWOH = New DataSet
+        Get_Dataset("exec woh_data 'Curtis F. Smith'", dsWOH, "wohData")
+        action = "WOH"
+    End Sub
+
+    Protected Sub btnWhidden_Click(sender As Object, e As EventArgs)
+        dsWOH = New DataSet
+        Get_Dataset("exec woh_data 'James Whidden'", dsWOH, "wohData")
+        action = "WOH"
+    End Sub
     Protected Sub btnClark_Click(sender As Object, e As EventArgs)
         dsWOH = New DataSet
         Get_Dataset("exec woh_data 'Mike Clark'", dsWOH, "wohData")
