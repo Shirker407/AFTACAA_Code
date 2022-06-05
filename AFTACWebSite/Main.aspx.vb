@@ -1010,13 +1010,14 @@ Public Class _Default
 
         If btnFriendSearch.Text = "Search" Then
             btnFriendSearch.Text = "Clear Search"
-            'isSearch = True
-            sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & txtSearchName.Text & "% ' Order By Last, First, Initial"
+            isSearch = True
+            'sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & txtSearchName.Text & "% ' Order By Last, First, Initial"
+            GetList(getAction(), txtSearchName.Text)
         Else
             btnFriendSearch.Text = "Search"
-            'isSearch = False
+            isSearch = True
             txtSearchName.Text = ""
-            sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac Order By Last, First, Initial"
+            GetList(getAction())
         End If
 
         Get_Dataset(sql, ds)
@@ -1089,16 +1090,27 @@ Public Class _Default
 
             lstMembers.DataSource = ds.Tables(0)
 
-            lstMembers.DataTextField = "Name"
-            lstMembers.DataValueField = "id"
-            lstMembers.DataBind()
+            If Not isSearch Then
+                lstMembers.DataTextField = "Name"
+                lstMembers.DataValueField = "id"
+                lstMembers.DataBind()
 
-            lstMembers.SelectedIndex = -1
+                lstMembers.SelectedIndex = -1
 
-            lblMemCount.Text = "List Count " & lstMembers.Items.Count
-            lblSearchErr.Visible = False
-            FillBoxes()
-            Return True
+                lblMemCount.Text = "List Count " & lstMembers.Items.Count
+                lblSearchErr.Visible = False
+                FillBoxes()
+                Return True
+            Else
+                lstMems.DataTextField = "Name"
+                lstMems.DataValueField = "id"
+                lstMems.DataBind()
+
+                lstMems.SelectedIndex = 0
+
+                OpenArticle("FriendsArt")
+            End If
+            isSearch = False
         Catch
             Return False
         End Try

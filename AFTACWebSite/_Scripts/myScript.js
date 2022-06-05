@@ -155,14 +155,6 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#myFitz').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#FitzArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#memTitle").offset().top
-        }, 500);
-    });
-
     $('#butmemReturn').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#MemorialArt').removeClass('noDisplay').addClass('block');
@@ -1461,25 +1453,15 @@ $(document).ready(function () {
         OpenObit('Cwikla');
     });
 
-    $('#myCosner').click(function () {
-        OpenObit('Cosner');
-    });
-
-    $('#myRedlin').click(function () {
-        OpenObit('Redlin');
-    });
-
-    $('#mySummers').click(function () {
-        OpenObit('Summers');
-    });
-
-    $('#myWare').click(function () {
-        OpenObit('Ware');
-    });
-
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'RobbirdsH2':
+                ShowMyObit('Robbirds')
+                break;
+            case 'WileyH2':
+                ShowMyObit('Wiley')
+                break;
             case 'MarcusH2':
                 ShowMyObit('Marcus')
                 break;
