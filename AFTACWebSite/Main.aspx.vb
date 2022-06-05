@@ -47,438 +47,445 @@ Public Class _Default
         Dim sb As New StringBuilder
         Dim sql As String = ""
         Dim ds As New DataSet
+        Select Case action
+            Case "ShowList"
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#wallArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("$('#hideListings').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#wallPic').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#wallListings').removeClass('noDisplay').addClass('block');")
+                sb.Append("$('#wallImg').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
 
-        If action = "ShowList" Then
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#wallArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("$('#hideListings').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#wallPic').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#wallListings').removeClass('noDisplay').addClass('block');")
-            sb.Append("$('#wallImg').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "Password" Then
-            OpenAdminPassword()
-        ElseIf action = "PasswordSubmit" Then
-            Dim pw As String
-            Dim admin As Int16
-            Dim myDS As New DataSet
-            sb = New StringBuilder
-
-            lblPWError.Visible = False
-
-            If Len(PWUser) < 1 Then
-                lblPWError.Visible = True
-                lblPWError.Text = "You did not enter your User Name."
+            Case "Password"
                 OpenAdminPassword()
-                Exit Sub
-            End If
 
-            sql = "SELECT Password, Admin from Passwords Where UserName = '" & txtPWUserName.Text & "'"
-            Get_Dataset(sql, myDS)
+            Case "PasswordSubmit"
+                Dim pw As String
+                Dim admin As Int16
+                Dim myDS As New DataSet
+                sb = New StringBuilder
 
-            If myDS.Tables(0).Rows.Count = 0 Then
-                lblPWError.Visible = True
-                lblPWError.Text = "Your User Name was Not in the database."
-                OpenAdminPassword()
-                Exit Sub
-            End If
-            If myDS.Tables(0).Rows(0).Item("Admin") < 1 Then
-                lblPWError.Visible = True
-                lblPWError.Text = "You are not Authorized to be here."
-                OpenAdminPassword()
-                Exit Sub
-            End If
-            If Len(txtPWPassword.Text) < 1 Then
-                lblPWError.Visible = True
-                lblPWError.Text = "You did not enter your Password."
-                OpenAdminPassword()
-                Exit Sub
-            End If
+                lblPWError.Visible = False
 
-            If myDS.Tables(0).Rows(0).Item("Password") <> txtPWPassword.Text Then
-                lblPWError.Visible = True
-                lblPWError.Text = "Your Password is incorrect."
-                OpenAdminPassword()
-                Exit Sub
-            End If
-
-            pw = myDS.Tables(0).Rows(0).Item("Password")
-            admin = myDS.Tables(0).Rows(0).Item("admin")
-
-
-            Session("myName") = txtPWUserName.Text
-            Session("AdminLevel") = admin
-
-            OpenAdminMenu()
-
-
-        ElseIf action = "openPasswordChange" Then
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#changepasswordArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "memberadmin" Then
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "Menu" Then
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#adminMenuArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "ddObitsClicked" Then
-            Dim obituary As String
-            Dim name As String
-            Dim myIndex As Int32
-
-            OpenArchivedObits()
-
-            sql = "Select ID, Obituary, Name from obits where ID = " & ddObitNames.SelectedValue
-            ds = New DataSet
-            Get_Dataset(sql, ds)
-
-            myIndex = 0
-            obituary = ds.Tables(0).Rows(myIndex).Item("Obituary") & ""
-            name = ds.Tables(0).Rows(myIndex).Item("Name")
-            obitErrMess.Visible = False
-
-            If txtObitSearch.Text = "" Then
-                myIndex = 0
-                name = ds.Tables(0).Rows(0).Item("Name")
-
-                ddObitNames.DataSource = ds
-                ddObitNames.DataValueField = "ID"
-                ddObitNames.DataTextField = "Obituary"
-                ddObitNames.DataTextField = "Name"
-                ddObitNames.DataBind()
-                ddObitNames.SelectedIndex = 0
-            End If
-
-            If obituary = "" Then
-                obitErrMess.Text = name & " does not have an Obituary posted."
-                obitErrMess.Visible = True
-                pnlmyDefaultPic.Visible = True
-                pnlmyObits.Visible = False
-                Exit Sub
-            End If
-
-            pnlmyObits.Visible = True
-            pnlmyDefaultPic.Visible = False
-
-            If ds.Tables(0).Rows(myIndex).Item(myIndex) & "" <> "" Then
-                pnlmyObits.Visible = True
-                pnlmyDefaultPic.Visible = False
-                myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item(1)
-            End If
-        ElseIf action = "butObitSearchClicked" Then
-            Dim Name As String
-            Dim ok As Boolean = False
-            Dim r As DataRow
-
-            OpenArchivedObits()
-
-            If Len(txtObitSearch.Text) < 1 Then
-                obitErrMess.Text = "A name must be entered in the Search Box."
-                obitErrMess.Visible = True
-                Exit Sub
-            End If
-
-            obitErrMess.Visible = False
-            Name = txtObitSearch.Text
-
-            sql = "select ID, Name, obituary From Obits Where Name Like'" & txtObitSearch.Text & "%' order by Name"
-
-            ds = New DataSet
-            Get_Dataset(sql, ds)
-
-            For Each r In ds.Tables(0).Rows
-                If Len(r.Item("obituary") & "") > 0 Then
-                    r.Item("Name") = r.Item("Name") & "*"
+                If Len(PWUser) < 1 Then
+                    lblPWError.Visible = True
+                    lblPWError.Text = "You did not enter your User Name."
+                    OpenAdminPassword()
+                    Exit Sub
                 End If
-                ds.AcceptChanges()
-            Next
 
-            If ds.Tables(0).Rows.Count >= 1 Then
-                ddObitNames.DataSource = ds
-                ddObitNames.DataTextField = "Name"
-                ddObitNames.DataValueField = "ID"
-                ddObitNames.DataBind()
-                ddObitNames.SelectedIndex = 0
+                sql = "SELECT Password, Admin from Passwords Where UserName = '" & txtPWUserName.Text & "'"
+                Get_Dataset(sql, myDS)
 
-                sql = "Select obituary from obits where id = " & ddObitNames.SelectedItem.Value
-                Get_Dataset(sql, ds, "Obit")
+                If myDS.Tables(0).Rows.Count = 0 Then
+                    lblPWError.Visible = True
+                    lblPWError.Text = "Your User Name was Not in the database."
+                    OpenAdminPassword()
+                    Exit Sub
+                End If
+                If myDS.Tables(0).Rows(0).Item("Admin") < 1 Then
+                    lblPWError.Visible = True
+                    lblPWError.Text = "You are not Authorized to be here."
+                    OpenAdminPassword()
+                    Exit Sub
+                End If
+                If Len(txtPWPassword.Text) < 1 Then
+                    lblPWError.Visible = True
+                    lblPWError.Text = "You did not enter your Password."
+                    OpenAdminPassword()
+                    Exit Sub
+                End If
 
-                If ds.Tables("Obit").Rows(0).Item(0) & "" <> "" Then
-                    obitErrMess.Visible = False
-                    pnlmyDefaultPic.Visible = False
-                    pnlmyObits.Visible = True
-                    myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item("Obituary")
-                Else
-                    obitErrMess.Text = ddObitNames.SelectedItem.Text & " does Not have an Obituary posted."
+                If myDS.Tables(0).Rows(0).Item("Password") <> txtPWPassword.Text Then
+                    lblPWError.Visible = True
+                    lblPWError.Text = "Your Password is incorrect."
+                    OpenAdminPassword()
+                    Exit Sub
+                End If
+
+                pw = myDS.Tables(0).Rows(0).Item("Password")
+                admin = myDS.Tables(0).Rows(0).Item("admin")
+
+
+                Session("myName") = txtPWUserName.Text
+                Session("AdminLevel") = admin
+
+                OpenAdminMenu()
+
+            Case "openPasswordChange"
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#changepasswordArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+
+            Case "memberadmin"
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+
+            Case "Menu"
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#adminMenuArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+
+            Case "ddObitsClicked"
+                Dim obituary As String
+                Dim name As String
+                Dim myIndex As Int32
+
+                OpenArchivedObits()
+
+                sql = "Select ID, Obituary, Name from obits where ID = " & ddObitNames.SelectedValue
+                ds = New DataSet
+                Get_Dataset(sql, ds)
+
+                myIndex = 0
+                obituary = ds.Tables(0).Rows(myIndex).Item("Obituary") & ""
+                name = ds.Tables(0).Rows(myIndex).Item("Name")
+                obitErrMess.Visible = False
+
+                If txtObitSearch.Text = "" Then
+                    myIndex = 0
+                    name = ds.Tables(0).Rows(0).Item("Name")
+
+                    ddObitNames.DataSource = ds
+                    ddObitNames.DataValueField = "ID"
+                    ddObitNames.DataTextField = "Obituary"
+                    ddObitNames.DataTextField = "Name"
+                    ddObitNames.DataBind()
+                    ddObitNames.SelectedIndex = 0
+                End If
+
+                If obituary = "" Then
+                    obitErrMess.Text = name & " does not have an Obituary posted."
                     obitErrMess.Visible = True
                     pnlmyDefaultPic.Visible = True
                     pnlmyObits.Visible = False
+                    Exit Sub
                 End If
 
-            Else
-                obitErrMess.Text = Name & " Is Not In database."
-                obitErrMess.Visible = True
-                pnlmyDefaultPic.Visible = True
-                pnlmyObits.Visible = False
+                pnlmyObits.Visible = True
+                pnlmyDefaultPic.Visible = False
+
+                If ds.Tables(0).Rows(myIndex).Item(myIndex) & "" <> "" Then
+                    pnlmyObits.Visible = True
+                    pnlmyDefaultPic.Visible = False
+                    myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item(1)
+                End If
+
+            Case "butObitSearchClicked"
+                Dim Name As String
+                Dim ok As Boolean = False
+                Dim r As DataRow
+
+                OpenArchivedObits()
+
+                If Len(txtObitSearch.Text) < 1 Then
+                    obitErrMess.Text = "A name must be entered in the Search Box."
+                    obitErrMess.Visible = True
+                    Exit Sub
+                End If
+
+                obitErrMess.Visible = False
+                Name = txtObitSearch.Text
+
+                sql = "select ID, Name, obituary From Obits Where Name Like'" & txtObitSearch.Text & "%' order by Name"
+
+                ds = New DataSet
+                Get_Dataset(sql, ds)
+
+                For Each r In ds.Tables(0).Rows
+                    If Len(r.Item("obituary") & "") > 0 Then
+                        r.Item("Name") = r.Item("Name") & "*"
+                    End If
+                    ds.AcceptChanges()
+                Next
+
+                If ds.Tables(0).Rows.Count >= 1 Then
+                    ddObitNames.DataSource = ds
+                    ddObitNames.DataTextField = "Name"
+                    ddObitNames.DataValueField = "ID"
+                    ddObitNames.DataBind()
+                    ddObitNames.SelectedIndex = 0
+
+                    sql = "Select obituary from obits where id = " & ddObitNames.SelectedItem.Value
+                    Get_Dataset(sql, ds, "Obit")
+
+                    If ds.Tables("Obit").Rows(0).Item(0) & "" <> "" Then
+                        obitErrMess.Visible = False
+                        pnlmyDefaultPic.Visible = False
+                        pnlmyObits.Visible = True
+                        myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item("Obituary")
+                    Else
+                        obitErrMess.Text = ddObitNames.SelectedItem.Text & " does Not have an Obituary posted."
+                        obitErrMess.Visible = True
+                        pnlmyDefaultPic.Visible = True
+                        pnlmyObits.Visible = False
+                    End If
+
+                Else
+                    obitErrMess.Text = Name & " Is Not In database."
+                    obitErrMess.Visible = True
+                    pnlmyDefaultPic.Visible = True
+                    pnlmyObits.Visible = False
+                    FillObitList()
+                    ddObitNames.SelectedIndex = -1
+                    Exit Sub
+                End If
+
+            Case "ObitClearSearch"
+                OpenArchivedObits()
                 FillObitList()
                 ddObitNames.SelectedIndex = -1
-                Exit Sub
-            End If
-        ElseIf action = "ObitClearSearch" Then
-            OpenArchivedObits()
-            FillObitList()
-            ddObitNames.SelectedIndex = -1
 
-            myObitArt.InnerHtml = ""
-            pnlmyObits.Visible = False
-            pnlmyDefaultPic.Visible = True
-            obitErrMess.Visible = False
-            txtObitSearch.Text = ""
-        ElseIf action = "eall" Then
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#eallArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-            'ElseIf action = "eall" Then
-            '    sb = New StringBuilder
-            '    sb.Append("<script>")
-            '    sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            '    sb.Append("$('#eallArt').removeClass('noDisplay').addClass('block');")
-            '    sb.Append("</script>")
-            '    ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-            '    sb = New StringBuilder
-            '    sb.Append("<script>")
-            '    sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            '    sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
-            '    sb.Append("</script>")
-            '    ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "allmail" Then
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#allMailArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "modlog" Then
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#modlog').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "WOH" Then
-            Dim pre, first, last, verb As String, pic As String, myTitle As String
-            sb = New StringBuilder
+                myObitArt.InnerHtml = ""
+                pnlmyObits.Visible = False
+                pnlmyDefaultPic.Visible = True
+                obitErrMess.Visible = False
+                txtObitSearch.Text = ""
 
-            pre = dsWOH.Tables("wohData").Rows(0).Item("Prefix")
-            first = dsWOH.Tables("wohData").Rows(0).Item("FirstName")
-            last = dsWOH.Tables("wohData").Rows(0).Item("LastName")
-            pic = "_Photos/WOH/" & dsWOH.Tables("wohData").Rows(0).Item("Picture")
-            verb = dsWOH.Tables("wohData").Rows(0).Item("Verbage")
-            myTitle = pre & " " & first & " " & last
+            Case "eall"
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#eallArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
 
-            verb = Replace(verb, "<br/><br/>", vbNewLine)
-            verb = Replace(verb, "<br /><br />", vbNewLine)
+            Case "allmail"
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#allMailArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
 
-            wohName.Text = myTitle
-            wohImg.ImageUrl = pic
-            wohVerbage.Text = verb
+            Case "modlog"
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#modlog').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
 
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#honorArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("$('#wohMainImg').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#wohDiv').removeClass('noDisplay').addClass('block');")
-            sb.Append("$('#wohName').html('" + myTitle + "');")
-            sb.Append("$('wohImg').attr('src','" + pic + "');")
-            sb.Append("$('wohImg').attr('alt','" + dsWOH.Tables("wohData").Rows(0).Item("Picture") + "');")
-            sb.Append("$('wohVerbage').html(verb);")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "localeall" Then
-            Dim r As DataRow
-            Dim x As Int32 = 0
+            Case "WOH"
+                Dim pre, first, last, verb As String, pic As String, myTitle As String
+                sb = New StringBuilder
 
-            ds = New DataSet
-            sql = "Exec LocalEAll"
-            txtLocalEalls.Text = ""
-            Get_Dataset(sql, ds, "List")
+                pre = dsWOH.Tables("wohData").Rows(0).Item("Prefix")
+                first = dsWOH.Tables("wohData").Rows(0).Item("FirstName")
+                last = dsWOH.Tables("wohData").Rows(0).Item("LastName")
+                pic = "_Photos/WOH/" & dsWOH.Tables("wohData").Rows(0).Item("Picture")
+                verb = dsWOH.Tables("wohData").Rows(0).Item("Verbage")
+                myTitle = pre & " " & first & " " & last
 
-            For Each r In ds.Tables("List").Rows
-                Dim s As String = r.Item("Email")
-                If ValidEmail(s) Then
-                    sb.Append(s + "; ")
-                    x = x + 1
-                Else
-                    ds.Tables("List").Rows(x).Delete()
-                End If
-            Next
+                verb = Replace(verb, "<br/><br/>", vbNewLine)
+                verb = Replace(verb, "<br /><br />", vbNewLine)
 
-            ds.Tables("List").DefaultView.Sort = "Name ASC"
+                wohName.Text = myTitle
+                wohImg.ImageUrl = pic
+                wohVerbage.Text = verb
 
-            gvLocalList.DataSource = ds.Tables("List")
-            gvLocalList.DataBind()
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#honorArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("$('#wohMainImg').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#wohDiv').removeClass('noDisplay').addClass('block');")
+                sb.Append("$('#wohName').html('" + myTitle + "');")
+                sb.Append("$('wohImg').attr('src','" + pic + "');")
+                sb.Append("$('wohImg').attr('alt','" + dsWOH.Tables("wohData").Rows(0).Item("Picture") + "');")
+                sb.Append("$('wohVerbage').html(verb);")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
 
-            localEallTitle.Text = "Florida Eall Address Report"
-            lblEallMess.Text = "All Florida Ealls"
-            txtLocalEalls.Text = sb.ToString
+            Case "localeall"
+                Dim x As Int32 = 0
 
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
-            'sb.Append("$('#localEallTitle').html('Local E-All Address Report')")
-            sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#localEallTitle').offset().top}, 500);")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "localEallMod" Then
-            Dim r As DataRow
+                ds = New DataSet
+                sql = "Exec LocalEAll"
+                txtLocalEalls.Text = ""
+                Get_Dataset(sql, ds, "List")
 
-            sql = "Exec LocalEAllModified"
-            txtLocalEalls.Text = ""
+                For Each r In ds.Tables("List").Rows
+                    Dim s As String = r.Item("Email")
+                    If ValidEmail(s) Then
+                        sb.Append(s + "; ")
+                        x = x + 1
+                    Else
+                        ds.Tables("List").Rows(x).Delete()
+                    End If
+                Next
 
-            Get_Dataset(sql, ds)
+                ds.Tables("List").DefaultView.Sort = "Name ASC"
 
-            For Each r In ds.Tables(0).Rows
-                Dim s As String = r.Item("Email")
-                If ValidEmail(s) Then
-                    sb.Append(s + "; ")
-                End If
-            Next
+                gvLocalList.DataSource = ds.Tables("List")
+                gvLocalList.DataBind()
 
-            'lblYoungMess.Text = "321xx, 327xx, 328xx, 329xx, 338xx, 347xx, 349xx"
+                localEallTitle.Text = "Florida Eall Address Report"
+                lblEallMess.Text = "All Florida Ealls"
+                txtLocalEalls.Text = sb.ToString
 
-            txtLocalEalls.Text = sb.ToString
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
+                'sb.Append("$('#localEallTitle').html('Local E-All Address Report')")
+                sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#localEallTitle').offset().top}, 500);")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
 
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
-            'sb.Append("$('#localEallTitle').html('Florida Eall Address Report');")
-            sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#localEallTitle').offset().top}, 500);")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "ChangeFlList" Then
-            Select Case butSelList.Text
-                Case " Show Data in Grid "
-                    butSelList.Text = " Show Data in List "
-                    flGrid.Visible = True
-                    flList.Visible = False
-                Case " Show Data in List "
-                    butSelList.Text = " Show Data in Grid "
-                    flGrid.Visible = False
-                    flList.Visible = True
-            End Select
+            Case "localEallMod"
+                Dim r As DataRow
 
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "butEmailLookupClicked" Then
-            txtEMailLook.Text = ""
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#emailLookupArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("$('#emlInfo').removeClass('noDisplay');")
-            sb.Append("$('#emlMess').addClass('noDisplay');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "GoodEMail" Then
-            sql = "Exec GetInfobyEmail'" + txtEMailLook.Text + "'"
+                sql = "Exec LocalEAllModified"
+                txtLocalEalls.Text = ""
 
-            If Not ValidEmail(txtEMailLook.Text) Then
+                Get_Dataset(sql, ds)
+
+                For Each r In ds.Tables(0).Rows
+                    Dim s As String = r.Item("Email")
+                    If ValidEmail(s) Then
+                        sb.Append(s + "; ")
+                    End If
+                Next
+
+                'lblYoungMess.Text = "321xx, 327xx, 328xx, 329xx, 338xx, 347xx, 349xx"
+
+                txtLocalEalls.Text = sb.ToString
+
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
+                'sb.Append("$('#localEallTitle').html('Florida Eall Address Report');")
+                sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#localEallTitle').offset().top}, 500);")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+
+            Case "ChangeFlList"
+                Select Case butSelList.Text
+                    Case " Show Data in Grid "
+                        butSelList.Text = " Show Data in List "
+                        flGrid.Visible = True
+                        flList.Visible = False
+                    Case " Show Data in List "
+                        butSelList.Text = " Show Data in Grid "
+                        flGrid.Visible = False
+                        flList.Visible = True
+                End Select
+
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+
+            Case "butEmailLookupClicked"
+                txtEMailLook.Text = ""
                 sb = New StringBuilder
                 sb.Append("<script>")
                 sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
                 sb.Append("$('#emailLookupArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("$('#emlInfo').addClass('noDisplay');")
-                sb.Append("$('#emlMess').removeClass('noDisplay');")
+                sb.Append("$('#emlInfo').removeClass('noDisplay');")
+                sb.Append("$('#emlMess').addClass('noDisplay');")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-                lblerrMess.ForeColor = Drawing.Color.Red
-                lblerrMess.Text = "You have entered an Invalid Email Address"
-                Exit Sub
-            End If
 
-            ds = New DataSet
-            Get_Dataset(sql, ds)
+            Case "GoodEMail"
+                sql = "Exec GetInfobyEmail'" + txtEMailLook.Text + "'"
 
-            If ds.Tables(0).Rows.Count = 0 Then
+                If Not ValidEmail(txtEMailLook.Text) Then
+                    sb = New StringBuilder
+                    sb.Append("<script>")
+                    sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                    sb.Append("$('#emailLookupArt').removeClass('noDisplay').addClass('block');")
+                    sb.Append("$('#emlInfo').addClass('noDisplay');")
+                    sb.Append("$('#emlMess').removeClass('noDisplay');")
+                    sb.Append("</script>")
+                    ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+                    lblerrMess.ForeColor = Drawing.Color.Red
+                    lblerrMess.Text = "You have entered an Invalid Email Address"
+                    Exit Sub
+                End If
+
+                ds = New DataSet
+                Get_Dataset(sql, ds)
+
+                If ds.Tables(0).Rows.Count = 0 Then
+                    sb = New StringBuilder
+                    sb.Append("<script>")
+                    sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                    sb.Append("$('#emailLookupArt').removeClass('noDisplay').addClass('block');")
+                    sb.Append("$('#emlInfo').addClass('noDisplay');")
+                    sb.Append("$('#emlMess').removeClass('noDisplay');")
+                    sb.Append("</script>")
+                    ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+                    lblerrMess.ForeColor = Drawing.Color.Red
+                    lblerrMess.Text = "This email address is not in the database."
+                    Exit Sub
+                End If
+
+                lblemlName.Text = "Name: " & ds.Tables(0).Rows(0).Item("Name")
+                lblemlAddress.Text = "Address: " & ds.Tables(0).Rows(0).Item("Address")
+                lblemlCity.Text = "City: " & ds.Tables(0).Rows(0).Item("City")
+                lblemlState.Text = "State: " & ds.Tables(0).Rows(0).Item("State")
+                lblemlZip.Text = "Zip: " & ds.Tables(0).Rows(0).Item("ZipCode")
+                lblemlPhone.Text = "Phone: " & UnFixMyPhone(ds.Tables(0).Rows(0).Item("Phone"))
+                lblemlCell.Text = "Cell Phone: " & UnFixMyPhone(ds.Tables(0).Rows(0).Item("CellPhone"))
+
                 sb = New StringBuilder
                 sb.Append("<script>")
                 sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
                 sb.Append("$('#emailLookupArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("$('#emlInfo').addClass('noDisplay');")
-                sb.Append("$('#emlMess').removeClass('noDisplay');")
+                sb.Append("$('#emlInfo').removeClass('noDisplay');")
+                sb.Append("$('#emlMess').addClass('noDisplay');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+
+            Case "BadEMail"
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#emailLookupArt').removeClass('noDisplay').addClass('block');")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
                 lblerrMess.ForeColor = Drawing.Color.Red
-                lblerrMess.Text = "This email address is not in the database."
-                Exit Sub
-            End If
+                lblerrMess.Text = "You have not entered an Email Address"
 
-            lblemlName.Text = "Name: " & ds.Tables(0).Rows(0).Item("Name")
-            lblemlAddress.Text = "Address: " & ds.Tables(0).Rows(0).Item("Address")
-            lblemlCity.Text = "City: " & ds.Tables(0).Rows(0).Item("City")
-            lblemlState.Text = "State: " & ds.Tables(0).Rows(0).Item("State")
-            lblemlZip.Text = "Zip: " & ds.Tables(0).Rows(0).Item("ZipCode")
-            lblemlPhone.Text = "Phone: " & UnFixMyPhone(ds.Tables(0).Rows(0).Item("Phone"))
-            lblemlCell.Text = "Cell Phone: " & UnFixMyPhone(ds.Tables(0).Rows(0).Item("CellPhone"))
+            Case "ReturntoAdminMenu"
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#adminMenuArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
 
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#emailLookupArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("$('#emlInfo').removeClass('noDisplay');")
-            sb.Append("$('#emlMess').addClass('noDisplay');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        ElseIf action = "BadEMail" Then
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#emailLookupArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-            lblerrMess.ForeColor = Drawing.Color.Red
-            lblerrMess.Text = "You have not entered an Email Address"
-        ElseIf action = "ReturntoAdminMenu" Then
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#adminMenuArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        Else
-            sb = New StringBuilder
-            sb.Append("<script>")
-            sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-            sb.Append("$('#defaultArt').removeClass('noDisplay').addClass('block');")
-            sb.Append("</script>")
-            ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-        End If
+            Case Else
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#defaultArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+
+        End Select
+
+
     End Sub
 
     Private Sub SendMail()
@@ -510,6 +517,23 @@ Public Class _Default
         End Try
     End Sub
 
+    Protected Sub btnCalenda_Click(sender As Object, e As EventArgs)
+        dsWOH = New DataSet
+        Get_Dataset("exec woh_data 'Frank Calenda'", dsWOH, "wohData")
+        action = "WOH"
+    End Sub
+
+    Protected Sub btnSmith_Click(sender As Object, e As EventArgs)
+        dsWOH = New DataSet
+        Get_Dataset("exec woh_data 'Curtis F. Smith'", dsWOH, "wohData")
+        action = "WOH"
+    End Sub
+
+    Protected Sub btnWhidden_Click(sender As Object, e As EventArgs)
+        dsWOH = New DataSet
+        Get_Dataset("exec woh_data 'James Whidden'", dsWOH, "wohData")
+        action = "WOH"
+    End Sub
     Protected Sub btnClark_Click(sender As Object, e As EventArgs)
         dsWOH = New DataSet
         Get_Dataset("exec woh_data 'Mike Clark'", dsWOH, "wohData")
@@ -990,26 +1014,30 @@ Public Class _Default
     End Sub
 
     Protected Sub btnFriendSearch_Click(sender As Object, e As EventArgs)
-        Dim ok As Boolean = False
         Dim ds As New DataSet
+        Dim sql As String
+
         lblSearchErr.Visible = False
 
         If btnDeceased.Text = "show Deceased" Then
-            hidedeceased = 0
-        Else
             hidedeceased = 1
+        Else
+            hidedeceased = 0
         End If
 
-        If btnSearch.Text = "Search" Then
-            btnSearch.Text = "Clear Search"
+        If btnFriendSearch.Text = "Search" Then
+            btnFriendSearch.Text = "Clear Search"
             isSearch = True
-            GetList(getAction(), txtSearch.Text)
-        ElseIf btnSearch.Text = "Clear Search" Then
-            btnSearch.Text = "Search"
-            isSearch = False
-            txtSearch.Text = ""
+            'sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & txtSearchName.Text & "% ' Order By Last, First, Initial"
+            GetList(getAction(), txtSearchName.Text)
+        Else
+            btnFriendSearch.Text = "Search"
+            isSearch = True
+            txtSearchName.Text = ""
             GetList(getAction())
         End If
+
+        Get_Dataset(sql, ds)
 
         lstMems.DataSource = ds.Tables(0)
         lstMems.DataTextField = "Name"
@@ -1029,11 +1057,11 @@ Public Class _Default
 
         lblSearchErr.Visible = False
 
-        If btnDeceased.Text = "show Deceased" Then
-            hidedeceased = 0
-        Else
-            hidedeceased = 1
-        End If
+        'If btnDeceased.Text = "show Deceased" Then
+        '    hidedeceased = 0
+        'Else
+        '    hidedeceased = 1
+        'End If
 
         If btnSearch.Text = "Search" Then
             btnSearch.Text = "Clear Search"
@@ -1079,16 +1107,27 @@ Public Class _Default
 
             lstMembers.DataSource = ds.Tables(0)
 
-            lstMembers.DataTextField = "Name"
-            lstMembers.DataValueField = "id"
-            lstMembers.DataBind()
+            If Not isSearch Then
+                lstMembers.DataTextField = "Name"
+                lstMembers.DataValueField = "id"
+                lstMembers.DataBind()
 
-            lstMembers.SelectedIndex = -1
+                lstMembers.SelectedIndex = -1
 
-            lblMemCount.Text = "List Count " & lstMembers.Items.Count
-            lblSearchErr.Visible = False
-            FillBoxes()
-            Return True
+                lblMemCount.Text = "List Count " & lstMembers.Items.Count
+                lblSearchErr.Visible = False
+                FillBoxes()
+                Return True
+            Else
+                lstMems.DataTextField = "Name"
+                lstMems.DataValueField = "id"
+                lstMems.DataBind()
+
+                lstMems.SelectedIndex = 0
+
+                OpenArticle("FriendsArt")
+            End If
+            isSearch = False
         Catch
             Return False
         End Try
@@ -1968,6 +2007,10 @@ Public Class _Default
             pnlMemAlive.Visible = False
             pnlNonMember.Visible = False
             pnlMemDeceased.Visible = True
+
+            OpenArticle("FriendsArt")
+            ScrollTo("FriendsArt")
+
             Exit Sub
         End If
 
@@ -1998,6 +2041,10 @@ Public Class _Default
             pnlMemAlive.Visible = True
             pnlNonMember.Visible = False
             pnlMemDeceased.Visible = False
+
+            OpenArticle("FriendsArt")
+
+            ScrollTo("FriendsArt")
             Exit Sub
         End If
 
@@ -2010,6 +2057,8 @@ Public Class _Default
         End If
 
         OpenArticle("FriendsArt")
+
+        ScrollTo("FriendsArt")
     End Sub
 
     Protected Sub lstMems_SelectedIndexChanged(sender As Object, e As EventArgs)
