@@ -289,6 +289,11 @@
                                     <td class="posted blueText">6/5/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySmith" class="announcement blueText">Sam Smith's Obituary was posted.</td>
+                                    <td class="posted blueText">6/5/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMarcus" class="announcement blueText">Donald Marcus' Obituary was posted.</td>
                                     <td class="posted blueText">5/9/2022</td>
@@ -12017,7 +12022,8 @@
                             Personal Note: As the Col neared retirement, 1987, there was a groundswell of enlisted support to honor he and Terry for what they meant to the enlisted women and men of AFTAC. To my knowledge, Col Ciambrone was the only Headquarters Officer ever celebrated as an Honorary CMSgt and Terry the only CMSgt's Mate!! Chiefs from around the AFTAC World were there to participate in an official ceremony and all AFTAC enlisted invited to a congratulatory event after. 
                          </p>
                     </div>
-                </article>             
+                </article>    
+                
                 <article>
                     <div>
                         <h2 id="RobbirdsH2" class="obitH1">James Robbirds - 3/2/2022</h2>
@@ -12054,6 +12060,31 @@
                             Personal Note: Thank you, John and Tony. It's so important we keep track of each other now. I will try to call Bob today. I worked for Bob as Satellite Superintendent and knew Judith from Social Events. 
                             <br /><br />
                             NOTE: Additional information will be sent as received. 
+                         </p>
+                    </div>
+                </article>             
+  
+                <article>
+                    <div>
+                        <h2 id="SmithH2" class="obitH1">Samuel Lebron Smith - 5/1/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="SmithPara" class="obitPara noDisplay">
+                        <p>
+                           <img alt="Smith.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Smith.png"/>
+                            Samuel Lebron Smith, of Soddy Daisy, Tennessee, passed away peacefully at his home on May 1st, 2022.  He was 72.
+                            <br /><br />
+                            Samuel was born in Daisy, Tennessee. He was very active young man, and served 10 years in the United States Air Force. Sam loved to paint and was an avid poet.
+                            <br /><br />
+                            Samuel is preceded in death by his parents, Claude and Elizabeth Smith.  He is survived by his wife of 21 years, Teresa Smith and his biological daughter, Honey Lynn Smith. Sam had a love for children so much that he raised many step children. Sam leaves behind several grandchildren and great-grandchildren that all loved him very much.   
+                            <br /><br />
+                            The family will host a private burial at Varner Cemetery on Monday, May 9th at 1:00 p.m.
+                            <br /><br />
+                            Condolences and memories can be shared at <a href="www.williamsonandsons.com" target="_blank">Williamson and Sons</a>.
+                            <br /><br />
+                            Arrangements are by Williamson and Sons Funeral Home, 8852 Dayton Pike, Soddy Daisy, TN 37379.
+                            <br /><br />
+                            To send flowers to the family or plant a tree in memory of Samuel Lebron Smith, please visit our floral store.
                          </p>
                     </div>
                 </article>             
@@ -12362,7 +12393,7 @@
                 <li>
                     <img alt="Head Outline" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png" />
                     <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                        Mike Young<br />(Hall of Heritage)
+                       Vacant<br />(Hall of Heritage)
                     </div>
                     <div class="clear"></div>
                 </li>
@@ -12395,9 +12426,9 @@
                 </li>
 
                 <li>
-                    <img alt="Michael Steskal" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Steskal-2016.png"/>
+                    <img alt="Michael Steskal" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png"/>
                     <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                        Michael Steskal<br />(Membership)
+                        Vacant<br />(Membership)
                     </div>
                     <div class="clear"></div>
                 </li>

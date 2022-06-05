@@ -1462,6 +1462,10 @@ $(document).ready(function () {
         OpenObit('Robbirds');
     });
 
+    $('#mySmith').click(function () {
+        OpenObit('Smith');
+    });
+
     $('#myMarcus').click(function () {
         OpenObit('Marcus');
     });
@@ -1473,6 +1477,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'SmithH2':
+                ShowMyObit('Smith')
+                break;
             case 'CiambroneH2':
                 ShowMyObit('Ciambrone')
                 break;
