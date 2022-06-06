@@ -270,6 +270,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySteskal" class="announcement blueText">Mike Steskal's Obituary was posted.</td>
+                                    <td class="posted blueText">6/6/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWOH" class="announcement blueText">Added 2022 WOH Recipients</td>
                                     <td class="posted blueText">6/5/2022</td>
                                     <td class="event blueText"></td>
@@ -12008,6 +12013,21 @@
 
 <%--                <p class="pTitle centerText padding5 maroonBorder showShadow">Currently at this time there are no Recent Obituaries.<br>Look in Archived Obituaries.</p>--%>
  
+                <article>
+                    <div>
+                        <h2 id="SteskalH2" class="obitH1">Mike Steskal - April 2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="SteskalPara" class="obitPara noDisplay">
+                        <p>
+                           <img alt="Steskal.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Steskal.png"/>
+                            The Following Comments provided by SMSgt Tony De Marco (USAF-RET)
+                            <br /><br />
+                            This past April, one of our AFTAC Alumni Association Board Members, Mike Steskal, passed away unexpectedly. This came as a complete shock to those of us that knew Mike and were friends with him over the many years he served in AFTAC, and during the time he worked with many other contractors over the years following his AFTAC Career. I first knew of Mike’s valued contributions to our Command’s Important Mission when Mike was assigned to one of the new “J” Technique Detachments installed OCONUS in the early 1980s. Mike was part of the 99 Team that established the new Det and brought it up to a FMC Status in mid-1980. I then got to know Mike personally starting in late 1984 when we worked together on numerous projects during our time in HQ/TX. We worked closely together in late 1984 when we were part of the HQ Team that travelled to SRI for formal acceptance of the new ASDS (Advanced Sensor Deployment System). Mike was also on one of the initial official deployments of the ASDS and authored an excellent article in the Sept 2004 PoMo on this ASDS adventure out West. Mike worked on several other Special RF Collection Systems while in TX and performed multiple TDYs to both CONUS and OCONUS locations. One of the more unique Special Project Assignments Mike took on before leaving the Air Force was as Principal Investigator on the NASA LDEF (Long Duration Exposure Facility). AFTAC had an Experiment Tray M0006 on board the LDEF to evaluate Space Environment Effects on advanced sensor components. Mike decided to leave AFTAC and military service in 1991 and pursue a career in the civilian world working for many Special Contractors. His new career path included positions with Holmes Regional Med Ctr, Computer Sciences Raytheon, Raytheon Systems Corp, Raytheon C3I Systems, and Zeta Associates Inc. In many positions Mike continued to support the Warfighter Missions worldwide until Mike finally Retired for good in 2016. Mike was an Outstanding AFTAC 99, a Great AFTAC Alumni Association Board Member, and a super friend to many of the AFTAC Alumni Team. Mike will be sorely missed as we move forward during these challenging times. RIP my friend.
+                         </p>
+                    </div>
+                </article>             
+  
                 <article>
                     <div>
                         <h2 id="CiambroneH2" class="obitH1">Theresa (Terry) Ciambrone - 5/11/2022</h2>

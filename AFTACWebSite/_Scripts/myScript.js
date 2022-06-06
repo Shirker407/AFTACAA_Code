@@ -1450,6 +1450,10 @@ $(document).ready(function () {
         $('#honorArt').removeClass('block').addClass('noDisplay');
     });
 
+    $('#mySteskal').click(function () {
+        OpenObit('Steskal');
+    });
+
     $('#myCiambrone').click(function () {
         OpenObit('Ciambrone');
     });
@@ -1477,6 +1481,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'SteskalH2':
+                ShowMyObit('Steskal')
+                break;
             case 'SmithH2':
                 ShowMyObit('Smith')
                 break;
@@ -4990,14 +4997,15 @@ function OpenNTKfromMenu(s) {
 function Open20YearPic(s) {
     $('.myArts').removeClass('block').addClass('noDisplay');
     $('#wallArt').removeClass('noDisplay').addClass('block');
-    $('#wallImg').attr('src', '_Photos/20YearWall/' + s + '.jpg');
-    $('#wallImg').css('width', '100%')
-    $('#hideListings').removeClass('noDisplay').addClass('block');
-    $('#wallListings').removeClass('block').addClass('noDisplay');
-    $('#wallPic').removeClass('noDisplay').addClass('block');
-    $([document.documentElement, document.body]).animate({
-        scrollTop: $("#hideListings").offset().top
-    }, 500);
+//    $('#wallImg').attr('src', '_Photos/20YearWall/' + s + '.jpg');
+//    $('#wallImg').css('width', '100%')
+//    $('#hideListings').removeClass('noDisplay').addClass('block');
+//    $('#wallListings').removeClass('block').addClass('noDisplay');
+//    $('#wallPic').removeClass('noDisplay').addClass('block');
+//    $('#wallPic').attr('src', s & 'jpg')
+//    $([document.documentElement, document.body]).animate({
+//        scrollTop: $("#hideListings").offset().top
+//    }, 500);
 };
 
 function OpenNTK(s) {
