@@ -5367,7 +5367,7 @@
 
         <article id="newsToKnowArt" class="myArts noDisplay bottomMargin7em">
 
-            <asp:Label ID="Label3" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="NEWS TO KNOW"></asp:Label>
+           <asp:Label ID="Label3" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="NEWS TO KNOW"></asp:Label>
             
            <div class="aLeft">
                 <p id="newsTitle" class="width30 pTitle redText inline leftMargin1em">Current News Articles</p>
@@ -5375,6 +5375,66 @@
             </div>
 
             <div class="clear"></div>
+
+           <section class="block">
+                <div class="block">
+                    <div class="aLeft">
+                        <h2 id="ntkFinlaysonH2" class="currentNews news2KnowH1">Finlayson takes command of nuclear treaty monitoring center - 7/6/2022</h2>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+
+                <article id="ntkFinlaysonPara" class="n2KPara noDisplay">
+                    <figure>
+                        <img alt="Finlayson.png" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/Finlayson.png" />
+                        <figcaption class="width95 autoMarginLeftRight topMargin1em maroonText bold italic">
+                            Col. James "Cobra" Finlayson renders a salute to Lt. Gen. Timothy Haugh, 16th Air Force Commander, upon assuming command of the Air Force Technical Applications Center, Patrick Space Force Base, Fla., June 2, 2022 as outgoing commander, Col. Katharine Branson, relinquishes command. Also pictured is Chief Master Sgt. Amy Long, AFTAC command chief and guidon bearer for the ceremony. (U.S. Air Force photo by Matthew S. Jurgens)
+                        </figcaption>
+                    </figure>
+
+                    <p>
+                        PATRICK SPACE FORCE BASE, Fla. --  The Air Force Technical Applications Center gained a new commander June 2 during the time-honored military tradition known as the change of command ceremony. 
+                        <br /><br />
+                        Col. James “Cobra” Finlayson assumed command from Col. Katharine Branson, with Lt. Gen. Timothy Haugh, commander of 16th Air Force, serving as the presiding official.
+                        <br /><br />
+                        Branson assumed command of the Department of Defense’s sole nuclear treaty monitoring center in June 2020, at the height of the global pandemic.  Since that time, Branson oversaw significant key successes by the Airmen and Guardians of AFTAC, including the creation of the center’s War Room and Artificial Intelligence/Machine Learning Accelerator Lab; procuring an additional WC-135 aircraft to expand Nuclear Debris Collection and Analysis capabilities; and earning Air Combat Command’s only “Highly Effective” rating during the center’s 2020 inspection.
+                        <br /><br />
+                        “Colonel Branson is a dedicated strategic leader with an innate ability to analyze an organization as a whole and systematically determine ways to improve it,” Haugh said during his remarks to a capacity crowd at the base’s Sharkatorium.  “She handles everything with strength, dignity and determination, and she is a visionary leader who invested in the development of her people.”
+                    </p>
+                    <div class="width50 float-left rightMargin1em">
+                        <figure>
+                            <img alt="Branson.png" class="autoMarginLeftRight width90 maroonBorder showShadow" src="_Photos/News2Know/Branson.png" />
+                            <figcaption class="width95 autoMarginLeftRight topMargin1em maroonText bold italic">
+                                Lt. Gen. Timothy Haugh, commander of 16th Air Force, presents the Legion of Merit medal to Col. Katharine Branson during the Air Force Technical Applications Center's change of command ceremony June 2, 2022 at Patrick Space Force Base, Fla. (U.S. Air Force photo by Amanda Inman)
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <p>
+                        Following his remarks, Haugh presented Branson with the Legion of Merit, a military medal given for exceptionally meritorious conduct in the performance of outstanding service and achievements.
+                        <br /><br />
+                        Branson was visibly emotional during her farewell speech to the attendees.
+                        <br /><br />
+                        “It’s really you – the operators of AFTAC – who have made my time here richly rewarding.  At a recent STEM (science, technology, engineering and math) event at Endeavour Elementary School, AFTAC rolled in with their equipment, demonstrations, and science experiments to show the kids.  After the event, Endeavour’s science teacher sent a note of thanks and described one child’s reaction to an Airman from the STEM team.  The student told the teacher that he needed to write down the Airman’s name, and when she asked why, the little fifth grader said, ‘He is my influence, and I need to remember his name so I can be like him.’  AFTAC Airmen are not only making a difference in the building and around the globe, but also for the future, and I think that is something that inspires me the most.”
+                        <br /><br />
+                        She concluded, “Colonel Finlayson, you are inheriting an elite Air Force team.  If you take care of them, they will deliver tenfold on everything you ask of them.  I am confident you will challenge them as much as they will challenge you – all for the right reasons!”
+                        <br /><br />
+                        Haugh took a few minutes to introduce Finlayson to the men and women he will now command.
+                        <br /><br />
+                        “Colonel Finlayson is a career intelligence officer who has a bachelor’s in History, a master’s in Business Administration, a law degree from the University of Las Vegas, Nevada, and a Ph.D. in philosophy.  He wanted to be a pilot, but according to him, he’s blind as a bat!”
+                        <br /><br />
+                        Haugh continued, “He learned how to be a leader from his father who served 25 years in the Army and retired as a Chief Warrant Officer, so Cobra is a leader who understands the importance of taking care of Airmen and their families.”
+                        <br /><br />
+                        After the unit guidon was passed from Branson to Finlayson, AFTAC’s new commander was quick to recognize his cadre of unit personnel.
+                        <br /><br />
+                        “To the women and men of the AFTAC family, my focus each day will be taking care of you and your families,” he said.  “I am humbled by this opportunity and I will give each of you my best every day and always.”
+                        <br /><br />
+                        At the conclusion of the ceremony, Haugh reminded the women and men of AFTAC of their central role in the national defense strategy.
+                        <br /><br />
+                        “Our adversaries will continue to challenge the United States and our Allies, and your knowledge and expertise will be in great demand.  I know you will deliver and I rest easy knowing AFTAC is ready to apply your catchphrase ‘science for consequence’ to ensure we answer our nation’s call.  Your leaders, your Air Force, and your nation are behind you!”
+                    </p>
+                </article>
+            </section>
 
            <section class="block">
                 <div class="block">

@@ -1750,6 +1750,9 @@ $(document).ready(function () {
     $('.news2KnowH1').click(function () {
         myText = $(this).html(); //Get the text inside of the news2KnowH1 that was clicked.
         switch (myText) {
+            case "Finlayson takes command of nuclear treaty monitoring center - 7/6/2022":
+                OpenNTKfromMenu('Finlayson');
+                break;
             case "Nuclear air sampling aircraft on display at Patrick AFB - 3/4/2021":
                 OpenNTKfromMenu('Nasa');
                 break;
