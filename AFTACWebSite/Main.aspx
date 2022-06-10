@@ -5372,9 +5372,9 @@
 
         <article id="newsToKnowArt" class="myArts noDisplay bottomMargin7em">
 
-           <asp:Label ID="Label3" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="NEWS TO KNOW"></asp:Label>
+           <asp:Label CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="NEWS TO KNOW"></asp:Label>
             
-           <div class="aLeft">
+           <div class="ntkButs aLeft block">
                 <p id="newsTitle" class="width30 pTitle redText inline leftMargin1em">Current News Articles</p>
                 <input id="btnShowArticles" class="myBut inline leftMargin8em" type="button" value=" Show Archived Articles " />
             </div>

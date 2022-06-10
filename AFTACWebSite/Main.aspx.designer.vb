@@ -1454,15 +1454,6 @@ Partial Public Class _Default
     Protected WithEvents Label57 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Label3 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''Label10 control.
     '''</summary>
     '''<remarks>

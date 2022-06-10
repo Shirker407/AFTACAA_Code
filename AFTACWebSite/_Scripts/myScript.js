@@ -1453,8 +1453,13 @@ $(document).ready(function () {
     $('#myCmd').click(function () {
         $('#myArts').removeClass('block').addClass('noDisplay');
         $('#newsToKnowArt').removeClass('noDisplay').addClass('block');
+        $('#defaultArt').removeClass('block').addClass('noDisplay');
         $('.news2KnowH1').removeClass('block').addClass('noDisplay');
-        $('#secFinlayson').removeClass('noDisplay').addClass('block');
+        $('.ntkButs').removeClass('block').addClass('noDisplay');
+        $('#secFinlayson #ntkFinlaysonPara').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#newsTitle").offset().top
+        }, 500);
     });
 
     $('#mySteskal').click(function () {
@@ -4784,8 +4789,8 @@ $(document).ready(function () {
         $('.underSel').css('color', 'yellow');
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#newsToKnowArt').removeClass('noDisplay').addClass('block');
-        $('.currentNews').removeClass('noDisplay').addClass('block');
-        $('.archivedNews').removeClass('block').addClass('noDisplay');
+        $('.news2KnowH1').removeClass('noDisplay').addClass('block');
+        $('.ntkButs').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#mainHeader").offset().top
         }, 500);
