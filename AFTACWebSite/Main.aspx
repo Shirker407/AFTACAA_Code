@@ -270,6 +270,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCmd" class="announcement blueText">AFTAC Change of Command</td>
+                                    <td class="posted blueText">6/7/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySteskal" class="announcement blueText">Mike Steskal's Obituary was posted.</td>
                                     <td class="posted blueText">6/6/2022</td>
                                     <td class="event blueText"></td>
@@ -5376,7 +5381,7 @@
 
             <div class="clear"></div>
 
-           <section class="block">
+           <section id="secFinlayson" class="block">
                 <div class="block">
                     <div class="aLeft">
                         <h2 id="ntkFinlaysonH2" class="currentNews news2KnowH1">Finlayson takes command of nuclear treaty monitoring center - 7/6/2022</h2>

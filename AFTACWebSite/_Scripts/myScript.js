@@ -1450,6 +1450,13 @@ $(document).ready(function () {
         $('#honorArt').removeClass('block').addClass('noDisplay');
     });
 
+    $('#myCmd').click(function () {
+        $('#myArts').removeClass('block').addClass('noDisplay');
+        $('#newsToKnowArt').removeClass('noDisplay').addClass('block');
+        $('.news2KnowH1').removeClass('block').addClass('noDisplay');
+        $('#secFinlayson').removeClass('noDisplay').addClass('block');
+    });
+
     $('#mySteskal').click(function () {
         OpenObit('Steskal');
     });
