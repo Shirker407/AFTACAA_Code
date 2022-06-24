@@ -1462,6 +1462,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myDunn').click(function () {
+        OpenObit('Dunn');
+    });
+
     $('#mySteskal').click(function () {
         OpenObit('Steskal');
     });
@@ -1493,6 +1497,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'DunnH2':
+                ShowMyObit('Dunn')
+                break;
             case 'SteskalH2':
                 ShowMyObit('Steskal')
                 break;
@@ -4989,7 +4996,6 @@ function ShowMyObit(s) {
     }
     else {
         $('.obitPara').removeClass('block').addClass('noDisplay');
-        $('#' + s + 'Para').removeClass('block').addClass('noDisplay');
     }
     $([document.documentElement, document.body]).animate({
         scrollTop: $('#' + s + 'H2').offset().top
