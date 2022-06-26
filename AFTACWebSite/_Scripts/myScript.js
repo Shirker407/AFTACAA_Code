@@ -1462,6 +1462,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myLarson').click(function () {
+        OpenObit('Larson');
+    });
+
     $('#myDunn').click(function () {
         OpenObit('Dunn');
     });
@@ -1497,6 +1501,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'LarsonH2':
+                ShowMyObit('Larson')
+                break;
             case 'DunnH2':
                 ShowMyObit('Dunn')
                 break;

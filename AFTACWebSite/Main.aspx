@@ -269,7 +269,12 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myLarson" class="announcement blueText">Karla Larson's Obituary was Posted.</td>
+                                    <td class="posted blueText">6/25/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDunn" class="announcement blueText">David Dunn's Obituary was Posted.</td>
                                     <td class="posted blueText">6/23/2022</td>
                                     <td class="event blueText"></td>
@@ -12085,6 +12090,29 @@
 
 <%--                <p class="pTitle centerText padding5 maroonBorder showShadow">Currently at this time there are no Recent Obituaries.<br>Look in Archived Obituaries.</p>--%>
  
+               <article>
+                    <div>
+                        <h2 id="LarsonH2" class="obitH1">Karla Larson - 6/23/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="LarsonPara" class="obitPara noDisplay">
+                        <p>
+                            (Notified by Don Whitney with information from Rick Larson, Rick writes.)
+                            <br /><br />
+                            Karla Glavas Larson died on June 23, 2022, in Reston Virginia.  She was born on 1 May 1947 in Kansas City, Missouri to Konstantine Spiros Glavas and Bonnie June (Shackleford) Glavas.   
+                            <br /><br />
+                            Karla graduated from Kansas City Junior College, Maryland University while accompanying her husband on his Air Force assignment in Japan, and Chapman University with a master’s in psychology.  She married Eric (Rick) Larson on 16 August 1969 and they have two daughters Dr. Stacy Larson Baron and Alexis Larson Lundeen.  
+                            <br /><br />
+                            In the course of 17 moves during Rick’s 30 years of Air Force service, Karla created wonderful homes from Japan to Egypt and Alaska to Mississippi.  She exhibited extraordinary flexibility working as a drug abuse counselor, as well as positions teaching, and in retail sales, medical insurance claims, and property management in the United States and abroad.  She served as a Vestry member, usher, and on the Altar Guild at St Francis Episcopal Church, Great Falls, Virginia.  Her nephews and nieces noted that she had an ability to connect and make friends with her personable nature and her wonderful sense of humor.  
+                            <br /><br />
+                            Karla and Rick were stationed at Detachment 407/DO, 1979 to 1982, Detachment 460/CC, 1982 to 1985, Technical Operation Division/DO, 1985 to 1989, HQ AFTAC/DO, 1991-1993 and HQ AFTAC/CV, 1995 to 1997.   
+                            <br /><br />
+                            She is survived by her husband Rick, daughters, Stacy and Alexis, two wonderful sons-in-law, Tim Baron and Kevin Lundeen, and six grandchildren, Aidan, Kyra, and Holden Baron and James, Lilly, and Madeleine Lundeen.  She was proceeded in death by her parents, and her brothers, Sam, Paul, and Larry Glavas. 
+                            <br /><br />
+                            A Burial Service will be held at Saint Francis Episcopal Church, Great Falls, Virginia on 13 July at 1100. In lieu of flowers, the family requests a donation to Saint Francis Church in Great Falls, Virginia.                           </p>
+                    </div>
+                </article>             
+ 
                 <article>
                     <div>
                         <h2 id="DunnH2" class="obitH1">David Dunn - June 2022</h2>
@@ -12107,7 +12135,7 @@
   
                 <article>
                     <div>
-                        <h2 id="SteskalH2" class="obitH1">Mike Steskal - April 2022</h2>
+                        <h2 id="SteskalH2" class="obitH1">Mike Steskal - 4/27/2022</h2>
                     </div>
                     <div class="clear"></div>
                     <div id="SteskalPara" class="obitPara noDisplay">
@@ -12119,10 +12147,16 @@
                             <br /><br />
                             Upon leaving the Air Force at the end of 1991 as a Technical Sergeant, he continued to specialize in software quality, operations, and maintenance for a variety of companies engaged in government contract work including nine years with Raytheon and twelve years with Zeta Associates Inc.
                             <br /><br />
-                            From 1991 until his retirement in 2016, Mike completed three Associate Degrees at Brevard Community College and was pursuing a BS in Business and Management at the University of Maryland.  Mike was a life-long learner and an avid reader.  During this time, Mike also spent four years in the Navy Reserves with the rank of a First Class Petty Officer. In addition, upon settling back in Melbourne, FL, he joined the AFTAC Alumni Association and became a board member in charge of Membership.  Mike cherished these shared memories and the fellowship it provided.  Most of all, he was proud to serve his country.
+                            From 1991 until his retirement in 2016, Mike completed three Associate Degrees at Brevard Community College and was pursuing a BS in Business and Management at the University of Maryland.  Mike was a life-long learner and an avid reader.  During this time, Mike also spent four years in the Navy Reserves with the rank of a Petty Officer First Class. In addition, upon settling back in Melbourne, FL, he joined the AFTAC Alumni Association and became a board member in charge of Membership.  Mike cherished these shared memories and the fellowship it provided.  Most of all, he was proud to serve his country.
                             <br /><br />
                             In lieu of a traditional wake, family and friends are invited to gather for a Memorial visitation on Sunday, July 24, 2022 from 1:00 – 6:00 pm at the Rob Roy Clubhouse, 270 Country Club Lane, Prospect Heights, IL 60070.  A funeral mass will be held on Monday, July 25, 2022 at 10 am at St. Hubert’s Church, 729 Grand Canyon St., Hoffman Estates, IL 60169.  Interment of his cremains will immediately follow at St. Michael The Archangel Catholic Cemetery, 1185 W. Algonquin Rd., Palatine, IL 60067.
-                         </p>
+                        </p>
+                        <hr class="myHR"/>
+                        <p>                       
+                            The following additional comments provided by SMSgt Tony De Marco (USAF-RET) & MSgt Dave Johnson (USAF-RET)
+                            <br /><br />
+                            This past April, one of our AFTAC Alumni Association Board Members, Mike Steskal, passed away unexpectedly. This came as a complete shock to those of us that knew Mike and were friends with him over the many years he served in AFTAC, and during the time he worked with many contractors over the years following his AFTAC Career. I first knew of Mike’s valued contributions to our Command’s Important Mission when Mike was assigned to one of the new “J” Technique Detachments installed OCONUS in the early 1980s. Mike was part of the 99 Team that established the new Det and brought it up to a FMC Status in mid-1980. I then got to know Mike personally starting in late 1984 when we worked together on numerous projects during our time in HQ/TX. We worked closely together in late 1984 when we were all part of the HQ Team that travelled to SRI for formal acceptance of the new ASDS (Advanced Sensor Deployment System). Mike was also on one of the initial official deployments of the ASDS and authored an excellent article in the Sept 2004 PoMo on this ASDS adventure out West. Mike worked on several other Special RF Collection Systems while in TX and performed multiple TDYs to both CONUS and OCONUS locations. One of the more unique Special Project Assignments Mike took on before leaving the Air Force was as Principal Investigator on the NASA LDEF (Long Duration Exposure Facility). AFTAC had an Experiment Tray M0006 on board the LDEF to evaluate Space Environment Effects on advanced sensor components. Mike decided to leave AFTAC and military service in 1991 and pursue a career in the civilian world working for many Special Contractors. His new career path included positions with Holmes Regional Med Ctr, Computer Sciences Raytheon, Raytheon Systems Corp, Raytheon C3I Systems, and Zeta Associates Inc. In many positions Mike continued to support the War fighter Missions worldwide until Mike finally Retired for good in 2016. Mike was an Outstanding AFTAC 99, a Great AFTAC Alumni Association Board Member, and a super friend to many of the AFTAC Alumni Team. Mike will be sorely missed as we move forward during these challenging times. RIP my friend.
+                        </p>
                     </div>
                 </article>             
   
