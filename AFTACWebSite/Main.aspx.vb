@@ -1015,7 +1015,7 @@ Public Class _Default
 
     Protected Sub btnFriendSearch_Click(sender As Object, e As EventArgs)
         Dim ds As New DataSet
-        Dim sql As String
+        Dim sql As String = ""
 
         lblSearchErr.Visible = False
 
@@ -1128,6 +1128,7 @@ Public Class _Default
                 OpenArticle("FriendsArt")
             End If
             isSearch = False
+            Return True
         Catch
             Return False
         End Try
@@ -1374,7 +1375,6 @@ Public Class _Default
             currentindex = lstMembers.SelectedIndex
 
             If Len(txtReason.Text) < 1 Then
-
                 pnlMemErr.Visible = True
                 lblMemErr.Text = "A ""Reason for Change"" must be entered"
                 txtReason.Focus()
@@ -1396,7 +1396,7 @@ Public Class _Default
 
                 'Dim Mess As String
                 'Mess = txtFirst.Text & " " & txtLast.Text & " - This database record was changed. The reason was: " & txtReason.Text & " by " & PWuser
-                'Send_Mail("aftacaawebmaster@gmail.com", "aftacaawebmaster@gmail.com", "The database was changed. The reason was:" & txtReason.Text, "Database Change")
+                'Send_Mail("aftacaawebmaster@gmail.com", "aftacaawebmaster@gmail.com", "The database was changed. The reason was:" & txtReason.Text)
                 'SendMail()
 
                 lblMess.Text = "Data Saved."
