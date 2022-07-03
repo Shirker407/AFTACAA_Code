@@ -671,6 +671,24 @@ Partial Public Class _Default
     Protected WithEvents txtcmdDates As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
+    '''Label3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''txtSql control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtSql As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''Label56 control.
     '''</summary>
     '''<remarks>

@@ -1385,12 +1385,12 @@ Public Class _Default
             sql = "Exec SaveMemberInfo " & lstMembers.SelectedValue & ",'" & Capitolize(txtFirst.Text) & "','" & Apos(Capitolize(txtLast.Text)) & "','" &
                 UCase(txtInitial.Text) & "','" & txtJoined.Text & "','" & Capitolize(txtSuffix.Text) & "','" & Capitolize(txtSpouse.Text) & "','" &
                 txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" &
-                Capitolize(txtCity.Text) & "','" & UCase(txtState.Text) & "','" & txtZip.Text & "','" & Session("UserName") & "','" &
-                Apos(txtReason.Text) & "','" & Capitolize(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
+                Capitolize(txtCity.Text) & "','" & UCase(txtState.Text) & "','" & txtZip.Text & "','" & UCase(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "'" & ReceiveEalls() & "','" &
+                GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & ReceiveEalls() & "','" &
                 Capitolize(ddlCommand.Text) & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" &
-                GetDeleted() & "','" & Session("UserName") & "','" & "','" & Apos(txtReason.Text) & "'"
+                GetDeleted() & "','" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
+
             Try
                 Run_Sql(sql)
 
@@ -1416,59 +1416,66 @@ Public Class _Default
             _id = lstMembers.SelectedValue
 
             FillBoxes()
-            'Else
-            '    'btnsave text does not equal "Save Changes" so we are adding a new member
 
-            '    sql = "Exec AddNewMemberInfo '" & Capitolize(txtFirst.Text) & "','" & Apos(Capitolize(txtLast.Text)) & "','" &
-            '    UCase(txtInitial.Text) & "','" & txtJoined.Text & "','" & Capitolize(txtSuffix.Text) & "','" & Capitolize(txtSpouse.Text) & "','" &
-            '        txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" & Capitolize(txtCity.Text) & "','" &
-            '        UCase(txtState.Text) & "','" & txtZip.Text & "','" & Capitolize(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
-            '        UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-            '        GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetOnLine() & "','" & Capitolize(ddlCommand.Text) & "','" &
-            '        txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWuser & "'"
+        Else
+            'btnsave text does not equal "Save Changes" so we are adding a new member
 
-            '    Try
-            '        Run_Sql(sql)
+            sql = "Exec AddNewMemberInfo '" & Capitolize(txtFirst.Text) & "','" & Apos(Capitolize(txtLast.Text)) & "','" &
+                UCase(txtInitial.Text) & "','" & txtJoined.Text & "','" & Capitolize(txtSuffix.Text) & "','" & Capitolize(txtSpouse.Text) & "','" &
+                txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" & Capitolize(txtCity.Text) & "','" &
+                UCase(txtState.Text) & "','" & txtZip.Text & "','" & Capitolize(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
+                UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
+                GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
+                txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWUser & "'"
 
-            '        'Send_Mail("webmaster@aftacaa.us,fcalenda@aol.com", "webmaster@aftacaa.us", "The database was changed. The reason was: A new member was  added.", "Database Change")
+            txtSql.Text = sql
 
-            '        lblMess.Text = "Data Saved."
-            '        lblMess.ForeColor = Drawing.Color.DarkBlue
-            '        lblMess.Visible = True
-            '    Catch
-            '        lblMess.Text = "Data was not saved."
-            '        lblMess.ForeColor = Drawing.Color.Red
-            '        lblMess.Visible = True
+            Try
+                Run_Sql(sql)
 
-            '        OpenArticle("MembershipArt")
+                'Send_Mail("webmaster@aftacaa.us,fcalenda@aol.com", "webmaster@aftacaa.us", "The database was changed. The reason was: A new member was  added.", "Database Change")
 
-            '        Exit Sub
-            '    End Try
+                lblMess.Text = "Data Saved."
+                lblMess.ForeColor = Drawing.Color.DarkBlue
+                lblMess.Visible = True
+            Catch
+                lblMess.Text = "Data was not saved."
+                lblMess.ForeColor = Drawing.Color.Red
+                lblMess.Visible = True
 
-            '    btnMemSave.Text = " Save Changes "
-            '    btnAdd.Text = " Add New "
-            '    lstMembers.Enabled = True
+                OpenArticle("MembershipArt")
 
-            '    FillList(ListAction)
+                Exit Sub
+            End Try
 
-            '    Dim ok As Boolean = False
+            btnMemSave.Text = " Save Changes "
+            btnAdd.Text = " Add New "
+            lstMembers.Enabled = True
 
-            '    lblSearchErr.Visible = False
+            GetList(getAction())
 
-            '    lstMembers.SelectedIndex = currentindex
+            lstMembers.SelectedIndex = currentindex
 
-            '    For x = 0 To lstMembers.Items.Count - 1
-            '        If UCase(lstMembers.Items(x).Text) Like (s) Then
-            '            ok = True
-            '            Exit For
-            '        End If
-            '    Next
+            _id = lstMembers.SelectedValue
 
-            '    If ok Then
-            '        lstMembers.SelectedIndex = x
-            '    End If
+            Dim ok As Boolean = False
 
-            '    FillBoxes()
+            lblSearchErr.Visible = False
+
+            lstMembers.SelectedIndex = currentindex
+
+            For x = 0 To lstMembers.Items.Count - 1
+                If UCase(lstMembers.Items(x).Text) Like (s) Then
+                    ok = True
+                    Exit For
+                End If
+            Next
+
+            If ok Then
+                lstMembers.SelectedIndex = x
+            End If
+
+            FillBoxes()
 
         End If
 

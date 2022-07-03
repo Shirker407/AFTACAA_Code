@@ -581,6 +581,8 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="width100">
+                                    <asp:Label ID="Label3" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="SQL"></asp:Label>
+                                    <asp:TextBox ID="txtSql" CssClass="padding5 block" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>
                                     <asp:Label ID="Label56" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Assignments"></asp:Label>
                                     <asp:TextBox ID="txtDets" CssClass="padding5 block" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>
                                 </div>
