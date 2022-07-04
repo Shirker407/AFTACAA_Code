@@ -1464,8 +1464,10 @@ Public Class _Default
 
             lstMembers.SelectedIndex = currentindex
 
+            Dim x As Int16
+
             For x = 0 To lstMembers.Items.Count - 1
-                If UCase(lstMembers.Items(x).Text) Like (s) Then
+                If UCase(lstMembers.Items(x).Text) = (txtLast.Text & ", " & txtFirst.Text) Then
                     ok = True
                     Exit For
                 End If
