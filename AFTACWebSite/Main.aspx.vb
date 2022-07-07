@@ -11,7 +11,6 @@ Public Class _Default
     Dim currentindex As Int32
     Dim ListType As String = "Name"
     Dim isSearch As Boolean = False
-    Dim hidedeceased As Short = 0
     Dim blank As String = ""
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim ds As New DataSet
@@ -985,7 +984,7 @@ Public Class _Default
     Protected Sub btnMemAdmin_Click(sender As Object, e As EventArgs)
         'Dim sb As New StringBuilder
 
-        GetList(getAction())
+        GetList()
 
         FillCommandList()
 
@@ -1019,22 +1018,16 @@ Public Class _Default
 
         lblSearchErr.Visible = False
 
-        If btnDeceased.Text = "show Deceased" Then
-            hidedeceased = 1
-        Else
-            hidedeceased = 0
-        End If
-
         If btnFriendSearch.Text = "Search" Then
             btnFriendSearch.Text = "Clear Search"
             isSearch = True
             'sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & txtSearchName.Text & "% ' Order By Last, First, Initial"
-            GetList(getAction(), txtSearchName.Text)
+            GetList(txtSearchName.Text)
         Else
             btnFriendSearch.Text = "Search"
             isSearch = True
             txtSearchName.Text = ""
-            GetList(getAction())
+            GetList()
         End If
 
         Get_Dataset(sql, ds)
@@ -1057,21 +1050,15 @@ Public Class _Default
 
         lblSearchErr.Visible = False
 
-        'If btnDeceased.Text = "show Deceased" Then
-        '    hidedeceased = 0
-        'Else
-        '    hidedeceased = 1
-        'End If
-
         If btnSearch.Text = "Search" Then
             btnSearch.Text = "Clear Search"
             isSearch = True
-            GetList(getAction(), txtSearch.Text)
+            GetList(txtSearch.Text)
         ElseIf btnSearch.Text = "Clear Search" Then
             btnSearch.Text = "Search"
             isSearch = False
             txtSearch.Text = ""
-            GetList(getAction())
+            GetList()
         End If
 
         lstMems.DataSource = ds.Tables(0)
@@ -1085,10 +1072,19 @@ Public Class _Default
 
     End Sub
 
-    Function GetList(chap As String, Optional Search As String = "") As Boolean
+    Function GetList(Optional Search As String = "") As Boolean
         Dim sql As String
         Dim x As Int32 = 0
         Dim ds As New DataSet
+        Dim hidedeceased As Integer
+        Dim chap As String = getAction()
+
+        If btnDeceased.Text = "show Deceased" Then
+            hidedeceased = 0
+        Else
+            hidedeceased = 1
+        End If
+
 
         If Search = "" Then
             sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & blank & "'"
@@ -1409,7 +1405,7 @@ Public Class _Default
                 'Exit Sub
             End Try
 
-            GetList(getAction())
+            GetList()
 
             lstMembers.SelectedIndex = currentindex
 
@@ -1452,7 +1448,7 @@ Public Class _Default
             btnAdd.Text = " Add New "
             lstMembers.Enabled = True
 
-            GetList(getAction())
+            GetList()
 
             lstMembers.SelectedIndex = currentindex
 
@@ -1500,7 +1496,7 @@ Public Class _Default
             _id = Session("SelectedValue")
         End If
 
-        GetList(getAction())
+        GetList()
 
         OpenArticle("MembershipArt")
 
@@ -1526,7 +1522,7 @@ Public Class _Default
         txtSearch.Text = ""
         btnsearch.Text="Search"
 
-        GetList(getAction())
+        GetList()
 
         OpenArticle("MembershipArt")
 
@@ -1550,7 +1546,7 @@ Public Class _Default
         txtSearch.Text = ""
         btnSearch.Text = "Search"
 
-        GetList(getAction())
+        GetList()
 
         OpenArticle("MembershipArt")
 
@@ -1576,7 +1572,7 @@ Public Class _Default
         txtSearch.Text = ""
         btnSearch.Text = "Search"
 
-        GetList(getAction())
+        GetList()
 
         OpenArticle("MembershipArt")
 
@@ -1602,7 +1598,7 @@ Public Class _Default
         txtSearch.Text = ""
         btnSearch.Text = "Search"
 
-        GetList(getAction())
+        GetList()
 
         OpenArticle("MembershipArt")
 
@@ -1628,7 +1624,7 @@ Public Class _Default
         txtSearch.Text = ""
         btnSearch.Text = "Search"
 
-        GetList(getAction())
+        GetList()
 
         OpenArticle("MembershipArt")
 
@@ -1654,7 +1650,7 @@ Public Class _Default
         txtSearch.Text = ""
         btnSearch.Text = "Search"
 
-        GetList(getAction())
+        GetList()
 
         OpenArticle("MembershipArt")
 
@@ -1814,7 +1810,7 @@ Public Class _Default
             lblListTitle.Text = "Entire Database<br/>Deceased Shown"
         End If
 
-        GetList(getAction())
+        GetList()
 
         sb.Append("<script>")
         sb.Append("showMembership();")
