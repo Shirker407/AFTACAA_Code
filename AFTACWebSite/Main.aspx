@@ -270,6 +270,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myFinlayson" class="announcement redText">Colonel James “Cobra” Finlayson Biography</td>
+                                    <td class="posted redText">7/12/2022</td>
+                                    <td class="event redText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myLarson" class="announcement blueText">Karla Larson's Obituary was Posted.</td>
                                     <td class="posted blueText">6/25/2022</td>
                                     <td class="event blueText"></td>
