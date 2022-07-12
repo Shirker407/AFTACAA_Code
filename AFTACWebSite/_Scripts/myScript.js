@@ -257,14 +257,6 @@ $(document).ready(function () {
         window.open('_pdfs/calendar.pdf', '');
     });
 
-    $('#myPhoenix').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#PhoenixArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#PhoenixPara").offset().top
-        }, 500);
-    });
-
     $('#myCorona').click(function () {
         MainPageIndex = 'recentTitle'
         OpenNTK('corona');
@@ -1459,6 +1451,14 @@ $(document).ready(function () {
         $('#secFinlayson #ntkFinlaysonPara').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#newsTitle").offset().top
+        }, 500);
+    });
+
+    $('#myPhoenix').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#PhoenixArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#PhoenixArt").offset().top
         }, 500);
     });
 
