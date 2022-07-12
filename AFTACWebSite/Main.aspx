@@ -270,6 +270,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myPhoenix" class="announcement blueText">New WC-135R Constant Phoenix<br />Tail Number 14386</td>
+                                    <td class="posted blueText">7/12/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myFinlayson" class="announcement redText">Colonel James “Cobra” Finlayson Biography</td>
                                     <td class="posted redText">7/12/2022</td>
                                     <td class="event redText"></td>
@@ -368,6 +373,27 @@
             </div>
 
             <div class="clear"></div>
+        </article>
+
+        <article id="PhoenixArt" class="myArts noDisplay">
+            <p class="pTitle underLine centerText">New WC-135R Constant Phoenix</p>
+
+            <div class="centerDiv">
+                <img alt="Pheonix1.png" class="width50 maroonBorder showShadow" src="_Photos/PhoenixPics/Phoenix1.png" />
+            </div>
+
+            <p>
+                Team Offutt welcomed a new aircraft to its fleet for the first time in decades when WC-135R 
+                Constant Phoenix tail number 14836 arrived at Lincoln Airport today. This is the first of 
+                three WC-135R deliveries to the 55th Wing as the United States Air Force is modifying three 
+                KC-135R Stratotankers to replace the aging aircraft. Originally delivered to the AF in 1964 
+                and most recently flown by the New Hampshire Air National Guard, the new WC-135R was modified 
+                by Big Safari and will serve as the Air Force’s newest atmospheric collection aircraft 
+                supporting national and international partners. Operated by the 45th Reconnaissance Squadron 
+                with support from Detachment 1, AF Technical Applications Center, it collects particulate 
+                and gaseous effluents and debris from accessible regions of the atmosphere in support of 
+                the Limited Nuclear Test Ban Treaty of 1963.
+            </p>
         </article>
 
         <article id="FriendsArt" class="myArts noDisplay">
