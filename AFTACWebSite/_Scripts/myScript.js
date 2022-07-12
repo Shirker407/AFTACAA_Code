@@ -1462,6 +1462,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myFinlayson').click(function () {
+        window.open('_pdfs/Finlayson bio.pdf', '');
+    });
+
     $('#myLarson').click(function () {
         OpenObit('Larson');
     });
