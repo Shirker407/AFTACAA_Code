@@ -270,14 +270,14 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myPhoenix" class="announcement blueText">New WC-135R Constant Phoenix<br />Tail Number 14386 (Updated)</td>
+                                    <td class="posted blueText">7/14/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMedical" class="announcement redText">Military Health System Patients placed in Civilian Care Starting This Year.</td>
                                     <td class="posted redText">7/14/2022</td>
                                     <td class="event redText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPhoenix" class="announcement blueText">New WC-135R Constant Phoenix<br />Tail Number 14386</td>
-                                    <td class="posted blueText">7/12/2022</td>
-                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myFinlayson" class="announcement redText">Colonel James “Cobra” Finlayson Biography</td>
@@ -399,6 +399,9 @@
                 and gaseous effluents and debris from accessible regions of the atmosphere in support of 
                 the Limited Nuclear Test Ban Treaty of 1963.
             </p>
+            <div class="centerDiv">
+                <input id="btnMore" class="padding5 myBut" type="button" value="Read More" />
+            </div>
         </article>
 
         <article id="FriendsArt" class="myArts noDisplay">

@@ -1454,8 +1454,8 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#myMedical').click(function () {
-        window.open('https://www.military.com/daily-news/2022/07/12/155000-military-health-system-patients-be-pushed-civilian-care-starting-year.html?fbclid=IwAR2cZOH7t10Kad5cdWeuhrMfeOGyw7NCZB39au9BbwRxuhGO2-JmzM_SP90', '');
+    $('#btnMore').click(function () {
+        window.open('https://www.offutt.af.mil/News/Article/3090736/team-offutt-welcomes-first-wc-135r-to-its-fleet/fbclid/team-offutt-welcomes-first-wc-135r-to-its-fleet/', '');
     });
 
     $('#myPhoenix').click(function () {
