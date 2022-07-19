@@ -96,6 +96,10 @@ $(document).ready(function () {
         window.open("https://www.military.com/daily-news/2022/01/10/five-more-states-make-military-retirement-tax-free.html", "")
     });
 
+    $('#myMedical').click(function () {
+        window.open("https://www.military.com/daily-news/2022/07/12/155000-military-health-system-patients-be-pushed-civilian-care-starting-year.html?fbclid=IwAR2cZOH7t10Kad5cdWeuhrMfeOGyw7NCZB39au9BbwRxuhGO2-JmzM_SP90", "")
+    });
+
     $('#btnPage2').click(function () {
         $('#myPageNum').html("Showing M - Z");
         $('#Page1').removeClass('block').addClass('noDisplay');
