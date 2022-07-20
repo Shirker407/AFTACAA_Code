@@ -1424,7 +1424,7 @@ Public Class _Default
                 GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
                 txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWUser & "'"
 
-            txtSql.Text = sql
+            'txtSql.Text = sql
 
             Try
                 Run_Sql(sql)

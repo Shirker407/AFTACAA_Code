@@ -270,6 +270,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myNote" class="announcement blueText">Note from new AFTAC Commander<br />to the Alumni</td>
+                                    <td class="posted blueText">7/19/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPhoenix" class="announcement blueText">New WC-135R Constant Phoenix<br />Tail Number 14386 (Updated)</td>
                                     <td class="posted blueText">7/14/2022</td>
                                     <td class="event blueText"></td>
@@ -359,10 +364,10 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 24 June<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 22 July<br />
                         11:30 - 14:00 Hrs<br />
                         --------------------------<br />
-                        AFTAC Alumni Association Quarterly General Membership Off-Site Luncheon and Teleconference Meeting<br />
+                        AFTAC Alumni Association Monthly General Membership Off-Site Luncheon and Teleconference Meeting<br />
                         <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note:  Please arrive at 1100 to order food, prior to start of meeting.<br /></span>
                         --------------------------<br />
                         Beef O'Brady's<br />
@@ -620,9 +625,9 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="width100">
-                                    <asp:Label ID="Label3" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="SQL"></asp:Label>
-                                    <asp:TextBox ID="txtSql" CssClass="padding5 block" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>
-                                    <asp:Label ID="Label56" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Assignments"></asp:Label>
+<%--                                    <asp:Label ID="Label3" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="SQL"></asp:Label>
+                                    <asp:TextBox ID="txtSql" CssClass="padding5 block" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
+                                    <asp:Label ID="Label56" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="LRD Assignments"></asp:Label>
                                     <asp:TextBox ID="txtDets" CssClass="padding5 block" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>
                                 </div>
                             </div>
@@ -2879,11 +2884,12 @@
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
-                        <li><a href="_Minutes/5-12-2022_Minutes.pdf" target="_blank">5/12/2022</a></li>
-                        <li><a href="_Minutes/4-15-2022_Minutes.pdf" target="_blank">4/15/2022</a></li>
-                        <li><a href="_Minutes/3-18-2022_Minutes.pdf" target="_blank">3/18/2022</a></li>
-                        <li><a href="_Minutes/2-18-2022_Minutes.pdf" target="_blank">2/18/2022</a></li>
-                        <li><a href="_Minutes/1-21-2022_Minutes.pdf" target="_blank">1/21/2022</a></li>
+                        <li><a href="_Minutes/6-24-2022_Minutes.pdf" target="_blank">6-24-2022</a></li>
+                        <li><a href="_Minutes/5-12-2022_Minutes.pdf" target="_blank">5-12-2022</a></li>
+                        <li><a href="_Minutes/4-15-2022_Minutes.pdf" target="_blank">4-15-2022</a></li>
+                        <li><a href="_Minutes/3-18-2022_Minutes.pdf" target="_blank">3-18-2022</a></li>
+                        <li><a href="_Minutes/2-18-2022_Minutes.pdf" target="_blank">2-18-2022</a></li>
+                        <li><a href="_Minutes/1-21-2022_Minutes.pdf" target="_blank">1-21-2022</a></li>
                     </ul>
                 </div>
             </div>
@@ -2892,17 +2898,17 @@
                 <p class="centerText">2021</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
-                        <li><a href="_Minutes/12-17-2021_Minutes.pdf" target="_blank">12/17/2021</a></li>
-                        <li><a href="_Minutes/11-8-2021_Minutes.pdf" target="_blank">11/8/2021</a></li>
-                        <li><a href="_Minutes/10-8-2021_Minutes.pdf" target="_blank">10/8/2021</a></li>
-                        <li><a href="_Minutes/9-10-2021_Minutes.pdf" target="_blank">9/10/2021</a></li>
-                        <li><a href="_Minutes/8-9-2021_Minutes.pdf" target="_blank">8/9/2021</a></li>
-                        <li><a href="_Minutes/6-14-2021_Minutes.pdf" target="_blank">6/14/2021</a></li>
-                        <li><a href="_Minutes/5-10-2021_Minutes.pdf" target="_blank">5/10/2021</a></li>
-                        <li><a href="_Minutes/4-12-2021_Minutes.pdf" target="_blank">4/12/2021</a></li>
-                        <li><a href="_Minutes/3-8-2021_Minutes.pdf" target="_blank">3/8/2021</a></li>
-                        <li><a href="_Minutes/2-8-2021_Minutes.pdf" target="_blank">2/8/2021</a></li>
-                        <li><a href="_Minutes/1-11-2021_Minutes.pdf" target="_blank">1/11/2021</a></li>
+                        <li><a href="_Minutes/12-17-2021_Minutes.pdf" target="_blank">12-17-2021</a></li>
+                        <li><a href="_Minutes/11-8-2021_Minutes.pdf" target="_blank">11-8-2021</a></li>
+                        <li><a href="_Minutes/10-8-2021_Minutes.pdf" target="_blank">10-8-2021</a></li>
+                        <li><a href="_Minutes/9-10-2021_Minutes.pdf" target="_blank">9-10-2021</a></li>
+                        <li><a href="_Minutes/8-9-2021_Minutes.pdf" target="_blank">8-9-2021</a></li>
+                        <li><a href="_Minutes/6-14-2021_Minutes.pdf" target="_blank">6-14-2021</a></li>
+                        <li><a href="_Minutes/5-10-2021_Minutes.pdf" target="_blank">5-10-2021</a></li>
+                        <li><a href="_Minutes/4-12-2021_Minutes.pdf" target="_blank">4-12-2021</a></li>
+                        <li><a href="_Minutes/3-8-2021_Minutes.pdf" target="_blank">3-8-2021</a></li>
+                        <li><a href="_Minutes/2-8-2021_Minutes.pdf" target="_blank">2-8-2021</a></li>
+                        <li><a href="_Minutes/1-11-2021_Minutes.pdf" target="_blank">1-11-2021</a></li>
                     </ul>
                 </div>
             </div>            
