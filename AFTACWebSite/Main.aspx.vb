@@ -1054,21 +1054,21 @@ Public Class _Default
             btnSearch.Text = "Clear Search"
             isSearch = True
             GetList(txtSearch.Text)
-        ElseIf btnSearch.Text = "Clear Search" Then
+        Else
             btnSearch.Text = "Search"
             isSearch = False
             txtSearch.Text = ""
             GetList()
         End If
 
-        lstMems.DataSource = ds.Tables(0)
-        lstMems.DataTextField = "Name"
-        lstMems.DataValueField = "id"
-        lstMems.DataBind()
+        'lstMems.DataSource = ds.Tables(0)
+        'lstMems.DataTextField = "Name"
+        'lstMems.DataValueField = "id"
+        'lstMems.DataBind()
 
-        OpenArticle("FriendsArt")
+        'OpenArticle("FriendsArt")
 
-        ScrollTo("FriendsArt")
+        'ScrollTo("FriendsArt")
 
     End Sub
 
@@ -1086,7 +1086,7 @@ Public Class _Default
         End If
 
 
-        If Search = "" Then
+        If btnSearch.Text = "Search" Then
             sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & blank & "'"
         Else
             sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & txtSearch.Text & "'"
@@ -1121,9 +1121,13 @@ Public Class _Default
 
                 lstMems.SelectedIndex = 0
 
-                OpenArticle("FriendsArt")
             End If
+
+            OpenArticle("MembershipArt")
+            ScrollTo("MembershipArt")
+
             isSearch = False
+
             Return True
         Catch
             Return False
