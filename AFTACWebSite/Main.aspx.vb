@@ -47,6 +47,48 @@ Public Class _Default
         Dim sql As String = ""
         Dim ds As New DataSet
         Select Case action
+            Case "btnDeceased_Click"
+                sb = New StringBuilder
+                'MsgBox("Hello")
+                If btnDeceased.Text = "Hide Deceased" Then
+                    btnDeceased.Text = "Show Deceased"
+                    lblListTitle.Text = getAction() & " Database<br/>Deceased Hidden"
+                Else
+                    btnDeceased.Text = "Hide Deceased"
+                    lblListTitle.Text = getAction() & " Database<br/>Deceased Shown"
+                End If
+
+                GetList()
+
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                RunScript(sb.ToString)
+
+
+            Case "Search Membership"
+                Dim listOK As Boolean = False
+
+                lblSearchErr.Visible = False
+
+                If btnSearch.Text = "Search" Then
+                    btnSearch.Text = "Clear Search"
+                    GetList()
+                Else
+                    btnSearch.Text = "Search"
+                    txtSearch.Text = ""
+                    GetList()
+                End If
+
+                'sb = New StringBuilder
+                'OpenArticle("MembershipArt")
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                RunScript(sb.ToString)
+
             Case "ShowList"
                 sb.Append("<script>")
                 sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
@@ -1022,7 +1064,7 @@ Public Class _Default
             btnFriendSearch.Text = "Clear Search"
             isSearch = True
             'sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & txtSearchName.Text & "% ' Order By Last, First, Initial"
-            GetList(txtSearchName.Text)
+            GetList()
         Else
             btnFriendSearch.Text = "Search"
             isSearch = True
@@ -1045,34 +1087,10 @@ Public Class _Default
 
 
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
-        Dim ok As Boolean = False
-        Dim ds As New DataSet
-
-        lblSearchErr.Visible = False
-
-        If btnSearch.Text = "Search" Then
-            btnSearch.Text = "Clear Search"
-            isSearch = True
-            GetList(txtSearch.Text)
-        Else
-            btnSearch.Text = "Search"
-            isSearch = False
-            txtSearch.Text = ""
-            GetList()
-        End If
-
-        'lstMems.DataSource = ds.Tables(0)
-        'lstMems.DataTextField = "Name"
-        'lstMems.DataValueField = "id"
-        'lstMems.DataBind()
-
-        'OpenArticle("FriendsArt")
-
-        'ScrollTo("FriendsArt")
-
+        action = "Search Membership"
     End Sub
 
-    Function GetList(Optional Search As String = "") As Boolean
+    Sub GetList()
         Dim sql As String
         Dim x As Int32 = 0
         Dim ds As New DataSet
@@ -1080,11 +1098,10 @@ Public Class _Default
         Dim chap As String = getAction()
 
         If btnDeceased.Text = "show Deceased" Then
-            hidedeceased = 0
+            hidedeceased = 0 'This will hide the deceased
         Else
-            hidedeceased = 1
+            hidedeceased = 1 'This will show the deceased
         End If
-
 
         If btnSearch.Text = "Search" Then
             sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & blank & "'"
@@ -1092,48 +1109,23 @@ Public Class _Default
             sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & txtSearch.Text & "'"
         End If
 
-        Try
-            Get_Dataset(sql, ds)
-            For Each r In ds.Tables(0).Rows
-                ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
-                x += 1
-            Next
+        MsgBox(sql)
 
-            ds.AcceptChanges()
+        Get_Dataset(sql, ds)
 
-            lstMembers.DataSource = ds.Tables(0)
+        For Each r In ds.Tables(0).Rows
+            ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
+            x += 1
+        Next
 
-            If Not isSearch Then
-                lstMembers.DataTextField = "Name"
-                lstMembers.DataValueField = "id"
-                lstMembers.DataBind()
+        ds.AcceptChanges()
 
-                lstMembers.SelectedIndex = -1
+        lstMembers.DataSource = ds.Tables(0)
 
-                lblMemCount.Text = "List Count " & lstMembers.Items.Count
-                lblSearchErr.Visible = False
-                FillBoxes()
-                Return True
-            Else
-                lstMems.DataTextField = "Name"
-                lstMems.DataValueField = "id"
-                lstMems.DataBind()
-
-                lstMems.SelectedIndex = 0
-
-            End If
-
-            OpenArticle("MembershipArt")
-            ScrollTo("MembershipArt")
-
-            isSearch = False
-
-            Return True
-        Catch
-            Return False
-        End Try
-
-    End Function
+        lstMembers.DataTextField = "Name"
+        lstMembers.DataValueField = "id"
+        lstMembers.DataBind()
+    End Sub
 
     Private Sub FillBoxes()
         Dim sql As String
@@ -1804,26 +1796,7 @@ Public Class _Default
     End Function
 
     Protected Sub btnDeceased_Click(sender As Object, e As EventArgs)
-        Dim sb As New StringBuilder
-
-        If btnDeceased.Text = "Hide Deceased" Then
-            btnDeceased.Text = "Show Deceased"
-            lblListTitle.Text = "Entire Database<br/>Deceased Hidden"
-        Else
-            btnDeceased.Text = "Hide Deceased"
-            lblListTitle.Text = "Entire Database<br/>Deceased Shown"
-        End If
-
-        GetList()
-
-        sb.Append("<script>")
-        sb.Append("showMembership();")
-        sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#lblListTitle').offset().top}, 500);")
-        sb.Append("</script>")
-        If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-            Page.ClientScript.RegisterStartupScript _
-        (Me.GetType(), "Mems", "showMembership();", True)
-        End If
+        action = "btnDeceased_Click"
     End Sub
 
     Protected Sub btnPWReturn_Click(sender As Object, e As EventArgs)
