@@ -1470,6 +1470,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myNote').click(function () {
+        window.open('_pdfs/Commander_Note.pdf', '');
+    });
+
     $('#myFinlayson').click(function () {
         window.open('_pdfs/Finlayson bio.pdf', '');
     });

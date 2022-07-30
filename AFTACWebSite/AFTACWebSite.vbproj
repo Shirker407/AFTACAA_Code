@@ -1601,6 +1601,8 @@
     <Content Include="_Minutes\5-12-2022_Minutes.pdf" />
     <Content Include="_Minutes\4-15-2022_Minutes.pdf" />
     <Content Include="_PDFs\FINLAYSON Bio.pdf" />
+    <Content Include="_Minutes\6-24-2022_Minutes.pdf" />
+    <Content Include="_PDFs\Commander_Note.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
