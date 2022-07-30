@@ -49,7 +49,7 @@ Public Class _Default
         Select Case action
             Case "btnDeceased_Click"
                 sb = New StringBuilder
-                'MsgBox("Hello")
+
                 If btnDeceased.Text = "Hide Deceased" Then
                     btnDeceased.Text = "Show Deceased"
                     lblListTitle.Text = getAction() & " Database<br/>Deceased Hidden"
@@ -65,8 +65,6 @@ Public Class _Default
                 sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
                 sb.Append("</script>")
                 RunScript(sb.ToString)
-
-
             Case "Search Membership"
                 Dim listOK As Boolean = False
 
@@ -1097,7 +1095,7 @@ Public Class _Default
         Dim hidedeceased As Integer
         Dim chap As String = getAction()
 
-        If btnDeceased.Text = "show Deceased" Then
+        If btnDeceased.Text = "Show Deceased" Then
             hidedeceased = 0 'This will hide the deceased
         Else
             hidedeceased = 1 'This will show the deceased
@@ -1108,8 +1106,6 @@ Public Class _Default
         Else
             sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & txtSearch.Text & "'"
         End If
-
-        MsgBox(sql)
 
         Get_Dataset(sql, ds)
 
@@ -1125,6 +1121,8 @@ Public Class _Default
         lstMembers.DataTextField = "Name"
         lstMembers.DataValueField = "id"
         lstMembers.DataBind()
+
+        lblMemCount.Text = lstMembers.Items.Count & " Shown"
     End Sub
 
     Private Sub FillBoxes()
