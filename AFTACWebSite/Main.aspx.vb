@@ -4,7 +4,7 @@
 Public Class _Default
     Inherits System.Web.UI.Page
     Dim globalData As DataSet
-    Dim action As String 'The Admin Level Of the User
+    Dim action As String = "Default"
     Dim PWUser As String 'The Name of thr person that is logged in.
     Dim pb As Boolean
     Dim _id As Int32
@@ -47,6 +47,13 @@ Public Class _Default
         Dim sql As String = ""
         Dim ds As New DataSet
         Select Case action
+            Case "Default"
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#defaultArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
             Case "btnDeceased_Click"
                 sb = New StringBuilder
 
@@ -521,7 +528,6 @@ Public Class _Default
                 sb.Append("$('#defaultArt').removeClass('noDisplay').addClass('block');")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
         End Select
 
 
