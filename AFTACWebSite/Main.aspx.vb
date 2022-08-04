@@ -51,12 +51,8 @@ Public Class _Default
         Dim ds As New DataSet
         Select Case action
             Case "Default"
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#defaultArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+                OpenArticle("defaultArt")
+                ScrollTo("defaultArt")
             Case "btnDeceased_Click"
                 sb = New StringBuilder
 
@@ -70,20 +66,14 @@ Public Class _Default
 
                 GetList()
 
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                RunScript(sb.ToString)
+                OpenArticle("MembershipArt")
+                ScrollTo("MembershipArt")
             Case "btnSearch_Click"
                 If Len(txtSearch.Text) < 1 Then
                     lblMemCount.Text = "Nothing in Search Box"
-                    sb = New StringBuilder
-                    sb.Append("<script>")
-                    sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                    sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
-                    sb.Append("</script>")
-                    RunScript(sb.ToString)
+                    lstMembers.Items.Clear()
+                    OpenArticle("MembershipArt")
+                    ScrollTo("MembershipArt")
                     Exit Sub
                 End If
 
@@ -95,21 +85,13 @@ Public Class _Default
 
                 hfSearchStatus.Value = ""
 
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                RunScript(sb.ToString)
+                OpenArticle("MembershipArt")
+                ScrollTo("MembershipArt")
             Case "btnClearSearch_Click"
                 GetList()
                 txtSearch.Text = ""
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                RunScript(sb.ToString)
+                OpenArticle("MembershipArt")
+                ScrollTo("MembershipArt")
             Case "ShowList"
                 sb.Append("<script>")
                 sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
@@ -176,15 +158,9 @@ Public Class _Default
                 Session("AdminLevel") = admin
 
                 OpenAdminMenu()
-
             Case "openPasswordChange"
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#changepasswordArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
+                OpenArticle("changepasswordArt")
+                ScrollTo("changepasswordArt")
             Case "memberadmin"
                 sb = New StringBuilder
                 sb.Append("<script>")
@@ -317,35 +293,14 @@ Public Class _Default
                 txtObitSearch.Text = ""
 
             Case "eall"
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#eallArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
+                OpenArticle("localeallArt")
+                ScrollTo("localeallArt")
             Case "allmail"
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#allMailArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
+                OpenArticle("allMailArt")
+                ScrollTo("allMailArt")
             Case "modlog"
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#modlog').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
+                OpenArticle("modlog")
+                ScrollTo("modlog")
             Case "WOH"
                 Dim pre, first, last, verb As String, pic As String, myTitle As String
                 sb = New StringBuilder
@@ -375,7 +330,6 @@ Public Class _Default
                 sb.Append("$('wohVerbage').html(verb);")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
             Case "localeall"
                 Dim x As Int32 = 0
 
@@ -403,14 +357,8 @@ Public Class _Default
                 lblEallMess.Text = "All Florida Ealls"
                 txtLocalEalls.Text = sb.ToString
 
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
-                'sb.Append("$('#localEallTitle').html('Local E-All Address Report')")
-                sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#localEallTitle').offset().top}, 500);")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
+                OpenArticle("localeallArt")
+                ScrollTo("localeallArt")
             Case "localEallMod"
                 Dim r As DataRow
 
@@ -430,14 +378,8 @@ Public Class _Default
 
                 txtLocalEalls.Text = sb.ToString
 
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
-                'sb.Append("$('#localEallTitle').html('Florida Eall Address Report');")
-                sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#localEallTitle').offset().top}, 500);")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
+                OpenArticle("localeallArt")
+                ScrollTo("localeallArt")
             Case "ChangeFlList"
                 Select Case butSelList.Text
                     Case " Show Data in Grid "
@@ -450,16 +392,12 @@ Public Class _Default
                         flList.Visible = True
                 End Select
 
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#localeallArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
+                OpenArticle("localeallArt")
+                ScrollTo("localeallArt")
             Case "butEmailLookupClicked"
                 txtEMailLook.Text = ""
                 sb = New StringBuilder
+
                 sb.Append("<script>")
                 sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
                 sb.Append("$('#emailLookupArt').removeClass('noDisplay').addClass('block');")
@@ -520,30 +458,17 @@ Public Class _Default
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
 
             Case "BadEMail"
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#emailLookupArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+                OpenArticle("emailLookupArt")
+                ScrollTo("emailLookupArt")
                 lblerrMess.ForeColor = Drawing.Color.Red
                 lblerrMess.Text = "You have not entered an Email Address"
 
             Case "ReturntoAdminMenu"
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#adminMenuArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
+                OpenArticle("adminMenuArt")
+                ScrollTo("adminMenuArt")
             Case Else
-                sb = New StringBuilder
-                sb.Append("<script>")
-                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#defaultArt').removeClass('noDisplay').addClass('block');")
-                sb.Append("</script>")
-                ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+                OpenArticle("defaultArt")
+                ScrollTo("defaultArt")
         End Select
 
 
@@ -1112,53 +1037,6 @@ Public Class _Default
 
     Protected Sub btnClearSearch_Click(sender As Object, e As EventArgs)
         action = "btnClearSearch_Click"
-    End Sub
-
-    Sub GetList()
-        Dim sql As String
-        Dim x As Int32 = 0
-        Dim ds As New DataSet
-        Dim hidedeceased As Integer
-        Dim chap As String = getAction()
-        Dim r As DataRow
-
-        If btnDeceased.Text = "Show Deceased" Then
-            hidedeceased = 0 'This will hide the deceased
-        Else
-            hidedeceased = 1 'This will show the deceased
-        End If
-
-        If hfSearchStatus.Value = "Search" Then
-            sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & txtSearch.Text & "%'"
-        Else
-            sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & blank & "'"
-        End If
-
-
-        Get_Dataset(sql, ds, "Mems")
-
-        If ds.Tables("Mems").Rows.Count > 0 Then
-            For Each r In ds.Tables(0).Rows
-                ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
-                x += 1
-            Next
-        Else
-            lblMemCount.Text = "No Records to Show"
-            lstMembers.Items.Clear()
-            Exit Sub
-        End If
-
-        ds.AcceptChanges()
-
-        lstMembers.DataSource = ds.Tables("Mems")
-
-        lstMembers.DataTextField = "Name"
-        lstMembers.DataValueField = "id"
-        lstMembers.DataBind()
-
-        lblMemCount.Text = lstMembers.Items.Count & " Shown"
-
-        ClearBoxes()
     End Sub
 
     Private Sub FillBoxes()
@@ -1899,6 +1777,90 @@ Public Class _Default
         Get_Dataset(sql, ds)
     End Sub
 
+    Protected Sub RunScript(s As String)
+        ClientScript.RegisterStartupScript(Me.GetType(), "script", s)
+    End Sub
+
+    'Protected Sub myAlert(msg As String)
+    '    Dim sb As New StringBuilder
+
+    '    sb.Append("<script>")
+    '    sb.Append("alert(" & msg & ");")
+    '    sb.Append("</script>")
+
+    '    RunScript(sb.ToString)
+
+    'End Sub
+
+    Protected Sub btnFriends_Click(sender As Object, e As EventArgs)
+        Dim myds As New DataSet
+        Dim sql As String
+
+        OpenArticle("FriendsArt")
+
+        sql = "Exec GetFriendsList"
+
+        Get_Dataset(sql, myds)
+
+        lstMems.DataSource = myds.Tables(0)
+        lstMems.DataValueField = "ID"
+        lstMems.DataTextField = "Name"
+        lstMems.DataBind()
+    End Sub
+
+    Protected Sub lstMems_SelectedIndexChanged(sender As Object, e As EventArgs)
+        SetupFriends()
+    End Sub
+
+    '****************************************************************************************
+    'Functions and Procedures
+    Sub GetList()
+        Dim sql As String
+        Dim x As Int32 = 0
+        Dim ds As New DataSet
+        Dim hidedeceased As Integer
+        Dim chap As String = getAction()
+        Dim r As DataRow
+
+        If btnDeceased.Text = "Show Deceased" Then
+            hidedeceased = 0 'This will hide the deceased
+        Else
+            hidedeceased = 1 'This will show the deceased
+        End If
+
+        If hfSearchStatus.Value = "Search" Then
+            sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & txtSearch.Text & "%'"
+        Else
+            sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & blank & "'"
+        End If
+
+
+        Get_Dataset(sql, ds, "Mems")
+
+        If ds.Tables("Mems").Rows.Count > 0 Then
+            For Each r In ds.Tables(0).Rows
+                ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
+                x += 1
+            Next
+        Else
+            lblMemCount.Text = "No Records to Show"
+            lstMembers.Items.Clear()
+            Exit Sub
+        End If
+
+        ds.AcceptChanges()
+
+        lstMembers.DataSource = ds.Tables("Mems")
+
+        lstMembers.DataTextField = "Name"
+        lstMembers.DataValueField = "id"
+        lstMembers.DataBind()
+
+        lblMemCount.Text = lstMembers.Items.Count & " Shown"
+
+        ClearBoxes()
+    End Sub
+
     Protected Sub OpenArticle(s As String)
         Dim sb As New StringBuilder
         sb.Append("<script>")
@@ -1919,36 +1881,14 @@ Public Class _Default
 
     End Sub
 
-    Protected Sub RunScript(s As String)
-        ClientScript.RegisterStartupScript(Me.GetType(), "script", s)
-    End Sub
+    Private Function HasChapter(c As String) As Boolean
 
-    Protected Sub myAlert(msg As String)
-        Dim sb As New StringBuilder
+        If (c Like "*1*") Or (c Like "*2*") Or (c Like "*3*") Then
+            Return True
+        End If
 
-        sb.Append("<script>")
-        sb.Append("alert(" & msg & ");")
-        sb.Append("</script>")
-
-        RunScript(sb.ToString)
-
-    End Sub
-
-    Protected Sub btnFriends_Click(sender As Object, e As EventArgs)
-        Dim myds As New DataSet
-        Dim sql As String
-
-        OpenArticle("FriendsArt")
-
-        sql = "Exec GetFriendsList"
-
-        Get_Dataset(sql, myds)
-
-        lstMems.DataSource = myds.Tables(0)
-        lstMems.DataValueField = "ID"
-        lstMems.DataTextField = "Name"
-        lstMems.DataBind()
-    End Sub
+        Return False
+    End Function
 
     Private Sub SetupFriends()
         Dim ds As New DataSet
@@ -2031,18 +1971,5 @@ Public Class _Default
         ScrollTo("FriendsArt")
     End Sub
 
-    Protected Sub lstMems_SelectedIndexChanged(sender As Object, e As EventArgs)
-        SetupFriends()
-    End Sub
-
-    Private Function HasChapter(c As String) As Boolean
-
-        If (c Like "*1*") Or (c Like "*2*") Or (c Like "*3*") Then
-            Return True
-        End If
-
-        Return False
-    End Function
-
-
+    '****************************************************************************************
 End Class
