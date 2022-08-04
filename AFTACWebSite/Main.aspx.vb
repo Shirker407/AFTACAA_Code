@@ -1157,6 +1157,8 @@ Public Class _Default
         lstMembers.DataBind()
 
         lblMemCount.Text = lstMembers.Items.Count & " Shown"
+
+        ClearBoxes()
     End Sub
 
     Private Sub FillBoxes()
