@@ -20,14 +20,17 @@ Public Class _Default
 
         If Not IsPostBack Then
 
+            hfSearchStatus.Value = ""
+
             Session("lstObit") = -1
 
-            If Session("Action") = "Menu" Then
-                action = "Menu"
-                Session("Action") = ""
-            Else
-                action = ""
-            End If
+            action = "Default"
+            'If Session("Action") = "Menu" Then
+            '    action = "Menu"
+            '    Session("Action") = ""
+            'Else
+            '    action = ""
+            'End If
 
             lstNamesData = New DataSet
 
@@ -73,21 +76,26 @@ Public Class _Default
                 sb.Append("</script>")
                 RunScript(sb.ToString)
             Case "Search Membership"
-                Dim listOK As Boolean = False
+                If Len(txtSearch.Text) < 1 Then
+                    lblMemCount.Text = "Nothing in Search Box"
+                    sb = New StringBuilder
+                    sb.Append("<script>")
+                    sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                    sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
+                    sb.Append("</script>")
+                    RunScript(sb.ToString)
+                    Exit Sub
+                End If
 
                 lblSearchErr.Visible = False
 
-                If btnSearch.Text = "Search" Then
-                    btnSearch.Text = "Clear Search"
-                    GetList()
-                Else
-                    btnSearch.Text = "Search"
-                    txtSearch.Text = ""
-                    GetList()
-                End If
+                hfSearchStatus.Value = "Search"
 
-                'sb = New StringBuilder
-                'OpenArticle("MembershipArt")
+                GetList()
+
+                hfSearchStatus.Value = ""
+
+                sb = New StringBuilder
                 sb.Append("<script>")
                 sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
                 sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
@@ -1094,12 +1102,17 @@ Public Class _Default
         action = "Search Membership"
     End Sub
 
+    Protected Sub btnClearSearch_Click(sender As Object, e As EventArgs)
+        action = "btnClearSearch_Click"
+    End Sub
+
     Sub GetList()
         Dim sql As String
         Dim x As Int32 = 0
         Dim ds As New DataSet
         Dim hidedeceased As Integer
         Dim chap As String = getAction()
+        Dim r As DataRow
 
         If btnDeceased.Text = "Show Deceased" Then
             hidedeceased = 0 'This will hide the deceased
@@ -1107,22 +1120,29 @@ Public Class _Default
             hidedeceased = 1 'This will show the deceased
         End If
 
-        If btnSearch.Text = "Search" Then
-            sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & blank & "'"
+        If hfSearchStatus.Value = "Search" Then
+            sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & txtSearch.Text & "%'"
         Else
-            sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & txtSearch.Text & "'"
+            sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & blank & "'"
         End If
 
-        Get_Dataset(sql, ds)
 
-        For Each r In ds.Tables(0).Rows
-            ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
-            x += 1
-        Next
+        Get_Dataset(sql, ds, "Mems")
+
+        If ds.Tables("Mems").Rows.Count > 0 Then
+            For Each r In ds.Tables(0).Rows
+                ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
+                x += 1
+            Next
+        Else
+            lblMemCount.Text = "No Records to Show"
+            lstMembers.Items.Clear()
+            Exit Sub
+        End If
 
         ds.AcceptChanges()
 
-        lstMembers.DataSource = ds.Tables(0)
+        lstMembers.DataSource = ds.Tables("Mems")
 
         lstMembers.DataTextField = "Name"
         lstMembers.DataValueField = "id"
