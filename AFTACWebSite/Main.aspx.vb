@@ -75,7 +75,7 @@ Public Class _Default
                 sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
                 sb.Append("</script>")
                 RunScript(sb.ToString)
-            Case "Search Membership"
+            Case "btnSearch_Click"
                 If Len(txtSearch.Text) < 1 Then
                     lblMemCount.Text = "Nothing in Search Box"
                     sb = New StringBuilder
@@ -101,7 +101,15 @@ Public Class _Default
                 sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
                 sb.Append("</script>")
                 RunScript(sb.ToString)
-
+            Case "btnClearSearch_Click"
+                GetList()
+                txtSearch.Text = ""
+                sb = New StringBuilder
+                sb.Append("<script>")
+                sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+                sb.Append("$('#MembershipArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("</script>")
+                RunScript(sb.ToString)
             Case "ShowList"
                 sb.Append("<script>")
                 sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
@@ -1099,7 +1107,7 @@ Public Class _Default
 
 
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
-        action = "Search Membership"
+        action = "btnSearch_Click"
     End Sub
 
     Protected Sub btnClearSearch_Click(sender As Object, e As EventArgs)
@@ -1252,52 +1260,6 @@ Public Class _Default
         txtFirst.Focus()
 
     End Sub
-
-    'Protected Sub searchChkName_CheckedChanged(sender As Object, e As EventArgs)
-    '    Dim sb As New StringBuilder
-
-    '    If searchChkName.Checked Then
-    '        searchChkID.Checked = False
-    '    End If
-
-    '    ListAction = "name"
-
-    '    FillList(ListAction)
-    '    FillCommandList()
-
-    '    sb = New StringBuilder
-    '    sb.Append("<script>")
-    '    sb.Append("showMembership();")
-    '    sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#MembershipArt').offset().top}, 500);")
-    '    sb.Append("</script>")
-    '    If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-    '        Page.ClientScript.RegisterStartupScript _
-    '    (Me.GetType(), "Mems", "showMembership();", True)
-    '    End If
-    'End Sub
-
-    'Protected Sub searchChkID_CheckedChanged(sender As Object, e As EventArgs)
-    '    Dim sb As New StringBuilder
-
-    '    If searchChkID.Checked Then
-    '        searchChkName.Checked = False
-    '    End If
-
-    '    ListAction = "id"
-
-    '    FillList(ListAction)
-    '    FillCommandList()
-
-    '    sb = New StringBuilder
-    '    sb.Append("<script>")
-    '    sb.Append("showMembership();")
-    '    sb.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#MembershipArt').offset().top}, 500);")
-    '    sb.Append("</script>")
-    '    If (Not ClientScript.IsStartupScriptRegistered("Mems")) Then
-    '        Page.ClientScript.RegisterStartupScript _
-    '    (Me.GetType(), "Mems", "showMembership();", True)
-    '    End If
-    'End Sub
 
     Private Sub ClearBoxes()
         txtFirst.Text = ""
