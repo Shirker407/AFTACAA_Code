@@ -113,6 +113,24 @@ Partial Public Class _Default
     Protected WithEvents btnFriends As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''obitsRecent control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents obitsRecent As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''obitsArchived control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents obitsArchived As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''mainHeader control.
     '''</summary>
     '''<remarks>
@@ -1472,15 +1490,6 @@ Partial Public Class _Default
     Protected WithEvents Label57 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Label10 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label10 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''pnlObit control.
     '''</summary>
     '''<remarks>
@@ -1578,6 +1587,15 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents myObitArt As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''Label10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label10 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Label16 control.

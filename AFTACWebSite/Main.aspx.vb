@@ -34,13 +34,6 @@ Public Class _Default
 
             lstNamesData = New DataSet
 
-            sql = "Exec ArchiveNames"
-            Get_Dataset(Sql, lstNamesData, "ArchiveNames")
-
-            ddObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
-            ddObitNames.DataTextField = "Name"
-            ddObitNames.DataValueField = "ID"
-            ddObitNames.DataBind()
 
         End If
     End Sub
@@ -102,10 +95,8 @@ Public Class _Default
                 sb.Append("$('#wallImg').removeClass('noDisplay').addClass('block');")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
             Case "Password"
                 OpenAdminPassword()
-
             Case "PasswordSubmit"
                 Dim pw As String
                 Dim admin As Int16
@@ -175,13 +166,23 @@ Public Class _Default
                 sb.Append("$('#adminMenuArt').removeClass('noDisplay').addClass('block');")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+            Case "obitsRecent_Click"
+                OpenArticle("currentObitsArt")
+            Case "obitsArchived_Click"
+                ds = New DataSet
+                sql = "Exec ArchiveNames"
+                Get_Dataset(sql, ds)
 
+                ddObitNames.DataSource = ds.Tables(0)
+                ddObitNames.DataTextField = "Name"
+                ddObitNames.DataValueField = "ID"
+                ddObitNames.DataBind()
+
+                OpenArticle("archivedObitsArt")
             Case "ddObitsClicked"
                 Dim obituary As String
                 Dim name As String
                 Dim myIndex As Int32
-
-                OpenArchivedObits()
 
                 sql = "Select ID, Obituary, Name from obits where ID = " & ddObitNames.SelectedValue
                 ds = New DataSet
@@ -220,6 +221,8 @@ Public Class _Default
                     pnlmyDefaultPic.Visible = False
                     myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item(1)
                 End If
+
+                OpenArticle("archivedObitsArt")
 
             Case "butObitSearchClicked"
                 Dim Name As String
@@ -1246,16 +1249,11 @@ Public Class _Default
                 Capitolize(txtCity.Text) & "','" & UCase(txtState.Text) & "','" & txtZip.Text & "','" & UCase(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
                 GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & ReceiveEalls() & "','" &
-                Capitolize(ddlCommand.Text) & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" &
+                ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" &
                 GetDeleted() & "','" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
 
             Try
                 Run_Sql(sql)
-
-                'Dim Mess As String
-                'Mess = txtFirst.Text & " " & txtLast.Text & " - This database record was changed. The reason was: " & txtReason.Text & " by " & PWuser
-                'Send_Mail("aftacaawebmaster@gmail.com", "aftacaawebmaster@gmail.com", "The database was changed. The reason was:" & txtReason.Text)
-                'SendMail()
 
                 lblMess.Text = "Data Saved."
                 lblMess.ForeColor = Drawing.Color.DarkBlue
@@ -1749,17 +1747,12 @@ Public Class _Default
         ClientScript.RegisterStartupScript(Me.GetType(), "script", mySB.ToString)
     End Sub
 
-    Private Sub OpenArchivedObits()
-        Dim mySB As New StringBuilder
+    Protected Sub obitsRecent_Click(sender As Object, e As EventArgs)
+        action = "obitsRecent_Click"
+    End Sub
 
-        mySB.Append("<script>")
-        mySB.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-        mySB.Append("$('#obituariesArt').removeClass('noDisplay').addClass('block');")
-        mySB.Append("$('#currentObits').removeClass('block').addClass('noDisplay');")
-        mySB.Append("$('#archivedObits').removeClass('noDisplay').addClass('block');")
-        mySB.Append("$([document.documentElement, document.body]).animate({scrollTop: $(""#obituariesArt"").offset().top}, 500);")
-        mySB.Append("</script>")
-        ClientScript.RegisterStartupScript(Me.GetType(), "script", mySB.ToString)
+    Protected Sub obitsArchived_Click(sender As Object, e As EventArgs)
+        action = "obitsArchived_Click"
     End Sub
 
     Private Sub setupgroups()
@@ -1868,6 +1861,19 @@ Public Class _Default
         sb.Append("$('#" & s & "').removeClass('noDisplay').addClass('block');")
         sb.Append("</script>")
         RunScript(sb.ToString)
+    End Sub
+
+    Private Sub OpenArchivedObits()
+        Dim mySB As New StringBuilder
+
+        mySB.Append("<script>")
+        mySB.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+        mySB.Append("$('#obituariesArt').removeClass('noDisplay').addClass('block');")
+        mySB.Append("$('#currentObits').removeClass('block').addClass('noDisplay');")
+        mySB.Append("$('#archivedObits').removeClass('noDisplay').addClass('block');")
+        mySB.Append("$([document.documentElement, document.body]).animate({scrollTop: $(""#obituariesArt"").offset().top}, 500);")
+        mySB.Append("</script>")
+        ClientScript.RegisterStartupScript(Me.GetType(), "script", mySB.ToString)
     End Sub
 
     Protected Sub ScrollTo(s As String)
