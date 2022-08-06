@@ -35,7 +35,7 @@ Public Class _Default
             lstNamesData = New DataSet
 
             sql = "Exec ArchiveNames"
-            Get_Dataset(Sql, lstNamesData, "ArchiveNames")
+            Get_Dataset(sql, lstNamesData, "ArchiveNames")
 
             ddObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
             ddObitNames.DataTextField = "Name"
@@ -121,7 +121,7 @@ Public Class _Default
                     Exit Sub
                 End If
 
-                sql = "SELECT Password, Admin from Passwords Where UserName = '" & txtPWUserName.Text & "'"
+                sql = "SELECT Last + ', ' + First as Name, Password, Admin from Passwords P join AFTAC A on P.ID= A.ID  Where UserName = '" & txtPWUserName.Text & "'"
                 Get_Dataset(sql, myDS)
 
                 If myDS.Tables(0).Rows.Count = 0 Then
@@ -152,9 +152,7 @@ Public Class _Default
 
                 pw = myDS.Tables(0).Rows(0).Item("Password")
                 admin = myDS.Tables(0).Rows(0).Item("admin")
-
-
-                Session("myName") = txtPWUserName.Text
+                Session("myName") = myDS.Tables(0).Rows(0).Item("Name")
                 Session("AdminLevel") = admin
 
                 OpenAdminMenu()
@@ -1183,7 +1181,6 @@ Public Class _Default
 
     Protected Sub btnDelete_Click(sender As Object, e As EventArgs)
         Dim sql As String = "Exec DeleteListing " & lstMembers.SelectedValue
-
         Run_Sql(sql)
     End Sub
 
@@ -1247,7 +1244,7 @@ Public Class _Default
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
                 GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & ReceiveEalls() & "','" &
                 Capitolize(ddlCommand.Text) & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" &
-                GetDeleted() & "','" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
+                GetDeleted() & "','" & Session("myName") & "','" & Apos(txtReason.Text) & "'"
 
             Try
                 Run_Sql(sql)
@@ -1285,8 +1282,6 @@ Public Class _Default
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
                 GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
                 txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWUser & "'"
-
-            'txtSql.Text = sql
 
             Try
                 Run_Sql(sql)
@@ -1382,7 +1377,7 @@ Public Class _Default
         End If
 
         txtSearch.Text = ""
-        btnsearch.Text="Search"
+        btnSearch.Text = "Search"
 
         GetList()
 
