@@ -169,15 +169,7 @@ Public Class _Default
             Case "obitsRecent_Click"
                 OpenArticle("currentObitsArt")
             Case "obitsArchived_Click"
-                ds = New DataSet
-                sql = "Exec ArchiveNames"
-                Get_Dataset(sql, ds)
-
-                ddObitNames.DataSource = ds.Tables(0)
-                ddObitNames.DataTextField = "Name"
-                ddObitNames.DataValueField = "ID"
-                ddObitNames.DataBind()
-
+                FillObitList()
                 OpenArticle("archivedObitsArt")
             Case "ddObitsClicked"
                 Dim obituary As String
@@ -229,7 +221,6 @@ Public Class _Default
                 Dim ok As Boolean = False
                 Dim r As DataRow
 
-                OpenArchivedObits()
 
                 If Len(txtObitSearch.Text) < 1 Then
                     obitErrMess.Text = "A name must be entered in the Search Box."
@@ -284,8 +275,8 @@ Public Class _Default
                     Exit Sub
                 End If
 
+                OpenArticle("archivedObitsArt")
             Case "ObitClearSearch"
-                OpenArchivedObits()
                 FillObitList()
                 ddObitNames.SelectedIndex = -1
 
@@ -294,7 +285,7 @@ Public Class _Default
                 pnlmyDefaultPic.Visible = True
                 obitErrMess.Visible = False
                 txtObitSearch.Text = ""
-
+                OpenArticle("archivedObitsArt")
             Case "eall"
                 OpenArticle("localeallArt")
                 ScrollTo("localeallArt")
@@ -1693,7 +1684,7 @@ Public Class _Default
     End Sub
 
     Protected Sub butObitSearch_Click(sender As Object, e As EventArgs)
-        Session("lstName") = UCase(txtObitSearch.Text)
+        'Session("lstName") = UCase(txtObitSearch.Text)
         action = "butObitSearchClicked"
     End Sub
 
