@@ -171,7 +171,7 @@ Public Class _Default
             Case "obitsArchived_Click"
                 FillObitList()
                 OpenArticle("archivedObitsArt")
-            Case "ddObitsClicked"
+            Case "ddObitNames_SelectedIndexChanged"
                 Dim obituary As String
                 Dim name As String
                 Dim myIndex As Int32
@@ -197,11 +197,12 @@ Public Class _Default
                     ddObitNames.SelectedIndex = 0
                 End If
 
-                If obituary = "" Then
+                If Len(obituary) < 10 Then
                     obitErrMess.Text = name & " does not have an Obituary posted."
                     obitErrMess.Visible = True
                     pnlmyDefaultPic.Visible = True
                     pnlmyObits.Visible = False
+                    OpenArticle("archivedObitsArt")
                     Exit Sub
                 End If
 
@@ -1680,7 +1681,7 @@ Public Class _Default
 
     Protected Sub ddObitNames_SelectedIndexChanged(sender As Object, e As EventArgs)
         Session("lstName") = ddObitNames.SelectedItem.Text
-        action = "ddObitsClicked"
+        action = "ddObitNames_SelectedIndexChanged"
     End Sub
 
     Protected Sub butObitSearch_Click(sender As Object, e As EventArgs)
