@@ -273,6 +273,7 @@ Public Class _Default
                     pnlmyObits.Visible = False
                     FillObitList()
                     ddObitNames.SelectedIndex = -1
+                    OpenArticle("archivedObitsArt")
                     Exit Sub
                 End If
 

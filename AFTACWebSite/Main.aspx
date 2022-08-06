@@ -12516,7 +12516,7 @@
 
             <input id="btnTaps" class="autoMarginLeftRight block myBut topMargin1em bottomMargin1em" type="button" value=" Stop Taps " />
 
-            <div id="tapsControls" class="block">
+            <div id="tapsControls" class="noDisplay">
                 <div id="divVolume" class="width40 autoMarginLeftRight">
                     <p class="centerText" style="font-size:2em;">Taps Volume</p>
                     <div class="clear"  style="margin-top:-2em;"></div>
