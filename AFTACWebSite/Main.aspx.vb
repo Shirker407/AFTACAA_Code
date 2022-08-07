@@ -1365,10 +1365,11 @@ Public Class _Default
         btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        If btnDeceased.Text = "Hide Deceased" Then
-            lblListTitle.Text = "California Members<br>Deceased Shown"
+
+        If lblListTitle.Text = "Entire Database<br/>Deceased Shown" Then
+            btnDeceased.Text = "Hide Deceased"
         Else
-            lblListTitle.Text = "California Members<br>Deceased Hidden"
+            btnDeceased.Text = "Show Deceased"
         End If
 
         txtSearch.Text = ""
@@ -1467,10 +1468,10 @@ Public Class _Default
         btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnEntire.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
         btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        If btnDeceased.Text = "Hide Deceased" Then
-            lblListTitle.Text = "Entire Database<br>Deceased Shown"
+        If lblListTitle.Text = "Entire Database<br/>Deceased Shown" Then
+            btnDeceased.Text = "Hide Deceased"
         Else
-            lblListTitle.Text = "Entire Database<br>Deceased Hidden"
+            btnDeceased.Text = "Show Deceased"
         End If
 
         txtSearch.Text = ""
@@ -1494,9 +1495,9 @@ Public Class _Default
         btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnMemAll.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
         If btnDeceased.Text = "Hide Deceased" Then
-            lblListTitle.Text = "All Members<br>Deceased Shown"
-        Else
             lblListTitle.Text = "All Members<br>Deceased Hidden"
+        Else
+            lblListTitle.Text = "All Members<br>Deceased Shown"
         End If
 
         txtSearch.Text = ""
@@ -1507,6 +1508,10 @@ Public Class _Default
         OpenArticle("MembershipArt")
 
         ScrollTo("MembershipArt")
+    End Sub
+
+    Protected Sub btnReturnAdminMenu_Click(sender As Object, e As EventArgs)
+        OpenArticle("adminMenuArt")
     End Sub
 
     Protected Function GetChapters() As String

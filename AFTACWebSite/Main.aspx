@@ -494,7 +494,7 @@
                 </div>
 
                 <div class="topMargin1em centerDiv">
-                    <asp:Button ID="btnMemAll" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" All Members " OnClick="btnMemAll_Click" />
+                    <asp:Button ID="btnMemAll" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" runat="server" Text=" Paid Members " OnClick="btnMemAll_Click" />
                     <asp:Button ID="btnMemCalifornia" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" Style="margin-top:.5em;" runat="server" Text=" California " OnClick="btnMemCalifornia_Click" />
                     <asp:Button ID="btnMemColorado" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" Style="margin-top:.5em;" runat="server" Text=" Colorado " OnClick="btnMemColorado_Click"/>
                     <asp:Button ID="btnMemFlorida" CssClass="mySelBut myBut" Width="85%" Font-Size="1em" Style="margin-top:.5em;" runat="server" Text=" Florida " OnClick="btnMemFlorida_Click" />
@@ -508,6 +508,7 @@
 
             <section id="demos" class="floatLeft leftMargin2em bottomMargin2em width75 maroonBorder smallShadow maroonBorder">
                 <asp:Label ID="lblMess" CssClass="autoMarginLeftRight" Font-Size="2em" Font-Bold="true" Visible="False" ForeColor="Blue" runat="server" Text="Data Saved"></asp:Label>
+                <asp:Button ID="btnReturnAdminMenu" CssClass="myBut topMarginHalfem" runat="server" Style="font-size:.8em;" Text="Return to Admin Menu" onclick="btnReturnAdminMenu_Click" />
                 <section>
                     <div class="float-left leftMargin2em width20">
                         <asp:Label ForeColor="Maroon" Font-Bold="true" Font-Size="1em" runat="server" Text="First Name: "></asp:Label>
