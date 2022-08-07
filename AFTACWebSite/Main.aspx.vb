@@ -16,7 +16,6 @@ Public Class _Default
         Dim ds As New DataSet
         Dim sb As New StringBuilder
         Dim ws As New myService
-        Dim sql As String
 
         If Not IsPostBack Then
 
@@ -34,13 +33,6 @@ Public Class _Default
 
             lstNamesData = New DataSet
 
-            sql = "Exec ArchiveNames"
-            Get_Dataset(sql, lstNamesData, "ArchiveNames")
-
-            ddObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
-            ddObitNames.DataTextField = "Name"
-            ddObitNames.DataValueField = "ID"
-            ddObitNames.DataBind()
 
         End If
     End Sub
@@ -102,10 +94,8 @@ Public Class _Default
                 sb.Append("$('#wallImg').removeClass('noDisplay').addClass('block');")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
             Case "Password"
                 OpenAdminPassword()
-
             Case "PasswordSubmit"
                 Dim pw As String
                 Dim admin As Int16
@@ -121,7 +111,7 @@ Public Class _Default
                     Exit Sub
                 End If
 
-                sql = "SELECT Last + ', ' + First as Name, Password, Admin from Passwords P join AFTAC A on P.ID= A.ID  Where UserName = '" & txtPWUserName.Text & "'"
+                sql = "SELECT Password, Admin from Passwords Where UserName = '" & txtPWUserName.Text & "'"
                 Get_Dataset(sql, myDS)
 
                 If myDS.Tables(0).Rows.Count = 0 Then
@@ -152,7 +142,9 @@ Public Class _Default
 
                 pw = myDS.Tables(0).Rows(0).Item("Password")
                 admin = myDS.Tables(0).Rows(0).Item("admin")
-                Session("myName") = myDS.Tables(0).Rows(0).Item("Name")
+
+
+                Session("myName") = txtPWUserName.Text
                 Session("AdminLevel") = admin
 
                 OpenAdminMenu()
@@ -173,15 +165,17 @@ Public Class _Default
                 sb.Append("$('#adminMenuArt').removeClass('noDisplay').addClass('block');")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
-            Case "ddObitsClicked"
+            Case "obitsRecent_Click"
+                OpenArticle("currentObitsArt")
+            Case "obitsArchived_Click"
+                FillObitList()
+                OpenArticle("archivedObitsArt")
+            Case "lstObitNames_SelectedIndexChanged"
                 Dim obituary As String
                 Dim name As String
                 Dim myIndex As Int32
 
-                OpenArchivedObits()
-
-                sql = "Select ID, Obituary, Name from obits where ID = " & ddObitNames.SelectedValue
+                sql = "Select ID, Obituary, Name from obits where ID = " & lstObitNames.SelectedValue
                 ds = New DataSet
                 Get_Dataset(sql, ds)
 
@@ -194,19 +188,20 @@ Public Class _Default
                     myIndex = 0
                     name = ds.Tables(0).Rows(0).Item("Name")
 
-                    ddObitNames.DataSource = ds
-                    ddObitNames.DataValueField = "ID"
-                    ddObitNames.DataTextField = "Obituary"
-                    ddObitNames.DataTextField = "Name"
-                    ddObitNames.DataBind()
-                    ddObitNames.SelectedIndex = 0
+                    lstObitNames.DataSource = ds
+                    lstObitNames.DataValueField = "ID"
+                    lstObitNames.DataTextField = "Obituary"
+                    lstObitNames.DataTextField = "Name"
+                    lstObitNames.DataBind()
+                    lstObitNames.SelectedIndex = 0
                 End If
 
-                If obituary = "" Then
+                If Len(obituary) < 10 Then
                     obitErrMess.Text = name & " does not have an Obituary posted."
                     obitErrMess.Visible = True
                     pnlmyDefaultPic.Visible = True
                     pnlmyObits.Visible = False
+                    OpenArticle("archivedObitsArt")
                     Exit Sub
                 End If
 
@@ -219,12 +214,13 @@ Public Class _Default
                     myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item(1)
                 End If
 
+                OpenArticle("archivedObitsArt")
+
             Case "butObitSearchClicked"
                 Dim Name As String
                 Dim ok As Boolean = False
                 Dim r As DataRow
 
-                OpenArchivedObits()
 
                 If Len(txtObitSearch.Text) < 1 Then
                     obitErrMess.Text = "A name must be entered in the Search Box."
@@ -248,13 +244,13 @@ Public Class _Default
                 Next
 
                 If ds.Tables(0).Rows.Count >= 1 Then
-                    ddObitNames.DataSource = ds
-                    ddObitNames.DataTextField = "Name"
-                    ddObitNames.DataValueField = "ID"
-                    ddObitNames.DataBind()
-                    ddObitNames.SelectedIndex = 0
+                    lstObitNames.DataSource = ds
+                    lstObitNames.DataTextField = "Name"
+                    lstObitNames.DataValueField = "ID"
+                    lstObitNames.DataBind()
+                    lstObitNames.SelectedIndex = 0
 
-                    sql = "Select obituary from obits where id = " & ddObitNames.SelectedItem.Value
+                    sql = "Select obituary from obits where id = " & lstObitNames.SelectedItem.Value
                     Get_Dataset(sql, ds, "Obit")
 
                     If ds.Tables("Obit").Rows(0).Item(0) & "" <> "" Then
@@ -263,7 +259,7 @@ Public Class _Default
                         pnlmyObits.Visible = True
                         myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item("Obituary")
                     Else
-                        obitErrMess.Text = ddObitNames.SelectedItem.Text & " does Not have an Obituary posted."
+                        obitErrMess.Text = lstObitNames.SelectedItem.Text & " does Not have an Obituary posted."
                         obitErrMess.Visible = True
                         pnlmyDefaultPic.Visible = True
                         pnlmyObits.Visible = False
@@ -275,21 +271,22 @@ Public Class _Default
                     pnlmyDefaultPic.Visible = True
                     pnlmyObits.Visible = False
                     FillObitList()
-                    ddObitNames.SelectedIndex = -1
+                    lstObitNames.SelectedIndex = -1
+                    OpenArticle("archivedObitsArt")
                     Exit Sub
                 End If
 
+                OpenArticle("archivedObitsArt")
             Case "ObitClearSearch"
-                OpenArchivedObits()
                 FillObitList()
-                ddObitNames.SelectedIndex = -1
+                lstObitNames.SelectedIndex = -1
 
                 myObitArt.InnerHtml = ""
                 pnlmyObits.Visible = False
                 pnlmyDefaultPic.Visible = True
                 obitErrMess.Visible = False
                 txtObitSearch.Text = ""
-
+                OpenArticle("archivedObitsArt")
             Case "eall"
                 OpenArticle("localeallArt")
                 ScrollTo("localeallArt")
@@ -1181,6 +1178,7 @@ Public Class _Default
 
     Protected Sub btnDelete_Click(sender As Object, e As EventArgs)
         Dim sql As String = "Exec DeleteListing " & lstMembers.SelectedValue
+
         Run_Sql(sql)
     End Sub
 
@@ -1243,16 +1241,11 @@ Public Class _Default
                 Capitolize(txtCity.Text) & "','" & UCase(txtState.Text) & "','" & txtZip.Text & "','" & UCase(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
                 GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & ReceiveEalls() & "','" &
-                Capitolize(ddlCommand.Text) & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" &
-                GetDeleted() & "','" & Session("myName") & "','" & Apos(txtReason.Text) & "'"
+                ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" &
+                GetDeleted() & "','" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
 
             Try
                 Run_Sql(sql)
-
-                'Dim Mess As String
-                'Mess = txtFirst.Text & " " & txtLast.Text & " - This database record was changed. The reason was: " & txtReason.Text & " by " & PWuser
-                'Send_Mail("aftacaawebmaster@gmail.com", "aftacaawebmaster@gmail.com", "The database was changed. The reason was:" & txtReason.Text)
-                'SendMail()
 
                 lblMess.Text = "Data Saved."
                 lblMess.ForeColor = Drawing.Color.DarkBlue
@@ -1282,6 +1275,8 @@ Public Class _Default
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
                 GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
                 txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWUser & "'"
+
+            'txtSql.Text = sql
 
             Try
                 Run_Sql(sql)
@@ -1361,6 +1356,32 @@ Public Class _Default
 
     End Sub
 
+    Protected Sub btnMemAll_Click(sender As Object, e As EventArgs)
+        Dim sb As New StringBuilder
+
+        btnMemCalifornia.CssClass = "mySelBut myBut autoMarginLeftRight"
+        btnMemColorado.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnMemFlorida.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnMemAll.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
+        If btnDeceased.Text = "Hide Deceased" Then
+            lblListTitle.Text = "All Members<br>Deceased Shown"
+        Else
+            lblListTitle.Text = "All Members<br>Deceased Hidden"
+        End If
+
+
+        txtSearch.Text = ""
+        btnSearch.Text = "Search"
+
+        GetList()
+
+        OpenArticle("MembershipArt")
+
+        ScrollTo("MembershipArt")
+    End Sub
+
     Protected Sub btnMemCalifornia_Click(sender As Object, e As EventArgs)
         Dim sb As New StringBuilder
 
@@ -1370,11 +1391,13 @@ Public Class _Default
         btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+
         If btnDeceased.Text = "Hide Deceased" Then
             lblListTitle.Text = "California Members<br>Deceased Shown"
         Else
             lblListTitle.Text = "California Members<br>Deceased Hidden"
         End If
+
 
         txtSearch.Text = ""
         btnSearch.Text = "Search"
@@ -1472,10 +1495,10 @@ Public Class _Default
         btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnEntire.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
         btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        If btnDeceased.Text = "Hide Deceased" Then
-            lblListTitle.Text = "Entire Database<br>Deceased Shown"
+        If lblListTitle.Text = "Entire Database<br/>Deceased Shown" Then
+            btnDeceased.Text = "Hide Deceased"
         Else
-            lblListTitle.Text = "Entire Database<br>Deceased Hidden"
+            btnDeceased.Text = "Show Deceased"
         End If
 
         txtSearch.Text = ""
@@ -1489,29 +1512,8 @@ Public Class _Default
 
     End Sub
 
-    Protected Sub btnMemAll_Click(sender As Object, e As EventArgs)
-        Dim sb As New StringBuilder
-
-        btnMemCalifornia.CssClass = "mySelBut myBut autoMarginLeftRight"
-        btnMemColorado.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnMemFlorida.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnMemAll.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
-        If btnDeceased.Text = "Hide Deceased" Then
-            lblListTitle.Text = "All Members<br>Deceased Shown"
-        Else
-            lblListTitle.Text = "All Members<br>Deceased Hidden"
-        End If
-
-        txtSearch.Text = ""
-        btnSearch.Text = "Search"
-
-        GetList()
-
-        OpenArticle("MembershipArt")
-
-        ScrollTo("MembershipArt")
+    Protected Sub btnReturnAdminMenu_Click(sender As Object, e As EventArgs)
+        OpenArticle("adminMenuArt")
     End Sub
 
     Protected Function GetChapters() As String
@@ -1684,13 +1686,13 @@ Public Class _Default
         action = "ChangeFlList"
     End Sub
 
-    Protected Sub ddObitNames_SelectedIndexChanged(sender As Object, e As EventArgs)
-        Session("lstName") = ddObitNames.SelectedItem.Text
-        action = "ddObitsClicked"
+    Protected Sub lstObitNames_SelectedIndexChanged(sender As Object, e As EventArgs)
+        Session("lstName") = lstObitNames.SelectedItem.Text
+        action = "lstObitNames_SelectedIndexChanged"
     End Sub
 
     Protected Sub butObitSearch_Click(sender As Object, e As EventArgs)
-        Session("lstName") = UCase(txtObitSearch.Text)
+        'Session("lstName") = UCase(txtObitSearch.Text)
         action = "butObitSearchClicked"
     End Sub
 
@@ -1720,10 +1722,10 @@ Public Class _Default
         sql = "Exec ArchiveNames"
         Get_Dataset(sql, lstNamesData, "ArchiveNames")
 
-        ddObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
-        ddObitNames.DataTextField = "Name"
-        ddObitNames.DataValueField = "ID"
-        ddObitNames.DataBind()
+        lstObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
+        lstObitNames.DataTextField = "Name"
+        lstObitNames.DataValueField = "ID"
+        lstObitNames.DataBind()
     End Sub
 
     Protected Sub OpenAdminMenu()
@@ -1744,17 +1746,12 @@ Public Class _Default
         ClientScript.RegisterStartupScript(Me.GetType(), "script", mySB.ToString)
     End Sub
 
-    Private Sub OpenArchivedObits()
-        Dim mySB As New StringBuilder
+    Protected Sub obitsRecent_Click(sender As Object, e As EventArgs)
+        action = "obitsRecent_Click"
+    End Sub
 
-        mySB.Append("<script>")
-        mySB.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-        mySB.Append("$('#obituariesArt').removeClass('noDisplay').addClass('block');")
-        mySB.Append("$('#currentObits').removeClass('block').addClass('noDisplay');")
-        mySB.Append("$('#archivedObits').removeClass('noDisplay').addClass('block');")
-        mySB.Append("$([document.documentElement, document.body]).animate({scrollTop: $(""#obituariesArt"").offset().top}, 500);")
-        mySB.Append("</script>")
-        ClientScript.RegisterStartupScript(Me.GetType(), "script", mySB.ToString)
+    Protected Sub obitsArchived_Click(sender As Object, e As EventArgs)
+        action = "obitsArchived_Click"
     End Sub
 
     Private Sub setupgroups()
@@ -1863,6 +1860,19 @@ Public Class _Default
         sb.Append("$('#" & s & "').removeClass('noDisplay').addClass('block');")
         sb.Append("</script>")
         RunScript(sb.ToString)
+    End Sub
+
+    Private Sub OpenArchivedObits()
+        Dim mySB As New StringBuilder
+
+        mySB.Append("<script>")
+        mySB.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+        mySB.Append("$('#obituariesArt').removeClass('noDisplay').addClass('block');")
+        mySB.Append("$('#currentObits').removeClass('block').addClass('noDisplay');")
+        mySB.Append("$('#archivedObits').removeClass('noDisplay').addClass('block');")
+        mySB.Append("$([document.documentElement, document.body]).animate({scrollTop: $(""#obituariesArt"").offset().top}, 500);")
+        mySB.Append("</script>")
+        ClientScript.RegisterStartupScript(Me.GetType(), "script", mySB.ToString)
     End Sub
 
     Protected Sub ScrollTo(s As String)
