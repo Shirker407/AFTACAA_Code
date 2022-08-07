@@ -1356,6 +1356,32 @@ Public Class _Default
 
     End Sub
 
+    Protected Sub btnMemAll_Click(sender As Object, e As EventArgs)
+        Dim sb As New StringBuilder
+
+        btnMemCalifornia.CssClass = "mySelBut myBut autoMarginLeftRight"
+        btnMemColorado.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnMemFlorida.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+        btnMemAll.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
+        If btnDeceased.Text = "Hide Deceased" Then
+            lblListTitle.Text = "All Members<br>Deceased Shown"
+        Else
+            lblListTitle.Text = "All Members<br>Deceased Hidden"
+        End If
+
+
+        txtSearch.Text = ""
+        btnSearch.Text = "Search"
+
+        GetList()
+
+        OpenArticle("MembershipArt")
+
+        ScrollTo("MembershipArt")
+    End Sub
+
     Protected Sub btnMemCalifornia_Click(sender As Object, e As EventArgs)
         Dim sb As New StringBuilder
 
@@ -1366,11 +1392,12 @@ Public Class _Default
         btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
 
-        If lblListTitle.Text = "Entire Database<br/>Deceased Shown" Then
-            btnDeceased.Text = "Hide Deceased"
+        If btnDeceased.Text = "Hide Deceased" Then
+            lblListTitle.Text = "California Members<br>Deceased Shown"
         Else
-            btnDeceased.Text = "Show Deceased"
+            lblListTitle.Text = "California Members<br>Deceased Hidden"
         End If
+
 
         txtSearch.Text = ""
         btnSearch.Text = "Search"
@@ -1483,31 +1510,6 @@ Public Class _Default
 
         ScrollTo("MembershipArt")
 
-    End Sub
-
-    Protected Sub btnMemAll_Click(sender As Object, e As EventArgs)
-        Dim sb As New StringBuilder
-
-        btnMemCalifornia.CssClass = "mySelBut myBut autoMarginLeftRight"
-        btnMemColorado.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnMemFlorida.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        btnMemAll.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
-        If btnDeceased.Text = "Hide Deceased" Then
-            lblListTitle.Text = "All Members<br>Deceased Hidden"
-        Else
-            lblListTitle.Text = "All Members<br>Deceased Shown"
-        End If
-
-        txtSearch.Text = ""
-        btnSearch.Text = "Search"
-
-        GetList()
-
-        OpenArticle("MembershipArt")
-
-        ScrollTo("MembershipArt")
     End Sub
 
     Protected Sub btnReturnAdminMenu_Click(sender As Object, e As EventArgs)
