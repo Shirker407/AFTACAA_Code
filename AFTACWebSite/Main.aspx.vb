@@ -5,7 +5,7 @@ Public Class _Default
     Inherits System.Web.UI.Page
     Dim globalData As DataSet
     Dim action As String = "Default"
-    Dim PWUser As String 'The Name of thr person that is logged in.
+    Dim PWUser As String 'The Name of the person that is logged in.
     Dim pb As Boolean
     Dim _id As Int32
     Dim currentindex As Int32
@@ -100,6 +100,9 @@ Public Class _Default
                 Dim pw As String
                 Dim admin As Int16
                 Dim myDS As New DataSet
+                Dim myID As Int32
+                Dim myName As String
+
                 sb = New StringBuilder
 
                 lblPWError.Visible = False
@@ -111,7 +114,7 @@ Public Class _Default
                     Exit Sub
                 End If
 
-                sql = "SELECT Password, Admin from Passwords Where UserName = '" & txtPWUserName.Text & "'"
+                sql = "SELECT ID, Password, Admin from Passwords Where UserName = '" & txtPWUserName.Text & "'"
                 Get_Dataset(sql, myDS)
 
                 If myDS.Tables(0).Rows.Count = 0 Then
@@ -142,12 +145,20 @@ Public Class _Default
 
                 pw = myDS.Tables(0).Rows(0).Item("Password")
                 admin = myDS.Tables(0).Rows(0).Item("admin")
-
+                myID = myDS.Tables(0).Rows(0).Item("ID")
 
                 Session("myName") = txtPWUserName.Text
                 Session("AdminLevel") = admin
 
+                sql = "Select Last + ', ' + First as Name from AFTAC Where ID = " & myID
+                Get_Dataset(sql, myDS, "Name")
+                myName = myDS.Tables("Name").Rows(0).Item("Name")
+
+                sql = "Insert into AdminLogins (Name, LoginDate) values ('" & myName & " ', getdate())"
+                Run_Sql(sql)
+
                 OpenAdminMenu()
+
             Case "openPasswordChange"
                 OpenArticle("changepasswordArt")
                 ScrollTo("changepasswordArt")
@@ -1366,9 +1377,9 @@ Public Class _Default
         btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnMemAll.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
         If btnDeceased.Text = "Hide Deceased" Then
-            lblListTitle.Text = "All Members<br>Deceased Shown"
+            lblListTitle.Text = "Paid Members<br>Deceased Shown"
         Else
-            lblListTitle.Text = "All Members<br>Deceased Hidden"
+            lblListTitle.Text = "Paid Members<br>Deceased Hidden"
         End If
 
 
@@ -1417,6 +1428,7 @@ Public Class _Default
         btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+
         If btnDeceased.Text = "Hide Deceased" Then
             lblListTitle.Text = "Colorado Members<br>Deceased Shown"
         Else
@@ -1469,6 +1481,7 @@ Public Class _Default
         btnNonMem.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
         btnEntire.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
+
         If btnDeceased.Text = "Hide Deceased" Then
             lblListTitle.Text = "NonMembers<br>Deceased Shown"
         Else
@@ -1495,10 +1508,11 @@ Public Class _Default
         btnNonMem.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
         btnEntire.CssClass = "mySelBut hotBut topMarginHalfem autoMarginLeftRight"
         btnMemAll.CssClass = "mySelBut myBut topMarginHalfem autoMarginLeftRight"
-        If lblListTitle.Text = "Entire Database<br/>Deceased Shown" Then
-            btnDeceased.Text = "Hide Deceased"
+
+        If btnDeceased.Text = "Hide Deceased" Then
+            lblListTitle.Text = "Entire<br>Deceased Shown"
         Else
-            btnDeceased.Text = "Show Deceased"
+            lblListTitle.Text = "Entire<br>Deceased Hidden"
         End If
 
         txtSearch.Text = ""
