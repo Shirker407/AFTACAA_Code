@@ -12363,7 +12363,7 @@
                         </div>
                     </article>             
   
-                    <article>
+<%--                    <article>
                         <div>
                             <h2 id="SummersH2" class="obitH1">Richard Summers - 3/9/2022</h2>
                         </div>
@@ -12389,86 +12389,20 @@
                                 NOTE: Any additional information will be shared upon receipt and will be posted at the Alumni Website and in the Post-Monitor. 
                                 <br /><br />
                                 John Horsch
-                             </p>
-                        </div>
-                    </article>             
+                             </p>--%>
+                        </div> 
+                    </article>            
   
-                    <article>
-                        <div>
-                            <h2 id="WareH2" class="obitH1">James Ware - 2/16/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="WarePara" class="obitPara noDisplay">
-                            <p>
-                                Click <a href="https://www.nealfuneralhome.com/obituary/james-ware" target="_blank">here </a>
-                                to see James Ware's Obituary.
-                            </p>
-
-                            <p>
-                               <img alt="Ware.jpg" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Ware.jpg"/>
-                                (Contacted by Frank Calenda, AFTACAA Member, passing along information from Bill Cooley, Retired 99, AFTACAA Member, regarding James Ware.)
-                                <br /><br />
-                                "I am sorry to announce that James Ware passed away last Tuesday.  He worked in AFTAC HQ computer section at Patrick AFB until he left to become a Physician Assistant, eventually retiring as a Major.  We were close friends and he will be missed.  Those who wish to send a message to his wife and daughters can leave them at the funeral home website. 
-                                <br /><br />
-                                James E. Ware, October 26, 1962 - February 16, 2022
-                                Major James E. Ware, retired United States Air force, formerly of Washington, died suddenly of natural causes, on February 16, 2022, in San Antonio, TX.
-                                <br /><br />
-                                Arrangements are incomplete. A full obituary will be added later.
-                                <br /><br />
-                                A memorial service will be planned and take place in Washington.
-                                <br /><br />
-                                NOTE: Additional data will be provided when available. This information will be posted on the AFTACAA Website, www.aftacaa.us and published in the PoMo.
-                             </p>
-                        </div>
-                    </article>             
   
-                    <article>
-                        <div>
-                            <h2 id="MeisenheimerH2" class="obitH1">Bob Meisenheimer - 1/10/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="MeisenheimerPara" class="obitPara noDisplay">
-                            <p>
-                                Click <a href="https://www.craigfuneralhome.com/obituaries/Robert-Meisenheimer-3/#!/Obituary" target="_blank">here </a>
-                                to see Col. Meisenheimer's Obituary.
-                            </p>
-                            <p>
-                                (Contacted by Frank Calenda, AFTACAA Member, passing along this email from a family member.)
-                                <br /><br />
-                                "I just wanted to let this organization know that my father, Col. Robert Meisenheimer, passed away yesterday. Jan 10 2022.
-                                He was very proud of his time with AFTAC and I thought people who remember him would like to know."
-                                NOTE: The Col is in our alumni assoc database.  He was the AFTAC COMMANDER JUN 76-JUN 84 so many of us old-timers knew him well. 
-                                <br /><br />
-                            </p>
-
-                            <div class="blackText bold width70 padding5 autoMarginLeftRight blackBorder">
-                            The plan is to end in Arlington but that will take time. He was living in St. Augustine with his wife, Mary Ellen. For the last  6-7 months he was at the Lassen Veterans Nursing Home in St. Augustine.<br /><br />
-                             We are interested in some sort of service in Florida but we weren’t sure where we could do that. We were thinking something around Patrick AFB but weren’t sure how many would still be around or if there was interest.<br />
-                                From Col's son
-                            </div>
-
-                            <p class="centerDiv">
-                                <img alt="MeisenheimerText" class="autoMarginLeftRight width90" style="border:3px solid black;border-radius:10px;" src="_Photos/Meisenheimer.jpg" />
-                            </p>
-
-                            <p>
-                                Click <a href="https://www.west-point.org/class/usma1955/PWP/MeisR.htm" target="_blank">here </a>
-                                to see a photo preentation of Col and his family.
-                            </p>
-                        </div>
-                    </article>
-                </div>
-        </article>
-        
         <article id="archivedObitsArt" class="myArts noDisplay">
                 <h1 class="maroonText centerText bold underLine">Archived Obituaries</h1>
 
                 <asp:Panel ID="pnlObit" CssClass="floatLeft leftMargin1em width25" Visible="true" runat="server">
                     <asp:Label ID="Label8" CssClass="centerText block leftMargin1em" Font-Bold="true" ForeColor="Maroon" Font-Size="1.6em" runat="server" Text="Deceased"></asp:Label>
 
-                    <asp:ListBox ID="ddObitNames" CssClass="maroonBorder autoMarginLeftRight smallShadow padding5" Rows="5"
+                    <asp:ListBox ID="lstObitNames" CssClass="maroonBorder autoMarginLeftRight smallShadow padding5" Rows="5"
                         Font-Size=".8em" Font-Bold="true" ForeColor="Maroon" ToolTip="Hit Down Arrow to see list." 
-                        AutoPostBack="True" runat="server" OnSelectedIndexChanged="ddObitNames_SelectedIndexChanged">
+                        AutoPostBack="True" runat="server" OnSelectedIndexChanged="lstObitNames_SelectedIndexChanged">
                     </asp:ListBox>
 
                     <div class="clear"></div>

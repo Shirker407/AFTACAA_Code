@@ -16,7 +16,6 @@ Public Class _Default
         Dim ds As New DataSet
         Dim sb As New StringBuilder
         Dim ws As New myService
-        Dim sql As String
 
         If Not IsPostBack Then
 
@@ -171,12 +170,12 @@ Public Class _Default
             Case "obitsArchived_Click"
                 FillObitList()
                 OpenArticle("archivedObitsArt")
-            Case "ddObitNames_SelectedIndexChanged"
+            Case "lstObitNames_SelectedIndexChanged"
                 Dim obituary As String
                 Dim name As String
                 Dim myIndex As Int32
 
-                sql = "Select ID, Obituary, Name from obits where ID = " & ddObitNames.SelectedValue
+                sql = "Select ID, Obituary, Name from obits where ID = " & lstObitNames.SelectedValue
                 ds = New DataSet
                 Get_Dataset(sql, ds)
 
@@ -189,12 +188,12 @@ Public Class _Default
                     myIndex = 0
                     name = ds.Tables(0).Rows(0).Item("Name")
 
-                    ddObitNames.DataSource = ds
-                    ddObitNames.DataValueField = "ID"
-                    ddObitNames.DataTextField = "Obituary"
-                    ddObitNames.DataTextField = "Name"
-                    ddObitNames.DataBind()
-                    ddObitNames.SelectedIndex = 0
+                    lstObitNames.DataSource = ds
+                    lstObitNames.DataValueField = "ID"
+                    lstObitNames.DataTextField = "Obituary"
+                    lstObitNames.DataTextField = "Name"
+                    lstObitNames.DataBind()
+                    lstObitNames.SelectedIndex = 0
                 End If
 
                 If Len(obituary) < 10 Then
@@ -245,13 +244,13 @@ Public Class _Default
                 Next
 
                 If ds.Tables(0).Rows.Count >= 1 Then
-                    ddObitNames.DataSource = ds
-                    ddObitNames.DataTextField = "Name"
-                    ddObitNames.DataValueField = "ID"
-                    ddObitNames.DataBind()
-                    ddObitNames.SelectedIndex = 0
+                    lstObitNames.DataSource = ds
+                    lstObitNames.DataTextField = "Name"
+                    lstObitNames.DataValueField = "ID"
+                    lstObitNames.DataBind()
+                    lstObitNames.SelectedIndex = 0
 
-                    sql = "Select obituary from obits where id = " & ddObitNames.SelectedItem.Value
+                    sql = "Select obituary from obits where id = " & lstObitNames.SelectedItem.Value
                     Get_Dataset(sql, ds, "Obit")
 
                     If ds.Tables("Obit").Rows(0).Item(0) & "" <> "" Then
@@ -260,7 +259,7 @@ Public Class _Default
                         pnlmyObits.Visible = True
                         myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item("Obituary")
                     Else
-                        obitErrMess.Text = ddObitNames.SelectedItem.Text & " does Not have an Obituary posted."
+                        obitErrMess.Text = lstObitNames.SelectedItem.Text & " does Not have an Obituary posted."
                         obitErrMess.Visible = True
                         pnlmyDefaultPic.Visible = True
                         pnlmyObits.Visible = False
@@ -272,7 +271,7 @@ Public Class _Default
                     pnlmyDefaultPic.Visible = True
                     pnlmyObits.Visible = False
                     FillObitList()
-                    ddObitNames.SelectedIndex = -1
+                    lstObitNames.SelectedIndex = -1
                     OpenArticle("archivedObitsArt")
                     Exit Sub
                 End If
@@ -280,7 +279,7 @@ Public Class _Default
                 OpenArticle("archivedObitsArt")
             Case "ObitClearSearch"
                 FillObitList()
-                ddObitNames.SelectedIndex = -1
+                lstObitNames.SelectedIndex = -1
 
                 myObitArt.InnerHtml = ""
                 pnlmyObits.Visible = False
@@ -1373,7 +1372,7 @@ Public Class _Default
         End If
 
         txtSearch.Text = ""
-        btnsearch.Text="Search"
+        btnSearch.Text = "Search"
 
         GetList()
 
@@ -1680,9 +1679,9 @@ Public Class _Default
         action = "ChangeFlList"
     End Sub
 
-    Protected Sub ddObitNames_SelectedIndexChanged(sender As Object, e As EventArgs)
-        Session("lstName") = ddObitNames.SelectedItem.Text
-        action = "ddObitNames_SelectedIndexChanged"
+    Protected Sub lstObitNames_SelectedIndexChanged(sender As Object, e As EventArgs)
+        Session("lstName") = lstObitNames.SelectedItem.Text
+        action = "lstObitNames_SelectedIndexChanged"
     End Sub
 
     Protected Sub butObitSearch_Click(sender As Object, e As EventArgs)
@@ -1716,10 +1715,10 @@ Public Class _Default
         sql = "Exec ArchiveNames"
         Get_Dataset(sql, lstNamesData, "ArchiveNames")
 
-        ddObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
-        ddObitNames.DataTextField = "Name"
-        ddObitNames.DataValueField = "ID"
-        ddObitNames.DataBind()
+        lstObitNames.DataSource = lstNamesData.Tables("ArchiveNames")
+        lstObitNames.DataTextField = "Name"
+        lstObitNames.DataValueField = "ID"
+        lstObitNames.DataBind()
     End Sub
 
     Protected Sub OpenAdminMenu()

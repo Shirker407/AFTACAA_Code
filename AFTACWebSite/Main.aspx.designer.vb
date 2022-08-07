@@ -1508,13 +1508,13 @@ Partial Public Class _Default
     Protected WithEvents Label8 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''ddObitNames control.
+    '''lstObitNames control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ddObitNames As Global.System.Web.UI.WebControls.ListBox
+    Protected WithEvents lstObitNames As Global.System.Web.UI.WebControls.ListBox
 
     '''<summary>
     '''obitErrMess control.
