@@ -482,15 +482,6 @@ Partial Public Class _Default
     Protected WithEvents lblMess As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''btnReturnAdminMenu control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnReturnAdminMenu As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''txtFirst control.
     '''</summary>
     '''<remarks>
@@ -903,6 +894,15 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnAdd As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnReturnAdminMenu control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnReturnAdminMenu As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''lblModDate control.

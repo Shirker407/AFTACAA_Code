@@ -508,7 +508,6 @@
 
             <section id="demos" class="floatLeft leftMargin2em bottomMargin2em width75 maroonBorder smallShadow maroonBorder">
                 <asp:Label ID="lblMess" CssClass="autoMarginLeftRight" Font-Size="2em" Font-Bold="true" Visible="False" ForeColor="Blue" runat="server" Text="Data Saved"></asp:Label>
-                <asp:Button ID="btnReturnAdminMenu" CssClass="myBut topMarginHalfem" runat="server" Style="font-size:.8em;" Text="Return to Admin Menu" onclick="btnReturnAdminMenu_Click" />
                 <section>
                     <div class="float-left leftMargin2em width20">
                         <asp:Label ForeColor="Maroon" Font-Bold="true" Font-Size="1em" runat="server" Text="First Name: "></asp:Label>
@@ -696,8 +695,11 @@
                     </div>
 
                     <asp:Panel ID="pnlButs" CssClass="autoMarginLeftRight topMargin2em menuItem menu1 centerDiv" runat="server">
-                        <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
-                        <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
+                        <div>
+                            <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
+                            <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
+                        </div>
+                        <asp:Button ID="btnReturnAdminMenu" CssClass="myBut topMarginHalfem" runat="server" Text="Return to Admin Menu" onclick="btnReturnAdminMenu_Click" />
                     </asp:Panel>
 
                     <div class="width75 autoMarginLeftRight topMargin2em">
