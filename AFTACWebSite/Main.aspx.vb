@@ -1081,23 +1081,23 @@ Public Class _Default
         ddlCommand.Text = ds.Tables(0).Rows(0).Item("Command")
         txtcmdDates.Text = ds.Tables(0).Rows(0).Item("cmdServiceDates")
 
-        If ds.Tables(0).Rows(0).Item("Chapters") = "1" Then
-            calChkBox.Checked = True
-        Else
-            calChkBox.Checked = False
-        End If
+        'If ds.Tables(0).Rows(0).Item("Chapters") = "1" Then
+        '    calChkBox.Checked = True
+        'Else
+        '    calChkBox.Checked = False
+        'End If
 
-        If ds.Tables(0).Rows(0).Item("Chapters") = "2" Then
-            colChkBox.Checked = True
-        Else
-            colChkBox.Checked = False
-        End If
+        'If ds.Tables(0).Rows(0).Item("Chapters") = "2" Then
+        '    colChkBox.Checked = True
+        'Else
+        '    colChkBox.Checked = False
+        'End If
 
-        If ds.Tables(0).Rows(0).Item("Chapters") = "3" Then
-            flaChkBox.Checked = True
-        Else
-            flaChkBox.Checked = False
-        End If
+        'If ds.Tables(0).Rows(0).Item("Chapters") = "3" Then
+        '    flaChkBox.Checked = True
+        'Else
+        '    flaChkBox.Checked = False
+        'End If
 
         'If ds.Tables(0).Rows(0).Item("On_Line") = "1" Then
         '    RecieveEallsChk.Checked = True
@@ -1174,9 +1174,9 @@ Public Class _Default
         txtDues.Text = ""
         txtSEO.Text = ""
         txtReason.Text = ""
-        calChkBox.Checked = False
-        colChkBox.Checked = False
-        flaChkBox.Checked = False
+        'calChkBox.Checked = False
+        'colChkBox.Checked = False
+        'flaChkBox.Checked = False
         deceasedChk.Checked = False
         elecPomoChk.Checked = False
         RecieveEallsChk.Checked = False
@@ -1533,25 +1533,25 @@ Public Class _Default
     Protected Function GetChapters() As String
         Dim buffer As String = ""
 
-        If calChkBox.Checked Then
-            buffer = "1"
-        End If
+        'If calChkBox.Checked Then
+        '    buffer = "1"
+        'End If
 
-        If colChkBox.Checked Then
-            If Len(buffer) = 0 Then
-                buffer = "2"
-            Else
-                buffer = buffer & "2"
-            End If
-        End If
+        'If colChkBox.Checked Then
+        '    If Len(buffer) = 0 Then
+        '        buffer = "2"
+        '    Else
+        '        buffer = buffer & "2"
+        '    End If
+        'End If
 
-        If flaChkBox.Checked Then
-            If Len(buffer) = 0 Then
-                buffer = "3"
-            Else
-                buffer = buffer & "3"
-            End If
-        End If
+        'If flaChkBox.Checked Then
+        '    If Len(buffer) = 0 Then
+        '        buffer = "3"
+        '    Else
+        '        buffer = buffer & "3"
+        '    End If
+        'End If
 
         Return buffer
     End Function

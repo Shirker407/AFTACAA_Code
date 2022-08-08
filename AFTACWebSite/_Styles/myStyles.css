@@ -635,11 +635,11 @@ h3
     padding:.2em;
 }
 
-.mycheckbox input[type="checkbox"] 
-{
-    margin-right:1em;
+/*.myChk {
+    width: 25px;
+    height: 25px;
 }
-
+*/
 .news2KnowH1, .obitH1
 {
     float:left;

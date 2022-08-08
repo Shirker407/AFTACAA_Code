@@ -630,8 +630,6 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="width100">
-<%--                                    <asp:Label ID="Label3" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="SQL"></asp:Label>
-                                    <asp:TextBox ID="txtSql" CssClass="padding5 block" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
                                     <asp:Label ID="Label56" CssClass="block" ForeColor="Maroon" Font-Bold="true" runat="server" Text="LRD Assignments"></asp:Label>
                                     <asp:TextBox ID="txtDets" CssClass="padding5 block" Width="90%" Height="5em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="MultiLine"></asp:TextBox>
                                 </div>
@@ -653,10 +651,13 @@
                     <div class="thinMaroonBorder width80 centerDiv autoMarginLeftRight">
                         <p id="chaptersPara" class="centerText pTitle">Chapters</p>
 
-                        <div class="autoMarginLeftRight topMarginMinus1em width90">
-                            <asp:CheckBox ID="calChkBox" CssClass="floatLeft myChk" Font-Size="1.5em" Font-Bold="true" Text="California" Style="color:maroon;" runat="server" />
-                            <asp:CheckBox ID="colChkBox" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Style="color:maroon;" Text="Colorado" runat="server" />
-                            <asp:CheckBox ID="flaChkBox" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Style="color:maroon;" Text="Florida" runat="server" />
+                        <div class="autoMarginLeftRight topMarginMinus1em">
+                            <img id="calChk" class="inlineBlock myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
+                            <asp:Label ID="lblCal" Font-Size="1.5em" Font-Bold="true" CssClass="inlineBlock topMarginHalfem myGut" runat="server" Text="California"></asp:Label>
+                            <img id="colChk" class="inlineBlock leftMargin2em myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
+                            <asp:Label ID="lblCol" Font-Size="1.5em" Font-Bold="true" CssClass="inlineBlock topMarginHalfem myGut" runat="server" Text="Colorado"></asp:Label>
+                            <img id="flaChk" class="inlineBlock leftMargin2em myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
+                            <asp:Label ID="lblFla" Font-Size="1.5em" Font-Bold="true" CssClass="inlineBlock topMarginHalfem myGut" runat="server" Text="Florida"></asp:Label>
                             <div class="clear"></div>
                         </div>
                     </div>
