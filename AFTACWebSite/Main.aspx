@@ -651,14 +651,19 @@
                     <div class="thinMaroonBorder width80 centerDiv autoMarginLeftRight">
                         <p id="chaptersPara" class="centerText pTitle">Chapters</p>
 
-                        <div class="autoMarginLeftRight topMarginMinus1em">
-                            <img id="calChk" class="inlineBlock myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
+                        <div class="autoMarginLeftRight centerDiv topMarginMinus1em">
+                            <asp:CheckBox ID="CheckBox1" CssClass="floatLeft" Text="CheckBox1" runat="server" />                           <img id="calChk" class="inlineBlock myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
+                            <asp:CheckBox ID="CheckBox2" CssClass="floatLeft" Text="CheckBox2" runat="server" />
+                            <asp:CheckBox ID="CheckBox3" CssClass="floatLeft" Text="CheckBox3" runat="server" />
+                            <div class="clear"></div>
+                            <%--                            <img id="calChk" class="inlineBlock myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
+                                                          <img id="calChk" class="inlineBlock myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
                             <asp:Label ID="lblCal" Font-Size="1.5em" Font-Bold="true" CssClass="inlineBlock topMarginHalfem myGut" runat="server" Text="California"></asp:Label>
                             <img id="colChk" class="inlineBlock leftMargin2em myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
                             <asp:Label ID="lblCol" Font-Size="1.5em" Font-Bold="true" CssClass="inlineBlock topMarginHalfem myGut" runat="server" Text="Colorado"></asp:Label>
                             <img id="flaChk" class="inlineBlock leftMargin2em myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
                             <asp:Label ID="lblFla" Font-Size="1.5em" Font-Bold="true" CssClass="inlineBlock topMarginHalfem myGut" runat="server" Text="Florida"></asp:Label>
-                            <div class="clear"></div>
+                            <div class="clear"></div>--%>
                         </div>
                     </div>
 

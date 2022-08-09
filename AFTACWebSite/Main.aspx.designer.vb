@@ -761,31 +761,31 @@ Partial Public Class _Default
     Protected WithEvents txtComments As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''lblCal control.
+    '''CheckBox1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lblCal As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents CheckBox1 As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''lblCol control.
+    '''CheckBox2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lblCol As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents CheckBox2 As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''lblFla control.
+    '''CheckBox3 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents lblFla As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents CheckBox3 As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
     '''deceasedChk control.
