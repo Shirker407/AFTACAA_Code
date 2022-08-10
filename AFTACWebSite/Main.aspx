@@ -274,6 +274,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myJubilee" class="announcement greenText">The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.</td>
+                                    <td class="posted greenText">8/9/2022</td>
+                                    <td class="event greenText">9/17/2022</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWhitney" class="announcement blueText">Jan Whitney's Obituary was Posted.</td>
+                                    <td class="posted blueText">8/9/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myNote" class="announcement blueText">Note from new AFTAC Commander<br />to the Alumni</td>
                                     <td class="posted blueText">7/19/2022</td>
                                     <td class="event blueText"></td>
@@ -386,6 +396,38 @@
             </div>
 
             <div class="clear"></div>
+        </article>
+
+        <article id="JubileeArt" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">75th Diamond Jubilee</p>
+
+            <p class="centerDiv">
+                The AFTAC Booster Club
+                <br />
+                Requests the pleasure of your company to celebrate
+                <br /><br />
+                The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.
+                <br /><br />
+                To be held at
+                <br />
+                the Hilton Cocoa Beach Oceanfront
+                <br />
+                1550 N Atlantic Ave, Cocoa Beach, FL 32931
+                <br /><br />
+                on Saturday, the Seventeenth of September.
+                <br />
+                Program begins at six-thirty in the evening until ten-thirty in the evening.
+                <br /><br />
+                R.S.V.P. by September 7, 2022
+                <br /><br />
+                <a href="https://sendomatic.com/a2muF" target="_blank">Click here</a> to read more.
+                <br /><br />
+                POC: Capt Jesse Lubove
+                <br /><br />
+                COMM: 321-494-7321 / 854-7321
+                <br /><br />
+                Military: Mess Dress or Semi-Formal Civilian: Formal Attire
+            </p>
         </article>
 
         <article id="PhoenixArt" class="myArts noDisplay">
@@ -12136,6 +12178,18 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+                    <article>
+                        <div>
+                            <h2 id="WhitneyH2" class="obitH1">Janice (Jan) Whitney - 7/24/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="WhitneyPara" class="obitPara noDisplay">
+                            <p>
+                                Janice (Jan) Whitney, 80, passed away on Sunday, July 24, 2022, at her home in Satellite Beach, Florida. “Jan,” the oldest of five, was born in Detroit, MI to Marshall and Barbara Johns. The family moved to Liverpool, NY in the early 1960s where she met her eventual husband and life-long travel companion, Don Whitney. Soon after earning an Associate Degree at Cazenovia College, Jan and Don married. This began a life of travel as the wife of an Air Force Pilot, and later in life when they both retired. Guam, Alabama, Japan, California, Illinois, Virginia, Mississippi, and Hawaii were among the places they lived before settling in the Space Coast. Once she settled in Florida and emptied the nest of her three sons, Jan earned her real estate license and began selling homes – becoming a million-dollar seller for Coldwell Banker Realty and managing the Melbourne office. Jan is survived by her husband Don, her three sons and their spouses: Brad (Jill), Dean (Julie), and Todd (Heidi), and by her seven grandchildren. She also leaves her four siblings and their spouses: Marsha (John) Charles, Bud (Marlene) Johns, Gary (Debbie) Johns, and Cheryl (John) Potts. Jan’s engaging personality and infectious laugh will be missed by family, friends, and all the people she would always stop and talk with in random situations. Funeral services will be held on Friday, August 5th at Beach Funeral Home, 1689 S. Patrick Drive, Melbourne, FL. A viewing will take place 11:00AM -1:00PM with formal services starting at 1:00PM. Following the service, the Whitney family will welcome friends at the Tides Club at Patrick Space Force Base,1001 North Highway, A1A S Atlantic Ave. While flowers are welcomed, expressions of sympathy in Jan’s memory can also be made to the Bladder Cancer Advisory Network (BCAN.org).
+                            </p>
+                        </div>
+                    </article>             
+ 
                     <article>
                         <div>
                             <h2 id="LarsonH2" class="obitH1">Karla Larson - 6/23/2022</h2>

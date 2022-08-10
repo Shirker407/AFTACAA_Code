@@ -1470,12 +1470,24 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myJubilee').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#JubileeArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#JubileeArt").offset().top
+        }, 500);
+    });
+
     $('#myNote').click(function () {
         window.open('_pdfs/Commander_Note.pdf', '');
     });
 
     $('#myFinlayson').click(function () {
         window.open('_pdfs/Finlayson bio.pdf', '');
+    });
+
+    $('#myWhitney').click(function () {
+        OpenObit('Whitney');
     });
 
     $('#myLarson').click(function () {
@@ -1517,6 +1529,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'WhitneyH2':
+                ShowMyObit('Whitney')
+                break;
             case 'LarsonH2':
                 ShowMyObit('Larson')
                 break;
@@ -5004,7 +5019,7 @@ function Open20Year(s) {
 function OpenObit(s)
 {
     $('.myArts').removeClass('block').addClass('noDisplay');
-    $('#obituariesArt').removeClass('noDisplay').addClass('block');
+    $('#currentObitsArt').removeClass('noDisplay').addClass('block');
     $('.n2KPara').removeClass('block').addClass('noDisplay');
     $('#' + s +'Para').removeClass('noDisplay').addClass('block');
     $([document.documentElement, document.body]).animate({
