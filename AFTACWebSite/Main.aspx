@@ -702,17 +702,14 @@
                     <div class="thinMaroonBorder width80 centerDiv autoMarginLeftRight">
                         <p id="otherStuffPara" class="centerText pTitle">Other Stuff</p>
                         <div class="autoMarginLeftRight topMarginMinus1em width90">
-                            <asp:CheckBox ID="deceasedChk" CssClass="floatLeft myChk" Font-Size="1.5em" Font-Bold="true" Text="Deceased" Style="color:maroon;" runat="server" />
-                            <asp:CheckBox ID="elecPomoChk" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Elec. Pomo" Style="color:maroon;" runat="server" />
-                            <asp:CheckBox ID="RecieveEallsChk" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Ealls" Style="color:maroon;" runat="server" />
-                            <div class="clear"></div>
+                            <asp:CheckBox ID="deceasedChk" CssClass="centerDiv" Font-Size="1.5em" Font-Bold="true" Text="Deceased" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="RecieveEallsChk" CssClass="leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Ealls" Style="color:maroon;" runat="server" />
                         </div>
 
-                        <div class="autoMarginLeftRight width90">
-                            <asp:CheckBox ID="deletedChk" CssClass="floatLeft myChk" Font-Size="1.5em" Font-Bold="true" Text="Deleted" Style="color:maroon;" runat="server" />
-                            <asp:CheckBox ID="mailPomoChk" CssClass="floatLeft myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Mail Pomo" Style="color:maroon;" runat="server" />
-                            <asp:CheckBox ID="badEmailChk" CssClass="floatLeft myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Bad Email" Style="color:maroon;" runat="server" />
-                            <div class="clear"></div>
+                        <div class="autoMarginLeftRight centerDiv width90">
+                            <asp:CheckBox ID="deletedChk" CssClass="myChk" Font-Size="1.5em" Font-Bold="true" Text="Deleted" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="mailPomoChk" CssClass="myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Mail Pomo" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="badEmailChk" CssClass="myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Bad Email" Style="color:maroon;" runat="server" />
                         </div>
                     </div>
 

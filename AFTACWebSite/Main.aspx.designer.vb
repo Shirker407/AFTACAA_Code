@@ -797,15 +797,6 @@ Partial Public Class _Default
     Protected WithEvents deceasedChk As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''elecPomoChk control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents elecPomoChk As Global.System.Web.UI.WebControls.CheckBox
-
-    '''<summary>
     '''RecieveEallsChk control.
     '''</summary>
     '''<remarks>

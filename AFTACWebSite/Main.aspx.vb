@@ -142,8 +142,10 @@ Public Class _Default
                 Get_Dataset(sql, myDS, "Name")
                 myName = myDS.Tables("Name").Rows(0).Item("Name")
 
-                sql = "Insert into AdminLogins (Name, LoginDate) values ('" & myName & " ', getdate())"
-                Run_Sql(sql)
+                If myName <> "Gilbert, Peter" Then
+                    sql = "Insert into AdminLogins (Name, LoginDate) values ('" & myName & " ', getdate())"
+                    Run_Sql(sql)
+                End If
 
                 OpenAdminMenu()
 
@@ -777,8 +779,8 @@ Public Class _Default
         End If
     End Function
 
-    Function GetDeceased(address As String) As String
-        If UCase(address) Like "*DECEASED*" Then
+    Function GetDeceased() As String
+        If deceasedChk.Checked Then
             Return "1"
         Else
             Return "0"
@@ -1087,6 +1089,12 @@ Public Class _Default
             chkFlorida.Checked = False
         End If
 
+        If ds.Tables(0).Rows(0).Item("Deceased") = "1" Then
+            deceasedChk.Checked = True
+        Else
+            deceasedChk.Checked = False
+        End If
+
         If ds.Tables(0).Rows(0).Item("On_Line") = "1" Then
             RecieveEallsChk.Checked = True
         Else
@@ -1117,11 +1125,11 @@ Public Class _Default
             deletedChk.Checked = False
         End If
 
-        If ds.Tables(0).Rows(0).Item("Electronic") = "1" Then
-            elecPomoChk.Checked = True
-        Else
-            elecPomoChk.Checked = False
-        End If
+        'If ds.Tables(0).Rows(0).Item("Electronic") = "1" Then
+        '    elecPomoChk.Checked = True
+        'Else
+        '    elecPomoChk.Checked = False
+        'End If
 
         chaps = ds.Tables(0).Rows(0).Item("Chapters") & ""
 
@@ -1166,7 +1174,7 @@ Public Class _Default
         'colChkBox.Checked = False
         'flaChkBox.Checked = False
         deceasedChk.Checked = False
-        elecPomoChk.Checked = False
+        'elecPomoChk.Checked = False
         RecieveEallsChk.Checked = False
         deletedChk.Checked = False
         mailPomoChk.Checked = False
@@ -1239,7 +1247,7 @@ Public Class _Default
                 txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" &
                 Capitolize(txtCity.Text) & "','" & UCase(txtState.Text) & "','" & txtZip.Text & "','" & UCase(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & ReceiveEalls() & "','" &
+                GetChapters() & "','" & GetDeceased() & "','" & "','" & GetMailPomo() & "','" & ReceiveEalls() & "','" &
                 ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" &
                 GetDeleted() & "','" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
 
@@ -1272,7 +1280,7 @@ Public Class _Default
                 txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" & Capitolize(txtCity.Text) & "','" &
                 UCase(txtState.Text) & "','" & txtZip.Text & "','" & Capitolize(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
+                GetChapters() & "','" & GetDead() & "','" & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
                 txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWUser & "'"
 
             'txtSql.Text = sql
@@ -1556,18 +1564,18 @@ Public Class _Default
         End Try
     End Function
 
-    Protected Function GetElectronic() As Int16
+    'Protected Function GetElectronic() As Int16
 
-        Try
-            If elecPomoChk.Checked Then
-                Return 1
-            Else
-                Return 0
-            End If
-        Catch
-            Return 0
-        End Try
-    End Function
+    '    Try
+    '        If elecPomoChk.Checked Then
+    '            Return 1
+    '        Else
+    '            Return 0
+    '        End If
+    '    Catch
+    '        Return 0
+    '    End Try
+    'End Function
 
     Protected Function GetMailPomo() As Int16
 
