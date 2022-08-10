@@ -761,31 +761,31 @@ Partial Public Class _Default
     Protected WithEvents txtComments As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
-    '''CheckBox1 control.
+    '''chkCalifornia control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CheckBox1 As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents chkCalifornia As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''CheckBox2 control.
+    '''chkColorado control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CheckBox2 As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents chkColorado As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''CheckBox3 control.
+    '''chkFlorida control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents CheckBox3 As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents chkFlorida As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
     '''deceasedChk control.

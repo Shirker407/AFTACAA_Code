@@ -12,4 +12,5 @@
     Protected Sub Timer1_Tick(sender As Object, e As EventArgs)
         Ping()
     End Sub
+
 End Class

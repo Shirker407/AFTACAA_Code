@@ -368,16 +368,15 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 22 July<br />
-                        11:30 - 14:00 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 19 August<br />
+                        15:00 - 16:30 Hrs<br />
                         --------------------------<br />
-                        AFTAC Alumni Association Monthly General Membership Off-Site Luncheon and Teleconference Meeting<br />
-                        <span class="redText italic" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:.8em;">Note:  Please arrive at 1100 to order food, prior to start of meeting.<br /></span>
+                        AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
-                        Beef O'Brady's<br />
-                        3030 Lake Washington Rd., Melbourne, FL<br />
-                        --------------------------<br />
-                        1230 - 1400 - 2022 AFTAC WWR Hot Wash<br /> 
+                        AFTAC Headquarters,<br />
+                        Patrick Space Force Base, FL<br />
+                        Flag Room<br /> 
+                        Lobby Conference Room<br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Phil Godfrey, AFTACAA President, at <a href="MailTo:afsophil@gmail.com">afsophil@gmail.com</a>
@@ -652,18 +651,9 @@
                         <p id="chaptersPara" class="centerText pTitle">Chapters</p>
 
                         <div class="autoMarginLeftRight centerDiv topMarginMinus1em">
-                            <asp:CheckBox ID="CheckBox1" CssClass="floatLeft" Text="CheckBox1" runat="server" />                           <img id="calChk" class="inlineBlock myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
-                            <asp:CheckBox ID="CheckBox2" CssClass="floatLeft" Text="CheckBox2" runat="server" />
-                            <asp:CheckBox ID="CheckBox3" CssClass="floatLeft" Text="CheckBox3" runat="server" />
-                            <div class="clear"></div>
-                            <%--                            <img id="calChk" class="inlineBlock myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
-                                                          <img id="calChk" class="inlineBlock myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
-                            <asp:Label ID="lblCal" Font-Size="1.5em" Font-Bold="true" CssClass="inlineBlock topMarginHalfem myGut" runat="server" Text="California"></asp:Label>
-                            <img id="colChk" class="inlineBlock leftMargin2em myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
-                            <asp:Label ID="lblCol" Font-Size="1.5em" Font-Bold="true" CssClass="inlineBlock topMarginHalfem myGut" runat="server" Text="Colorado"></asp:Label>
-                            <img id="flaChk" class="inlineBlock leftMargin2em myChk" style="width:30px; height:30px;" src="_Images/nocheck.jpg" />
-                            <asp:Label ID="lblFla" Font-Size="1.5em" Font-Bold="true" CssClass="inlineBlock topMarginHalfem myGut" runat="server" Text="Florida"></asp:Label>
-                            <div class="clear"></div>--%>
+                            <asp:CheckBox ID="chkCalifornia" Font-Bold="true" Font-Size="1.5em" Text="California" runat="server" />
+                            <asp:CheckBox ID="chkColorado" Font-Bold="true" Font-Size="1.5em" CssClass="leftMargin2em" Text="Colorado" runat="server" />
+                            <asp:CheckBox ID="chkFlorida" Font-Bold="true" Font-Size="1.5em" CssClass="leftMargin2em" Text="Florida" runat="server" />
                         </div>
                     </div>
 

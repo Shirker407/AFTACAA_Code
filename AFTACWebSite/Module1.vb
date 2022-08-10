@@ -94,7 +94,6 @@ Module Module1
         Dim cn As New SqlConnection With {.ConnectionString = cs}
         Dim x As Integer
 
-        'cn.ConnectionString = cs
         cn.Open()
         cmd.Connection = cn
         cmd.CommandType = CommandType.Text

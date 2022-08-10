@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class _Default1
-    
+
     '''<summary>
     '''form1 control.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class _Default1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-    
+
     '''<summary>
     '''ScriptManager1 control.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class _Default1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
-    
+
     '''<summary>
     '''Label1 control.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class _Default1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Label2 control.
     '''</summary>
@@ -48,7 +48,7 @@ Partial Public Class _Default1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Label20 control.
     '''</summary>
@@ -57,7 +57,7 @@ Partial Public Class _Default1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Label20 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Button1 control.
     '''</summary>
@@ -66,7 +66,7 @@ Partial Public Class _Default1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''Button2 control.
     '''</summary>
@@ -75,7 +75,7 @@ Partial Public Class _Default1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''UpdatePanel1 control.
     '''</summary>
@@ -84,7 +84,7 @@ Partial Public Class _Default1
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
-    
+
     '''<summary>
     '''Timer1 control.
     '''</summary>

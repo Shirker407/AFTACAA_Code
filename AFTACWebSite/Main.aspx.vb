@@ -17,22 +17,11 @@ Public Class _Default
         Dim sb As New StringBuilder
         Dim ws As New myService
 
-        If Not IsPostBack Then
+        If Not IsPostBack() Then
 
             hfSearchStatus.Value = ""
 
-            Session("lstObit") = -1
-
             action = "Default"
-            'If Session("Action") = "Menu" Then
-            '    action = "Menu"
-            '    Session("Action") = ""
-            'Else
-            '    action = ""
-            'End If
-
-            lstNamesData = New DataSet
-
 
         End If
     End Sub
@@ -41,13 +30,12 @@ Public Class _Default
         Dim sb As New StringBuilder
         Dim sql As String = ""
         Dim ds As New DataSet
+
         Select Case action
             Case "Default"
                 OpenArticle("defaultArt")
                 ScrollTo("defaultArt")
             Case "btnDeceased_Click"
-                sb = New StringBuilder
-
                 If btnDeceased.Text = "Hide Deceased" Then
                     btnDeceased.Text = "Show Deceased"
                     lblListTitle.Text = getAction() & " Database<br/>Deceased Hidden"
@@ -1081,29 +1069,29 @@ Public Class _Default
         ddlCommand.Text = ds.Tables(0).Rows(0).Item("Command")
         txtcmdDates.Text = ds.Tables(0).Rows(0).Item("cmdServiceDates")
 
-        'If ds.Tables(0).Rows(0).Item("Chapters") = "1" Then
-        '    calChkBox.Checked = True
-        'Else
-        '    calChkBox.Checked = False
-        'End If
+        If ds.Tables(0).Rows(0).Item("Chapters") Like "1*" Then
+            chkCalifornia.Checked = True
+        Else
+            chkCalifornia.Checked = False
+        End If
 
-        'If ds.Tables(0).Rows(0).Item("Chapters") = "2" Then
-        '    colChkBox.Checked = True
-        'Else
-        '    colChkBox.Checked = False
-        'End If
+        If ds.Tables(0).Rows(0).Item("Chapters") Like "*2*" Then
+            chkColorado.Checked = True
+        Else
+            chkColorado.Checked = False
+        End If
 
-        'If ds.Tables(0).Rows(0).Item("Chapters") = "3" Then
-        '    flaChkBox.Checked = True
-        'Else
-        '    flaChkBox.Checked = False
-        'End If
+        If ds.Tables(0).Rows(0).Item("Chapters") Like "*3" Then
+            chkFlorida.Checked = True
+        Else
+            chkFlorida.Checked = False
+        End If
 
-        'If ds.Tables(0).Rows(0).Item("On_Line") = "1" Then
-        '    RecieveEallsChk.Checked = True
-        'Else
-        '    RecieveEallsChk.Checked = False
-        'End If
+        If ds.Tables(0).Rows(0).Item("On_Line") = "1" Then
+            RecieveEallsChk.Checked = True
+        Else
+            RecieveEallsChk.Checked = False
+        End If
 
         If ds.Tables(0).Rows(0).Item("On_Line") = "1" Then
             RecieveEallsChk.Checked = True
@@ -1411,7 +1399,7 @@ Public Class _Default
 
 
         txtSearch.Text = ""
-        btnSearch.Text = "Search"
+        'btnSearch.Text = "Search"
 
         GetList()
 
@@ -1533,25 +1521,25 @@ Public Class _Default
     Protected Function GetChapters() As String
         Dim buffer As String = ""
 
-        'If calChkBox.Checked Then
-        '    buffer = "1"
-        'End If
+        If chkCalifornia.Checked Then
+            buffer = "1"
+        End If
 
-        'If colChkBox.Checked Then
-        '    If Len(buffer) = 0 Then
-        '        buffer = "2"
-        '    Else
-        '        buffer = buffer & "2"
-        '    End If
-        'End If
+        If chkColorado.Checked Then
+            If Len(buffer) = 0 Then
+                buffer = "2"
+            Else
+                buffer = buffer & "2"
+            End If
+        End If
 
-        'If flaChkBox.Checked Then
-        '    If Len(buffer) = 0 Then
-        '        buffer = "3"
-        '    Else
-        '        buffer = buffer & "3"
-        '    End If
-        'End If
+        If chkFlorida.Checked Then
+            If Len(buffer) = 0 Then
+                buffer = "3"
+            Else
+                buffer = buffer & "3"
+            End If
+        End If
 
         Return buffer
     End Function
@@ -1841,9 +1829,9 @@ Public Class _Default
         End If
 
 
-        Get_Dataset(sql, ds, "Mems")
+        Get_Dataset(sql, ds)
 
-        If ds.Tables("Mems").Rows.Count > 0 Then
+        If ds.Tables(0).Rows.Count > 0 Then
             For Each r In ds.Tables(0).Rows
                 ds.Tables(0).Rows(x).Item("Name") = Capitolize(r.Item("Name"))
                 x += 1
@@ -1856,7 +1844,7 @@ Public Class _Default
 
         ds.AcceptChanges()
 
-        lstMembers.DataSource = ds.Tables("Mems")
+        lstMembers.DataSource = ds.Tables(0)
 
         lstMembers.DataTextField = "Name"
         lstMembers.DataValueField = "id"
