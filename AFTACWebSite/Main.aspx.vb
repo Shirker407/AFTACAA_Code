@@ -1246,11 +1246,11 @@ Public Class _Default
                 UCase(txtInitial.Text) & "','" & txtJoined.Text & "','" & Capitolize(txtSuffix.Text) & "','" & Capitolize(txtSpouse.Text) & "','" &
                 txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" &
                 Capitolize(txtCity.Text) & "','" & UCase(txtState.Text) & "','" & txtZip.Text & "','" & UCase(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
-                UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "','" & GetDeceased() & "','" & "','" & GetMailPomo() & "','" & ReceiveEalls() & "','" &
-                ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" &
-                GetDeleted() & "','" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
-
+                UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "'," &
+                GetChapters() & "," & GetDeceased() & "," & GetMailPomo() & "," & ReceiveEalls() & ",'" &
+                ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & "," &
+                GetDeleted() & ",'" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
+            'txtsql.Text = (GetMailPomo())
             Try
                 Run_Sql(sql)
 
@@ -1280,10 +1280,10 @@ Public Class _Default
                 txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" & Capitolize(txtCity.Text) & "','" &
                 UCase(txtState.Text) & "','" & txtZip.Text & "','" & Capitolize(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "','" & GetDead() & "','" & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
+                GetChapters() & "," & GetDead() & "," & "','" & GetMailPomo() & "," & Capitolize(ddlCommand.Text) & "','" &
                 txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWUser & "'"
 
-            'txtSql.Text = sql
+            txtSql.Text = sql
 
             Try
                 Run_Sql(sql)
@@ -1552,7 +1552,7 @@ Public Class _Default
         Return buffer
     End Function
 
-    Protected Function ReceiveEalls() As Int16
+    Protected Function ReceiveEalls() As Short
         Try
             If RecieveEallsChk.Checked Then
                 Return 1
@@ -1577,7 +1577,7 @@ Public Class _Default
     '    End Try
     'End Function
 
-    Protected Function GetMailPomo() As Int16
+    Protected Function GetMailPomo() As Short
 
         Try
             If mailPomoChk.Checked Then
@@ -1590,7 +1590,7 @@ Public Class _Default
         End Try
     End Function
 
-    Protected Function GetDead() As Int16
+    Protected Function GetDead() As Short
 
         Try
             If deceasedChk.Checked Then
@@ -1603,7 +1603,7 @@ Public Class _Default
         End Try
     End Function
 
-    Protected Function GetFailed() As Int16
+    Protected Function GetFailed() As Short
 
         Try
             If badEmailChk.Checked Then
@@ -1616,7 +1616,7 @@ Public Class _Default
         End Try
     End Function
 
-    Protected Function GetDeleted() As Int16
+    Protected Function GetDeleted() As Short
 
         Try
             If deletedChk.Checked Then
