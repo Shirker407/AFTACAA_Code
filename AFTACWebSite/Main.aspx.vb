@@ -1242,9 +1242,9 @@ Public Class _Default
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
                 GetChapters() & "'," & GetDead() & "," & GetMailPomo() & "," & ReceiveEalls() & ",'" &
                 ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & "," &
-                GetDeleted() & ",'" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
+                GetDeleted() & ",'" & Session("myName") & "','" & Apos(txtReason.Text) & "'"
 
-            txtSql.Text = sql
+            'txtSql.Text = sql
 
             Try
                 Run_Sql(sql)
@@ -1275,11 +1275,11 @@ Public Class _Default
                 txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" & Capitolize(txtCity.Text) & "','" &
                 UCase(txtState.Text) & "','" & txtZip.Text & "','" & Capitolize(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "'," & GetDead() & "," & GetMailPomo() & ",'" & Capitolize(ddlCommand.Text) & "','" &
-                txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & ",'" & Session("UserName") & "'"
+                GetChapters() & "','" & GetDead() & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
+                txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & Session("myName") & "'"
 
-            MsgBox(Session("UserName"))
-            txtSql.Text = sql
+            MsgBox(Session("myName"))
+            'txtSql.Text = sql
 
             Try
                 Run_Sql(sql)

@@ -736,7 +736,7 @@
                         <div>
                             <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
                             <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
-                            <asp:TextBox ID="txtSql" Width="90%" runat="server" TextMode="MultiLine"></asp:TextBox>
+<%--                            <asp:TextBox ID="txtSql" Width="90%" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
                         </div>
                         <asp:Button ID="btnReturnAdminMenu" CssClass="myBut topMarginHalfem" runat="server" Text="Return to Admin Menu" onclick="btnReturnAdminMenu_Click" />
                     </asp:Panel>
