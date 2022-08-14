@@ -797,15 +797,6 @@ Partial Public Class _Default
     Protected WithEvents deceasedChk As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''elecPomoChk control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents elecPomoChk As Global.System.Web.UI.WebControls.CheckBox
-
-    '''<summary>
     '''RecieveEallsChk control.
     '''</summary>
     '''<remarks>
@@ -860,6 +851,15 @@ Partial Public Class _Default
     Protected WithEvents lblMemErr As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''pnlReason control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents pnlReason As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
     '''txtReason control.
     '''</summary>
     '''<remarks>
@@ -894,6 +894,15 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnAdd As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''txtSql control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtSql As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''btnReturnAdminMenu control.
