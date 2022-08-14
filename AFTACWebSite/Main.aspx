@@ -703,7 +703,7 @@
                         <p id="otherStuffPara" class="centerText pTitle">Other Stuff</p>
                         <div class="autoMarginLeftRight topMarginMinus1em width90">
                             <asp:CheckBox ID="deceasedChk" CssClass="floatLeft myChk" Font-Size="1.5em" Font-Bold="true" Text="Deceased" Style="color:maroon;" runat="server" />
-                            <asp:CheckBox ID="elecPomoChk" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Elec. Pomo" Style="color:maroon;" runat="server" />
+<%--                            <asp:CheckBox ID="elecPomoChk" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Elec. Pomo" Style="color:maroon;" runat="server" />--%>
                             <asp:CheckBox ID="RecieveEallsChk" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Ealls" Style="color:maroon;" runat="server" />
                             <div class="clear"></div>
                         </div>
@@ -725,17 +725,18 @@
                 </asp:Panel>
 
                 <div id="MemButs" class="autoMarginLeftRight menuItem menu1 width80 topMargin1em">
-                    <div class="centerDiv">
+                    <asp:Panel ID="pnlReason" CssClass="centerDiv" Visible="true" runat="server">
                         <asp:Label CssClass="autoMarginLeftRight block" ForeColor="Maroon" Font-Bold="true" 
                             Font-Size="1.5em" runat="server" Text="Reason for Change:"></asp:Label>
                         <asp:TextBox ID="txtReason" CssClass="autoMarginLeftRight block padding5" Width="60%" Font-Size="1em" ForeColor="Maroon" 
                             Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
-                    </div>
+                    </asp:Panel>
 
                     <asp:Panel ID="pnlButs" CssClass="autoMarginLeftRight topMargin2em menuItem menu1 centerDiv" runat="server">
                         <div>
                             <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
                             <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
+<%--                            <asp:TextBox ID="txtSql" Width="90%" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
                         </div>
                         <asp:Button ID="btnReturnAdminMenu" CssClass="myBut topMarginHalfem" runat="server" Text="Return to Admin Menu" onclick="btnReturnAdminMenu_Click" />
                     </asp:Panel>

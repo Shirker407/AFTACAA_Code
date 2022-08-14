@@ -1099,7 +1099,15 @@ Public Class _Default
             RecieveEallsChk.Checked = False
         End If
 
-        If ds.Tables(0).Rows(0).Item("MailPomo") = "1" Then
+        Dim mp As Short
+
+        Try
+            mp = ds.Tables(0).Rows(0).Item("MailPomo")
+        Catch ex As Exception
+            mp = 0
+        End Try
+
+        If mp = 1 Then
             mailPomoChk.Checked = True
         Else
             mailPomoChk.Checked = False
@@ -1117,12 +1125,6 @@ Public Class _Default
             deletedChk.Checked = False
         End If
 
-        If ds.Tables(0).Rows(0).Item("Electronic") = "1" Then
-            elecPomoChk.Checked = True
-        Else
-            elecPomoChk.Checked = False
-        End If
-
         chaps = ds.Tables(0).Rows(0).Item("Chapters") & ""
 
         lblModDate.Text = "Date Last Modified " & ds.Tables(0).Rows(0).Item("LastModified")
@@ -1132,7 +1134,7 @@ Public Class _Default
         Get_Dataset(sql, ds, "Command")
 
         txtFirst.Focus()
-
+        pnlReason.Visible = True
     End Sub
 
     Private Sub ClearBoxes()
@@ -1166,7 +1168,6 @@ Public Class _Default
         'colChkBox.Checked = False
         'flaChkBox.Checked = False
         deceasedChk.Checked = False
-        elecPomoChk.Checked = False
         RecieveEallsChk.Checked = False
         deletedChk.Checked = False
         mailPomoChk.Checked = False
@@ -1239,9 +1240,11 @@ Public Class _Default
                 txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" &
                 Capitolize(txtCity.Text) & "','" & UCase(txtState.Text) & "','" & txtZip.Text & "','" & UCase(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & ReceiveEalls() & "','" &
-                ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" &
-                GetDeleted() & "','" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
+                GetChapters() & "'," & GetDead() & "," & GetMailPomo() & "," & ReceiveEalls() & ",'" &
+                ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & "," &
+                GetDeleted() & ",'" & Session("myName") & "','" & Apos(txtReason.Text) & "'"
+
+            'txtSql.Text = sql
 
             Try
                 Run_Sql(sql)
@@ -1272,9 +1275,10 @@ Public Class _Default
                 txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" & Capitolize(txtCity.Text) & "','" &
                 UCase(txtState.Text) & "','" & txtZip.Text & "','" & Capitolize(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "','" & GetDead() & "','" & GetElectronic() & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
-                txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWUser & "'"
+                GetChapters() & "','" & GetDead() & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
+                txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & Session("myName") & "'"
 
+            MsgBox(Session("myName"))
             'txtSql.Text = sql
 
             Try
@@ -1340,11 +1344,13 @@ Public Class _Default
             Session("SelectedValue") = lstMembers.SelectedValue
             lstMembers.Enabled = False
             ClearBoxes()
+            pnlReason.Visible = False
         Else
             btnMemSave.Text = " Save Changes "
             btnAdd.Text = " Add New "
             lstMembers.Enabled = True
             _id = Session("SelectedValue")
+            pnlReason.Visible = True
         End If
 
         GetList()
@@ -1544,7 +1550,7 @@ Public Class _Default
         Return buffer
     End Function
 
-    Protected Function ReceiveEalls() As Int16
+    Protected Function ReceiveEalls() As Short
         Try
             If RecieveEallsChk.Checked Then
                 Return 1
@@ -1556,21 +1562,7 @@ Public Class _Default
         End Try
     End Function
 
-    Protected Function GetElectronic() As Int16
-
-        Try
-            If elecPomoChk.Checked Then
-                Return 1
-            Else
-                Return 0
-            End If
-        Catch
-            Return 0
-        End Try
-    End Function
-
-    Protected Function GetMailPomo() As Int16
-
+    Protected Function GetMailPomo() As Short
         Try
             If mailPomoChk.Checked Then
                 Return 1
@@ -1582,8 +1574,7 @@ Public Class _Default
         End Try
     End Function
 
-    Protected Function GetDead() As Int16
-
+    Protected Function GetDead() As Short
         Try
             If deceasedChk.Checked Then
                 Return 1
@@ -1595,8 +1586,7 @@ Public Class _Default
         End Try
     End Function
 
-    Protected Function GetFailed() As Int16
-
+    Protected Function GetFailed() As Short
         Try
             If badEmailChk.Checked Then
                 Return 1
@@ -1608,8 +1598,7 @@ Public Class _Default
         End Try
     End Function
 
-    Protected Function GetDeleted() As Int16
-
+    Protected Function GetDeleted() As Short
         Try
             If deletedChk.Checked Then
                 Return 1
