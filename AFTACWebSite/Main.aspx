@@ -703,7 +703,6 @@
                         <p id="otherStuffPara" class="centerText pTitle">Other Stuff</p>
                         <div class="autoMarginLeftRight topMarginMinus1em width90">
                             <asp:CheckBox ID="deceasedChk" CssClass="floatLeft myChk" Font-Size="1.5em" Font-Bold="true" Text="Deceased" Style="color:maroon;" runat="server" />
-<%--                            <asp:CheckBox ID="elecPomoChk" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Elec. Pomo" Style="color:maroon;" runat="server" />--%>
                             <asp:CheckBox ID="RecieveEallsChk" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Ealls" Style="color:maroon;" runat="server" />
                             <div class="clear"></div>
                         </div>

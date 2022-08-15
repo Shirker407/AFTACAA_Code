@@ -144,7 +144,6 @@ Public Class _Default
                 myName = myDS.Tables("Name").Rows(0).Item("Name")
 
                 sql = "Insert into AdminLogins (Name, LoginDate) values ('" & myName & "','" & Date.Now() & "')"
-                MsgBox(sql)
                 Run_Sql(sql)
 
                 OpenAdminMenu()
