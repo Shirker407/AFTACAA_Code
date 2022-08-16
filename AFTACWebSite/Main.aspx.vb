@@ -90,6 +90,7 @@ Public Class _Default
                 Dim myDS As New DataSet
                 Dim myID As Int32
                 Dim myName As String
+                Dim dDate As DateTime = Date.Now
 
                 sb = New StringBuilder
 
@@ -102,7 +103,7 @@ Public Class _Default
                     Exit Sub
                 End If
 
-                sql = "SELECT ID, Password, Admin from Passwords Where UserName = '" & txtPWUserName.Text & "'"
+                sql = "SELECT P.ID, Last + ', ' + First as Name, Password, Admin from Passwords P Join Aftac A on p.ID = A.ID Where UserName = '" & txtPWUserName.Text & "'"
                 Get_Dataset(sql, myDS)
 
                 If myDS.Tables(0).Rows.Count = 0 Then
@@ -135,14 +136,14 @@ Public Class _Default
                 admin = myDS.Tables(0).Rows(0).Item("admin")
                 myID = myDS.Tables(0).Rows(0).Item("ID")
 
-                Session("myName") = txtPWUserName.Text
+                Session("myName") = myDS.Tables(0).Rows(0).Item("Name")
                 Session("AdminLevel") = admin
 
                 sql = "Select Last + ', ' + First as Name from AFTAC Where ID = " & myID
                 Get_Dataset(sql, myDS, "Name")
                 myName = myDS.Tables("Name").Rows(0).Item("Name")
 
-                sql = "Insert into AdminLogins (Name, LoginDate) values ('" & myName & " ', getdate())"
+                sql = "Insert into AdminLogins (Name, LoginDate) values ('" & myName & "','" & Date.Now() & "')"
                 Run_Sql(sql)
 
                 OpenAdminMenu()
