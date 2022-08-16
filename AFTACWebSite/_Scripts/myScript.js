@@ -76,10 +76,6 @@ $(document).ready(function () {
         window.open("https://www.youtube.com/embed/u_Qoo6qoY_I", "")
     });
 
-    $('#mySpaceA').click(function () {
-        window.open("https://www.amc.af.mil/AMC-Travel-Site/AMC-Space-Available-Travel-Page/", "")
-    });
-
     $('#WCCPicAttendees').click(function () {
         window.open("http://www.aftacwcc.org/Forms/20210918_PicnicAttendees.pdf", "")
     });
@@ -106,15 +102,6 @@ $(document).ready(function () {
         $('#Page2').removeClass('noDisplay').addClass('block');
         $('#btnPage1').addClass('myPageOriginal').removeClass('myPageSelected');
         $('#btnPage2').addClass('myPageSelected').removeClass('myPageOriginal');
-    });
-
-    $('#AOY2021').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#alumniArt').removeClass('noDisplay').addClass('block');
-        $('#AOYList').removeClass('block').addClass('noDisplay');
-        $('#AOYCarousel').removeClass('block').addClass('noDisplay');
-        $('#seiler').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({ scrollTop: $("#lblAOY").offset().top }, 500);
     });
 
     $('#my9s').click(function () {
@@ -1446,18 +1433,6 @@ $(document).ready(function () {
         $('#honorArt').removeClass('block').addClass('noDisplay');
     });
 
-    $('#myCmd').click(function () {
-        $('#myArts').removeClass('block').addClass('noDisplay');
-        $('#newsToKnowArt').removeClass('noDisplay').addClass('block');
-        $('#defaultArt').removeClass('block').addClass('noDisplay');
-        $('.news2KnowH1').removeClass('block').addClass('noDisplay');
-        $('.ntkButs').removeClass('block').addClass('noDisplay');
-        $('#secFinlayson #ntkFinlaysonPara').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#newsTitle").offset().top
-        }, 500);
-    });
-
     $('#btnMore').click(function () {
         window.open('https://www.offutt.af.mil/News/Article/3090736/team-offutt-welcomes-first-wc-135r-to-its-fleet/fbclid/team-offutt-welcomes-first-wc-135r-to-its-fleet/', '');
     });
@@ -1488,42 +1463,6 @@ $(document).ready(function () {
 
     $('#myWhitney').click(function () {
         OpenObit('Whitney');
-    });
-
-    $('#myLarson').click(function () {
-        OpenObit('Larson');
-    });
-
-    $('#myDunn').click(function () {
-        OpenObit('Dunn');
-    });
-
-    $('#mySteskal').click(function () {
-        OpenObit('Steskal');
-    });
-
-    $('#myCiambrone').click(function () {
-        OpenObit('Ciambrone');
-    });
-
-    $('#myWiley').click(function () {
-        OpenObit('Wiley');
-    });
-
-    $('#myRobbirds').click(function () {
-        OpenObit('Robbirds');
-    });
-
-    $('#mySmith').click(function () {
-        OpenObit('Smith');
-    });
-
-    $('#myMarcus').click(function () {
-        OpenObit('Marcus');
-    });
-
-    $('#myCwikla').click(function () {
-        OpenObit('Cwikla');
     });
 
     $('.obitH1').click(function () {
@@ -4284,14 +4223,6 @@ $(document).ready(function () {
                 scrollTop: $("#pomoArt").offset().top
             }, 500);
         };
-    });
-
-    $('#myWOH').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#honorArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#pWOH_Honorees").offset().top
-        }, 500);
     });
 
     $('#liHonor,#wohInductees').click(function () {

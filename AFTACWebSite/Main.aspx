@@ -303,72 +303,7 @@
                                     <td class="posted redText">7/12/2022</td>
                                     <td class="event redText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myLarson" class="announcement blueText">Karla Larson's Obituary was Posted.</td>
-                                    <td class="posted blueText">6/25/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDunn" class="announcement blueText">David Dunn's Obituary was Posted.</td>
-                                    <td class="posted blueText">6/23/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySteskal" class="announcement blueText">Mike Steskal's Obituary was Updated.</td>
-                                    <td class="posted blueText">6/23/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCmd" class="announcement blueText">AFTAC Change of Command</td>
-                                    <td class="posted blueText">6/7/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWOH" class="announcement blueText">Added 2022 WOH Recipients</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCiambrone" class="announcement blueText">Terry Ciambrone's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWiley" class="announcement blueText">Judith Wiley's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myRobbirds" class="announcement blueText">James Robbird's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySmith" class="announcement blueText">Sam Smith's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMarcus" class="announcement blueText">Donald Marcus' Obituary was posted.</td>
-                                    <td class="posted blueText">5/9/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpaceA" class="announcement blueText">Space Available Air Travel is back.</td>
-                                    <td class="posted blueText">4/25/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCwikla" class="announcement blueText">Jim Cwikla's Obituary was posted.</td>
-                                    <td class="posted blueText">4/25/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="AOY2021" class="announcement blueText">Lou Seiler Latest Alumni of Year</td>
-                                    <td class="posted blueText">4/23/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                          </table>
+                        </table>
                         </div>
                     </div>
                 </div>
@@ -12916,7 +12851,7 @@
             <div class="clear"></div>
             <hr class="myHR" />
             <p class="centerText" style="font-size:1.5em;">
-                Click on the link below to get an application to join the<br /> <asp:HyperLink ID="HyperLink6" ForeColor="DarkRed" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida Membership Application.pdf" Target="_blank" runat="server"> Florida Association Membership Application. </asp:HyperLink>
+                Click <asp:HyperLink ID="HyperLink6" ForeColor="Red" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida Membership Application.pdf" Target="_blank" runat="server"> here </asp:HyperLink> to get an printable application<br />to join the Florida Chapter.<br /> 
             </p>
         </article>
     </div>
