@@ -274,16 +274,19 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPoMo" class="announcement blueText">August Post Monitor now available for viewing. Printed copies will be mailed</td>
+                                    <td id="myPomo" class="announcement blueText">August Post Monitor now available for viewing. Printed copies will be mailed</td>
                                     <td class="posted greenText">8/18/2022</td>
+                                    <td class="event greenText"></td>
                                 </tr>
                                   <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAgenda" class="announcement blueText">August Agenda has been posted</td>
                                     <td class="posted greenText">8/18/2022</td>
+                                    <td class="event greenText"></td>
                                 </tr>
                               <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">July meeting Minutes have been posted</td>
                                     <td class="posted greenText">8/18/2022</td>
+                                    <td class="event greenText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myJubilee" class="announcement greenText">The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.</td>
@@ -11763,17 +11766,17 @@
 
                 <div id="pomo2" class="noDisplay">
                     <p class="centerText">Click on the Pomo of your choice.</p>
-                    <div id="aprilPomo" class="floatLeft leftMargin8em width25">
+                    <div id="augustPomo" class="floatLeft leftMargin8em width25">
+                        <img alt="August2022.png" class="myPomo blackBorder showShadow" src="_Images/August2022.png" style="height:15em;" />
+                        <p class="centerText">August 2022</p>
+                    </div>
+                    <div id="aprilPomo" class="floatLeft width25">
                         <img alt="April2022.png" class="myPomo blackBorder showShadow" src="_Images/April2022.png" style="height:15em;" />
                         <p class="centerText">April 2022</p>
                     </div>
                     <div id="decemberPomo" class="floatLeft width25">
                         <img alt="December2021.png" class="myPomo blackBorder showShadow" src="_Images/December2021.png" style="height:15em;" />
                         <p class="centerText">December 2021</p>
-                    </div>
-                    <div id="augustPomo" class="floatLeft width25">
-                        <img alt="August2021.png" class="myPomo blackBorder showShadow" src="_Images/August2021.png" style="height:15em;" />
-                        <p class="centerText">August 2021</p>
                     </div>
                 </div>
 
@@ -11823,7 +11826,8 @@
                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2021</p>
                     <ul class="archList">
-                        <li><a class="maroonText" href="_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
+                        <li><a class="maroonText" href="http://aftacaa.us/_Pomos/PoMo2021_08.pdf" target="_blank">August</a></li>
+                        <li><a class="maroonText" href="http://aftacaa.us/_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
                     </ul>
                 </div>
 

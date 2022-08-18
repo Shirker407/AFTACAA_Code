@@ -2068,7 +2068,7 @@ $(document).ready(function () {
     });
 
     $('#myMinutes').click(function () {
-        window.open('_Minutes/11-8-2021_Minutes.pdf', '');
+        window.open('_Minutes/7-22-2022_Minutes.pdf', '');
     });
 
     $('#aprilPomo').click(function () {
@@ -2076,7 +2076,7 @@ $(document).ready(function () {
     });
 
     $('#augustPomo').click(function () {
-        window.open('http://aftacaa.us/_Pomos/PoMo2021_09.pdf', '');
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_08.pdf', '');
     });
 
     $('#decemberPomo').click(function () {
