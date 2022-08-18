@@ -274,6 +274,18 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myPoMo" class="announcement blueText">August Post Monitor now available for viewing. Printed copies will be mailed</td>
+                                    <td class="posted greenText">8/18/2022</td>
+                                </tr>
+                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myAgenda" class="announcement blueText">August Agenda has been posted</td>
+                                    <td class="posted greenText">8/18/2022</td>
+                                </tr>
+                              <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">July meeting Minutes have been posted</td>
+                                    <td class="posted greenText">8/18/2022</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myJubilee" class="announcement greenText">The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.</td>
                                     <td class="posted greenText">8/9/2022</td>
                                     <td class="event greenText">9/17/2022</td>
@@ -2865,6 +2877,7 @@
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                        <li><a href="_Minutes/7-22-2022_Minutes.pdf" target="_blank">7-22-2022</a></li>
                         <li><a href="_Minutes/6-24-2022_Minutes.pdf" target="_blank">6-24-2022</a></li>
                         <li><a href="_Minutes/5-12-2022_Minutes.pdf" target="_blank">5-12-2022</a></li>
                         <li><a href="_Minutes/4-15-2022_Minutes.pdf" target="_blank">4-15-2022</a></li>

@@ -1339,7 +1339,6 @@
     <Content Include="_PDFs\FallSocialSignupForm.pdf" />
     <Content Include="_PDFs\ColoradoDinnerAnnouncement.pdf" />
     <Content Include="_PDFs\VeteransDaySpecials.pdf" />
-    <Content Include="_PDFs\Agenda.pdf" />
     <Content Include="_PDFs\Minutes.pdf" />
     <Content Include="_PDFs\TaxInfo.pdf" />
     <Content Include="_Minutes\1-11-2016_Minutes.pdf" />
@@ -1549,6 +1548,9 @@
     <Content Include="_PDFs\FINLAYSON Bio.pdf" />
     <Content Include="_Minutes\6-24-2022_Minutes.pdf" />
     <Content Include="_PDFs\Commander_Note.pdf" />
+    <Content Include="_PDFs\Agenda.pdf" />
+    <Content Include="_Minutes\7-22-2022_Minutes.pdf" />
+    <Content Include="_Pomosxxx\PoMo2022_08.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
