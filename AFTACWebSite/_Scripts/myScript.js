@@ -2072,15 +2072,15 @@ $(document).ready(function () {
     });
 
     $('#aprilPomo').click(function () {
-        window.open('http://aftacaa.us/_Pomos/PoMo2022_04.pdf', '');
+        window.open('_Pomos/PoMo2022_04.pdf', '');
     });
 
     $('#augustPomo').click(function () {
-        window.open('http://aftacaa.us/_Pomos/PoMo2022_08.pdf', '');
+        window.open('_Pomos/PoMo2022_08.pdf', '');
     });
 
     $('#decemberPomo').click(function () {
-        window.open('https://aftacaa.us/_Pomos/PoMo2021_12.pdf', '');
+        window.open('_Pomos/PoMo2021_12.pdf', '');
     });
 
     //**********************************************************************

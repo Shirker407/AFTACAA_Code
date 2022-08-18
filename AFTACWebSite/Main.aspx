@@ -11826,8 +11826,8 @@
                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2021</p>
                     <ul class="archList">
-                        <li><a class="maroonText" href="http://aftacaa.us/_Pomos/PoMo2021_08.pdf" target="_blank">August</a></li>
-                        <li><a class="maroonText" href="http://aftacaa.us/_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
+                        <li><a class="maroonText" href="_Pomos/PoMo2021_08.pdf" target="_blank">August</a></li>
+                        <li><a class="maroonText" href="_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
                     </ul>
                 </div>
 
