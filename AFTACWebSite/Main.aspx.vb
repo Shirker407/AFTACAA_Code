@@ -1000,17 +1000,8 @@ Public Class _Default
 
         lblSearchErr.Visible = False
 
-        If btnFriendSearch.Text = "Search" Then
-            btnFriendSearch.Text = "Clear Search"
-            isSearch = True
-            'sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & txtSearchName.Text & "% ' Order By Last, First, Initial"
-            GetList()
-        Else
-            btnFriendSearch.Text = "Search"
-            isSearch = True
-            txtSearchName.Text = ""
-            GetList()
-        End If
+        isSearch = True
+        sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & RTrim(txtSearchName.Text) & "%' Order By Last, First, Initial"
 
         Get_Dataset(sql, ds)
 
@@ -1025,6 +1016,24 @@ Public Class _Default
 
     End Sub
 
+    Protected Sub btnFriendClear_Click(sender As Object, e As EventArgs)
+        Dim sql As String
+        Dim ds As New DataSet
+
+        txtSearchName.Text = ""
+        Sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac Order By Last, First, Initial"
+
+        Get_Dataset(Sql, ds)
+
+        lstMems.DataSource = ds.Tables(0)
+        lstMems.DataTextField = "Name"
+        lstMems.DataValueField = "id"
+        lstMems.DataBind()
+
+        OpenArticle("FriendsArt")
+
+        ScrollTo("FriendsArt")
+    End Sub
 
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
         action = "btnSearch_Click"
