@@ -221,6 +221,15 @@ Partial Public Class _Default
     Protected WithEvents btnFriendSearch As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''btnFriendClear control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnFriendClear As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''pnlMemDefault control.
     '''</summary>
     '''<remarks>

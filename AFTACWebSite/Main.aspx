@@ -404,14 +404,15 @@
             </div>
         </article>
 
-        <article id="FriendsArt" class="myArts noDisplay">
-            <aside class="floatLeft width25 topMargin2em leftMargin5em">
+        <article id="FriendsArt" class="myArts centerDiv noDisplay">
+            <aside class="floatLeft width25 centerDiv topMargin2em leftMargin5em">
                 <p class="centerText pTitle" style="font-size:1.5em;">Member's List</p>
                 <asp:ListBox ID="lstMems" style="margin-top:-.5em;padding:5px;" Width="95%" CssClass="maroonBorder smallShadow" BackColor="Moccasin" Font-Bold="true" ForeColor="#990000" Rows="15" runat="server" Font-Size="Larger" OnSelectedIndexChanged="lstMems_SelectedIndexChanged" AutoPostBack="True"></asp:ListBox>
                 <asp:TextBox ID="txtSearchName" Font-Size="1.5em" Width="70%" CssClass="topMargin1em padding5" BackColor="Maroon" ForeColor="Yellow" runat="server" ToolTip="Enter a whole name or the first few letters"></asp:TextBox>
                 <asp:Label ID="lblmemmess" runat="server" ForeColor="Maroon" BackColor="Transparent" Visible="false" Text=""></asp:Label>
                 <asp:Label ID="lblErrSearch" ForeColor="Red" CssClass="block" Visible="false" Font-Bold="true" Font-Italic="true" runat="server" Text="Name was not found"></asp:Label>
                 <asp:Button ID="btnFriendSearch" CssClass="myBut topMargin1em padding5" runat="server" Text="Search" OnClick="btnFriendSearch_Click" />   
+                <asp:Button ID="btnFriendClear" CssClass="myBut topMargin1em padding5" runat="server" Text="Clear Search" OnClick="btnFriendClear_Click" />   
             </aside>
 
             <section class="floatLeft width50 leftMargin2em">
