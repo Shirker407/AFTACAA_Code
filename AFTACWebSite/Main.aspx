@@ -274,6 +274,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="my79Years" class="announcement blueText">79 Years Ago</td>
+                                    <td class="posted greenText">8/18/2022</td>
+                                    <td class="event greenText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPomo" class="announcement blueText">August Post Monitor now available for viewing. Printed copies will be mailed</td>
                                     <td class="posted greenText">8/18/2022</td>
                                     <td class="event greenText"></td>

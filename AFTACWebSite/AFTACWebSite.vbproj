@@ -1552,6 +1552,7 @@
     <Content Include="_PDFs\Agenda.pdf" />
     <Content Include="_Minutes\7-22-2022_Minutes.pdf" />
     <Content Include="_Pomos\PoMo2022_08.pdf" />
+    <Content Include="_PDFs\79 years ago.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
