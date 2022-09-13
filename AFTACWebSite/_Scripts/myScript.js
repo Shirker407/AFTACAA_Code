@@ -4189,6 +4189,10 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#my79Years').click(function () {
+        window.open('_PDFs/79 Years Ago.pdf');
+    });
+
     $('#mySpy').click(function () {
         window.open('https://www.scmp.com/news/china/military/article/3154476/us-spy-planes-over-south-china-sea-likely-surveyed-nuclear', '');
     });
