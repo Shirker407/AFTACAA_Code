@@ -2886,6 +2886,7 @@
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                        <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>
                         <li><a href="_Minutes/7-22-2022_Minutes.pdf" target="_blank">7-22-2022</a></li>
                         <li><a href="_Minutes/6-24-2022_Minutes.pdf" target="_blank">6-24-2022</a></li>
                         <li><a href="_Minutes/5-12-2022_Minutes.pdf" target="_blank">5-12-2022</a></li>
