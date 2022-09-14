@@ -275,7 +275,7 @@
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWright" class="announcement blueText">CMS Jerome S. Wright Biography</td>
-                                    <td class="posted greenText">8/18/2022</td>
+                                    <td class="posted greenText">9/14/2022</td>
                                     <td class="event greenText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -12575,14 +12575,7 @@
 
         <article id="obituariesArt" class="myArts noDisplay">
             <section id="currentObits" class="obitSec aLeft centerDiv width80 padding5 autoMarginLeftRight topMargin1em block">
-
                 <asp:Label ID="Label10" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="Recent Obituaries"></asp:Label>
-<%--                <h1 class="maroonText centerText bold underLine">Recent Obituaries</h1>--%>
-
-<%--                <p class="pTitle centerText padding5 maroonBorder showShadow">Currently at this time there are no Recent Obituaries.<br>Look in Archived Obituaries.</p>--%>
- 
-
-
             </section>
 
             <section id="archivedObits" class="obitSec centerDiv width80 noDisplay padding5 autoMarginLeftRight smallShadow topMargin1em maroonBorder">
