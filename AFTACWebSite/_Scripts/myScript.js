@@ -4189,6 +4189,14 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myWright').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#WrightArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $('#WrightArt').offset().top
+        }, 500);
+    });
+
     $('#my79Years').click(function () {
         window.open('_PDFs/79 Years Ago.pdf');
     });

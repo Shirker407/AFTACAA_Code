@@ -274,6 +274,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWright" class="announcement blueText">CMS Jerome S. Wright Biography</td>
+                                    <td class="posted greenText">8/18/2022</td>
+                                    <td class="event greenText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="my79Years" class="announcement blueText">79 Years Ago</td>
                                     <td class="posted greenText">8/18/2022</td>
                                     <td class="event greenText"></td>
@@ -351,6 +356,131 @@
             </div>
 
             <div class="clear"></div>
+        </article>
+
+        <article id="WrightArt" class="myArts noDisplay">
+            <p class="pTitle centerText">CMS Jerome Wright Biography</p>
+
+            <p>
+                <img alt="CMS_Wright.png" class="width25 floatLeft maroonBorder showShadow rightMarginHalfem" src="_Photos/CMS_Wright.png" />
+                <span class="bold maroonText fontSize2em">Bio</span><br />
+                Chief Master Sergeant (CMSgt) Jerome S. Wright serves as the senior enlisted advisor of the cadet wing at the U.S. Air Force Academy, Colorado Springs, Colo. He is the principle enlisted advisor to the commandant on training, education, standards and personnel matters for 4,400 cadets and 236 total force permanent party members. Additionally, as the career field manager for the Academy Military Trainer (8B200) Developmental Special Duty, he is responsible for the training, development, utilization, and readiness of 107 academy military trainers. He also provides mentorship to cadets, four group commanders, 40 squadron commanders, and respective superintendents and staff. The wing’s mission includes training, developing, and inspiring leaders of character for the Air and Space Force.
+                <br /><br />
+                Chief Wright was born in Guantanamo Bay, Cuba and raised in Virginia Beach, Va. He entered the Air Force in July of 2000. His background includes various duties in missile and space systems electronic maintenance, electronic systems security assessment, operations intelligence, and geospatial intelligence targeting career fields. He has deployed in support of Operation ENDURING FREEDOM, Operation IRAQI FREEDOM, Combined Joint Task Force-Horn of Africa, and Operation UNIFIED PROTECTOR. Prior to assuming his current position, Chief Wright was the superintendent and chief enlisted manager of the 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla.
+                <br /><br />
+                Education
+                Chief Leadership Course, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2020)
+                <br /><br />
+                Senior Enlisted Joint Professional Military Education II, Joint Forces Staff College, by correspondence (2019)
+                <br /><br />
+                USAF Continuous Process Improvement Green Belt Course, Goodfellow Air Force Base, San Angelo, Texas (2017)
+                <br /><br />
+                USAF Master Resilience Trainer Course, Joint Base McGuire-Dix-Lakehurst, Burlington County, N.J. (2017)
+                <br /><br />
+                USAF Senior Noncommissioned Officer Academy, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2016)
+                <br /><br />
+                AETC Basic Instructor Course, Goodfellow Air Force Base, San Angelo, Texas (2015)
+                <br /><br />
+                Bachelor of Science, Human Resource Management and Organizational Development, University of Maryland, College Park, Md. (2015)
+                <br /><br />
+                Senior Enlisted ISR Master Skills Course, Goodfellow Air Force Base, San Angelo, Texas (2013)
+                <br /><br />
+                Senior Enlisted Joint Professional Military Education, Joint Forces Staff College, by correspondence (2013)
+                <br /><br />
+                Associates in Intelligence Studies and Technology, Community College of the Air Force, Montgomery, Ala. (2013)
+                <br /><br />
+                Associates in Electronic Systems Technology, Community College of the Air Force, Montgomery, Ala. (2013)
+                <br /><br />
+                Noncommissioned Officer Academy, Kapaun Air Station, Germany (2011)
+                <br /><br />
+                Joint Battle Damage Assessment Course, Joint Targeting School, Va. (2010)
+                <br /><br />
+                Collateral Damage Estimation Course, U.S. Army Garrison Heidelberg, Germany (2009)
+                <br /><br />
+                Dynamics of International Terrorism, USAF Special Operations School (2007)
+                <br /><br />
+                Information Warfare Application Course, Maxwell AFB, Ala. (2007)
+                <br /><br />
+                Intercontinental Ballistic Missile (ICBM) Maintenance Instructor Course, Francis E. Warren AFB, Wyo. (2005)
+                <br /><br />
+                Airman Leadership School, Francis E. Warren AFB, Wyo. (2005)
+                <br /><br />
+                <span class="bold maroonText fontSize2em">Professional Experience</span><br />
+                Senior Enlisted Advisor to the Commandant and Career Field Manager for Academy Military Trainers (8B200), Cadet Wing, U.S. Air Force Academy, Colorado Springs, Colo. (Jan. 2021-Present)
+                <br /><br />
+                Command Chief, Commandant of Cadets, U.S. Air Force Academy, Colorado Springs, Colo. (Nov. 2020-Jan. 2021)
+                <br /><br />
+                Superintendent, 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla. (July 2019-Nov. 2020)
+                <br /><br />
+                Operations Superintendent, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (July 2016–July 2019)
+                <br /><br />
+                Course Chief, Advanced Targeting Courses, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2015–July 2016)
+                <br /><br />
+                Superintendent, ISR Programs and Resources, HQ USAFE-AFAFRICA Intelligence Directorate, Ramstein Air Base, Germany; Acting Intelligence Inspector, HQ USAFE-AFAFRICA Inspector General, Ramstein Air Base, Germany (April 2015– Sept. 2015); (June 2013–October 2015)
+                <br /><br />
+                Section Chief, Targeting and Imagery Support, 603rd Air & Space Operations Center, Ramstein Air Base, Germany (Feb. 2012–June 2013)
+                <br /><br />
+                NCOIC, Tactical Assessment, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Dynamic Targeting Chief, NATO Combined Air Operations Center, Poggio Renatico, Italy (Aug. 2011–Nov. 2011); (Aug. 2009–Feb. 2012)
+                <br /><br />
+                NCOIC, Dynamic Targeting, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Shift NCOIC, Targeting Cell, Combined Air & Space Operations Center, Al Udeid Air Base, Qatar (June 2009–Dec. 2009); (June 2008–August 2009)
+                <br /><br />
+                Student, Operations Intelligence Course, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2007–June 2008)
+                <br /><br />
+                Electronic System Security Assessment Analyst, 68th Information Operations Squadron, Brooks-City Base, San Antonio, Texas (Oct. 2006–Oct. 2007)
+                <br /><br />
+                Instructor, ICBM Electro-Mechanical Team, 90th Maintenance Operations Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (May 2005–Oct. 2006)
+                <br /><br />
+                Team Chief, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (Jan. 2004–May 2005)
+                <br /><br />
+                Technician, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (April 2001–Jan. 2004)
+                <br /><br />
+                Student, Missile and Space System Electronic Maintenance Course, 532nd Training Squadron, Vandenberg Air Force Base, Lompoc, Cal. (Nov. 2000–March 2001)
+                <br /><br />
+                Student, Electronic Principles Course, 344th Training Squadron, Lackland Air Force Base, San Antonio, Texas (Aug. 2000–Nov. 2000)
+                <br /><br />
+                Trainee, Basic Military Training, 324th Training Squadron, Lackland Air Force Base, San Antonio, Texas (July 2000–Aug. 2000)
+                <br /><br />
+                <span class="bold maroonText fontSize2em">Honors & Awards</span><br />
+                Meritorious Service Medal with two oak leaf clusters
+                <br /><br />
+                Joint Service Commendation Medal
+                <br /><br />
+                Air Force Commendation Medal with one oak leaf cluster
+                <br /><br />
+                Air Force Achievement Medal with one oak leaf cluster
+                <br /><br />
+                Army Achievement Medal
+                <br /><br />
+                Air & Space Campaign Medal
+                <br /><br />
+                Nuclear Deterrence Operations Service Medal with ‘N’ device
+                <br /><br />
+                Air Force Expeditionary Service Ribbon with Gold Border
+                <br /><br />
+                Air Force Special Duty Ribbon
+                <br /><br />
+                NATO Medal
+                <br /><br />
+                <span class="bold maroonText fontSize2em">OTHER ACHIEVEMENTS</span><br />
+                Air Force Association Active Duty SNCO of the Year, State of Texas winner (2018)
+                <br /><br />
+                AETC Training Support SNCO of the Year, 17th Training Wing (2017)
+                <br /><br />
+                National Image Inc., Meritorious Service Award, 17th Training Wing (2017)
+                <br /><br />
+                Blacks in Government Meritorious Service Award, 17th Training Wing (2017)
+                <br /><br />
+                National Geospatial-Intelligence Agency Senior Enlisted of the Year Award, AETC (2016)
+                <br /><br />
+                SNCO of the Year, HQ USAFE-AFAFRICA (2014)
+                <br /><br />
+                AF ISR Awards Program SNCO of the Year, HQ USAFE-AFAFRICA Intelligence Directorate (2013)
+                <br /><br />
+                Distinguished Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
+                <br /><br />
+                AETC Commander’s Top Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
+                <br /><br />
+                Academic Achievement Award, Airman Leadership School, F.E. Warren Air Force Base, Wyo. (2005)            </p>
         </article>
 
         <article id="JubileeArt" class="myArts noDisplay">
