@@ -4181,6 +4181,14 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myWise').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#WiseArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#WiseArt").offset().top
+        }, 500);
+    });
+
     $('#myGolf').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#GolfArt').removeClass('noDisplay').addClass('block');
