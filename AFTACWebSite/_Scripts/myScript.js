@@ -1445,14 +1445,6 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#myJubilee').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#JubileeArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#JubileeArt").offset().top
-        }, 500);
-    });
-
     $('#myNote').click(function () {
         window.open('_pdfs/Commander_Note.pdf', '');
     });
@@ -4186,6 +4178,14 @@ $(document).ready(function () {
         $('#sectPomoArchived').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#pomoArt").offset().top
+        }, 500);
+    });
+
+    $('#myGolf').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#GolfArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#GolfArt").offset().top
         }, 500);
     });
 

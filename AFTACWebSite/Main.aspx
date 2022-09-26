@@ -274,34 +274,34 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myGolf" class="announcement greenText">Annual Fall Golf-n'Get-Together</td>
+                                    <td class="posted greenText">9/26/2022</td>
+                                    <td class="event greenText">10/14/2022</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="my79Years" class="announcement blueText">79 Years Ago</td>
-                                    <td class="posted greenText">8/18/2022</td>
-                                    <td class="event greenText"></td>
+                                    <td class="posted blueText">8/18/2022</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPomo" class="announcement blueText">August Post Monitor now available for viewing. Printed copies will be mailed</td>
-                                    <td class="posted greenText">8/18/2022</td>
-                                    <td class="event greenText"></td>
+                                    <td class="posted blueText">8/18/2022</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                   <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAgenda" class="announcement blueText">August Agenda has been posted</td>
-                                    <td class="posted greenText">8/18/2022</td>
-                                    <td class="event greenText"></td>
+                                    <td class="posted blueText">8/18/2022</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                               <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">July meeting Minutes have been posted</td>
-                                    <td class="posted greenText">8/18/2022</td>
-                                    <td class="event greenText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myJubilee" class="announcement greenText">The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.</td>
-                                    <td class="posted greenText">8/9/2022</td>
-                                    <td class="event greenText">9/17/2022</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWhitney" class="announcement blueText">Jan Whitney's Obituary was Posted.</td>
-                                    <td class="posted blueText">8/9/2022</td>
+                                    <td class="posted blueText">8/18/2022</td>
                                     <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWhitney" class="announcement redText">Jan Whitney's Obituary was Posted.</td>
+                                    <td class="posted redText">8/9/2022</td>
+                                    <td class="event redText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myNote" class="announcement blueText">Note from new AFTAC Commander<br />to the Alumni</td>
@@ -353,35 +353,29 @@
             <div class="clear"></div>
         </article>
 
-        <article id="JubileeArt" class="myArts noDisplay">
-            <p class="pTitle centerText underLine">75th Diamond Jubilee</p>
-
-            <p class="centerDiv">
-                The AFTAC Booster Club
-                <br />
-                Requests the pleasure of your company to celebrate
+        <article id="GolfArt" class="myArts noDisplay">
+            <p class="pTitle redText bold centerText">
+                AFTAC Alumni Association (AFTACAA)
+                Annual Fall Golf-n'Get-Together  XXXVII
+                Friday, 14 October 2022
+            </p>
+            <hr class="myHR" />
+            <p>
+                Venue: Manatee Cove Golf Course, PSFB. Check-in:1130; Shotgun Start: 1300.  (Format: 4-Person Scramble).
                 <br /><br />
-                The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.
+                Cost: $40 (Alumni Members); $45 (Non-Alumni Members).
                 <br /><br />
-                To be held at
-                <br />
-                the Hilton Cocoa Beach Oceanfront
-                <br />
-                1550 N Atlantic Ave, Cocoa Beach, FL 32931
+                Fee includes: Golf, Cart, Range Balls, and BBQ from Tides Club served for Dinner
                 <br /><br />
-                on Saturday, the Seventeenth of September.
-                <br />
-                Program begins at six-thirty in the evening until ten-thirty in the evening.
+                Open to: AD Military, Retirees, Civilians, and Contractors
                 <br /><br />
-                R.S.V.P. by September 7, 2022
+                Mulligan's pkgs will be on sale: $5 for 1 mulligan, Red Bomb, & Nolan
                 <br /><br />
-                <a href="https://sendomatic.com/a2muF" target="_blank">Click here</a> to read more.
+                Team Mulligan ball: available for $10 
                 <br /><br />
-                POC: Capt Jesse Lubove
+                POCs:  Mr. Ed Lindsay -- <a href="MailTo:piston_horse@hotmail.com">piston_horse@hotmail.com</a> -- 321-507-7193 (Unlisted)
                 <br /><br />
-                COMM: 321-494-7321 / 854-7321
-                <br /><br />
-                Military: Mess Dress or Semi-Formal Civilian: Formal Attire
+                Mr.  Bruce Snelgrove -- <a href="MailTo:robert.snelgrove@us.af.mil">robert.snelgrove@us.af.mil</a> -- 321-494-6166 (Unlisted)
             </p>
         </article>
 
