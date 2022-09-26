@@ -1868,10 +1868,10 @@ Public Class _Default
 
         mySB.Append("<script>")
         mySB.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-        mySB.Append("$('#obituariesArt').removeClass('noDisplay').addClass('block');")
+        'mySB.Append("$('#obituariesArt').removeClass('noDisplay').addClass('block');")
         mySB.Append("$('#currentObits').removeClass('block').addClass('noDisplay');")
         mySB.Append("$('#archivedObits').removeClass('noDisplay').addClass('block');")
-        mySB.Append("$([document.documentElement, document.body]).animate({scrollTop: $(""#obituariesArt"").offset().top}, 500);")
+        mySB.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#archivedObits').offset().top}, 500);")
         mySB.Append("</script>")
         ClientScript.RegisterStartupScript(Me.GetType(), "script", mySB.ToString)
     End Sub
