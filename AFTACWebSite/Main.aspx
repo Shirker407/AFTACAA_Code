@@ -274,6 +274,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWise" class="announcement greenText">AFTAC WiSE STEM Expo and Professional Day</td>
+                                    <td class="posted greenText">9/26/2022</td>
+                                    <td class="event greenText">10/4/2022</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myGolf" class="announcement greenText">Annual Fall Golf-n'Get-Together</td>
                                     <td class="posted greenText">9/26/2022</td>
                                     <td class="event greenText">10/14/2022</td>
@@ -351,6 +356,39 @@
             </div>
 
             <div class="clear"></div>
+        </article>
+
+        <article id="WiseArt" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">AFTAC Wise Stem Expo and Professional Day</p>
+
+            <p>
+                <span class="maroonText underLine fontSize1_Halfem">AFTAC WiSE STEM Expo</span>
+                <br />
+                Bring the family and come join us for the 2022 Women in Science and Engineering (WiSE) Technology Expo! The event is for children in grades K –12 in Brevard County to explore STEM opportunities with government, academic, and industry employers through technology demonstrations, face-to-face discussion, and hands on experimentation. There will be demos and booths from NASA, Lockheed Martin, the Sea Turtle Preservation Society, and more! 
+                <br /><br />
+                Attend any time from 0900-1500 on 4 October at The Tides (1001 North Highway, A1A S Atlantic Ave, Patrick Space Force Base, FL 32925). Register at https://www.wiseusaf.com/register.html  
+                <br /><br />
+                <span class="maroonText underLine fontSize1_Halfem">AFTAC WiSE Professional Day</span> 
+                <br />
+                We’re building tomorrow now at AFTAC’s Women in Science and Engineering (WiSE) professional day. Guest speakers include, among others, The Honorable Gina Ortiz Jones, Under Secretary of the Air Force; Lieutenant General Nina Armagno, Director of Staff, Headquarters, U.S. Space Force; Lieutenant General Mary O’Brien, Director of Command, Control, Communications and Computer (C4)/Cyber, and Chief Information Officer, J6; and Ms. Marianne Malizia, Director, Diversity and Inclusion, U.S. Air Force. Be or find a mentor and hear from today’s leaders on STEM initiatives, building and maintaining STEM talent, STEM futures, and building your STEM career. 
+                <br /><br />
+                The event will be held at The Tides (1001 North Highway, A1A S Atlantic Ave, Patrick Space Force Base, FL 32925), from 0830-1600 on 6 October. Register at https://www.wiseusaf.com/register.html  
+            </p>
+
+            <hr class="myHR" />
+
+            <p>
+                Thanks so much for any assistance!  
+                <br />
+                Very respectfully, 
+                <br /><br />
+                JESSICA K. HARRIS, Maj, USAF<br />
+                Director of Operations, 24th Analysis Squadron<br />
+                Air Force Technical Applications Center<br />
+                DSN: 312.854.8646<br />
+                Comm: 321.494.8646<br />
+                TSVOIP: 987.2926<br />
+            </p>
         </article>
 
         <article id="GolfArt" class="myArts noDisplay">
