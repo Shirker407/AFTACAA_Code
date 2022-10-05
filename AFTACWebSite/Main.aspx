@@ -12166,9 +12166,21 @@
             </section>
         </article>
 
-<%--        <article id="currentObitsArt" class="myArts noDisplay">
-            <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Recent Obits</p>
+        <article id="currentObitsArt" class="myArts noDisplay">
+            <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkred">Recent Obits</p>
             <div class="centerDiv">
+                <article>
+                    <div>
+                        <h2 id="PetersonH2" class="obitH1">Jesse LeRoy Peterson - 9/2/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="PetersonPara" class="obitPara noDisplay">
+                        <img alt="Peterson1.png" class="width95 maroonBorder autoMarginLeftRight" src="_Photos/ObitPics/Peterson1.png" />
+                        <img alt="Peterson2.png" class="width95 topMargin2em maroonBorder autoMarginLeftRight"  src="_Photos/ObitPics/Peterson2.png" />
+                    </div>
+                </article>             
+
+
                 <article>
                     <div>
                         <h2 id="WhitneyH2" class="obitH1">Janice (Jan) Whitney - 7/24/2022</h2>
@@ -12179,235 +12191,24 @@
                             Janice (Jan) Whitney, 80, passed away on Sunday, July 24, 2022, at her home in Satellite Beach, Florida. “Jan,” the oldest of five, was born in Detroit, MI to Marshall and Barbara Johns. The family moved to Liverpool, NY in the early 1960s where she met her eventual husband and life-long travel companion, Don Whitney. Soon after earning an Associate Degree at Cazenovia College, Jan and Don married. This began a life of travel as the wife of an Air Force Pilot, and later in life when they both retired. Guam, Alabama, Japan, California, Illinois, Virginia, Mississippi, and Hawaii were among the places they lived before settling in the Space Coast. Once she settled in Florida and emptied the nest of her three sons, Jan earned her real estate license and began selling homes – becoming a million-dollar seller for Coldwell Banker Realty and managing the Melbourne office. Jan is survived by her husband Don, her three sons and their spouses: Brad (Jill), Dean (Julie), and Todd (Heidi), and by her seven grandchildren. She also leaves her four siblings and their spouses: Marsha (John) Charles, Bud (Marlene) Johns, Gary (Debbie) Johns, and Cheryl (John) Potts. Jan’s engaging personality and infectious laugh will be missed by family, friends, and all the people she would always stop and talk with in random situations. Funeral services will be held on Friday, August 5th at Beach Funeral Home, 1689 S. Patrick Drive, Melbourne, FL. A viewing will take place 11:00AM -1:00PM with formal services starting at 1:00PM. Following the service, the Whitney family will welcome friends at the Tides Club at Patrick Space Force Base,1001 North Highway, A1A S Atlantic Ave. While flowers are welcomed, expressions of sympathy in Jan’s memory can also be made to the Bladder Cancer Advisory Network (BCAN.org).
                         </p>
                     </div>
-                </article>             
- 
-                <article>
-                    <div>
-                        <h2 id="LarsonH2" class="obitH1">Karla Larson - 6/23/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="LarsonPara" class="obitPara noDisplay">
-                        <p>
-                            (Notified by Don Whitney with information from Rick Larson, Rick writes.)
-                            <br /><br />
-                            Karla Glavas Larson died on June 23, 2022, in Reston Virginia.  She was born on 1 May 1947 in Kansas City, Missouri to Konstantine Spiros Glavas and Bonnie June (Shackleford) Glavas.   
-                            <br /><br />
-                            Karla graduated from Kansas City Junior College, Maryland University while accompanying her husband on his Air Force assignment in Japan, and Chapman University with a master’s in psychology.  She married Eric (Rick) Larson on 16 August 1969 and they have two daughters Dr. Stacy Larson Baron and Alexis Larson Lundeen.  
-                            <br /><br />
-                            In the course of 17 moves during Rick’s 30 years of Air Force service, Karla created wonderful homes from Japan to Egypt and Alaska to Mississippi.  She exhibited extraordinary flexibility working as a drug abuse counselor, as well as positions teaching, and in retail sales, medical insurance claims, and property management in the United States and abroad.  She served as a Vestry member, usher, and on the Altar Guild at St Francis Episcopal Church, Great Falls, Virginia.  Her nephews and nieces noted that she had an ability to connect and make friends with her personable nature and her wonderful sense of humor.  
-                            <br /><br />
-                            Karla and Rick were stationed at Detachment 407/DO, 1979 to 1982, Detachment 460/CC, 1982 to 1985, Technical Operation Division/DO, 1985 to 1989, HQ AFTAC/DO, 1991-1993 and HQ AFTAC/CV, 1995 to 1997.   
-                            <br /><br />
-                            She is survived by her husband Rick, daughters, Stacy and Alexis, two wonderful sons-in-law, Tim Baron and Kevin Lundeen, and six grandchildren, Aidan, Kyra, and Holden Baron and James, Lilly, and Madeleine Lundeen.  She was proceeded in death by her parents, and her brothers, Sam, Paul, and Larry Glavas. 
-                            <br /><br />
-                            A Burial Service will be held at Saint Francis Episcopal Church, Great Falls, Virginia on 13 July at 1100. In lieu of flowers, the family requests a donation to Saint Francis Church in Great Falls, Virginia.                           </p>
-                    </div>
-                </article>             
- 
-                <article>
-                    <div>
-                        <h2 id="DunnH2" class="obitH1">David Dunn - June 2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="DunnPara" class="obitPara noDisplay">
-                        <p>
-                            (Contacted by Chuck Conrad passing along the following information).
-                            <br /><br />
-                            'Received word of David's death at his home in Germantown MD.
-                            <br /><br />
-                            I don't know of any other details. And I can't find an obituary. He was ~50 y/o.
-                            <br /><br />
-                            He was at a few AFTAC detachments and TOD as a 9S from 1997-2005.'
-                            <br /><br />
-                            NOTE: No obituary has been located or additional information available. If either happens, we will pass it along. We will post this on the AFTACAA Website, www.aftacaa.us, and publish it in the PoMo. 
-                            </p>
-                    </div>
-                </article>             
-  
-                <article>
-                    <div>
-                        <h2 id="SteskalH2" class="obitH1">Mike Steskal - 4/27/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="SteskalPara" class="obitPara noDisplay">
-                        <p>
-                            <img alt="Steskal.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Steskal.png"/>
-                            Michael J. Steskal, age 65, passed away unexpectedly on April 27, 2022 in Melbourne, FL.  Born October 7, 1956 in Oak Park, IL to Lawrence and Caroline (nee Hickey) Steskal, Mike was a treasured brother to Joe (Vicky) Steskal, Linda (Kevin) Brooks, Laura (Jim) Ciontea, Mary (Dan Lobbes) Steskal, and Barb (Marty) Gfesser as well as a giving uncle to Brian Brooks, Lauren Cunnane, Diana Ciontea, Monica Ciontea, Grant Steskal, Ben Steskal, and Gretta Gfesser.  He was preceded in death by his grandparents and late mother.
-                            <br /><br />
-                            After graduating from St. Viator High School, Mike joined the Air Force in 1977.  He spent the majority of his Air Force career in AFTAC (Air Force Technical Applications Center) as a scientific measurements technician based out of Patrick Space Force Base in Florida.  His position involved travel around the world. He also served as the Air Force Principal Investigator for several NASA associated AFTAC projects, including in-cabin experiments on Space Shuttle flights.  In 1991, his remote technical services directly supported the Warfighters’ missions during the first Gulf War.
-                            <br /><br />
-                            Upon leaving the Air Force at the end of 1991 as a Technical Sergeant, he continued to specialize in software quality, operations, and maintenance for a variety of companies engaged in government contract work including nine years with Raytheon and twelve years with Zeta Associates Inc.
-                            <br /><br />
-                            From 1991 until his retirement in 2016, Mike completed three Associate Degrees at Brevard Community College and was pursuing a BS in Business and Management at the University of Maryland.  Mike was a life-long learner and an avid reader.  During this time, Mike also spent four years in the Navy Reserves with the rank of a Petty Officer First Class. In addition, upon settling back in Melbourne, FL, he joined the AFTAC Alumni Association and became a board member in charge of Membership.  Mike cherished these shared memories and the fellowship it provided.  Most of all, he was proud to serve his country.
-                            <br /><br />
-                            In lieu of a traditional wake, family and friends are invited to gather for a Memorial visitation on Sunday, July 24, 2022 from 1:00 – 6:00 pm at the Rob Roy Clubhouse, 270 Country Club Lane, Prospect Heights, IL 60070.  A funeral mass will be held on Monday, July 25, 2022 at 10 am at St. Hubert’s Church, 729 Grand Canyon St., Hoffman Estates, IL 60169.  Interment of his cremains will immediately follow at St. Michael The Archangel Catholic Cemetery, 1185 W. Algonquin Rd., Palatine, IL 60067.
-                        </p>
-                        <hr class="myHR"/>
-                        <p>                       
-                            The following additional comments provided by SMSgt Tony De Marco (USAF-RET) & MSgt Dave Johnson (USAF-RET)
-                            <br /><br />
-                            This past April, one of our AFTAC Alumni Association Board Members, Mike Steskal, passed away unexpectedly. This came as a complete shock to those of us that knew Mike and were friends with him over the many years he served in AFTAC, and during the time he worked with many contractors over the years following his AFTAC Career. I first knew of Mike’s valued contributions to our Command’s Important Mission when Mike was assigned to one of the new “J” Technique Detachments installed OCONUS in the early 1980s. Mike was part of the 99 Team that established the new Det and brought it up to a FMC Status in mid-1980. I then got to know Mike personally starting in late 1984 when we worked together on numerous projects during our time in HQ/TX. We worked closely together in late 1984 when we were all part of the HQ Team that travelled to SRI for formal acceptance of the new ASDS (Advanced Sensor Deployment System). Mike was also on one of the initial official deployments of the ASDS and authored an excellent article in the Sept 2004 PoMo on this ASDS adventure out West. Mike worked on several other Special RF Collection Systems while in TX and performed multiple TDYs to both CONUS and OCONUS locations. One of the more unique Special Project Assignments Mike took on before leaving the Air Force was as Principal Investigator on the NASA LDEF (Long Duration Exposure Facility). AFTAC had an Experiment Tray M0006 on board the LDEF to evaluate Space Environment Effects on advanced sensor components. Mike decided to leave AFTAC and military service in 1991 and pursue a career in the civilian world working for many Special Contractors. His new career path included positions with Holmes Regional Med Ctr, Computer Sciences Raytheon, Raytheon Systems Corp, Raytheon C3I Systems, and Zeta Associates Inc. In many positions Mike continued to support the War fighter Missions worldwide until Mike finally Retired for good in 2016. Mike was an Outstanding AFTAC 99, a Great AFTAC Alumni Association Board Member, and a super friend to many of the AFTAC Alumni Team. Mike will be sorely missed as we move forward during these challenging times. RIP my friend.
-                        </p>
-                    </div>
-                </article>             
-  
-                <article>
-                    <div>
-                        <h2 id="CiambroneH2" class="obitH1">Theresa (Terry) Ciambrone - 5/11/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="CiambronePara" class="obitPara noDisplay">
-                        <p>
-                            (Contacted by Don Whitney.)
-                            <br />
-                            "Theresa (Terry) Ciambrone, wife of former AFTAC Vice commander and building name sake Col Thomas (Tom) Ciambrone (deceased) passed away 11 May 22 after a brief stay in the hospital."
-                            <br /><br />
-                            Personal Note: As the Col neared retirement, 1987, there was a groundswell of enlisted support to honor he and Terry for what they meant to the enlisted women and men of AFTAC. To my knowledge, Col Ciambrone was the only Headquarters Officer ever celebrated as an Honorary CMSgt and Terry the only CMSgt's Mate!! Chiefs from around the AFTAC World were there to participate in an official ceremony and all AFTAC enlisted invited to a congratulatory event after. 
-                            </p>
-                    </div>
-                </article>    
+                </article>
                 
                 <article>
                     <div>
-                        <h2 id="RobbirdsH2" class="obitH1">James Robbirds - 3/2/2022</h2>
+                        <h2 id="KimballH2" class="obitH1">Earl Jack Kimball - 3/30/2022</h2>
                     </div>
                     <div class="clear"></div>
-                    <div id="RobbirdsPara" class="obitPara noDisplay">
+                    <div id="KimballPara" class="obitPara noDisplay">
                         <p>
-                            (Contacted by Walt Hartley passing along information from Chip Reed.) 
-                            <br /><br />
-                            Walt, Chip, thanks for thinking of fellow Sages in sharing and sending this for further notification. I don't think much was published on Jim, all I can find: 
-                            <br /><br />
-                            James Timothy Robbirds, 74, of Defuniak Springs, Florida passed away Wednesday, March 2, 2022.
-                            <br /><br />
-                            Jim is in our Master Database. He was not a member of the association nor signed up for correspondence. 
-                            </p>
-                    </div>
-                </article>             
-  
-                <article>
-                    <div>
-                        <h2 id="WileyH2" class="obitH1">Judith Wiley</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="WileyPara" class="obitPara noDisplay">
-                        <p>
-                            (Contacted by Tony DeMarco passing along information from John Caban)
-                            <br /><br />
-                            I checked with Bob Wiley to see how he was doing as we have not heard anything from him, and he has not been to any of our recent Alumni Meetings or the 2022 WWR events.
-                            <br /><br />
-                            Bob told me his wife Judith has passed, and he has been dealing with that.
-                            <br /><br />
-                            Right now, no additional information is available, we will update as we learn more.
-                            <br /><br />
-                            Personal Note: Thank you, John and Tony. It's so important we keep track of each other now. I will try to call Bob today. I worked for Bob as Satellite Superintendent and knew Judith from Social Events. 
-                            <br /><br />
-                            NOTE: Additional information will be sent as received. 
-                            </p>
-                    </div>
-                </article>             
-  
-                <article>
-                    <div>
-                        <h2 id="SmithH2" class="obitH1">Samuel Lebron Smith - 5/1/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="SmithPara" class="obitPara noDisplay">
-                        <p>
-                            <img alt="Smith.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Smith.png"/>
-                            Samuel Lebron Smith, of Soddy Daisy, Tennessee, passed away peacefully at his home on May 1st, 2022.  He was 72.
-                            <br /><br />
-                            Samuel was born in Daisy, Tennessee. He was very active young man, and served 10 years in the United States Air Force. Sam loved to paint and was an avid poet.
-                            <br /><br />
-                            Samuel is preceded in death by his parents, Claude and Elizabeth Smith.  He is survived by his wife of 21 years, Teresa Smith and his biological daughter, Honey Lynn Smith. Sam had a love for children so much that he raised many step children. Sam leaves behind several grandchildren and great-grandchildren that all loved him very much.   
-                            <br /><br />
-                            The family will host a private burial at Varner Cemetery on Monday, May 9th at 1:00 p.m.
-                            <br /><br />
-                            Condolences and memories can be shared at <a href="www.williamsonandsons.com" target="_blank">Williamson and Sons</a>.
-                            <br /><br />
-                            Arrangements are by Williamson and Sons Funeral Home, 8852 Dayton Pike, Soddy Daisy, TN 37379.
-                            <br /><br />
-                            To send flowers to the family or plant a tree in memory of Samuel Lebron Smith, please visit our floral store.
-                            </p>
-                    </div>
-                </article>             
-  
-                <article>
-                    <div>
-                        <h2 id="MarcusH2" class="obitH1">Donald Marcus - 5/4/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="MarcusPara" class="obitPara noDisplay">
-                        <p>
-                            <img alt="Marcus.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Marcus.png"/>
-                            With deep regret, I must report that our beloved Donald passed away on May 4th at 6:00 PM. He was a devoted husband and father. Services will be held at Audubon Funeral Home Monday May 9th from 1030 AM with chapel services at 12:30 PM. He will be buried with full military honors following at Southeast Louisiana Veterans Cemetery at 1:30 PM. He will be missed by his beloved family and friends.
-                            <br /><br />
-                            Martha later added:<br />
-                            Lt. Col Donald R. Marcus, of Slidell, Louisiana, passed away on May 4, 2022 at the age of 87. He was a native of Birmingham, Alabama, born on March 4, 1935 to his loving parents, the late Kathrine Lucile Keith and Aubrey Renfroe Marcus. Donald is the beloved husband of 67 years to Martha Forbus Marcus; proud father of Donna Marcus Jones and Beverly Marcus Jones (Randal J. Jones); proud grandfather of Theresa Marie Jones, Tonya Jones Williams, Tina Jones Ritchie (Shane Ritchie), and Jaquelin Jenae Talbert; great-grandfather of Jamie Heston, B.J. Heston, Eric Zanco II, Zoey Goodeaux, Payton Keyes, Brandon Ritchie, Michael Ritchie, Kaitlyn Ritchie, and Abigail Ritchie; caring brother of the late Charles Ronald Marcus; uncle of Villeta Linton, Kelly Marcus, and David Marcus; cousin of Jeanne Salvago (daughters, Jessica and Johnica); and brother-in-law of Terry Marcus Long. Donald earned a Bachelor of Science degree from Howard College and a Master of Business Administration degree from Florida Institute of Technology. He retired from the United States Air Force, where he received many recognitions for his service including the Bronze Star, AF Commendation Medal with one oak leaf cluster, Meritorious Service Medal with two oak leaf clusters, and Republic of the Vietnam Campaign Medal. Donald taught courses at both Phillips Jr. College and Louisiana Technical College. He enjoyed fishing and golf in his spare time but treasured nothing more than the time he spent with family and friends. Donald will be greatly missed by all who knew and loved him. Relatives and friends are invited to attend a visitation on Monday, May 9, 2022 from 10:30 a.m. to 12:30 p.m. at Audubon Funeral Home in Slidell. A funeral service will begin in the chapel at 12:30. Donald will be laid to rest in the Southeast Louisiana Veterans Cemetery at 1:30 p.m. Memories and condolences may be expressed at <a href="http://AudubonFuneralHome.com" target="_blank">Audubon Funeral Home</a>
-                            </p>
-                    </div>
-                </article>             
-  
-                <article>
-                    <div>
-                        <h2 id="CwiklaH2" class="obitH1">Jim Cwikla - 4/24/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="CwiklaPara" class="obitPara noDisplay">
-                        <p>
-                            (Contacted by Ed LIndsay passing along email from Mike Stiewig.)
-                            "Apr 21, 2022, want to let folks know Jim Cwikla passed this morning.  He had cancer and had been failing. Not sure of the arrangements, but will pass that info on when I get it."
-                            <br /><br />
-                            Mike later added information of interest: "Jim was indeed a hell of a hand.  I was stationed with him for a few months at 423 in 75/76 (my first assignment). I have to admit he didn’t seem to trust my rookie capabilities too much back then, had me doing corrosion control pretty much solid…”if it doesn’t move, paint it!” Jim retired to Mesquite, NV, 8-10 years ago. He’s being cremated and I don’t believe there’s going to be any kind of service per se. His daughter is writing up an obit and I’ll pass it on with any other details when I get them."
-                            </p>
-                    </div>
-                </article>             
-  
-                <article>
-                    <div>
-                        <h2 id="CosnerH2" class="obitH1">Dale Cosner - 3/17/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="CosnerPara" class="obitPara noDisplay">
-                        <p>
-                            <img alt="Cosner.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Cosner.png"/>
-                            "With sad news I inform you of the passing of a fellow airman, Dale Cosner, Dale was stationed at McClellan in the depot, he worked in Pickup and Delivery from 1969-1973. The following email was received from his daughter."
-                            <br /><br />
-                            --Hi John,  this is Denise Cosner, dale’s daughter. I unfortunately have to let you know that dad passed away on 3/17. 3 of us kids were able to be there with him at the end.
-                            <br /><br />
-                            He was admitted on 3/6 with breathing issues again. Not sure if you knew he had been inpatient in early January for pneumonia and I think his lungs were just never really better.
-                            <br /><br />
-                            Click <a href="https://www.becksfuneralhome.com/obituaries/Dale-Edward-Cosner?obId=24330741#/obituaryInfo" target="_blank">here</a> to see obituary.
-
-                            </p>
-                    </div>
-                </article>             
-  
-                <article>
-                    <div>
-                        <h2 id="RedlinH2" class="obitH1">Geraldine Redlin - 2/10/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="RedlinPara" class="obitPara noDisplay">
-                        <p>
-                            <img alt="Redlin.jpg" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Redlin.jpg"/>
-                            Geraldine "Gerry" Linda Redlin, 85, of Aurora, Colorado, passed away on February 10, 2022, after a long hard-fought battle with Alzheimer's. Gerry was born on February 12, 1936, to Robert Frank Holland and Dorthey Virginia Holland (Burgoon) in Midway, Pennsylvania. After graduating from high school in 1954, she enlisted in the Air Force. Where she met the love of her life and they wed in 1955 going on to have three
-                            children, Jeffery, Brenda, and Valerie. When Gerry had Jeff, she decided to dedicate her life to being a fantastic and wonderful mother. She was very involved in the Girl Scouts for several years. Not only was she a troop leader but she also spent time helping at summer camps here in town and in the mountains. She spent over ten years working as an orthodontist assistant before moving to Texas. After returning to Colorado, she was an active member of her church and when she wasn’t filling her home with warmth and kindness, she could be found setting an example for other women to follow in volunteering their service.
-                            We will miss her greatly. Gerry was predeceased by her daughter Valerie Ann, Parents Frank and Dorthey Holland, Sisters Joy, Patty, and Brother Dale. She is survived by her husband Hugo, Jeffery and spouse Debra (Trask), Brenda and spouse Howard (Thurston), Grandchildren Christopher Redlin and spouse Amy (Altom), Ashley Redlin,
-                            Chad Thurston and Courtney Thurston, Grand Stepchildren Cody Trask and Spouse Sara (Williams) and Levi Trask and spouse Sheridan (Taylor), Great-grandchildren Carlie and Brandtley Thurston, Austyn, Christian, and Lane Redlin and Great Grand Stepchildren Landon Trask, Sophia Trask, Mia Williams and Emily Bounds (Redlin). The family requests that in lieu of flowers a donation to your favorite charity or to the Alzheimer's Association would be greatly appreciated. There will be a celebration of life for Gerry held on Saturday, March 19, 2022, 10:00 am at St. Mark's Lutheran Church, 111 Del Mar Circle, Aurora, Colorado
-                            80011.
-                            <br />
-                            V/R,
-                            Bryce Dunn President, Colorado AFTAC Alumni Association
-                            <br /><br />
-                            Click <a href="https://www.newcomerdenver.com/Obituary/211758/Geraldine-Gerry-Redlin/Denver-CO" target="_blank">here</a> to go to Gerry's obituary.
-                            <br /><br />
-                            NOTE: Additional information will be provided upon receipt and will be posted at the Alumni Website and published in the Post-Monitor. 
-                            </p>
+                            <img alt="Kimball.jpg" class="floatLeft width25 rightMarginHalfem maroonBorder" src="_Photos/ObitPics/Kimball.jpg" />
+                            We are sad to announce that on March 30, 2022 we had to say goodbye to Earl Jack Kimball of Greenville, Texas, born in Grand Haven, Michigan. Leave a sympathy message to the family in the guestbook on this memorial page of Earl Jack Kimball to show support.
+                            He was predeceased by : his parents, Everett Kimball and Irene Lyons; and his wife Wanda Parker. He is survived by : his children, Darrell Kimball (Brenda), Joe Kimball (Vickie) and Debby Maddox (Jim); his sister-in-law Joy Galbraith; his grandchildren, Christopher Maddox (Kristin), Sean Miller (Karen), Stacey Gallien (Kevin), Nicole Frahm, Carrie Luna (Adam), Matthew Kimball (Ashley), Krystal Kimball, Billy and Jessica Kimball; and his close friend Eileen Jenkins. He is also survived by 12 great grandchildren, 4 great-great grandchildren.
+                            In lieu of flowers, please make donations to: Caddo Mills Eastern Star, Re: Wanda Kimball Benevolent Fund, 7 Meadow Lane, Greenville, Tx 75402.
+                        </p>
                     </div>
                 </article>             
             </div>
-    </article>            --%>
+    </article>            
   
   
         <article id="archivedObitsArt" class="myArts noDisplay">
