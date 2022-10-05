@@ -849,6 +849,7 @@
     <Content Include="_Photos\ObitPics\Kane.jpg" />
     <Content Include="_Photos\ObitPics\Kayser.jpg" />
     <Content Include="_Photos\ObitPics\Killey.jpg" />
+    <Content Include="_Photos\ObitPics\Kimball.jpg" />
     <Content Include="_Photos\ObitPics\Kretzschmar.jpg" />
     <Content Include="_Photos\ObitPics\Kubiak.jfif" />
     <Content Include="_Photos\ObitPics\Lanigan.png" />
@@ -880,6 +881,8 @@
     <Content Include="_Photos\ObitPics\Payne.png" />
     <Content Include="_Photos\ObitPics\Perkins.png" />
     <Content Include="_Photos\ObitPics\Peters.png" />
+    <Content Include="_Photos\ObitPics\Peterson1.png" />
+    <Content Include="_Photos\ObitPics\Peterson2.png" />
     <Content Include="_Photos\ObitPics\Piccoli.jpg" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

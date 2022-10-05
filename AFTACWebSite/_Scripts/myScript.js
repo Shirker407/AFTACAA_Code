@@ -1463,49 +1463,13 @@ $(document).ready(function () {
             case 'WhitneyH2':
                 ShowMyObit('Whitney')
                 break;
-            case 'LarsonH2':
-                ShowMyObit('Larson')
+            case 'PetersonH2':
+                ShowMyObit('Peterson')
                 break;
-            case 'DunnH2':
-                ShowMyObit('Dunn')
+            case 'KimballH2':
+                ShowMyObit('Kimball')
                 break;
-            case 'SteskalH2':
-                ShowMyObit('Steskal')
-                break;
-            case 'SmithH2':
-                ShowMyObit('Smith')
-                break;
-            case 'CiambroneH2':
-                ShowMyObit('Ciambrone')
-                break;
-            case 'RobbirdsH2':
-                ShowMyObit('Robbirds')
-                break;
-            case 'WileyH2':
-                ShowMyObit('Wiley')
-                break;
-            case 'MarcusH2':
-                ShowMyObit('Marcus')
-                break;
-            case 'CwiklaH2':
-                ShowMyObit('Cwikla')
-                break;
-            case 'CosnerH2':
-                ShowMyObit('Cosner')
-                break;
-            case 'RedlinH2':
-                ShowMyObit('Redlin')
-                break;
-            case 'SummersH2':
-                ShowMyObit('Summers')
-                break;
-           case 'WareH2':
-                ShowMyObit('Ware')
-                break;
-           case 'MeisenheimerH2':
-                ShowMyObit('Meisenheimer')
-                break;
-        }
+         }
 
         $('#butShowListings').val('Return to Obituaries');
     });
