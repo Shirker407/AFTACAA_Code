@@ -1118,7 +1118,6 @@ $(document).ready(function () {
             $('.liMainMenu').css('color', 'yellow');
             $('#obitsRecent').css('color', 'lightgreen');
             $('.myArts').removeClass('block').addClass('noDisplay');
-        //    $('#obituariesArt').removeClass('noDisplay').addClass('block');
         }
     });
 
@@ -4689,48 +4688,24 @@ $(document).ready(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $(this).css('color', 'lightgreen');
-        //$('#audioTaps').trigger('play');
-        //$('#audioTaps').prop('volume', '0.1');
-        //if ($('#obituariesArt').hasClass('noDisplay')) {
-        //    $('.myArts').removeClass('block').addClass('noDisplay');
-        //    //$('#obituariesArt').removeClass('noDisplay').addClass('block');
-        //    $('#archivedObits').removeClass('block').addClass('noDisplay');
-        //    $('#currentObits').removeClass('noDisplay').addClass('block');
-        //    $([document.documentElement, document.body]).animate({
-        //        scrollTop: $("#mainHeader").offset().top
-        //    }, 500);
-        //}
-        //else {
-            $('#archivedObits').removeClass('block').addClass('noDisplay');
-            $('#currentObits').removeClass('noDisplay').addClass('block');
-            $([document.documentElement, document.body]).animate({
-                scrollTop: $("#mainHeader").offset().top
-            }, 500);
-    //    };
+        $('#archivedObits').removeClass('block').addClass('noDisplay');
+        $('#currentObits').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#mainHeader").offset().top
+        }, 500);
     });
 
     $('#obitsArchived').click(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $(this).css('color', 'lightgreen');
-        $('#audioTaps').trigger('play');
-        $('#audioTaps').prop('volume', '0.1');
-        //if ($('#obituariesArt').hasClass('noDisplay')) {
-        //    $('.myArts').removeClass('block').addClass('noDisplay');
-        //    //$('#obituariesArt').removeClass('noDisplay').addClass('block');
-        //    $('#currentObits').removeClass('block').addClass('noDisplay');
-        //    $('#archivedObits').removeClass('noDisplay').addClass('block');
-        //    $([document.documentElement, document.body]).animate({
-        //        scrollTop: $("#Label10").offset().top
-        //    }, 500);
-        //}
-        //else {
-            $('#currentObits').removeClass('block').addClass('noDisplay');
-            $('#archivedObits').removeClass('noDisplay').addClass('block');
-            $([document.documentElement, document.body]).animate({
-                scrollTop: $("#Label10").offset().top
-            }, 500);
-    //    };
+        //$('#audioTaps').trigger('play');
+        //$('#audioTaps').prop('volume', '0.1');
+        $('#currentObits').removeClass('block').addClass('noDisplay');
+        $('#archivedObits').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#Label10").offset().top
+        }, 500);
     });
 
     $('#liNewsToKnow, .clsN2K').click(function () {
@@ -4810,7 +4785,7 @@ $(document).ready(function () {
     $('#liVideos').click(function () {
         if ($('#divVideos').hasClass('noDisplay')) {
             $('.liMainMenu').css('color', 'yellow');
-            $('#audioTaps')[0].pause();
+            //$('#audioTaps')[0].pause();
             $(this).css('color', 'lightgreen')
             $('.underSel').css('color', 'yellow');
             $('.underMenu').removeClass('block').addClass('noDisplay');
@@ -4873,16 +4848,16 @@ $(document).ready(function () {
 
         $('#mainHeader').removeClass('noDisplay').addClass('block');
 
-        $('#audioTaps')[0].pause();
+        //$('#audioTaps')[0].pause();
 
-        var $audio = $("#audioTaps");
-        $audio.currentTime = 0;
+        //var $audio = $("#audioTaps");
+        //$audio.currentTime = 0;
 
         $('#winterSocialArt').removeClass('block').addClass('noDisplay');
 
         $('.obitPara').removeClass('block').addClass('noDisplay');
         $('.n2KPara').removeClass('block').addClass('noDisplay');
-        $("video").each(function () { this.pause() });
+        //$("video").each(function () { this.pause() });
         $('#txtEmail').val('');
         $('#pnlPomoError').html('');
         $('#pnlPomoError').removeClass('block').addClass('noDisplay');
