@@ -12211,44 +12211,44 @@
     </article>            
   
   
-        <article id="archivedObitsArt" class="myArts noDisplay">
-                <h1 class="maroonText centerText bold underLine">Archived Obituaries</h1>
+    <article id="archivedObitsArt" class="myArts noDisplay">
+            <h1 class="maroonText centerText bold underLine">Archived Obituaries</h1>
 
-                <asp:Panel ID="pnlObit" CssClass="floatLeft leftMargin1em width25" Visible="true" runat="server">
-                    <asp:Label ID="Label8" CssClass="centerText block leftMargin1em" Font-Bold="true" ForeColor="Maroon" Font-Size="1.6em" runat="server" Text="Deceased"></asp:Label>
+            <asp:Panel ID="pnlObit" CssClass="floatLeft leftMargin1em width25" Visible="true" runat="server">
+                <asp:Label ID="Label8" CssClass="centerText block leftMargin1em" Font-Bold="true" ForeColor="Maroon" Font-Size="1.6em" runat="server" Text="Deceased"></asp:Label>
 
-                    <asp:ListBox ID="lstObitNames" CssClass="maroonBorder autoMarginLeftRight smallShadow padding5" Rows="5"
-                        Font-Size=".8em" Font-Bold="true" ForeColor="Maroon" ToolTip="Hit Down Arrow to see list." 
-                        AutoPostBack="True" runat="server" OnSelectedIndexChanged="lstObitNames_SelectedIndexChanged">
-                    </asp:ListBox>
-
-                    <div class="clear"></div>
-
-                    <asp:Label ID="obitErrMess" BackColor="Yellow" BorderColor="Red" BorderWidth="2px" BorderStyle="Solid" ForeColor="Red" Font-Bold="true" Visible="false" CssClass="topMargin1em leftMargin1em padding5" runat="server" Text="Name not found."></asp:Label>
-
-                    <div class="topMargin1em leftMargin2em maroonBorder showShadow centerDiv">
-                        <p class="centerText">Search for deceased.</p>
-                        <span class="maroonText bold left">Name:</span>
-                        <asp:TextBox ID="txtObitSearch" ForeColor="Maroon" BackColor="WhiteSmoke" Width="90%" Font-Bold="true" CssClass="block autoMarginLeftRight" runat="server"></asp:TextBox>
-                        <asp:Button ID="butObitSearch" Font-Size="1em" ForeColor="White" BackColor="DarkBlue" Font-Bold="true" CssClass="block autoMarginLeftRight topMargin1em bottomMarginHalfem padding5" OnClick="butObitSearch_Click" runat="server" Text="Search" />
-                        <asp:Button ID="butClearSearch" Font-Size="1em" ForeColor="White" BackColor="DarkBlue" Font-Bold="true" CssClass="block autoMarginLeftRight topMargin1em bottomMarginHalfem padding5" runat="server" OnClick="butClearSearch_Click" Text="Clear Search" />
-                    </div>
-                </asp:Panel>
-
-                <asp:Panel ID="pnlmyDefaultPic" Visible="true" runat="server">
-                    <asp:Image ID="imgMemory"  ImageUrl="~/_Images/lovingmemory.jpg" Style="height:30em;" CssClass="autoMarginLeftRight topMargin1em maroonBorder smallShadow bottomMargin2em" Visible="true" runat="server" />
-                </asp:Panel>
-
-                <asp:Panel ID="pnlmyObits" Visible="false" runat="server">
-                    <article id="myObitArt" class="floatLeft leftMargin5em width60" runat="server"> 
-                        Place holder for the obit to be shown
-                    </article>
-                </asp:Panel>
+                <asp:ListBox ID="lstObitNames" CssClass="maroonBorder autoMarginLeftRight smallShadow padding5" Rows="5"
+                    Font-Size=".8em" Font-Bold="true" ForeColor="Maroon" ToolTip="Hit Down Arrow to see list." 
+                    AutoPostBack="True" runat="server" OnSelectedIndexChanged="lstObitNames_SelectedIndexChanged">
+                </asp:ListBox>
 
                 <div class="clear"></div>
+
+                <asp:Label ID="obitErrMess" BackColor="Yellow" BorderColor="Red" BorderWidth="2px" BorderStyle="Solid" ForeColor="Red" Font-Bold="true" Visible="false" CssClass="topMargin1em leftMargin1em padding5" runat="server" Text="Name not found."></asp:Label>
+
+                <div class="topMargin1em leftMargin2em maroonBorder showShadow centerDiv">
+                    <p class="centerText">Search for deceased.</p>
+                    <span class="maroonText bold left">Name:</span>
+                    <asp:TextBox ID="txtObitSearch" ForeColor="Maroon" BackColor="WhiteSmoke" Width="90%" Font-Bold="true" CssClass="block autoMarginLeftRight" runat="server"></asp:TextBox>
+                    <asp:Button ID="butObitSearch" Font-Size="1em" ForeColor="White" BackColor="DarkBlue" Font-Bold="true" CssClass="block autoMarginLeftRight topMargin1em bottomMarginHalfem padding5" OnClick="butObitSearch_Click" runat="server" Text="Search" />
+                    <asp:Button ID="butClearSearch" Font-Size="1em" ForeColor="White" BackColor="DarkBlue" Font-Bold="true" CssClass="block autoMarginLeftRight topMargin1em bottomMarginHalfem padding5" runat="server" OnClick="butClearSearch_Click" Text="Clear Search" />
+                </div>
+            </asp:Panel>
+
+            <asp:Panel ID="pnlmyDefaultPic" Visible="true" runat="server">
+                <asp:Image ID="imgMemory"  ImageUrl="~/_Images/lovingmemory.jpg" Style="height:30em;" CssClass="autoMarginLeftRight topMargin1em maroonBorder smallShadow bottomMargin2em" Visible="true" runat="server" />
+            </asp:Panel>
+
+            <asp:Panel ID="pnlmyObits" Visible="false" runat="server">
+                <article id="myObitArt" class="floatLeft leftMargin5em width60" runat="server"> 
+                    Place holder for the obit to be shown
+                </article>
+            </asp:Panel>
+
+            <div class="clear"></div>
         </article>
 
-        <article id="obituariesArt" class="myArts noDisplay">
+<%--        <article id="obituariesArt" class="myArts noDisplay">
             <section id="currentObits" class="obitSec aLeft centerDiv width80 padding5 autoMarginLeftRight topMargin1em block">
 
                 <asp:Label ID="Label10" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="Recent Obituaries"></asp:Label> 
@@ -12258,11 +12258,11 @@
             <section id="archivedObits" class="obitSec centerDiv width80 noDisplay padding5 autoMarginLeftRight smallShadow topMargin1em maroonBorder">
                 
 
-            </section>
+            </section>--%>
 
-            <input id="btnTaps" class="autoMarginLeftRight block myBut topMargin1em bottomMargin1em" type="button" value=" Stop Taps " />
+<%--            <input id="btnTaps" class="autoMarginLeftRight block myBut topMargin1em bottomMargin1em" type="button" value=" Stop Taps " />--%>
 
-            <div id="tapsControls" class="noDisplay">
+<%--            <div id="tapsControls" class="noDisplay">
                 <div id="divVolume" class="width40 autoMarginLeftRight">
                     <p class="centerText" style="font-size:2em;">Taps Volume</p>
                     <div class="clear"  style="margin-top:-2em;"></div>
@@ -12271,14 +12271,14 @@
                     <input id="btnTapsUp" class="myBut leftMargin1em" type="button" value="Up &gt;&gt;"/>
                 </div>
             </div>
-            
-            <audio id="audioTaps" preload="auto" loop="loop" class="noDisplay" controls="controls" >
+            --%>
+<%--            <audio id="audioTaps" preload="auto" loop="loop" class="noDisplay" controls="controls" >
                 <source src="_Audio/taps.ogg" type="audio/ogg"/>
                 <source src="_Audio/taps.mp3" type="audio/mpeg"/>
                 Your browser does not support the audio element.
-            </audio>
+            </audio>--%>
 
-        </article>
+<%--        </article>--%>
 
         <article id="sageShopArt" class="myArts noDisplay bottomMargin7em">
             <asp:Label ID="Label16" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="SAGE SHOP"></asp:Label>
