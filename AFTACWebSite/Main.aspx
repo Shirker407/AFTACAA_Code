@@ -273,11 +273,11 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWise" class="announcement greenText">AFTAC WiSE STEM Expo and Professional Day</td>
                                     <td class="posted greenText">9/26/2022</td>
                                     <td class="event greenText">10/4/2022</td>
-                                </tr>
+                                </tr>--%>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myGolf" class="announcement greenText">Annual Fall Golf-n'Get-Together</td>
                                     <td class="posted greenText">9/26/2022</td>
@@ -293,16 +293,16 @@
                                     <td class="posted blueText">8/18/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+<%--                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAgenda" class="announcement blueText">August Agenda has been posted</td>
                                     <td class="posted blueText">8/18/2022</td>
                                     <td class="event blueText"></td>
-                                </tr>
-                              <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                </tr>--%>
+<%--                              <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">July meeting Minutes have been posted</td>
                                     <td class="posted blueText">8/18/2022</td>
                                     <td class="event blueText"></td>
-                                </tr>
+                                </tr>--%>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWhitney" class="announcement redText">Jan Whitney's Obituary was Posted.</td>
                                     <td class="posted redText">8/9/2022</td>
