@@ -92,10 +92,6 @@ $(document).ready(function () {
         window.open("https://www.military.com/daily-news/2022/01/10/five-more-states-make-military-retirement-tax-free.html", "")
     });
 
-    $('#myMedical').click(function () {
-        window.open("https://www.military.com/daily-news/2022/07/12/155000-military-health-system-patients-be-pushed-civilian-care-starting-year.html?fbclid=IwAR2cZOH7t10Kad5cdWeuhrMfeOGyw7NCZB39au9BbwRxuhGO2-JmzM_SP90", "")
-    });
-
     $('#btnPage2').click(function () {
         $('#myPageNum').html("Showing M - Z");
         $('#Page1').removeClass('block').addClass('noDisplay');
@@ -1442,14 +1438,6 @@ $(document).ready(function () {
 
     $('#btnMore').click(function () {
         window.open('https://www.offutt.af.mil/News/Article/3090736/team-offutt-welcomes-first-wc-135r-to-its-fleet/fbclid/team-offutt-welcomes-first-wc-135r-to-its-fleet/', '');
-    });
-
-    $('#myPhoenix').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#PhoenixArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#PhoenixArt").offset().top
-        }, 500);
     });
 
     $('#myNote').click(function () {
