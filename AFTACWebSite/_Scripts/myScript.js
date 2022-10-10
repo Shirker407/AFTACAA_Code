@@ -1448,6 +1448,14 @@ $(document).ready(function () {
         window.open('_pdfs/Finlayson bio.pdf', '');
     });
 
+    $('#myKimball').click(function () {
+        OpenObit('Kimball');
+    });
+
+    $('#myPeterson').click(function () {
+        OpenObit('Peterson');
+    });
+
     $('#myWhitney').click(function () {
         OpenObit('Whitney');
     });

@@ -279,14 +279,24 @@
                                     <td class="event greenText">10/4/2022</td>
                                 </tr>--%>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myKimball" class="announcement blueText">Earl Jack Kimball's Obituary was Posted.</td>
+                                    <td class="posted blueText">10/8/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myPeterson" class="announcement blueText">Jesse Leroy Peterson's Obituary was Posted.</td>
+                                    <td class="posted blueText">10/8/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myGolf" class="announcement greenText">Annual Fall Golf-n'Get-Together</td>
                                     <td class="posted greenText">9/26/2022</td>
                                     <td class="event greenText">10/14/2022</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWright" class="announcement blueText">CMS Jerome S. Wright Biography</td>
-                                    <td class="posted greenText">9/14/2022</td>
-                                    <td class="event greenText"></td>
+                                    <td id="myWright" class="announcement redText">CMS Jerome S. Wright Biography</td>
+                                    <td class="posted redText">9/14/2022</td>
+                                    <td class="event redText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="my79Years" class="announcement blueText">79 Years Ago</td>
@@ -309,9 +319,9 @@
                                     <td class="event blueText"></td>
                                 </tr>--%>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWhitney" class="announcement redText">Jan Whitney's Obituary was Posted.</td>
-                                    <td class="posted redText">8/9/2022</td>
-                                    <td class="event redText"></td>
+                                    <td id="myWhitney" class="announcement blueText">Jan Whitney's Obituary was Posted.</td>
+                                    <td class="posted blueText">8/9/2022</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myNote" class="announcement blueText">Note from new AFTAC Commander<br />to the Alumni</td>
