@@ -253,6 +253,14 @@ $(document).ready(function () {
         OpenNTK('corona');
     });
 
+    $('#myWright').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#WrightArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $('#WrightArt').offset().top
+        }, 500);
+    });
+
     $('#myWells').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#wallArt').removeClass('noDisplay').addClass('block');
