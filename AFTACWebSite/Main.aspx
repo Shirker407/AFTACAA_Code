@@ -341,22 +341,18 @@
 
             <div class="floatLeft width45">
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
-<%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
-
-                    <p class="blueText fontSize1_Halfem centerText">Friday 19 August<br />
-                        15:00 - 16:30 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 21 October<br />
+                        11:30 - 13:30 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
-                        AFTAC Headquarters,<br />
-                        Patrick Space Force Base, FL<br />
-                        Flag Room<br /> 
-                        Lobby Conference Room<br />
+                        Beef O'Brady's<br />
+                        3030 Lake Washington Road<br />
+                        Melbourne, Fl<br /> 
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
-                        Phil Godfrey, AFTACAA President, at <a href="MailTo:afsophil@gmail.com">afsophil@gmail.com</a>
+                        Ed Lindsay, AFTACAA President, at <a href="MailTo:piston_horse@hotmail.com">Piston_Horse@hotmail.com</a>
                     </p>
-                    <%--</p>--%>
                 </div>
             </div>
 
