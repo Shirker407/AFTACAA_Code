@@ -3973,6 +3973,15 @@ $(document).ready(function () {
         window.open('https://www.military.com/discounts/universal-orlando-has-new-2019-military-discount.html?utm_medium=Social&utm_source=Facebook&fbclid=IwAR2P8YbBqcfEPXo7Ox_je1F90QtpWbdIrCQmTwczaoTIzO8rgGXJuSLuI2M#Echobox=1565196335', '');
     })
 
+
+    $('#myColBreakfast').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#ColBreakfastArt').removeClass('noDisplay').addClass('block')
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#ColBreakfastArt").offset().top
+        }, 500);
+    })
+
     $('#golf2019').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#golfArt').removeClass('noDisplay').addClass('block')
