@@ -279,6 +279,11 @@
                                     <td class="event greenText">10/4/2022</td>
                                 </tr>--%>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myColBreakfast" class="announcement greenText">Colorados Fall/Veterans Dinner</td>
+                                    <td class="posted greenText">10/11/2022</td>
+                                    <td class="event greenText">11/12/2022</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myKimball" class="announcement blueText">Earl Jack Kimball's Obituary was Posted.</td>
                                     <td class="posted blueText">10/8/2022</td>
                                     <td class="event blueText"></td>
@@ -359,7 +364,34 @@
             <div class="clear"></div>
         </article>
 
-        <article id="WiseArt" class="myArts noDisplay">
+        <article id="ColBreakfastArt" class="myArts noDisplay">
+            <p class="pTitle underLine centerText">Fall/Veterans Dinner</p>
+            <p>
+                Dear AFTAC & LRD Alumni, Active Duty, Civilians, Family and Friends
+                <br /><br />
+                You are cordially invited to join us at our annual Fall/Veterans Dinner on 12 November 2022.
+                <br /><br />
+                Dinner selections are Prime Rib or Chicken Picata with twice baked potato and Italian vegetables.
+                <br /><br />
+                Location/Time: Aurora Hills Golf Course, Tin Cup Banquet Room, 50 S. Peoria St. Aurora, CO 80012; Social hour starts at 1700 (5PM) and dinner will be served at 1800 (6PM).
+                <br /><br />
+                Cost: $33; Children 10 and under Free; Active Duty Military plus one guest $25 each.
+                <br /><br />
+                Dress is business casual.
+                <br /><br />
+                Please RSVP by email or phone and include your dinner selection and payment method to Maureen Hampson. You can email to treasurer@aftacco.org or leave a message at 303-695-0477.
+                <br /><br />
+                Please RSVP as soon as possible but no later than 5 November 2022. We need an accurate headcount to plan the dinner.
+                <br /><br />
+                Payment can be made by one of two methods:<br />
+                • PayPal (we will send an invoice to your email) or,<br />
+                • Payment will be collected at the dinner by cash or check made out to Maureen Hampson
+                <br /><br />
+                We look forward to seeing you there!
+            </p>
+        </article>
+
+<%--        <article id="WiseArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">AFTAC Wise Stem Expo and Professional Day</p>
 
             <p>
@@ -390,7 +422,7 @@
                 Comm: 321.494.8646<br />
                 TSVOIP: 987.2926<br />
             </p>
-        </article>
+        </article>--%>
 
         <article id="GolfArt" class="myArts noDisplay">
             <p class="pTitle redText bold centerText">
