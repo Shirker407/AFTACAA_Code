@@ -146,7 +146,7 @@
                                 </div>
                                 <hr class="myHR" />
                             </div>
-                            <div>
+<%--                            <div>
                                 <asp:Label ID="lbl2017" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2017"></asp:Label>
                                 <div id="2017Act" class="myActs noDisplay">
                                     <span id="eventsToiletBowl" class="underSel block leftMargin1em bottomDot">Toilet Bowl</span>
@@ -157,7 +157,7 @@
                                 </div>
                                 <hr class="myHR" />
                             </div>
-                        </div>
+                        </div>--%>
                     </li>
 
                     <li id="liHistory" class="liMainMenu bottomDot">Histories
@@ -2951,7 +2951,7 @@
             </p>
         </article>
 
-        <article id="toilet2017Art" class="myArts noDisplay">
+<%--        <article id="toilet2017Art" class="myArts noDisplay">
             <p class="pTitle centerText">AFTAC Toilet Bowl 2017<br />by George Mirda</p>
             <p>
                 <img class="floatLeft width25 rightMarginHalfem maroonBorder showShadow" alt="tb1.jpg" src="_Photos/ToiletBowl/TB1.JPG" />
@@ -3039,7 +3039,7 @@
                 Plus the USAF’s finest organization and best
                 people made it a day to remember for years to come.
             </p>
-        </article>
+        </article>--%>
 
         <article id="iFrameArt" class="myArts width100 noDisplay">
             <iframe id="myFrame" class="width100"> style="height=" & winHeight & "px"</iframe>
@@ -12467,13 +12467,13 @@
         <article id="selectedBoardArt" class="myArts noDisplay width90 noDisplay floatLeft autoMarginLeftRight maroonBorder smallShadow">
             <h2 class="centerText maroonText bold">Appointed Board</h2>
             <ul class="aLeft width45 floatLeft appOfficersList">
-                <li>
+<%--                <li>
                     <img alt="Chief Long" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Long.png" />
                     <div class="maroonText floatLeft topMargin2em leftMargin1em">
                         CMSgt Amy Long<br />(Activities)
                     </div>
                     <div class="clear"></div>
-                </li>
+                </li>--%>
 
                 <li>
                     <img alt="John Horsch" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/horsch.jpg" />
