@@ -95,15 +95,6 @@ Partial Public Class _Default
     Protected WithEvents lbl2018 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''lbl2017 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lbl2017 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''btnFriends control.
     '''</summary>
     '''<remarks>
