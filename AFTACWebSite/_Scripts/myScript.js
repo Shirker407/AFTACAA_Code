@@ -4998,17 +4998,22 @@ function resetMenu() {
     $('.underSel').css('color', 'yellow');
 };
 
-function ping() {
-    $.ajax({
-        url: 'http://aftacaa.us',
-        success: function () {
-            alert('reply');
-        },
-        error: function () {
-            alert('timeout/error');
-        }
-    });
-}
+//function ping() {
+//    $.ajax({
+//        url: 'http://aftacaa.us',
+//        success: function () {
+//            alert('reply');
+//        },
+//        error: function () {
+//            alert('timeout/error');
+//        }
+//    });
+//}
+
+function ShowAdminMenu() {
+    $('.myArts').removeClass('block').addClass('noDisplay');
+    $('#adminMenu').removeClass('noDisplay').addClass('block');
+};
 
 function CallService() {
     $.ajax({
@@ -5023,13 +5028,7 @@ function CallService() {
     });
 };
 
-function ShowAdminMenu() {
-    $('.myArts').removeClass('block').addClass('noDisplay');
-    $('#adminMenu').removeClass('noDisplay').addClass('block');
-};
-
 function OnismemberbyemailSuccess(data) {
-
     if (data.d) {
         $('#pomo1').removeClass('block').addClass('noDisplay')
         $('#pomo2').removeClass('noDisplay').addClass('block')
