@@ -3742,7 +3742,7 @@
             </div>
         </article>--%>
 
-        <article id="2018AirShowArt" class="myArts noDisplay">
+<%--        <article id="2018AirShowArt" class="myArts noDisplay">
             <div id="2018AirShowVideo" class="myvids nodisplay">
                 <video id="2018vidAirShow" preload="auto" controls="controls" poster="_images/airshow.png" class="width60 autoMarginLeftRight maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/2018_Melbourne_Air_Show.mp4" type="video/mp4" />
@@ -3751,7 +3751,7 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>
+        </article>--%>
 
 <%--        <article id="dedicationArt" class="myArts noDisplay">
             <div id="dedicationVideo" class="myvids nodisplay">
@@ -5286,7 +5286,7 @@
                     1997 ALUMNA OF THE YEAR <br />Judy Milam                    
                 </p>
                 <p>
-                    <img alt="Milam_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Milam_AOY.png" />
+<%--                    <img alt="Milam_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Milam_AOY.png" />--%>
                     Congratulations, Judy Milam, our 1997 Alumni of the Year.
                     <br />
                     For all she does, and has done. Judy is most deserving of this honor.
@@ -5474,7 +5474,7 @@
             </p>
         </article>
             
-        <article id="toiletArt" class="myArts noDisplay maroonBorder smallShadow">
+<%--        <article id="toiletArt" class="myArts noDisplay maroonBorder smallShadow">
             <asp:Label ID="Label5" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2em" runat="server" Text="TOILET BOWL"></asp:Label>
             <asp:Label ID="Label6" CssClass="block" ForeColor="DarkRed" Font-Italic="true" Font-Bold="true" Font-Size="1.4em" runat="server" Text="Reported By Ed Lindsay"></asp:Label>
             <p>Fall of 2016 was a season for many needs for change in AFTAC.  So, more of the same.  One of these was the need to change the date of the Annual gathering that pits Directorates/Squadrons against each other on the softball field.  A windy, blowhard named Matthew visited much of the East coast of the U.S.  The initial Toilet Bowl date of  7 October had to be scrubbed three days prior to the event since it appeared that Matthew was looking to do some major damage to the Space Coast.</p>
@@ -5518,7 +5518,7 @@
                 </figcaption>
             </figure>
        </article>
-
+--%>
         <article id="specialLinksArt" class="myArts noDisplay">
             <asp:Label ID="Label22" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="SPECIAL LINKS"></asp:Label>
             <p class="width50 topMargin1em autoMarginLeftRight smallShadow maroonBorder">
