@@ -34,7 +34,7 @@
             <div class="clear"></div>
         </header>
 
-        <p class="pTitle textShadow centerText"style="font-size:2.5em;">
+<%--        <p class="pTitle textShadow centerText"style="font-size:2.5em;">
             Welcome to the AFTAC Alumni Association Website         
         </p>
 
@@ -65,14 +65,14 @@
         </div>
 
         <asp:Button ID="Button2" CssClass="myBut bottomMargin1em topMargin1em" runat="server" Text=" Continue to Main Page " OnClick="Button_Click" />
-
+    --%>
     </div>
 
-        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
-            <ContentTemplate>
-                <asp:Timer ID="Timer1" Interval="60000" runat="server" OnTick="Timer1_Tick"></asp:Timer>
-            </ContentTemplate>
-        </asp:UpdatePanel>
+<%--    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            <asp:Timer ID="Timer1" Interval="60000" runat="server" OnTick="Timer1_Tick"></asp:Timer>
+        </ContentTemplate>
+    </asp:UpdatePanel>--%>
 
     </form>
 
