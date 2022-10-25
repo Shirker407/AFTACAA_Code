@@ -273,11 +273,11 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWise" class="announcement greenText">AFTAC WiSE STEM Expo and Professional Day</td>
-                                    <td class="posted greenText">9/26/2022</td>
-                                    <td class="event greenText">10/4/2022</td>
-                                </tr>--%>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myAnderholm" class="announcement blueText">Nordin "Curt" Anderholm's Obituary was Posted.</td>
+                                    <td class="posted blueText">10/8/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myColBreakfast" class="announcement greenText">Colorados Fall/Veterans Dinner</td>
                                     <td class="posted greenText">10/11/2022</td>
@@ -3742,7 +3742,7 @@
             </div>
         </article>--%>
 
-        <article id="2018AirShowArt" class="myArts noDisplay">
+<%--        <article id="2018AirShowArt" class="myArts noDisplay">
             <div id="2018AirShowVideo" class="myvids nodisplay">
                 <video id="2018vidAirShow" preload="auto" controls="controls" poster="_images/airshow.png" class="width60 autoMarginLeftRight maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/2018_Melbourne_Air_Show.mp4" type="video/mp4" />
@@ -3751,7 +3751,7 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>
+        </article>--%>
 
 <%--        <article id="dedicationArt" class="myArts noDisplay">
             <div id="dedicationVideo" class="myvids nodisplay">
@@ -5286,7 +5286,7 @@
                     1997 ALUMNA OF THE YEAR <br />Judy Milam                    
                 </p>
                 <p>
-                    <img alt="Milam_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Milam_AOY.png" />
+<%--                    <img alt="Milam_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Milam_AOY.png" />--%>
                     Congratulations, Judy Milam, our 1997 Alumni of the Year.
                     <br />
                     For all she does, and has done. Judy is most deserving of this honor.
@@ -5474,7 +5474,7 @@
             </p>
         </article>
             
-        <article id="toiletArt" class="myArts noDisplay maroonBorder smallShadow">
+<%--        <article id="toiletArt" class="myArts noDisplay maroonBorder smallShadow">
             <asp:Label ID="Label5" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2em" runat="server" Text="TOILET BOWL"></asp:Label>
             <asp:Label ID="Label6" CssClass="block" ForeColor="DarkRed" Font-Italic="true" Font-Bold="true" Font-Size="1.4em" runat="server" Text="Reported By Ed Lindsay"></asp:Label>
             <p>Fall of 2016 was a season for many needs for change in AFTAC.  So, more of the same.  One of these was the need to change the date of the Annual gathering that pits Directorates/Squadrons against each other on the softball field.  A windy, blowhard named Matthew visited much of the East coast of the U.S.  The initial Toilet Bowl date of  7 October had to be scrubbed three days prior to the event since it appeared that Matthew was looking to do some major damage to the Space Coast.</p>
@@ -5518,7 +5518,7 @@
                 </figcaption>
             </figure>
        </article>
-
+--%>
         <article id="specialLinksArt" class="myArts noDisplay">
             <asp:Label ID="Label22" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="SPECIAL LINKS"></asp:Label>
             <p class="width50 topMargin1em autoMarginLeftRight smallShadow maroonBorder">
@@ -12303,6 +12303,24 @@
         <article id="currentObitsArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkred">Recent Obits</p>
             <div class="centerDiv">
+                <article>
+                    <div>
+                        <h2 id="AnderholmH2" class="obitH1">Nordin Curtis Anderholm - 10/21/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="AnderholmPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Anderholm.png" class="floatLeft width30 rightMarginHalfem" src="_Photos/obitpics/Anderholm.png" />                            
+                            Nordin Curtis (Curt) Anderholm, Merritt Island. Passed away peacefully at Solaris Healthcare, in the morning hours on Friday, October 21st. Curt was 86 when he passed. In his last hours, he was surrounded by his family and the incredible caregivers from St Francis Reflections, and the nurses and staff at Solaris. 
+                            Curt will be remembered by his wife, Mary Lou, and his children, John Curtis (Beverly), Christopher Michael (Monica), and Mary Elizabeth Lucks (David). He was the beloved Grandfather too, Dylan, Callie, and Katie (John and Beverly), Megan and Rachel (Mary Beth and David), and Paige and Jacob (Chris and Monica). He was a Great Grandfather to Trey (Rachel). He was predeceased by his Father Fritz, Mother Agnes, his brothers Cecil and Fred, and his sisters, Florence, and Joy. He looks forward to seeing them again soon.
+                            Curt was born and grew up in Duluth, Minnesota. He went to college at the University of Minnesota Duluth, and it was there that he met his bride Mary Louise Blomgren, who was attending the neighboring St Scholastica College. They were married on August 9th, 1959. Upon graduation, Curt and Mary Lou moved to Evanston, IL, where Curt studied at Northwestern University and earned his Ph.D. in Nuclear Physics. While Curt was studying, Mary Lou was busy with their sons, John and Chris, who were both born in Evanston. After graduating, they moved their growing family to Albuquerque, NM where Curt went to work for Sandia Laboratories. Their daughter, Mary Beth was born there in 1964. He was proud that his work at Sandia, led to two US Patents. His career took him and his family from New Mexico to Washington DC and finally to Patrick Air Force Base, in Satellite Beach, Florida. They resided on Merritt Island.
+                            As a young man, Curt attained the rank of Eagle Scout. The lessons he learned in Scout’s taught him to enjoy spending time in the outdoors. He enjoyed camping, hiking, fishing, and sailing. He passed along his love of the outdoors to his family. He was an avid Brevard Manatees baseball fan and liked nothing better than to spend the afternoon or evening at the ballpark with friends cheering on the home team.
+                            Friends and Family will be received at Divine Mercy Catholic Church, at 1940 Courteney Pkwy Friday, November the 4th. Curt’s life will be honored with a Mass of Christian Burial at 11:00 AM. The family will greet guests prior to the service and a reception at the church will follow for all friends and Family.
+                            In lieu of flowers, donations to The Alzheimer’s Association would be greatly appreciated.
+                        </p>
+                    </div>
+                </article>
+                
                 <article>
                     <div>
                         <h2 id="PetersonH2" class="obitH1">Jesse LeRoy Peterson - 9/2/2022</h2>
