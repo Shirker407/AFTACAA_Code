@@ -274,6 +274,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWilliamson" class="announcement blueText">Gail Williamson's Obituary was Posted.</td>
+                                    <td class="posted blueText">10/8/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAnderholm" class="announcement blueText">Nordin "Curt" Anderholm's Obituary was Posted.</td>
                                     <td class="posted blueText">10/8/2022</td>
                                     <td class="event blueText"></td>
@@ -12303,6 +12308,35 @@
         <article id="currentObitsArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkred">Recent Obits</p>
             <div class="centerDiv">
+                <article>
+                    <div>
+                        <h2 id="WilliamsonH2" class="obitH1">Gail Marie Williamson - 10/16/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="WilliamsonPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Williamson.png" class="floatLeft width30 rightMarginHalfem" src="_Photos/obitpics/Williamson.png" />                            
+                            Gail Marie Williamson, 85, of Wisconsin Rapids, WI, passed away Sunday, October 16, 2022. Gail passed at home holding the hand of her husband of 66 years, Donald "Donnie" Williamson. At her bedside were the greatest joys of her life, her three children, Willie, Mike and Kelley.
+                            <br /><br />
+                            Gail was born on May 19, 1937, in Wisconsin Rapids, the daughter of Edward and Beatrice Krzykowski. Gail was predeceased by her brothers Ronald and Lawrence ("Babe"), and is survived by her brother James (Beverly) Krekowski of Wisconsin Rapids.
+                            <br /><br />
+                            A St. Mary's and Assumption alumna, Gail married her husband, Donnie, on August 25, 1956. The next 23 years of her life were spent as a United States Air Force wife and mother. Gail and Donnie left Wisconsin Rapids for Cape Cod, MA, then moved on to Denver, CO, next to Fairbanks, AK, and then back to Denver, CO. Gail and the three children spent 1970-71 back on Cape Cod while Donnie spent a year-long solo tour of service in the Fiji Islands. They reunited in Sacramento, CA from 1971-75, and then spent Donnie's last two years of service near Austin, TX. In 1977, Gail ended her career as an Air Force wife and mom when Donnie retired from the Air Force, and the family returned "home" to Wisconsin Rapids permanently.
+                            <br /><br />
+                            Over her adult life, Gail was a Red Cross nurse's assistant, a paper mill worker, a waitress, a cashier, and a den mother. She also knew how to play the "dad" role when Donnie was away serving our country, which happened often. She taught the boys to throw a baseball, made sure homework was done, and that curfews were obeyed. "Wait until your father gets home" wasn't an option for Gail. And, although she was good at most things she did, she was a superstar when it came to being a wife and mother. She loved her husband deeply and adored her children. She taught her whole family how to love and how to laugh until it hurt (in a good way). All three of Gail's children have been with their respective spouses in excess of 30 years.
+                            <br /><br />
+                            Gail was a woman of strong faith, and attended mass regularly at Our Lady Queen of Heaven Church, where she and Donnie were married. She loved her Green Bay Packers, the Milwaukee Brewers, and the Wisconsin Badgers, and enjoyed her extra dry gin martinis. One thing she was not fond of was Wisconsin Winters, which she and Donnie did their best to escape in their motorhome each year in their retirement.
+                            <br /><br />
+                            Gail is survived by her husband, Donald "Donnie" Williamson; oldest son, Donald "Willie" Williamson, his wife Julie Williamson, and their children, Donald Brandon Williamson and Cory Cae Williamson; her second son, Michael Williamson, and his husband, Otis Merry; and her daughter, Kelley (Williamson) Molitor, Kelley's husband Steve Molitor, their daughter Chelsea (Molitor) Massingill, and Gail's great granddaughter Alana Massingill.
+                            <br /><br />
+                            Gail is also survived by her sisters-in-law, Joan (Williamson) Johnson and Dolly Schmidt, and predeceased by her brothers-in-law, Charles Johnson and John Williamson.
+                            <br /><br />
+                            She will be missed by her many nieces and nephews. Her nephew and next-door neighbor Steve Krekowski and his partner Gene Marty, as well as her niece Lori Placek were a great comfort to the family in Gail's later life, helping with snow blowing, lawn mowing, medical visits, and dropping off countless baked goods and other treats. The family will be forever grateful to you.
+                            <br /><br />
+                            She will also be dearly missed by many close friends, including Marcine Amundson, Sally Parr, Ron and Bonnie Mancl, Al and Sherry Cleveland, and Clare and Monica Jenkins. The friends Gail leaves behind from traveling the country as a military spouse, and from spending winters motor-homing in Florida are too countless to list.
+                        </p>
+                    </div>
+                </article>
+
                 <article>
                     <div>
                         <h2 id="AnderholmH2" class="obitH1">Nordin Curtis Anderholm - 10/21/2022 </h2>

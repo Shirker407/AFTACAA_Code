@@ -1448,6 +1448,10 @@ $(document).ready(function () {
         window.open('_pdfs/Finlayson bio.pdf', '');
     });
 
+    $('#myWilliamson').click(function () {
+        OpenObit('Williamson');
+    });
+
     $('#myAnderholm').click(function () {
         OpenObit('Anderholm');
     });
@@ -1463,6 +1467,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'WilliamsonH2':
+                ShowMyObit('Williamson')
+                break;
             case 'AnderholmH2':
                 ShowMyObit('Anderholm')
                 break;
