@@ -1,7 +1,6 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
 <%--Old Code--%>
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
-<%--Swell %>
 <%--*****************************************************************************--%>
 <%--*****************************************************************************--%>
      <%--TABLE OF CONTENTS--%>
@@ -275,12 +274,12 @@
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWilliamson" class="announcement blueText">Gail Williamson's Obituary was Posted.</td>
-                                    <td class="posted blueText">10/8/2022</td>
+                                    <td class="posted blueText">11/2/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAnderholm" class="announcement blueText">Nordin "Curt" Anderholm's Obituary was Posted.</td>
-                                    <td class="posted blueText">10/8/2022</td>
+                                    <td class="posted blueText">11/2/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -297,11 +296,6 @@
                                     <td id="myPeterson" class="announcement blueText">Jesse Leroy Peterson's Obituary was Posted.</td>
                                     <td class="posted blueText">10/8/2022</td>
                                     <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myGolf" class="announcement greenText">Annual Fall Golf-n'Get-Together</td>
-                                    <td class="posted greenText">9/26/2022</td>
-                                    <td class="event greenText">10/14/2022</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWright" class="announcement redText">CMS Jerome S. Wright Biography</td>
@@ -393,65 +387,6 @@
                 • Payment will be collected at the dinner by cash or check made out to Maureen Hampson
                 <br /><br />
                 We look forward to seeing you there!
-            </p>
-        </article>
-
-<%--        <article id="WiseArt" class="myArts noDisplay">
-            <p class="pTitle centerText underLine">AFTAC Wise Stem Expo and Professional Day</p>
-
-            <p>
-                <span class="maroonText underLine fontSize1_Halfem">AFTAC WiSE STEM Expo</span>
-                <br />
-                Bring the family and come join us for the 2022 Women in Science and Engineering (WiSE) Technology Expo! The event is for children in grades K –12 in Brevard County to explore STEM opportunities with government, academic, and industry employers through technology demonstrations, face-to-face discussion, and hands on experimentation. There will be demos and booths from NASA, Lockheed Martin, the Sea Turtle Preservation Society, and more! 
-                <br /><br />
-                Attend any time from 0900-1500 on 4 October at The Tides (1001 North Highway, A1A S Atlantic Ave, Patrick Space Force Base, FL 32925). Register at https://www.wiseusaf.com/register.html  
-                <br /><br />
-                <span class="maroonText underLine fontSize1_Halfem">AFTAC WiSE Professional Day</span> 
-                <br />
-                We’re building tomorrow now at AFTAC’s Women in Science and Engineering (WiSE) professional day. Guest speakers include, among others, The Honorable Gina Ortiz Jones, Under Secretary of the Air Force; Lieutenant General Nina Armagno, Director of Staff, Headquarters, U.S. Space Force; Lieutenant General Mary O’Brien, Director of Command, Control, Communications and Computer (C4)/Cyber, and Chief Information Officer, J6; and Ms. Marianne Malizia, Director, Diversity and Inclusion, U.S. Air Force. Be or find a mentor and hear from today’s leaders on STEM initiatives, building and maintaining STEM talent, STEM futures, and building your STEM career. 
-                <br /><br />
-                The event will be held at The Tides (1001 North Highway, A1A S Atlantic Ave, Patrick Space Force Base, FL 32925), from 0830-1600 on 6 October. Register at https://www.wiseusaf.com/register.html  
-            </p>
-
-            <hr class="myHR" />
-
-            <p>
-                Thanks so much for any assistance!  
-                <br />
-                Very respectfully, 
-                <br /><br />
-                JESSICA K. HARRIS, Maj, USAF<br />
-                Director of Operations, 24th Analysis Squadron<br />
-                Air Force Technical Applications Center<br />
-                DSN: 312.854.8646<br />
-                Comm: 321.494.8646<br />
-                TSVOIP: 987.2926<br />
-            </p>
-        </article>--%>
-
-        <article id="GolfArt" class="myArts noDisplay">
-            <p class="pTitle redText bold centerText">
-                AFTAC Alumni Association (AFTACAA)
-                Annual Fall Golf-n'Get-Together  XXXVII
-                Friday, 14 October 2022
-            </p>
-            <hr class="myHR" />
-            <p>
-                Venue: Manatee Cove Golf Course, PSFB. Check-in:1130; Shotgun Start: 1300.  (Format: 4-Person Scramble).
-                <br /><br />
-                Cost: $40 (Alumni Members); $45 (Non-Alumni Members).
-                <br /><br />
-                Fee includes: Golf, Cart, Range Balls, and BBQ from Tides Club served for Dinner
-                <br /><br />
-                Open to: AD Military, Retirees, Civilians, and Contractors
-                <br /><br />
-                Mulligan's pkgs will be on sale: $5 for 1 mulligan, Red Bomb, & Nolan
-                <br /><br />
-                Team Mulligan ball: available for $10 
-                <br /><br />
-                POCs:  Mr. Ed Lindsay -- <a href="MailTo:piston_horse@hotmail.com">piston_horse@hotmail.com</a> -- 321-507-7193 (Unlisted)
-                <br /><br />
-                Mr.  Bruce Snelgrove -- <a href="MailTo:robert.snelgrove@us.af.mil">robert.snelgrove@us.af.mil</a> -- 321-494-6166 (Unlisted)
             </p>
         </article>
 
@@ -5678,7 +5613,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkEffectiveH2" class="currentNews news2KnowH1">AFTAC earns highly effective rating from Inspector General - 2/3/2021</h2>
+                        <h2 id="ntkEffectiveH2" class="archivedNews noDisplay news2KnowH1">AFTAC earns highly effective rating from Inspector General - 2/3/2021</h2>
                     </div>
                 </div>
 
@@ -5758,7 +5693,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkOutBackH2" class="currentNews news2KnowH1">H.S. student immerses with AFTAC in the Outback - 2/3/2021</h2>
+                        <h2 id="ntkOutBackH2" class="archivedNews noDisplay news2KnowH1">H.S. student immerses with AFTAC in the Outback - 2/3/2021</h2>
                     </div>
                 </div>
 
@@ -5843,7 +5778,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkSelfTempH2" class="currentNews news2KnowH1">Innovative self-serve temperature check helps workforce during COVID - 2/3/2021</h2>
+                        <h2 id="ntkSelfTempH2" class="archivedNews noDisplay news2KnowH1">Innovative self-serve temperature check helps workforce during COVID - 2/3/2021</h2>
                     </div>
                 </div>
 
@@ -5883,7 +5818,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkSpaceForceH2" class="currentNews news2KnowH1">2 famed bases re-designated to highlight Space Force connection - 12/10/2020</h2>
+                        <h2 id="ntkSpaceForceH2" class="archivedNews noDisplay news2KnowH1">2 famed bases re-designated to highlight Space Force connection - 12/10/2020</h2>
                     </div>
                 </div>
 
@@ -5952,7 +5887,7 @@
             <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkMindnBodyH2" class="currentNews news2KnowH1">The science of mind and body: A successful combination for one Airman - 9/20/2020</h2>
+                        <h2 id="ntkMindnBodyH2" class="archivedNews noDisplay news2KnowH1">The science of mind and body: A successful combination for one Airman - 9/20/2020</h2>
                     </div>
                 </div>
 
@@ -6020,7 +5955,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkCOMACCH2" class="currentNews news2KnowH1">COMACC joins AFTAC Airmen in online training session - 9/20/2020</h2>
+                        <h2 id="ntkCOMACCH2" class="archivedNews noDisplay news2KnowH1">COMACC joins AFTAC Airmen in online training session - 9/20/2020</h2>
                     </div>
                 </div>
 
@@ -6066,7 +6001,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkTeleworkH2" class="currentNews news2KnowH1">Air Force Vice Chief: Nearly One-Third of Employees May Permanently Telework - 9/17/2020</h2>
+                        <h2 id="ntkTeleworkH2" class="archivedNews noDisplay news2KnowH1">Air Force Vice Chief: Nearly One-Third of Employees May Permanently Telework - 9/17/2020</h2>
                     </div>
                 </div>
 
@@ -6130,7 +6065,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkIDH2" class="currentNews news2KnowH1">For 1st Time in 3 Decades, Military Families and Retirees Are Getting Revamped IDs - 9/1/2020</h2>
+                        <h2 id="ntkIDH2" class="archivedNews noDisplay news2KnowH1">For 1st Time in 3 Decades, Military Families and Retirees Are Getting Revamped IDs - 9/1/2020</h2>
                     </div>
                 </div>
 
@@ -6180,7 +6115,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkMSASBH2" class="archivedNews news2KnowH1">AFTAC Master Scientific Applications Specialist Badge - 9/17/2020</h2>
+                        <h2 id="ntkMSASBH2" class="archivedNews noDisplay news2KnowH1">AFTAC Master Scientific Applications Specialist Badge - 9/17/2020</h2>
                     </div>
                 </div>
 
@@ -6200,7 +6135,7 @@
 
            <section class=" block">
                 <div class="aLeft">
-                    <h2 id="ntkCOCH2" class="archivedNews news2KnowH1">AFTAC uses technology to execute Change of Command - 7/2/2020</h2>
+                    <h2 id="ntkCOCH2" class="archivedNews noDisplay news2KnowH1">AFTAC uses technology to execute Change of Command - 7/2/2020</h2>
                 </div>
 
                 <div class="clear"></div>
@@ -6312,7 +6247,7 @@
             </section>
 
            <%--The following is Archived News--%>
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkAIH2" class="news2KnowH1">Arguing Artificial Intelligence during pandemic becomes a reality - 5/17/2020</h2>
                 </div>
@@ -6393,7 +6328,7 @@
                 </p>
             </article>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkSuicideH2" class="news2KnowH1">Suicide survivor helps Airmen, families battle adversity during pandemic - 5/16/2020</h2>
                 </div>
@@ -6457,7 +6392,7 @@
 
             <div class="clear"></div>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkcurbsideH2" class="news2KnowH1">Curbside Pick-Up at PAFB BX - 4/15/2020</h2>
                 </div>
@@ -6497,7 +6432,7 @@
 
             <div class="clear"></div>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkpandemicH2" class="news2KnowH1">Pandemic can’t stop AFTAC’s innovative Airmen - 4/14/2020</h2>
                 </div>
@@ -6557,7 +6492,7 @@
 
             <div class="clear"></div>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkcoVidH2" class="news2KnowH1">Vital treaty monitoring mission continues in wake of COVID-19 response - 4/8/2020</h2>
                 </div>
@@ -6621,7 +6556,7 @@
 
             <div class="clear"></div>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkinducteesH2" class="news2KnowH1">AFTAC inducts 3 into famed Wall of Honor - 3/18/2020</h2>
                 </div>
@@ -6684,7 +6619,7 @@
                 </p>
             </article>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkcoronaH2" class="news2KnowH1">DOD Issues Flexible Instructions on Response to Coronavirus - 3/13/2020</h2>
                 </div>
@@ -6726,7 +6661,7 @@
                 </div>
             </article>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkclinicsH2" class="news2KnowH1">DoD to restructure 50 hospitals, clinics to improve readiness - 2/21/2020</h2>
                 </div>
@@ -6767,7 +6702,7 @@
                 </div>
             </article>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkcloseH2" class="news2KnowH1">DOD Closing Dozens of Military Clinics to Retirees, Families - 2/20/2020</h2>
                 </div>
@@ -6818,7 +6753,7 @@
                 </div>
             </article>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkWise2H2" class="news2KnowH1">AFTAC hosts 5th annual WiSE Symposium - 2/13/2020</h2>
                 </div>
@@ -6887,7 +6822,7 @@
                 </div>
             </article>
 
-           <section class="archivedNews block">
+           <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="vcsafH2" class="news2KnowH1">VCSAF meets with nuclear scientists, engineers about future operations - 12/10/2019</h2>
                 </div>
@@ -6984,7 +6919,7 @@
                 </article>
             </section>
 
-           <section class="archivedNews block">
+           <section class="archivedNews noDisplay block">
                 <article>
                     <div class="aLeft">
                         <h2 id="roadMapH2" class="news2KnowH1">AFTAC leads charge on R&amp;D Roadmap for USAF - 11/2/2019</h2>
@@ -7058,7 +6993,7 @@
             </section>
             
 
-           <section class="archivedNews block">
+           <section class="archivedNews noDisplay block">
                     <h2 id="ntkfellowsH2" class="news2KnowH1 left">College Fellows develop nuke detection system to test at RED FLAG ‘19 - 10/30/2019</h2>
 
                     <div class="clear"></div>
@@ -7138,7 +7073,7 @@
                     <div class="clear"></div>
             </section>
 
-           <section class="archivedNews block">
+           <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkcouncilH2" class="news2KnowH1">Military Affairs Council tours only radiochemistry lab in USAF - 10/30/2019</h2>
                 </div>
@@ -7204,7 +7139,7 @@
                 </article>
             </section>
 
-           <section class="archivedNews block">
+           <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkcrfH2" class="news2KnowH1">CRF develops innovative solution to seismic array vulnerability - 10/4/2019</h2>
                 </div>
@@ -7253,7 +7188,7 @@
             </article>
         </section>
 
-           <section class="archivedNews block">
+           <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkvaledictorianH2" class="news2KnowH1">Local ’16 valedictorian recruited by AFTAC as nuclear data analyst - 9/25/2019</h2>
                 </div>
@@ -7312,7 +7247,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkSTEMversityH2" class="news2KnowH1">Experts from AFTAC travel to Georgia for STEMversity - 9/16/2019</h2>
                 </div>
@@ -7370,7 +7305,7 @@
 
             </section>
 
-            <section class="archivedNews block">
+            <section class="archivedNews noDisplay block">
                 <div class="aLeft">
                     <h2 id="ntkDorianH2" class="news2KnowH1">Despite Dorian, vital nuke mission continues uninterrupted - 9/14/2019</h2>
                 </div>
@@ -7433,7 +7368,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkPresidentialH2" class="news2KnowH1">Two distinguished executives receive Presidential Rank Awards - 7/12/2019</h2>
                 </div>
@@ -7491,7 +7426,7 @@
 
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkUzbekistanH2" class="news2KnowH1">From Uzbekistan to America: One Airman's Tale - 6/27/2019</h2>
                 </div>
@@ -7570,7 +7505,7 @@
 
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSjodenH2" class="news2KnowH1">Dr Glenn Sjoden, AFTAC Chief Scientist, Is Leaving</h2>
                 </div>
@@ -7652,7 +7587,7 @@
 
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkLtH2" class="news2KnowH1">A1C with PhD now a 2Lt - 6/6/2019</h2>
                 </div>
@@ -7808,7 +7743,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCannonH2" class="news2KnowH1">Cannon Shot Nuclear Test - 5/27/2019</h2>
                 </div>
@@ -7832,12 +7767,12 @@
 
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSecLabH2" class="news2KnowH1">Secret lab at Patrick Air Force Base - 4/23/2019</h2>
                 </div>
 
-                <article class="archivedNews noDisplay">
+                <article class="archivedNews noDisplay noDisplay">
                     <div class="clear"></div>
 
                     <article id="ntkSecLabPara" class="n2KPara noDisplay">
@@ -7928,7 +7863,7 @@
            
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkTNTH2" class="news2KnowH1">Using dynamite and TNT to enhance nuclear mission - 4/17/2019</h2>
                 </div>
@@ -8000,7 +7935,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkMentorsH2" class="news2KnowH1">Divisional wins lead to state competition for AFTAC mentors - 4/17/2019</h2>
                 </div>
@@ -8050,7 +7985,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkNuclearH2" class="news2KnowH1">Nuclear air sampling aircraft on display at Patrick AFB - 3/14/2019</h2>
                 </div>
@@ -8129,7 +8064,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="n2kB2BH2" class="news2KnowH1">Rare boat-to-boat transfer executed on the high seas - 3/13/2019</h2>
                 </div>
@@ -8196,7 +8131,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="n2kCommissaryH2" class="news2KnowH1">Defense Department pushing ahead to merge commissary and exchange systems - 3/13/2019</h2>
                 </div>
@@ -8246,7 +8181,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStaffersH2" class="news2KnowH1">Congressional staffers learn about AFTAC’s heritage, mission - 3/13/2019</h2>
                 </div>
@@ -8278,7 +8213,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStem1H2" class="news2KnowH1">STEM outreach key to uniting Airmen with students - 2/20/2019</h2>
                 </div>
@@ -8375,7 +8310,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHockeyH2" class="news2KnowH1">Another tournament, another trophy for AFTAC Hockey - 1/16/2019</h2>
                 </div>
@@ -8429,7 +8364,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkA1CH2" class="news2KnowH1">A1C with Ph.D. lands job at nuclear treaty monitoring center - 12/16/2018</h2>
                 </div>
@@ -8507,7 +8442,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCardboardH2" class="news2KnowH1">Our Cardboard Christmas Tree - 11/28/2018</h2>
                 </div>
@@ -8548,7 +8483,7 @@
                     </article>
                 </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHoopH2" class="news2KnowH1">Hoop coaches, life mentors: AFTAC Airmen engage with community youth - 11/16/2018</h2>
                 </div>
@@ -8646,7 +8581,7 @@
                     </article>
                 </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSelfieH2" class="news2KnowH1">Leadership in a Selfie Culture - 11/6/2018</h2>
                 </div>
@@ -8679,7 +8614,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkWE18H2" class="news2KnowH1">AFTAC molecular biologist represents Air Force at SWE18 conference - 11/6/2018</h2>
                 </div>
@@ -8711,7 +8646,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkChiefH2" class="news2KnowH1">Air Force Chief Scientist pays visit to treaty monitoring center - 10/22/2018</h2>
                 </div>
@@ -8770,7 +8705,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkMacgyverH2" class="news2KnowH1">Downrange ‘MacGyvers’ creatively get the job done - 10/3/2018</h2>
                 </div>
@@ -8870,7 +8805,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkTestlaH2" class="news2KnowH1">Musical Tesla Coil, 3-D printer draws crowd at Science Bowl - 10/2/2018</h2>
                 </div>
@@ -8946,7 +8881,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkProtoTypeH2" class="news2KnowH1">Creative prototype leads to fielded implementation - 9/20/2018</h2>
                 </div>
@@ -9014,7 +8949,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkChemistH2" class="news2KnowH1">Chemist at AFTAC earns award from national Hispanic organization - 9/19/2018</h2>
                 </div>
@@ -9078,7 +9013,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkFailureH2" class="news2KnowH1">eFAILution Wall:  Failure + Learning = Successful Evolution - 9/18/2018</h2>
                 </div>
@@ -9170,7 +9105,7 @@
         </section>
 
             <section>
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkHockeyWinH2" class="news2KnowH1">AFTAC Hockey takes trophy at charity match - 9/18/2018</h2>
                     </div>
@@ -9225,7 +9160,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkRelocateH2" class="news2KnowH1">Center exercises capability to relocate treaty monitoring mission - 9/6/2018</h2>
                     </div>
@@ -9286,7 +9221,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkStemGirlsH2" class="news2KnowH1">Breaking the STEM mold, one woman at a time - 8/24/2018</h2>
                     </div>
@@ -9417,7 +9352,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkSkillsH2" class="news2KnowH1">Contractor with treaty monitoring center puts lifesaving skills to the test - 8/24/2018</h2>
                     </div>
@@ -9466,7 +9401,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkPhoneH2" class="news2KnowH1">AFTAC upgrades phone system to enhance security - 8/23/2018</h2>
                     </div>
@@ -9516,7 +9451,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkSFSH2" class="news2KnowH1">Cop for a Day: AFTAC Airmen learn role of base Security Forces - 8/21/2018</h2>
                     </div>
@@ -9597,7 +9532,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkbuzzH2" class="news2KnowH1">Not just a buzzword; AFTAC showcases innovation to ISR community - 7/9/2018</h2>
                     </div>
@@ -9663,7 +9598,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstemawardH2" class="news2KnowH1">Officials announce 2018 ACC STEM Award winners - 6/26/2018</h2>
                     </div>
@@ -9720,7 +9655,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstormsH2" class="news2KnowH1">When the storms of life arise, how do you survive the onslaught? - 6/25/2018</h2>
                     </div>
@@ -9789,7 +9724,7 @@
                     </article>
                 </section>
    
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkchangeH2" class="news2KnowH1">New commander inherits newly-structured Air Force organization - 6/20/2018</h2>
                     </div>
@@ -9861,7 +9796,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay">
+                <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkmonitoringH2" class="news2KnowH1">24/7 treaty monitoring center ready for contingency ops - 6/15/2018</h2>
                     </div>
@@ -9939,7 +9874,7 @@
             </section>
 
             <section>
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkskypeH2" class="news2KnowH1">Florida Airmen Skype with Georgia middle school students - 5/12/2018</h2>
                     </div>
@@ -10010,7 +9945,7 @@
                         </article>
                    </section>
 
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcommH2" class="news2KnowH1">Reorganization brings structure, leadership to treaty monitoring center - 5/9/2018</h2>
                     </div>
@@ -10108,7 +10043,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcitizenH2" class="news2KnowH1">Reserve Citizen Airman sets sail as first reserve mission commander - 5/1/2018</h2>
                     </div>
@@ -10179,7 +10114,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntknuclearH2" class="news2KnowH1">DoD’s sole nuclear surveillance unit undergoes organizational change - 4/25/2018</h2>
                     </div>
@@ -10247,7 +10182,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstemH2" class="news2KnowH1">With help from Airmen, Boy Scouts earn prestigious merit badge - 4/15/2018</h2>
                     </div>
@@ -10330,7 +10265,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntktreatyH2" class="news2KnowH1">Treaty Monitoring Center inducts three to its Wall of Honor - 4/4/2018</h2>
                     </div>
@@ -10400,7 +10335,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkgrassH2" class="news2KnowH1">Grass does not grow under this octogenarian’s feet - 3/31/2018</h2>
                     </div>
@@ -10485,7 +10420,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkhockeyH2" class="news2KnowH1">AFTAC Hockey Team receives special Congressional recognition - 3/31/2018</h2>
                     </div>
@@ -10545,7 +10480,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcommandH2" class="news2KnowH1">25th AF commander immerses into treaty monitoring mission - 3/1/2018</h2>
                     </div>
@@ -10619,7 +10554,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkindustH2" class="news2KnowH1">Industry Day brings high-tech companies to AFTAC - 2/28/2018</h2>
                     </div>
@@ -10675,7 +10610,7 @@
                </section>
 
           <section>
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkwiseH2" class="news2KnowH1">AFTAC hosts annual WiSE Symposium - 2/15/2018</h2>
                     </div>
@@ -10751,7 +10686,7 @@
 
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntksecAfH2" class="news2KnowH1">SecAF briefed on AFTAC role in nuclear explosions - 2/15/2018</h2>
                     </div>
@@ -10803,7 +10738,7 @@
                     </article>
                 </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkholmesH2" class="news2KnowH1">Holmes, Batten pay first visit to nuclear treaty monitoring center - 1/26/2018</h2>
                     </div>
@@ -10886,7 +10821,7 @@
                     </article>
                 </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkantarcticH2" class="news2KnowH1">Airmen travel to Earth’s southernmost point for annual maintenance 1/16/2018</h2>
                 </div>
@@ -10963,7 +10898,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkgeneralH2" class="news2KnowH1">AFTAC civilian, Army Reservist selected for promotion to brigadier general 12/5/2017</h2>
                 </div>
@@ -11001,7 +10936,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkmariaH2" class="news2KnowH1">AFTAC civilian returns to duty after Hurricane Maria relief efforts 11/30/2017</h2>
                 </div>
@@ -11071,7 +11006,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkharkinsH2" class="news2KnowH1">AFTAC names lab after ‘giant’ of nuclear forensics 11/24/2017</h2>
                 </div>
@@ -11153,7 +11088,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkionsH2" class="news2KnowH1">Ions and betas and treaties, oh my! 11/8/2017</h2>
                 </div>
@@ -11225,7 +11160,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkValorH2" class="news2KnowH1">AFTAC Airman honored with Valor Award for life-saving actions 9/27/2017</h2>
                 </div>
@@ -11273,7 +11208,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHurricaneH2" class="news2KnowH1">Nuclear Treaty Monitoring unit cleans up after Hurricane Irma 9/16/2017</h2>
                 </div>
@@ -11500,7 +11435,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkNokH2" class="news2KnowH1">Air Force team monitors North Korean nuclear threat 9/16/2017</h2>
                 </div>
@@ -11568,7 +11503,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSailorH2" class="news2KnowH1">Sixth generation Sailor, first generation Airman 8/29/2017</h2>
                 </div>
@@ -11632,7 +11567,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCyberH2" class="news2KnowH1">Cyberspace domain critical to Nuclear Treaty Monitoring 8/29/2017</h2>
                 </div>
@@ -11697,7 +11632,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+            <section class="archivedNews noDisplay noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStemH2" class="news2KnowH1">AFTACers thrill young STEM minds, get surprise visit from HAF 3-star 8/23/2017</h2>
                 </div>
@@ -11836,7 +11771,7 @@
                 </article>
             </section>
 
-               <section class="archivedNews noDisplay">
+               <section class="archivedNews noDisplay noDisplay">
                     <div class="aLeft">
                     <h2 id="ntkTopsH2" class="news2KnowH1">Tech Ops Squadron is heartbeat of nuke treaty monitoring from air, sea, space 5/23/2017</h2>
                     </div>

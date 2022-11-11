@@ -4175,14 +4175,6 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#myGolf').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#GolfArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#GolfArt").offset().top
-        }, 500);
-    });
-
     $('#my79Years').click(function () {
         window.open('_PDFs/79 Years Ago.pdf');
     });
@@ -4741,6 +4733,8 @@ $(document).ready(function () {
         $('#newsToKnowArt').removeClass('noDisplay').addClass('block');
         $('.news2KnowH1').removeClass('noDisplay').addClass('block');
         $('.ntkButs').removeClass('noDisplay').addClass('block');
+        $('.archivedNews').removeClass('block').addClass('noDisplay');
+        $('.currentNews').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#mainHeader").offset().top
         }, 500);
