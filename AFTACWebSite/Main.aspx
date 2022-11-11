@@ -273,6 +273,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myPound" class="announcement blueText">Dona Pound's Obituary was Posted.</td>
+                                    <td class="posted blueText">11/11/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWilliamson" class="announcement blueText">Gail Williamson's Obituary was Posted.</td>
                                     <td class="posted blueText">11/2/2022</td>
                                     <td class="event blueText"></td>
@@ -345,7 +350,7 @@
 
             <div class="floatLeft width45">
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
-                    <p class="blueText fontSize1_Halfem centerText">Friday 21 October<br />
+                    <p class="blueText fontSize1_Halfem centerText">Monday 14 November<br />
                         11:30 - 13:30 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
@@ -2992,6 +2997,8 @@
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                        <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
+<%--                        <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>--%>
                         <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>
                         <li><a href="_Minutes/7-22-2022_Minutes.pdf" target="_blank">7-22-2022</a></li>
                         <li><a href="_Minutes/6-24-2022_Minutes.pdf" target="_blank">6-24-2022</a></li>
@@ -12243,6 +12250,34 @@
         <article id="currentObitsArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkred">Recent Obits</p>
             <div class="centerDiv">
+                <article>
+                    <div>
+                        <h2 id="PoundH2" class="obitH1">Donna Pound - 11/7/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="PoundPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Pound.png" class="floatLeft width30 rightMarginHalfem maroonBorder showShadow" src="_Photos/obitpics/Pound.png" />                            
+                            OBITUARY<br />
+                            Donna Lee Pound<br />
+                            NOVEMBER 9, 1941 – NOVEMBER 7, 2022<br />
+                            Obituary of Donna Lee Pound<br />
+                            IN THE CARE OF<br />
+                            Life Event Center at Florida Memorial Gardens<br />
+                            Donna Lee Pound, born November 9th, 1941 and passed away November 7th, 2022.<br />
+                            She was preceded by her husband of 52 years Galen W. Pound.
+                            <br /><br />
+                            Donna is survived by her daughters Renay and Jeff Crouse, Colene Hewitt and Tammy and Duane Bond. She has six grandchildren Amanda and Matt Rinehart, Sabrina Hewitt, and Katlin, Randy and Rachel Bond; also 5 great grandchildren Paige and Annabelle Underwood, Serenity White, Thomas Bond and Malechkai Hagar.
+                            <br /><br />
+                            Donna attended Pineda Presbyterian Church and enjoyed her many jobs over the years. Donna enjoyed crocheting, reading and cruising. She was so loved by family and friends and will be sadly missed.
+                            <br /><br />
+                            A visitation for Donna will be held Sunday, November 13, 2022 from 6:00 PM to 8:00 PM at Life Event Center at Florida Memorial, 5950 S US Highway 1, Rockledge, Florida. A funeral service will occur Monday, November 14, 2022 from 10:00 AM at Life Event Center at Florida Memorial.
+                            <br /><br />
+                            Fond memories and expressions of sympathy may be shared with the Pound Family by clicking <a href="http://FloridaMemorialFH-Gardens.com" target="_blank">HERE</a>.
+                        </p>
+                    </div>
+                </article>
+
                 <article>
                     <div>
                         <h2 id="WilliamsonH2" class="obitH1">Gail Marie Williamson - 10/16/2022 </h2>

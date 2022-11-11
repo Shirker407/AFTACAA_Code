@@ -1448,6 +1448,10 @@ $(document).ready(function () {
         window.open('_pdfs/Finlayson bio.pdf', '');
     });
 
+    $('#myPound').click(function () {
+        OpenObit('Pound');
+    });
+
     $('#myWilliamson').click(function () {
         OpenObit('Williamson');
     });
@@ -1467,6 +1471,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'PoundH2':
+                ShowMyObit('Pound')
+                break;
             case 'WilliamsonH2':
                 ShowMyObit('Williamson')
                 break;
