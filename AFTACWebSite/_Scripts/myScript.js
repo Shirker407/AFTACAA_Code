@@ -1444,6 +1444,14 @@ $(document).ready(function () {
         window.open('_pdfs/Commander_Note.pdf', '');
     });
 
+    $('#mySign').click(function () {
+        OpenNTK('Sign')
+    });
+
+    $('#myCTBTO').click(function () {
+        OpenNTK('CTBTO')
+    });
+
     $('#myFinlayson').click(function () {
         window.open('_pdfs/Finlayson bio.pdf', '');
     });
@@ -1722,6 +1730,12 @@ $(document).ready(function () {
     $('.news2KnowH1').click(function () {
         myText = $(this).html(); //Get the text inside of the news2KnowH1 that was clicked.
         switch (myText) {
+            case "The Art of Sign in a Secure Environment - 11/14/2022":
+                OpenNTKfromMenu('Sign');
+                break;
+            case "CTBTO Executive Secretary visits AFTAC - 11/12/2022":
+                OpenNTKfromMenu('CTBTO');
+                break;
             case "Finlayson takes command of nuclear treaty monitoring center - 7/6/2022":
                 OpenNTKfromMenu('Finlayson');
                 break;
@@ -1893,7 +1907,7 @@ $(document).ready(function () {
             case "AFTAC Hockey takes trophy at charity match - 9/18/2018":
                 OpenNTKfromMenu('HockeyWin');
                 break;
-            case "Florida Airmen Skype with Georgia middle school students - 5/12/2018" :
+            case "Florida Airmen Skype with Georgia middle school students - 5/12/2018":
                 OpenNTKfromMenu('skype');
                 break;
             case "AFTAC hosts annual WiSE Symposium - 2/15/2018":
@@ -3988,15 +4002,6 @@ $(document).ready(function () {
 
     $('#universal').click(function () {
         window.open('https://www.military.com/discounts/universal-orlando-has-new-2019-military-discount.html?utm_medium=Social&utm_source=Facebook&fbclid=IwAR2P8YbBqcfEPXo7Ox_je1F90QtpWbdIrCQmTwczaoTIzO8rgGXJuSLuI2M#Echobox=1565196335', '');
-    })
-
-
-    $('#myColBreakfast').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#ColBreakfastArt').removeClass('noDisplay').addClass('block')
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#ColBreakfastArt").offset().top
-        }, 500);
     })
 
     $('#golf2019').click(function () {

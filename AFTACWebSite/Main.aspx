@@ -273,6 +273,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySign" class="announcement blueText">The Art of Sign in a Secure Environment.</td>
+                                    <td class="posted blueText">11/11/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCTBTO" class="announcement blueText">CTBTO Executive Secretary visits AFTAC.</td>
+                                    <td class="posted blueText">11/11/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPound" class="announcement blueText">Dona Pound's Obituary was Posted.</td>
                                     <td class="posted blueText">11/11/2022</td>
                                     <td class="event blueText"></td>
@@ -286,11 +296,6 @@
                                     <td id="myAnderholm" class="announcement blueText">Nordin "Curt" Anderholm's Obituary was Posted.</td>
                                     <td class="posted blueText">11/2/2022</td>
                                     <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myColBreakfast" class="announcement greenText">Colorados Fall/Veterans Dinner</td>
-                                    <td class="posted greenText">10/11/2022</td>
-                                    <td class="event greenText">11/12/2022</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myKimball" class="announcement blueText">Earl Jack Kimball's Obituary was Posted.</td>
@@ -366,33 +371,6 @@
             </div>
 
             <div class="clear"></div>
-        </article>
-
-        <article id="ColBreakfastArt" class="myArts noDisplay">
-            <p class="pTitle underLine centerText">Fall/Veterans Dinner</p>
-            <p>
-                Dear AFTAC & LRD Alumni, Active Duty, Civilians, Family and Friends
-                <br /><br />
-                You are cordially invited to join us at our annual Fall/Veterans Dinner on 12 November 2022.
-                <br /><br />
-                Dinner selections are Prime Rib or Chicken Picata with twice baked potato and Italian vegetables.
-                <br /><br />
-                Location/Time: Aurora Hills Golf Course, Tin Cup Banquet Room, 50 S. Peoria St. Aurora, CO 80012; Social hour starts at 1700 (5PM) and dinner will be served at 1800 (6PM).
-                <br /><br />
-                Cost: $33; Children 10 and under Free; Active Duty Military plus one guest $25 each.
-                <br /><br />
-                Dress is business casual.
-                <br /><br />
-                Please RSVP by email or phone and include your dinner selection and payment method to Maureen Hampson. You can email to treasurer@aftacco.org or leave a message at 303-695-0477.
-                <br /><br />
-                Please RSVP as soon as possible but no later than 5 November 2022. We need an accurate headcount to plan the dinner.
-                <br /><br />
-                Payment can be made by one of two methods:<br />
-                • PayPal (we will send an invoice to your email) or,<br />
-                • Payment will be collected at the dinner by cash or check made out to Maureen Hampson
-                <br /><br />
-                We look forward to seeing you there!
-            </p>
         </article>
 
         <article id="FriendsArt" class="myArts centerDiv noDisplay">
@@ -2998,7 +2976,7 @@
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
                         <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
-<%--                        <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>--%>
+                        <li><a href="_Minutes/9-16-2022_Minutes.pdf" target="_blank">9-16-2022</a></li>
                         <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>
                         <li><a href="_Minutes/7-22-2022_Minutes.pdf" target="_blank">7-22-2022</a></li>
                         <li><a href="_Minutes/6-24-2022_Minutes.pdf" target="_blank">6-24-2022</a></li>
@@ -5557,6 +5535,128 @@
 
             <div class="clear"></div>
 
+           <section id="secSign" class="block">
+                <div class="block">
+                    <div class="aLeft">
+                        <h2 id="ntkSignH2" class="currentNews news2KnowH1">The Art of Sign in a Secure Environment - 11/14/2022</h2>
+                    </div>
+                </div>
+               <div class="clear"></div>
+                <article id="ntkSignPara" class="n2KPara noDisplay">
+                    <p>
+                        PATRICK SPACE FORCE BASE, Fla. -- PATRICK SPACE FORCE BASE, Fla. --  
+                        There is an old saying that goes, “Actions speak louder than words.” For one employee at the Air Force Technical Applications Center, certain actions are executed at just the right volume.
+                        <br /><br />
+                        Le Chen, a statistician with the 21st Surveillance Squadron here, was hired in August to work at the Department of Defense’s sole nuclear treaty monitoring center. His role is to use mathematical formulas and techniques to analyze and interpret copious amounts of technical data the center receives on a daily basis.
+                        <br /><br /> 
+                        Chen is also deaf and communicates almost exclusively using sign language.
+                        <br /><br />
+                        So how does an employee in a secure facility whose mission is considered “no fail” with international-level implications, operate in an environment where few people are fluent signers?
+                        <br /><br /> 
+                        “There are many ways for my co-workers to communicate with me,” Chen said. “Email and online chat functions are great ways for me to send and receive messages from my peers and supervisors, and I always have a white board or notepad next to me so we can write notes to each other.”
+                        <br /><br />
+                        Chen also relies on body language, eye contact, facial expressions, posture, hand gestures, and even silence to understand the message being relayed.
+                        <br /><br />
+                        “I am not a lip reader, but I have learned to interpret conversations in a variety of ways, and I always appreciate it when a colleague tries to learn a few words or phrases using sign language, even if they just use their fingers to count numbers!”
+                        <br /><br />
+                        Chen grew up in the shadow of the nation’s capital and earned his bachelor’s degree in Mathematics from Gallaudet University in Washington, D.C., the only university in the world designed for deaf or hard of hearing students. From there, he went on to earn his master’s degree in Statistics from Georgia State University. According to the Maryland native, both had their own set of challenges.
+                        <br /><br />
+                        “Signing has always been my primary form of communication,” he said. “English is my first language, so since I was in Kindergarten, I used what’s called SEE and PSE. SEE stands for ‘Signed Exact English’ and PSE stands for ‘Pidgin Signed English.’”
+                        <br /><br />
+                        For clarity, SEE is an exact word-for-word translation of spoken English, using proper grammar as it would be written on paper. PSE, on the other hand, is a combination of SEE and American Sign Language (ASL). Many in the hearing-impaired community (as well as translators who are not deaf) use this fusion of both SEE and ASL.
+                        <br /><br />
+                        ASL is the predominant language in deaf communities in the United States and portions of English-speaking Canadian provinces. It is a visual language that is expressed through hand- and facial-gestures. Much like any language, regions adopt certain dialects, fingerspelling, and patterns the same way areas of the U.S. have spoken accents. Signers from the South tend to have a slower, more easy-going flow, whereas Northeasterners have more quick, snappier gestures.
+                        <br /><br />
+                        Chen prides himself on being skilled in all forms of sign communication.
+                        <br /><br />
+                        Prior to joining AFTAC, the trained statistician was a bioinformatics specialist for the National Institutes of Health in Bethesda, Md., focusing on deafness and other communication disorders. He was excited when he found the opening for a data scientist at the treaty monitoring center.
+                        <br /><br />
+                        “I was really happy to find a position where I could use my education and apply my past experience,” Chen said. “It’s not often you find statistician jobs at a pay grade I was looking for. But I wasn’t expecting that I’d be working for a military branch that would require a security clearance!”
+                        <br /><br />
+                        His selection presented an interesting situation to AFTAC’s Human Resource office.
+                        <br /><br />
+                        “In order to leverage Mr. Chen’s unique attributes, AFTAC HR has re-thought the way we do business as a government organization,” said Audrey Capps, AFTAC’s Chief of Human Resources. “To meet the needs of a more diverse workforce, we have worked to ensure all hiring processes are accessible to tap into every applicant’s potential. We were excited to offer Mr. Chen the opportunity to interview with us and showcase his skills without barriers of traditional communication. The interview process allowed the hiring manager to have written communication in a live format, which was a win-win for all involved.”
+                        <br /><br />
+                        When asked what one of his biggest challenges has been as a person with a hearing impairment, Chen described the division that still exists within the deaf community.
+                        <br /><br />
+                        “There are categories that tend to divide us into groups – the small ‘d’ people, the big ‘D’ people, signers, lip readers, oral speakers, cochlear implant people, etc. Unfortunately, this division tends to further isolate the deaf community, but I do think we’re slowing coming along with the help of technology, social media, online apps, and education.”
+                        <br /><br />
+                        [Editor’s note:  small ‘d’ refers to people who typically lost their hearing later in life and do not necessarily associate themselves with the deaf community, whereas big ‘D’ refers to those who were born deaf and fully identify themselves as a member of the deaf community.]
+                        <br /><br />
+                        “In other words,” Chen explained, “the big ‘D’ world has its own cultural identity, unlike the small ‘d’ people, who might not have their own deaf identity.”
+                        <br /><br />
+                        As an AFTAC employee, Chen does not expect to have a full-time interpreter at his side, but knows he can request one for certain situations, training sessions, or other events that could impact his work responsibilities.
+                        <br /><br />
+                        “Over the years I have learned that it’s more important to build good relationships with supervisors and colleagues, not with interpreters,” he explained. “Sure, it’s great and convenient to have an interpreter at your side to translate what’s being discussed, but that should be the exception, not the norm. Building a network with those you work with is far more impactful, even if it means having that dialog in non-traditional ways.”
+                        <br /><br />
+                        Chen has had several people of influence in his life, but he credits one person in particular who has had the greatest impact on him.
+                        <br /><br />
+                        “My dad isn’t just a father to me; he’s my mentor,” Chen said. “He always placed great importance on education, especially in science fields like chemistry, physics, and math. He is a gifted neurologist and currently works as a staff scientist at the National Institutes of Health. He taught me that self-learning is a critical skill to have, and it’s one of the best ways to develop a baseline that a formal education might not provide.”
+                        <br /><br />
+                        When he’s not crunching numbers or conducting statistical analysis, Chen likes to spend his off time in the great outdoors.
+                        <br /><br />
+                        “Hiking is probably one of my most favorite hobbies,” he said. “It helps me explore new landmarks and exposes me to some of the most beautiful places on earth. Before I moved to Florida, my parents and I traveled to Peru to visit their national parks – Machu Picchu, Rainbow Mountain, and Humantay Lake. We also visited Patagonia’s Torres del Paine to experience the majestic mountain peaks, and Argentina’s Perito Moreno National Park to see the glacier there. All of them were spectacular! It was a lifetime goal of mine to see those places, and I learned that I can quickly adapt to very high altitudes without getting altitude sickness or needing an oxygen cylinder. Cusco is more than 11,000 feet above sea level, and I had no problems at all!”
+                        <br /><br />
+                        His supervision has been impressed with his work ethic and ability to adapt to his work environment.
+                        <br /><br />
+                        “I am very happy to have him on the team,” said Dr. Malek Chatila, Chief of the Debris Analysis Flight, and one of AFTAC’s Diversity, Equity, Inclusion & Accessibility team leads. “We worked closely with Human Resources, the AFTAC Security Office, and Darrell Archard, the 709th Surveillance and Analysis Group security manager, to make Mr. Chen’s transition and in-processing as smooth as possible, especially since the organization did not have the experience in recruiting a hearing-impaired individual.”
+                        <br /><br />
+                        Chatila continued, “We are making headway in obtaining the necessary accommodation technologies for him, but the pace has been slower than we would have hoped. While I believe in the DEI&A principles, I will emphasize that Mr. Chen was solely selected for this position based on his merit.”
+                        <br /><br />
+                        Chatila also emphasized the productive and supportive role the former 21st SURS commander, Lt. Col. Shaun Easley, played at the time of Mr. Chen’s selection, and the continued support of the current squadron commander, Lt. Col. Stephen Jimenez.
+                        <br /><br />
+                        “AFTAC prides itself on having a highly technical workforce operating in a diverse and inclusive work environment,” said Jimenez. “Due to his extensive qualifications and the efforts of Dr. Chatila and many others, Le has not only been a welcome addition to the AFTAC family, but also a necessary one in order to cultivate and maintain the technical skills to execute the mission. I hope his presence and contributions help to encourage and educate others both now and in the future.” 
+                        <br /><br />
+                        October is National Disability Employment Awareness Month and through a Congressional declaration in 1988, it is a vehicle to raise awareness of the employment needs and contributions of individuals with all types of disabilities.
+                    </p>
+                </article>
+            </section>
+
+           <section id="secCTBTO" class="block">
+                <div class="block">
+                    <div class="aLeft">
+                        <h2 id="ntkCTBTOH2" class="currentNews news2KnowH1">CTBTO Executive Secretary visits AFTAC - 11/12/2022</h2>
+                    </div>
+                </div>
+               <div class="clear"></div>
+                <article id="ntkCTBTOPara" class="n2KPara noDisplay">
+                    <p>
+                        <img alt="CTBTO1.png" class="floatLeft rightMargin1em width50 maroonBorder showShadow" src="_Photos/News2Know/CTBTO1.png" />
+                        PATRICK SPACE FORCE BASE, Fla. -- The executive secretary of the Comprehensive Nuclear-Test-Ban Treaty Organization visited the Air Force Technical Applications Center Oct. 25 to learn more about the intricate and important partnership the two agencies share.
+                        Dr. Robert Floyd took over as CTBTO’s top leader in August 2021 and in that role, he is responsible for promoting universal recognition of the CTBT, while simultaneously building up the verification regime to ensure no nuclear explosion can go undetected.
+                        <br /><br />
+                        Accompanying the secretary were Sabine Bauer, Floyd’s Special Assistant, and Megan Slinkard, Chief of Software Applications at the International Data Centre.
+                        <br /><br />
+                        The distinguished visitors were provided an in-depth overview of the center’s treaty monitoring mission, as well as a briefing on current global operations.
+                        <br /><br />
+                        Since 1996, AFTAC and CTBTO’s Preparatory Commission have shared a long-term working relationship with the same vital goal in mind:  global nuclear nonproliferation.  The center has a long history as the United States’ premier organization devoted to nuclear treaty monitoring using national technical means, while the commission is tasked with developing a global network to detect nuclear explosions in any environment worldwide.
+                        <br /><br />
+                        In addition to receiving updates on current events and background on AFTAC’s overseas detachments, Floyd and his team toured the Maintenance Operations Control Center to understand how AFTAC monitors and restores mission status and functionality of its 3,600+ sensors worldwide, and how it interfaces and partners with the IDC to resolve data outages.
+                        <br /><br />
+                        The secretary also visited the 709th Support Squadron’s Component Repair Facility to speak with maintenance technicians about their precision seismic equipment that contributes to the International Monitoring System.
+                        <br /><br />
+                        “This has been an absolutely fascinating opportunity,” Floyd said.  “It’s wonderful to meet the experts who perform such a critical role in nuclear nonproliferation.  I am so impressed with the team here and they should know how valuable their contributions are to global security.”
+                        <br /><br />
+                        <img alt="CTBTO1.png" class="floatRight leftMargin1em width50 maroonBorder showShadow" src="_Photos/News2Know/CTBTO2.png" />
+                        While the U.S. has yet to officially enter the Comprehensive Test Ban Treaty into force, Floyd stressed the significance of the support countries like the U.S. give to the program.              
+                        <br /><br />
+                        “I hold nothing but hope that someday all nations will recognize the influence they’ve had in reducing the number of nuclear tests that have been performed,” he said.  “Think about it – before the CTBT was signed in 1996, there were more than 2,000 nuclear tests conducted around the world.  But after the treaty was drafted, less than a dozen were carried out, and only one – one! – has taken place this century.  I consider that an outstanding success.”
+                        <br /><br />
+                        The last stop on his tour was to the Ciambrone Radiochemistry Lab, the only radiochemistry lab of its kind operated by the United States Air Force.  Here the secretary was shown how lab personnel identify, analyze, and assess radiological or nuclear debris at the 38,000 square-foot facility in support of the center’s Nuclear Debris Collection and Analysis program.
+                        <br /><br />
+                        “Our journey here was nothing short of amazing,” Floyd said.  “We as a global society are facing some grave concerns – the threat and potential for nuclear conflict exists, and those are significant challenges.  But the world is looking to us for leadership and direction on these sensitive issues, which is why it’s so important to strengthen the bonds like the ones we have with AFTAC to make the world a safer place for the good of humanity.”
+                        <br /><br />
+                        Davis Sebree, a technician at the U.S. Air Force Radiochemistry Laboratory at Patrick Space Force Base, Fla., uses an Alpha/Beta Survey Meter to check for potential contamination on the hands of Dr. Robert Floyd, Comprehensive Nuclear-Test-Ban Treaty Organization Executive Secretary. Floyd was appointed as CTBTO’s top leader in August 2021, and this was his first trip to the nuclear treaty monitoring center. 
+                        <img alt="CTBTO3.png" class="floatLeft rightMargin1em width50 maroonBorder showShadow" src="_Photos/News2Know/CTBTO3.png" />
+                        To date, 186 nations have signed and 176 have ratified the treaty to ban nuclear explosions everywhere: on the earth’s surface, in the atmosphere, underwater, and underground, whether for peaceful or military purposes.
+                        <br /><br />
+                        Today, AFTAC continues to improve the U.S. Atomic Energy Detection System, the global network of sensors that detect potential nuclear detonations underground, underwater, in the atmosphere and in space.  As the nation’s caretaker of U.S. Atomic Energy Detection System, AFTAC contributes six of its U.S.-based USAEDS seismic monitoring stations to the IMS to strive for a safer and more secure world.
+                        <br /><br />
+                        “I am so deeply appreciative of the generous support and partnership with AFTAC,” Floyd said.  “The CTBTO and the IDC would not be where it is today without the contributions of AFTAC.”
+                    </p>
+                </article>
+            </section>
+
            <section id="secFinlayson" class="block">
                 <div class="block">
                     <div class="aLeft">
@@ -5623,8 +5723,6 @@
                         <h2 id="ntkEffectiveH2" class="archivedNews noDisplay news2KnowH1">AFTAC earns highly effective rating from Inspector General - 2/3/2021</h2>
                     </div>
                 </div>
-
-                <div class="clear"></div>
 
                 <article id="ntkEffectivePara" class="n2KPara noDisplay">
                     <figure>

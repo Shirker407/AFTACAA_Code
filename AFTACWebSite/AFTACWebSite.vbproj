@@ -530,6 +530,9 @@
     <Content Include="_Photos\News2Know\covidPic1.JPG" />
     <Content Include="_Photos\News2Know\CovidPic2.JPG" />
     <Content Include="_Photos\News2Know\crf.jpg" />
+    <Content Include="_Photos\News2Know\CTBTO1.png" />
+    <Content Include="_Photos\News2Know\CTBTO2.png" />
+    <Content Include="_Photos\News2Know\CTBTO3.png" />
     <Content Include="_Photos\News2Know\curbside1.jpg" />
     <Content Include="_Photos\News2Know\curbside2.png" />
     <Content Include="_Photos\News2Know\Dickey.JPG" />
@@ -1564,6 +1567,7 @@
     <Content Include="_PDFs\79 years ago.pdf" />
     <Content Include="_Minutes\8-19-2022_Minutes.pdf" />
     <Content Include="_Minutes\10-21-2022_Minutes.pdf" />
+    <Content Include="_Minutes\9-16-2022_Minutes.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
