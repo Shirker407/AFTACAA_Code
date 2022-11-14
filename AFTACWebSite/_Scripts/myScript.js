@@ -163,10 +163,6 @@ $(document).ready(function () {
         $('#FloridaTodayArt').removeClass('noDisplay').addClass('block');
     });
 
-    $('#myTricare').click(function () {
-        window.open('_pdfs/Tricare for Life.pdf', '');
-    });
-
     $('#myFun').click(function () {
         //window.open('https://rumble.com/vff98d-room-with-a-view-by-frank.html', '');
         //window.open('https://rumble.com/vcs90t-incredible-dust-pan-artist.html', '');
@@ -1438,6 +1434,14 @@ $(document).ready(function () {
 
     $('#btnMore').click(function () {
         window.open('https://www.offutt.af.mil/News/Article/3090736/team-offutt-welcomes-first-wc-135r-to-its-fleet/fbclid/team-offutt-welcomes-first-wc-135r-to-its-fleet/', '');
+    });
+
+    $('#myTricare').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#TricareArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("TricareArt").offset().top
+        }, 500);
     });
 
     $('#myNote').click(function () {

@@ -273,6 +273,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myTricare" class="announcement redText">TriCare Enrollment Change</td>
+                                    <td class="posted redText">11/14/2022</td>
+                                    <td class="event redText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySign" class="announcement blueText">The Art of Sign in a Secure Environment.</td>
                                     <td class="posted blueText">11/11/2022</td>
                                     <td class="event blueText"></td>
@@ -371,6 +376,24 @@
             </div>
 
             <div class="clear"></div>
+        </article>
+
+        <article id="TricareArt" class="myArts centerDiv noDisplay">
+            <p class="pTitle centerText underline">Tricare Enrollment Change</p>
+
+            <p>
+                The enrollment/change period for the Tricare Dental and Vision Policies is happening.  You only have from November 14th to December 13th to establish a program or change your existing program.  
+                <br /><br />
+                If you haven't participated in this program, you might well look into it to see what if offers compared to other dental/vision programs.  
+                <br /><br />
+                Also, some Tricare medical program costs have increased and finally, many civilian pharmacies have been removed from the Tricare Umbrella.
+                <br /><br />
+                The link below will take you to a site that explains all of these items. You'll have to ignore the frequent advertisements. 
+                <br /><br />
+                You can review the Dental/VIsion programs. Keep in mind that if you do decide to sign up for one or both of these policies, inquire from your doctor if they are "in-network" providers with the Insurance company you might choose. If they are "out-of-network", the reimbursements will more than likely be lower.
+                <br /><br />
+                To see more about this, <a href="https://www.militarytimes.com/pay-benefits/military-benefits/health-care/2022/11/03/tricare-and-fedvip-open-seasons-begin-nov-14-what-you-need-to-know/" target="_blank">Click Here.</a>
+            </p>
         </article>
 
         <article id="FriendsArt" class="myArts centerDiv noDisplay">
