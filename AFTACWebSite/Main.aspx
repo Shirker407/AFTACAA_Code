@@ -360,7 +360,7 @@
 
             <div class="floatLeft width45">
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
-                    <p class="blueText fontSize1_Halfem centerText">Monday 14 November<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 9 December<br />
                         11:30 - 13:30 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
@@ -368,6 +368,8 @@
                         Beef O'Brady's<br />
                         3030 Lake Washington Road<br />
                         Melbourne, Fl<br /> 
+                        --------------------------<br />
+                        <span class="redText">Yankee Swap this Month</span><br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Ed Lindsay, AFTACAA President, at <a href="MailTo:piston_horse@hotmail.com">Piston_Horse@hotmail.com</a>
@@ -12574,31 +12576,31 @@
             <h2 class="boardTitle centerText maroonText bold">Elected Board</h2>
             <ul class="officersList">
                 <li>
-                    <img alt="Phil Godfrey" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/board members/godfrey.jpg" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Phil Godfrey<br />(President)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-
-                <li>
-                    <img alt="Rob Christman" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Christman.JPG" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Rob Christman<br />(Vice President)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-
-                <li>
                     <img alt="Ed Lindsay" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/lindsay.png" />
                     <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Ed Lindsay<br />(Secretary)
+                        Ed Lindsay<br />(President)
                     </div>
                     <div class="clear"></div>
                 </li>
 
                 <li>
-                    <img alt="Head Outline" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Ryan.png" />
+                    <img alt="Head Outline" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Rick Manley<br />(Vice President)
+                    </div>
+                    <div class="clear"></div>
+                </li>
+
+                <li>
+                    <img alt="Head Outline" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Doug Colbary<br />(Secretary)
+                    </div>
+                    <div class="clear"></div>
+                </li>
+
+                <li>
+                    <img alt="Sean Ryan" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Ryan.png" />
                     <div class="maroonText inlineBlock topMargin2em leftMargin1em">
                         Sean Ryan<br />(Treasurer)
                     </div>
