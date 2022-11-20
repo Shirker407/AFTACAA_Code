@@ -12584,7 +12584,7 @@
                 </li>
 
                 <li>
-                    <img alt="Head Outline" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png" />
+                    <img alt="Rick Manley" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Manley.png" />
                     <div class="maroonText inlineBlock topMargin2em leftMargin1em">
                         Rick Manley<br />(Vice President)
                     </div>
@@ -12592,7 +12592,7 @@
                 </li>
 
                 <li>
-                    <img alt="Head Outline" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png" />
+                    <img alt="Doug Colbary" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Colbary.png" />
                     <div class="maroonText inlineBlock topMargin2em leftMargin1em">
                         Doug Colbary<br />(Secretary)
                     </div>
