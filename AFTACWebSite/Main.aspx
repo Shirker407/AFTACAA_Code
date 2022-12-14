@@ -3000,7 +3000,8 @@
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
-                        <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
+                       <li><a href="_Minutes/11-14-2022_Minutes.pdf" target="_blank">11-14-2022</a></li>
+                       <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
                         <li><a href="_Minutes/9-16-2022_Minutes.pdf" target="_blank">9-16-2022</a></li>
                         <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>
                         <li><a href="_Minutes/7-22-2022_Minutes.pdf" target="_blank">7-22-2022</a></li>

@@ -1571,6 +1571,7 @@
     <Content Include="_Minutes\8-19-2022_Minutes.pdf" />
     <Content Include="_Minutes\10-21-2022_Minutes.pdf" />
     <Content Include="_Minutes\9-16-2022_Minutes.pdf" />
+    <Content Include="_Minutes\11-14-2022_Minutes.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
