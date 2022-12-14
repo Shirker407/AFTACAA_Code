@@ -380,6 +380,81 @@
             <div class="clear"></div>
         </article>
 
+        <article id="Golf2022Art" class="myArts noDisplay">
+            <p class="centerText pTitle">
+                Golf N’ Get Together Fall 2022<br />
+                As told by Ed Lindsay
+            </p>
+
+            <p>
+                Your Alumni carried on a tradition that hails back to the 20th Century…the vaunted Golf N’Get Together. Through the ages, this gathering has taken on many shapes and forms. Utilizing the various golf courses that are scattered around the Space Coast, that we call home. There were events at such legendary venues as Baytree, Suntree, Cocoa Beach Country Club, Duran, and Patrick’s own Manatee Cove Golf Course. Back in the glory days of AFTAC, when HQ’s halls were full and there were Detachments strewn across the globe, we had a field with 20, 30, even 40 teams…that is 160 Alumni members and friends coming together for fellowship, story telling, some drinking, and enjoying some good food. There were times when the other AFTAC Alumni members would join up after the tourney for an Alumni meeting and more camaraderie. All great memories in the annals of the AFTAC Alumni…this gathering was to be no exception.
+            </p>
+            <figure>
+                <img alt="Golf1.png" src="_Photos/Golf2022/Golf1.png" />
+                <figcaption>
+                    Getting set up – Bob Wiley, Frank Calenda, Rick Manley, Dennis Kauffmann, Danny Holte, Frank Hall
+                </figcaption>
+            </figure>
+            <p>
+                Our previous get together was Fall 2021 after a dry spell due to COVID. There was going to be a small get together at the 2022 WorldWide Reunion, but it was called off due to predicted inclement weather (turned out it was a nice day). So the call went out and we gathered at the Manatee Cove Golf Course on Patrick Space Force Base (always sounds kinda strange).
+                <br /><br />
+                The outlook for this get together was very bleak. The event was scheduled for 14 October. By October 10th, we only had 10 teams signed up. The Base and AFTAC had been granted a four day weekend in honor of some Italian guy that had done some sailing on behalf of some Spanish Monarchs. Well after the worker bees of AFTAC deciding to return to the hive, the calls started coming in to inquire if there was still space and time to join the event. I guess they figured they could get another afternoon off and we usually had a good time and good food…so after much changing of the food order with the Tides, the Base Club, we ended up having 16 Teams (64 players) participate.
+            </p>
+            <figure>
+                <img alt="Golf2.png" src="_Photos/Golf2022/Golf2.png" />
+                <figcaption>
+                    Judy Milam-Henderson takes Photos. Ed Lindsay welcomes all..Jim Denbow, Brett Mapston, Jon Vanoord
+                </figcaption>
+            </figure>
+            <p>
+                Before I go into the short details of the tournament, I want to give a quick shout out to the real reason these events are always a success…the volunteers…our AFTAC Alumni Superstars. From the beginning, with Frank Calenda, Dave Money, Red Lindsay, Rick Manley, Dennis Kauffmann, and Danny Holte helping out to make quick work of the stuffing of the Goody Bags, Frank Hall pitched in where needed…Jan Lambert and Carol Snyder jumped in to help ensure the registration went smoothly. The photo team of Bob Wiley, Judy Milam-Henderson, Rick Manley, and Red Lindsay....made it a Super success. It was great to see our newest Vice President, Rick Manley and Secretary, Doug Colbary, join in the fun. There were a lot of conversations going on, which added to the fun. Of course, once the players hit the course, the huuuge task of counting up the money and taking care of the Door Prizes was executed flawlessly by Frank Calenda and his team. This takes a giant weight off of my mind and chest.
+                <br /><br />
+                It was a beautiful day and good golf was played by many. But the important thing is that everyone had a good time. Everyone gets a Door prize, a free drink, and dinner afterwards. Imbedded in this article is an image of the scoreboard…it indicates that there were some low rounds shot. The award winners for the days event were:
+            </p>
+            <figure class="floatLeft">
+                <img alt="Golf4.png" src="_Photos/Golf2022/Golf4.png" />
+                <figcaption">
+                    1st  – Wolverton, Horseman, & Lamberts	
+                </figcaption>
+            </figure>
+            <figure class="floatLeft">
+                <img alt="Golf5.png" src="_Photos/Golf2022/Golf5.png" />
+                <figcaption">
+                    2nd – Greg Ramsey and the Uzees
+                </figcaption>
+            </figure>
+            <div class="clear"></div>
+
+            <figure class="floatLeft">
+                <img alt="Golf6.png" src="_Photos/Golf2022/Golf6.png" />
+                <figcaption">
+                    Tony Calenda takes the Men’s Long Drive 	
+                </figcaption>
+            </figure>
+            <figure class="floatLeft">
+                <img alt="Golf8.png" src="_Photos/Golf2022/Golf8.png" />
+                <figcaption">
+                    The high score team gets the “most Honest Award”
+                </figcaption>
+            </figure>
+            <div class="clear"></div>
+            <figure class="block">
+                <img alt="Golf3.png" src="_Photos/Golf2022/Golf3.png" />
+                <figcaption">
+                    The Scoreboard….those are some LOW scores
+                </figcaption>
+            </figure>
+            <p>
+                1st Place – 51 – Mark Lambert, Craig Lambert, Scott Wolverton, Billy Horseman<br />
+                2nd Place -52- Rene Uzee, Jason Uzee, Kris Uzee, Greg Ramsey<br />
+                3rd Place -54- Brian Grew, Andy Schwartz,Jimmy Missale, Rick Hall<br />
+                Closest to the Pin – Rick Hall & Rene Uzee<br />
+                Women’s Long Drive – Andy McLaughlin<br />
+                Men’s Long Drive – Tony Calenda<br />
+                Most Honest team (high Score) – Kegman team- Derrick Langley, Susie Glasgow, Trevor Patrick, Mike Kelsey
+            </p>
+        </article>
+
         <article id="TricareArt" class="myArts centerDiv noDisplay">
             <p class="pTitle centerText underline">Tricare Enrollment Change</p>
 
