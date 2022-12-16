@@ -4323,6 +4323,17 @@ $(document).ready(function () {
         }
     });
 
+    $('#lbl2022').click(function () {
+        if ($('#2022Act').hasClass('block')) {
+            $('.myActs').removeClass('block').addClass('noDisplay');
+            $('#eventMess').removeClass('noDisplay').addClass('block');
+        }
+        else {
+            $('.myActs').removeClass('block').addClass('noDisplay');
+            $('#2022Act').removeClass('noDisplay').addClass('block');
+            $('#eventMess').removeClass('block').addClass('noDisplay');
+        }
+    });
     $('#lbl2021').click(function () {
         if ($('#2021Act').hasClass('block')) {
             $('.myActs').removeClass('block').addClass('noDisplay');
@@ -4387,6 +4398,50 @@ $(document).ready(function () {
         $('#AOYAwardArt').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#myAwardsPara").offset().top
+        }, 500);
+    });
+
+    $('#DiamondJub').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow')
+        $(this).css('color', 'lightgreen')
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#DiamondArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#DiamondArtArt").offset().top
+        }, 500);
+    });
+
+    $('#Golf2022, #myGolf2022').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow')
+        $(this).css('color', 'lightgreen')
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#Golf2022Art').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#Golf2022Art").offset().top
+        }, 500);
+    });
+
+    $('#DiamondJub, #myDiamondJub').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow')
+        $(this).css('color', 'lightgreen')
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#DiamondArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#DiamondArt").offset().top
+        }, 500);
+    });
+
+    $('#Golf2022').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow')
+        $(this).css('color', 'lightgreen')
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#Golf2022Art').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#Golf2022Art").offset().top
         }, 500);
     });
 
