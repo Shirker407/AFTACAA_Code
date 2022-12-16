@@ -104,8 +104,17 @@
                                 <p id="eventMess" class="italic block yellowText" style="font-size:1em;">Click a year to see events.</p>
                             </div>
                             <div>
+                                <asp:Label ID="lbl2022" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2022"></asp:Label>
+                                <div>
+                                    <div id="2022Act" class="myActs noDisplay">
+                                        <span id="Golf2022" class="underSel block bottomDot">Golf N’Get Together</span>
+                                        <span id="DiamondJub" class="underSel block">Diamond Jubilee Birthday Ball</span>
+                                    </div>
+                                    <hr class="myHR" />
+                                </div>
+
                                 <asp:Label ID="lbl2021" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2021"></asp:Label>
-                                <div id="2021Act" class="myActs noDisplay">
+                                    <div id="2021Act" class="myActs noDisplay">
                                     <span id="Golf2021" class="underSel block bottomDot">Golf N’Get Together</span>
                                     <span id="OH2021" class="underSel block bottomDot">AFTAC Open House</span>
                                     <span id="WOHAwards2021" class="underSel block bottomDot">WOH Awards</span>
@@ -155,8 +164,8 @@
                                     <span id="eventsWCCReunion" class="underSel block leftMargin1em bottomDot">AFTAC Reunion</span>
                                 </div>
                                 <hr class="myHR" />
-                            </div>
-                        </div>--%>
+                            </div>--%>
+                        </div>
                     </li>
 
                     <li id="liHistory" class="liMainMenu bottomDot">Histories
@@ -273,6 +282,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myGolf2022" class="announcement blueText">Golf N’ Get Together Fall 2022</td>
+                                    <td class="posted blueText">12/14/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myDiamondJub" class="announcement blueText">Diamond Jubilee Birthday Ball</td>
+                                    <td class="posted blueText">12/14/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myTricare" class="announcement redText">TriCare Enrollment Change</td>
                                     <td class="posted redText">11/14/2022</td>
                                     <td class="event redText"></td>
@@ -378,6 +397,153 @@
             </div>
 
             <div class="clear"></div>
+        </article>
+
+        <article id="DiamondArt" class="myArts noDisplay">
+            <p class="centerText pTitle">
+                AFTAC celebrates 75 years…<br />throws a Diamond Jubilee Birthday Ball<br />
+                Submitted by Ed Lindsay
+            </p>
+            <hr class="myHR" />
+            <p>
+                1 day older than the Air Force…that’s AFTAC’s legacy. Well, at least 1 of many claims of how special the Air Force Technical Application Center is to the history of our country. As many of us know, what AFTAC did, as a whole, was cloaked in secrecy. If we told you what we did, we would have to kill you…or something like that. On 17 September, 2022, AFTAC came out of the shadows for a night of revelry. A night to celebrate 75 years as an outstanding organization. I had the pleasure of getting to attend this fine event.
+                <br /><br />
+                The guest speaker for the event was Major General Aaron “Brain” Prupas. The AFTAC Commander from June 2010 – May 2012.
+            </p>
+
+            <figure class="floatLeft width45">
+                <img alt="Diamond1.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond1.png" />
+                <figcaption class="maroonText italic bold">
+                    Major General Aaron “Brain” Prupas
+                </figcaption>
+            </figure>
+
+            <figure class="floatLeft width45">
+                <img alt="Diamond2.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond2.png" />
+                <figcaption class="maroonText italic bold">
+                    Coats came off and there were some colorful sleeves.<br />Dr. Dan DeForest sports an orbital on his back
+                </figcaption>
+            </figure>
+
+            <div class="clear"></div>
+
+            <p>
+                It was a dark and rainy night. There was a large storm coming off the coast of Africa and it was heading towards the Caribbean. This didn’t bother the Men and Women of AFTAC. They were gathering in the dry comforts of the Hilton Cocoa Beach Oceanfront. Attendees were dressed in Mess dress, Class A, luxurious dresses, tuxes, and other apparel. There were two bars open and the lines were long…a perfect opportunity for people to meet old/new friends and let their hair down. The check in tables provided nice little mementos, wine stoppers and water bottles.
+                <br /><br />
+                A slide show was playing that showed previous AFTAC events. Nice representation of the many facets of AFTAC for this diamond jubilee.
+                <br /><br />
+                I got to spend some time catching up with Major General Prupas. He was the Commander when I returned to Florida in July 2010 for my last tour at AFTAC. He was on terminal leave and looking forward to his retirement in Colorado. I also spoke briefly with Colonel Finlayson and Chief Wright. I presented each of them with the coaster that Tony De Marco had designed for the Alumni’s 2022 WorldWide Reunion.  
+            </p>
+
+            <p>
+                After about an hour of socializing, the attendees took their seats to prepare for the rest of the evening’s events.
+                I was seated next to Lt. Colonel Jarred Burley, the current Director of the Ciambrone Radiochemistry Lab. On my other side was Dan Foster. An alumni member that had done time at TOD, HQ and a lot of Flying for AFTAC. Many stories were told. Also at the table was TSgt Jason Baron who had a big part in the planning of the Ball. He also works in the CRL.
+                <br /><br />
+                Dinner was served and more conversation was had. After dinner, there was a cake cutting ceremony that had the Oldest and Youngest Airmen in the room join Colonel Finlayson and Chief Wright to cut the cake.
+            </p>
+            <figure class="floatLeft width45">
+                <img alt="Diamond3.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond3.png" />
+                <figcaption class="maroonText italic bold">
+                    Chief (retired) Ed Lindsay with Chief Adam Dunn
+                </figcaption>
+            </figure>
+
+            <figure class="floatLeft width45">
+                <img alt="Diamond4.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond4.png" />
+                <figcaption class="maroonText italic bold">
+                    Dan Foster next to Airborne Sampling display
+                </figcaption>
+            </figure>
+
+            <div class="clear"></div>
+
+            <p>
+                Then Major General Prupas took the podium. Colonel Finlayson introduced him. He relayed the history he had with MG Prupas in the beginning of his career. MG Prupas then gave a nice, brief presentation on what it meant to be associated with AFTAC. He mentioned the AFTAC Alumni throughout his presentation. He emphasized many times how he had never encountered a military unit that was so oriented as a cohesive, family organization. He spoke to the Ethos of AFTAC members and their dedication to the mission that was assigned to them 75 years prior.
+                <br /><br />
+                After MG Prupas spoke. The music started playing and dancing and frivolity ensued. That is when I departed. 
+            </p>
+        </article>
+
+        <article id="Golf2022Art" class="myArts noDisplay">
+            <p class="centerText pTitle">
+                Golf N’ Get Together Fall 2022<br />
+                As told by Ed Lindsay
+            </p>
+            <hr class="myHR" />
+            <p>
+                Your Alumni carried on a tradition that hails back to the 20th Century…the vaunted Golf N’Get Together. Through the ages, this gathering has taken on many shapes and forms. Utilizing the various golf courses that are scattered around the Space Coast, that we call home. There were events at such legendary venues as Baytree, Suntree, Cocoa Beach Country Club, Duran, and Patrick’s own Manatee Cove Golf Course. Back in the glory days of AFTAC, when HQ’s halls were full and there were Detachments strewn across the globe, we had a field with 20, 30, even 40 teams…that is 160 Alumni members and friends coming together for fellowship, story telling, some drinking, and enjoying some good food. There were times when the other AFTAC Alumni members would join up after the tourney for an Alumni meeting and more camaraderie. All great memories in the annals of the AFTAC Alumni…this gathering was to be no exception.
+            </p>
+            <figure>
+                <img alt="Golf1.png" class="maroonBorder" src="_Photos/Golf2022/Golf1.png" />
+                <figcaption class="maroonText italic bold">
+                    Getting set up – Bob Wiley, Frank Calenda, Rick Manley,<br />Dennis Kauffmann, Danny Holte, Frank Hall
+                </figcaption>
+            </figure>
+            <p>
+                Our previous get together was Fall 2021 after a dry spell due to COVID. There was going to be a small get together at the 2022 WorldWide Reunion, but it was called off due to predicted inclement weather (turned out it was a nice day). So the call went out and we gathered at the Manatee Cove Golf Course on Patrick Space Force Base (always sounds kinda strange).
+                <br /><br />
+                The outlook for this get together was very bleak. The event was scheduled for 14 October. By October 10th, we only had 10 teams signed up. The Base and AFTAC had been granted a four day weekend in honor of some Italian guy that had done some sailing on behalf of some Spanish Monarchs. Well after the worker bees of AFTAC deciding to return to the hive, the calls started coming in to inquire if there was still space and time to join the event. I guess they figured they could get another afternoon off and we usually had a good time and good food…so after much changing of the food order with the Tides, the Base Club, we ended up having 16 Teams (64 players) participate.
+            </p>
+            <figure>
+                <img alt="Golf2.png" class="maroonBorder" src="_Photos/Golf2022/Golf2.png" />
+                <figcaption class="maroonText italic bold">
+                    Judy Milam-Henderson takes Photos. Ed Lindsay welcomes all..<br />Jim Denbow, Brett Mapston, Jon Vanoord
+                </figcaption>
+            </figure>
+            <p>
+                Before I go into the short details of the tournament, I want to give a quick shout out to the real reason these events are always a success…the volunteers…our AFTAC Alumni Superstars. From the beginning, with Frank Calenda, Dave Money, Red Lindsay, Rick Manley, Dennis Kauffmann, and Danny Holte helping out to make quick work of the stuffing of the Goody Bags, Frank Hall pitched in where needed…Jan Lambert and Carol Snyder jumped in to help ensure the registration went smoothly. The photo team of Bob Wiley, Judy Milam-Henderson, Rick Manley, and Red Lindsay....made it a Super success. It was great to see our newest Vice President, Rick Manley and Secretary, Doug Colbary, join in the fun. There were a lot of conversations going on, which added to the fun. Of course, once the players hit the course, the huuuge task of counting up the money and taking care of the Door Prizes was executed flawlessly by Frank Calenda and his team. This takes a giant weight off of my mind and chest.
+                <br /><br />
+                It was a beautiful day and good golf was played by many. But the important thing is that everyone had a good time. Everyone gets a Door prize, a free drink, and dinner afterwards. Imbedded in this article is an image of the scoreboard…it indicates that there were some low rounds shot. The award winners for the days event were:
+            </p>
+            <hr class="myHR" />
+            <p>
+                1st Place – 51 – Mark Lambert, Craig Lambert, Scott Wolverton, Billy Horseman<br />
+                2nd Place -52- Rene Uzee, Jason Uzee, Kris Uzee, Greg Ramsey<br />
+                3rd Place -54- Brian Grew, Andy Schwartz,Jimmy Missale, Rick Hall<br />
+                Closest to the Pin – Rick Hall & Rene Uzee<br />
+                Women’s Long Drive – Andy McLaughlin<br />
+                Men’s Long Drive – Tony Calenda<br />
+                Most Honest team (high Score) – Kegman team- Derrick Langley, Susie Glasgow, Trevor Patrick, Mike Kelsey
+            </p>
+            <figure class="floatLeft leftMargin5em padding5">
+                <img alt="Golf4.png" class="maroonBorder" src="_Photos/Golf2022/Golf4.png" />
+                <figcaption class="maroonText italic bold">
+                    1st  – Wolverton, Horseman, & Lamberts	
+                </figcaption>
+            </figure>
+            <figure class="floatLeft leftMargin5em padding5">
+                <img alt="Golf5.png" class="maroonBorder" src="_Photos/Golf2022/Golf5.png" />
+                <figcaption class="maroonText italic bold">
+                    2nd – Greg Ramsey and the Uzees
+                </figcaption>
+            </figure>
+            <div class="clear"></div>
+
+            <figure class="floatLeft leftMargin5em padding5">
+                <img alt="Golf6.png" class="maroonBorder" src="_Photos/Golf2022/Golf6.png" />
+                <figcaption class="maroonText italic bold">
+                    Tony Calenda takes the Men’s Long Drive 	
+                </figcaption>
+            </figure>
+            <figure class="floatLeft leftMargin5em padding5">
+                <img alt="Golf8.png" class="maroonBorder" src="_Photos/Golf2022/Golf8.png" />
+                <figcaption class="maroonText italic bold">
+                    The high score team gets the “most Honest Award”
+                </figcaption>
+            </figure>
+            <div class="clear"></div>
+            <figure class="block">
+                <img alt="Golf3.png" class="maroonText maroonBorder italic bold" src="_Photos/Golf2022/Golf3.png" />
+                <figcaption class="maroonText italic bold">
+                    The Scoreboard….those are some LOW scores
+                </figcaption>
+            </figure>
+            <figure class="block">
+                <img alt="Golf7.png" class="maroonText maroonBorder italic bold" src="_Photos/Golf2022/Golf7.png" />
+                <figcaption class="maroonText italic bold">
+                    One of our Major Sponsors…Team Kegman..<br />Alumni members Mike Joseph and Lisa Shoemaker
+                </figcaption>
+            </figure>
         </article>
 
         <article id="TricareArt" class="myArts centerDiv noDisplay">
@@ -3000,7 +3166,8 @@
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
-                        <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
+                       <li><a href="_Minutes/11-14-2022_Minutes.pdf" target="_blank">11-14-2022</a></li>
+                       <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
                         <li><a href="_Minutes/9-16-2022_Minutes.pdf" target="_blank">9-16-2022</a></li>
                         <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>
                         <li><a href="_Minutes/7-22-2022_Minutes.pdf" target="_blank">7-22-2022</a></li>
