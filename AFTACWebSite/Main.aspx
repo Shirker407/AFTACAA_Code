@@ -282,6 +282,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myShader" class="announcement blueText">Rita Jean Shader's Obituary was Posted.</td>
+                                    <td class="posted blueText">11/2/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myGolf2022" class="announcement blueText">Golf N’ Get Together Fall 2022</td>
                                     <td class="posted blueText">12/14/2022</td>
                                     <td class="event blueText"></td>
@@ -12540,6 +12545,23 @@
         <article id="currentObitsArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkred">Recent Obits</p>
             <div class="centerDiv">
+                <article>
+                    <div>
+                        <h2 id="ShaderH2" class="obitH1">Rita Jean Shader - 11/9/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="ShaderPara" class="obitPara noDisplay">
+                        <p>
+                            Rita Jean Shader, 74, of Hendersonville, NC, died Wednesday, November 9, 2022.<br />
+                            A native of Hoboken, NJ she is the daughter of Christina Sabella and the late Duilio Sabella.
+                            Having lived in Melbourne, FL before moving to Hendersonville, she was a church secretary and a supervisor of elections analyst for Brevard County, FL.  Rita was a member of Mills River Presbyterian and the Iona Community Scotland.  She enjoyed cooking, sewing, reading, crocheting, volunteering, Scottish and Celtic culture, newsletter editor, and tap dancing.
+                            In addition to her mother, she is survived by her loving husband of 50 years, Richard Shader; two daughters, Jennifer Richard (Michael) of Wellford, SC and Amy Slaven (Geoff) of Hendersonville, NC; six grandchildren, Michael Richard (Jennifer), Nick Richard, Kristof Weiss (Kim), Bradley Weiss, Joseph Richard, and Morgan Slaven; two great-grandchildren, Hayden Richard and Logan Richard; and a brother, William Sabella (Dora) of Chester, NY.
+                            A memorial service will be held at 3:00 PM on Sunday, December 4, 2022 at Mills River Presbyterian Church in Mills River, NC with Rev. Megan McMillan.
+                            Memorials may be made to: Mills River Presbyterian Church, 10 Presbyterian Road, Mills River, NC 28759.
+                        </p>
+                    </div>
+                </article>
+
                 <article>
                     <div>
                         <h2 id="PoundH2" class="obitH1">Donna Pound - 11/7/2022 </h2>
