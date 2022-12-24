@@ -1444,6 +1444,18 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myDecPomo').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#pomoArt').removeClass('block').addClass('block');
+        $('#sectPomoCurrent').removeClass('noDisplay').addClass('block');
+        $('#sectPomoArchived').removeClass('block').addClass('noDisplay');
+        $('#pomo1').removeClass('noDisplay').addClass('block');
+        $('#pomo2').removeClass('block').addClass('noDisplay');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("pomoArt").offset().top
+        }, 500);
+    });
+
     $('#myNote').click(function () {
         window.open('_pdfs/Commander_Note.pdf', '');
     });
@@ -2067,6 +2079,51 @@ $(document).ready(function () {
             $(this).attr('disabled', false);
         }
     });
+
+    $('#liPoMos').click(function () {
+        if ($('#divPomos').hasClass('noDisplay')) {
+            resetpage()
+            $('.liMainMenu').css('color', 'yellow');
+            $(this).css('color', 'lightgreen');
+            $('.underSel').css('color', 'yellow');
+            $('.underMenu').removeClass('block').addClass('noDisplay');
+            $('#divPomos').removeClass('noDisplay').addClass('block');
+        };
+    });
+
+    $('#pomosArchived').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow');
+        $(this).css('color', 'lightgreen');
+        if ($('#pomoArt').hasClass('noDisplay')) {
+            $('.myArts').removeClass('block').addClass('noDisplay');
+            $('#pomoArt').removeClass('noDisplay').addClass('block');
+            $('#sectPomoCurrent').removeClass('block').addClass('noDisplay');
+            $('#sectPomoArchived').removeClass('noDisplay').addClass('block');
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#pomoArt").offset().top
+            }, 500);
+        }
+        else {
+            $('#sectPomoCurrent').removeClass('block').addClass('noDisplay');
+            $('#sectPomoArchived').removeClass('noDisplay').addClass('block');
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#pomoArt").offset().top
+            }, 500);
+        };
+    });
+
+    $('#ancPomo').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#pomoArt').removeClass('noDisplay').addClass('block');
+        $('#sectPomoCurrent').removeClass('block').addClass('noDisplay');
+        $('#sectPomoArchived').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#pomoArt").offset().top
+        }, 500);
+    });
+
+   //**********************************************************************
 
     $('#myMinutes').click(function () {
         window.open('_Minutes/7-22-2022_Minutes.pdf', '');
@@ -4145,49 +4202,6 @@ $(document).ready(function () {
         $(this).css('color', 'lightgreen');
         $('#showCal').css('color', 'yellow');
         window.open('_PDFs/AFTACAA Constitution.pdf', '');
-    });
-
-    $('#liPoMos').click(function () {
-        if ($('#divPomos').hasClass('noDisplay')) {
-            resetpage()
-            $('.liMainMenu').css('color', 'yellow');
-            $(this).css('color', 'lightgreen');
-            $('.underSel').css('color', 'yellow');
-            $('.underMenu').removeClass('block').addClass('noDisplay');
-            $('#divPomos').removeClass('noDisplay').addClass('block');
-        };
-    });
-
-    $('#pomosArchived').click(function () {
-        subclicked = true;
-        $('.underSel').css('color', 'yellow');
-        $(this).css('color', 'lightgreen');
-        if ($('#pomoArt').hasClass('noDisplay')) {
-            $('.myArts').removeClass('block').addClass('noDisplay');
-            $('#pomoArt').removeClass('noDisplay').addClass('block');
-            $('#sectPomoCurrent').removeClass('block').addClass('noDisplay');
-            $('#sectPomoArchived').removeClass('noDisplay').addClass('block');
-            $([document.documentElement, document.body]).animate({
-                scrollTop: $("#pomoArt").offset().top
-            }, 500);
-        }
-        else {
-            $('#sectPomoCurrent').removeClass('block').addClass('noDisplay');
-            $('#sectPomoArchived').removeClass('noDisplay').addClass('block');
-            $([document.documentElement, document.body]).animate({
-                scrollTop: $("#pomoArt").offset().top
-            }, 500);
-        };
-    });
-
-    $('#ancPomo').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#pomoArt').removeClass('noDisplay').addClass('block');
-        $('#sectPomoCurrent').removeClass('block').addClass('noDisplay');
-        $('#sectPomoArchived').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#pomoArt").offset().top
-        }, 500);
     });
 
     $('#myWise').click(function () {

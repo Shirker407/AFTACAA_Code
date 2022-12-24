@@ -13,10 +13,6 @@ Public Class _Default
     Dim isSearch As Boolean = False
     Dim blank As String = ""
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Dim ds As New DataSet
-        Dim sb As New StringBuilder
-        Dim ws As New myService
-
         If Not IsPostBack() Then
 
             hfSearchStatus.Value = ""
