@@ -288,7 +288,7 @@
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myShader" class="announcement blueText">Rita Jean Shader's Obituary was Posted.</td>
-                                    <td class="posted blueText">11/2/2022</td>
+                                    <td class="posted blueText">12/15/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -332,44 +332,9 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myKimball" class="announcement blueText">Earl Jack Kimball's Obituary was Posted.</td>
-                                    <td class="posted blueText">10/8/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPeterson" class="announcement blueText">Jesse Leroy Peterson's Obituary was Posted.</td>
-                                    <td class="posted blueText">10/8/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWright" class="announcement redText">CMS Jerome S. Wright Biography</td>
                                     <td class="posted redText">9/14/2022</td>
                                     <td class="event redText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="my79Years" class="announcement blueText">79 Years Ago</td>
-                                    <td class="posted blueText">8/18/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPomo" class="announcement blueText">August Post Monitor now available for viewing. Printed copies will be mailed</td>
-                                    <td class="posted blueText">8/18/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-<%--                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myAgenda" class="announcement blueText">August Agenda has been posted</td>
-                                    <td class="posted blueText">8/18/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>--%>
-<%--                              <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">July meeting Minutes have been posted</td>
-                                    <td class="posted blueText">8/18/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>--%>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWhitney" class="announcement blueText">Jan Whitney's Obituary was Posted.</td>
-                                    <td class="posted blueText">8/9/2022</td>
-                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myNote" class="announcement blueText">Note from new AFTAC Commander<br />to the Alumni</td>

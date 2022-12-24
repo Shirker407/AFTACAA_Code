@@ -1488,14 +1488,6 @@ $(document).ready(function () {
         OpenObit('Anderholm');
     });
 
-    $('#myPeterson').click(function () {
-        OpenObit('Peterson');
-    });
-
-    $('#myWhitney').click(function () {
-        OpenObit('Whitney');
-    });
-
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
@@ -4210,10 +4202,6 @@ $(document).ready(function () {
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#WiseArt").offset().top
         }, 500);
-    });
-
-    $('#my79Years').click(function () {
-        window.open('_PDFs/79 Years Ago.pdf');
     });
 
     $('#mySpy').click(function () {
