@@ -2138,7 +2138,7 @@ $(document).ready(function () {
     });
 
     $('#decemberPomo').click(function () {
-        window.open('_Pomos/PoMo2021_12.pdf', '');
+        window.open('_Pomos/PoMo2022_12.pdf', '');
     });
 
     //**********************************************************************
