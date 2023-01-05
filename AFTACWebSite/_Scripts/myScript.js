@@ -1472,6 +1472,10 @@ $(document).ready(function () {
         window.open('_pdfs/Finlayson bio.pdf', '');
     });
 
+    $('#myPierce').click(function () {
+        OpenObit('Pierce');
+    });
+
     $('#myShader').click(function () {
         OpenObit('Shader');
     });
@@ -1499,8 +1503,8 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
-            case 'ShaderH2':
-                ShowMyObit('Shader')
+            case 'PierceH2':
+                ShowMyObit('Pierce')
                 break;
             case 'PoundH2':
                 ShowMyObit('Pound')
@@ -2126,7 +2130,7 @@ $(document).ready(function () {
    //**********************************************************************
 
     $('#myMinutes').click(function () {
-        window.open('_Minutes/7-22-2022_Minutes.pdf', '');
+        window.open('_Minutes/12-9-2022_Minutes.pdf', '');
     });
 
     $('#aprilPomo').click(function () {
