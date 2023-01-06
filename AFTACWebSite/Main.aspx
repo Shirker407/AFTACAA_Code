@@ -170,6 +170,7 @@
 
                     <li id="liHistory" class="liMainMenu bottomDot">Histories
                         <div id="divHistory" class="underMenu noDisplay">
+                            <span id="my79Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">79 Years Ago</span>
                             <span id="my91Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC 91 Years of Proud 99 Service</span>
                             <span id="FourSkin" class="myHistories underSel block leftMargin1em bottomDot yellowText">Four Skin Rug</span>
                             <span id="AFTACCommand" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC CCs/CVs</span>
@@ -272,7 +273,6 @@
                     <div class="redBorder width100 padding5 backYellow showShadow">
                         <div class=" width95 centerDiv">
                             <span class="maroonText bold underLine" style="font-size:1.8em;">Recent Additions</span>
-<%--                        <p class="pTitle centerText topMarginMinus1em underLine fontSize2em">Recent Additions</p>--%>
                         </div>
                         <div>
                             <table class="tableAnnouncements">
@@ -356,31 +356,16 @@
                                     <td class="posted redText">9/14/2022</td>
                                     <td class="event redText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="my79Years" class="announcement blueText">79 Years Ago</td>
                                     <td class="posted blueText">8/18/2022</td>
                                     <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                </tr>--%>
+<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPomo" class="announcement blueText">August Post Monitor now available for viewing. Printed copies will be mailed</td>
                                     <td class="posted blueText">8/18/2022</td>
                                     <td class="event blueText"></td>
-                                </tr>
-<%--                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myAgenda" class="announcement blueText">August Agenda has been posted</td>
-                                    <td class="posted blueText">8/18/2022</td>
-                                    <td class="event blueText"></td>
                                 </tr>--%>
-<%--                              <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">July meeting Minutes have been posted</td>
-                                    <td class="posted blueText">8/18/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>--%>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWhitney" class="announcement blueText">Jan Whitney's Obituary was Posted.</td>
-                                    <td class="posted blueText">8/9/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myNote" class="announcement blueText">Note from new AFTAC Commander<br />to the Alumni</td>
                                     <td class="posted blueText">7/19/2022</td>
@@ -399,16 +384,14 @@
 
             <div class="floatLeft width45">
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
-                    <p class="blueText fontSize1_Halfem centerText">Friday 9 December<br />
-                        11:30 - 13:30 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Monday 9 January<br />
+                        11:30 - 12:30 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
                         Beef O'Brady's<br />
-                        3030 Lake Washington Road<br />
-                        Melbourne, Fl<br /> 
-                        --------------------------<br />
-                        <span class="redText">Yankee Swap this Month</span><br />
+                        744 South Patrick Drive<br />
+                        Satellite Beach, Fl<br /> 
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Ed Lindsay, AFTACAA President, at <a href="MailTo:piston_horse@hotmail.com">Piston_Horse@hotmail.com</a>
@@ -417,6 +400,228 @@
             </div>
 
             <div class="clear"></div>
+        </article>
+
+        <article id="79YearsArt" class="myArts noDisplay">
+            <p>
+                Seems Impossible<br />
+                Carefully study this art work and then read the text of what we did.
+                Not only is the picture awesome, but so are the statistics!
+            </p>
+
+            <img alt="79Years1.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years1.png" />
+        
+            <p>
+                During the 3-1/2 years of World War II that started with the Japanese bombing of
+                Pearl Harbor in December of 1941 and ended with the surrender of Germany and Japan in 1945, "We the People of the U.S.A." produced the following:
+            </p>
+            <hr class="myHR" />
+            <ul id="Production" class="floatLeft width45 leftMargin3em bottomMargin1em maroonText">
+                <li>22 aircraft carriers</li>
+                <li>8 battleships</li>
+                <li>48 cruisers</li>
+                <li>349 destroyers</li>
+                <li>420 destroyer escorts</li>
+                <li>203 submarines</li>
+                <li>34 million tons of merchant ships</li>
+                <li>100,000 fighter aircraft</li>
+            </ul>
+
+            <ul id="Production1" class="floatLeft width40 leftMargin3em bottomMargin1em maroonText">
+                <li>98,000 bombers</li>
+                <li>24,000 transport aircraft</li>
+                <li>58,000 training aircraft</li>
+                <li>93,000 tanks</li>
+                <li>257,000 artillery pieces</li>
+                <li>105,000 mortars</li>
+                <li>3,000,000 machine guns</li>
+                <li>2,500,000 military trucks</li>
+            </ul>
+
+            <div class="clear"></div>
+
+            <hr class="myHR" />
+
+            <p>
+                We put 16.1 million men in uniform in the various armed services, invaded Africa, invaded Sicily and Italy, won the battle for the Atlantic, planned and executed D-Day,
+                marched across the Pacific and Europe, developed the atomic bomb and, ultimately,
+                conquered Japan and Germany.
+                <br /><br />
+                It’s amazing what America did in those days: many of you already know the story, here is the update.
+                <br /><br />
+                <span class="maroonText bold fontSize1_Halfem underline">THE FINAL TOAST</span><br />
+                The text below references the movie “Thirty Seconds Over Tokyo.”<br />
+                There is a second film made in 1944 that details the “show” trials of
+                the 11 airmen that were captured & tortured by the Japanese titled “The Purple Heart.”<br />
+                Three were executed as war criminals, a fourth died in captivity.<br />
+                The FINAL TOAST! They bombed Tokyo 78 years ago.<br />
+                They once were among the most universally admired and revered men in the United States .. There were 80 of the Raiders in April 1942, when they carried out one of the most courageous and heart-stirring military operations in this nation's
+                history. The mere mention of their unit's name, in those
+                years, would bring tears to the eyes of grateful Americans.
+            </p>
+
+            <img alt="79Years2.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years2.png" />
+        
+            <p>
+                After Japan'ssneak attack on Pearl Harbor, with the United States reeling and wounded, something dramatic was needed to turn the war effort around. Even though
+                there were no friendly airfields close enough to Japan for the United States to
+                launch a retaliation, a daring plan was devised.<br />
+                Sixteen B-25s were modified so that they could take off from the deck of an aircraft carrier.
+                This had never before been tried -- sending such big, heavy bombers from a carrier.
+            </p>
+
+            <figure>
+                <img alt="79Years3.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years3.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">B-25Bs Parked on the deck of the Hornet during the Doolittle Raid. April 1942</figcaption>
+            </figure>
+
+            <img alt="79Years4.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years4.png" />
+        
+            <p>
+                The 16 five-man crews, under the command of Lt. Col. James Doolittle,
+                who himself flew the lead plane off the USS Hornet,
+                knew that they would not be able to return to the carrier.
+                They would have to hit Japan and then hope to make it to China for a safe landing.
+            </p>
+
+            <img alt="79Years5.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years5.png" />
+        
+            <p>
+                But on the day of the raid, the Japanese military caught wind of the plan.<br />
+                The Raiders were told that they would have to take off from much farther out
+                in the Pacific Ocean than they had counted on.<br />
+                They were told that because of this they would not have enough fuel to make it to
+                safety.<br />
+                <span class="width50 autoMarginLeftRight maroonText bold underLine fontSize1_Halfem">And those men went anyway.</span>
+            </p>
+
+            <figure>
+                <img alt="79Years6.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years6.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">Jimmy Doolittle returning medals that were awarded to him by Japan </figcaption>
+            </figure>
+
+            <p>
+                They bombed Tokyo and then flew as far as they could.<br />
+                Four planes crash-landed; 11 more crews bailed out, and three of the Raiders
+                died.<br />
+                Eight more were captured; three were executed.<br />
+                Another died of starvation in a Japanese prison camp. One crew made it to Russia .
+            </p>
+
+            <img alt="79Years7.png" class="floatLeft width45 leftMargin2em topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years7.png" />
+            <img alt="79Years8.png" class="floatLeft width45 leftMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years8.png" />
+            <div class="clear"></div>
+
+            <img alt="79Years10.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years10.png" />
+        
+            <p>
+                The Doolittle Raiders sent a message from the United States to its enemies,
+                and to the rest of the world: We will fight. And, no matter what it takes, we will
+                win.<br />
+                Of the 80 Raiders, 62 survived the war. They were celebrated as national heroes,
+                models of bravery.<br />
+                Metro-Goldwyn-Mayer produced a motion picture based on the raid; "Thirty
+                Seconds Over Tokyo "
+                starring Spencer Tracy and Van Johnson, was a patriotic and emotional box-office hit,
+                and the phrase became part of the national lexicon.<br />
+                In the movie-theater previews for the film, MGM proclaimed that it was presenting the story........
+                "with supreme pride."
+            </p>
+
+            <img alt="79Years11.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years11.png" />
+
+            <img alt="79Years12.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years12.png" />
+        
+            <p>
+                Beginning in 1946, the surviving Raiders have held a reunion each April,
+                to commemorate the mission. The reunion is in a different city each year.
+                In 1959, the city of Tucson , Arizona , as a gesture of respect and gratitude,
+                presented the Doolittle Raiders with a set of 80 silver goblets.
+                Each goblet was engraved with the name of a Raider.
+            </p>
+
+            <img alt="79Years15.png" class="floatLeft width45 leftMargin2em topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years15.png" />
+            <img alt="79Years16.png" class="floatLeft width45 leftMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years16.png" />
+            <div class="clear"></div>
+
+            <p>
+                Also in the wooden case is a bottle of 1896 Hennessy Very Special cognac<br />
+                The year is not happenstance: 1896 was when Jimmy Doolittle was born.<br /><br />
+                There has always been a plan: When there are only two surviving Raiders,
+                they would open the bottle, at last drink from it,
+                and toast their comrades who preceded them in death.<br />
+            </p>
+            
+            <img alt="79Years18.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years18.png" />
+        
+            <p>
+                As 2013 began, there were five living Raiders; then, in February,
+                Tom Griffin passed away at age 96.<br />
+                What a man he was. After bailing out of his plane
+                Over a mountainous Chinese forest after the Tokyo raid, he became ill with malaria,
+                and almost died. When he recovered, he was sent to Europe to fly more combat
+                missions.<br />
+                He was shot down, captured, and spent 22 months in a German prisoner of war
+                camp.
+                <br /><br />
+                The selflessness of these men, the sheer guts ... There was a passage in
+                the Cincinnati Enquirer obituary for Mr. Griffin that, on the surface,
+                had nothing to do with the war, but that was emblematic of the depth
+                of his sense of duty and devotion:
+                "When his wife became ill and needed to go into a nursing home, he visited her
+                every day.<br />
+                He walked from his house to the nursing home, fed his wife,
+                and at the end of the day brought home her clothes. At night, he washed and ironed her clothes.
+                Then he walked them up to her room the next morning.<br />
+                He did that for three years until her death in 2005."
+            </p>
+
+            <figure>
+                <img alt="79Years19.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years19.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">With "Martha Jean" behind them, nine of the Doolittle Raiders and three "Honorary Guests" pose with WWII re-enactors dressed in period clothing.</figcaption>
+            </figure>
+
+            <p>
+                So now, out of the original 80, only four Raiders remain:<br />
+                Dick Cole (Doolittle's co-pilot on the Tokyo raid),
+                Robert Hite, Edward Saylor and David Thatcher. All are in their 90s.<br /><br />
+                They have decided that there are too few of them for the public reunions to continue.
+                The events in Fort Walton Beach marked the end. It has come full circle;
+                Florida 's nearby Eglin Field was where the Raiders trained in secrecy for the Tokyo mission.
+                The town planned to do all it can to honor the men: a six-day celebration of their valor,
+                including luncheons, a dinner and a parade.<br /><br />
+                The men have decided that after this final public reunion they will wait until a
+                later date --
+                sometime this year -- to get together once more, informally and in absolute privacy.
+                That is when they will open the bottle of brandy. The years are flowing by too
+                swiftly now;
+                they are not going to wait until there are only two of them.
+                They will fill the four remaining upturned goblets. And raise them in a toast to
+                those who are gone.
+            </p>
+
+            <figure class="floatLeft width40">
+                <img alt="79Years20.png" class="width80 autoMarginLeftRight leftMargin2em topMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years20.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">Richard Cole Died June 2019 (The last surviver)</figcaption>
+            </figure>
+
+            <figure class="floatLeft width40">
+                <img alt="79Years21.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years21.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">David Thatcher died June 2016</figcaption>
+            </figure>
+
+            <div class="clear"></div>
+
+            <p class="centerText bold fontSize1_Halfem">
+                The last two remaining survivers
+            </p>
+
+            <figure>
+                <img alt="79Years22.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years22.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">Their 70th Anniversary Photo</figcaption>
+            </figure>
+
+            <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
         </article>
 
         <article id="DiamondArt" class="myArts noDisplay">
