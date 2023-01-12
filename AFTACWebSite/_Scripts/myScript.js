@@ -1472,10 +1472,6 @@ $(document).ready(function () {
         window.open('_pdfs/Finlayson bio.pdf', '');
     });
 
-    $('#myPierce').click(function () {
-        OpenObit('Pierce');
-    });
-
     $('#myShader').click(function () {
         OpenObit('Shader');
     });
@@ -1492,15 +1488,11 @@ $(document).ready(function () {
         OpenObit('Anderholm');
     });
 
-    $('#myPeterson').click(function () {
-        OpenObit('Peterson');
-    });
-
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
-            case 'PierceH2':
-                ShowMyObit('Pierce')
+            case 'ShaderH2':
+                ShowMyObit('Shader')
                 break;
             case 'PoundH2':
                 ShowMyObit('Pound')
@@ -2126,7 +2118,7 @@ $(document).ready(function () {
    //**********************************************************************
 
     $('#myMinutes').click(function () {
-        window.open('_Minutes/12-9-2022_Minutes.pdf', '');
+        window.open('_Minutes/7-22-2022_Minutes.pdf', '');
     });
 
     $('#aprilPomo').click(function () {
@@ -2138,7 +2130,7 @@ $(document).ready(function () {
     });
 
     $('#decemberPomo').click(function () {
-        window.open('_Pomos/PoMo2022_12.pdf', '');
+        window.open('_Pomos/PoMo2021_12.pdf', '');
     });
 
     //**********************************************************************
@@ -4210,15 +4202,6 @@ $(document).ready(function () {
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#WiseArt").offset().top
         }, 500);
-    });
-
-    $('#my79Years').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#79YearsArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#79YearsArt").offset().top
-        }, 500);
-    //    window.open('_PDFs/79 Years Ago.pdf');
     });
 
     $('#mySpy').click(function () {

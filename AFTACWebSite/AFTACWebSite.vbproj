@@ -254,27 +254,6 @@
     <Content Include="_Photos\20YearWall\Wien.jpg" />
     <Content Include="_Photos\20YearWall\Winders.jpg" />
     <Content Include="_Photos\20YearWall\Wolrab.jpg" />
-    <Content Include="_Photos\79 Years\79Years1.png" />
-    <Content Include="_Photos\79 Years\79Years10.png" />
-    <Content Include="_Photos\79 Years\79Years11.png" />
-    <Content Include="_Photos\79 Years\79Years12.png" />
-    <Content Include="_Photos\79 Years\79Years13.png" />
-    <Content Include="_Photos\79 Years\79Years14.png" />
-    <Content Include="_Photos\79 Years\79Years15.png" />
-    <Content Include="_Photos\79 Years\79Years16.png" />
-    <Content Include="_Photos\79 Years\79Years17.png" />
-    <Content Include="_Photos\79 Years\79Years18.png" />
-    <Content Include="_Photos\79 Years\79Years19.png" />
-    <Content Include="_Photos\79 Years\79Years2.png" />
-    <Content Include="_Photos\79 Years\79Years20.png" />
-    <Content Include="_Photos\79 Years\79Years21.png" />
-    <Content Include="_Photos\79 Years\79Years3.png" />
-    <Content Include="_Photos\79 Years\79Years4.png" />
-    <Content Include="_Photos\79 Years\79Years5.png" />
-    <Content Include="_Photos\79 Years\79Years6.png" />
-    <Content Include="_Photos\79 Years\79Years7.png" />
-    <Content Include="_Photos\79 Years\79Years8.png" />
-    <Content Include="_Photos\79 Years\79Years9.png" />
     <Content Include="_Photos\Adopt_Highway.jpg" />
     <Content Include="_Photos\AftacHistory\DO1.png" />
     <Content Include="_Photos\AftacHistory\DO11.png" />
@@ -1073,7 +1052,6 @@
     <Content Include="_Photos\ObitPics\osteen.jpg" />
     <Content Include="_Photos\ObitPics\pabst.png" />
     <Content Include="_Photos\ObitPics\PaulGoforth.png" />
-    <Content Include="_Photos\ObitPics\Pierce.png" />
     <Content Include="_Photos\ObitPics\Pound.png" />
     <Content Include="_Photos\ObitPics\Pound_Galen.png" />
     <Content Include="_Photos\ObitPics\price.png" />
@@ -1607,8 +1585,7 @@
     <Content Include="_Minutes\10-21-2022_Minutes.pdf" />
     <Content Include="_Minutes\9-16-2022_Minutes.pdf" />
     <Content Include="_Minutes\11-14-2022_Minutes.pdf" />
-    <Content Include="_Pomos\Pomo2022_12.pdf" />
-    <Content Include="_Minutes\12-9-2022_Minutes.pdf" />
+    <Content Include="_Pomos\Pomo2022-12.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

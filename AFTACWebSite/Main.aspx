@@ -170,7 +170,6 @@
 
                     <li id="liHistory" class="liMainMenu bottomDot">Histories
                         <div id="divHistory" class="underMenu noDisplay">
-                            <span id="my79Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">79 Years Ago</span>
                             <span id="my91Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC 91 Years of Proud 99 Service</span>
                             <span id="FourSkin" class="myHistories underSel block leftMargin1em bottomDot yellowText">Four Skin Rug</span>
                             <span id="AFTACCommand" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC CCs/CVs</span>
@@ -273,6 +272,7 @@
                     <div class="redBorder width100 padding5 backYellow showShadow">
                         <div class=" width95 centerDiv">
                             <span class="maroonText bold underLine" style="font-size:1.8em;">Recent Additions</span>
+<%--                        <p class="pTitle centerText topMarginMinus1em underLine fontSize2em">Recent Additions</p>--%>
                         </div>
                         <div>
                             <table class="tableAnnouncements">
@@ -282,23 +282,13 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
-                                    <td class="posted blueText">1/5/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
-                                    <td class="posted blueText">12/31/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDecPomo" class="announcement blueText">December Pomo was Published.</td>
                                     <td class="posted blueText">12/23/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myShader" class="announcement blueText">Rita Jean Shader's Obituary was Posted.</td>
-                                    <td class="posted blueText">11/2/2022</td>
+                                    <td class="posted blueText">12/15/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -342,30 +332,10 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myKimball" class="announcement blueText">Earl Jack Kimball's Obituary was Posted.</td>
-                                    <td class="posted blueText">10/8/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPeterson" class="announcement blueText">Jesse Leroy Peterson's Obituary was Posted.</td>
-                                    <td class="posted blueText">10/8/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWright" class="announcement redText">CMS Jerome S. Wright Biography</td>
                                     <td class="posted redText">9/14/2022</td>
                                     <td class="event redText"></td>
                                 </tr>
-<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="my79Years" class="announcement blueText">79 Years Ago</td>
-                                    <td class="posted blueText">8/18/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>--%>
-<%--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPomo" class="announcement blueText">August Post Monitor now available for viewing. Printed copies will be mailed</td>
-                                    <td class="posted blueText">8/18/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>--%>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myNote" class="announcement blueText">Note from new AFTAC Commander<br />to the Alumni</td>
                                     <td class="posted blueText">7/19/2022</td>
@@ -384,14 +354,16 @@
 
             <div class="floatLeft width45">
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
-                    <p class="blueText fontSize1_Halfem centerText">Monday 9 January<br />
-                        11:30 - 12:30 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 9 December<br />
+                        11:30 - 13:30 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
                         Beef O'Brady's<br />
-                        744 South Patrick Drive<br />
-                        Satellite Beach, Fl<br /> 
+                        3030 Lake Washington Road<br />
+                        Melbourne, Fl<br /> 
+                        --------------------------<br />
+                        <span class="redText">Yankee Swap this Month</span><br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Ed Lindsay, AFTACAA President, at <a href="MailTo:piston_horse@hotmail.com">Piston_Horse@hotmail.com</a>
@@ -400,228 +372,6 @@
             </div>
 
             <div class="clear"></div>
-        </article>
-
-        <article id="79YearsArt" class="myArts noDisplay">
-            <p>
-                Seems Impossible<br />
-                Carefully study this art work and then read the text of what we did.
-                Not only is the picture awesome, but so are the statistics!
-            </p>
-
-            <img alt="79Years1.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years1.png" />
-        
-            <p>
-                During the 3-1/2 years of World War II that started with the Japanese bombing of
-                Pearl Harbor in December of 1941 and ended with the surrender of Germany and Japan in 1945, "We the People of the U.S.A." produced the following:
-            </p>
-            <hr class="myHR" />
-            <ul id="Production" class="floatLeft width45 leftMargin3em bottomMargin1em maroonText">
-                <li>22 aircraft carriers</li>
-                <li>8 battleships</li>
-                <li>48 cruisers</li>
-                <li>349 destroyers</li>
-                <li>420 destroyer escorts</li>
-                <li>203 submarines</li>
-                <li>34 million tons of merchant ships</li>
-                <li>100,000 fighter aircraft</li>
-            </ul>
-
-            <ul id="Production1" class="floatLeft width40 leftMargin3em bottomMargin1em maroonText">
-                <li>98,000 bombers</li>
-                <li>24,000 transport aircraft</li>
-                <li>58,000 training aircraft</li>
-                <li>93,000 tanks</li>
-                <li>257,000 artillery pieces</li>
-                <li>105,000 mortars</li>
-                <li>3,000,000 machine guns</li>
-                <li>2,500,000 military trucks</li>
-            </ul>
-
-            <div class="clear"></div>
-
-            <hr class="myHR" />
-
-            <p>
-                We put 16.1 million men in uniform in the various armed services, invaded Africa, invaded Sicily and Italy, won the battle for the Atlantic, planned and executed D-Day,
-                marched across the Pacific and Europe, developed the atomic bomb and, ultimately,
-                conquered Japan and Germany.
-                <br /><br />
-                It’s amazing what America did in those days: many of you already know the story, here is the update.
-                <br /><br />
-                <span class="maroonText bold fontSize1_Halfem underline">THE FINAL TOAST</span><br />
-                The text below references the movie “Thirty Seconds Over Tokyo.”<br />
-                There is a second film made in 1944 that details the “show” trials of
-                the 11 airmen that were captured & tortured by the Japanese titled “The Purple Heart.”<br />
-                Three were executed as war criminals, a fourth died in captivity.<br />
-                The FINAL TOAST! They bombed Tokyo 78 years ago.<br />
-                They once were among the most universally admired and revered men in the United States .. There were 80 of the Raiders in April 1942, when they carried out one of the most courageous and heart-stirring military operations in this nation's
-                history. The mere mention of their unit's name, in those
-                years, would bring tears to the eyes of grateful Americans.
-            </p>
-
-            <img alt="79Years2.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years2.png" />
-        
-            <p>
-                After Japan'ssneak attack on Pearl Harbor, with the United States reeling and wounded, something dramatic was needed to turn the war effort around. Even though
-                there were no friendly airfields close enough to Japan for the United States to
-                launch a retaliation, a daring plan was devised.<br />
-                Sixteen B-25s were modified so that they could take off from the deck of an aircraft carrier.
-                This had never before been tried -- sending such big, heavy bombers from a carrier.
-            </p>
-
-            <figure>
-                <img alt="79Years3.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years3.png" />
-                <figcaption class="width75 autoMarginLeftRight maroonText italic">B-25Bs Parked on the deck of the Hornet during the Doolittle Raid. April 1942</figcaption>
-            </figure>
-
-            <img alt="79Years4.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years4.png" />
-        
-            <p>
-                The 16 five-man crews, under the command of Lt. Col. James Doolittle,
-                who himself flew the lead plane off the USS Hornet,
-                knew that they would not be able to return to the carrier.
-                They would have to hit Japan and then hope to make it to China for a safe landing.
-            </p>
-
-            <img alt="79Years5.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years5.png" />
-        
-            <p>
-                But on the day of the raid, the Japanese military caught wind of the plan.<br />
-                The Raiders were told that they would have to take off from much farther out
-                in the Pacific Ocean than they had counted on.<br />
-                They were told that because of this they would not have enough fuel to make it to
-                safety.<br />
-                <span class="width50 autoMarginLeftRight maroonText bold underLine fontSize1_Halfem">And those men went anyway.</span>
-            </p>
-
-            <figure>
-                <img alt="79Years6.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years6.png" />
-                <figcaption class="width75 autoMarginLeftRight maroonText italic">Jimmy Doolittle returning medals that were awarded to him by Japan </figcaption>
-            </figure>
-
-            <p>
-                They bombed Tokyo and then flew as far as they could.<br />
-                Four planes crash-landed; 11 more crews bailed out, and three of the Raiders
-                died.<br />
-                Eight more were captured; three were executed.<br />
-                Another died of starvation in a Japanese prison camp. One crew made it to Russia .
-            </p>
-
-            <img alt="79Years7.png" class="floatLeft width45 leftMargin2em topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years7.png" />
-            <img alt="79Years8.png" class="floatLeft width45 leftMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years8.png" />
-            <div class="clear"></div>
-
-            <img alt="79Years10.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years10.png" />
-        
-            <p>
-                The Doolittle Raiders sent a message from the United States to its enemies,
-                and to the rest of the world: We will fight. And, no matter what it takes, we will
-                win.<br />
-                Of the 80 Raiders, 62 survived the war. They were celebrated as national heroes,
-                models of bravery.<br />
-                Metro-Goldwyn-Mayer produced a motion picture based on the raid; "Thirty
-                Seconds Over Tokyo "
-                starring Spencer Tracy and Van Johnson, was a patriotic and emotional box-office hit,
-                and the phrase became part of the national lexicon.<br />
-                In the movie-theater previews for the film, MGM proclaimed that it was presenting the story........
-                "with supreme pride."
-            </p>
-
-            <img alt="79Years11.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years11.png" />
-
-            <img alt="79Years12.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years12.png" />
-        
-            <p>
-                Beginning in 1946, the surviving Raiders have held a reunion each April,
-                to commemorate the mission. The reunion is in a different city each year.
-                In 1959, the city of Tucson , Arizona , as a gesture of respect and gratitude,
-                presented the Doolittle Raiders with a set of 80 silver goblets.
-                Each goblet was engraved with the name of a Raider.
-            </p>
-
-            <img alt="79Years15.png" class="floatLeft width45 leftMargin2em topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years15.png" />
-            <img alt="79Years16.png" class="floatLeft width45 leftMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years16.png" />
-            <div class="clear"></div>
-
-            <p>
-                Also in the wooden case is a bottle of 1896 Hennessy Very Special cognac<br />
-                The year is not happenstance: 1896 was when Jimmy Doolittle was born.<br /><br />
-                There has always been a plan: When there are only two surviving Raiders,
-                they would open the bottle, at last drink from it,
-                and toast their comrades who preceded them in death.<br />
-            </p>
-            
-            <img alt="79Years18.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years18.png" />
-        
-            <p>
-                As 2013 began, there were five living Raiders; then, in February,
-                Tom Griffin passed away at age 96.<br />
-                What a man he was. After bailing out of his plane
-                Over a mountainous Chinese forest after the Tokyo raid, he became ill with malaria,
-                and almost died. When he recovered, he was sent to Europe to fly more combat
-                missions.<br />
-                He was shot down, captured, and spent 22 months in a German prisoner of war
-                camp.
-                <br /><br />
-                The selflessness of these men, the sheer guts ... There was a passage in
-                the Cincinnati Enquirer obituary for Mr. Griffin that, on the surface,
-                had nothing to do with the war, but that was emblematic of the depth
-                of his sense of duty and devotion:
-                "When his wife became ill and needed to go into a nursing home, he visited her
-                every day.<br />
-                He walked from his house to the nursing home, fed his wife,
-                and at the end of the day brought home her clothes. At night, he washed and ironed her clothes.
-                Then he walked them up to her room the next morning.<br />
-                He did that for three years until her death in 2005."
-            </p>
-
-            <figure>
-                <img alt="79Years19.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years19.png" />
-                <figcaption class="width75 autoMarginLeftRight maroonText italic">With "Martha Jean" behind them, nine of the Doolittle Raiders and three "Honorary Guests" pose with WWII re-enactors dressed in period clothing.</figcaption>
-            </figure>
-
-            <p>
-                So now, out of the original 80, only four Raiders remain:<br />
-                Dick Cole (Doolittle's co-pilot on the Tokyo raid),
-                Robert Hite, Edward Saylor and David Thatcher. All are in their 90s.<br /><br />
-                They have decided that there are too few of them for the public reunions to continue.
-                The events in Fort Walton Beach marked the end. It has come full circle;
-                Florida 's nearby Eglin Field was where the Raiders trained in secrecy for the Tokyo mission.
-                The town planned to do all it can to honor the men: a six-day celebration of their valor,
-                including luncheons, a dinner and a parade.<br /><br />
-                The men have decided that after this final public reunion they will wait until a
-                later date --
-                sometime this year -- to get together once more, informally and in absolute privacy.
-                That is when they will open the bottle of brandy. The years are flowing by too
-                swiftly now;
-                they are not going to wait until there are only two of them.
-                They will fill the four remaining upturned goblets. And raise them in a toast to
-                those who are gone.
-            </p>
-
-            <figure class="floatLeft width40">
-                <img alt="79Years20.png" class="width80 autoMarginLeftRight leftMargin2em topMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years20.png" />
-                <figcaption class="width75 autoMarginLeftRight maroonText italic">Richard Cole Died June 2019 (The last surviver)</figcaption>
-            </figure>
-
-            <figure class="floatLeft width40">
-                <img alt="79Years21.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years21.png" />
-                <figcaption class="width75 autoMarginLeftRight maroonText italic">David Thatcher died June 2016</figcaption>
-            </figure>
-
-            <div class="clear"></div>
-
-            <p class="centerText bold fontSize1_Halfem">
-                The last two remaining survivers
-            </p>
-
-            <figure>
-                <img alt="79Years22.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years22.png" />
-                <figcaption class="width75 autoMarginLeftRight maroonText italic">Their 70th Anniversary Photo</figcaption>
-            </figure>
-
-            <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
         </article>
 
         <article id="DiamondArt" class="myArts noDisplay">
@@ -3391,9 +3141,8 @@
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
-                        <li><a href="_Minutes/12-9-2022_Minutes.pdf" target="_blank">12-9-2022</a></li>
-                        <li><a href="_Minutes/11-14-2022_Minutes.pdf" target="_blank">11-14-2022</a></li>
-                        <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
+                       <li><a href="_Minutes/11-14-2022_Minutes.pdf" target="_blank">11-14-2022</a></li>
+                       <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
                         <li><a href="_Minutes/9-16-2022_Minutes.pdf" target="_blank">9-16-2022</a></li>
                         <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>
                         <li><a href="_Minutes/7-22-2022_Minutes.pdf" target="_blank">7-22-2022</a></li>
@@ -12763,76 +12512,6 @@
         <article id="currentObitsArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkred">Recent Obits</p>
             <div class="centerDiv">
-
-                <article>
-                    <div>
-                        <h2 id="PierceH2" class="obitH1">Earl C. Pierce - 12/29/2022 </h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="PiercePara" class="obitPara noDisplay">
-                        <p>
-                            <img alt="Pierce.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Pierce.png" />                            
-                            Earl Carroll Pierce passed away peacefully on December 29, 2022, in his home surrounded by family. He was 90.
-                            <br /><br />
-                            Earl was a loving husband, father, grandfather, great grandfather and friend. He was also a 20-year veteran of the United States Air Force, athlete, coach, sports fan, traveler, volunteer, outdoorsman and dog lover.
-                            <br /><br />
-                            Earl was born November 2, 1932, in Farmville, NC, to Raymond Pierce and Bernice (Tucker) Pierce.
-                            <br /><br />
-                            His mother passed away when Earl was seven. His father could not take care of the children by himself so he decided to send Earl and four of his siblings to the Methodist Home for Children in Raleigh, NC. Earl said that was the best thing his dad ever did for him and his brother and sisters.
-                            <br /><br />
-                            Earl loved the Children’s Home. He enjoyed going to school, farm work, chores, and the lifelong friends he made. He excelled at every sport in which he participated, whether it was football, basketball, baseball, track or tennis. His basketball coach was a young recent college grad named Norm Sloan, who later coached North Carolina State and David Thompson to the 1974 NCAA basketball championship. It was Stormin’ Norman Sloan who gave Earl the nickname “Hook” because of his deadly hook shot.
-                            <br /><br />
-                            Earl was offered a partial basketball scholarship to Louisburg Junior College in North Carolina. After a year at college, Earl decided to enlist in the newly formed Air Force. While in the Air Force, Earl attained a Bachelor’s Degree from the University of Maryland.
-                            <br /><br />
-                            Earl was deployed to Bremerhaven, Germany, where he met the love of his life, a pretty young German mädchen named Marianne (Riel). The young couple married on July 6, 1956. Earl and Marianne were sent stateside to Youngstown, Ohio. Then Earl received orders to go to Tachikawa Air Force Base in Japan. It was there that the young couple became a young family. Son David came along followed by daughter Brenda.
-                            <br /><br />
-                            The family’s next transfer would eventually be their lifelong home. Earl received orders to teach Special Instruments at Lowry Air Force Base in Denver, CO. They purchased their forever home in Aurora, CO, in 1962. In 1967, Earl and family transferred to Alice Springs, Australia, where the small detachment “listened” to the Soviet Union testing atomic bombs. His job was top secret, so he told his children that alligators guarded the entrance to his building.
-                            <br /><br />
-                            The family transferred back to Lowry AFB in 1969, where they continued to live in their home in Morris Heights. Earl retired from the Air Force in 1972 as a Tech Sargent after “20 years and two days.”
-                            <br /><br />
-                            Post military retirement, Earl enjoyed a successful career with the Denver Urban Renewal Authority, which helped the resurgence of downtown Denver in the late 70s and early 80s. He also held various management positions in the loan industry before officially retiring.
-                            <br /><br />
-                            Post retirement, he worked at a driving range and continued to coach youth sports. Earl loved playing golf and long walks with his dog Gina.  He and Marianne enjoyed going to Blackhawk and traveling, especially ship cruises to far off lands. They were also active in Democratic Party politics, as well as volunteers for the Morris Heights Improvement Association. Earl was also active in the Air Force Technical Applications Center (AFTAC) Alumni Association.
-                            <br /><br />
-                            Earl coached youth sports throughout his adult life. Even up to a few years ago, Earl coached youth basketball. He was a diehard Broncos, Rockies and Nuggets fan. He and Marianne have held Bronco season tickets since 1970. They were among the original infamous South Standers. He went to Super Bowls with Marianne and also dear friends across the street, the Houstons.
-                            <br /><br />
-                            He loved spending family time. Vacations, camping, river rafting, attending ball games, recitals or even just hanging out playing board games. Even after a hard day at work, Earl was always ready to throw a ball or wrestle his children on the living room floor. 
-                            <br /><br />
-                            As his children grew into adulthood and began families of their own, Earl helped them with guidance, advice and friendship.
-                            <br /><br />
-                            He always told David and Brenda that he wanted to be a better dad than his dad. He succeeded a million times over.
-                            <br /><br />
-                            In addition to his wife Marianne, son David (Donna) and daughter Brenda (Michael), Earl is survived by grandchildren Christopher, Michelle (Andrew), Lauren, and Matthew (Ginger) and great grandchildren Graham and Maren.
-                            <br /><br />
-                            He is also survived by sisters Eleanor (George), Shirley and Mae.
-                            <br /><br />
-                            He was preceded in death by his father and mother, brother William, and sisters Mary, Barbara, Audrey, and Margaret.
-                            <br /><br />
-                            In lieu of flowers, the family requests donations to the Denver Dumb Friends League (where Earl found his beloved Gina) and/or the Methodist Home for Children in Raleigh, NC, in his name.
-                            <br /><br />
-                            <span class="underLine maroonText fontSize1_Halfem">Services</span><br />
-                            <span class="underLine maroonText">MEMORIAL SERVICE</span>
-                            Thursday
-                            January 26, 2023<br />
-                            10:00 AM<br />
-                            Horan & McConaty - Aurora<br />
-                            11150 East Dartmouth Avenue<br />
-                            Aurora, CO 80014<br />
-                            <a href="https://www.google.com/maps/place/11150+E+Dartmouth+Ave,+Aurora,+CO+80014/@39.6601407,-104.8573271,17z/data=!3m1!4b1!4m5!3m4!1s0x876c87e5df34efb3:0xd3256d47c964296d!8m2!3d39.6601407!4d-104.8551384" target="_blank">Direction to Memorial Service</a>
-                            <br /><br />
-                            <span class="underLine maroonText">MILITARY HONORS</span><br />
-                            Thursday<br />
-                            January 26, 2023<br />
-                            2:15 PM
-                            <br /><br />
-                            <span class="underLine maroonText">Fort Logan National Cemetery- Staging Area C</span><br />
-                            3698 S Sheridan Blvd<br />
-                            Denver, CO 80235<br />
-                            <a href="https://www.google.com/maps/place/3698+S+Sheridan+Blvd,+Denver,+CO+80236/@39.6497707,-105.0530671,17z/data=!3m1!4b1!4m5!3m4!1s0x876b801e10edeeb7:0x2b8f6e7b5693beaa!8m2!3d39.6497707!4d-105.0508784" target="_blank">Directions to Cemetery</a>
-                        </p>
-                    </div>
-                </article>
-
                 <article>
                     <div>
                         <h2 id="ShaderH2" class="obitH1">Rita Jean Shader - 11/9/2022 </h2>
