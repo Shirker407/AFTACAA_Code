@@ -390,7 +390,7 @@
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
                         Beef O'Brady's<br />
-                        744 South Patrick Drive<br />
+                        724 South Patrick Drive<br />
                         Satellite Beach, Fl<br /> 
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
@@ -622,71 +622,6 @@
             </figure>
 
             <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
-        </article>
-
-        <article id="DiamondArt" class="myArts noDisplay">
-            <p class="centerText pTitle">
-                AFTAC celebrates 75 years…<br />throws a Diamond Jubilee Birthday Ball<br />
-                Submitted by Ed Lindsay
-            </p>
-            <hr class="myHR" />
-            <p>
-                1 day older than the Air Force…that’s AFTAC’s legacy. Well, at least 1 of many claims of how special the Air Force Technical Application Center is to the history of our country. As many of us know, what AFTAC did, as a whole, was cloaked in secrecy. If we told you what we did, we would have to kill you…or something like that. On 17 September, 2022, AFTAC came out of the shadows for a night of revelry. A night to celebrate 75 years as an outstanding organization. I had the pleasure of getting to attend this fine event.
-                <br /><br />
-                The guest speaker for the event was Major General Aaron “Brain” Prupas. The AFTAC Commander from June 2010 – May 2012.
-            </p>
-
-            <figure class="floatLeft width45">
-                <img alt="Diamond1.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond1.png" />
-                <figcaption class="maroonText italic bold">
-                    Major General Aaron “Brain” Prupas
-                </figcaption>
-            </figure>
-
-            <figure class="floatLeft width45">
-                <img alt="Diamond2.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond2.png" />
-                <figcaption class="maroonText italic bold">
-                    Coats came off and there were some colorful sleeves.<br />Dr. Dan DeForest sports an orbital on his back
-                </figcaption>
-            </figure>
-
-            <div class="clear"></div>
-
-            <p>
-                It was a dark and rainy night. There was a large storm coming off the coast of Africa and it was heading towards the Caribbean. This didn’t bother the Men and Women of AFTAC. They were gathering in the dry comforts of the Hilton Cocoa Beach Oceanfront. Attendees were dressed in Mess dress, Class A, luxurious dresses, tuxes, and other apparel. There were two bars open and the lines were long…a perfect opportunity for people to meet old/new friends and let their hair down. The check in tables provided nice little mementos, wine stoppers and water bottles.
-                <br /><br />
-                A slide show was playing that showed previous AFTAC events. Nice representation of the many facets of AFTAC for this diamond jubilee.
-                <br /><br />
-                I got to spend some time catching up with Major General Prupas. He was the Commander when I returned to Florida in July 2010 for my last tour at AFTAC. He was on terminal leave and looking forward to his retirement in Colorado. I also spoke briefly with Colonel Finlayson and Chief Wright. I presented each of them with the coaster that Tony De Marco had designed for the Alumni’s 2022 WorldWide Reunion.  
-            </p>
-
-            <p>
-                After about an hour of socializing, the attendees took their seats to prepare for the rest of the evening’s events.
-                I was seated next to Lt. Colonel Jarred Burley, the current Director of the Ciambrone Radiochemistry Lab. On my other side was Dan Foster. An alumni member that had done time at TOD, HQ and a lot of Flying for AFTAC. Many stories were told. Also at the table was TSgt Jason Baron who had a big part in the planning of the Ball. He also works in the CRL.
-                <br /><br />
-                Dinner was served and more conversation was had. After dinner, there was a cake cutting ceremony that had the Oldest and Youngest Airmen in the room join Colonel Finlayson and Chief Wright to cut the cake.
-            </p>
-            <figure class="floatLeft width45">
-                <img alt="Diamond3.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond3.png" />
-                <figcaption class="maroonText italic bold">
-                    Chief (retired) Ed Lindsay with Chief Adam Dunn
-                </figcaption>
-            </figure>
-
-            <figure class="floatLeft width45">
-                <img alt="Diamond4.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond4.png" />
-                <figcaption class="maroonText italic bold">
-                    Dan Foster next to Airborne Sampling display
-                </figcaption>
-            </figure>
-
-            <div class="clear"></div>
-
-            <p>
-                Then Major General Prupas took the podium. Colonel Finlayson introduced him. He relayed the history he had with MG Prupas in the beginning of his career. MG Prupas then gave a nice, brief presentation on what it meant to be associated with AFTAC. He mentioned the AFTAC Alumni throughout his presentation. He emphasized many times how he had never encountered a military unit that was so oriented as a cohesive, family organization. He spoke to the Ethos of AFTAC members and their dedication to the mission that was assigned to them 75 years prior.
-                <br /><br />
-                After MG Prupas spoke. The music started playing and dancing and frivolity ensued. That is when I departed. 
-            </p>
         </article>
 
         <article id="Golf2022Art" class="myArts noDisplay">
