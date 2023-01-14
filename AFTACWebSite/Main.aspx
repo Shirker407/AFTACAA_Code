@@ -164,6 +164,7 @@
 
                     <li id="liHistory" class="liMainMenu bottomDot">Histories
                         <div id="divHistory" class="underMenu noDisplay">
+                            <span id="my79Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">79 Years Ago</span>
                             <span id="my91Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC 91 Years of Proud 99 Service</span>
                             <span id="FourSkin" class="myHistories underSel block leftMargin1em bottomDot yellowText">Four Skin Rug</span>
                             <span id="AFTACCommand" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC CCs/CVs</span>
@@ -275,102 +276,32 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myJubilee" class="announcement greenText">The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.</td>
-                                    <td class="posted greenText">8/9/2022</td>
-                                    <td class="event greenText">9/17/2022</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWhitney" class="announcement blueText">Jan Whitney's Obituary was Posted.</td>
-                                    <td class="posted blueText">8/9/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myNote" class="announcement blueText">Note from new AFTAC Commander<br />to the Alumni</td>
-                                    <td class="posted blueText">7/19/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPhoenix" class="announcement blueText">New WC-135R Constant Phoenix<br />Tail Number 14386 (Updated)</td>
-                                    <td class="posted blueText">7/14/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMedical" class="announcement redText">Military Health System Patients placed in Civilian Care Starting This Year.</td>
-                                    <td class="posted redText">7/14/2022</td>
-                                    <td class="event redText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myFinlayson" class="announcement redText">Colonel James “Cobra” Finlayson Biography</td>
-                                    <td class="posted redText">7/12/2022</td>
-                                    <td class="event redText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myLarson" class="announcement blueText">Karla Larson's Obituary was Posted.</td>
-                                    <td class="posted blueText">6/25/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDunn" class="announcement blueText">David Dunn's Obituary was Posted.</td>
-                                    <td class="posted blueText">6/23/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySteskal" class="announcement blueText">Mike Steskal's Obituary was Updated.</td>
-                                    <td class="posted blueText">6/23/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCmd" class="announcement blueText">AFTAC Change of Command</td>
-                                    <td class="posted blueText">6/7/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWOH" class="announcement blueText">Added 2022 WOH Recipients</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCiambrone" class="announcement blueText">Terry Ciambrone's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWiley" class="announcement blueText">Judith Wiley's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myRobbirds" class="announcement blueText">James Robbird's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySmith" class="announcement blueText">Sam Smith's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMarcus" class="announcement blueText">Donald Marcus' Obituary was posted.</td>
-                                    <td class="posted blueText">5/9/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpaceA" class="announcement blueText">Space Available Air Travel is back.</td>
-                                    <td class="posted blueText">4/25/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCwikla" class="announcement blueText">Jim Cwikla's Obituary was posted.</td>
-                                    <td class="posted blueText">4/25/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="AOY2021" class="announcement blueText">Lou Seiler Latest Alumni of Year</td>
-                                    <td class="posted blueText">4/23/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                          </table>
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <td id="myCommPage" class="announcement blueText">Check "Command Corner" in Main Menu</td>
+                                <td class="posted blueText">1/9/2023</td>
+                                <td class="event blueText"></td>
+                            </tr>
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
+                                <td class="posted greenText">1/5/2023</td>
+                                <td class="event greenText">3/4/2023</td>
+                            </tr>
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
+                                <td class="posted blueText">3/4/2023</td>
+                                <td class="event blueText"></td>
+                            </tr>
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
+                                <td class="posted blueText">12/31/2022</td>
+                                <td class="event blueText"></td>
+                            </tr>
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <td id="myDecPomo" class="announcement blueText">December Pomo was Published.</td>
+                                <td class="posted blueText">12/23/2022</td>
+                                <td class="event blueText"></td>
+                            </tr>
+                         </table>
                         </div>
                     </div>
                 </div>
@@ -401,296 +332,518 @@
         </article>
 
         <article id="myCommandArt" class="myArts noDisplay">
-        <p class="pTitle centerTest underLine">Command Corner</p>
+                <p class="pTitle centerTest underLine">Command Corner</p>
 
-        <aside class="floatLeft width30 backMaroon yellowBorder">
-            <ul id="Commandul" class="padding5">
-                <li class="CommandNotes">Colonel Finlayson's Biography</li>
-                <li class="CommandNotes">Chief Wright's Biography</li>
-                <li class="CommandNotes">Note from the Commander</li>
-            </ul>
-        </aside>
+                <aside class="floatLeft width30 backMaroon yellowBorder">
+                    <ul id="Commandul" class="padding5">
+                        <li class="CommandNotes">Colonel Finlayson's Biography</li>
+                        <li class="CommandNotes">Chief Wright's Biography</li>
+                        <li class="CommandNotes">Note from the Commander</li>
+                    </ul>
+                </aside>
 
-        <section class="floatLeft width65 leftMargin2em maroonBorder" style="min-height:30em">
-            <article id="CommInitial" class="CommandArt block">
-                <div class="backMaroon" style="height:100%;">
-                    <div class="centerDiv backMaroon topMargin10em">
-                        <asp:Label runat="server" Font-Size="1.5em" BackColor="Maroon" ForeColor="Yellow" Text="Click on Document name at the right." Style="margin-top:5em;"></asp:Label>
-                    </div>
-                </div>
-            </article>
+                <section class="floatLeft width65 leftMargin2em maroonBorder" style="min-height:30em">
+                    <article id="CommInitial" class="CommandArt block">
+                        <div class="backMaroon" style="height:100%;">
+                            <div class="centerDiv backMaroon topMargin10em">
+                                <asp:Label runat="server" Font-Size="1.5em" BackColor="Maroon" ForeColor="Yellow" Text="Click on Document name at the right." Style="margin-top:5em;"></asp:Label>
+                            </div>
+                        </div>
+                    </article>
 
             <article id="Command1" class="CommandArt noDisplay backWhite">
-                <div class="centerDiv">
-                    <img id="AirForceHeader" alt="Air Force Header" class="width100" src="_Images/Air Forse Header.png" />
-                </div>
+                    <div class="centerDiv">
+                        <img id="AirForceHeader" alt="Air Force Header" class="width100" src="_Images/Air Forse Header.png" />
+                    </div>
 
-                <p class="pTitle centerText underline">COLONEL JAMES FINLAYSON</p>
-                <p>
-                    <img alt="Finlayson.png" class="floatRight width35 leftMargin1em maroonBorder" src="_Images/Finlayson.png"/>
-                    Colonel James “Cobra” Finlayson is the Commander, Air Force
-                    Technical Applications Center, Patrick Space Force Base, Fla.
-                    AFTAC operates and maintains the United States Atomic Energy
-                    Detection System to monitor foreign compliance with various
-                    treaties limiting nuclear testing. The focus of AFTAC’s more than
-                    1,000 professionals is to detect special events in the atmosphere,
-                    underwater, underground, and in space to determine if they are
-                    nuclear and to report them to U.S. senior decision makers.
-                    <br /><br />
-                    Colonel Finlayson received his commission in 1997 from the
-                    United States Air Force Academy. Prior to assuming command
-                    of the Department of Defense’s sole nuclear treaty monitoring
-                    center, Colonel Finlayson was the Vice Commander of the 17th
-                    Training Wing at Goodfellow AFB, Texas, serving as the principal
-                    assistant to the Wing Commander and overseeing two training
-                    groups, a mission support group, and a medical group. He also
-                    directed 13 wing staff agencies and managed $1.5 billion in real
-                    property, equipment, supplies and contracts. Additionally, Colonel Finlayson served as the Chief of
-                    Staff, J2 Directorate for Intelligence, U.S. Strategic Command located at Offutt Air Force Base,
-                    Nebraska. Previous leadership assignments include serving as the Commander of National Air and
-                    Space Intelligence Center’s Regional Threats Analysis Squadron and as the Director of Operations
-                    for U.S. Strategic Command’s Joint Intelligence Operations Center. He has forward deployed on five
-                    occasions to Egypt, Qatar, Iraq, and Afghanistan in support of Operations Bright Star, Iraqi Freedom
-                    and Enduring Freedom.
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">EDUCATION</span><br />
-                    1997 Bachelor of Science, History, U.S. Air Force Academy, Colorado Springs, Colo.<br />
-                    2000 Professional Masters of Business Administration, Troy University, Troy, Alabama<br />
-                    2002 Squadron Officer’s School, Maxwell AFB, Ala.<br />
-                    2006 Air Command and Staff College, by correspondence<br />
-                    2008 Juris Doctor, cum laude, Boyd School of Law, University of Nevada Las Vegas<br />
-                    2010 Air Command and Staff College, Maxwell AFB, Ala.<br />
-                    2011 Air War College, by correspondence<br />
-                    2016 Doctor of Philosophy, summa cum laude, Organizational Development and Leadership,
-                    University of the Rockies, Denver, Colo.
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">ASSIGNMENTS</span><br />
-                    1. May 1997 - June 1998, Admissions Advisor, Directorate of Admissions, U.S. Air Force
-                    Academy, Colorado Springs, Colo.<br />
-                    2. June 1998 - March 1999, Student, 315th Technical Training Squadron, Goodfellow AFB, Texas<br />
-                    3. March 1999 - May 2001, Chief, Intelligence, 9th Fighter Squadron, Holloman AFB, N.M.<br />
-                    4. May 2001 - December 2003, Command Briefer/Analyst, U.S. Central Command, Tampa, Fla.<br />
-                    5. December 2003 - January 2007, Flight Commander, 547th Intelligence, Surveillance and
-                    Reconnaissance Squadron, Nellis AFB, Nev.<br />
-                    6. January 2007 - July 2009, Operations Officer, Functional Analysis Division, Security and
-                    Intelligence Directorate, U.S. Southern Command, Miami, Fla.<br />
-                    7. July 2009 - July 2010, Student, Air Command and Staff College, Maxwell AFB, Ala.<br />
-                    8. July 2010 - July 2012, Wing Senior Intelligence Officer, 35th Fighter Wing, Misawa Air Base,
-                    Japan<br />
-                    9. July 2012 - July 2015, Deputy Division Chief, Targeting, Joint Staff J2, Pentagon, Washington,
-                    D.C.<br />
-                    10. July 2015 - July 2017, Commander, Regional Threats Analysis Squadron, NASIC, WrightPatterson, Ohio<br />
-                    11. July 2017 - July 2018, Deputy Commander, 365th ISR Group, Nellis AFB, Nev.<br />
-                    12. July 2018 - July 2019, Director of Operations, U.S. Strategic Command, JIOC, Offutt AFB, Neb.<br />
-                    13. July 2019 - May 2020, Chief of Staff, J2 Directorate for Intelligence, U.S. Strategic Command,
-                    Offutt AFB, Neb.<br />
-                    14. May 2020 – May 2022, Vice Commander, 17th Training Wing, Goodfellow AFB, Texas<br />
-                    15. June 2022 – Present, Commander, Air Force Technical Applications Center, Patrick SFB, Fla.
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">SUMMARY OF JOINT ASSIGNMENTS</span><br />
-                    May 2001 - December 2003, USCENTCOM, Tampa, Fla., as a captain<br />
-                    January 2007 - July 2009, USSOUTHCOM, Miami, Fla., as a major<br />
-                    July 2012 - July 2015, Joint Staff J2, Pentagon, Washington, D.C., as a lieutenant colonel<br />
-                    July 2019 - May 2020, USSTRATCOM, Offutt AFB, Neb., as a colonel
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">MAJOR AWARDS AND DECORATIONS</span><br />
-                    Defense Superior Service Medal<br />
-                    Legion of Merit<br />
-                    Defense Meritorious Service Medal with oak leaf cluster<br />
-                    Meritorious Service Medal with three oak leaf clusters<br />
-                    Joint Service Commendation Medal with two oak leaf clusters<br />
-                    Air Force Commendation Medal<br />
-                    Joint Service Achievement Medal<br />
-                    Air Force Achievement Medal
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">EFFECTIVE DATES OF PROMOTION</span><br />
-                    Second Lieutenant May 28, 1997<br />
-                    First Lieutenant May 28, 1999<br />
-                    Captain May 28, 2001<br />
-                    Major Dec. 1, 2006<br />
-                    Lieutenant Colonel March 1, 2012<br />
-                    Colonel Sept. 1, 2018<br />
-                    (Current as of June 2022)
-                </p>
-            </article>
+                    <p class="pTitle centerText underline">COLONEL JAMES FINLAYSON</p>
+                    <p>
+                        <img alt="Finlayson.png" class="floatRight width35 leftMargin1em maroonBorder" src="_Images/Finlayson.png"/>
+                        Colonel James “Cobra” Finlayson is the Commander, Air Force
+                        Technical Applications Center, Patrick Space Force Base, Fla.
+                        AFTAC operates and maintains the United States Atomic Energy
+                        Detection System to monitor foreign compliance with various
+                        treaties limiting nuclear testing. The focus of AFTAC’s more than
+                        1,000 professionals is to detect special events in the atmosphere,
+                        underwater, underground, and in space to determine if they are
+                        nuclear and to report them to U.S. senior decision makers.
+                        <br /><br />
+                        Colonel Finlayson received his commission in 1997 from the
+                        United States Air Force Academy. Prior to assuming command
+                        of the Department of Defense’s sole nuclear treaty monitoring
+                        center, Colonel Finlayson was the Vice Commander of the 17th
+                        Training Wing at Goodfellow AFB, Texas, serving as the principal
+                        assistant to the Wing Commander and overseeing two training
+                        groups, a mission support group, and a medical group. He also
+                        directed 13 wing staff agencies and managed $1.5 billion in real
+                        property, equipment, supplies and contracts. Additionally, Colonel Finlayson served as the Chief of
+                        Staff, J2 Directorate for Intelligence, U.S. Strategic Command located at Offutt Air Force Base,
+                        Nebraska. Previous leadership assignments include serving as the Commander of National Air and
+                        Space Intelligence Center’s Regional Threats Analysis Squadron and as the Director of Operations
+                        for U.S. Strategic Command’s Joint Intelligence Operations Center. He has forward deployed on five
+                        occasions to Egypt, Qatar, Iraq, and Afghanistan in support of Operations Bright Star, Iraqi Freedom
+                        and Enduring Freedom.
+                        <br /><br />
+                        <span class="maroonText bold fontSize1_Halfem underline">EDUCATION</span><br />
+                        1997 Bachelor of Science, History, U.S. Air Force Academy, Colorado Springs, Colo.<br />
+                        2000 Professional Masters of Business Administration, Troy University, Troy, Alabama<br />
+                        2002 Squadron Officer’s School, Maxwell AFB, Ala.<br />
+                        2006 Air Command and Staff College, by correspondence<br />
+                        2008 Juris Doctor, cum laude, Boyd School of Law, University of Nevada Las Vegas<br />
+                        2010 Air Command and Staff College, Maxwell AFB, Ala.<br />
+                        2011 Air War College, by correspondence<br />
+                        2016 Doctor of Philosophy, summa cum laude, Organizational Development and Leadership,
+                        University of the Rockies, Denver, Colo.
+                        <br /><br />
+                        <span class="maroonText bold fontSize1_Halfem underline">ASSIGNMENTS</span><br />
+                        1. May 1997 - June 1998, Admissions Advisor, Directorate of Admissions, U.S. Air Force
+                        Academy, Colorado Springs, Colo.<br />
+                        2. June 1998 - March 1999, Student, 315th Technical Training Squadron, Goodfellow AFB, Texas<br />
+                        3. March 1999 - May 2001, Chief, Intelligence, 9th Fighter Squadron, Holloman AFB, N.M.<br />
+                        4. May 2001 - December 2003, Command Briefer/Analyst, U.S. Central Command, Tampa, Fla.<br />
+                        5. December 2003 - January 2007, Flight Commander, 547th Intelligence, Surveillance and
+                        Reconnaissance Squadron, Nellis AFB, Nev.<br />
+                        6. January 2007 - July 2009, Operations Officer, Functional Analysis Division, Security and
+                        Intelligence Directorate, U.S. Southern Command, Miami, Fla.<br />
+                        7. July 2009 - July 2010, Student, Air Command and Staff College, Maxwell AFB, Ala.<br />
+                        8. July 2010 - July 2012, Wing Senior Intelligence Officer, 35th Fighter Wing, Misawa Air Base,
+                        Japan<br />
+                        9. July 2012 - July 2015, Deputy Division Chief, Targeting, Joint Staff J2, Pentagon, Washington,
+                        D.C.<br />
+                        10. July 2015 - July 2017, Commander, Regional Threats Analysis Squadron, NASIC, WrightPatterson, Ohio<br />
+                        11. July 2017 - July 2018, Deputy Commander, 365th ISR Group, Nellis AFB, Nev.<br />
+                        12. July 2018 - July 2019, Director of Operations, U.S. Strategic Command, JIOC, Offutt AFB, Neb.<br />
+                        13. July 2019 - May 2020, Chief of Staff, J2 Directorate for Intelligence, U.S. Strategic Command,
+                        Offutt AFB, Neb.<br />
+                        14. May 2020 – May 2022, Vice Commander, 17th Training Wing, Goodfellow AFB, Texas<br />
+                        15. June 2022 – Present, Commander, Air Force Technical Applications Center, Patrick SFB, Fla.
+                        <br /><br />
+                        <span class="maroonText bold fontSize1_Halfem underline">SUMMARY OF JOINT ASSIGNMENTS</span><br />
+                        May 2001 - December 2003, USCENTCOM, Tampa, Fla., as a captain<br />
+                        January 2007 - July 2009, USSOUTHCOM, Miami, Fla., as a major<br />
+                        July 2012 - July 2015, Joint Staff J2, Pentagon, Washington, D.C., as a lieutenant colonel<br />
+                        July 2019 - May 2020, USSTRATCOM, Offutt AFB, Neb., as a colonel
+                        <br /><br />
+                        <span class="maroonText bold fontSize1_Halfem underline">MAJOR AWARDS AND DECORATIONS</span><br />
+                        Defense Superior Service Medal<br />
+                        Legion of Merit<br />
+                        Defense Meritorious Service Medal with oak leaf cluster<br />
+                        Meritorious Service Medal with three oak leaf clusters<br />
+                        Joint Service Commendation Medal with two oak leaf clusters<br />
+                        Air Force Commendation Medal<br />
+                        Joint Service Achievement Medal<br />
+                        Air Force Achievement Medal
+                        <br /><br />
+                        <span class="maroonText bold fontSize1_Halfem underline">EFFECTIVE DATES OF PROMOTION</span><br />
+                        Second Lieutenant May 28, 1997<br />
+                        First Lieutenant May 28, 1999<br />
+                        Captain May 28, 2001<br />
+                        Major Dec. 1, 2006<br />
+                        Lieutenant Colonel March 1, 2012<br />
+                        Colonel Sept. 1, 2018<br />
+                        (Current as of June 2022)
+                    </p>
+                </article>
 
             <article id="Command2" class="CommandArt noDisplay backWhite">
-                <p class="pTitle centerText underline">Chief Jerome Wright Biography</p>
-                <p>
-                    <img alt="CMS_Wright.png" src="_Photos/CMS_Wright.png" class="floatLeft width35 rightMargin2em maroonBorder" />
-                    Chief Master Sergeant (CMSgt) Jerome S. Wright serves as the senior enlisted advisor of the cadet wing at the U.S. Air Force Academy, Colorado Springs, Colo. He is the principle enlisted advisor to the commandant on training, education, standards and personnel matters for 4,400 cadets and 236 total force permanent party members. Additionally, as the career field manager for the Academy Military Trainer (8B200) Developmental Special Duty, he is responsible for the training, development, utilization, and readiness of 107 academy military trainers. He also provides mentorship to cadets, four group commanders, 40 squadron commanders, and respective superintendents and staff. The wing’s mission includes training, developing, and inspiring leaders of character for the Air and Space Force.
-                    <br /><br />
-                    Chief Wright was born in Guantanamo Bay, Cuba and raised in Virginia Beach, Va. He entered the Air Force in July of 2000. His background includes various duties in missile and space systems electronic maintenance, electronic systems security assessment, operations intelligence, and geospatial intelligence targeting career fields. He has deployed in support of Operation ENDURING FREEDOM, Operation IRAQI FREEDOM, Combined Joint Task Force-Horn of Africa, and Operation UNIFIED PROTECTOR. Prior to assuming his current position, Chief Wright was the superintendent and chief enlisted manager of the 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla.
-                    <br /><br />
-                    Education Chief Leadership Course, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2020)
-                    <br /><br />
-                    Senior Enlisted Joint Professional Military Education II, Joint Forces Staff College, by correspondence (2019)
-                    <br /><br />
-                    USAF Continuous Process Improvement Green Belt Course, Goodfellow Air Force Base, San Angelo, Texas (2017)
-                    <br /><br />
-                    USAF Master Resilience Trainer Course, Joint Base McGuire-Dix-Lakehurst, Burlington County, N.J. (2017)
-                    <br /><br />
-                    USAF Senior Noncommissioned Officer Academy, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2016)
-                    <br /><br />
-                    AETC Basic Instructor Course, Goodfellow Air Force Base, San Angelo, Texas (2015)
-                    <br /><br />
-                    Bachelor of Science, Human Resource Management and Organizational Development, University of Maryland, College Park, Md. (2015)
-                    <br /><br />
-                    Senior Enlisted ISR Master Skills Course, Goodfellow Air Force Base, San Angelo, Texas (2013)
-                    <br /><br />
-                    Senior Enlisted Joint Professional Military Education, Joint Forces Staff College, by correspondence (2013)
-                    <br /><br />
-                    Associates in Intelligence Studies and Technology, Community College of the Air Force, Montgomery, Ala. (2013)
-                    <br /><br />
-                    Associates in Electronic Systems Technology, Community College of the Air Force, Montgomery, Ala. (2013)
-                    <br /><br />
-                    Noncommissioned Officer Academy, Kapaun Air Station, Germany (2011)
-                    <br /><br />
-                    Joint Battle Damage Assessment Course, Joint Targeting School, Va. (2010)
-                    <br /><br />
-                    Collateral Damage Estimation Course, U.S. Army Garrison Heidelberg, Germany (2009)
-                    <br /><br />
-                    Dynamics of International Terrorism, USAF Special Operations School (2007)
-                    <br /><br />
-                    Information Warfare Application Course, Maxwell AFB, Ala. (2007)
-                    <br />
-                    Intercontinental Ballistic Missile (ICBM) Maintenance Instructor Course, Francis E. Warren AFB, Wyo. (2005)
-                    <br /><br />
-                    Airman Leadership School, Francis E. Warren AFB, Wyo. (2005)
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">Professional Experience</span><br />
-                    Senior Enlisted Advisor to the Commandant and Career Field Manager for Academy Military Trainers (8B200), Cadet Wing, U.S. Air Force Academy, Colorado Springs, Colo. (Jan. 2021-Present)
-                    <br /><br />
-                    Command Chief, Commandant of Cadets, U.S. Air Force Academy, Colorado Springs, Colo. (Nov. 2020-Jan. 2021)
-                    <br /><br />
-                    Superintendent, 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla. (July 2019-Nov. 2020)
-                    <br /><br />
-                    Operations Superintendent, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (July 2016–July 2019)
-                    <br /><br />
-                    Course Chief, Advanced Targeting Courses, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2015–July 2016)
-                    <br /><br />
-                    Superintendent, ISR Programs and Resources, HQ USAFE-AFAFRICA Intelligence Directorate, Ramstein Air Base, Germany; Acting Intelligence Inspector, HQ USAFE-AFAFRICA Inspector General, Ramstein Air Base, Germany (April 2015– Sept. 2015); (June 2013–October 2015)
-                    <br /><br />
-                    Section Chief, Targeting and Imagery Support, 603rd Air & Space Operations Center, Ramstein Air Base, Germany (Feb. 2012–June 2013)
-                    <br /><br />
-                    NCOIC, Tactical Assessment, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Dynamic Targeting Chief, NATO Combined Air Operations Center, Poggio Renatico, Italy (Aug. 2011–Nov. 2011); (Aug. 2009–Feb. 2012)
-                    <br /><br />
-                    NCOIC, Dynamic Targeting, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Shift NCOIC, Targeting Cell, Combined Air & Space Operations Center, Al Udeid Air Base, Qatar (June 2009–Dec. 2009); (June 2008–August 2009)
-                    <br /><br />
-                    Student, Operations Intelligence Course, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2007–June 2008)
-                    <br /><br />
-                    Electronic System Security Assessment Analyst, 68th Information Operations Squadron, Brooks-City Base, San Antonio, Texas (Oct. 2006–Oct. 2007)
-                    <br /><br />
-                    Instructor, ICBM Electro-Mechanical Team, 90th Maintenance Operations Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (May 2005–Oct. 2006)
-                    <br /><br />
-                    Team Chief, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (Jan. 2004–May 2005)
-                    <br /><br />
-                    Technician, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (April 2001–Jan. 2004)
-                    <br /><br />
-                    Student, Missile and Space System Electronic Maintenance Course, 532nd Training Squadron, Vandenberg Air Force Base, Lompoc, Cal. (Nov. 2000–March 2001)
-                    <br /><br />
-                    Student, Electronic Principles Course, 344th Training Squadron, Lackland Air Force Base, San Antonio, Texas (Aug. 2000–Nov. 2000)
-                    <br /><br />
-                    Trainee, Basic Military Training, 324th Training Squadron, Lackland Air Force Base, San Antonio, Texas (July 2000–Aug. 2000)
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">Honors & Awards</span><br />
-                    Meritorious Service Medal with two oak leaf clusters
-                    <br />
-                    Joint Service Commendation Medal
-                    <br />
-                    Air Force Commendation Medal with one oak leaf cluster
-                    <br />
-                    Air Force Achievement Medal with one oak leaf cluster
-                    <br />
-                    Army Achievement Medal
-                    <br />
-                    Air & Space Campaign Medal
-                    <br />
-                    Nuclear Deterrence Operations Service Medal with ‘N’ device
-                    <br />
-                    Air Force Expeditionary Service Ribbon with Gold Border
-                    <br />
-                    Air Force Special Duty Ribbon
-                    <br />
-                    NATO Medal
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">OTHER ACHIEVEMENTS</span><br />
-                    Air Force Association Active Duty SNCO of the Year, State of Texas winner (2018)
-                    <br /><br />
-                    AETC Training Support SNCO of the Year, 17th Training Wing (2017)
-                    <br /><br />
-                    National Image Inc., Meritorious Service Award, 17th Training Wing (2017)
-                    <br /><br />
-                    Blacks in Government Meritorious Service Award, 17th Training Wing (2017)
-                    <br /><br />
-                    National Geospatial-Intelligence Agency Senior Enlisted of the Year Award, AETC (2016)
-                    <br /><br />
-                    SNCO of the Year, HQ USAFE-AFAFRICA (2014)
-                    <br /><br />
-                    AF ISR Awards Program SNCO of the Year, HQ USAFE-AFAFRICA Intelligence Directorate (2013)
-                    <br /><br />
-                    Distinguished Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
-                    <br />
-                    AETC Commander’s Top Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
-                    <br /><br />
-                    Academic Achievement Award, Airman Leadership School, F.E. Warren Air Force Base, Wyo. (2005)
-                </p>
+                        <p class="pTitle centerText underline">Chief Jerome Wright Biography</p>
+                        <p>
+                            <img alt="CMS_Wright.png" src="_Images/CMS_Wright.png" class="floatLeft width35 rightMargin2em maroonBorder" />
+                            Chief Master Sergeant (CMSgt) Jerome S. Wright serves as the senior enlisted advisor of the cadet wing at the U.S. Air Force Academy, Colorado Springs, Colo. He is the principle enlisted advisor to the commandant on training, education, standards and personnel matters for 4,400 cadets and 236 total force permanent party members. Additionally, as the career field manager for the Academy Military Trainer (8B200) Developmental Special Duty, he is responsible for the training, development, utilization, and readiness of 107 academy military trainers. He also provides mentorship to cadets, four group commanders, 40 squadron commanders, and respective superintendents and staff. The wing’s mission includes training, developing, and inspiring leaders of character for the Air and Space Force.
+                            <br /><br />
+                            Chief Wright was born in Guantanamo Bay, Cuba and raised in Virginia Beach, Va. He entered the Air Force in July of 2000. His background includes various duties in missile and space systems electronic maintenance, electronic systems security assessment, operations intelligence, and geospatial intelligence targeting career fields. He has deployed in support of Operation ENDURING FREEDOM, Operation IRAQI FREEDOM, Combined Joint Task Force-Horn of Africa, and Operation UNIFIED PROTECTOR. Prior to assuming his current position, Chief Wright was the superintendent and chief enlisted manager of the 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla.
+                            <br /><br />
+                            Education Chief Leadership Course, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2020)
+                            <br /><br />
+                            Senior Enlisted Joint Professional Military Education II, Joint Forces Staff College, by correspondence (2019)
+                            <br /><br />
+                            USAF Continuous Process Improvement Green Belt Course, Goodfellow Air Force Base, San Angelo, Texas (2017)
+                            <br /><br />
+                            USAF Master Resilience Trainer Course, Joint Base McGuire-Dix-Lakehurst, Burlington County, N.J. (2017)
+                            <br /><br />
+                            USAF Senior Noncommissioned Officer Academy, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2016)
+                            <br /><br />
+                            AETC Basic Instructor Course, Goodfellow Air Force Base, San Angelo, Texas (2015)
+                            <br /><br />
+                            Bachelor of Science, Human Resource Management and Organizational Development, University of Maryland, College Park, Md. (2015)
+                            <br /><br />
+                            Senior Enlisted ISR Master Skills Course, Goodfellow Air Force Base, San Angelo, Texas (2013)
+                            <br /><br />
+                            Senior Enlisted Joint Professional Military Education, Joint Forces Staff College, by correspondence (2013)
+                            <br /><br />
+                            Associates in Intelligence Studies and Technology, Community College of the Air Force, Montgomery, Ala. (2013)
+                            <br /><br />
+                            Associates in Electronic Systems Technology, Community College of the Air Force, Montgomery, Ala. (2013)
+                            <br /><br />
+                            Noncommissioned Officer Academy, Kapaun Air Station, Germany (2011)
+                            <br /><br />
+                            Joint Battle Damage Assessment Course, Joint Targeting School, Va. (2010)
+                            <br /><br />
+                            Collateral Damage Estimation Course, U.S. Army Garrison Heidelberg, Germany (2009)
+                            <br /><br />
+                            Dynamics of International Terrorism, USAF Special Operations School (2007)
+                            <br /><br />
+                            Information Warfare Application Course, Maxwell AFB, Ala. (2007)
+                            <br />
+                            Intercontinental Ballistic Missile (ICBM) Maintenance Instructor Course, Francis E. Warren AFB, Wyo. (2005)
+                            <br /><br />
+                            Airman Leadership School, Francis E. Warren AFB, Wyo. (2005)
+                            <br /><br />
+                            <span class="maroonText bold fontSize1_Halfem underline">Professional Experience</span><br />
+                            Senior Enlisted Advisor to the Commandant and Career Field Manager for Academy Military Trainers (8B200), Cadet Wing, U.S. Air Force Academy, Colorado Springs, Colo. (Jan. 2021-Present)
+                            <br /><br />
+                            Command Chief, Commandant of Cadets, U.S. Air Force Academy, Colorado Springs, Colo. (Nov. 2020-Jan. 2021)
+                            <br /><br />
+                            Superintendent, 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla. (July 2019-Nov. 2020)
+                            <br /><br />
+                            Operations Superintendent, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (July 2016–July 2019)
+                            <br /><br />
+                            Course Chief, Advanced Targeting Courses, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2015–July 2016)
+                            <br /><br />
+                            Superintendent, ISR Programs and Resources, HQ USAFE-AFAFRICA Intelligence Directorate, Ramstein Air Base, Germany; Acting Intelligence Inspector, HQ USAFE-AFAFRICA Inspector General, Ramstein Air Base, Germany (April 2015– Sept. 2015); (June 2013–October 2015)
+                            <br /><br />
+                            Section Chief, Targeting and Imagery Support, 603rd Air & Space Operations Center, Ramstein Air Base, Germany (Feb. 2012–June 2013)
+                            <br /><br />
+                            NCOIC, Tactical Assessment, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Dynamic Targeting Chief, NATO Combined Air Operations Center, Poggio Renatico, Italy (Aug. 2011–Nov. 2011); (Aug. 2009–Feb. 2012)
+                            <br /><br />
+                            NCOIC, Dynamic Targeting, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Shift NCOIC, Targeting Cell, Combined Air & Space Operations Center, Al Udeid Air Base, Qatar (June 2009–Dec. 2009); (June 2008–August 2009)
+                            <br /><br />
+                            Student, Operations Intelligence Course, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2007–June 2008)
+                            <br /><br />
+                            Electronic System Security Assessment Analyst, 68th Information Operations Squadron, Brooks-City Base, San Antonio, Texas (Oct. 2006–Oct. 2007)
+                            <br /><br />
+                            Instructor, ICBM Electro-Mechanical Team, 90th Maintenance Operations Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (May 2005–Oct. 2006)
+                            <br /><br />
+                            Team Chief, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (Jan. 2004–May 2005)
+                            <br /><br />
+                            Technician, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (April 2001–Jan. 2004)
+                            <br /><br />
+                            Student, Missile and Space System Electronic Maintenance Course, 532nd Training Squadron, Vandenberg Air Force Base, Lompoc, Cal. (Nov. 2000–March 2001)
+                            <br /><br />
+                            Student, Electronic Principles Course, 344th Training Squadron, Lackland Air Force Base, San Antonio, Texas (Aug. 2000–Nov. 2000)
+                            <br /><br />
+                            Trainee, Basic Military Training, 324th Training Squadron, Lackland Air Force Base, San Antonio, Texas (July 2000–Aug. 2000)
+                            <br /><br />
+                            <span class="maroonText bold fontSize1_Halfem underline">Honors & Awards</span><br />
+                            Meritorious Service Medal with two oak leaf clusters
+                            <br />
+                            Joint Service Commendation Medal
+                            <br />
+                            Air Force Commendation Medal with one oak leaf cluster
+                            <br />
+                            Air Force Achievement Medal with one oak leaf cluster
+                            <br />
+                            Army Achievement Medal
+                            <br />
+                            Air & Space Campaign Medal
+                            <br />
+                            Nuclear Deterrence Operations Service Medal with ‘N’ device
+                            <br />
+                            Air Force Expeditionary Service Ribbon with Gold Border
+                            <br />
+                            Air Force Special Duty Ribbon
+                            <br />
+                            NATO Medal
+                            <br /><br />
+                            <span class="maroonText bold fontSize1_Halfem underline">OTHER ACHIEVEMENTS</span><br />
+                            Air Force Association Active Duty SNCO of the Year, State of Texas winner (2018)
+                            <br /><br />
+                            AETC Training Support SNCO of the Year, 17th Training Wing (2017)
+                            <br /><br />
+                            National Image Inc., Meritorious Service Award, 17th Training Wing (2017)
+                            <br /><br />
+                            Blacks in Government Meritorious Service Award, 17th Training Wing (2017)
+                            <br /><br />
+                            National Geospatial-Intelligence Agency Senior Enlisted of the Year Award, AETC (2016)
+                            <br /><br />
+                            SNCO of the Year, HQ USAFE-AFAFRICA (2014)
+                            <br /><br />
+                            AF ISR Awards Program SNCO of the Year, HQ USAFE-AFAFRICA Intelligence Directorate (2013)
+                            <br /><br />
+                            Distinguished Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
+                            <br />
+                            AETC Commander’s Top Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
+                            <br /><br />
+                            Academic Achievement Award, Airman Leadership School, F.E. Warren Air Force Base, Wyo. (2005)
+                        </p>
 
-            </article>
+                    </article>
 
             <article id="Command3" class="CommandArt noDisplay backWhite">
-                <p class="pTitle underLine">Note from the Commander<br />By Col. James “Cobra” Finlayson</p>
+                    <p class="pTitle underLine">Note from the Commander<br />By Col. James “Cobra” Finlayson</p>
 
-                <p>
-                    Greetings to all the AFTAC giants out there, past and present! I’m thrilled to have been asked to
-                    contribute a few words to your newsletter, especially since I have heard so much about your legacy, the
-                    alumni association as a whole, and your continued efforts to stay engaged with the workforce in a variety
-                    of ways.
-                    <br /><br />
-                    I believe the Post Monitor editors are including my official biography in this quarter’s newsletter, so I won’t
-                    bore you with the details of my past military assignments, education and job titles. What my bio doesn’t
-                    cover is something I like to refer to as “Cobra’s Countdown” – sort of a list of rules to live by based on my
-                    philosophy of being a commander and an Air Force leader.
-                    I attribute a lot of who I am to how I was raised and where I came from. I was born in Heidelberg,
-                    Germany. My dad was an Army Warrant Officer, and like all military families, we moved around a lot. I
-                    call El Paso, Texas home since I graduated from Austin High School in 1993, and from there I was
-                    fortunate enough to attend the U.S. Air Force Academy. I spent the next 25-plus years traveling the
-                    world, applying my skills, contributing to the DOD mission, and meeting incredible people along the way.
-                    When I first sat down with my staff here at AFTAC, I relayed four parts of Cobra’s Countdown: contact,
-                    initiative, communication, and balance. Pretty simple stuff when you boil it down, and I find that keeping
-                    things simple is a big key to success.
-                    Contact. I like to walk around a lot and ask questions. I’m inquisitive by nature, and I think one of the
-                    best ways to learn is to ask the experts about what they do, how they do it, and why it matters. I love
-                    learning new things every day!
-                    <br /><br />
-                    Initiative. Quite frankly, the best ideas most often come from the bottom up, not from the top down. All
-                    too often I think senior leaders lose sight of that concept. As General Colin Powell aptly said, “Never let
-                    your ego get so close to your position that when your position goes, your ego goes with it.”
-                    Communication. It is crucial! We live in a world where a constant stream of information – more like a
-                    GLUT of info – comes at us every hour of every day, whether it’s email, texts, online messages, Tweets,
-                    Facebook posts, phone calls, or breaking news on TV. It’s always coming at us. But I am a firm believer
-                    that communication should be tailored to ensure the person receiving needs it at that moment in time, or if
-                    it can wait.
-                    <br /><br />
-                    Balance. As the saying goes, your personal life will long outlast your Air Force career, so it’s important to
-                    make sure your life is in balance. I imagine those reading this are long since retired from active duty, and
-                    you know this saying better than most! Having a career is great, but having a balanced family life is even
-                    better.
-                    <br /><br />
-                    And speaking of family life, I am blessed to be married to my amazing wife, Kristen, and we have two
-                    beautiful daughters together – Aurora and Audrey. They are the ones who bring balance to my life!
-                    I hope that gives you a little insight about me, and I’m looking forward to meeting you at one of the many
-                    AFTAC functions that our great alumni support during the year. Be sure to make a point of introducing
-                    yourself – I want to shake the hands of all the legends who are the foundation of AFTAC’s continued
-                    success. Thanks for all you do to make our center better!
-                    Cheers,<br />
-                    Cobra
-                </p>
-            </article>
+                    <p>
+                        Greetings to all the AFTAC giants out there, past and present! I’m thrilled to have been asked to
+                        contribute a few words to your newsletter, especially since I have heard so much about your legacy, the
+                        alumni association as a whole, and your continued efforts to stay engaged with the workforce in a variety
+                        of ways.
+                        <br /><br />
+                        I believe the Post Monitor editors are including my official biography in this quarter’s newsletter, so I won’t
+                        bore you with the details of my past military assignments, education and job titles. What my bio doesn’t
+                        cover is something I like to refer to as “Cobra’s Countdown” – sort of a list of rules to live by based on my
+                        philosophy of being a commander and an Air Force leader.
+                        I attribute a lot of who I am to how I was raised and where I came from. I was born in Heidelberg,
+                        Germany. My dad was an Army Warrant Officer, and like all military families, we moved around a lot. I
+                        call El Paso, Texas home since I graduated from Austin High School in 1993, and from there I was
+                        fortunate enough to attend the U.S. Air Force Academy. I spent the next 25-plus years traveling the
+                        world, applying my skills, contributing to the DOD mission, and meeting incredible people along the way.
+                        When I first sat down with my staff here at AFTAC, I relayed four parts of Cobra’s Countdown: contact,
+                        initiative, communication, and balance. Pretty simple stuff when you boil it down, and I find that keeping
+                        things simple is a big key to success.
+                        Contact. I like to walk around a lot and ask questions. I’m inquisitive by nature, and I think one of the
+                        best ways to learn is to ask the experts about what they do, how they do it, and why it matters. I love
+                        learning new things every day!
+                        <br /><br />
+                        Initiative. Quite frankly, the best ideas most often come from the bottom up, not from the top down. All
+                        too often I think senior leaders lose sight of that concept. As General Colin Powell aptly said, “Never let
+                        your ego get so close to your position that when your position goes, your ego goes with it.”
+                        Communication. It is crucial! We live in a world where a constant stream of information – more like a
+                        GLUT of info – comes at us every hour of every day, whether it’s email, texts, online messages, Tweets,
+                        Facebook posts, phone calls, or breaking news on TV. It’s always coming at us. But I am a firm believer
+                        that communication should be tailored to ensure the person receiving needs it at that moment in time, or if
+                        it can wait.
+                        <br /><br />
+                        Balance. As the saying goes, your personal life will long outlast your Air Force career, so it’s important to
+                        make sure your life is in balance. I imagine those reading this are long since retired from active duty, and
+                        you know this saying better than most! Having a career is great, but having a balanced family life is even
+                        better.
+                        <br /><br />
+                        And speaking of family life, I am blessed to be married to my amazing wife, Kristen, and we have two
+                        beautiful daughters together – Aurora and Audrey. They are the ones who bring balance to my life!
+                        I hope that gives you a little insight about me, and I’m looking forward to meeting you at one of the many
+                        AFTAC functions that our great alumni support during the year. Be sure to make a point of introducing
+                        yourself – I want to shake the hands of all the legends who are the foundation of AFTAC’s continued
+                        success. Thanks for all you do to make our center better!
+                        Cheers,<br />
+                        Cobra
+                    </p>
+                </article>
 
-        </section>
-    </article>        
+            </section>
+        </article>        
         
+        <article id="79YearsArt" class="myArts noDisplay">
+            <p>
+                Seems Impossible<br />
+                Carefully study this art work and then read the text of what we did.
+                Not only is the picture awesome, but so are the statistics!
+            </p>
+
+            <img alt="79Years1.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years1.png" />
+        
+            <p>
+                During the 3-1/2 years of World War II that started with the Japanese bombing of
+                Pearl Harbor in December of 1941 and ended with the surrender of Germany and Japan in 1945, "We the People of the U.S.A." produced the following:
+            </p>
+            <hr class="myHR" />
+            <ul id="Production" class="floatLeft width45 leftMargin3em bottomMargin1em maroonText">
+                <li>22 aircraft carriers</li>
+                <li>8 battleships</li>
+                <li>48 cruisers</li>
+                <li>349 destroyers</li>
+                <li>420 destroyer escorts</li>
+                <li>203 submarines</li>
+                <li>34 million tons of merchant ships</li>
+                <li>100,000 fighter aircraft</li>
+            </ul>
+
+            <ul id="Production1" class="floatLeft width40 leftMargin3em bottomMargin1em maroonText">
+                <li>98,000 bombers</li>
+                <li>24,000 transport aircraft</li>
+                <li>58,000 training aircraft</li>
+                <li>93,000 tanks</li>
+                <li>257,000 artillery pieces</li>
+                <li>105,000 mortars</li>
+                <li>3,000,000 machine guns</li>
+                <li>2,500,000 military trucks</li>
+            </ul>
+
+            <div class="clear"></div>
+
+            <hr class="myHR" />
+
+            <p>
+                We put 16.1 million men in uniform in the various armed services, invaded Africa, invaded Sicily and Italy, won the battle for the Atlantic, planned and executed D-Day,
+                marched across the Pacific and Europe, developed the atomic bomb and, ultimately,
+                conquered Japan and Germany.
+                <br /><br />
+                It’s amazing what America did in those days: many of you already know the story, here is the update.
+                <br /><br />
+                <span class="maroonText bold fontSize1_Halfem underline">THE FINAL TOAST</span><br />
+                The text below references the movie “Thirty Seconds Over Tokyo.”<br />
+                There is a second film made in 1944 that details the “show” trials of
+                the 11 airmen that were captured & tortured by the Japanese titled “The Purple Heart.”<br />
+                Three were executed as war criminals, a fourth died in captivity.<br />
+                The FINAL TOAST! They bombed Tokyo 78 years ago.<br />
+                They once were among the most universally admired and revered men in the United States .. There were 80 of the Raiders in April 1942, when they carried out one of the most courageous and heart-stirring military operations in this nation's
+                history. The mere mention of their unit's name, in those
+                years, would bring tears to the eyes of grateful Americans.
+            </p>
+
+            <img alt="79Years2.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years2.png" />
+        
+            <p>
+                After Japan'ssneak attack on Pearl Harbor, with the United States reeling and wounded, something dramatic was needed to turn the war effort around. Even though
+                there were no friendly airfields close enough to Japan for the United States to
+                launch a retaliation, a daring plan was devised.<br />
+                Sixteen B-25s were modified so that they could take off from the deck of an aircraft carrier.
+                This had never before been tried -- sending such big, heavy bombers from a carrier.
+            </p>
+
+            <figure>
+                <img alt="79Years3.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years3.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">B-25Bs Parked on the deck of the Hornet during the Doolittle Raid. April 1942</figcaption>
+            </figure>
+
+            <img alt="79Years4.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years4.png" />
+        
+            <p>
+                The 16 five-man crews, under the command of Lt. Col. James Doolittle,
+                who himself flew the lead plane off the USS Hornet,
+                knew that they would not be able to return to the carrier.
+                They would have to hit Japan and then hope to make it to China for a safe landing.
+            </p>
+
+            <img alt="79Years5.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years5.png" />
+        
+            <p>
+                But on the day of the raid, the Japanese military caught wind of the plan.<br />
+                The Raiders were told that they would have to take off from much farther out
+                in the Pacific Ocean than they had counted on.<br />
+                They were told that because of this they would not have enough fuel to make it to
+                safety.<br />
+                <span class="width50 autoMarginLeftRight maroonText bold underLine fontSize1_Halfem">And those men went anyway.</span>
+            </p>
+
+            <figure>
+                <img alt="79Years6.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years6.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">Jimmy Doolittle returning medals that were awarded to him by Japan </figcaption>
+            </figure>
+
+            <p>
+                They bombed Tokyo and then flew as far as they could.<br />
+                Four planes crash-landed; 11 more crews bailed out, and three of the Raiders
+                died.<br />
+                Eight more were captured; three were executed.<br />
+                Another died of starvation in a Japanese prison camp. One crew made it to Russia .
+            </p>
+
+            <img alt="79Years7.png" class="floatLeft width45 leftMargin2em topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years7.png" />
+            <img alt="79Years8.png" class="floatLeft width45 leftMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years8.png" />
+            <div class="clear"></div>
+
+            <img alt="79Years10.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years10.png" />
+        
+            <p>
+                The Doolittle Raiders sent a message from the United States to its enemies,
+                and to the rest of the world: We will fight. And, no matter what it takes, we will
+                win.<br />
+                Of the 80 Raiders, 62 survived the war. They were celebrated as national heroes,
+                models of bravery.<br />
+                Metro-Goldwyn-Mayer produced a motion picture based on the raid; "Thirty
+                Seconds Over Tokyo "
+                starring Spencer Tracy and Van Johnson, was a patriotic and emotional box-office hit,
+                and the phrase became part of the national lexicon.<br />
+                In the movie-theater previews for the film, MGM proclaimed that it was presenting the story........
+                "with supreme pride."
+            </p>
+
+            <img alt="79Years11.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years11.png" />
+
+            <img alt="79Years12.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years12.png" />
+        
+            <p>
+                Beginning in 1946, the surviving Raiders have held a reunion each April,
+                to commemorate the mission. The reunion is in a different city each year.
+                In 1959, the city of Tucson , Arizona , as a gesture of respect and gratitude,
+                presented the Doolittle Raiders with a set of 80 silver goblets.
+                Each goblet was engraved with the name of a Raider.
+            </p>
+
+            <img alt="79Years15.png" class="floatLeft width45 leftMargin2em topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years15.png" />
+            <img alt="79Years16.png" class="floatLeft width45 leftMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years16.png" />
+            <div class="clear"></div>
+
+            <p>
+                Also in the wooden case is a bottle of 1896 Hennessy Very Special cognac<br />
+                The year is not happenstance: 1896 was when Jimmy Doolittle was born.<br /><br />
+                There has always been a plan: When there are only two surviving Raiders,
+                they would open the bottle, at last drink from it,
+                and toast their comrades who preceded them in death.<br />
+            </p>
+            
+            <img alt="79Years18.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years18.png" />
+        
+            <p>
+                As 2013 began, there were five living Raiders; then, in February,
+                Tom Griffin passed away at age 96.<br />
+                What a man he was. After bailing out of his plane
+                Over a mountainous Chinese forest after the Tokyo raid, he became ill with malaria,
+                and almost died. When he recovered, he was sent to Europe to fly more combat
+                missions.<br />
+                He was shot down, captured, and spent 22 months in a German prisoner of war
+                camp.
+                <br /><br />
+                The selflessness of these men, the sheer guts ... There was a passage in
+                the Cincinnati Enquirer obituary for Mr. Griffin that, on the surface,
+                had nothing to do with the war, but that was emblematic of the depth
+                of his sense of duty and devotion:
+                "When his wife became ill and needed to go into a nursing home, he visited her
+                every day.<br />
+                He walked from his house to the nursing home, fed his wife,
+                and at the end of the day brought home her clothes. At night, he washed and ironed her clothes.
+                Then he walked them up to her room the next morning.<br />
+                He did that for three years until her death in 2005."
+            </p>
+
+            <figure>
+                <img alt="79Years19.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years19.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">With "Martha Jean" behind them, nine of the Doolittle Raiders and three "Honorary Guests" pose with WWII re-enactors dressed in period clothing.</figcaption>
+            </figure>
+
+            <p>
+                So now, out of the original 80, only four Raiders remain:<br />
+                Dick Cole (Doolittle's co-pilot on the Tokyo raid),
+                Robert Hite, Edward Saylor and David Thatcher. All are in their 90s.<br /><br />
+                They have decided that there are too few of them for the public reunions to continue.
+                The events in Fort Walton Beach marked the end. It has come full circle;
+                Florida 's nearby Eglin Field was where the Raiders trained in secrecy for the Tokyo mission.
+                The town planned to do all it can to honor the men: a six-day celebration of their valor,
+                including luncheons, a dinner and a parade.<br /><br />
+                The men have decided that after this final public reunion they will wait until a
+                later date --
+                sometime this year -- to get together once more, informally and in absolute privacy.
+                That is when they will open the bottle of brandy. The years are flowing by too
+                swiftly now;
+                they are not going to wait until there are only two of them.
+                They will fill the four remaining upturned goblets. And raise them in a toast to
+                those who are gone.
+            </p>
+
+            <figure class="floatLeft width40">
+                <img alt="79Years20.png" class="width80 autoMarginLeftRight leftMargin2em topMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years20.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">Richard Cole Died June 2019 (The last surviver)</figcaption>
+            </figure>
+
+            <figure class="floatLeft width40">
+                <img alt="79Years21.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years21.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">David Thatcher died June 2016</figcaption>
+            </figure>
+
+            <div class="clear"></div>
+
+            <p class="centerText bold fontSize1_Halfem">
+                The last two remaining survivers
+            </p>
+
+            <figure>
+                <img alt="79Years22.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years22.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">Their 70th Anniversary Photo</figcaption>
+            </figure>
+
+            <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
+        </article>
+
 <%--        <article id="JubileeArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">75th Diamond Jubilee</p>
 
@@ -3221,12 +3374,18 @@
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
-                        <li><a href="_Minutes/6-24-2022_Minutes.pdf" target="_blank">6-24-2022</a></li>
-                        <li><a href="_Minutes/5-12-2022_Minutes.pdf" target="_blank">5-12-2022</a></li>
-                        <li><a href="_Minutes/4-15-2022_Minutes.pdf" target="_blank">4-15-2022</a></li>
-                        <li><a href="_Minutes/3-18-2022_Minutes.pdf" target="_blank">3-18-2022</a></li>
-                        <li><a href="_Minutes/2-18-2022_Minutes.pdf" target="_blank">2-18-2022</a></li>
-                        <li><a href="_Minutes/1-21-2022_Minutes.pdf" target="_blank">1-21-2022</a></li>
+                    <li><a href="_Minutes/12-9-2022_Minutes.pdf" target="_blank">12-9-2022</a></li>
+                    <li><a href="_Minutes/11-14-2022_Minutes.pdf" target="_blank">11-14-2022</a></li>
+                    <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
+                    <li><a href="_Minutes/9-16-2022_Minutes.pdf" target="_blank">9-16-2022</a></li>
+                    <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>
+                    <li><a href="_Minutes/7-22-2022_Minutes.pdf" target="_blank">7-22-2022</a></li>
+                    <li><a href="_Minutes/6-24-2022_Minutes.pdf" target="_blank">6-24-2022</a></li>
+                    <li><a href="_Minutes/5-12-2022_Minutes.pdf" target="_blank">5-12-2022</a></li>
+                    <li><a href="_Minutes/4-15-2022_Minutes.pdf" target="_blank">4-15-2022</a></li>
+                    <li><a href="_Minutes/3-18-2022_Minutes.pdf" target="_blank">3-18-2022</a></li>
+                    <li><a href="_Minutes/2-18-2022_Minutes.pdf" target="_blank">2-18-2022</a></li>
+                    <li><a href="_Minutes/1-21-2022_Minutes.pdf" target="_blank">1-21-2022</a></li>
                     </ul>
                 </div>
             </div>
@@ -12469,273 +12628,207 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
-                    <article>
-                        <div>
-                            <h2 id="WhitneyH2" class="obitH1">Janice (Jan) Whitney - 7/24/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="WhitneyPara" class="obitPara noDisplay">
-                            <p>
-                                Janice (Jan) Whitney, 80, passed away on Sunday, July 24, 2022, at her home in Satellite Beach, Florida. “Jan,” the oldest of five, was born in Detroit, MI to Marshall and Barbara Johns. The family moved to Liverpool, NY in the early 1960s where she met her eventual husband and life-long travel companion, Don Whitney. Soon after earning an Associate Degree at Cazenovia College, Jan and Don married. This began a life of travel as the wife of an Air Force Pilot, and later in life when they both retired. Guam, Alabama, Japan, California, Illinois, Virginia, Mississippi, and Hawaii were among the places they lived before settling in the Space Coast. Once she settled in Florida and emptied the nest of her three sons, Jan earned her real estate license and began selling homes – becoming a million-dollar seller for Coldwell Banker Realty and managing the Melbourne office. Jan is survived by her husband Don, her three sons and their spouses: Brad (Jill), Dean (Julie), and Todd (Heidi), and by her seven grandchildren. She also leaves her four siblings and their spouses: Marsha (John) Charles, Bud (Marlene) Johns, Gary (Debbie) Johns, and Cheryl (John) Potts. Jan’s engaging personality and infectious laugh will be missed by family, friends, and all the people she would always stop and talk with in random situations. Funeral services will be held on Friday, August 5th at Beach Funeral Home, 1689 S. Patrick Drive, Melbourne, FL. A viewing will take place 11:00AM -1:00PM with formal services starting at 1:00PM. Following the service, the Whitney family will welcome friends at the Tides Club at Patrick Space Force Base,1001 North Highway, A1A S Atlantic Ave. While flowers are welcomed, expressions of sympathy in Jan’s memory can also be made to the Bladder Cancer Advisory Network (BCAN.org).
-                            </p>
-                        </div>
-                    </article>             
- 
-                    <article>
-                        <div>
-                            <h2 id="LarsonH2" class="obitH1">Karla Larson - 6/23/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="LarsonPara" class="obitPara noDisplay">
-                            <p>
-                                (Notified by Don Whitney with information from Rick Larson, Rick writes.)
-                                <br /><br />
-                                Karla Glavas Larson died on June 23, 2022, in Reston Virginia.  She was born on 1 May 1947 in Kansas City, Missouri to Konstantine Spiros Glavas and Bonnie June (Shackleford) Glavas.   
-                                <br /><br />
-                                Karla graduated from Kansas City Junior College, Maryland University while accompanying her husband on his Air Force assignment in Japan, and Chapman University with a master’s in psychology.  She married Eric (Rick) Larson on 16 August 1969 and they have two daughters Dr. Stacy Larson Baron and Alexis Larson Lundeen.  
-                                <br /><br />
-                                In the course of 17 moves during Rick’s 30 years of Air Force service, Karla created wonderful homes from Japan to Egypt and Alaska to Mississippi.  She exhibited extraordinary flexibility working as a drug abuse counselor, as well as positions teaching, and in retail sales, medical insurance claims, and property management in the United States and abroad.  She served as a Vestry member, usher, and on the Altar Guild at St Francis Episcopal Church, Great Falls, Virginia.  Her nephews and nieces noted that she had an ability to connect and make friends with her personable nature and her wonderful sense of humor.  
-                                <br /><br />
-                                Karla and Rick were stationed at Detachment 407/DO, 1979 to 1982, Detachment 460/CC, 1982 to 1985, Technical Operation Division/DO, 1985 to 1989, HQ AFTAC/DO, 1991-1993 and HQ AFTAC/CV, 1995 to 1997.   
-                                <br /><br />
-                                She is survived by her husband Rick, daughters, Stacy and Alexis, two wonderful sons-in-law, Tim Baron and Kevin Lundeen, and six grandchildren, Aidan, Kyra, and Holden Baron and James, Lilly, and Madeleine Lundeen.  She was proceeded in death by her parents, and her brothers, Sam, Paul, and Larry Glavas. 
-                                <br /><br />
-                                A Burial Service will be held at Saint Francis Episcopal Church, Great Falls, Virginia on 13 July at 1100. In lieu of flowers, the family requests a donation to Saint Francis Church in Great Falls, Virginia.                           </p>
-                        </div>
-                    </article>             
- 
-                    <article>
-                        <div>
-                            <h2 id="DunnH2" class="obitH1">David Dunn - June 2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="DunnPara" class="obitPara noDisplay">
-                            <p>
-                                (Contacted by Chuck Conrad passing along the following information).
-                                <br /><br />
-                                'Received word of David's death at his home in Germantown MD.
-                                <br /><br />
-                                I don't know of any other details. And I can't find an obituary. He was ~50 y/o.
-                                <br /><br />
-                                He was at a few AFTAC detachments and TOD as a 9S from 1997-2005.'
-                                <br /><br />
-                                NOTE: No obituary has been located or additional information available. If either happens, we will pass it along. We will post this on the AFTACAA Website, www.aftacaa.us, and publish it in the PoMo. 
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="SteskalH2" class="obitH1">Mike Steskal - 4/27/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="SteskalPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Steskal.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Steskal.png"/>
-                                Michael J. Steskal, age 65, passed away unexpectedly on April 27, 2022 in Melbourne, FL.  Born October 7, 1956 in Oak Park, IL to Lawrence and Caroline (nee Hickey) Steskal, Mike was a treasured brother to Joe (Vicky) Steskal, Linda (Kevin) Brooks, Laura (Jim) Ciontea, Mary (Dan Lobbes) Steskal, and Barb (Marty) Gfesser as well as a giving uncle to Brian Brooks, Lauren Cunnane, Diana Ciontea, Monica Ciontea, Grant Steskal, Ben Steskal, and Gretta Gfesser.  He was preceded in death by his grandparents and late mother.
-                                <br /><br />
-                                After graduating from St. Viator High School, Mike joined the Air Force in 1977.  He spent the majority of his Air Force career in AFTAC (Air Force Technical Applications Center) as a scientific measurements technician based out of Patrick Space Force Base in Florida.  His position involved travel around the world. He also served as the Air Force Principal Investigator for several NASA associated AFTAC projects, including in-cabin experiments on Space Shuttle flights.  In 1991, his remote technical services directly supported the Warfighters’ missions during the first Gulf War.
-                                <br /><br />
-                                Upon leaving the Air Force at the end of 1991 as a Technical Sergeant, he continued to specialize in software quality, operations, and maintenance for a variety of companies engaged in government contract work including nine years with Raytheon and twelve years with Zeta Associates Inc.
-                                <br /><br />
-                                From 1991 until his retirement in 2016, Mike completed three Associate Degrees at Brevard Community College and was pursuing a BS in Business and Management at the University of Maryland.  Mike was a life-long learner and an avid reader.  During this time, Mike also spent four years in the Navy Reserves with the rank of a Petty Officer First Class. In addition, upon settling back in Melbourne, FL, he joined the AFTAC Alumni Association and became a board member in charge of Membership.  Mike cherished these shared memories and the fellowship it provided.  Most of all, he was proud to serve his country.
-                                <br /><br />
-                                In lieu of a traditional wake, family and friends are invited to gather for a Memorial visitation on Sunday, July 24, 2022 from 1:00 – 6:00 pm at the Rob Roy Clubhouse, 270 Country Club Lane, Prospect Heights, IL 60070.  A funeral mass will be held on Monday, July 25, 2022 at 10 am at St. Hubert’s Church, 729 Grand Canyon St., Hoffman Estates, IL 60169.  Interment of his cremains will immediately follow at St. Michael The Archangel Catholic Cemetery, 1185 W. Algonquin Rd., Palatine, IL 60067.
-                            </p>
-                            <hr class="myHR"/>
-                            <p>                       
-                                The following additional comments provided by SMSgt Tony De Marco (USAF-RET) & MSgt Dave Johnson (USAF-RET)
-                                <br /><br />
-                                This past April, one of our AFTAC Alumni Association Board Members, Mike Steskal, passed away unexpectedly. This came as a complete shock to those of us that knew Mike and were friends with him over the many years he served in AFTAC, and during the time he worked with many contractors over the years following his AFTAC Career. I first knew of Mike’s valued contributions to our Command’s Important Mission when Mike was assigned to one of the new “J” Technique Detachments installed OCONUS in the early 1980s. Mike was part of the 99 Team that established the new Det and brought it up to a FMC Status in mid-1980. I then got to know Mike personally starting in late 1984 when we worked together on numerous projects during our time in HQ/TX. We worked closely together in late 1984 when we were all part of the HQ Team that travelled to SRI for formal acceptance of the new ASDS (Advanced Sensor Deployment System). Mike was also on one of the initial official deployments of the ASDS and authored an excellent article in the Sept 2004 PoMo on this ASDS adventure out West. Mike worked on several other Special RF Collection Systems while in TX and performed multiple TDYs to both CONUS and OCONUS locations. One of the more unique Special Project Assignments Mike took on before leaving the Air Force was as Principal Investigator on the NASA LDEF (Long Duration Exposure Facility). AFTAC had an Experiment Tray M0006 on board the LDEF to evaluate Space Environment Effects on advanced sensor components. Mike decided to leave AFTAC and military service in 1991 and pursue a career in the civilian world working for many Special Contractors. His new career path included positions with Holmes Regional Med Ctr, Computer Sciences Raytheon, Raytheon Systems Corp, Raytheon C3I Systems, and Zeta Associates Inc. In many positions Mike continued to support the War fighter Missions worldwide until Mike finally Retired for good in 2016. Mike was an Outstanding AFTAC 99, a Great AFTAC Alumni Association Board Member, and a super friend to many of the AFTAC Alumni Team. Mike will be sorely missed as we move forward during these challenging times. RIP my friend.
-                            </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="CiambroneH2" class="obitH1">Theresa (Terry) Ciambrone - 5/11/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="CiambronePara" class="obitPara noDisplay">
-                            <p>
-                                (Contacted by Don Whitney.)
-                                <br />
-                                "Theresa (Terry) Ciambrone, wife of former AFTAC Vice commander and building name sake Col Thomas (Tom) Ciambrone (deceased) passed away 11 May 22 after a brief stay in the hospital."
-                                <br /><br />
-                                Personal Note: As the Col neared retirement, 1987, there was a groundswell of enlisted support to honor he and Terry for what they meant to the enlisted women and men of AFTAC. To my knowledge, Col Ciambrone was the only Headquarters Officer ever celebrated as an Honorary CMSgt and Terry the only CMSgt's Mate!! Chiefs from around the AFTAC World were there to participate in an official ceremony and all AFTAC enlisted invited to a congratulatory event after. 
-                             </p>
-                        </div>
-                    </article>    
-                
-                    <article>
-                        <div>
-                            <h2 id="RobbirdsH2" class="obitH1">James Robbirds - 3/2/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="RobbirdsPara" class="obitPara noDisplay">
-                            <p>
-                                (Contacted by Walt Hartley passing along information from Chip Reed.) 
-                                <br /><br />
-                                Walt, Chip, thanks for thinking of fellow Sages in sharing and sending this for further notification. I don't think much was published on Jim, all I can find: 
-                                <br /><br />
-                                James Timothy Robbirds, 74, of Defuniak Springs, Florida passed away Wednesday, March 2, 2022.
-                                <br /><br />
-                                Jim is in our Master Database. He was not a member of the association nor signed up for correspondence. 
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="WileyH2" class="obitH1">Judith Wiley</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="WileyPara" class="obitPara noDisplay">
-                            <p>
-                                (Contacted by Tony DeMarco passing along information from John Caban)
-                                <br /><br />
-                                I checked with Bob Wiley to see how he was doing as we have not heard anything from him, and he has not been to any of our recent Alumni Meetings or the 2022 WWR events.
-                                <br /><br />
-                                Bob told me his wife Judith has passed, and he has been dealing with that.
-                                <br /><br />
-                                Right now, no additional information is available, we will update as we learn more.
-                                <br /><br />
-                                Personal Note: Thank you, John and Tony. It's so important we keep track of each other now. I will try to call Bob today. I worked for Bob as Satellite Superintendent and knew Judith from Social Events. 
-                                <br /><br />
-                                NOTE: Additional information will be sent as received. 
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="SmithH2" class="obitH1">Samuel Lebron Smith - 5/1/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="SmithPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Smith.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Smith.png"/>
-                                Samuel Lebron Smith, of Soddy Daisy, Tennessee, passed away peacefully at his home on May 1st, 2022.  He was 72.
-                                <br /><br />
-                                Samuel was born in Daisy, Tennessee. He was very active young man, and served 10 years in the United States Air Force. Sam loved to paint and was an avid poet.
-                                <br /><br />
-                                Samuel is preceded in death by his parents, Claude and Elizabeth Smith.  He is survived by his wife of 21 years, Teresa Smith and his biological daughter, Honey Lynn Smith. Sam had a love for children so much that he raised many step children. Sam leaves behind several grandchildren and great-grandchildren that all loved him very much.   
-                                <br /><br />
-                                The family will host a private burial at Varner Cemetery on Monday, May 9th at 1:00 p.m.
-                                <br /><br />
-                                Condolences and memories can be shared at <a href="www.williamsonandsons.com" target="_blank">Williamson and Sons</a>.
-                                <br /><br />
-                                Arrangements are by Williamson and Sons Funeral Home, 8852 Dayton Pike, Soddy Daisy, TN 37379.
-                                <br /><br />
-                                To send flowers to the family or plant a tree in memory of Samuel Lebron Smith, please visit our floral store.
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="MarcusH2" class="obitH1">Donald Marcus - 5/4/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="MarcusPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Marcus.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Marcus.png"/>
-                                With deep regret, I must report that our beloved Donald passed away on May 4th at 6:00 PM. He was a devoted husband and father. Services will be held at Audubon Funeral Home Monday May 9th from 1030 AM with chapel services at 12:30 PM. He will be buried with full military honors following at Southeast Louisiana Veterans Cemetery at 1:30 PM. He will be missed by his beloved family and friends.
-                                <br /><br />
-                                Martha later added:<br />
-                                Lt. Col Donald R. Marcus, of Slidell, Louisiana, passed away on May 4, 2022 at the age of 87. He was a native of Birmingham, Alabama, born on March 4, 1935 to his loving parents, the late Kathrine Lucile Keith and Aubrey Renfroe Marcus. Donald is the beloved husband of 67 years to Martha Forbus Marcus; proud father of Donna Marcus Jones and Beverly Marcus Jones (Randal J. Jones); proud grandfather of Theresa Marie Jones, Tonya Jones Williams, Tina Jones Ritchie (Shane Ritchie), and Jaquelin Jenae Talbert; great-grandfather of Jamie Heston, B.J. Heston, Eric Zanco II, Zoey Goodeaux, Payton Keyes, Brandon Ritchie, Michael Ritchie, Kaitlyn Ritchie, and Abigail Ritchie; caring brother of the late Charles Ronald Marcus; uncle of Villeta Linton, Kelly Marcus, and David Marcus; cousin of Jeanne Salvago (daughters, Jessica and Johnica); and brother-in-law of Terry Marcus Long. Donald earned a Bachelor of Science degree from Howard College and a Master of Business Administration degree from Florida Institute of Technology. He retired from the United States Air Force, where he received many recognitions for his service including the Bronze Star, AF Commendation Medal with one oak leaf cluster, Meritorious Service Medal with two oak leaf clusters, and Republic of the Vietnam Campaign Medal. Donald taught courses at both Phillips Jr. College and Louisiana Technical College. He enjoyed fishing and golf in his spare time but treasured nothing more than the time he spent with family and friends. Donald will be greatly missed by all who knew and loved him. Relatives and friends are invited to attend a visitation on Monday, May 9, 2022 from 10:30 a.m. to 12:30 p.m. at Audubon Funeral Home in Slidell. A funeral service will begin in the chapel at 12:30. Donald will be laid to rest in the Southeast Louisiana Veterans Cemetery at 1:30 p.m. Memories and condolences may be expressed at <a href="http://AudubonFuneralHome.com" target="_blank">Audubon Funeral Home</a>
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="CwiklaH2" class="obitH1">Jim Cwikla - 4/24/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="CwiklaPara" class="obitPara noDisplay">
-                            <p>
-                                (Contacted by Ed LIndsay passing along email from Mike Stiewig.)
-                                "Apr 21, 2022, want to let folks know Jim Cwikla passed this morning.  He had cancer and had been failing. Not sure of the arrangements, but will pass that info on when I get it."
-                                <br /><br />
-                                Mike later added information of interest: "Jim was indeed a hell of a hand.  I was stationed with him for a few months at 423 in 75/76 (my first assignment). I have to admit he didn’t seem to trust my rookie capabilities too much back then, had me doing corrosion control pretty much solid…”if it doesn’t move, paint it!” Jim retired to Mesquite, NV, 8-10 years ago. He’s being cremated and I don’t believe there’s going to be any kind of service per se. His daughter is writing up an obit and I’ll pass it on with any other details when I get them."
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="CosnerH2" class="obitH1">Dale Cosner - 3/17/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="CosnerPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Cosner.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Cosner.png"/>
-                                "With sad news I inform you of the passing of a fellow airman, Dale Cosner, Dale was stationed at McClellan in the depot, he worked in Pickup and Delivery from 1969-1973. The following email was received from his daughter."
-                                <br /><br />
-                                --Hi John,  this is Denise Cosner, dale’s daughter. I unfortunately have to let you know that dad passed away on 3/17. 3 of us kids were able to be there with him at the end.
-                                <br /><br />
-                                He was admitted on 3/6 with breathing issues again. Not sure if you knew he had been inpatient in early January for pneumonia and I think his lungs were just never really better.
-                                <br /><br />
-                                Click <a href="https://www.becksfuneralhome.com/obituaries/Dale-Edward-Cosner?obId=24330741#/obituaryInfo" target="_blank">here</a> to see obituary.
 
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="RedlinH2" class="obitH1">Geraldine Redlin - 2/10/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="RedlinPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Redlin.jpg" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Redlin.jpg"/>
-                                Geraldine "Gerry" Linda Redlin, 85, of Aurora, Colorado, passed away on February 10, 2022, after a long hard-fought battle with Alzheimer's. Gerry was born on February 12, 1936, to Robert Frank Holland and Dorthey Virginia Holland (Burgoon) in Midway, Pennsylvania. After graduating from high school in 1954, she enlisted in the Air Force. Where she met the love of her life and they wed in 1955 going on to have three
-                                children, Jeffery, Brenda, and Valerie. When Gerry had Jeff, she decided to dedicate her life to being a fantastic and wonderful mother. She was very involved in the Girl Scouts for several years. Not only was she a troop leader but she also spent time helping at summer camps here in town and in the mountains. She spent over ten years working as an orthodontist assistant before moving to Texas. After returning to Colorado, she was an active member of her church and when she wasn’t filling her home with warmth and kindness, she could be found setting an example for other women to follow in volunteering their service.
-                                We will miss her greatly. Gerry was predeceased by her daughter Valerie Ann, Parents Frank and Dorthey Holland, Sisters Joy, Patty, and Brother Dale. She is survived by her husband Hugo, Jeffery and spouse Debra (Trask), Brenda and spouse Howard (Thurston), Grandchildren Christopher Redlin and spouse Amy (Altom), Ashley Redlin,
-                                Chad Thurston and Courtney Thurston, Grand Stepchildren Cody Trask and Spouse Sara (Williams) and Levi Trask and spouse Sheridan (Taylor), Great-grandchildren Carlie and Brandtley Thurston, Austyn, Christian, and Lane Redlin and Great Grand Stepchildren Landon Trask, Sophia Trask, Mia Williams and Emily Bounds (Redlin). The family requests that in lieu of flowers a donation to your favorite charity or to the Alzheimer's Association would be greatly appreciated. There will be a celebration of life for Gerry held on Saturday, March 19, 2022, 10:00 am at St. Mark's Lutheran Church, 111 Del Mar Circle, Aurora, Colorado
-                                80011.
-                                <br />
-                                V/R,
-                                Bryce Dunn President, Colorado AFTAC Alumni Association
-                                <br /><br />
-                                Click <a href="https://www.newcomerdenver.com/Obituary/211758/Geraldine-Gerry-Redlin/Denver-CO" target="_blank">here</a> to go to Gerry's obituary.
-                                <br /><br />
-                                NOTE: Additional information will be provided upon receipt and will be posted at the Alumni Website and published in the Post-Monitor. 
-                             </p>
-                        </div>
-                    </article>             
-  
-<%--                    <article>
-                        <div>
-                            <h2 id="SummersH2" class="obitH1">Richard Summers - 3/9/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="SummersPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Summers.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Summers.png"/>
-                                As per a telephone call from Rita Summers, 2022.03.09, Rita's Facebook Posting follows:
-                                <br /><br />
-                                "What better way to honor my husband today, than with a picture from his passport.
-                                We traveled the world together and he was so very respected in the Air Force.
-                                He passed away today and hopefully, I’ve notified as many of my relatives as possible.
-                                I came home from work and found him with his loyal sidekick Max. That dog would not leave his side. RIP Richard: 4-8-1935 - 3-9-2022. He died on my father's birthday."
-                                <br /><br />
-                                PERSONAL NOTE: I don't normally comment when I see a friend has died. However in this case I must. 'Alky' and I shared so many times during assignments to Pinedale, WY, and an accompanied overseas location. We lived together in Pinedale, and became very close friends, and married local ladies during that tour. Chris and Rita had graduated in the same Senior Class; we often double-dated. Richard could crack me up in a heartbeat and we'd both fall to the floor, literally, bent over laughing. I have a friend today that can do that to me ... you don't ever forget those people or that closeness. 
-                                <br /><br />
-                                Pinedale was my first assignment from school as well for SSgt Summers who had been a 702 at one of our overseas locations and thought so much of our mission to become a 99125 himself; it was there he 'earned' that nickname that would follow him during his time with AFTAC. Chris and I followed he and Rita into an overseas tour and continued our close friendship living less than a block apart. From there we both served a tour at the Headquarters in VA. Good times continued at these assignments. 
-                                <br /><br />
-                                Richard and Rita eventually left AFTAC and he finished his Air Force time in computers, finally retiring in Shreveport, LA ... Chris and I never went close without staying over with them for several days and the 'old days' would come back within minutes of being together. 
-                                <br /><br />
-                                Rita, thank you for the call yesterday. My feelings for ‘Alky’ and you run deep … there were no better friends while you guys were in our lives.
-                                <br /><br />
-                                NOTE: Any additional information will be shared upon receipt and will be posted at the Alumni Website and in the Post-Monitor. 
-                                <br /><br />
-                                John Horsch
-                             </p>--%>
-                        </div> 
-                    </article>            
+                <article>
+                    <div>
+                        <h2 id="PierceH2" class="obitH1">Earl C. Pierce - 12/29/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="PiercePara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Pierce.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Pierce.png" />                            
+                            Earl Carroll Pierce passed away peacefully on December 29, 2022, in his home surrounded by family. He was 90.
+                            <br /><br />
+                            Earl was a loving husband, father, grandfather, great grandfather and friend. He was also a 20-year veteran of the United States Air Force, athlete, coach, sports fan, traveler, volunteer, outdoorsman and dog lover.
+                            <br /><br />
+                            Earl was born November 2, 1932, in Farmville, NC, to Raymond Pierce and Bernice (Tucker) Pierce.
+                            <br /><br />
+                            His mother passed away when Earl was seven. His father could not take care of the children by himself so he decided to send Earl and four of his siblings to the Methodist Home for Children in Raleigh, NC. Earl said that was the best thing his dad ever did for him and his brother and sisters.
+                            <br /><br />
+                            Earl loved the Children’s Home. He enjoyed going to school, farm work, chores, and the lifelong friends he made. He excelled at every sport in which he participated, whether it was football, basketball, baseball, track or tennis. His basketball coach was a young recent college grad named Norm Sloan, who later coached North Carolina State and David Thompson to the 1974 NCAA basketball championship. It was Stormin’ Norman Sloan who gave Earl the nickname “Hook” because of his deadly hook shot.
+                            <br /><br />
+                            Earl was offered a partial basketball scholarship to Louisburg Junior College in North Carolina. After a year at college, Earl decided to enlist in the newly formed Air Force. While in the Air Force, Earl attained a Bachelor’s Degree from the University of Maryland.
+                            <br /><br />
+                            Earl was deployed to Bremerhaven, Germany, where he met the love of his life, a pretty young German mädchen named Marianne (Riel). The young couple married on July 6, 1956. Earl and Marianne were sent stateside to Youngstown, Ohio. Then Earl received orders to go to Tachikawa Air Force Base in Japan. It was there that the young couple became a young family. Son David came along followed by daughter Brenda.
+                            <br /><br />
+                            The family’s next transfer would eventually be their lifelong home. Earl received orders to teach Special Instruments at Lowry Air Force Base in Denver, CO. They purchased their forever home in Aurora, CO, in 1962. In 1967, Earl and family transferred to Alice Springs, Australia, where the small detachment “listened” to the Soviet Union testing atomic bombs. His job was top secret, so he told his children that alligators guarded the entrance to his building.
+                            <br /><br />
+                            The family transferred back to Lowry AFB in 1969, where they continued to live in their home in Morris Heights. Earl retired from the Air Force in 1972 as a Tech Sargent after “20 years and two days.”
+                            <br /><br />
+                            Post military retirement, Earl enjoyed a successful career with the Denver Urban Renewal Authority, which helped the resurgence of downtown Denver in the late 70s and early 80s. He also held various management positions in the loan industry before officially retiring.
+                            <br /><br />
+                            Post retirement, he worked at a driving range and continued to coach youth sports. Earl loved playing golf and long walks with his dog Gina.  He and Marianne enjoyed going to Blackhawk and traveling, especially ship cruises to far off lands. They were also active in Democratic Party politics, as well as volunteers for the Morris Heights Improvement Association. Earl was also active in the Air Force Technical Applications Center (AFTAC) Alumni Association.
+                            <br /><br />
+                            Earl coached youth sports throughout his adult life. Even up to a few years ago, Earl coached youth basketball. He was a diehard Broncos, Rockies and Nuggets fan. He and Marianne have held Bronco season tickets since 1970. They were among the original infamous South Standers. He went to Super Bowls with Marianne and also dear friends across the street, the Houstons.
+                            <br /><br />
+                            He loved spending family time. Vacations, camping, river rafting, attending ball games, recitals or even just hanging out playing board games. Even after a hard day at work, Earl was always ready to throw a ball or wrestle his children on the living room floor. 
+                            <br /><br />
+                            As his children grew into adulthood and began families of their own, Earl helped them with guidance, advice and friendship.
+                            <br /><br />
+                            He always told David and Brenda that he wanted to be a better dad than his dad. He succeeded a million times over.
+                            <br /><br />
+                            In addition to his wife Marianne, son David (Donna) and daughter Brenda (Michael), Earl is survived by grandchildren Christopher, Michelle (Andrew), Lauren, and Matthew (Ginger) and great grandchildren Graham and Maren.
+                            <br /><br />
+                            He is also survived by sisters Eleanor (George), Shirley and Mae.
+                            <br /><br />
+                            He was preceded in death by his father and mother, brother William, and sisters Mary, Barbara, Audrey, and Margaret.
+                            <br /><br />
+                            In lieu of flowers, the family requests donations to the Denver Dumb Friends League (where Earl found his beloved Gina) and/or the Methodist Home for Children in Raleigh, NC, in his name.
+                            <br /><br />
+                            <span class="underLine maroonText fontSize1_Halfem">Services</span><br />
+                            <span class="underLine maroonText">MEMORIAL SERVICE</span>
+                            Thursday
+                            January 26, 2023<br />
+                            10:00 AM<br />
+                            Horan & McConaty - Aurora<br />
+                            11150 East Dartmouth Avenue<br />
+                            Aurora, CO 80014<br />
+                            <a href="https://www.google.com/maps/place/11150+E+Dartmouth+Ave,+Aurora,+CO+80014/@39.6601407,-104.8573271,17z/data=!3m1!4b1!4m5!3m4!1s0x876c87e5df34efb3:0xd3256d47c964296d!8m2!3d39.6601407!4d-104.8551384" target="_blank">Direction to Memorial Service</a>
+                            <br /><br />
+                            <span class="underLine maroonText">MILITARY HONORS</span><br />
+                            Thursday<br />
+                            January 26, 2023<br />
+                            2:15 PM
+                            <br /><br />
+                            <span class="underLine maroonText">Fort Logan National Cemetery- Staging Area C</span><br />
+                            3698 S Sheridan Blvd<br />
+                            Denver, CO 80235<br />
+                            <a href="https://www.google.com/maps/place/3698+S+Sheridan+Blvd,+Denver,+CO+80236/@39.6497707,-105.0530671,17z/data=!3m1!4b1!4m5!3m4!1s0x876b801e10edeeb7:0x2b8f6e7b5693beaa!8m2!3d39.6497707!4d-105.0508784" target="_blank">Directions to Cemetery</a>
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2 id="ShaderH2" class="obitH1">Rita Jean Shader - 11/9/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="ShaderPara" class="obitPara noDisplay">
+                        <p>
+                            Rita Jean Shader, 74, of Hendersonville, NC, died Wednesday, November 9, 2022.<br />
+                            A native of Hoboken, NJ she is the daughter of Christina Sabella and the late Duilio Sabella.
+                            Having lived in Melbourne, FL before moving to Hendersonville, she was a church secretary and a supervisor of elections analyst for Brevard County, FL.  Rita was a member of Mills River Presbyterian and the Iona Community Scotland.  She enjoyed cooking, sewing, reading, crocheting, volunteering, Scottish and Celtic culture, newsletter editor, and tap dancing.
+                            In addition to her mother, she is survived by her loving husband of 50 years, Richard Shader; two daughters, Jennifer Richard (Michael) of Wellford, SC and Amy Slaven (Geoff) of Hendersonville, NC; six grandchildren, Michael Richard (Jennifer), Nick Richard, Kristof Weiss (Kim), Bradley Weiss, Joseph Richard, and Morgan Slaven; two great-grandchildren, Hayden Richard and Logan Richard; and a brother, William Sabella (Dora) of Chester, NY.
+                            A memorial service will be held at 3:00 PM on Sunday, December 4, 2022 at Mills River Presbyterian Church in Mills River, NC with Rev. Megan McMillan.
+                            Memorials may be made to: Mills River Presbyterian Church, 10 Presbyterian Road, Mills River, NC 28759.
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2 id="PoundH2" class="obitH1">Donna Pound - 11/7/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="PoundPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Pound.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Pound.png" />                            
+                            OBITUARY<br />
+                            Donna Lee Pound<br />
+                            NOVEMBER 9, 1941 – NOVEMBER 7, 2022<br />
+                            Obituary of Donna Lee Pound<br />
+                            IN THE CARE OF<br />
+                            Life Event Center at Florida Memorial Gardens<br />
+                            Donna Lee Pound, born November 9th, 1941 and passed away November 7th, 2022.<br />
+                            She was preceded by her husband of 52 years Galen W. Pound.
+                            <br /><br />
+                            Donna is survived by her daughters Renay and Jeff Crouse, Colene Hewitt and Tammy and Duane Bond. She has six grandchildren Amanda and Matt Rinehart, Sabrina Hewitt, and Katlin, Randy and Rachel Bond; also 5 great grandchildren Paige and Annabelle Underwood, Serenity White, Thomas Bond and Malechkai Hagar.
+                            <br /><br />
+                            Donna attended Pineda Presbyterian Church and enjoyed her many jobs over the years. Donna enjoyed crocheting, reading and cruising. She was so loved by family and friends and will be sadly missed.
+                            <br /><br />
+                            A visitation for Donna will be held Sunday, November 13, 2022 from 6:00 PM to 8:00 PM at Life Event Center at Florida Memorial, 5950 S US Highway 1, Rockledge, Florida. A funeral service will occur Monday, November 14, 2022 from 10:00 AM at Life Event Center at Florida Memorial.
+                            <br /><br />
+                            Fond memories and expressions of sympathy may be shared with the Pound Family by clicking <a href="http://FloridaMemorialFH-Gardens.com" target="_blank">HERE</a>.
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2 id="WilliamsonH2" class="obitH1">Gail Marie Williamson - 10/16/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="WilliamsonPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Williamson.png" class="floatLeft width30 rightMargin1em" src="_Photos/obitpics/Williamson.png" />                            
+                            Gail Marie Williamson, 85, of Wisconsin Rapids, WI, passed away Sunday, October 16, 2022. Gail passed at home holding the hand of her husband of 66 years, Donald "Donnie" Williamson. At her bedside were the greatest joys of her life, her three children, Willie, Mike and Kelley.
+                            <br /><br />
+                            Gail was born on May 19, 1937, in Wisconsin Rapids, the daughter of Edward and Beatrice Krzykowski. Gail was predeceased by her brothers Ronald and Lawrence ("Babe"), and is survived by her brother James (Beverly) Krekowski of Wisconsin Rapids.
+                            <br /><br />
+                            A St. Mary's and Assumption alumna, Gail married her husband, Donnie, on August 25, 1956. The next 23 years of her life were spent as a United States Air Force wife and mother. Gail and Donnie left Wisconsin Rapids for Cape Cod, MA, then moved on to Denver, CO, next to Fairbanks, AK, and then back to Denver, CO. Gail and the three children spent 1970-71 back on Cape Cod while Donnie spent a year-long solo tour of service in the Fiji Islands. They reunited in Sacramento, CA from 1971-75, and then spent Donnie's last two years of service near Austin, TX. In 1977, Gail ended her career as an Air Force wife and mom when Donnie retired from the Air Force, and the family returned "home" to Wisconsin Rapids permanently.
+                            <br /><br />
+                            Over her adult life, Gail was a Red Cross nurse's assistant, a paper mill worker, a waitress, a cashier, and a den mother. She also knew how to play the "dad" role when Donnie was away serving our country, which happened often. She taught the boys to throw a baseball, made sure homework was done, and that curfews were obeyed. "Wait until your father gets home" wasn't an option for Gail. And, although she was good at most things she did, she was a superstar when it came to being a wife and mother. She loved her husband deeply and adored her children. She taught her whole family how to love and how to laugh until it hurt (in a good way). All three of Gail's children have been with their respective spouses in excess of 30 years.
+                            <br /><br />
+                            Gail was a woman of strong faith, and attended mass regularly at Our Lady Queen of Heaven Church, where she and Donnie were married. She loved her Green Bay Packers, the Milwaukee Brewers, and the Wisconsin Badgers, and enjoyed her extra dry gin martinis. One thing she was not fond of was Wisconsin Winters, which she and Donnie did their best to escape in their motorhome each year in their retirement.
+                            <br /><br />
+                            Gail is survived by her husband, Donald "Donnie" Williamson; oldest son, Donald "Willie" Williamson, his wife Julie Williamson, and their children, Donald Brandon Williamson and Cory Cae Williamson; her second son, Michael Williamson, and his husband, Otis Merry; and her daughter, Kelley (Williamson) Molitor, Kelley's husband Steve Molitor, their daughter Chelsea (Molitor) Massingill, and Gail's great granddaughter Alana Massingill.
+                            <br /><br />
+                            Gail is also survived by her sisters-in-law, Joan (Williamson) Johnson and Dolly Schmidt, and predeceased by her brothers-in-law, Charles Johnson and John Williamson.
+                            <br /><br />
+                            She will be missed by her many nieces and nephews. Her nephew and next-door neighbor Steve Krekowski and his partner Gene Marty, as well as her niece Lori Placek were a great comfort to the family in Gail's later life, helping with snow blowing, lawn mowing, medical visits, and dropping off countless baked goods and other treats. The family will be forever grateful to you.
+                            <br /><br />
+                            She will also be dearly missed by many close friends, including Marcine Amundson, Sally Parr, Ron and Bonnie Mancl, Al and Sherry Cleveland, and Clare and Monica Jenkins. The friends Gail leaves behind from traveling the country as a military spouse, and from spending winters motor-homing in Florida are too countless to list.
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2 id="AnderholmH2" class="obitH1">Nordin Curtis Anderholm - 10/21/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="AnderholmPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Anderholm.png" class="floatLeft width30 rightMargin1em" src="_Photos/obitpics/Anderholm.png" />                            
+                            Nordin Curtis (Curt) Anderholm, Merritt Island. Passed away peacefully at Solaris Healthcare, in the morning hours on Friday, October 21st. Curt was 86 when he passed. In his last hours, he was surrounded by his family and the incredible caregivers from St Francis Reflections, and the nurses and staff at Solaris. 
+                            Curt will be remembered by his wife, Mary Lou, and his children, John Curtis (Beverly), Christopher Michael (Monica), and Mary Elizabeth Lucks (David). He was the beloved Grandfather too, Dylan, Callie, and Katie (John and Beverly), Megan and Rachel (Mary Beth and David), and Paige and Jacob (Chris and Monica). He was a Great Grandfather to Trey (Rachel). He was predeceased by his Father Fritz, Mother Agnes, his brothers Cecil and Fred, and his sisters, Florence, and Joy. He looks forward to seeing them again soon.
+                            Curt was born and grew up in Duluth, Minnesota. He went to college at the University of Minnesota Duluth, and it was there that he met his bride Mary Louise Blomgren, who was attending the neighboring St Scholastica College. They were married on August 9th, 1959. Upon graduation, Curt and Mary Lou moved to Evanston, IL, where Curt studied at Northwestern University and earned his Ph.D. in Nuclear Physics. While Curt was studying, Mary Lou was busy with their sons, John and Chris, who were both born in Evanston. After graduating, they moved their growing family to Albuquerque, NM where Curt went to work for Sandia Laboratories. Their daughter, Mary Beth was born there in 1964. He was proud that his work at Sandia, led to two US Patents. His career took him and his family from New Mexico to Washington DC and finally to Patrick Air Force Base, in Satellite Beach, Florida. They resided on Merritt Island.
+                            As a young man, Curt attained the rank of Eagle Scout. The lessons he learned in Scout’s taught him to enjoy spending time in the outdoors. He enjoyed camping, hiking, fishing, and sailing. He passed along his love of the outdoors to his family. He was an avid Brevard Manatees baseball fan and liked nothing better than to spend the afternoon or evening at the ballpark with friends cheering on the home team.
+                            Friends and Family will be received at Divine Mercy Catholic Church, at 1940 Courteney Pkwy Friday, November the 4th. Curt’s life will be honored with a Mass of Christian Burial at 11:00 AM. The family will greet guests prior to the service and a reception at the church will follow for all friends and Family.
+                            In lieu of flowers, donations to The Alzheimer’s Association would be greatly appreciated.
+                        </p>
+                    </div>
+                </article>
+                
+                <article>
+                    <div>
+                        <h2 id="PetersonH2" class="obitH1">Jesse LeRoy Peterson - 9/2/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="PetersonPara" class="obitPara noDisplay">
+                        <img alt="Peterson1.png" class="width95 maroonBorder autoMarginLeftRight" src="_Photos/ObitPics/Peterson1.png" />
+                        <img alt="Peterson2.png" class="width95 topMargin2em maroonBorder autoMarginLeftRight"  src="_Photos/ObitPics/Peterson2.png" />
+                    </div>
+                </article>             
+
+                <article>
+                    <div>
+                        <h2 id="WhitneyH2" class="obitH1">Janice (Jan) Whitney - 7/24/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="WhitneyPara" class="obitPara noDisplay">
+                        <p>
+                            Janice (Jan) Whitney, 80, passed away on Sunday, July 24, 2022, at her home in Satellite Beach, Florida. “Jan,” the oldest of five, was born in Detroit, MI to Marshall and Barbara Johns. The family moved to Liverpool, NY in the early 1960s where she met her eventual husband and life-long travel companion, Don Whitney. Soon after earning an Associate Degree at Cazenovia College, Jan and Don married. This began a life of travel as the wife of an Air Force Pilot, and later in life when they both retired. Guam, Alabama, Japan, California, Illinois, Virginia, Mississippi, and Hawaii were among the places they lived before settling in the Space Coast. Once she settled in Florida and emptied the nest of her three sons, Jan earned her real estate license and began selling homes – becoming a million-dollar seller for Coldwell Banker Realty and managing the Melbourne office. Jan is survived by her husband Don, her three sons and their spouses: Brad (Jill), Dean (Julie), and Todd (Heidi), and by her seven grandchildren. She also leaves her four siblings and their spouses: Marsha (John) Charles, Bud (Marlene) Johns, Gary (Debbie) Johns, and Cheryl (John) Potts. Jan’s engaging personality and infectious laugh will be missed by family, friends, and all the people she would always stop and talk with in random situations. Funeral services will be held on Friday, August 5th at Beach Funeral Home, 1689 S. Patrick Drive, Melbourne, FL. A viewing will take place 11:00AM -1:00PM with formal services starting at 1:00PM. Following the service, the Whitney family will welcome friends at the Tides Club at Patrick Space Force Base,1001 North Highway, A1A S Atlantic Ave. While flowers are welcomed, expressions of sympathy in Jan’s memory can also be made to the Bladder Cancer Advisory Network (BCAN.org).
+                        </p>
+                    </div>
+                </article>
+                
+                <article>
+                    <div>
+                        <h2 id="KimballH2" class="obitH1">Earl Jack Kimball - 3/30/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="KimballPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Kimball.jpg" class="floatLeft width25 rightMargin1em maroonBorder" src="_Photos/ObitPics/Kimball.jpg" />
+                            We are sad to announce that on March 30, 2022 we had to say goodbye to Earl Jack Kimball of Greenville, Texas, born in Grand Haven, Michigan. Leave a sympathy message to the family in the guestbook on this memorial page of Earl Jack Kimball to show support.
+                            He was predeceased by : his parents, Everett Kimball and Irene Lyons; and his wife Wanda Parker. He is survived by : his children, Darrell Kimball (Brenda), Joe Kimball (Vickie) and Debby Maddox (Jim); his sister-in-law Joy Galbraith; his grandchildren, Christopher Maddox (Kristin), Sean Miller (Karen), Stacey Gallien (Kevin), Nicole Frahm, Carrie Luna (Adam), Matthew Kimball (Ashley), Krystal Kimball, Billy and Jessica Kimball; and his close friend Eileen Jenkins. He is also survived by 12 great grandchildren, 4 great-great grandchildren.
+                            In lieu of flowers, please make donations to: Caddo Mills Eastern Star, Re: Wanda Kimball Benevolent Fund, 7 Meadow Lane, Greenville, Tx 75402.
+                        </p>
+                    </div>
+                </article>     
+            </div> 
+        </article>            
   
   
         <article id="archivedObitsArt" class="myArts noDisplay">
