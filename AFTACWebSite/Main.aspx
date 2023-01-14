@@ -12921,126 +12921,116 @@
         <article id="electedBoardArt" class="myArts width45 noDisplay autoMarginLeftRight floatLeft topMargin1em maroonBorder padding10 smallShadow">
             <h2 class="boardTitle centerText maroonText bold">Elected Board</h2>
             <ul class="officersList">
-                <li>
-                    <img alt="Phil Godfrey" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/board members/godfrey.jpg" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Phil Godfrey<br />(President)
-                    </div>
-                    <div class="clear"></div>
-                </li>
+            <li>
+                <img alt="Ed Lindsay" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/lindsay.png" />
+                <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                    Ed Lindsay<br />(President)
+                </div>
+                <div class="clear"></div>
+            </li>
 
-                <li>
-                    <img alt="Rob Christman" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Christman.JPG" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Rob Christman<br />(Vice President)
-                    </div>
-                    <div class="clear"></div>
-                </li>
+            <li>
+                <img alt="Rick Manley" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Manley.png" />
+                <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                    Rick Manley<br />(Vice President)
+                </div>
+                <div class="clear"></div>
+            </li>
 
-                <li>
-                    <img alt="Ed Lindsay" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/lindsay.png" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Ed Lindsay<br />(Secretary)
-                    </div>
-                    <div class="clear"></div>
-                </li>
+            <li>
+                <img alt="Doug Colbary" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Colbary.png" />
+                <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                    Doug Colbary<br />(Secretary)
+                </div>
+                <div class="clear"></div>
+            </li>
 
-                <li>
-                    <img alt="Head Outline" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Ryan.png" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Sean Ryan<br />(Treasurer)
-                    </div>
-                    <div class="clear"></div>
-                </li>
+            <li>
+                <img alt="Sean Ryan" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Ryan.png" />
+                <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                    Sean Ryan<br />(Treasurer)
+                </div>
+                <div class="clear"></div>
+            </li>
             </ul>
         </article>
 
         <article id="selectedBoardArt" class="myArts noDisplay width90 noDisplay floatLeft autoMarginLeftRight maroonBorder smallShadow">
             <h2 class="centerText maroonText bold">Appointed Board</h2>
             <ul class="aLeft width45 floatLeft appOfficersList">
-                <li>
-                    <img alt="Chief Long" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Long.png" />
-                    <div class="maroonText floatLeft topMargin2em leftMargin1em">
-                        CMSgt Amy Long<br />(Activities)
-                    </div>
-                    <div class="clear"></div>
-                </li>
+            <li>
+                <img alt="John Horsch" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/horsch.jpg" />
+                <div class="floatLeft maroonText topMargin1em leftMargin1em">
+                    John Horsch<br />(Post Monitor/Web)
+                </div>
+                <div class="clear"></div>
+            </li>
 
-                <li>
-                    <img alt="John Horsch" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/horsch.jpg" />
-                    <div class="floatLeft maroonText topMargin1em leftMargin1em">
-                        John Horsch<br />(Post Monitor/Web)
-                    </div>
-                    <div class="clear"></div>
-                </li>
+            <li>
+                <img alt="Head Outline" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png" />
+                <div class="floatLeft maroonText topMargin2em leftMargin1em">
+                    Vacant<br />(Hall of Heritage)
+                </div>
+                <div class="clear"></div>
+            </li>
 
-                <li>
-                    <img alt="Head Outline" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png" />
-                    <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                       Vacant<br />(Hall of Heritage)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-
-                <li>
-                    <img alt="Bob Wiley" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Wiley.png" />
-                    <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                        Bob Wiley<br />(AOY Coordinator and<br />Hall of Heritage)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-                <li>
-                    <img alt="Judy Henderson" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Judy-June2016.jpg" />
-                    <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                        Judy Henderson<br />(Hospitality)
-                    </div>
-                    <div class="clear"></div>
-                </li>
+            <li>
+                <img alt="Bob Wiley" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Wiley.png" />
+                <div class="floatLeft maroonText topMargin2em leftMargin1em">
+                    Bob Wiley<br />(AOY Coordinator and<br />Hall of Heritage)
+                </div>
+                <div class="clear"></div>
+            </li>
+            <li>
+                <img alt="Judy Henderson" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Judy-June2016.jpg" />
+                <div class="floatLeft maroonText topMargin2em leftMargin1em">
+                    Judy Henderson<br />(Hospitality)
+                </div>
+                <div class="clear"></div>
+            </li>
 
             </ul>
 
             <ul class="aLeft width45 leftMargin2em floatLeft appOfficersList">
+            <li>
+                <img alt="_Photos/Board Members/Lindsay.png" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Lindsay.png" />
+                <div class="floatLeft maroonText topMargin2em leftMargin1em">
+                    Ed Lindsay<br />(Webpage Services)
+                </div>
+                <div class="clear"></div>
+            </li>
 
-                <li>
-                    <img alt="_Photos/Board Members/Lindsay.png" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Lindsay.png" />
-                    <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                        Ed Lindsay<br />(Webpage Services)
-                    </div>
-                    <div class="clear"></div>
-                </li>
+            <li>
+                <img alt="Michael Steskal" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png"/>
+                <div class="floatLeft maroonText topMargin2em leftMargin1em">
+                    Vacant<br />(Membership)
+                </div>
+                <div class="clear"></div>
+            </li>
 
-                <li>
-                    <img alt="Michael Steskal" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png"/>
-                    <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                        Vacant<br />(Membership)
-                    </div>
-                    <div class="clear"></div>
-                </li>
+            <li>
+                <img alt="Sean Ryan" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/AOY/ryan.png" />
+                <div class="floatLeft maroonText topMargin2em leftMargin1em">
+                    Sean Ryan<br />(Publicity/Social<br />Functions)
+                </div>
+                <div class="clear"></div>
+            </li>
 
-                <li>
-                    <img alt="Sean Ryan" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/AOY/ryan.png" />
-                    <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                        Sean Ryan<br />(Publicity/Social<br />Functions)
-                    </div>
-                    <div class="clear"></div>
-                </li>
+            <li>
+                <img alt="_Photos/Board Members/Lindsay.png" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Lindsay.png" />
+                <div class="floatLeft maroonText topMargin2em leftMargin1em">
+                    Ed Lindsay<br />(Sage Shop)
+                </div>
+                <div class="clear"></div>
+            </li>
 
-                <li>
-                    <img alt="_Photos/Board Members/Lindsay.png" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Lindsay.png" />
-                    <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                        Ed Lindsay<br />(Sage Shop)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-
-                <li>
-                    <img alt="DeMarco.jpg" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/DeMarco.jpg" />
-                    <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                        Tony DeMarco<br />(20 Year Wall)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-
+            <li>
+                <img alt="DeMarco.jpg" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/DeMarco.jpg" />
+                <div class="floatLeft maroonText topMargin2em leftMargin1em">
+                    Tony DeMarco<br />(20 Year Wall)
+                </div>
+                <div class="clear"></div>
+            </li>
 
             </ul>
 

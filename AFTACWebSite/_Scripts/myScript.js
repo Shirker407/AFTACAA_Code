@@ -4124,7 +4124,7 @@ $(document).ready(function () {
         $('.underSel').css('color', 'yellow');
         $('#showElected').css('color', 'lightgreen');
         $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#electedBoardArt').removeClass('noDisplay').addClass('block');
+        $('#').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#mainHeader").offset().top
         }, 500);
