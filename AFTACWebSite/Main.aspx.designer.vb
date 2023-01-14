@@ -905,6 +905,15 @@ Partial Public Class _Default
     Protected WithEvents btnAdd As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''txtsql control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtsql As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''btnReturnAdminMenu control.
     '''</summary>
     '''<remarks>

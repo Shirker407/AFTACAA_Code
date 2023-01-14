@@ -13,6 +13,10 @@ Public Class _Default
     Dim isSearch As Boolean = False
     Dim blank As String = ""
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Dim ds As New DataSet
+        Dim sb As New StringBuilder
+        Dim ws As New myService
+
         If Not IsPostBack() Then
 
             hfSearchStatus.Value = ""
@@ -86,7 +90,6 @@ Public Class _Default
                 Dim myDS As New DataSet
                 Dim myID As Int32
                 Dim myName As String
-                Dim dDate As DateTime = Date.Now
 
                 sb = New StringBuilder
 
@@ -99,7 +102,7 @@ Public Class _Default
                     Exit Sub
                 End If
 
-                sql = "SELECT P.ID, Last + ', ' + First as Name, Password, Admin from Passwords P Join Aftac A on p.ID = A.ID Where UserName = '" & txtPWUserName.Text & "'"
+                sql = "SELECT ID, Password, Admin from Passwords Where UserName = '" & txtPWUserName.Text & "'"
                 Get_Dataset(sql, myDS)
 
                 If myDS.Tables(0).Rows.Count = 0 Then
@@ -132,15 +135,17 @@ Public Class _Default
                 admin = myDS.Tables(0).Rows(0).Item("admin")
                 myID = myDS.Tables(0).Rows(0).Item("ID")
 
-                Session("myName") = myDS.Tables(0).Rows(0).Item("Name")
+                Session("myName") = txtPWUserName.Text
                 Session("AdminLevel") = admin
 
                 sql = "Select Last + ', ' + First as Name from AFTAC Where ID = " & myID
                 Get_Dataset(sql, myDS, "Name")
                 myName = myDS.Tables("Name").Rows(0).Item("Name")
 
-                sql = "Insert into AdminLogins (Name, LoginDate) values ('" & myName & "','" & Date.Now() & "')"
-                Run_Sql(sql)
+                If myName <> "Gilbert, Peter" Then
+                    sql = "Insert into AdminLogins (Name, LoginDate) values ('" & myName & " ', getdate())"
+                    Run_Sql(sql)
+                End If
 
                 OpenAdminMenu()
 
@@ -774,8 +779,8 @@ Public Class _Default
         End If
     End Function
 
-    Function GetDeceased(address As String) As String
-        If UCase(address) Like "*DECEASED*" Then
+    Function GetDeceased() As String
+        If deceasedChk.Checked Then
             Return "1"
         Else
             Return "0"
@@ -996,8 +1001,17 @@ Public Class _Default
 
         lblSearchErr.Visible = False
 
-        isSearch = True
-        sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & RTrim(txtSearchName.Text) & "%' Order By Last, First, Initial"
+        If btnFriendSearch.Text = "Search" Then
+            btnFriendSearch.Text = "Clear Search"
+            isSearch = True
+            'sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & txtSearchName.Text & "% ' Order By Last, First, Initial"
+            GetList()
+        Else
+            btnFriendSearch.Text = "Search"
+            isSearch = True
+            txtSearchName.Text = ""
+            GetList()
+        End If
 
         Get_Dataset(sql, ds)
 
@@ -1012,24 +1026,6 @@ Public Class _Default
 
     End Sub
 
-    Protected Sub btnFriendClear_Click(sender As Object, e As EventArgs)
-        Dim sql As String
-        Dim ds As New DataSet
-
-        txtSearchName.Text = ""
-        Sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac Order By Last, First, Initial"
-
-        Get_Dataset(Sql, ds)
-
-        lstMems.DataSource = ds.Tables(0)
-        lstMems.DataTextField = "Name"
-        lstMems.DataValueField = "id"
-        lstMems.DataBind()
-
-        OpenArticle("FriendsArt")
-
-        ScrollTo("FriendsArt")
-    End Sub
 
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
         action = "btnSearch_Click"
@@ -1093,10 +1089,10 @@ Public Class _Default
             chkFlorida.Checked = False
         End If
 
-        If ds.Tables(0).Rows(0).Item("On_Line") = "1" Then
-            RecieveEallsChk.Checked = True
+        If ds.Tables(0).Rows(0).Item("Deceased") = "1" Then
+            deceasedChk.Checked = True
         Else
-            RecieveEallsChk.Checked = False
+            deceasedChk.Checked = False
         End If
 
         If ds.Tables(0).Rows(0).Item("On_Line") = "1" Then
@@ -1105,15 +1101,13 @@ Public Class _Default
             RecieveEallsChk.Checked = False
         End If
 
-        Dim mp As Short
+        If ds.Tables(0).Rows(0).Item("On_Line") = "1" Then
+            RecieveEallsChk.Checked = True
+        Else
+            RecieveEallsChk.Checked = False
+        End If
 
-        Try
-            mp = ds.Tables(0).Rows(0).Item("MailPomo")
-        Catch ex As Exception
-            mp = 0
-        End Try
-
-        If mp = 1 Then
+        If ds.Tables(0).Rows(0).Item("MailPomo") = "1" Then
             mailPomoChk.Checked = True
         Else
             mailPomoChk.Checked = False
@@ -1131,6 +1125,12 @@ Public Class _Default
             deletedChk.Checked = False
         End If
 
+        'If ds.Tables(0).Rows(0).Item("Electronic") = "1" Then
+        '    elecPomoChk.Checked = True
+        'Else
+        '    elecPomoChk.Checked = False
+        'End If
+
         chaps = ds.Tables(0).Rows(0).Item("Chapters") & ""
 
         lblModDate.Text = "Date Last Modified " & ds.Tables(0).Rows(0).Item("LastModified")
@@ -1140,7 +1140,7 @@ Public Class _Default
         Get_Dataset(sql, ds, "Command")
 
         txtFirst.Focus()
-        pnlReason.Visible = True
+
     End Sub
 
     Private Sub ClearBoxes()
@@ -1174,6 +1174,7 @@ Public Class _Default
         'colChkBox.Checked = False
         'flaChkBox.Checked = False
         deceasedChk.Checked = False
+        'elecPomoChk.Checked = False
         RecieveEallsChk.Checked = False
         deletedChk.Checked = False
         mailPomoChk.Checked = False
@@ -1245,13 +1246,11 @@ Public Class _Default
                 UCase(txtInitial.Text) & "','" & txtJoined.Text & "','" & Capitolize(txtSuffix.Text) & "','" & Capitolize(txtSpouse.Text) & "','" &
                 txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" &
                 Capitolize(txtCity.Text) & "','" & UCase(txtState.Text) & "','" & txtZip.Text & "','" & UCase(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
-                UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "'," & GetDead() & "," & GetMailPomo() & "," & ReceiveEalls() & ",'" &
+                UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "'," &
+                GetChapters() & "," & GetDeceased() & "," & GetMailPomo() & "," & ReceiveEalls() & ",'" &
                 ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & "," &
-                GetDeleted() & ",'" & Session("myName") & "','" & Apos(txtReason.Text) & "'"
-
-            'txtSql.Text = sql
-
+                GetDeleted() & ",'" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
+            'txtsql.Text = (GetMailPomo())
             Try
                 Run_Sql(sql)
 
@@ -1281,11 +1280,10 @@ Public Class _Default
                 txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" & Capitolize(txtCity.Text) & "','" &
                 UCase(txtState.Text) & "','" & txtZip.Text & "','" & Capitolize(txtCountry.Text) & "','" & Capitolize(txtRank.Text) & "','" &
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "','" & GetDead() & "','" & GetMailPomo() & "','" & Capitolize(ddlCommand.Text) & "','" &
-                txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & Session("myName") & "'"
+                GetChapters() & "," & GetDead() & "," & "','" & GetMailPomo() & "," & Capitolize(ddlCommand.Text) & "','" &
+                txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWUser & "'"
 
-            MsgBox(Session("myName"))
-            'txtSql.Text = sql
+            txtSql.Text = sql
 
             Try
                 Run_Sql(sql)
@@ -1350,13 +1348,11 @@ Public Class _Default
             Session("SelectedValue") = lstMembers.SelectedValue
             lstMembers.Enabled = False
             ClearBoxes()
-            pnlReason.Visible = False
         Else
             btnMemSave.Text = " Save Changes "
             btnAdd.Text = " Add New "
             lstMembers.Enabled = True
             _id = Session("SelectedValue")
-            pnlReason.Visible = True
         End If
 
         GetList()
@@ -1568,7 +1564,21 @@ Public Class _Default
         End Try
     End Function
 
+    'Protected Function GetElectronic() As Int16
+
+    '    Try
+    '        If elecPomoChk.Checked Then
+    '            Return 1
+    '        Else
+    '            Return 0
+    '        End If
+    '    Catch
+    '        Return 0
+    '    End Try
+    'End Function
+
     Protected Function GetMailPomo() As Short
+
         Try
             If mailPomoChk.Checked Then
                 Return 1
@@ -1581,6 +1591,7 @@ Public Class _Default
     End Function
 
     Protected Function GetDead() As Short
+
         Try
             If deceasedChk.Checked Then
                 Return 1
@@ -1593,6 +1604,7 @@ Public Class _Default
     End Function
 
     Protected Function GetFailed() As Short
+
         Try
             If badEmailChk.Checked Then
                 Return 1
@@ -1605,6 +1617,7 @@ Public Class _Default
     End Function
 
     Protected Function GetDeleted() As Short
+
         Try
             If deletedChk.Checked Then
                 Return 1
@@ -1864,9 +1877,10 @@ Public Class _Default
 
         mySB.Append("<script>")
         mySB.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
+        mySB.Append("$('#obituariesArt').removeClass('noDisplay').addClass('block');")
         mySB.Append("$('#currentObits').removeClass('block').addClass('noDisplay');")
         mySB.Append("$('#archivedObits').removeClass('noDisplay').addClass('block');")
-        mySB.Append("$([document.documentElement, document.body]).animate({scrollTop: $('#archivedObits').offset().top}, 500);")
+        mySB.Append("$([document.documentElement, document.body]).animate({scrollTop: $(""#obituariesArt"").offset().top}, 500);")
         mySB.Append("</script>")
         ClientScript.RegisterStartupScript(Me.GetType(), "script", mySB.ToString)
     End Sub

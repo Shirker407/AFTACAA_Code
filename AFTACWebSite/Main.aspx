@@ -1,6 +1,7 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
-<%--Old Code--%>
+
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
+<%--Swell %>
 <%--*****************************************************************************--%>
 <%--*****************************************************************************--%>
      <%--TABLE OF CONTENTS--%>
@@ -78,6 +79,8 @@
                         </div>
                     </li>
 
+                    <li id="liCommand" class="liMainMenu bottomDot">Command Corner</li>
+
                     <li id="liPoMos" class="liMainMenu bottomDot">Post-Monitors
                         <div id="divPomos" class="underMenu noDisplay">
                             <span id="pomosArchived" class="underSel block leftMargin1em">Archived Post Monitors</span>
@@ -104,17 +107,8 @@
                                 <p id="eventMess" class="italic block yellowText" style="font-size:1em;">Click a year to see events.</p>
                             </div>
                             <div>
-                                <asp:Label ID="lbl2022" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2022"></asp:Label>
-                                <div>
-                                    <div id="2022Act" class="myActs noDisplay">
-                                        <span id="Golf2022" class="underSel block bottomDot">Golf N’Get Together</span>
-                                        <span id="DiamondJub" class="underSel block">Diamond Jubilee Birthday Ball</span>
-                                    </div>
-                                    <hr class="myHR" />
-                                </div>
-
                                 <asp:Label ID="lbl2021" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2021"></asp:Label>
-                                    <div id="2021Act" class="myActs noDisplay">
+                                <div id="2021Act" class="myActs noDisplay">
                                     <span id="Golf2021" class="underSel block bottomDot">Golf N’Get Together</span>
                                     <span id="OH2021" class="underSel block bottomDot">AFTAC Open House</span>
                                     <span id="WOHAwards2021" class="underSel block bottomDot">WOH Awards</span>
@@ -154,7 +148,7 @@
                                 </div>
                                 <hr class="myHR" />
                             </div>
-<%--                            <div>
+                            <div>
                                 <asp:Label ID="lbl2017" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2017"></asp:Label>
                                 <div id="2017Act" class="myActs noDisplay">
                                     <span id="eventsToiletBowl" class="underSel block leftMargin1em bottomDot">Toilet Bowl</span>
@@ -164,7 +158,7 @@
                                     <span id="eventsWCCReunion" class="underSel block leftMargin1em bottomDot">AFTAC Reunion</span>
                                 </div>
                                 <hr class="myHR" />
-                            </div>--%>
+                            </div>
                         </div>
                     </li>
 
@@ -262,7 +256,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 8/12/2022</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 6/6/2022</span>
                     </div>
                 </div>
 
@@ -282,59 +276,14 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDecPomo" class="announcement blueText">December Pomo was Published.</td>
-                                    <td class="posted blueText">12/23/2022</td>
+                                    <td id="myJubilee" class="announcement greenText">The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.</td>
+                                    <td class="posted greenText">8/9/2022</td>
+                                    <td class="event greenText">9/17/2022</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWhitney" class="announcement blueText">Jan Whitney's Obituary was Posted.</td>
+                                    <td class="posted blueText">8/9/2022</td>
                                     <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myShader" class="announcement blueText">Rita Jean Shader's Obituary was Posted.</td>
-                                    <td class="posted blueText">12/15/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myGolf2022" class="announcement blueText">Golf N’ Get Together Fall 2022</td>
-                                    <td class="posted blueText">12/14/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDiamondJub" class="announcement blueText">Diamond Jubilee Birthday Ball</td>
-                                    <td class="posted blueText">12/14/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myTricare" class="announcement redText">TriCare Enrollment Change</td>
-                                    <td class="posted redText">11/14/2022</td>
-                                    <td class="event redText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySign" class="announcement blueText">The Art of Sign in a Secure Environment.</td>
-                                    <td class="posted blueText">11/11/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCTBTO" class="announcement blueText">CTBTO Executive Secretary visits AFTAC.</td>
-                                    <td class="posted blueText">11/11/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPound" class="announcement blueText">Dona Pound's Obituary was Posted.</td>
-                                    <td class="posted blueText">11/11/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWilliamson" class="announcement blueText">Gail Williamson's Obituary was Posted.</td>
-                                    <td class="posted blueText">11/2/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myAnderholm" class="announcement blueText">Nordin "Curt" Anderholm's Obituary was Posted.</td>
-                                    <td class="posted blueText">11/2/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWright" class="announcement redText">CMS Jerome S. Wright Biography</td>
-                                    <td class="posted redText">9/14/2022</td>
-                                    <td class="event redText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myNote" class="announcement blueText">Note from new AFTAC Commander<br />to the Alumni</td>
@@ -342,11 +291,86 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myPhoenix" class="announcement blueText">New WC-135R Constant Phoenix<br />Tail Number 14386 (Updated)</td>
+                                    <td class="posted blueText">7/14/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMedical" class="announcement redText">Military Health System Patients placed in Civilian Care Starting This Year.</td>
+                                    <td class="posted redText">7/14/2022</td>
+                                    <td class="event redText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myFinlayson" class="announcement redText">Colonel James “Cobra” Finlayson Biography</td>
                                     <td class="posted redText">7/12/2022</td>
                                     <td class="event redText"></td>
                                 </tr>
-                        </table>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myLarson" class="announcement blueText">Karla Larson's Obituary was Posted.</td>
+                                    <td class="posted blueText">6/25/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myDunn" class="announcement blueText">David Dunn's Obituary was Posted.</td>
+                                    <td class="posted blueText">6/23/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySteskal" class="announcement blueText">Mike Steskal's Obituary was Updated.</td>
+                                    <td class="posted blueText">6/23/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCmd" class="announcement blueText">AFTAC Change of Command</td>
+                                    <td class="posted blueText">6/7/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWOH" class="announcement blueText">Added 2022 WOH Recipients</td>
+                                    <td class="posted blueText">6/5/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCiambrone" class="announcement blueText">Terry Ciambrone's Obituary was posted.</td>
+                                    <td class="posted blueText">6/5/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWiley" class="announcement blueText">Judith Wiley's Obituary was posted.</td>
+                                    <td class="posted blueText">6/5/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myRobbirds" class="announcement blueText">James Robbird's Obituary was posted.</td>
+                                    <td class="posted blueText">6/5/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySmith" class="announcement blueText">Sam Smith's Obituary was posted.</td>
+                                    <td class="posted blueText">6/5/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                      
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMarcus" class="announcement blueText">Donald Marcus' Obituary was posted.</td>
+                                    <td class="posted blueText">5/9/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpaceA" class="announcement blueText">Space Available Air Travel is back.</td>
+                                    <td class="posted blueText">4/25/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCwikla" class="announcement blueText">Jim Cwikla's Obituary was posted.</td>
+                                    <td class="posted blueText">4/25/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="AOY2021" class="announcement blueText">Lou Seiler Latest Alumni of Year</td>
+                                    <td class="posted blueText">4/23/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                          </table>
                         </div>
                     </div>
                 </div>
@@ -354,270 +378,383 @@
 
             <div class="floatLeft width45">
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
-                    <p class="blueText fontSize1_Halfem centerText">Friday 9 December<br />
-                        11:30 - 13:30 Hrs<br />
+<%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
+
+                    <p class="blueText fontSize1_Halfem centerText">Friday 19 August<br />
+                        15:00 - 16:30 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
-                        Beef O'Brady's<br />
-<<<<<<< HEAD
-                        3030 Lake Washington Road<br />
-                        Melbourne, Fl<br /> 
-                        --------------------------<br />
-                        <span class="redText">Yankee Swap this Month</span><br />
-=======
-                        744 South Patrick Drive<br />
-                        Satellite Beach, Fl<br /> 
->>>>>>> parent of d9301dc (Cleaned up some stuff)
+                        AFTAC Headquarters,<br />
+                        Patrick Space Force Base, FL<br />
+                        Flag Room<br /> 
+                        Lobby Conference Room<br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
-                        Ed Lindsay, AFTACAA President, at <a href="MailTo:piston_horse@hotmail.com">Piston_Horse@hotmail.com</a>
+                        Phil Godfrey, AFTACAA President, at <a href="MailTo:afsophil@gmail.com">afsophil@gmail.com</a>
                     </p>
+                    <%--</p>--%>
                 </div>
             </div>
 
             <div class="clear"></div>
         </article>
 
-        <article id="DiamondArt" class="myArts noDisplay">
-            <p class="centerText pTitle">
-                AFTAC celebrates 75 years…<br />throws a Diamond Jubilee Birthday Ball<br />
-                Submitted by Ed Lindsay
+        <article id="myCommandArt" class="myArts noDisplay">
+        <p class="pTitle centerTest underLine">Command Corner</p>
+
+        <aside class="floatLeft width30 backMaroon yellowBorder">
+            <ul id="Commandul" class="padding5">
+                <li class="CommandNotes">Colonel Finlayson's Biography</li>
+                <li class="CommandNotes">Chief Wright's Biography</li>
+                <li class="CommandNotes">Note from the Commander</li>
+            </ul>
+        </aside>
+
+        <section class="floatLeft width65 leftMargin2em maroonBorder" style="min-height:30em">
+            <article id="CommInitial" class="CommandArt block">
+                <div class="backMaroon" style="height:100%;">
+                    <div class="centerDiv backMaroon topMargin10em">
+                        <asp:Label runat="server" Font-Size="1.5em" BackColor="Maroon" ForeColor="Yellow" Text="Click on Document name at the right." Style="margin-top:5em;"></asp:Label>
+                    </div>
+                </div>
+            </article>
+
+            <article id="Command1" class="CommandArt noDisplay backWhite">
+                <div class="centerDiv">
+                    <img id="AirForceHeader" alt="Air Force Header" class="width100" src="_Images/Air Forse Header.png" />
+                </div>
+
+                <p class="pTitle centerText underline">COLONEL JAMES FINLAYSON</p>
+                <p>
+                    <img alt="Finlayson.png" class="floatRight width35 leftMargin1em maroonBorder" src="_Images/Finlayson.png"/>
+                    Colonel James “Cobra” Finlayson is the Commander, Air Force
+                    Technical Applications Center, Patrick Space Force Base, Fla.
+                    AFTAC operates and maintains the United States Atomic Energy
+                    Detection System to monitor foreign compliance with various
+                    treaties limiting nuclear testing. The focus of AFTAC’s more than
+                    1,000 professionals is to detect special events in the atmosphere,
+                    underwater, underground, and in space to determine if they are
+                    nuclear and to report them to U.S. senior decision makers.
+                    <br /><br />
+                    Colonel Finlayson received his commission in 1997 from the
+                    United States Air Force Academy. Prior to assuming command
+                    of the Department of Defense’s sole nuclear treaty monitoring
+                    center, Colonel Finlayson was the Vice Commander of the 17th
+                    Training Wing at Goodfellow AFB, Texas, serving as the principal
+                    assistant to the Wing Commander and overseeing two training
+                    groups, a mission support group, and a medical group. He also
+                    directed 13 wing staff agencies and managed $1.5 billion in real
+                    property, equipment, supplies and contracts. Additionally, Colonel Finlayson served as the Chief of
+                    Staff, J2 Directorate for Intelligence, U.S. Strategic Command located at Offutt Air Force Base,
+                    Nebraska. Previous leadership assignments include serving as the Commander of National Air and
+                    Space Intelligence Center’s Regional Threats Analysis Squadron and as the Director of Operations
+                    for U.S. Strategic Command’s Joint Intelligence Operations Center. He has forward deployed on five
+                    occasions to Egypt, Qatar, Iraq, and Afghanistan in support of Operations Bright Star, Iraqi Freedom
+                    and Enduring Freedom.
+                    <br /><br />
+                    <span class="maroonText bold fontSize1_Halfem underline">EDUCATION</span><br />
+                    1997 Bachelor of Science, History, U.S. Air Force Academy, Colorado Springs, Colo.<br />
+                    2000 Professional Masters of Business Administration, Troy University, Troy, Alabama<br />
+                    2002 Squadron Officer’s School, Maxwell AFB, Ala.<br />
+                    2006 Air Command and Staff College, by correspondence<br />
+                    2008 Juris Doctor, cum laude, Boyd School of Law, University of Nevada Las Vegas<br />
+                    2010 Air Command and Staff College, Maxwell AFB, Ala.<br />
+                    2011 Air War College, by correspondence<br />
+                    2016 Doctor of Philosophy, summa cum laude, Organizational Development and Leadership,
+                    University of the Rockies, Denver, Colo.
+                    <br /><br />
+                    <span class="maroonText bold fontSize1_Halfem underline">ASSIGNMENTS</span><br />
+                    1. May 1997 - June 1998, Admissions Advisor, Directorate of Admissions, U.S. Air Force
+                    Academy, Colorado Springs, Colo.<br />
+                    2. June 1998 - March 1999, Student, 315th Technical Training Squadron, Goodfellow AFB, Texas<br />
+                    3. March 1999 - May 2001, Chief, Intelligence, 9th Fighter Squadron, Holloman AFB, N.M.<br />
+                    4. May 2001 - December 2003, Command Briefer/Analyst, U.S. Central Command, Tampa, Fla.<br />
+                    5. December 2003 - January 2007, Flight Commander, 547th Intelligence, Surveillance and
+                    Reconnaissance Squadron, Nellis AFB, Nev.<br />
+                    6. January 2007 - July 2009, Operations Officer, Functional Analysis Division, Security and
+                    Intelligence Directorate, U.S. Southern Command, Miami, Fla.<br />
+                    7. July 2009 - July 2010, Student, Air Command and Staff College, Maxwell AFB, Ala.<br />
+                    8. July 2010 - July 2012, Wing Senior Intelligence Officer, 35th Fighter Wing, Misawa Air Base,
+                    Japan<br />
+                    9. July 2012 - July 2015, Deputy Division Chief, Targeting, Joint Staff J2, Pentagon, Washington,
+                    D.C.<br />
+                    10. July 2015 - July 2017, Commander, Regional Threats Analysis Squadron, NASIC, WrightPatterson, Ohio<br />
+                    11. July 2017 - July 2018, Deputy Commander, 365th ISR Group, Nellis AFB, Nev.<br />
+                    12. July 2018 - July 2019, Director of Operations, U.S. Strategic Command, JIOC, Offutt AFB, Neb.<br />
+                    13. July 2019 - May 2020, Chief of Staff, J2 Directorate for Intelligence, U.S. Strategic Command,
+                    Offutt AFB, Neb.<br />
+                    14. May 2020 – May 2022, Vice Commander, 17th Training Wing, Goodfellow AFB, Texas<br />
+                    15. June 2022 – Present, Commander, Air Force Technical Applications Center, Patrick SFB, Fla.
+                    <br /><br />
+                    <span class="maroonText bold fontSize1_Halfem underline">SUMMARY OF JOINT ASSIGNMENTS</span><br />
+                    May 2001 - December 2003, USCENTCOM, Tampa, Fla., as a captain<br />
+                    January 2007 - July 2009, USSOUTHCOM, Miami, Fla., as a major<br />
+                    July 2012 - July 2015, Joint Staff J2, Pentagon, Washington, D.C., as a lieutenant colonel<br />
+                    July 2019 - May 2020, USSTRATCOM, Offutt AFB, Neb., as a colonel
+                    <br /><br />
+                    <span class="maroonText bold fontSize1_Halfem underline">MAJOR AWARDS AND DECORATIONS</span><br />
+                    Defense Superior Service Medal<br />
+                    Legion of Merit<br />
+                    Defense Meritorious Service Medal with oak leaf cluster<br />
+                    Meritorious Service Medal with three oak leaf clusters<br />
+                    Joint Service Commendation Medal with two oak leaf clusters<br />
+                    Air Force Commendation Medal<br />
+                    Joint Service Achievement Medal<br />
+                    Air Force Achievement Medal
+                    <br /><br />
+                    <span class="maroonText bold fontSize1_Halfem underline">EFFECTIVE DATES OF PROMOTION</span><br />
+                    Second Lieutenant May 28, 1997<br />
+                    First Lieutenant May 28, 1999<br />
+                    Captain May 28, 2001<br />
+                    Major Dec. 1, 2006<br />
+                    Lieutenant Colonel March 1, 2012<br />
+                    Colonel Sept. 1, 2018<br />
+                    (Current as of June 2022)
+                </p>
+            </article>
+
+            <article id="Command2" class="CommandArt noDisplay backWhite">
+                <p class="pTitle centerText underline">Chief Jerome Wright Biography</p>
+                <p>
+                    <img alt="CMS_Wright.png" src="_Photos/CMS_Wright.png" class="floatLeft width35 rightMargin2em maroonBorder" />
+                    Chief Master Sergeant (CMSgt) Jerome S. Wright serves as the senior enlisted advisor of the cadet wing at the U.S. Air Force Academy, Colorado Springs, Colo. He is the principle enlisted advisor to the commandant on training, education, standards and personnel matters for 4,400 cadets and 236 total force permanent party members. Additionally, as the career field manager for the Academy Military Trainer (8B200) Developmental Special Duty, he is responsible for the training, development, utilization, and readiness of 107 academy military trainers. He also provides mentorship to cadets, four group commanders, 40 squadron commanders, and respective superintendents and staff. The wing’s mission includes training, developing, and inspiring leaders of character for the Air and Space Force.
+                    <br /><br />
+                    Chief Wright was born in Guantanamo Bay, Cuba and raised in Virginia Beach, Va. He entered the Air Force in July of 2000. His background includes various duties in missile and space systems electronic maintenance, electronic systems security assessment, operations intelligence, and geospatial intelligence targeting career fields. He has deployed in support of Operation ENDURING FREEDOM, Operation IRAQI FREEDOM, Combined Joint Task Force-Horn of Africa, and Operation UNIFIED PROTECTOR. Prior to assuming his current position, Chief Wright was the superintendent and chief enlisted manager of the 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla.
+                    <br /><br />
+                    Education Chief Leadership Course, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2020)
+                    <br /><br />
+                    Senior Enlisted Joint Professional Military Education II, Joint Forces Staff College, by correspondence (2019)
+                    <br /><br />
+                    USAF Continuous Process Improvement Green Belt Course, Goodfellow Air Force Base, San Angelo, Texas (2017)
+                    <br /><br />
+                    USAF Master Resilience Trainer Course, Joint Base McGuire-Dix-Lakehurst, Burlington County, N.J. (2017)
+                    <br /><br />
+                    USAF Senior Noncommissioned Officer Academy, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2016)
+                    <br /><br />
+                    AETC Basic Instructor Course, Goodfellow Air Force Base, San Angelo, Texas (2015)
+                    <br /><br />
+                    Bachelor of Science, Human Resource Management and Organizational Development, University of Maryland, College Park, Md. (2015)
+                    <br /><br />
+                    Senior Enlisted ISR Master Skills Course, Goodfellow Air Force Base, San Angelo, Texas (2013)
+                    <br /><br />
+                    Senior Enlisted Joint Professional Military Education, Joint Forces Staff College, by correspondence (2013)
+                    <br /><br />
+                    Associates in Intelligence Studies and Technology, Community College of the Air Force, Montgomery, Ala. (2013)
+                    <br /><br />
+                    Associates in Electronic Systems Technology, Community College of the Air Force, Montgomery, Ala. (2013)
+                    <br /><br />
+                    Noncommissioned Officer Academy, Kapaun Air Station, Germany (2011)
+                    <br /><br />
+                    Joint Battle Damage Assessment Course, Joint Targeting School, Va. (2010)
+                    <br /><br />
+                    Collateral Damage Estimation Course, U.S. Army Garrison Heidelberg, Germany (2009)
+                    <br /><br />
+                    Dynamics of International Terrorism, USAF Special Operations School (2007)
+                    <br /><br />
+                    Information Warfare Application Course, Maxwell AFB, Ala. (2007)
+                    <br />
+                    Intercontinental Ballistic Missile (ICBM) Maintenance Instructor Course, Francis E. Warren AFB, Wyo. (2005)
+                    <br /><br />
+                    Airman Leadership School, Francis E. Warren AFB, Wyo. (2005)
+                    <br /><br />
+                    <span class="maroonText bold fontSize1_Halfem underline">Professional Experience</span><br />
+                    Senior Enlisted Advisor to the Commandant and Career Field Manager for Academy Military Trainers (8B200), Cadet Wing, U.S. Air Force Academy, Colorado Springs, Colo. (Jan. 2021-Present)
+                    <br /><br />
+                    Command Chief, Commandant of Cadets, U.S. Air Force Academy, Colorado Springs, Colo. (Nov. 2020-Jan. 2021)
+                    <br /><br />
+                    Superintendent, 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla. (July 2019-Nov. 2020)
+                    <br /><br />
+                    Operations Superintendent, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (July 2016–July 2019)
+                    <br /><br />
+                    Course Chief, Advanced Targeting Courses, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2015–July 2016)
+                    <br /><br />
+                    Superintendent, ISR Programs and Resources, HQ USAFE-AFAFRICA Intelligence Directorate, Ramstein Air Base, Germany; Acting Intelligence Inspector, HQ USAFE-AFAFRICA Inspector General, Ramstein Air Base, Germany (April 2015– Sept. 2015); (June 2013–October 2015)
+                    <br /><br />
+                    Section Chief, Targeting and Imagery Support, 603rd Air & Space Operations Center, Ramstein Air Base, Germany (Feb. 2012–June 2013)
+                    <br /><br />
+                    NCOIC, Tactical Assessment, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Dynamic Targeting Chief, NATO Combined Air Operations Center, Poggio Renatico, Italy (Aug. 2011–Nov. 2011); (Aug. 2009–Feb. 2012)
+                    <br /><br />
+                    NCOIC, Dynamic Targeting, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Shift NCOIC, Targeting Cell, Combined Air & Space Operations Center, Al Udeid Air Base, Qatar (June 2009–Dec. 2009); (June 2008–August 2009)
+                    <br /><br />
+                    Student, Operations Intelligence Course, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2007–June 2008)
+                    <br /><br />
+                    Electronic System Security Assessment Analyst, 68th Information Operations Squadron, Brooks-City Base, San Antonio, Texas (Oct. 2006–Oct. 2007)
+                    <br /><br />
+                    Instructor, ICBM Electro-Mechanical Team, 90th Maintenance Operations Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (May 2005–Oct. 2006)
+                    <br /><br />
+                    Team Chief, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (Jan. 2004–May 2005)
+                    <br /><br />
+                    Technician, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (April 2001–Jan. 2004)
+                    <br /><br />
+                    Student, Missile and Space System Electronic Maintenance Course, 532nd Training Squadron, Vandenberg Air Force Base, Lompoc, Cal. (Nov. 2000–March 2001)
+                    <br /><br />
+                    Student, Electronic Principles Course, 344th Training Squadron, Lackland Air Force Base, San Antonio, Texas (Aug. 2000–Nov. 2000)
+                    <br /><br />
+                    Trainee, Basic Military Training, 324th Training Squadron, Lackland Air Force Base, San Antonio, Texas (July 2000–Aug. 2000)
+                    <br /><br />
+                    <span class="maroonText bold fontSize1_Halfem underline">Honors & Awards</span><br />
+                    Meritorious Service Medal with two oak leaf clusters
+                    <br />
+                    Joint Service Commendation Medal
+                    <br />
+                    Air Force Commendation Medal with one oak leaf cluster
+                    <br />
+                    Air Force Achievement Medal with one oak leaf cluster
+                    <br />
+                    Army Achievement Medal
+                    <br />
+                    Air & Space Campaign Medal
+                    <br />
+                    Nuclear Deterrence Operations Service Medal with ‘N’ device
+                    <br />
+                    Air Force Expeditionary Service Ribbon with Gold Border
+                    <br />
+                    Air Force Special Duty Ribbon
+                    <br />
+                    NATO Medal
+                    <br /><br />
+                    <span class="maroonText bold fontSize1_Halfem underline">OTHER ACHIEVEMENTS</span><br />
+                    Air Force Association Active Duty SNCO of the Year, State of Texas winner (2018)
+                    <br /><br />
+                    AETC Training Support SNCO of the Year, 17th Training Wing (2017)
+                    <br /><br />
+                    National Image Inc., Meritorious Service Award, 17th Training Wing (2017)
+                    <br /><br />
+                    Blacks in Government Meritorious Service Award, 17th Training Wing (2017)
+                    <br /><br />
+                    National Geospatial-Intelligence Agency Senior Enlisted of the Year Award, AETC (2016)
+                    <br /><br />
+                    SNCO of the Year, HQ USAFE-AFAFRICA (2014)
+                    <br /><br />
+                    AF ISR Awards Program SNCO of the Year, HQ USAFE-AFAFRICA Intelligence Directorate (2013)
+                    <br /><br />
+                    Distinguished Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
+                    <br />
+                    AETC Commander’s Top Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
+                    <br /><br />
+                    Academic Achievement Award, Airman Leadership School, F.E. Warren Air Force Base, Wyo. (2005)
+                </p>
+
+            </article>
+
+            <article id="Command3" class="CommandArt noDisplay backWhite">
+                <p class="pTitle underLine">Note from the Commander<br />By Col. James “Cobra” Finlayson</p>
+
+                <p>
+                    Greetings to all the AFTAC giants out there, past and present! I’m thrilled to have been asked to
+                    contribute a few words to your newsletter, especially since I have heard so much about your legacy, the
+                    alumni association as a whole, and your continued efforts to stay engaged with the workforce in a variety
+                    of ways.
+                    <br /><br />
+                    I believe the Post Monitor editors are including my official biography in this quarter’s newsletter, so I won’t
+                    bore you with the details of my past military assignments, education and job titles. What my bio doesn’t
+                    cover is something I like to refer to as “Cobra’s Countdown” – sort of a list of rules to live by based on my
+                    philosophy of being a commander and an Air Force leader.
+                    I attribute a lot of who I am to how I was raised and where I came from. I was born in Heidelberg,
+                    Germany. My dad was an Army Warrant Officer, and like all military families, we moved around a lot. I
+                    call El Paso, Texas home since I graduated from Austin High School in 1993, and from there I was
+                    fortunate enough to attend the U.S. Air Force Academy. I spent the next 25-plus years traveling the
+                    world, applying my skills, contributing to the DOD mission, and meeting incredible people along the way.
+                    When I first sat down with my staff here at AFTAC, I relayed four parts of Cobra’s Countdown: contact,
+                    initiative, communication, and balance. Pretty simple stuff when you boil it down, and I find that keeping
+                    things simple is a big key to success.
+                    Contact. I like to walk around a lot and ask questions. I’m inquisitive by nature, and I think one of the
+                    best ways to learn is to ask the experts about what they do, how they do it, and why it matters. I love
+                    learning new things every day!
+                    <br /><br />
+                    Initiative. Quite frankly, the best ideas most often come from the bottom up, not from the top down. All
+                    too often I think senior leaders lose sight of that concept. As General Colin Powell aptly said, “Never let
+                    your ego get so close to your position that when your position goes, your ego goes with it.”
+                    Communication. It is crucial! We live in a world where a constant stream of information – more like a
+                    GLUT of info – comes at us every hour of every day, whether it’s email, texts, online messages, Tweets,
+                    Facebook posts, phone calls, or breaking news on TV. It’s always coming at us. But I am a firm believer
+                    that communication should be tailored to ensure the person receiving needs it at that moment in time, or if
+                    it can wait.
+                    <br /><br />
+                    Balance. As the saying goes, your personal life will long outlast your Air Force career, so it’s important to
+                    make sure your life is in balance. I imagine those reading this are long since retired from active duty, and
+                    you know this saying better than most! Having a career is great, but having a balanced family life is even
+                    better.
+                    <br /><br />
+                    And speaking of family life, I am blessed to be married to my amazing wife, Kristen, and we have two
+                    beautiful daughters together – Aurora and Audrey. They are the ones who bring balance to my life!
+                    I hope that gives you a little insight about me, and I’m looking forward to meeting you at one of the many
+                    AFTAC functions that our great alumni support during the year. Be sure to make a point of introducing
+                    yourself – I want to shake the hands of all the legends who are the foundation of AFTAC’s continued
+                    success. Thanks for all you do to make our center better!
+                    Cheers,<br />
+                    Cobra
+                </p>
+            </article>
+
+        </section>
+    </article>        
+        
+<%--        <article id="JubileeArt" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">75th Diamond Jubilee</p>
+
+            <p class="centerDiv">
+                The AFTAC Booster Club
+                <br />
+                Requests the pleasure of your company to celebrate
+                <br /><br />
+                The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.
+                <br /><br />
+                To be held at
+                <br />
+                the Hilton Cocoa Beach Oceanfront
+                <br />
+                1550 N Atlantic Ave, Cocoa Beach, FL 32931
+                <br /><br />
+                on Saturday, the Seventeenth of September.
+                <br />
+                Program begins at six-thirty in the evening until ten-thirty in the evening.
+                <br /><br />
+                R.S.V.P. by September 7, 2022
+                <br /><br />
+                <a href="https://sendomatic.com/a2muF" target="_blank">Click here</a> to read more.
+                <br /><br />
+                POC: Capt Jesse Lubove
+                <br /><br />
+                COMM: 321-494-7321 / 854-7321
+                <br /><br />
+                Military: Mess Dress or Semi-Formal Civilian: Formal Attire
             </p>
-            <hr class="myHR" />
+        </article>--%>
+
+        <article id="PhoenixArt" class="myArts noDisplay">
+            <p class="pTitle underLine centerText">New WC-135R Constant Phoenix</p>
+
+            <div class="centerDiv">
+                <img alt="Pheonix1.png" class="width50 maroonBorder showShadow" src="_Photos/PhoenixPics/Phoenix1.png" />
+            </div>
+
             <p>
-                1 day older than the Air Force…that’s AFTAC’s legacy. Well, at least 1 of many claims of how special the Air Force Technical Application Center is to the history of our country. As many of us know, what AFTAC did, as a whole, was cloaked in secrecy. If we told you what we did, we would have to kill you…or something like that. On 17 September, 2022, AFTAC came out of the shadows for a night of revelry. A night to celebrate 75 years as an outstanding organization. I had the pleasure of getting to attend this fine event.
-                <br /><br />
-                The guest speaker for the event was Major General Aaron “Brain” Prupas. The AFTAC Commander from June 2010 – May 2012.
+                Team Offutt welcomed a new aircraft to its fleet for the first time in decades when WC-135R 
+                Constant Phoenix tail number 14836 arrived at Lincoln Airport today. This is the first of 
+                three WC-135R deliveries to the 55th Wing as the United States Air Force is modifying three 
+                KC-135R Stratotankers to replace the aging aircraft. Originally delivered to the AF in 1964 
+                and most recently flown by the New Hampshire Air National Guard, the new WC-135R was modified 
+                by Big Safari and will serve as the Air Force’s newest atmospheric collection aircraft 
+                supporting national and international partners. Operated by the 45th Reconnaissance Squadron 
+                with support from Detachment 1, AF Technical Applications Center, it collects particulate 
+                and gaseous effluents and debris from accessible regions of the atmosphere in support of 
+                the Limited Nuclear Test Ban Treaty of 1963.
             </p>
-
-            <figure class="floatLeft width45">
-                <img alt="Diamond1.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond1.png" />
-                <figcaption class="maroonText italic bold">
-                    Major General Aaron “Brain” Prupas
-                </figcaption>
-            </figure>
-
-            <figure class="floatLeft width45">
-                <img alt="Diamond2.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond2.png" />
-                <figcaption class="maroonText italic bold">
-                    Coats came off and there were some colorful sleeves.<br />Dr. Dan DeForest sports an orbital on his back
-                </figcaption>
-            </figure>
-
-            <div class="clear"></div>
-
-            <p>
-                It was a dark and rainy night. There was a large storm coming off the coast of Africa and it was heading towards the Caribbean. This didn’t bother the Men and Women of AFTAC. They were gathering in the dry comforts of the Hilton Cocoa Beach Oceanfront. Attendees were dressed in Mess dress, Class A, luxurious dresses, tuxes, and other apparel. There were two bars open and the lines were long…a perfect opportunity for people to meet old/new friends and let their hair down. The check in tables provided nice little mementos, wine stoppers and water bottles.
-                <br /><br />
-                A slide show was playing that showed previous AFTAC events. Nice representation of the many facets of AFTAC for this diamond jubilee.
-                <br /><br />
-                I got to spend some time catching up with Major General Prupas. He was the Commander when I returned to Florida in July 2010 for my last tour at AFTAC. He was on terminal leave and looking forward to his retirement in Colorado. I also spoke briefly with Colonel Finlayson and Chief Wright. I presented each of them with the coaster that Tony De Marco had designed for the Alumni’s 2022 WorldWide Reunion.  
-            </p>
-
-            <p>
-                After about an hour of socializing, the attendees took their seats to prepare for the rest of the evening’s events.
-                I was seated next to Lt. Colonel Jarred Burley, the current Director of the Ciambrone Radiochemistry Lab. On my other side was Dan Foster. An alumni member that had done time at TOD, HQ and a lot of Flying for AFTAC. Many stories were told. Also at the table was TSgt Jason Baron who had a big part in the planning of the Ball. He also works in the CRL.
-                <br /><br />
-                Dinner was served and more conversation was had. After dinner, there was a cake cutting ceremony that had the Oldest and Youngest Airmen in the room join Colonel Finlayson and Chief Wright to cut the cake.
-            </p>
-            <figure class="floatLeft width45">
-                <img alt="Diamond3.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond3.png" />
-                <figcaption class="maroonText italic bold">
-                    Chief (retired) Ed Lindsay with Chief Adam Dunn
-                </figcaption>
-            </figure>
-
-            <figure class="floatLeft width45">
-                <img alt="Diamond4.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond4.png" />
-                <figcaption class="maroonText italic bold">
-                    Dan Foster next to Airborne Sampling display
-                </figcaption>
-            </figure>
-
-            <div class="clear"></div>
-
-            <p>
-                Then Major General Prupas took the podium. Colonel Finlayson introduced him. He relayed the history he had with MG Prupas in the beginning of his career. MG Prupas then gave a nice, brief presentation on what it meant to be associated with AFTAC. He mentioned the AFTAC Alumni throughout his presentation. He emphasized many times how he had never encountered a military unit that was so oriented as a cohesive, family organization. He spoke to the Ethos of AFTAC members and their dedication to the mission that was assigned to them 75 years prior.
-                <br /><br />
-                After MG Prupas spoke. The music started playing and dancing and frivolity ensued. That is when I departed. 
-            </p>
+            <div class="centerDiv">
+                <input id="btnMore" class="padding5 myBut" type="button" value="Read More" />
+            </div>
         </article>
 
-        <article id="DiamondArt" class="myArts noDisplay">
-            <p class="centerText pTitle">
-                AFTAC celebrates 75 years…<br />throws a Diamond Jubilee Birthday Ball<br />
-                Submitted by Ed Lindsay
-            </p>
-            <hr class="myHR" />
-            <p>
-                1 day older than the Air Force…that’s AFTAC’s legacy. Well, at least 1 of many claims of how special the Air Force Technical Application Center is to the history of our country. As many of us know, what AFTAC did, as a whole, was cloaked in secrecy. If we told you what we did, we would have to kill you…or something like that. On 17 September, 2022, AFTAC came out of the shadows for a night of revelry. A night to celebrate 75 years as an outstanding organization. I had the pleasure of getting to attend this fine event.
-                <br /><br />
-                The guest speaker for the event was Major General Aaron “Brain” Prupas. The AFTAC Commander from June 2010 – May 2012.
-            </p>
-
-            <figure class="floatLeft width45">
-                <img alt="Diamond1.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond1.png" />
-                <figcaption class="maroonText italic bold">
-                    Major General Aaron “Brain” Prupas
-                </figcaption>
-            </figure>
-
-            <figure class="floatLeft width45">
-                <img alt="Diamond2.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond2.png" />
-                <figcaption class="maroonText italic bold">
-                    Coats came off and there were some colorful sleeves.<br />Dr. Dan DeForest sports an orbital on his back
-                </figcaption>
-            </figure>
-
-            <div class="clear"></div>
-
-            <p>
-                It was a dark and rainy night. There was a large storm coming off the coast of Africa and it was heading towards the Caribbean. This didn’t bother the Men and Women of AFTAC. They were gathering in the dry comforts of the Hilton Cocoa Beach Oceanfront. Attendees were dressed in Mess dress, Class A, luxurious dresses, tuxes, and other apparel. There were two bars open and the lines were long…a perfect opportunity for people to meet old/new friends and let their hair down. The check in tables provided nice little mementos, wine stoppers and water bottles.
-                <br /><br />
-                A slide show was playing that showed previous AFTAC events. Nice representation of the many facets of AFTAC for this diamond jubilee.
-                <br /><br />
-                I got to spend some time catching up with Major General Prupas. He was the Commander when I returned to Florida in July 2010 for my last tour at AFTAC. He was on terminal leave and looking forward to his retirement in Colorado. I also spoke briefly with Colonel Finlayson and Chief Wright. I presented each of them with the coaster that Tony De Marco had designed for the Alumni’s 2022 WorldWide Reunion.  
-            </p>
-
-            <p>
-                After about an hour of socializing, the attendees took their seats to prepare for the rest of the evening’s events.
-                I was seated next to Lt. Colonel Jarred Burley, the current Director of the Ciambrone Radiochemistry Lab. On my other side was Dan Foster. An alumni member that had done time at TOD, HQ and a lot of Flying for AFTAC. Many stories were told. Also at the table was TSgt Jason Baron who had a big part in the planning of the Ball. He also works in the CRL.
-                <br /><br />
-                Dinner was served and more conversation was had. After dinner, there was a cake cutting ceremony that had the Oldest and Youngest Airmen in the room join Colonel Finlayson and Chief Wright to cut the cake.
-            </p>
-            <figure class="floatLeft width45">
-                <img alt="Diamond3.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond3.png" />
-                <figcaption class="maroonText italic bold">
-                    Chief (retired) Ed Lindsay with Chief Adam Dunn
-                </figcaption>
-            </figure>
-
-            <figure class="floatLeft width45">
-                <img alt="Diamond4.png" class="maroonBorder width90" src="_Photos/DiamondJubilee/Diamond4.png" />
-                <figcaption class="maroonText italic bold">
-                    Dan Foster next to Airborne Sampling display
-                </figcaption>
-            </figure>
-
-            <div class="clear"></div>
-
-            <p>
-                Then Major General Prupas took the podium. Colonel Finlayson introduced him. He relayed the history he had with MG Prupas in the beginning of his career. MG Prupas then gave a nice, brief presentation on what it meant to be associated with AFTAC. He mentioned the AFTAC Alumni throughout his presentation. He emphasized many times how he had never encountered a military unit that was so oriented as a cohesive, family organization. He spoke to the Ethos of AFTAC members and their dedication to the mission that was assigned to them 75 years prior.
-                <br /><br />
-                After MG Prupas spoke. The music started playing and dancing and frivolity ensued. That is when I departed. 
-            </p>
-        </article>
-
-        <article id="Golf2022Art" class="myArts noDisplay">
-            <p class="centerText pTitle">
-                Golf N’ Get Together Fall 2022<br />
-                As told by Ed Lindsay
-            </p>
-            <hr class="myHR" />
-            <p>
-                Your Alumni carried on a tradition that hails back to the 20th Century…the vaunted Golf N’Get Together. Through the ages, this gathering has taken on many shapes and forms. Utilizing the various golf courses that are scattered around the Space Coast, that we call home. There were events at such legendary venues as Baytree, Suntree, Cocoa Beach Country Club, Duran, and Patrick’s own Manatee Cove Golf Course. Back in the glory days of AFTAC, when HQ’s halls were full and there were Detachments strewn across the globe, we had a field with 20, 30, even 40 teams…that is 160 Alumni members and friends coming together for fellowship, story telling, some drinking, and enjoying some good food. There were times when the other AFTAC Alumni members would join up after the tourney for an Alumni meeting and more camaraderie. All great memories in the annals of the AFTAC Alumni…this gathering was to be no exception.
-            </p>
-            <figure>
-                <img alt="Golf1.png" class="maroonBorder" src="_Photos/Golf2022/Golf1.png" />
-                <figcaption class="maroonText italic bold">
-                    Getting set up – Bob Wiley, Frank Calenda, Rick Manley,<br />Dennis Kauffmann, Danny Holte, Frank Hall
-                </figcaption>
-            </figure>
-            <p>
-                Our previous get together was Fall 2021 after a dry spell due to COVID. There was going to be a small get together at the 2022 WorldWide Reunion, but it was called off due to predicted inclement weather (turned out it was a nice day). So the call went out and we gathered at the Manatee Cove Golf Course on Patrick Space Force Base (always sounds kinda strange).
-                <br /><br />
-                The outlook for this get together was very bleak. The event was scheduled for 14 October. By October 10th, we only had 10 teams signed up. The Base and AFTAC had been granted a four day weekend in honor of some Italian guy that had done some sailing on behalf of some Spanish Monarchs. Well after the worker bees of AFTAC deciding to return to the hive, the calls started coming in to inquire if there was still space and time to join the event. I guess they figured they could get another afternoon off and we usually had a good time and good food…so after much changing of the food order with the Tides, the Base Club, we ended up having 16 Teams (64 players) participate.
-            </p>
-            <figure>
-                <img alt="Golf2.png" class="maroonBorder" src="_Photos/Golf2022/Golf2.png" />
-                <figcaption class="maroonText italic bold">
-                    Judy Milam-Henderson takes Photos. Ed Lindsay welcomes all..<br />Jim Denbow, Brett Mapston, Jon Vanoord
-                </figcaption>
-            </figure>
-            <p>
-                Before I go into the short details of the tournament, I want to give a quick shout out to the real reason these events are always a success…the volunteers…our AFTAC Alumni Superstars. From the beginning, with Frank Calenda, Dave Money, Red Lindsay, Rick Manley, Dennis Kauffmann, and Danny Holte helping out to make quick work of the stuffing of the Goody Bags, Frank Hall pitched in where needed…Jan Lambert and Carol Snyder jumped in to help ensure the registration went smoothly. The photo team of Bob Wiley, Judy Milam-Henderson, Rick Manley, and Red Lindsay....made it a Super success. It was great to see our newest Vice President, Rick Manley and Secretary, Doug Colbary, join in the fun. There were a lot of conversations going on, which added to the fun. Of course, once the players hit the course, the huuuge task of counting up the money and taking care of the Door Prizes was executed flawlessly by Frank Calenda and his team. This takes a giant weight off of my mind and chest.
-                <br /><br />
-                It was a beautiful day and good golf was played by many. But the important thing is that everyone had a good time. Everyone gets a Door prize, a free drink, and dinner afterwards. Imbedded in this article is an image of the scoreboard…it indicates that there were some low rounds shot. The award winners for the days event were:
-            </p>
-            <hr class="myHR" />
-            <p>
-                1st Place – 51 – Mark Lambert, Craig Lambert, Scott Wolverton, Billy Horseman<br />
-                2nd Place -52- Rene Uzee, Jason Uzee, Kris Uzee, Greg Ramsey<br />
-                3rd Place -54- Brian Grew, Andy Schwartz,Jimmy Missale, Rick Hall<br />
-                Closest to the Pin – Rick Hall & Rene Uzee<br />
-                Women’s Long Drive – Andy McLaughlin<br />
-                Men’s Long Drive – Tony Calenda<br />
-                Most Honest team (high Score) – Kegman team- Derrick Langley, Susie Glasgow, Trevor Patrick, Mike Kelsey
-            </p>
-            <figure class="floatLeft leftMargin5em padding5">
-                <img alt="Golf4.png" class="maroonBorder" src="_Photos/Golf2022/Golf4.png" />
-                <figcaption class="maroonText italic bold">
-                    1st  – Wolverton, Horseman, & Lamberts	
-                </figcaption>
-            </figure>
-            <figure class="floatLeft leftMargin5em padding5">
-                <img alt="Golf5.png" class="maroonBorder" src="_Photos/Golf2022/Golf5.png" />
-                <figcaption class="maroonText italic bold">
-                    2nd – Greg Ramsey and the Uzees
-                </figcaption>
-            </figure>
-            <div class="clear"></div>
-
-            <figure class="floatLeft leftMargin5em padding5">
-                <img alt="Golf6.png" class="maroonBorder" src="_Photos/Golf2022/Golf6.png" />
-                <figcaption class="maroonText italic bold">
-                    Tony Calenda takes the Men’s Long Drive 	
-                </figcaption>
-            </figure>
-            <figure class="floatLeft leftMargin5em padding5">
-                <img alt="Golf8.png" class="maroonBorder" src="_Photos/Golf2022/Golf8.png" />
-                <figcaption class="maroonText italic bold">
-                    The high score team gets the “most Honest Award”
-                </figcaption>
-            </figure>
-            <div class="clear"></div>
-            <figure class="block">
-                <img alt="Golf3.png" class="maroonText maroonBorder italic bold" src="_Photos/Golf2022/Golf3.png" />
-                <figcaption class="maroonText italic bold">
-                    The Scoreboard….those are some LOW scores
-                </figcaption>
-            </figure>
-            <figure class="block">
-                <img alt="Golf7.png" class="maroonText maroonBorder italic bold" src="_Photos/Golf2022/Golf7.png" />
-                <figcaption class="maroonText italic bold">
-                    One of our Major Sponsors…Team Kegman..<br />Alumni members Mike Joseph and Lisa Shoemaker
-                </figcaption>
-            </figure>
-        </article>
-
-        <article id="TricareArt" class="myArts centerDiv noDisplay">
-            <p class="pTitle centerText underline">Tricare Enrollment Change</p>
-
-            <p>
-                The enrollment/change period for the Tricare Dental and Vision Policies is happening.  You only have from November 14th to December 13th to establish a program or change your existing program.  
-                <br /><br />
-                If you haven't participated in this program, you might well look into it to see what if offers compared to other dental/vision programs.  
-                <br /><br />
-                Also, some Tricare medical program costs have increased and finally, many civilian pharmacies have been removed from the Tricare Umbrella.
-                <br /><br />
-                The link below will take you to a site that explains all of these items. You'll have to ignore the frequent advertisements. 
-                <br /><br />
-                You can review the Dental/VIsion programs. Keep in mind that if you do decide to sign up for one or both of these policies, inquire from your doctor if they are "in-network" providers with the Insurance company you might choose. If they are "out-of-network", the reimbursements will more than likely be lower.
-                <br /><br />
-                To see more about this, <a href="https://www.militarytimes.com/pay-benefits/military-benefits/health-care/2022/11/03/tricare-and-fedvip-open-seasons-begin-nov-14-what-you-need-to-know/" target="_blank">Click Here.</a>
-            </p>
-        </article>
-
-        <article id="FriendsArt" class="myArts centerDiv noDisplay">
-            <aside class="floatLeft width25 centerDiv topMargin2em leftMargin5em">
+        <article id="FriendsArt" class="myArts noDisplay">
+            <aside class="floatLeft width25 topMargin2em leftMargin5em">
                 <p class="centerText pTitle" style="font-size:1.5em;">Member's List</p>
                 <asp:ListBox ID="lstMems" style="margin-top:-.5em;padding:5px;" Width="95%" CssClass="maroonBorder smallShadow" BackColor="Moccasin" Font-Bold="true" ForeColor="#990000" Rows="15" runat="server" Font-Size="Larger" OnSelectedIndexChanged="lstMems_SelectedIndexChanged" AutoPostBack="True"></asp:ListBox>
                 <asp:TextBox ID="txtSearchName" Font-Size="1.5em" Width="70%" CssClass="topMargin1em padding5" BackColor="Maroon" ForeColor="Yellow" runat="server" ToolTip="Enter a whole name or the first few letters"></asp:TextBox>
                 <asp:Label ID="lblmemmess" runat="server" ForeColor="Maroon" BackColor="Transparent" Visible="false" Text=""></asp:Label>
                 <asp:Label ID="lblErrSearch" ForeColor="Red" CssClass="block" Visible="false" Font-Bold="true" Font-Italic="true" runat="server" Text="Name was not found"></asp:Label>
                 <asp:Button ID="btnFriendSearch" CssClass="myBut topMargin1em padding5" runat="server" Text="Search" OnClick="btnFriendSearch_Click" />   
-                <asp:Button ID="btnFriendClear" CssClass="myBut topMargin1em padding5" runat="server" Text="Clear Search" OnClick="btnFriendClear_Click" />   
             </aside>
 
             <section class="floatLeft width50 leftMargin2em">
@@ -670,131 +807,6 @@
 
             <div class="clear bottomMargin2em"></div>
 
-        </article>
-
-        <article id="WrightArt" class="myArts noDisplay">
-            <p class="pTitle centerText">CMS Jerome Wright Biography</p>
-
-            <p>
-                <img alt="CMS_Wright.png" class="width25 floatLeft maroonBorder showShadow rightMarginHalfem" src="_Photos/CMS_Wright.png" />
-                <span class="bold maroonText fontSize2em">Bio</span><br />
-                Chief Master Sergeant (CMSgt) Jerome S. Wright serves as the senior enlisted advisor of the cadet wing at the U.S. Air Force Academy, Colorado Springs, Colo. He is the principle enlisted advisor to the commandant on training, education, standards and personnel matters for 4,400 cadets and 236 total force permanent party members. Additionally, as the career field manager for the Academy Military Trainer (8B200) Developmental Special Duty, he is responsible for the training, development, utilization, and readiness of 107 academy military trainers. He also provides mentorship to cadets, four group commanders, 40 squadron commanders, and respective superintendents and staff. The wing’s mission includes training, developing, and inspiring leaders of character for the Air and Space Force.
-                <br /><br />
-                Chief Wright was born in Guantanamo Bay, Cuba and raised in Virginia Beach, Va. He entered the Air Force in July of 2000. His background includes various duties in missile and space systems electronic maintenance, electronic systems security assessment, operations intelligence, and geospatial intelligence targeting career fields. He has deployed in support of Operation ENDURING FREEDOM, Operation IRAQI FREEDOM, Combined Joint Task Force-Horn of Africa, and Operation UNIFIED PROTECTOR. Prior to assuming his current position, Chief Wright was the superintendent and chief enlisted manager of the 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla.
-                <br /><br />
-                Education
-                Chief Leadership Course, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2020)
-                <br /><br />
-                Senior Enlisted Joint Professional Military Education II, Joint Forces Staff College, by correspondence (2019)
-                <br /><br />
-                USAF Continuous Process Improvement Green Belt Course, Goodfellow Air Force Base, San Angelo, Texas (2017)
-                <br /><br />
-                USAF Master Resilience Trainer Course, Joint Base McGuire-Dix-Lakehurst, Burlington County, N.J. (2017)
-                <br /><br />
-                USAF Senior Noncommissioned Officer Academy, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2016)
-                <br /><br />
-                AETC Basic Instructor Course, Goodfellow Air Force Base, San Angelo, Texas (2015)
-                <br /><br />
-                Bachelor of Science, Human Resource Management and Organizational Development, University of Maryland, College Park, Md. (2015)
-                <br /><br />
-                Senior Enlisted ISR Master Skills Course, Goodfellow Air Force Base, San Angelo, Texas (2013)
-                <br /><br />
-                Senior Enlisted Joint Professional Military Education, Joint Forces Staff College, by correspondence (2013)
-                <br /><br />
-                Associates in Intelligence Studies and Technology, Community College of the Air Force, Montgomery, Ala. (2013)
-                <br /><br />
-                Associates in Electronic Systems Technology, Community College of the Air Force, Montgomery, Ala. (2013)
-                <br /><br />
-                Noncommissioned Officer Academy, Kapaun Air Station, Germany (2011)
-                <br /><br />
-                Joint Battle Damage Assessment Course, Joint Targeting School, Va. (2010)
-                <br /><br />
-                Collateral Damage Estimation Course, U.S. Army Garrison Heidelberg, Germany (2009)
-                <br /><br />
-                Dynamics of International Terrorism, USAF Special Operations School (2007)
-                <br /><br />
-                Information Warfare Application Course, Maxwell AFB, Ala. (2007)
-                <br /><br />
-                Intercontinental Ballistic Missile (ICBM) Maintenance Instructor Course, Francis E. Warren AFB, Wyo. (2005)
-                <br /><br />
-                Airman Leadership School, Francis E. Warren AFB, Wyo. (2005)
-                <br /><br />
-                <span class="bold maroonText fontSize2em">Professional Experience</span><br />
-                Senior Enlisted Advisor to the Commandant and Career Field Manager for Academy Military Trainers (8B200), Cadet Wing, U.S. Air Force Academy, Colorado Springs, Colo. (Jan. 2021-Present)
-                <br /><br />
-                Command Chief, Commandant of Cadets, U.S. Air Force Academy, Colorado Springs, Colo. (Nov. 2020-Jan. 2021)
-                <br /><br />
-                Superintendent, 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla. (July 2019-Nov. 2020)
-                <br /><br />
-                Operations Superintendent, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (July 2016–July 2019)
-                <br /><br />
-                Course Chief, Advanced Targeting Courses, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2015–July 2016)
-                <br /><br />
-                Superintendent, ISR Programs and Resources, HQ USAFE-AFAFRICA Intelligence Directorate, Ramstein Air Base, Germany; Acting Intelligence Inspector, HQ USAFE-AFAFRICA Inspector General, Ramstein Air Base, Germany (April 2015– Sept. 2015); (June 2013–October 2015)
-                <br /><br />
-                Section Chief, Targeting and Imagery Support, 603rd Air & Space Operations Center, Ramstein Air Base, Germany (Feb. 2012–June 2013)
-                <br /><br />
-                NCOIC, Tactical Assessment, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Dynamic Targeting Chief, NATO Combined Air Operations Center, Poggio Renatico, Italy (Aug. 2011–Nov. 2011); (Aug. 2009–Feb. 2012)
-                <br /><br />
-                NCOIC, Dynamic Targeting, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Shift NCOIC, Targeting Cell, Combined Air & Space Operations Center, Al Udeid Air Base, Qatar (June 2009–Dec. 2009); (June 2008–August 2009)
-                <br /><br />
-                Student, Operations Intelligence Course, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2007–June 2008)
-                <br /><br />
-                Electronic System Security Assessment Analyst, 68th Information Operations Squadron, Brooks-City Base, San Antonio, Texas (Oct. 2006–Oct. 2007)
-                <br /><br />
-                Instructor, ICBM Electro-Mechanical Team, 90th Maintenance Operations Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (May 2005–Oct. 2006)
-                <br /><br />
-                Team Chief, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (Jan. 2004–May 2005)
-                <br /><br />
-                Technician, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (April 2001–Jan. 2004)
-                <br /><br />
-                Student, Missile and Space System Electronic Maintenance Course, 532nd Training Squadron, Vandenberg Air Force Base, Lompoc, Cal. (Nov. 2000–March 2001)
-                <br /><br />
-                Student, Electronic Principles Course, 344th Training Squadron, Lackland Air Force Base, San Antonio, Texas (Aug. 2000–Nov. 2000)
-                <br /><br />
-                Trainee, Basic Military Training, 324th Training Squadron, Lackland Air Force Base, San Antonio, Texas (July 2000–Aug. 2000)
-                <br /><br />
-                <span class="bold maroonText fontSize2em">Honors & Awards</span><br />
-                Meritorious Service Medal with two oak leaf clusters
-                <br /><br />
-                Joint Service Commendation Medal
-                <br /><br />
-                Air Force Commendation Medal with one oak leaf cluster
-                <br /><br />
-                Air Force Achievement Medal with one oak leaf cluster
-                <br /><br />
-                Army Achievement Medal
-                <br /><br />
-                Air & Space Campaign Medal
-                <br /><br />
-                Nuclear Deterrence Operations Service Medal with ‘N’ device
-                <br /><br />
-                Air Force Expeditionary Service Ribbon with Gold Border
-                <br /><br />
-                Air Force Special Duty Ribbon
-                <br /><br />
-                NATO Medal
-                <br /><br />
-                <span class="bold maroonText fontSize2em">OTHER ACHIEVEMENTS</span><br />
-                Air Force Association Active Duty SNCO of the Year, State of Texas winner (2018)
-                <br /><br />
-                AETC Training Support SNCO of the Year, 17th Training Wing (2017)
-                <br /><br />
-                National Image Inc., Meritorious Service Award, 17th Training Wing (2017)
-                <br /><br />
-                Blacks in Government Meritorious Service Award, 17th Training Wing (2017)
-                <br /><br />
-                National Geospatial-Intelligence Agency Senior Enlisted of the Year Award, AETC (2016)
-                <br /><br />
-                SNCO of the Year, HQ USAFE-AFAFRICA (2014)
-                <br /><br />
-                AF ISR Awards Program SNCO of the Year, HQ USAFE-AFAFRICA Intelligence Directorate (2013)
-                <br /><br />
-                Distinguished Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
-                <br /><br />
-                AETC Commander’s Top Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
-                <br /><br />
-                Academic Achievement Award, Airman Leadership School, F.E. Warren Air Force Base, Wyo. (2005)            </p>
         </article>
 
         <article id="MembershipArt" class="myArts noDisplay">
@@ -983,16 +995,14 @@
                     <div class="thinMaroonBorder width80 centerDiv autoMarginLeftRight">
                         <p id="otherStuffPara" class="centerText pTitle">Other Stuff</p>
                         <div class="autoMarginLeftRight topMarginMinus1em width90">
-                            <asp:CheckBox ID="deceasedChk" CssClass="floatLeft myChk" Font-Size="1.5em" Font-Bold="true" Text="Deceased" Style="color:maroon;" runat="server" />
-                            <asp:CheckBox ID="RecieveEallsChk" CssClass="floatLeft myChk leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Ealls" Style="color:maroon;" runat="server" />
-                            <div class="clear"></div>
+                            <asp:CheckBox ID="deceasedChk" CssClass="centerDiv" Font-Size="1.5em" Font-Bold="true" Text="Deceased" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="RecieveEallsChk" CssClass="leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Ealls" Style="color:maroon;" runat="server" />
                         </div>
 
-                        <div class="autoMarginLeftRight width90">
-                            <asp:CheckBox ID="deletedChk" CssClass="floatLeft myChk" Font-Size="1.5em" Font-Bold="true" Text="Deleted" Style="color:maroon;" runat="server" />
-                            <asp:CheckBox ID="mailPomoChk" CssClass="floatLeft myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Mail Pomo" Style="color:maroon;" runat="server" />
-                            <asp:CheckBox ID="badEmailChk" CssClass="floatLeft myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Bad Email" Style="color:maroon;" runat="server" />
-                            <div class="clear"></div>
+                        <div class="autoMarginLeftRight centerDiv width90">
+                            <asp:CheckBox ID="deletedChk" CssClass="myChk" Font-Size="1.5em" Font-Bold="true" Text="Deleted" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="mailPomoChk" CssClass="myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Mail Pomo" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="badEmailChk" CssClass="myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Bad Email" Style="color:maroon;" runat="server" />
                         </div>
                     </div>
 
@@ -1005,18 +1015,18 @@
                 </asp:Panel>
 
                 <div id="MemButs" class="autoMarginLeftRight menuItem menu1 width80 topMargin1em">
-                    <asp:Panel ID="pnlReason" CssClass="centerDiv" Visible="true" runat="server">
+                    <div class="centerDiv">
                         <asp:Label CssClass="autoMarginLeftRight block" ForeColor="Maroon" Font-Bold="true" 
                             Font-Size="1.5em" runat="server" Text="Reason for Change:"></asp:Label>
                         <asp:TextBox ID="txtReason" CssClass="autoMarginLeftRight block padding5" Width="60%" Font-Size="1em" ForeColor="Maroon" 
                             Font-Bold="true" BackColor="#ff9900" runat="server"></asp:TextBox>
-                    </asp:Panel>
+                    </div>
 
                     <asp:Panel ID="pnlButs" CssClass="autoMarginLeftRight topMargin2em menuItem menu1 centerDiv" runat="server">
                         <div>
                             <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
                             <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
-<%--                            <asp:TextBox ID="txtSql" Width="90%" runat="server" TextMode="MultiLine"></asp:TextBox>--%>
+                            <asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox>
                         </div>
                         <asp:Button ID="btnReturnAdminMenu" CssClass="myBut topMarginHalfem" runat="server" Text="Return to Admin Menu" onclick="btnReturnAdminMenu_Click" />
                     </asp:Panel>
@@ -3110,7 +3120,7 @@
             </p>
         </article>
 
-<%--        <article id="toilet2017Art" class="myArts noDisplay">
+        <article id="toilet2017Art" class="myArts noDisplay">
             <p class="pTitle centerText">AFTAC Toilet Bowl 2017<br />by George Mirda</p>
             <p>
                 <img class="floatLeft width25 rightMarginHalfem maroonBorder showShadow" alt="tb1.jpg" src="_Photos/ToiletBowl/TB1.JPG" />
@@ -3198,7 +3208,7 @@
                 Plus the USAF’s finest organization and best
                 people made it a day to remember for years to come.
             </p>
-        </article>--%>
+        </article>
 
         <article id="iFrameArt" class="myArts width100 noDisplay">
             <iframe id="myFrame" class="width100"> style="height=" & winHeight & "px"</iframe>
@@ -3211,11 +3221,6 @@
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
-                       <li><a href="_Minutes/11-14-2022_Minutes.pdf" target="_blank">11-14-2022</a></li>
-                       <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
-                        <li><a href="_Minutes/9-16-2022_Minutes.pdf" target="_blank">9-16-2022</a></li>
-                        <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>
-                        <li><a href="_Minutes/7-22-2022_Minutes.pdf" target="_blank">7-22-2022</a></li>
                         <li><a href="_Minutes/6-24-2022_Minutes.pdf" target="_blank">6-24-2022</a></li>
                         <li><a href="_Minutes/5-12-2022_Minutes.pdf" target="_blank">5-12-2022</a></li>
                         <li><a href="_Minutes/4-15-2022_Minutes.pdf" target="_blank">4-15-2022</a></li>
@@ -3904,7 +3909,7 @@
             </div>
         </article>--%>
 
-<%--        <article id="2018AirShowArt" class="myArts noDisplay">
+        <article id="2018AirShowArt" class="myArts noDisplay">
             <div id="2018AirShowVideo" class="myvids nodisplay">
                 <video id="2018vidAirShow" preload="auto" controls="controls" poster="_images/airshow.png" class="width60 autoMarginLeftRight maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/2018_Melbourne_Air_Show.mp4" type="video/mp4" />
@@ -3913,7 +3918,7 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>--%>
+        </article>
 
 <%--        <article id="dedicationArt" class="myArts noDisplay">
             <div id="dedicationVideo" class="myvids nodisplay">
@@ -5448,7 +5453,7 @@
                     1997 ALUMNA OF THE YEAR <br />Judy Milam                    
                 </p>
                 <p>
-<%--                    <img alt="Milam_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Milam_AOY.png" />--%>
+                    <img alt="Milam_AOY.png" class="maroonBorder showShadow floatLeft rightMargin1em" src="_Photos/AOY/Milam_AOY.png" />
                     Congratulations, Judy Milam, our 1997 Alumni of the Year.
                     <br />
                     For all she does, and has done. Judy is most deserving of this honor.
@@ -5636,7 +5641,7 @@
             </p>
         </article>
             
-<%--        <article id="toiletArt" class="myArts noDisplay maroonBorder smallShadow">
+        <article id="toiletArt" class="myArts noDisplay maroonBorder smallShadow">
             <asp:Label ID="Label5" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2em" runat="server" Text="TOILET BOWL"></asp:Label>
             <asp:Label ID="Label6" CssClass="block" ForeColor="DarkRed" Font-Italic="true" Font-Bold="true" Font-Size="1.4em" runat="server" Text="Reported By Ed Lindsay"></asp:Label>
             <p>Fall of 2016 was a season for many needs for change in AFTAC.  So, more of the same.  One of these was the need to change the date of the Annual gathering that pits Directorates/Squadrons against each other on the softball field.  A windy, blowhard named Matthew visited much of the East coast of the U.S.  The initial Toilet Bowl date of  7 October had to be scrubbed three days prior to the event since it appeared that Matthew was looking to do some major damage to the Space Coast.</p>
@@ -5680,7 +5685,7 @@
                 </figcaption>
             </figure>
        </article>
---%>
+
         <article id="specialLinksArt" class="myArts noDisplay">
             <asp:Label ID="Label22" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="SPECIAL LINKS"></asp:Label>
             <p class="width50 topMargin1em autoMarginLeftRight smallShadow maroonBorder">
@@ -5772,128 +5777,6 @@
 
             <div class="clear"></div>
 
-           <section id="secSign" class="block">
-                <div class="block">
-                    <div class="aLeft">
-                        <h2 id="ntkSignH2" class="currentNews news2KnowH1">The Art of Sign in a Secure Environment - 11/14/2022</h2>
-                    </div>
-                </div>
-               <div class="clear"></div>
-                <article id="ntkSignPara" class="n2KPara noDisplay">
-                    <p>
-                        PATRICK SPACE FORCE BASE, Fla. -- PATRICK SPACE FORCE BASE, Fla. --  
-                        There is an old saying that goes, “Actions speak louder than words.” For one employee at the Air Force Technical Applications Center, certain actions are executed at just the right volume.
-                        <br /><br />
-                        Le Chen, a statistician with the 21st Surveillance Squadron here, was hired in August to work at the Department of Defense’s sole nuclear treaty monitoring center. His role is to use mathematical formulas and techniques to analyze and interpret copious amounts of technical data the center receives on a daily basis.
-                        <br /><br /> 
-                        Chen is also deaf and communicates almost exclusively using sign language.
-                        <br /><br />
-                        So how does an employee in a secure facility whose mission is considered “no fail” with international-level implications, operate in an environment where few people are fluent signers?
-                        <br /><br /> 
-                        “There are many ways for my co-workers to communicate with me,” Chen said. “Email and online chat functions are great ways for me to send and receive messages from my peers and supervisors, and I always have a white board or notepad next to me so we can write notes to each other.”
-                        <br /><br />
-                        Chen also relies on body language, eye contact, facial expressions, posture, hand gestures, and even silence to understand the message being relayed.
-                        <br /><br />
-                        “I am not a lip reader, but I have learned to interpret conversations in a variety of ways, and I always appreciate it when a colleague tries to learn a few words or phrases using sign language, even if they just use their fingers to count numbers!”
-                        <br /><br />
-                        Chen grew up in the shadow of the nation’s capital and earned his bachelor’s degree in Mathematics from Gallaudet University in Washington, D.C., the only university in the world designed for deaf or hard of hearing students. From there, he went on to earn his master’s degree in Statistics from Georgia State University. According to the Maryland native, both had their own set of challenges.
-                        <br /><br />
-                        “Signing has always been my primary form of communication,” he said. “English is my first language, so since I was in Kindergarten, I used what’s called SEE and PSE. SEE stands for ‘Signed Exact English’ and PSE stands for ‘Pidgin Signed English.’”
-                        <br /><br />
-                        For clarity, SEE is an exact word-for-word translation of spoken English, using proper grammar as it would be written on paper. PSE, on the other hand, is a combination of SEE and American Sign Language (ASL). Many in the hearing-impaired community (as well as translators who are not deaf) use this fusion of both SEE and ASL.
-                        <br /><br />
-                        ASL is the predominant language in deaf communities in the United States and portions of English-speaking Canadian provinces. It is a visual language that is expressed through hand- and facial-gestures. Much like any language, regions adopt certain dialects, fingerspelling, and patterns the same way areas of the U.S. have spoken accents. Signers from the South tend to have a slower, more easy-going flow, whereas Northeasterners have more quick, snappier gestures.
-                        <br /><br />
-                        Chen prides himself on being skilled in all forms of sign communication.
-                        <br /><br />
-                        Prior to joining AFTAC, the trained statistician was a bioinformatics specialist for the National Institutes of Health in Bethesda, Md., focusing on deafness and other communication disorders. He was excited when he found the opening for a data scientist at the treaty monitoring center.
-                        <br /><br />
-                        “I was really happy to find a position where I could use my education and apply my past experience,” Chen said. “It’s not often you find statistician jobs at a pay grade I was looking for. But I wasn’t expecting that I’d be working for a military branch that would require a security clearance!”
-                        <br /><br />
-                        His selection presented an interesting situation to AFTAC’s Human Resource office.
-                        <br /><br />
-                        “In order to leverage Mr. Chen’s unique attributes, AFTAC HR has re-thought the way we do business as a government organization,” said Audrey Capps, AFTAC’s Chief of Human Resources. “To meet the needs of a more diverse workforce, we have worked to ensure all hiring processes are accessible to tap into every applicant’s potential. We were excited to offer Mr. Chen the opportunity to interview with us and showcase his skills without barriers of traditional communication. The interview process allowed the hiring manager to have written communication in a live format, which was a win-win for all involved.”
-                        <br /><br />
-                        When asked what one of his biggest challenges has been as a person with a hearing impairment, Chen described the division that still exists within the deaf community.
-                        <br /><br />
-                        “There are categories that tend to divide us into groups – the small ‘d’ people, the big ‘D’ people, signers, lip readers, oral speakers, cochlear implant people, etc. Unfortunately, this division tends to further isolate the deaf community, but I do think we’re slowing coming along with the help of technology, social media, online apps, and education.”
-                        <br /><br />
-                        [Editor’s note:  small ‘d’ refers to people who typically lost their hearing later in life and do not necessarily associate themselves with the deaf community, whereas big ‘D’ refers to those who were born deaf and fully identify themselves as a member of the deaf community.]
-                        <br /><br />
-                        “In other words,” Chen explained, “the big ‘D’ world has its own cultural identity, unlike the small ‘d’ people, who might not have their own deaf identity.”
-                        <br /><br />
-                        As an AFTAC employee, Chen does not expect to have a full-time interpreter at his side, but knows he can request one for certain situations, training sessions, or other events that could impact his work responsibilities.
-                        <br /><br />
-                        “Over the years I have learned that it’s more important to build good relationships with supervisors and colleagues, not with interpreters,” he explained. “Sure, it’s great and convenient to have an interpreter at your side to translate what’s being discussed, but that should be the exception, not the norm. Building a network with those you work with is far more impactful, even if it means having that dialog in non-traditional ways.”
-                        <br /><br />
-                        Chen has had several people of influence in his life, but he credits one person in particular who has had the greatest impact on him.
-                        <br /><br />
-                        “My dad isn’t just a father to me; he’s my mentor,” Chen said. “He always placed great importance on education, especially in science fields like chemistry, physics, and math. He is a gifted neurologist and currently works as a staff scientist at the National Institutes of Health. He taught me that self-learning is a critical skill to have, and it’s one of the best ways to develop a baseline that a formal education might not provide.”
-                        <br /><br />
-                        When he’s not crunching numbers or conducting statistical analysis, Chen likes to spend his off time in the great outdoors.
-                        <br /><br />
-                        “Hiking is probably one of my most favorite hobbies,” he said. “It helps me explore new landmarks and exposes me to some of the most beautiful places on earth. Before I moved to Florida, my parents and I traveled to Peru to visit their national parks – Machu Picchu, Rainbow Mountain, and Humantay Lake. We also visited Patagonia’s Torres del Paine to experience the majestic mountain peaks, and Argentina’s Perito Moreno National Park to see the glacier there. All of them were spectacular! It was a lifetime goal of mine to see those places, and I learned that I can quickly adapt to very high altitudes without getting altitude sickness or needing an oxygen cylinder. Cusco is more than 11,000 feet above sea level, and I had no problems at all!”
-                        <br /><br />
-                        His supervision has been impressed with his work ethic and ability to adapt to his work environment.
-                        <br /><br />
-                        “I am very happy to have him on the team,” said Dr. Malek Chatila, Chief of the Debris Analysis Flight, and one of AFTAC’s Diversity, Equity, Inclusion & Accessibility team leads. “We worked closely with Human Resources, the AFTAC Security Office, and Darrell Archard, the 709th Surveillance and Analysis Group security manager, to make Mr. Chen’s transition and in-processing as smooth as possible, especially since the organization did not have the experience in recruiting a hearing-impaired individual.”
-                        <br /><br />
-                        Chatila continued, “We are making headway in obtaining the necessary accommodation technologies for him, but the pace has been slower than we would have hoped. While I believe in the DEI&A principles, I will emphasize that Mr. Chen was solely selected for this position based on his merit.”
-                        <br /><br />
-                        Chatila also emphasized the productive and supportive role the former 21st SURS commander, Lt. Col. Shaun Easley, played at the time of Mr. Chen’s selection, and the continued support of the current squadron commander, Lt. Col. Stephen Jimenez.
-                        <br /><br />
-                        “AFTAC prides itself on having a highly technical workforce operating in a diverse and inclusive work environment,” said Jimenez. “Due to his extensive qualifications and the efforts of Dr. Chatila and many others, Le has not only been a welcome addition to the AFTAC family, but also a necessary one in order to cultivate and maintain the technical skills to execute the mission. I hope his presence and contributions help to encourage and educate others both now and in the future.” 
-                        <br /><br />
-                        October is National Disability Employment Awareness Month and through a Congressional declaration in 1988, it is a vehicle to raise awareness of the employment needs and contributions of individuals with all types of disabilities.
-                    </p>
-                </article>
-            </section>
-
-           <section id="secCTBTO" class="block">
-                <div class="block">
-                    <div class="aLeft">
-                        <h2 id="ntkCTBTOH2" class="currentNews news2KnowH1">CTBTO Executive Secretary visits AFTAC - 11/12/2022</h2>
-                    </div>
-                </div>
-               <div class="clear"></div>
-                <article id="ntkCTBTOPara" class="n2KPara noDisplay">
-                    <p>
-                        <img alt="CTBTO1.png" class="floatLeft rightMargin1em width50 maroonBorder showShadow" src="_Photos/News2Know/CTBTO1.png" />
-                        PATRICK SPACE FORCE BASE, Fla. -- The executive secretary of the Comprehensive Nuclear-Test-Ban Treaty Organization visited the Air Force Technical Applications Center Oct. 25 to learn more about the intricate and important partnership the two agencies share.
-                        Dr. Robert Floyd took over as CTBTO’s top leader in August 2021 and in that role, he is responsible for promoting universal recognition of the CTBT, while simultaneously building up the verification regime to ensure no nuclear explosion can go undetected.
-                        <br /><br />
-                        Accompanying the secretary were Sabine Bauer, Floyd’s Special Assistant, and Megan Slinkard, Chief of Software Applications at the International Data Centre.
-                        <br /><br />
-                        The distinguished visitors were provided an in-depth overview of the center’s treaty monitoring mission, as well as a briefing on current global operations.
-                        <br /><br />
-                        Since 1996, AFTAC and CTBTO’s Preparatory Commission have shared a long-term working relationship with the same vital goal in mind:  global nuclear nonproliferation.  The center has a long history as the United States’ premier organization devoted to nuclear treaty monitoring using national technical means, while the commission is tasked with developing a global network to detect nuclear explosions in any environment worldwide.
-                        <br /><br />
-                        In addition to receiving updates on current events and background on AFTAC’s overseas detachments, Floyd and his team toured the Maintenance Operations Control Center to understand how AFTAC monitors and restores mission status and functionality of its 3,600+ sensors worldwide, and how it interfaces and partners with the IDC to resolve data outages.
-                        <br /><br />
-                        The secretary also visited the 709th Support Squadron’s Component Repair Facility to speak with maintenance technicians about their precision seismic equipment that contributes to the International Monitoring System.
-                        <br /><br />
-                        “This has been an absolutely fascinating opportunity,” Floyd said.  “It’s wonderful to meet the experts who perform such a critical role in nuclear nonproliferation.  I am so impressed with the team here and they should know how valuable their contributions are to global security.”
-                        <br /><br />
-                        <img alt="CTBTO1.png" class="floatRight leftMargin1em width50 maroonBorder showShadow" src="_Photos/News2Know/CTBTO2.png" />
-                        While the U.S. has yet to officially enter the Comprehensive Test Ban Treaty into force, Floyd stressed the significance of the support countries like the U.S. give to the program.              
-                        <br /><br />
-                        “I hold nothing but hope that someday all nations will recognize the influence they’ve had in reducing the number of nuclear tests that have been performed,” he said.  “Think about it – before the CTBT was signed in 1996, there were more than 2,000 nuclear tests conducted around the world.  But after the treaty was drafted, less than a dozen were carried out, and only one – one! – has taken place this century.  I consider that an outstanding success.”
-                        <br /><br />
-                        The last stop on his tour was to the Ciambrone Radiochemistry Lab, the only radiochemistry lab of its kind operated by the United States Air Force.  Here the secretary was shown how lab personnel identify, analyze, and assess radiological or nuclear debris at the 38,000 square-foot facility in support of the center’s Nuclear Debris Collection and Analysis program.
-                        <br /><br />
-                        “Our journey here was nothing short of amazing,” Floyd said.  “We as a global society are facing some grave concerns – the threat and potential for nuclear conflict exists, and those are significant challenges.  But the world is looking to us for leadership and direction on these sensitive issues, which is why it’s so important to strengthen the bonds like the ones we have with AFTAC to make the world a safer place for the good of humanity.”
-                        <br /><br />
-                        Davis Sebree, a technician at the U.S. Air Force Radiochemistry Laboratory at Patrick Space Force Base, Fla., uses an Alpha/Beta Survey Meter to check for potential contamination on the hands of Dr. Robert Floyd, Comprehensive Nuclear-Test-Ban Treaty Organization Executive Secretary. Floyd was appointed as CTBTO’s top leader in August 2021, and this was his first trip to the nuclear treaty monitoring center. 
-                        <img alt="CTBTO3.png" class="floatLeft rightMargin1em width50 maroonBorder showShadow" src="_Photos/News2Know/CTBTO3.png" />
-                        To date, 186 nations have signed and 176 have ratified the treaty to ban nuclear explosions everywhere: on the earth’s surface, in the atmosphere, underwater, and underground, whether for peaceful or military purposes.
-                        <br /><br />
-                        Today, AFTAC continues to improve the U.S. Atomic Energy Detection System, the global network of sensors that detect potential nuclear detonations underground, underwater, in the atmosphere and in space.  As the nation’s caretaker of U.S. Atomic Energy Detection System, AFTAC contributes six of its U.S.-based USAEDS seismic monitoring stations to the IMS to strive for a safer and more secure world.
-                        <br /><br />
-                        “I am so deeply appreciative of the generous support and partnership with AFTAC,” Floyd said.  “The CTBTO and the IDC would not be where it is today without the contributions of AFTAC.”
-                    </p>
-                </article>
-            </section>
-
            <section id="secFinlayson" class="block">
                 <div class="block">
                     <div class="aLeft">
@@ -5957,9 +5840,11 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkEffectiveH2" class="archivedNews noDisplay news2KnowH1">AFTAC earns highly effective rating from Inspector General - 2/3/2021</h2>
+                        <h2 id="ntkEffectiveH2" class="currentNews news2KnowH1">AFTAC earns highly effective rating from Inspector General - 2/3/2021</h2>
                     </div>
                 </div>
+
+                <div class="clear"></div>
 
                 <article id="ntkEffectivePara" class="n2KPara noDisplay">
                     <figure>
@@ -6035,7 +5920,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkOutBackH2" class="archivedNews noDisplay news2KnowH1">H.S. student immerses with AFTAC in the Outback - 2/3/2021</h2>
+                        <h2 id="ntkOutBackH2" class="currentNews news2KnowH1">H.S. student immerses with AFTAC in the Outback - 2/3/2021</h2>
                     </div>
                 </div>
 
@@ -6120,7 +6005,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkSelfTempH2" class="archivedNews noDisplay news2KnowH1">Innovative self-serve temperature check helps workforce during COVID - 2/3/2021</h2>
+                        <h2 id="ntkSelfTempH2" class="currentNews news2KnowH1">Innovative self-serve temperature check helps workforce during COVID - 2/3/2021</h2>
                     </div>
                 </div>
 
@@ -6160,7 +6045,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkSpaceForceH2" class="archivedNews noDisplay news2KnowH1">2 famed bases re-designated to highlight Space Force connection - 12/10/2020</h2>
+                        <h2 id="ntkSpaceForceH2" class="currentNews news2KnowH1">2 famed bases re-designated to highlight Space Force connection - 12/10/2020</h2>
                     </div>
                 </div>
 
@@ -6229,7 +6114,7 @@
             <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkMindnBodyH2" class="archivedNews noDisplay news2KnowH1">The science of mind and body: A successful combination for one Airman - 9/20/2020</h2>
+                        <h2 id="ntkMindnBodyH2" class="currentNews news2KnowH1">The science of mind and body: A successful combination for one Airman - 9/20/2020</h2>
                     </div>
                 </div>
 
@@ -6297,7 +6182,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkCOMACCH2" class="archivedNews noDisplay news2KnowH1">COMACC joins AFTAC Airmen in online training session - 9/20/2020</h2>
+                        <h2 id="ntkCOMACCH2" class="currentNews news2KnowH1">COMACC joins AFTAC Airmen in online training session - 9/20/2020</h2>
                     </div>
                 </div>
 
@@ -6343,7 +6228,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkTeleworkH2" class="archivedNews noDisplay news2KnowH1">Air Force Vice Chief: Nearly One-Third of Employees May Permanently Telework - 9/17/2020</h2>
+                        <h2 id="ntkTeleworkH2" class="currentNews news2KnowH1">Air Force Vice Chief: Nearly One-Third of Employees May Permanently Telework - 9/17/2020</h2>
                     </div>
                 </div>
 
@@ -6407,7 +6292,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkIDH2" class="archivedNews noDisplay news2KnowH1">For 1st Time in 3 Decades, Military Families and Retirees Are Getting Revamped IDs - 9/1/2020</h2>
+                        <h2 id="ntkIDH2" class="currentNews news2KnowH1">For 1st Time in 3 Decades, Military Families and Retirees Are Getting Revamped IDs - 9/1/2020</h2>
                     </div>
                 </div>
 
@@ -6457,7 +6342,7 @@
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
-                        <h2 id="ntkMSASBH2" class="archivedNews noDisplay news2KnowH1">AFTAC Master Scientific Applications Specialist Badge - 9/17/2020</h2>
+                        <h2 id="ntkMSASBH2" class="archivedNews news2KnowH1">AFTAC Master Scientific Applications Specialist Badge - 9/17/2020</h2>
                     </div>
                 </div>
 
@@ -6477,7 +6362,7 @@
 
            <section class=" block">
                 <div class="aLeft">
-                    <h2 id="ntkCOCH2" class="archivedNews noDisplay news2KnowH1">AFTAC uses technology to execute Change of Command - 7/2/2020</h2>
+                    <h2 id="ntkCOCH2" class="archivedNews news2KnowH1">AFTAC uses technology to execute Change of Command - 7/2/2020</h2>
                 </div>
 
                 <div class="clear"></div>
@@ -6589,7 +6474,7 @@
             </section>
 
            <%--The following is Archived News--%>
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkAIH2" class="news2KnowH1">Arguing Artificial Intelligence during pandemic becomes a reality - 5/17/2020</h2>
                 </div>
@@ -6670,7 +6555,7 @@
                 </p>
             </article>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkSuicideH2" class="news2KnowH1">Suicide survivor helps Airmen, families battle adversity during pandemic - 5/16/2020</h2>
                 </div>
@@ -6734,7 +6619,7 @@
 
             <div class="clear"></div>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcurbsideH2" class="news2KnowH1">Curbside Pick-Up at PAFB BX - 4/15/2020</h2>
                 </div>
@@ -6774,7 +6659,7 @@
 
             <div class="clear"></div>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkpandemicH2" class="news2KnowH1">Pandemic can’t stop AFTAC’s innovative Airmen - 4/14/2020</h2>
                 </div>
@@ -6834,7 +6719,7 @@
 
             <div class="clear"></div>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcoVidH2" class="news2KnowH1">Vital treaty monitoring mission continues in wake of COVID-19 response - 4/8/2020</h2>
                 </div>
@@ -6898,7 +6783,7 @@
 
             <div class="clear"></div>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkinducteesH2" class="news2KnowH1">AFTAC inducts 3 into famed Wall of Honor - 3/18/2020</h2>
                 </div>
@@ -6961,7 +6846,7 @@
                 </p>
             </article>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcoronaH2" class="news2KnowH1">DOD Issues Flexible Instructions on Response to Coronavirus - 3/13/2020</h2>
                 </div>
@@ -7003,7 +6888,7 @@
                 </div>
             </article>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkclinicsH2" class="news2KnowH1">DoD to restructure 50 hospitals, clinics to improve readiness - 2/21/2020</h2>
                 </div>
@@ -7044,7 +6929,7 @@
                 </div>
             </article>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcloseH2" class="news2KnowH1">DOD Closing Dozens of Military Clinics to Retirees, Families - 2/20/2020</h2>
                 </div>
@@ -7095,7 +6980,7 @@
                 </div>
             </article>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkWise2H2" class="news2KnowH1">AFTAC hosts 5th annual WiSE Symposium - 2/13/2020</h2>
                 </div>
@@ -7164,7 +7049,7 @@
                 </div>
             </article>
 
-           <section class="archivedNews noDisplay block">
+           <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="vcsafH2" class="news2KnowH1">VCSAF meets with nuclear scientists, engineers about future operations - 12/10/2019</h2>
                 </div>
@@ -7261,7 +7146,7 @@
                 </article>
             </section>
 
-           <section class="archivedNews noDisplay block">
+           <section class="archivedNews block">
                 <article>
                     <div class="aLeft">
                         <h2 id="roadMapH2" class="news2KnowH1">AFTAC leads charge on R&amp;D Roadmap for USAF - 11/2/2019</h2>
@@ -7335,7 +7220,7 @@
             </section>
             
 
-           <section class="archivedNews noDisplay block">
+           <section class="archivedNews block">
                     <h2 id="ntkfellowsH2" class="news2KnowH1 left">College Fellows develop nuke detection system to test at RED FLAG ‘19 - 10/30/2019</h2>
 
                     <div class="clear"></div>
@@ -7415,7 +7300,7 @@
                     <div class="clear"></div>
             </section>
 
-           <section class="archivedNews noDisplay block">
+           <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcouncilH2" class="news2KnowH1">Military Affairs Council tours only radiochemistry lab in USAF - 10/30/2019</h2>
                 </div>
@@ -7481,7 +7366,7 @@
                 </article>
             </section>
 
-           <section class="archivedNews noDisplay block">
+           <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcrfH2" class="news2KnowH1">CRF develops innovative solution to seismic array vulnerability - 10/4/2019</h2>
                 </div>
@@ -7530,7 +7415,7 @@
             </article>
         </section>
 
-           <section class="archivedNews noDisplay block">
+           <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkvaledictorianH2" class="news2KnowH1">Local ’16 valedictorian recruited by AFTAC as nuclear data analyst - 9/25/2019</h2>
                 </div>
@@ -7589,7 +7474,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkSTEMversityH2" class="news2KnowH1">Experts from AFTAC travel to Georgia for STEMversity - 9/16/2019</h2>
                 </div>
@@ -7647,7 +7532,7 @@
 
             </section>
 
-            <section class="archivedNews noDisplay block">
+            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkDorianH2" class="news2KnowH1">Despite Dorian, vital nuke mission continues uninterrupted - 9/14/2019</h2>
                 </div>
@@ -7710,7 +7595,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkPresidentialH2" class="news2KnowH1">Two distinguished executives receive Presidential Rank Awards - 7/12/2019</h2>
                 </div>
@@ -7768,7 +7653,7 @@
 
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkUzbekistanH2" class="news2KnowH1">From Uzbekistan to America: One Airman's Tale - 6/27/2019</h2>
                 </div>
@@ -7847,7 +7732,7 @@
 
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSjodenH2" class="news2KnowH1">Dr Glenn Sjoden, AFTAC Chief Scientist, Is Leaving</h2>
                 </div>
@@ -7929,7 +7814,7 @@
 
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkLtH2" class="news2KnowH1">A1C with PhD now a 2Lt - 6/6/2019</h2>
                 </div>
@@ -8085,7 +7970,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCannonH2" class="news2KnowH1">Cannon Shot Nuclear Test - 5/27/2019</h2>
                 </div>
@@ -8109,12 +7994,12 @@
 
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSecLabH2" class="news2KnowH1">Secret lab at Patrick Air Force Base - 4/23/2019</h2>
                 </div>
 
-                <article class="archivedNews noDisplay noDisplay">
+                <article class="archivedNews noDisplay">
                     <div class="clear"></div>
 
                     <article id="ntkSecLabPara" class="n2KPara noDisplay">
@@ -8205,7 +8090,7 @@
            
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkTNTH2" class="news2KnowH1">Using dynamite and TNT to enhance nuclear mission - 4/17/2019</h2>
                 </div>
@@ -8277,7 +8162,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkMentorsH2" class="news2KnowH1">Divisional wins lead to state competition for AFTAC mentors - 4/17/2019</h2>
                 </div>
@@ -8327,7 +8212,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkNuclearH2" class="news2KnowH1">Nuclear air sampling aircraft on display at Patrick AFB - 3/14/2019</h2>
                 </div>
@@ -8406,7 +8291,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="n2kB2BH2" class="news2KnowH1">Rare boat-to-boat transfer executed on the high seas - 3/13/2019</h2>
                 </div>
@@ -8473,7 +8358,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="n2kCommissaryH2" class="news2KnowH1">Defense Department pushing ahead to merge commissary and exchange systems - 3/13/2019</h2>
                 </div>
@@ -8523,7 +8408,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStaffersH2" class="news2KnowH1">Congressional staffers learn about AFTAC’s heritage, mission - 3/13/2019</h2>
                 </div>
@@ -8555,7 +8440,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStem1H2" class="news2KnowH1">STEM outreach key to uniting Airmen with students - 2/20/2019</h2>
                 </div>
@@ -8652,7 +8537,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHockeyH2" class="news2KnowH1">Another tournament, another trophy for AFTAC Hockey - 1/16/2019</h2>
                 </div>
@@ -8706,7 +8591,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkA1CH2" class="news2KnowH1">A1C with Ph.D. lands job at nuclear treaty monitoring center - 12/16/2018</h2>
                 </div>
@@ -8784,7 +8669,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCardboardH2" class="news2KnowH1">Our Cardboard Christmas Tree - 11/28/2018</h2>
                 </div>
@@ -8825,7 +8710,7 @@
                     </article>
                 </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHoopH2" class="news2KnowH1">Hoop coaches, life mentors: AFTAC Airmen engage with community youth - 11/16/2018</h2>
                 </div>
@@ -8923,7 +8808,7 @@
                     </article>
                 </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSelfieH2" class="news2KnowH1">Leadership in a Selfie Culture - 11/6/2018</h2>
                 </div>
@@ -8956,7 +8841,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkWE18H2" class="news2KnowH1">AFTAC molecular biologist represents Air Force at SWE18 conference - 11/6/2018</h2>
                 </div>
@@ -8988,7 +8873,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkChiefH2" class="news2KnowH1">Air Force Chief Scientist pays visit to treaty monitoring center - 10/22/2018</h2>
                 </div>
@@ -9047,7 +8932,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkMacgyverH2" class="news2KnowH1">Downrange ‘MacGyvers’ creatively get the job done - 10/3/2018</h2>
                 </div>
@@ -9147,7 +9032,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkTestlaH2" class="news2KnowH1">Musical Tesla Coil, 3-D printer draws crowd at Science Bowl - 10/2/2018</h2>
                 </div>
@@ -9223,7 +9108,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkProtoTypeH2" class="news2KnowH1">Creative prototype leads to fielded implementation - 9/20/2018</h2>
                 </div>
@@ -9291,7 +9176,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkChemistH2" class="news2KnowH1">Chemist at AFTAC earns award from national Hispanic organization - 9/19/2018</h2>
                 </div>
@@ -9355,7 +9240,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkFailureH2" class="news2KnowH1">eFAILution Wall:  Failure + Learning = Successful Evolution - 9/18/2018</h2>
                 </div>
@@ -9447,7 +9332,7 @@
         </section>
 
             <section>
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkHockeyWinH2" class="news2KnowH1">AFTAC Hockey takes trophy at charity match - 9/18/2018</h2>
                     </div>
@@ -9502,7 +9387,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkRelocateH2" class="news2KnowH1">Center exercises capability to relocate treaty monitoring mission - 9/6/2018</h2>
                     </div>
@@ -9563,7 +9448,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkStemGirlsH2" class="news2KnowH1">Breaking the STEM mold, one woman at a time - 8/24/2018</h2>
                     </div>
@@ -9694,7 +9579,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkSkillsH2" class="news2KnowH1">Contractor with treaty monitoring center puts lifesaving skills to the test - 8/24/2018</h2>
                     </div>
@@ -9743,7 +9628,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkPhoneH2" class="news2KnowH1">AFTAC upgrades phone system to enhance security - 8/23/2018</h2>
                     </div>
@@ -9793,7 +9678,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkSFSH2" class="news2KnowH1">Cop for a Day: AFTAC Airmen learn role of base Security Forces - 8/21/2018</h2>
                     </div>
@@ -9874,7 +9759,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkbuzzH2" class="news2KnowH1">Not just a buzzword; AFTAC showcases innovation to ISR community - 7/9/2018</h2>
                     </div>
@@ -9940,7 +9825,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstemawardH2" class="news2KnowH1">Officials announce 2018 ACC STEM Award winners - 6/26/2018</h2>
                     </div>
@@ -9997,7 +9882,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstormsH2" class="news2KnowH1">When the storms of life arise, how do you survive the onslaught? - 6/25/2018</h2>
                     </div>
@@ -10066,7 +9951,7 @@
                     </article>
                 </section>
    
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkchangeH2" class="news2KnowH1">New commander inherits newly-structured Air Force organization - 6/20/2018</h2>
                     </div>
@@ -10138,7 +10023,7 @@
                     </article>
                 </section>
 
-                <section class="archivedNews noDisplay noDisplay">
+                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkmonitoringH2" class="news2KnowH1">24/7 treaty monitoring center ready for contingency ops - 6/15/2018</h2>
                     </div>
@@ -10216,7 +10101,7 @@
             </section>
 
             <section>
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkskypeH2" class="news2KnowH1">Florida Airmen Skype with Georgia middle school students - 5/12/2018</h2>
                     </div>
@@ -10287,7 +10172,7 @@
                         </article>
                    </section>
 
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcommH2" class="news2KnowH1">Reorganization brings structure, leadership to treaty monitoring center - 5/9/2018</h2>
                     </div>
@@ -10385,7 +10270,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcitizenH2" class="news2KnowH1">Reserve Citizen Airman sets sail as first reserve mission commander - 5/1/2018</h2>
                     </div>
@@ -10456,7 +10341,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntknuclearH2" class="news2KnowH1">DoD’s sole nuclear surveillance unit undergoes organizational change - 4/25/2018</h2>
                     </div>
@@ -10524,7 +10409,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstemH2" class="news2KnowH1">With help from Airmen, Boy Scouts earn prestigious merit badge - 4/15/2018</h2>
                     </div>
@@ -10607,7 +10492,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntktreatyH2" class="news2KnowH1">Treaty Monitoring Center inducts three to its Wall of Honor - 4/4/2018</h2>
                     </div>
@@ -10677,7 +10562,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkgrassH2" class="news2KnowH1">Grass does not grow under this octogenarian’s feet - 3/31/2018</h2>
                     </div>
@@ -10762,7 +10647,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkhockeyH2" class="news2KnowH1">AFTAC Hockey Team receives special Congressional recognition - 3/31/2018</h2>
                     </div>
@@ -10822,7 +10707,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcommandH2" class="news2KnowH1">25th AF commander immerses into treaty monitoring mission - 3/1/2018</h2>
                     </div>
@@ -10896,7 +10781,7 @@
                     </article>
                 </section>
 
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkindustH2" class="news2KnowH1">Industry Day brings high-tech companies to AFTAC - 2/28/2018</h2>
                     </div>
@@ -10952,7 +10837,7 @@
                </section>
 
           <section>
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkwiseH2" class="news2KnowH1">AFTAC hosts annual WiSE Symposium - 2/15/2018</h2>
                     </div>
@@ -11028,7 +10913,7 @@
 
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntksecAfH2" class="news2KnowH1">SecAF briefed on AFTAC role in nuclear explosions - 2/15/2018</h2>
                     </div>
@@ -11080,7 +10965,7 @@
                     </article>
                 </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkholmesH2" class="news2KnowH1">Holmes, Batten pay first visit to nuclear treaty monitoring center - 1/26/2018</h2>
                     </div>
@@ -11163,7 +11048,7 @@
                     </article>
                 </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkantarcticH2" class="news2KnowH1">Airmen travel to Earth’s southernmost point for annual maintenance 1/16/2018</h2>
                 </div>
@@ -11240,7 +11125,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkgeneralH2" class="news2KnowH1">AFTAC civilian, Army Reservist selected for promotion to brigadier general 12/5/2017</h2>
                 </div>
@@ -11278,7 +11163,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkmariaH2" class="news2KnowH1">AFTAC civilian returns to duty after Hurricane Maria relief efforts 11/30/2017</h2>
                 </div>
@@ -11348,7 +11233,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkharkinsH2" class="news2KnowH1">AFTAC names lab after ‘giant’ of nuclear forensics 11/24/2017</h2>
                 </div>
@@ -11430,7 +11315,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkionsH2" class="news2KnowH1">Ions and betas and treaties, oh my! 11/8/2017</h2>
                 </div>
@@ -11502,7 +11387,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkValorH2" class="news2KnowH1">AFTAC Airman honored with Valor Award for life-saving actions 9/27/2017</h2>
                 </div>
@@ -11550,7 +11435,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHurricaneH2" class="news2KnowH1">Nuclear Treaty Monitoring unit cleans up after Hurricane Irma 9/16/2017</h2>
                 </div>
@@ -11777,7 +11662,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkNokH2" class="news2KnowH1">Air Force team monitors North Korean nuclear threat 9/16/2017</h2>
                 </div>
@@ -11845,7 +11730,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSailorH2" class="news2KnowH1">Sixth generation Sailor, first generation Airman 8/29/2017</h2>
                 </div>
@@ -11909,7 +11794,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCyberH2" class="news2KnowH1">Cyberspace domain critical to Nuclear Treaty Monitoring 8/29/2017</h2>
                 </div>
@@ -11974,7 +11859,7 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay noDisplay">
+            <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStemH2" class="news2KnowH1">AFTACers thrill young STEM minds, get surprise visit from HAF 3-star 8/23/2017</h2>
                 </div>
@@ -12113,7 +11998,7 @@
                 </article>
             </section>
 
-               <section class="archivedNews noDisplay noDisplay">
+               <section class="archivedNews noDisplay">
                     <div class="aLeft">
                     <h2 id="ntkTopsH2" class="news2KnowH1">Tech Ops Squadron is heartbeat of nuke treaty monitoring from air, sea, space 5/23/2017</h2>
                     </div>
@@ -12209,11 +12094,31 @@
         </article>
 
         <article id="pomoArt" class="myArts noDisplay">
+
+            <div class="clear"></div>
+
             <section id="sectPomoCurrent" class="noDisplay topMargin1em">
                 <div class="centerDiv maroonBorder topMargin2em smallShadow">
                 <p id="pomoSecTitle" class="centerText">
                     CURRENT POST MONITORS
                 </p>
+
+
+                <div id="pomo2" class="noDisplay">
+                    <p class="centerText">Click on the Pomo of your choice.</p>
+                    <div id="aprilPomo" class="floatLeft leftMargin8em width25">
+                        <img alt="April2022.png" class="myPomo blackBorder showShadow" src="_Images/April2022.png" style="height:15em;" />
+                        <p class="centerText">April 2022</p>
+                    </div>
+                    <div id="decemberPomo" class="floatLeft width25">
+                        <img alt="December2021.png" class="myPomo blackBorder showShadow" src="_Images/December2021.png" style="height:15em;" />
+                        <p class="centerText">December 2021</p>
+                    </div>
+                    <div id="augustPomo" class="floatLeft width25">
+                        <img alt="August2021.png" class="myPomo blackBorder showShadow" src="_Images/August2021.png" style="height:15em;" />
+                        <p class="centerText">August 2021</p>
+                    </div>
+                </div>
 
                 <div id="pomo1" class="block autoMarginLeftRight width50">
                     <p class="centerText maroonText italic">
@@ -12230,22 +12135,6 @@
                     <p class="centerText maroonText italic">
                         Any and all other readers can view ALL Archived Pomos by clicking <span id="ancPomo" class="redText underLine" style="cursor:pointer;" >here.</span>
                     </p>
-                </div>
-
-                <div id="pomo2" class="noDisplay">
-                    <p class="centerText">Click on the Pomo of your choice.</p>
-                    <div id="decemberPomo" class="floatLeft leftMargin8em width25">
-                        <img alt="December2022.png" class="myPomo blackBorder showShadow" src="_Images/December2022.png" style="height:15em;" />
-                        <p class="centerText">December 2022</p>
-                    </div>
-                    <div id="augustPomo" class="floatLeft width25">
-                        <img alt="August2022.png" class="myPomo blackBorder showShadow" src="_Images/August2022.png" style="height:15em;" />
-                        <p class="centerText">August 2022</p>
-                    </div>
-                    <div id="aprilPomo" class="floatLeft width25">
-                        <img alt="April2022.png" class="myPomo blackBorder showShadow" src="_Images/April2022.png" style="height:15em;" />
-                        <p class="centerText">April 2022</p>
-                    </div>
                 </div>
 
                 <div class="clear bottomMargin1em"></div>
@@ -12277,8 +12166,6 @@
                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2021</p>
                     <ul class="archList">
-                        <li><a class="maroonText" href="_Pomos/PoMo2021_12.pdf" target="_blank">December</a></li>
-                        <li><a class="maroonText" href="_Pomos/PoMo2021_08.pdf" target="_blank">August</a></li>
                         <li><a class="maroonText" href="_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
                     </ul>
                 </div>
@@ -12580,194 +12467,334 @@
         </article>
 
         <article id="currentObitsArt" class="myArts noDisplay">
-            <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkred">Recent Obits</p>
-            <div class="centerDiv">
-                <article>
-                    <div>
-                        <h2 id="ShaderH2" class="obitH1">Rita Jean Shader - 11/9/2022 </h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="ShaderPara" class="obitPara noDisplay">
-                        <p>
-                            Rita Jean Shader, 74, of Hendersonville, NC, died Wednesday, November 9, 2022.<br />
-                            A native of Hoboken, NJ she is the daughter of Christina Sabella and the late Duilio Sabella.
-                            Having lived in Melbourne, FL before moving to Hendersonville, she was a church secretary and a supervisor of elections analyst for Brevard County, FL.  Rita was a member of Mills River Presbyterian and the Iona Community Scotland.  She enjoyed cooking, sewing, reading, crocheting, volunteering, Scottish and Celtic culture, newsletter editor, and tap dancing.
-                            In addition to her mother, she is survived by her loving husband of 50 years, Richard Shader; two daughters, Jennifer Richard (Michael) of Wellford, SC and Amy Slaven (Geoff) of Hendersonville, NC; six grandchildren, Michael Richard (Jennifer), Nick Richard, Kristof Weiss (Kim), Bradley Weiss, Joseph Richard, and Morgan Slaven; two great-grandchildren, Hayden Richard and Logan Richard; and a brother, William Sabella (Dora) of Chester, NY.
-                            A memorial service will be held at 3:00 PM on Sunday, December 4, 2022 at Mills River Presbyterian Church in Mills River, NC with Rev. Megan McMillan.
-                            Memorials may be made to: Mills River Presbyterian Church, 10 Presbyterian Road, Mills River, NC 28759.
-                        </p>
-                    </div>
-                </article>
-
-                <article>
-                    <div>
-                        <h2 id="PoundH2" class="obitH1">Donna Pound - 11/7/2022 </h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="PoundPara" class="obitPara noDisplay">
-                        <p>
-                            <img alt="Pound.png" class="floatLeft width30 rightMarginHalfem maroonBorder showShadow" src="_Photos/obitpics/Pound.png" />                            
-                            OBITUARY<br />
-                            Donna Lee Pound<br />
-                            NOVEMBER 9, 1941 – NOVEMBER 7, 2022<br />
-                            Obituary of Donna Lee Pound<br />
-                            IN THE CARE OF<br />
-                            Life Event Center at Florida Memorial Gardens<br />
-                            Donna Lee Pound, born November 9th, 1941 and passed away November 7th, 2022.<br />
-                            She was preceded by her husband of 52 years Galen W. Pound.
-                            <br /><br />
-                            Donna is survived by her daughters Renay and Jeff Crouse, Colene Hewitt and Tammy and Duane Bond. She has six grandchildren Amanda and Matt Rinehart, Sabrina Hewitt, and Katlin, Randy and Rachel Bond; also 5 great grandchildren Paige and Annabelle Underwood, Serenity White, Thomas Bond and Malechkai Hagar.
-                            <br /><br />
-                            Donna attended Pineda Presbyterian Church and enjoyed her many jobs over the years. Donna enjoyed crocheting, reading and cruising. She was so loved by family and friends and will be sadly missed.
-                            <br /><br />
-                            A visitation for Donna will be held Sunday, November 13, 2022 from 6:00 PM to 8:00 PM at Life Event Center at Florida Memorial, 5950 S US Highway 1, Rockledge, Florida. A funeral service will occur Monday, November 14, 2022 from 10:00 AM at Life Event Center at Florida Memorial.
-                            <br /><br />
-                            Fond memories and expressions of sympathy may be shared with the Pound Family by clicking <a href="http://FloridaMemorialFH-Gardens.com" target="_blank">HERE</a>.
-                        </p>
-                    </div>
-                </article>
-
-                <article>
-                    <div>
-                        <h2 id="WilliamsonH2" class="obitH1">Gail Marie Williamson - 10/16/2022 </h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="WilliamsonPara" class="obitPara noDisplay">
-                        <p>
-                            <img alt="Williamson.png" class="floatLeft width30 rightMarginHalfem" src="_Photos/obitpics/Williamson.png" />                            
-                            Gail Marie Williamson, 85, of Wisconsin Rapids, WI, passed away Sunday, October 16, 2022. Gail passed at home holding the hand of her husband of 66 years, Donald "Donnie" Williamson. At her bedside were the greatest joys of her life, her three children, Willie, Mike and Kelley.
-                            <br /><br />
-                            Gail was born on May 19, 1937, in Wisconsin Rapids, the daughter of Edward and Beatrice Krzykowski. Gail was predeceased by her brothers Ronald and Lawrence ("Babe"), and is survived by her brother James (Beverly) Krekowski of Wisconsin Rapids.
-                            <br /><br />
-                            A St. Mary's and Assumption alumna, Gail married her husband, Donnie, on August 25, 1956. The next 23 years of her life were spent as a United States Air Force wife and mother. Gail and Donnie left Wisconsin Rapids for Cape Cod, MA, then moved on to Denver, CO, next to Fairbanks, AK, and then back to Denver, CO. Gail and the three children spent 1970-71 back on Cape Cod while Donnie spent a year-long solo tour of service in the Fiji Islands. They reunited in Sacramento, CA from 1971-75, and then spent Donnie's last two years of service near Austin, TX. In 1977, Gail ended her career as an Air Force wife and mom when Donnie retired from the Air Force, and the family returned "home" to Wisconsin Rapids permanently.
-                            <br /><br />
-                            Over her adult life, Gail was a Red Cross nurse's assistant, a paper mill worker, a waitress, a cashier, and a den mother. She also knew how to play the "dad" role when Donnie was away serving our country, which happened often. She taught the boys to throw a baseball, made sure homework was done, and that curfews were obeyed. "Wait until your father gets home" wasn't an option for Gail. And, although she was good at most things she did, she was a superstar when it came to being a wife and mother. She loved her husband deeply and adored her children. She taught her whole family how to love and how to laugh until it hurt (in a good way). All three of Gail's children have been with their respective spouses in excess of 30 years.
-                            <br /><br />
-                            Gail was a woman of strong faith, and attended mass regularly at Our Lady Queen of Heaven Church, where she and Donnie were married. She loved her Green Bay Packers, the Milwaukee Brewers, and the Wisconsin Badgers, and enjoyed her extra dry gin martinis. One thing she was not fond of was Wisconsin Winters, which she and Donnie did their best to escape in their motorhome each year in their retirement.
-                            <br /><br />
-                            Gail is survived by her husband, Donald "Donnie" Williamson; oldest son, Donald "Willie" Williamson, his wife Julie Williamson, and their children, Donald Brandon Williamson and Cory Cae Williamson; her second son, Michael Williamson, and his husband, Otis Merry; and her daughter, Kelley (Williamson) Molitor, Kelley's husband Steve Molitor, their daughter Chelsea (Molitor) Massingill, and Gail's great granddaughter Alana Massingill.
-                            <br /><br />
-                            Gail is also survived by her sisters-in-law, Joan (Williamson) Johnson and Dolly Schmidt, and predeceased by her brothers-in-law, Charles Johnson and John Williamson.
-                            <br /><br />
-                            She will be missed by her many nieces and nephews. Her nephew and next-door neighbor Steve Krekowski and his partner Gene Marty, as well as her niece Lori Placek were a great comfort to the family in Gail's later life, helping with snow blowing, lawn mowing, medical visits, and dropping off countless baked goods and other treats. The family will be forever grateful to you.
-                            <br /><br />
-                            She will also be dearly missed by many close friends, including Marcine Amundson, Sally Parr, Ron and Bonnie Mancl, Al and Sherry Cleveland, and Clare and Monica Jenkins. The friends Gail leaves behind from traveling the country as a military spouse, and from spending winters motor-homing in Florida are too countless to list.
-                        </p>
-                    </div>
-                </article>
-
-                <article>
-                    <div>
-                        <h2 id="AnderholmH2" class="obitH1">Nordin Curtis Anderholm - 10/21/2022 </h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="AnderholmPara" class="obitPara noDisplay">
-                        <p>
-                            <img alt="Anderholm.png" class="floatLeft width30 rightMarginHalfem" src="_Photos/obitpics/Anderholm.png" />                            
-                            Nordin Curtis (Curt) Anderholm, Merritt Island. Passed away peacefully at Solaris Healthcare, in the morning hours on Friday, October 21st. Curt was 86 when he passed. In his last hours, he was surrounded by his family and the incredible caregivers from St Francis Reflections, and the nurses and staff at Solaris. 
-                            Curt will be remembered by his wife, Mary Lou, and his children, John Curtis (Beverly), Christopher Michael (Monica), and Mary Elizabeth Lucks (David). He was the beloved Grandfather too, Dylan, Callie, and Katie (John and Beverly), Megan and Rachel (Mary Beth and David), and Paige and Jacob (Chris and Monica). He was a Great Grandfather to Trey (Rachel). He was predeceased by his Father Fritz, Mother Agnes, his brothers Cecil and Fred, and his sisters, Florence, and Joy. He looks forward to seeing them again soon.
-                            Curt was born and grew up in Duluth, Minnesota. He went to college at the University of Minnesota Duluth, and it was there that he met his bride Mary Louise Blomgren, who was attending the neighboring St Scholastica College. They were married on August 9th, 1959. Upon graduation, Curt and Mary Lou moved to Evanston, IL, where Curt studied at Northwestern University and earned his Ph.D. in Nuclear Physics. While Curt was studying, Mary Lou was busy with their sons, John and Chris, who were both born in Evanston. After graduating, they moved their growing family to Albuquerque, NM where Curt went to work for Sandia Laboratories. Their daughter, Mary Beth was born there in 1964. He was proud that his work at Sandia, led to two US Patents. His career took him and his family from New Mexico to Washington DC and finally to Patrick Air Force Base, in Satellite Beach, Florida. They resided on Merritt Island.
-                            As a young man, Curt attained the rank of Eagle Scout. The lessons he learned in Scout’s taught him to enjoy spending time in the outdoors. He enjoyed camping, hiking, fishing, and sailing. He passed along his love of the outdoors to his family. He was an avid Brevard Manatees baseball fan and liked nothing better than to spend the afternoon or evening at the ballpark with friends cheering on the home team.
-                            Friends and Family will be received at Divine Mercy Catholic Church, at 1940 Courteney Pkwy Friday, November the 4th. Curt’s life will be honored with a Mass of Christian Burial at 11:00 AM. The family will greet guests prior to the service and a reception at the church will follow for all friends and Family.
-                            In lieu of flowers, donations to The Alzheimer’s Association would be greatly appreciated.
-                        </p>
-                    </div>
-                </article>
+                <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
+                <div class="centerDiv">
+                    <article>
+                        <div>
+                            <h2 id="WhitneyH2" class="obitH1">Janice (Jan) Whitney - 7/24/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="WhitneyPara" class="obitPara noDisplay">
+                            <p>
+                                Janice (Jan) Whitney, 80, passed away on Sunday, July 24, 2022, at her home in Satellite Beach, Florida. “Jan,” the oldest of five, was born in Detroit, MI to Marshall and Barbara Johns. The family moved to Liverpool, NY in the early 1960s where she met her eventual husband and life-long travel companion, Don Whitney. Soon after earning an Associate Degree at Cazenovia College, Jan and Don married. This began a life of travel as the wife of an Air Force Pilot, and later in life when they both retired. Guam, Alabama, Japan, California, Illinois, Virginia, Mississippi, and Hawaii were among the places they lived before settling in the Space Coast. Once she settled in Florida and emptied the nest of her three sons, Jan earned her real estate license and began selling homes – becoming a million-dollar seller for Coldwell Banker Realty and managing the Melbourne office. Jan is survived by her husband Don, her three sons and their spouses: Brad (Jill), Dean (Julie), and Todd (Heidi), and by her seven grandchildren. She also leaves her four siblings and their spouses: Marsha (John) Charles, Bud (Marlene) Johns, Gary (Debbie) Johns, and Cheryl (John) Potts. Jan’s engaging personality and infectious laugh will be missed by family, friends, and all the people she would always stop and talk with in random situations. Funeral services will be held on Friday, August 5th at Beach Funeral Home, 1689 S. Patrick Drive, Melbourne, FL. A viewing will take place 11:00AM -1:00PM with formal services starting at 1:00PM. Following the service, the Whitney family will welcome friends at the Tides Club at Patrick Space Force Base,1001 North Highway, A1A S Atlantic Ave. While flowers are welcomed, expressions of sympathy in Jan’s memory can also be made to the Bladder Cancer Advisory Network (BCAN.org).
+                            </p>
+                        </div>
+                    </article>             
+ 
+                    <article>
+                        <div>
+                            <h2 id="LarsonH2" class="obitH1">Karla Larson - 6/23/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="LarsonPara" class="obitPara noDisplay">
+                            <p>
+                                (Notified by Don Whitney with information from Rick Larson, Rick writes.)
+                                <br /><br />
+                                Karla Glavas Larson died on June 23, 2022, in Reston Virginia.  She was born on 1 May 1947 in Kansas City, Missouri to Konstantine Spiros Glavas and Bonnie June (Shackleford) Glavas.   
+                                <br /><br />
+                                Karla graduated from Kansas City Junior College, Maryland University while accompanying her husband on his Air Force assignment in Japan, and Chapman University with a master’s in psychology.  She married Eric (Rick) Larson on 16 August 1969 and they have two daughters Dr. Stacy Larson Baron and Alexis Larson Lundeen.  
+                                <br /><br />
+                                In the course of 17 moves during Rick’s 30 years of Air Force service, Karla created wonderful homes from Japan to Egypt and Alaska to Mississippi.  She exhibited extraordinary flexibility working as a drug abuse counselor, as well as positions teaching, and in retail sales, medical insurance claims, and property management in the United States and abroad.  She served as a Vestry member, usher, and on the Altar Guild at St Francis Episcopal Church, Great Falls, Virginia.  Her nephews and nieces noted that she had an ability to connect and make friends with her personable nature and her wonderful sense of humor.  
+                                <br /><br />
+                                Karla and Rick were stationed at Detachment 407/DO, 1979 to 1982, Detachment 460/CC, 1982 to 1985, Technical Operation Division/DO, 1985 to 1989, HQ AFTAC/DO, 1991-1993 and HQ AFTAC/CV, 1995 to 1997.   
+                                <br /><br />
+                                She is survived by her husband Rick, daughters, Stacy and Alexis, two wonderful sons-in-law, Tim Baron and Kevin Lundeen, and six grandchildren, Aidan, Kyra, and Holden Baron and James, Lilly, and Madeleine Lundeen.  She was proceeded in death by her parents, and her brothers, Sam, Paul, and Larry Glavas. 
+                                <br /><br />
+                                A Burial Service will be held at Saint Francis Episcopal Church, Great Falls, Virginia on 13 July at 1100. In lieu of flowers, the family requests a donation to Saint Francis Church in Great Falls, Virginia.                           </p>
+                        </div>
+                    </article>             
+ 
+                    <article>
+                        <div>
+                            <h2 id="DunnH2" class="obitH1">David Dunn - June 2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="DunnPara" class="obitPara noDisplay">
+                            <p>
+                                (Contacted by Chuck Conrad passing along the following information).
+                                <br /><br />
+                                'Received word of David's death at his home in Germantown MD.
+                                <br /><br />
+                                I don't know of any other details. And I can't find an obituary. He was ~50 y/o.
+                                <br /><br />
+                                He was at a few AFTAC detachments and TOD as a 9S from 1997-2005.'
+                                <br /><br />
+                                NOTE: No obituary has been located or additional information available. If either happens, we will pass it along. We will post this on the AFTACAA Website, www.aftacaa.us, and publish it in the PoMo. 
+                             </p>
+                        </div>
+                    </article>             
+  
+                    <article>
+                        <div>
+                            <h2 id="SteskalH2" class="obitH1">Mike Steskal - 4/27/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="SteskalPara" class="obitPara noDisplay">
+                            <p>
+                               <img alt="Steskal.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Steskal.png"/>
+                                Michael J. Steskal, age 65, passed away unexpectedly on April 27, 2022 in Melbourne, FL.  Born October 7, 1956 in Oak Park, IL to Lawrence and Caroline (nee Hickey) Steskal, Mike was a treasured brother to Joe (Vicky) Steskal, Linda (Kevin) Brooks, Laura (Jim) Ciontea, Mary (Dan Lobbes) Steskal, and Barb (Marty) Gfesser as well as a giving uncle to Brian Brooks, Lauren Cunnane, Diana Ciontea, Monica Ciontea, Grant Steskal, Ben Steskal, and Gretta Gfesser.  He was preceded in death by his grandparents and late mother.
+                                <br /><br />
+                                After graduating from St. Viator High School, Mike joined the Air Force in 1977.  He spent the majority of his Air Force career in AFTAC (Air Force Technical Applications Center) as a scientific measurements technician based out of Patrick Space Force Base in Florida.  His position involved travel around the world. He also served as the Air Force Principal Investigator for several NASA associated AFTAC projects, including in-cabin experiments on Space Shuttle flights.  In 1991, his remote technical services directly supported the Warfighters’ missions during the first Gulf War.
+                                <br /><br />
+                                Upon leaving the Air Force at the end of 1991 as a Technical Sergeant, he continued to specialize in software quality, operations, and maintenance for a variety of companies engaged in government contract work including nine years with Raytheon and twelve years with Zeta Associates Inc.
+                                <br /><br />
+                                From 1991 until his retirement in 2016, Mike completed three Associate Degrees at Brevard Community College and was pursuing a BS in Business and Management at the University of Maryland.  Mike was a life-long learner and an avid reader.  During this time, Mike also spent four years in the Navy Reserves with the rank of a Petty Officer First Class. In addition, upon settling back in Melbourne, FL, he joined the AFTAC Alumni Association and became a board member in charge of Membership.  Mike cherished these shared memories and the fellowship it provided.  Most of all, he was proud to serve his country.
+                                <br /><br />
+                                In lieu of a traditional wake, family and friends are invited to gather for a Memorial visitation on Sunday, July 24, 2022 from 1:00 – 6:00 pm at the Rob Roy Clubhouse, 270 Country Club Lane, Prospect Heights, IL 60070.  A funeral mass will be held on Monday, July 25, 2022 at 10 am at St. Hubert’s Church, 729 Grand Canyon St., Hoffman Estates, IL 60169.  Interment of his cremains will immediately follow at St. Michael The Archangel Catholic Cemetery, 1185 W. Algonquin Rd., Palatine, IL 60067.
+                            </p>
+                            <hr class="myHR"/>
+                            <p>                       
+                                The following additional comments provided by SMSgt Tony De Marco (USAF-RET) & MSgt Dave Johnson (USAF-RET)
+                                <br /><br />
+                                This past April, one of our AFTAC Alumni Association Board Members, Mike Steskal, passed away unexpectedly. This came as a complete shock to those of us that knew Mike and were friends with him over the many years he served in AFTAC, and during the time he worked with many contractors over the years following his AFTAC Career. I first knew of Mike’s valued contributions to our Command’s Important Mission when Mike was assigned to one of the new “J” Technique Detachments installed OCONUS in the early 1980s. Mike was part of the 99 Team that established the new Det and brought it up to a FMC Status in mid-1980. I then got to know Mike personally starting in late 1984 when we worked together on numerous projects during our time in HQ/TX. We worked closely together in late 1984 when we were all part of the HQ Team that travelled to SRI for formal acceptance of the new ASDS (Advanced Sensor Deployment System). Mike was also on one of the initial official deployments of the ASDS and authored an excellent article in the Sept 2004 PoMo on this ASDS adventure out West. Mike worked on several other Special RF Collection Systems while in TX and performed multiple TDYs to both CONUS and OCONUS locations. One of the more unique Special Project Assignments Mike took on before leaving the Air Force was as Principal Investigator on the NASA LDEF (Long Duration Exposure Facility). AFTAC had an Experiment Tray M0006 on board the LDEF to evaluate Space Environment Effects on advanced sensor components. Mike decided to leave AFTAC and military service in 1991 and pursue a career in the civilian world working for many Special Contractors. His new career path included positions with Holmes Regional Med Ctr, Computer Sciences Raytheon, Raytheon Systems Corp, Raytheon C3I Systems, and Zeta Associates Inc. In many positions Mike continued to support the War fighter Missions worldwide until Mike finally Retired for good in 2016. Mike was an Outstanding AFTAC 99, a Great AFTAC Alumni Association Board Member, and a super friend to many of the AFTAC Alumni Team. Mike will be sorely missed as we move forward during these challenging times. RIP my friend.
+                            </p>
+                        </div>
+                    </article>             
+  
+                    <article>
+                        <div>
+                            <h2 id="CiambroneH2" class="obitH1">Theresa (Terry) Ciambrone - 5/11/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="CiambronePara" class="obitPara noDisplay">
+                            <p>
+                                (Contacted by Don Whitney.)
+                                <br />
+                                "Theresa (Terry) Ciambrone, wife of former AFTAC Vice commander and building name sake Col Thomas (Tom) Ciambrone (deceased) passed away 11 May 22 after a brief stay in the hospital."
+                                <br /><br />
+                                Personal Note: As the Col neared retirement, 1987, there was a groundswell of enlisted support to honor he and Terry for what they meant to the enlisted women and men of AFTAC. To my knowledge, Col Ciambrone was the only Headquarters Officer ever celebrated as an Honorary CMSgt and Terry the only CMSgt's Mate!! Chiefs from around the AFTAC World were there to participate in an official ceremony and all AFTAC enlisted invited to a congratulatory event after. 
+                             </p>
+                        </div>
+                    </article>    
                 
-                <article>
-                    <div>
-                        <h2 id="PetersonH2" class="obitH1">Jesse LeRoy Peterson - 9/2/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="PetersonPara" class="obitPara noDisplay">
-                        <img alt="Peterson1.png" class="width95 maroonBorder autoMarginLeftRight" src="_Photos/ObitPics/Peterson1.png" />
-                        <img alt="Peterson2.png" class="width95 topMargin2em maroonBorder autoMarginLeftRight"  src="_Photos/ObitPics/Peterson2.png" />
-                    </div>
-                </article>             
+                    <article>
+                        <div>
+                            <h2 id="RobbirdsH2" class="obitH1">James Robbirds - 3/2/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="RobbirdsPara" class="obitPara noDisplay">
+                            <p>
+                                (Contacted by Walt Hartley passing along information from Chip Reed.) 
+                                <br /><br />
+                                Walt, Chip, thanks for thinking of fellow Sages in sharing and sending this for further notification. I don't think much was published on Jim, all I can find: 
+                                <br /><br />
+                                James Timothy Robbirds, 74, of Defuniak Springs, Florida passed away Wednesday, March 2, 2022.
+                                <br /><br />
+                                Jim is in our Master Database. He was not a member of the association nor signed up for correspondence. 
+                             </p>
+                        </div>
+                    </article>             
+  
+                    <article>
+                        <div>
+                            <h2 id="WileyH2" class="obitH1">Judith Wiley</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="WileyPara" class="obitPara noDisplay">
+                            <p>
+                                (Contacted by Tony DeMarco passing along information from John Caban)
+                                <br /><br />
+                                I checked with Bob Wiley to see how he was doing as we have not heard anything from him, and he has not been to any of our recent Alumni Meetings or the 2022 WWR events.
+                                <br /><br />
+                                Bob told me his wife Judith has passed, and he has been dealing with that.
+                                <br /><br />
+                                Right now, no additional information is available, we will update as we learn more.
+                                <br /><br />
+                                Personal Note: Thank you, John and Tony. It's so important we keep track of each other now. I will try to call Bob today. I worked for Bob as Satellite Superintendent and knew Judith from Social Events. 
+                                <br /><br />
+                                NOTE: Additional information will be sent as received. 
+                             </p>
+                        </div>
+                    </article>             
+  
+                    <article>
+                        <div>
+                            <h2 id="SmithH2" class="obitH1">Samuel Lebron Smith - 5/1/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="SmithPara" class="obitPara noDisplay">
+                            <p>
+                               <img alt="Smith.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Smith.png"/>
+                                Samuel Lebron Smith, of Soddy Daisy, Tennessee, passed away peacefully at his home on May 1st, 2022.  He was 72.
+                                <br /><br />
+                                Samuel was born in Daisy, Tennessee. He was very active young man, and served 10 years in the United States Air Force. Sam loved to paint and was an avid poet.
+                                <br /><br />
+                                Samuel is preceded in death by his parents, Claude and Elizabeth Smith.  He is survived by his wife of 21 years, Teresa Smith and his biological daughter, Honey Lynn Smith. Sam had a love for children so much that he raised many step children. Sam leaves behind several grandchildren and great-grandchildren that all loved him very much.   
+                                <br /><br />
+                                The family will host a private burial at Varner Cemetery on Monday, May 9th at 1:00 p.m.
+                                <br /><br />
+                                Condolences and memories can be shared at <a href="www.williamsonandsons.com" target="_blank">Williamson and Sons</a>.
+                                <br /><br />
+                                Arrangements are by Williamson and Sons Funeral Home, 8852 Dayton Pike, Soddy Daisy, TN 37379.
+                                <br /><br />
+                                To send flowers to the family or plant a tree in memory of Samuel Lebron Smith, please visit our floral store.
+                             </p>
+                        </div>
+                    </article>             
+  
+                    <article>
+                        <div>
+                            <h2 id="MarcusH2" class="obitH1">Donald Marcus - 5/4/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="MarcusPara" class="obitPara noDisplay">
+                            <p>
+                               <img alt="Marcus.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Marcus.png"/>
+                                With deep regret, I must report that our beloved Donald passed away on May 4th at 6:00 PM. He was a devoted husband and father. Services will be held at Audubon Funeral Home Monday May 9th from 1030 AM with chapel services at 12:30 PM. He will be buried with full military honors following at Southeast Louisiana Veterans Cemetery at 1:30 PM. He will be missed by his beloved family and friends.
+                                <br /><br />
+                                Martha later added:<br />
+                                Lt. Col Donald R. Marcus, of Slidell, Louisiana, passed away on May 4, 2022 at the age of 87. He was a native of Birmingham, Alabama, born on March 4, 1935 to his loving parents, the late Kathrine Lucile Keith and Aubrey Renfroe Marcus. Donald is the beloved husband of 67 years to Martha Forbus Marcus; proud father of Donna Marcus Jones and Beverly Marcus Jones (Randal J. Jones); proud grandfather of Theresa Marie Jones, Tonya Jones Williams, Tina Jones Ritchie (Shane Ritchie), and Jaquelin Jenae Talbert; great-grandfather of Jamie Heston, B.J. Heston, Eric Zanco II, Zoey Goodeaux, Payton Keyes, Brandon Ritchie, Michael Ritchie, Kaitlyn Ritchie, and Abigail Ritchie; caring brother of the late Charles Ronald Marcus; uncle of Villeta Linton, Kelly Marcus, and David Marcus; cousin of Jeanne Salvago (daughters, Jessica and Johnica); and brother-in-law of Terry Marcus Long. Donald earned a Bachelor of Science degree from Howard College and a Master of Business Administration degree from Florida Institute of Technology. He retired from the United States Air Force, where he received many recognitions for his service including the Bronze Star, AF Commendation Medal with one oak leaf cluster, Meritorious Service Medal with two oak leaf clusters, and Republic of the Vietnam Campaign Medal. Donald taught courses at both Phillips Jr. College and Louisiana Technical College. He enjoyed fishing and golf in his spare time but treasured nothing more than the time he spent with family and friends. Donald will be greatly missed by all who knew and loved him. Relatives and friends are invited to attend a visitation on Monday, May 9, 2022 from 10:30 a.m. to 12:30 p.m. at Audubon Funeral Home in Slidell. A funeral service will begin in the chapel at 12:30. Donald will be laid to rest in the Southeast Louisiana Veterans Cemetery at 1:30 p.m. Memories and condolences may be expressed at <a href="http://AudubonFuneralHome.com" target="_blank">Audubon Funeral Home</a>
+                             </p>
+                        </div>
+                    </article>             
+  
+                    <article>
+                        <div>
+                            <h2 id="CwiklaH2" class="obitH1">Jim Cwikla - 4/24/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="CwiklaPara" class="obitPara noDisplay">
+                            <p>
+                                (Contacted by Ed LIndsay passing along email from Mike Stiewig.)
+                                "Apr 21, 2022, want to let folks know Jim Cwikla passed this morning.  He had cancer and had been failing. Not sure of the arrangements, but will pass that info on when I get it."
+                                <br /><br />
+                                Mike later added information of interest: "Jim was indeed a hell of a hand.  I was stationed with him for a few months at 423 in 75/76 (my first assignment). I have to admit he didn’t seem to trust my rookie capabilities too much back then, had me doing corrosion control pretty much solid…”if it doesn’t move, paint it!” Jim retired to Mesquite, NV, 8-10 years ago. He’s being cremated and I don’t believe there’s going to be any kind of service per se. His daughter is writing up an obit and I’ll pass it on with any other details when I get them."
+                             </p>
+                        </div>
+                    </article>             
+  
+                    <article>
+                        <div>
+                            <h2 id="CosnerH2" class="obitH1">Dale Cosner - 3/17/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="CosnerPara" class="obitPara noDisplay">
+                            <p>
+                               <img alt="Cosner.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Cosner.png"/>
+                                "With sad news I inform you of the passing of a fellow airman, Dale Cosner, Dale was stationed at McClellan in the depot, he worked in Pickup and Delivery from 1969-1973. The following email was received from his daughter."
+                                <br /><br />
+                                --Hi John,  this is Denise Cosner, dale’s daughter. I unfortunately have to let you know that dad passed away on 3/17. 3 of us kids were able to be there with him at the end.
+                                <br /><br />
+                                He was admitted on 3/6 with breathing issues again. Not sure if you knew he had been inpatient in early January for pneumonia and I think his lungs were just never really better.
+                                <br /><br />
+                                Click <a href="https://www.becksfuneralhome.com/obituaries/Dale-Edward-Cosner?obId=24330741#/obituaryInfo" target="_blank">here</a> to see obituary.
 
-
-                <article>
-                    <div>
-                        <h2 id="WhitneyH2" class="obitH1">Janice (Jan) Whitney - 7/24/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="WhitneyPara" class="obitPara noDisplay">
-                        <p>
-                            Janice (Jan) Whitney, 80, passed away on Sunday, July 24, 2022, at her home in Satellite Beach, Florida. “Jan,” the oldest of five, was born in Detroit, MI to Marshall and Barbara Johns. The family moved to Liverpool, NY in the early 1960s where she met her eventual husband and life-long travel companion, Don Whitney. Soon after earning an Associate Degree at Cazenovia College, Jan and Don married. This began a life of travel as the wife of an Air Force Pilot, and later in life when they both retired. Guam, Alabama, Japan, California, Illinois, Virginia, Mississippi, and Hawaii were among the places they lived before settling in the Space Coast. Once she settled in Florida and emptied the nest of her three sons, Jan earned her real estate license and began selling homes – becoming a million-dollar seller for Coldwell Banker Realty and managing the Melbourne office. Jan is survived by her husband Don, her three sons and their spouses: Brad (Jill), Dean (Julie), and Todd (Heidi), and by her seven grandchildren. She also leaves her four siblings and their spouses: Marsha (John) Charles, Bud (Marlene) Johns, Gary (Debbie) Johns, and Cheryl (John) Potts. Jan’s engaging personality and infectious laugh will be missed by family, friends, and all the people she would always stop and talk with in random situations. Funeral services will be held on Friday, August 5th at Beach Funeral Home, 1689 S. Patrick Drive, Melbourne, FL. A viewing will take place 11:00AM -1:00PM with formal services starting at 1:00PM. Following the service, the Whitney family will welcome friends at the Tides Club at Patrick Space Force Base,1001 North Highway, A1A S Atlantic Ave. While flowers are welcomed, expressions of sympathy in Jan’s memory can also be made to the Bladder Cancer Advisory Network (BCAN.org).
-                        </p>
-                    </div>
-                </article>
-                
-                <article>
-                    <div>
-                        <h2 id="KimballH2" class="obitH1">Earl Jack Kimball - 3/30/2022</h2>
-                    </div>
-                    <div class="clear"></div>
-                    <div id="KimballPara" class="obitPara noDisplay">
-                        <p>
-                            <img alt="Kimball.jpg" class="floatLeft width25 rightMarginHalfem maroonBorder" src="_Photos/ObitPics/Kimball.jpg" />
-                            We are sad to announce that on March 30, 2022 we had to say goodbye to Earl Jack Kimball of Greenville, Texas, born in Grand Haven, Michigan. Leave a sympathy message to the family in the guestbook on this memorial page of Earl Jack Kimball to show support.
-                            He was predeceased by : his parents, Everett Kimball and Irene Lyons; and his wife Wanda Parker. He is survived by : his children, Darrell Kimball (Brenda), Joe Kimball (Vickie) and Debby Maddox (Jim); his sister-in-law Joy Galbraith; his grandchildren, Christopher Maddox (Kristin), Sean Miller (Karen), Stacey Gallien (Kevin), Nicole Frahm, Carrie Luna (Adam), Matthew Kimball (Ashley), Krystal Kimball, Billy and Jessica Kimball; and his close friend Eileen Jenkins. He is also survived by 12 great grandchildren, 4 great-great grandchildren.
-                            In lieu of flowers, please make donations to: Caddo Mills Eastern Star, Re: Wanda Kimball Benevolent Fund, 7 Meadow Lane, Greenville, Tx 75402.
-                        </p>
-                    </div>
-                </article>             
-            </div>
-    </article>            
+                             </p>
+                        </div>
+                    </article>             
+  
+                    <article>
+                        <div>
+                            <h2 id="RedlinH2" class="obitH1">Geraldine Redlin - 2/10/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="RedlinPara" class="obitPara noDisplay">
+                            <p>
+                               <img alt="Redlin.jpg" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Redlin.jpg"/>
+                                Geraldine "Gerry" Linda Redlin, 85, of Aurora, Colorado, passed away on February 10, 2022, after a long hard-fought battle with Alzheimer's. Gerry was born on February 12, 1936, to Robert Frank Holland and Dorthey Virginia Holland (Burgoon) in Midway, Pennsylvania. After graduating from high school in 1954, she enlisted in the Air Force. Where she met the love of her life and they wed in 1955 going on to have three
+                                children, Jeffery, Brenda, and Valerie. When Gerry had Jeff, she decided to dedicate her life to being a fantastic and wonderful mother. She was very involved in the Girl Scouts for several years. Not only was she a troop leader but she also spent time helping at summer camps here in town and in the mountains. She spent over ten years working as an orthodontist assistant before moving to Texas. After returning to Colorado, she was an active member of her church and when she wasn’t filling her home with warmth and kindness, she could be found setting an example for other women to follow in volunteering their service.
+                                We will miss her greatly. Gerry was predeceased by her daughter Valerie Ann, Parents Frank and Dorthey Holland, Sisters Joy, Patty, and Brother Dale. She is survived by her husband Hugo, Jeffery and spouse Debra (Trask), Brenda and spouse Howard (Thurston), Grandchildren Christopher Redlin and spouse Amy (Altom), Ashley Redlin,
+                                Chad Thurston and Courtney Thurston, Grand Stepchildren Cody Trask and Spouse Sara (Williams) and Levi Trask and spouse Sheridan (Taylor), Great-grandchildren Carlie and Brandtley Thurston, Austyn, Christian, and Lane Redlin and Great Grand Stepchildren Landon Trask, Sophia Trask, Mia Williams and Emily Bounds (Redlin). The family requests that in lieu of flowers a donation to your favorite charity or to the Alzheimer's Association would be greatly appreciated. There will be a celebration of life for Gerry held on Saturday, March 19, 2022, 10:00 am at St. Mark's Lutheran Church, 111 Del Mar Circle, Aurora, Colorado
+                                80011.
+                                <br />
+                                V/R,
+                                Bryce Dunn President, Colorado AFTAC Alumni Association
+                                <br /><br />
+                                Click <a href="https://www.newcomerdenver.com/Obituary/211758/Geraldine-Gerry-Redlin/Denver-CO" target="_blank">here</a> to go to Gerry's obituary.
+                                <br /><br />
+                                NOTE: Additional information will be provided upon receipt and will be posted at the Alumni Website and published in the Post-Monitor. 
+                             </p>
+                        </div>
+                    </article>             
+  
+<%--                    <article>
+                        <div>
+                            <h2 id="SummersH2" class="obitH1">Richard Summers - 3/9/2022</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <div id="SummersPara" class="obitPara noDisplay">
+                            <p>
+                               <img alt="Summers.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Summers.png"/>
+                                As per a telephone call from Rita Summers, 2022.03.09, Rita's Facebook Posting follows:
+                                <br /><br />
+                                "What better way to honor my husband today, than with a picture from his passport.
+                                We traveled the world together and he was so very respected in the Air Force.
+                                He passed away today and hopefully, I’ve notified as many of my relatives as possible.
+                                I came home from work and found him with his loyal sidekick Max. That dog would not leave his side. RIP Richard: 4-8-1935 - 3-9-2022. He died on my father's birthday."
+                                <br /><br />
+                                PERSONAL NOTE: I don't normally comment when I see a friend has died. However in this case I must. 'Alky' and I shared so many times during assignments to Pinedale, WY, and an accompanied overseas location. We lived together in Pinedale, and became very close friends, and married local ladies during that tour. Chris and Rita had graduated in the same Senior Class; we often double-dated. Richard could crack me up in a heartbeat and we'd both fall to the floor, literally, bent over laughing. I have a friend today that can do that to me ... you don't ever forget those people or that closeness. 
+                                <br /><br />
+                                Pinedale was my first assignment from school as well for SSgt Summers who had been a 702 at one of our overseas locations and thought so much of our mission to become a 99125 himself; it was there he 'earned' that nickname that would follow him during his time with AFTAC. Chris and I followed he and Rita into an overseas tour and continued our close friendship living less than a block apart. From there we both served a tour at the Headquarters in VA. Good times continued at these assignments. 
+                                <br /><br />
+                                Richard and Rita eventually left AFTAC and he finished his Air Force time in computers, finally retiring in Shreveport, LA ... Chris and I never went close without staying over with them for several days and the 'old days' would come back within minutes of being together. 
+                                <br /><br />
+                                Rita, thank you for the call yesterday. My feelings for ‘Alky’ and you run deep … there were no better friends while you guys were in our lives.
+                                <br /><br />
+                                NOTE: Any additional information will be shared upon receipt and will be posted at the Alumni Website and in the Post-Monitor. 
+                                <br /><br />
+                                John Horsch
+                             </p>--%>
+                        </div> 
+                    </article>            
   
   
-    <article id="archivedObitsArt" class="myArts noDisplay">
-            <h1 class="maroonText centerText bold underLine">Archived Obituaries</h1>
+        <article id="archivedObitsArt" class="myArts noDisplay">
+                <h1 class="maroonText centerText bold underLine">Archived Obituaries</h1>
 
-            <asp:Panel ID="pnlObit" CssClass="floatLeft leftMargin1em width25" Visible="true" runat="server">
-                <asp:Label ID="Label8" CssClass="centerText block leftMargin1em" Font-Bold="true" ForeColor="Maroon" Font-Size="1.6em" runat="server" Text="Deceased"></asp:Label>
+                <asp:Panel ID="pnlObit" CssClass="floatLeft leftMargin1em width25" Visible="true" runat="server">
+                    <asp:Label ID="Label8" CssClass="centerText block leftMargin1em" Font-Bold="true" ForeColor="Maroon" Font-Size="1.6em" runat="server" Text="Deceased"></asp:Label>
 
-                <asp:ListBox ID="lstObitNames" CssClass="maroonBorder autoMarginLeftRight smallShadow padding5" Rows="5"
-                    Font-Size=".8em" Font-Bold="true" ForeColor="Maroon" ToolTip="Hit Down Arrow to see list." 
-                    AutoPostBack="True" runat="server" OnSelectedIndexChanged="lstObitNames_SelectedIndexChanged">
-                </asp:ListBox>
+                    <asp:ListBox ID="lstObitNames" CssClass="maroonBorder autoMarginLeftRight smallShadow padding5" Rows="5"
+                        Font-Size=".8em" Font-Bold="true" ForeColor="Maroon" ToolTip="Hit Down Arrow to see list." 
+                        AutoPostBack="True" runat="server" OnSelectedIndexChanged="lstObitNames_SelectedIndexChanged">
+                    </asp:ListBox>
+
+                    <div class="clear"></div>
+
+                    <asp:Label ID="obitErrMess" BackColor="Yellow" BorderColor="Red" BorderWidth="2px" BorderStyle="Solid" ForeColor="Red" Font-Bold="true" Visible="false" CssClass="topMargin1em leftMargin1em padding5" runat="server" Text="Name not found."></asp:Label>
+
+                    <div class="topMargin1em leftMargin2em maroonBorder showShadow centerDiv">
+                        <p class="centerText">Search for deceased.</p>
+                        <span class="maroonText bold left">Name:</span>
+                        <asp:TextBox ID="txtObitSearch" ForeColor="Maroon" BackColor="WhiteSmoke" Width="90%" Font-Bold="true" CssClass="block autoMarginLeftRight" runat="server"></asp:TextBox>
+                        <asp:Button ID="butObitSearch" Font-Size="1em" ForeColor="White" BackColor="DarkBlue" Font-Bold="true" CssClass="block autoMarginLeftRight topMargin1em bottomMarginHalfem padding5" OnClick="butObitSearch_Click" runat="server" Text="Search" />
+                        <asp:Button ID="butClearSearch" Font-Size="1em" ForeColor="White" BackColor="DarkBlue" Font-Bold="true" CssClass="block autoMarginLeftRight topMargin1em bottomMarginHalfem padding5" runat="server" OnClick="butClearSearch_Click" Text="Clear Search" />
+                    </div>
+                </asp:Panel>
+
+                <asp:Panel ID="pnlmyDefaultPic" Visible="true" runat="server">
+                    <asp:Image ID="imgMemory"  ImageUrl="~/_Images/lovingmemory.jpg" Style="height:30em;" CssClass="autoMarginLeftRight topMargin1em maroonBorder smallShadow bottomMargin2em" Visible="true" runat="server" />
+                </asp:Panel>
+
+                <asp:Panel ID="pnlmyObits" Visible="false" runat="server">
+                    <article id="myObitArt" class="floatLeft leftMargin5em width60" runat="server"> 
+                        <%--Place holder for the obit to be shown--%>
+                    </article>
+                </asp:Panel>
 
                 <div class="clear"></div>
-
-                <asp:Label ID="obitErrMess" BackColor="Yellow" BorderColor="Red" BorderWidth="2px" BorderStyle="Solid" ForeColor="Red" Font-Bold="true" Visible="false" CssClass="topMargin1em leftMargin1em padding5" runat="server" Text="Name not found."></asp:Label>
-
-                <div class="topMargin1em leftMargin2em maroonBorder showShadow centerDiv">
-                    <p class="centerText">Search for deceased.</p>
-                    <span class="maroonText bold left">Name:</span>
-                    <asp:TextBox ID="txtObitSearch" ForeColor="Maroon" BackColor="WhiteSmoke" Width="90%" Font-Bold="true" CssClass="block autoMarginLeftRight" runat="server"></asp:TextBox>
-                    <asp:Button ID="butObitSearch" Font-Size="1em" ForeColor="White" BackColor="DarkBlue" Font-Bold="true" CssClass="block autoMarginLeftRight topMargin1em bottomMarginHalfem padding5" OnClick="butObitSearch_Click" runat="server" Text="Search" />
-                    <asp:Button ID="butClearSearch" Font-Size="1em" ForeColor="White" BackColor="DarkBlue" Font-Bold="true" CssClass="block autoMarginLeftRight topMargin1em bottomMarginHalfem padding5" runat="server" OnClick="butClearSearch_Click" Text="Clear Search" />
-                </div>
-            </asp:Panel>
-
-            <asp:Panel ID="pnlmyDefaultPic" Visible="true" runat="server">
-                <asp:Image ID="imgMemory"  ImageUrl="~/_Images/lovingmemory.jpg" Style="height:30em;" CssClass="autoMarginLeftRight topMargin1em maroonBorder smallShadow bottomMargin2em" Visible="true" runat="server" />
-            </asp:Panel>
-
-            <asp:Panel ID="pnlmyObits" Visible="false" runat="server">
-                <article id="myObitArt" class="floatLeft leftMargin5em width60" runat="server"> 
-                    Place holder for the obit to be shown
-                </article>
-            </asp:Panel>
-
-            <div class="clear"></div>
         </article>
 
-<%--        <article id="obituariesArt" class="myArts noDisplay">
+        <article id="obituariesArt" class="myArts noDisplay">
             <section id="currentObits" class="obitSec aLeft centerDiv width80 padding5 autoMarginLeftRight topMargin1em block">
 
-                <asp:Label ID="Label10" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="Recent Obituaries"></asp:Label> 
+                <asp:Label ID="Label10" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="Recent Obituaries"></asp:Label>
+<%--                <h1 class="maroonText centerText bold underLine">Recent Obituaries</h1>--%>
+
+<%--                <p class="pTitle centerText padding5 maroonBorder showShadow">Currently at this time there are no Recent Obituaries.<br>Look in Archived Obituaries.</p>--%>
+ 
+
 
             </section>
 
             <section id="archivedObits" class="obitSec centerDiv width80 noDisplay padding5 autoMarginLeftRight smallShadow topMargin1em maroonBorder">
                 
 
-            </section>--%>
+            </section>
 
-<%--            <input id="btnTaps" class="autoMarginLeftRight block myBut topMargin1em bottomMargin1em" type="button" value=" Stop Taps " />--%>
+            <input id="btnTaps" class="autoMarginLeftRight block myBut topMargin1em bottomMargin1em" type="button" value=" Stop Taps " />
 
-<%--            <div id="tapsControls" class="noDisplay">
+            <div id="tapsControls" class="noDisplay">
                 <div id="divVolume" class="width40 autoMarginLeftRight">
                     <p class="centerText" style="font-size:2em;">Taps Volume</p>
                     <div class="clear"  style="margin-top:-2em;"></div>
@@ -12776,14 +12803,14 @@
                     <input id="btnTapsUp" class="myBut leftMargin1em" type="button" value="Up &gt;&gt;"/>
                 </div>
             </div>
-            --%>
-<%--            <audio id="audioTaps" preload="auto" loop="loop" class="noDisplay" controls="controls" >
+            
+            <audio id="audioTaps" preload="auto" loop="loop" class="noDisplay" controls="controls" >
                 <source src="_Audio/taps.ogg" type="audio/ogg"/>
                 <source src="_Audio/taps.mp3" type="audio/mpeg"/>
                 Your browser does not support the audio element.
-            </audio>--%>
+            </audio>
 
-<%--        </article>--%>
+        </article>
 
         <article id="sageShopArt" class="myArts noDisplay bottomMargin7em">
             <asp:Label ID="Label16" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="SAGE SHOP"></asp:Label>
@@ -12802,31 +12829,31 @@
             <h2 class="boardTitle centerText maroonText bold">Elected Board</h2>
             <ul class="officersList">
                 <li>
+                    <img alt="Phil Godfrey" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/board members/godfrey.jpg" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Phil Godfrey<br />(President)
+                    </div>
+                    <div class="clear"></div>
+                </li>
+
+                <li>
+                    <img alt="Rob Christman" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Christman.JPG" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Rob Christman<br />(Vice President)
+                    </div>
+                    <div class="clear"></div>
+                </li>
+
+                <li>
                     <img alt="Ed Lindsay" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/lindsay.png" />
                     <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Ed Lindsay<br />(President)
+                        Ed Lindsay<br />(Secretary)
                     </div>
                     <div class="clear"></div>
                 </li>
 
                 <li>
-                    <img alt="Rick Manley" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Manley.png" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Rick Manley<br />(Vice President)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-
-                <li>
-                    <img alt="Doug Colbary" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Colbary.png" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Doug Colbary<br />(Secretary)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-
-                <li>
-                    <img alt="Sean Ryan" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Ryan.png" />
+                    <img alt="Head Outline" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Ryan.png" />
                     <div class="maroonText inlineBlock topMargin2em leftMargin1em">
                         Sean Ryan<br />(Treasurer)
                     </div>
@@ -12838,13 +12865,13 @@
         <article id="selectedBoardArt" class="myArts noDisplay width90 noDisplay floatLeft autoMarginLeftRight maroonBorder smallShadow">
             <h2 class="centerText maroonText bold">Appointed Board</h2>
             <ul class="aLeft width45 floatLeft appOfficersList">
-<%--                <li>
+                <li>
                     <img alt="Chief Long" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Long.png" />
                     <div class="maroonText floatLeft topMargin2em leftMargin1em">
                         CMSgt Amy Long<br />(Activities)
                     </div>
                     <div class="clear"></div>
-                </li>--%>
+                </li>
 
                 <li>
                     <img alt="John Horsch" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/horsch.jpg" />
@@ -13180,7 +13207,7 @@
             <div class="clear"></div>
             <hr class="myHR" />
             <p class="centerText" style="font-size:1.5em;">
-                Click <asp:HyperLink ID="HyperLink6" ForeColor="Red" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida Membership Application.pdf" Target="_blank" runat="server"> here </asp:HyperLink> to get an printable application<br />to join the Florida Chapter.<br /> 
+                Click on the link below to get an application to join the<br /> <asp:HyperLink ID="HyperLink6" ForeColor="DarkRed" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida Membership Application.pdf" Target="_blank" runat="server"> Florida Association Membership Application. </asp:HyperLink>
             </p>
         </article>
     </div>

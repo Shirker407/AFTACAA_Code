@@ -268,12 +268,21 @@ h3
         font-size:1em;
     }
 
-.news2KnowH1 
+#Commandul
 {
-    color:darkred;
-    text-decoration:underline;
-    cursor:pointer;
-    margin-top:.5em;
+    background-color:maroon;
+}
+
+#Commandul li {
+    color: yellow;
+    font-weight:bold;
+}
+
+.news2KnowH1 {
+    color: darkred;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: .5em;
     /*margin-left:2em;*/
 }
 
