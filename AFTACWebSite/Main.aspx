@@ -346,7 +346,7 @@
                     <article id="CommInitial" class="CommandArt block">
                         <div class="backMaroon" style="height:100%;">
                             <div class="centerDiv backMaroon topMargin10em">
-                                <asp:Label runat="server" Font-Size="1.5em" BackColor="Maroon" ForeColor="Yellow" Text="Click on Document name at the right." Style="margin-top:5em;"></asp:Label>
+                                <asp:Label runat="server" Font-Size="1.5em" BackColor="Maroon" ForeColor="Yellow" Text="Click on Document name at the left." Style="margin-top:5em;"></asp:Label>
                             </div>
                         </div>
                     </article>
@@ -484,7 +484,7 @@
                             Dynamics of International Terrorism, USAF Special Operations School (2007)
                             <br /><br />
                             Information Warfare Application Course, Maxwell AFB, Ala. (2007)
-                            <br />
+                            <br /><br />
                             Intercontinental Ballistic Missile (ICBM) Maintenance Instructor Course, Francis E. Warren AFB, Wyo. (2005)
                             <br /><br />
                             Airman Leadership School, Francis E. Warren AFB, Wyo. (2005)
@@ -561,7 +561,7 @@
                             AF ISR Awards Program SNCO of the Year, HQ USAFE-AFAFRICA Intelligence Directorate (2013)
                             <br /><br />
                             Distinguished Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
-                            <br />
+                            <br /><br />
                             AETC Commander’s Top Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
                             <br /><br />
                             Academic Achievement Award, Airman Leadership School, F.E. Warren Air Force Base, Wyo. (2005)
