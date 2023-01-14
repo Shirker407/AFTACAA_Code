@@ -164,6 +164,7 @@
 
                     <li id="liHistory" class="liMainMenu bottomDot">Histories
                         <div id="divHistory" class="underMenu noDisplay">
+                            <span id="my79Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">79 Years Ago</span>
                             <span id="my91Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC 91 Years of Proud 99 Service</span>
                             <span id="FourSkin" class="myHistories underSel block leftMargin1em bottomDot yellowText">Four Skin Rug</span>
                             <span id="AFTACCommand" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC CCs/CVs</span>
@@ -401,296 +402,518 @@
         </article>
 
         <article id="myCommandArt" class="myArts noDisplay">
-        <p class="pTitle centerTest underLine">Command Corner</p>
+                <p class="pTitle centerTest underLine">Command Corner</p>
 
-        <aside class="floatLeft width30 backMaroon yellowBorder">
-            <ul id="Commandul" class="padding5">
-                <li class="CommandNotes">Colonel Finlayson's Biography</li>
-                <li class="CommandNotes">Chief Wright's Biography</li>
-                <li class="CommandNotes">Note from the Commander</li>
-            </ul>
-        </aside>
+                <aside class="floatLeft width30 backMaroon yellowBorder">
+                    <ul id="Commandul" class="padding5">
+                        <li class="CommandNotes">Colonel Finlayson's Biography</li>
+                        <li class="CommandNotes">Chief Wright's Biography</li>
+                        <li class="CommandNotes">Note from the Commander</li>
+                    </ul>
+                </aside>
 
-        <section class="floatLeft width65 leftMargin2em maroonBorder" style="min-height:30em">
-            <article id="CommInitial" class="CommandArt block">
-                <div class="backMaroon" style="height:100%;">
-                    <div class="centerDiv backMaroon topMargin10em">
-                        <asp:Label runat="server" Font-Size="1.5em" BackColor="Maroon" ForeColor="Yellow" Text="Click on Document name at the right." Style="margin-top:5em;"></asp:Label>
-                    </div>
-                </div>
-            </article>
+                <section class="floatLeft width65 leftMargin2em maroonBorder" style="min-height:30em">
+                    <article id="CommInitial" class="CommandArt block">
+                        <div class="backMaroon" style="height:100%;">
+                            <div class="centerDiv backMaroon topMargin10em">
+                                <asp:Label runat="server" Font-Size="1.5em" BackColor="Maroon" ForeColor="Yellow" Text="Click on Document name at the right." Style="margin-top:5em;"></asp:Label>
+                            </div>
+                        </div>
+                    </article>
 
             <article id="Command1" class="CommandArt noDisplay backWhite">
-                <div class="centerDiv">
-                    <img id="AirForceHeader" alt="Air Force Header" class="width100" src="_Images/Air Forse Header.png" />
-                </div>
+                    <div class="centerDiv">
+                        <img id="AirForceHeader" alt="Air Force Header" class="width100" src="_Images/Air Forse Header.png" />
+                    </div>
 
-                <p class="pTitle centerText underline">COLONEL JAMES FINLAYSON</p>
-                <p>
-                    <img alt="Finlayson.png" class="floatRight width35 leftMargin1em maroonBorder" src="_Images/Finlayson.png"/>
-                    Colonel James “Cobra” Finlayson is the Commander, Air Force
-                    Technical Applications Center, Patrick Space Force Base, Fla.
-                    AFTAC operates and maintains the United States Atomic Energy
-                    Detection System to monitor foreign compliance with various
-                    treaties limiting nuclear testing. The focus of AFTAC’s more than
-                    1,000 professionals is to detect special events in the atmosphere,
-                    underwater, underground, and in space to determine if they are
-                    nuclear and to report them to U.S. senior decision makers.
-                    <br /><br />
-                    Colonel Finlayson received his commission in 1997 from the
-                    United States Air Force Academy. Prior to assuming command
-                    of the Department of Defense’s sole nuclear treaty monitoring
-                    center, Colonel Finlayson was the Vice Commander of the 17th
-                    Training Wing at Goodfellow AFB, Texas, serving as the principal
-                    assistant to the Wing Commander and overseeing two training
-                    groups, a mission support group, and a medical group. He also
-                    directed 13 wing staff agencies and managed $1.5 billion in real
-                    property, equipment, supplies and contracts. Additionally, Colonel Finlayson served as the Chief of
-                    Staff, J2 Directorate for Intelligence, U.S. Strategic Command located at Offutt Air Force Base,
-                    Nebraska. Previous leadership assignments include serving as the Commander of National Air and
-                    Space Intelligence Center’s Regional Threats Analysis Squadron and as the Director of Operations
-                    for U.S. Strategic Command’s Joint Intelligence Operations Center. He has forward deployed on five
-                    occasions to Egypt, Qatar, Iraq, and Afghanistan in support of Operations Bright Star, Iraqi Freedom
-                    and Enduring Freedom.
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">EDUCATION</span><br />
-                    1997 Bachelor of Science, History, U.S. Air Force Academy, Colorado Springs, Colo.<br />
-                    2000 Professional Masters of Business Administration, Troy University, Troy, Alabama<br />
-                    2002 Squadron Officer’s School, Maxwell AFB, Ala.<br />
-                    2006 Air Command and Staff College, by correspondence<br />
-                    2008 Juris Doctor, cum laude, Boyd School of Law, University of Nevada Las Vegas<br />
-                    2010 Air Command and Staff College, Maxwell AFB, Ala.<br />
-                    2011 Air War College, by correspondence<br />
-                    2016 Doctor of Philosophy, summa cum laude, Organizational Development and Leadership,
-                    University of the Rockies, Denver, Colo.
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">ASSIGNMENTS</span><br />
-                    1. May 1997 - June 1998, Admissions Advisor, Directorate of Admissions, U.S. Air Force
-                    Academy, Colorado Springs, Colo.<br />
-                    2. June 1998 - March 1999, Student, 315th Technical Training Squadron, Goodfellow AFB, Texas<br />
-                    3. March 1999 - May 2001, Chief, Intelligence, 9th Fighter Squadron, Holloman AFB, N.M.<br />
-                    4. May 2001 - December 2003, Command Briefer/Analyst, U.S. Central Command, Tampa, Fla.<br />
-                    5. December 2003 - January 2007, Flight Commander, 547th Intelligence, Surveillance and
-                    Reconnaissance Squadron, Nellis AFB, Nev.<br />
-                    6. January 2007 - July 2009, Operations Officer, Functional Analysis Division, Security and
-                    Intelligence Directorate, U.S. Southern Command, Miami, Fla.<br />
-                    7. July 2009 - July 2010, Student, Air Command and Staff College, Maxwell AFB, Ala.<br />
-                    8. July 2010 - July 2012, Wing Senior Intelligence Officer, 35th Fighter Wing, Misawa Air Base,
-                    Japan<br />
-                    9. July 2012 - July 2015, Deputy Division Chief, Targeting, Joint Staff J2, Pentagon, Washington,
-                    D.C.<br />
-                    10. July 2015 - July 2017, Commander, Regional Threats Analysis Squadron, NASIC, WrightPatterson, Ohio<br />
-                    11. July 2017 - July 2018, Deputy Commander, 365th ISR Group, Nellis AFB, Nev.<br />
-                    12. July 2018 - July 2019, Director of Operations, U.S. Strategic Command, JIOC, Offutt AFB, Neb.<br />
-                    13. July 2019 - May 2020, Chief of Staff, J2 Directorate for Intelligence, U.S. Strategic Command,
-                    Offutt AFB, Neb.<br />
-                    14. May 2020 – May 2022, Vice Commander, 17th Training Wing, Goodfellow AFB, Texas<br />
-                    15. June 2022 – Present, Commander, Air Force Technical Applications Center, Patrick SFB, Fla.
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">SUMMARY OF JOINT ASSIGNMENTS</span><br />
-                    May 2001 - December 2003, USCENTCOM, Tampa, Fla., as a captain<br />
-                    January 2007 - July 2009, USSOUTHCOM, Miami, Fla., as a major<br />
-                    July 2012 - July 2015, Joint Staff J2, Pentagon, Washington, D.C., as a lieutenant colonel<br />
-                    July 2019 - May 2020, USSTRATCOM, Offutt AFB, Neb., as a colonel
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">MAJOR AWARDS AND DECORATIONS</span><br />
-                    Defense Superior Service Medal<br />
-                    Legion of Merit<br />
-                    Defense Meritorious Service Medal with oak leaf cluster<br />
-                    Meritorious Service Medal with three oak leaf clusters<br />
-                    Joint Service Commendation Medal with two oak leaf clusters<br />
-                    Air Force Commendation Medal<br />
-                    Joint Service Achievement Medal<br />
-                    Air Force Achievement Medal
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">EFFECTIVE DATES OF PROMOTION</span><br />
-                    Second Lieutenant May 28, 1997<br />
-                    First Lieutenant May 28, 1999<br />
-                    Captain May 28, 2001<br />
-                    Major Dec. 1, 2006<br />
-                    Lieutenant Colonel March 1, 2012<br />
-                    Colonel Sept. 1, 2018<br />
-                    (Current as of June 2022)
-                </p>
-            </article>
+                    <p class="pTitle centerText underline">COLONEL JAMES FINLAYSON</p>
+                    <p>
+                        <img alt="Finlayson.png" class="floatRight width35 leftMargin1em maroonBorder" src="_Images/Finlayson.png"/>
+                        Colonel James “Cobra” Finlayson is the Commander, Air Force
+                        Technical Applications Center, Patrick Space Force Base, Fla.
+                        AFTAC operates and maintains the United States Atomic Energy
+                        Detection System to monitor foreign compliance with various
+                        treaties limiting nuclear testing. The focus of AFTAC’s more than
+                        1,000 professionals is to detect special events in the atmosphere,
+                        underwater, underground, and in space to determine if they are
+                        nuclear and to report them to U.S. senior decision makers.
+                        <br /><br />
+                        Colonel Finlayson received his commission in 1997 from the
+                        United States Air Force Academy. Prior to assuming command
+                        of the Department of Defense’s sole nuclear treaty monitoring
+                        center, Colonel Finlayson was the Vice Commander of the 17th
+                        Training Wing at Goodfellow AFB, Texas, serving as the principal
+                        assistant to the Wing Commander and overseeing two training
+                        groups, a mission support group, and a medical group. He also
+                        directed 13 wing staff agencies and managed $1.5 billion in real
+                        property, equipment, supplies and contracts. Additionally, Colonel Finlayson served as the Chief of
+                        Staff, J2 Directorate for Intelligence, U.S. Strategic Command located at Offutt Air Force Base,
+                        Nebraska. Previous leadership assignments include serving as the Commander of National Air and
+                        Space Intelligence Center’s Regional Threats Analysis Squadron and as the Director of Operations
+                        for U.S. Strategic Command’s Joint Intelligence Operations Center. He has forward deployed on five
+                        occasions to Egypt, Qatar, Iraq, and Afghanistan in support of Operations Bright Star, Iraqi Freedom
+                        and Enduring Freedom.
+                        <br /><br />
+                        <span class="maroonText bold fontSize1_Halfem underline">EDUCATION</span><br />
+                        1997 Bachelor of Science, History, U.S. Air Force Academy, Colorado Springs, Colo.<br />
+                        2000 Professional Masters of Business Administration, Troy University, Troy, Alabama<br />
+                        2002 Squadron Officer’s School, Maxwell AFB, Ala.<br />
+                        2006 Air Command and Staff College, by correspondence<br />
+                        2008 Juris Doctor, cum laude, Boyd School of Law, University of Nevada Las Vegas<br />
+                        2010 Air Command and Staff College, Maxwell AFB, Ala.<br />
+                        2011 Air War College, by correspondence<br />
+                        2016 Doctor of Philosophy, summa cum laude, Organizational Development and Leadership,
+                        University of the Rockies, Denver, Colo.
+                        <br /><br />
+                        <span class="maroonText bold fontSize1_Halfem underline">ASSIGNMENTS</span><br />
+                        1. May 1997 - June 1998, Admissions Advisor, Directorate of Admissions, U.S. Air Force
+                        Academy, Colorado Springs, Colo.<br />
+                        2. June 1998 - March 1999, Student, 315th Technical Training Squadron, Goodfellow AFB, Texas<br />
+                        3. March 1999 - May 2001, Chief, Intelligence, 9th Fighter Squadron, Holloman AFB, N.M.<br />
+                        4. May 2001 - December 2003, Command Briefer/Analyst, U.S. Central Command, Tampa, Fla.<br />
+                        5. December 2003 - January 2007, Flight Commander, 547th Intelligence, Surveillance and
+                        Reconnaissance Squadron, Nellis AFB, Nev.<br />
+                        6. January 2007 - July 2009, Operations Officer, Functional Analysis Division, Security and
+                        Intelligence Directorate, U.S. Southern Command, Miami, Fla.<br />
+                        7. July 2009 - July 2010, Student, Air Command and Staff College, Maxwell AFB, Ala.<br />
+                        8. July 2010 - July 2012, Wing Senior Intelligence Officer, 35th Fighter Wing, Misawa Air Base,
+                        Japan<br />
+                        9. July 2012 - July 2015, Deputy Division Chief, Targeting, Joint Staff J2, Pentagon, Washington,
+                        D.C.<br />
+                        10. July 2015 - July 2017, Commander, Regional Threats Analysis Squadron, NASIC, WrightPatterson, Ohio<br />
+                        11. July 2017 - July 2018, Deputy Commander, 365th ISR Group, Nellis AFB, Nev.<br />
+                        12. July 2018 - July 2019, Director of Operations, U.S. Strategic Command, JIOC, Offutt AFB, Neb.<br />
+                        13. July 2019 - May 2020, Chief of Staff, J2 Directorate for Intelligence, U.S. Strategic Command,
+                        Offutt AFB, Neb.<br />
+                        14. May 2020 – May 2022, Vice Commander, 17th Training Wing, Goodfellow AFB, Texas<br />
+                        15. June 2022 – Present, Commander, Air Force Technical Applications Center, Patrick SFB, Fla.
+                        <br /><br />
+                        <span class="maroonText bold fontSize1_Halfem underline">SUMMARY OF JOINT ASSIGNMENTS</span><br />
+                        May 2001 - December 2003, USCENTCOM, Tampa, Fla., as a captain<br />
+                        January 2007 - July 2009, USSOUTHCOM, Miami, Fla., as a major<br />
+                        July 2012 - July 2015, Joint Staff J2, Pentagon, Washington, D.C., as a lieutenant colonel<br />
+                        July 2019 - May 2020, USSTRATCOM, Offutt AFB, Neb., as a colonel
+                        <br /><br />
+                        <span class="maroonText bold fontSize1_Halfem underline">MAJOR AWARDS AND DECORATIONS</span><br />
+                        Defense Superior Service Medal<br />
+                        Legion of Merit<br />
+                        Defense Meritorious Service Medal with oak leaf cluster<br />
+                        Meritorious Service Medal with three oak leaf clusters<br />
+                        Joint Service Commendation Medal with two oak leaf clusters<br />
+                        Air Force Commendation Medal<br />
+                        Joint Service Achievement Medal<br />
+                        Air Force Achievement Medal
+                        <br /><br />
+                        <span class="maroonText bold fontSize1_Halfem underline">EFFECTIVE DATES OF PROMOTION</span><br />
+                        Second Lieutenant May 28, 1997<br />
+                        First Lieutenant May 28, 1999<br />
+                        Captain May 28, 2001<br />
+                        Major Dec. 1, 2006<br />
+                        Lieutenant Colonel March 1, 2012<br />
+                        Colonel Sept. 1, 2018<br />
+                        (Current as of June 2022)
+                    </p>
+                </article>
 
             <article id="Command2" class="CommandArt noDisplay backWhite">
-                <p class="pTitle centerText underline">Chief Jerome Wright Biography</p>
-                <p>
-                    <img alt="CMS_Wright.png" src="_Photos/CMS_Wright.png" class="floatLeft width35 rightMargin2em maroonBorder" />
-                    Chief Master Sergeant (CMSgt) Jerome S. Wright serves as the senior enlisted advisor of the cadet wing at the U.S. Air Force Academy, Colorado Springs, Colo. He is the principle enlisted advisor to the commandant on training, education, standards and personnel matters for 4,400 cadets and 236 total force permanent party members. Additionally, as the career field manager for the Academy Military Trainer (8B200) Developmental Special Duty, he is responsible for the training, development, utilization, and readiness of 107 academy military trainers. He also provides mentorship to cadets, four group commanders, 40 squadron commanders, and respective superintendents and staff. The wing’s mission includes training, developing, and inspiring leaders of character for the Air and Space Force.
-                    <br /><br />
-                    Chief Wright was born in Guantanamo Bay, Cuba and raised in Virginia Beach, Va. He entered the Air Force in July of 2000. His background includes various duties in missile and space systems electronic maintenance, electronic systems security assessment, operations intelligence, and geospatial intelligence targeting career fields. He has deployed in support of Operation ENDURING FREEDOM, Operation IRAQI FREEDOM, Combined Joint Task Force-Horn of Africa, and Operation UNIFIED PROTECTOR. Prior to assuming his current position, Chief Wright was the superintendent and chief enlisted manager of the 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla.
-                    <br /><br />
-                    Education Chief Leadership Course, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2020)
-                    <br /><br />
-                    Senior Enlisted Joint Professional Military Education II, Joint Forces Staff College, by correspondence (2019)
-                    <br /><br />
-                    USAF Continuous Process Improvement Green Belt Course, Goodfellow Air Force Base, San Angelo, Texas (2017)
-                    <br /><br />
-                    USAF Master Resilience Trainer Course, Joint Base McGuire-Dix-Lakehurst, Burlington County, N.J. (2017)
-                    <br /><br />
-                    USAF Senior Noncommissioned Officer Academy, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2016)
-                    <br /><br />
-                    AETC Basic Instructor Course, Goodfellow Air Force Base, San Angelo, Texas (2015)
-                    <br /><br />
-                    Bachelor of Science, Human Resource Management and Organizational Development, University of Maryland, College Park, Md. (2015)
-                    <br /><br />
-                    Senior Enlisted ISR Master Skills Course, Goodfellow Air Force Base, San Angelo, Texas (2013)
-                    <br /><br />
-                    Senior Enlisted Joint Professional Military Education, Joint Forces Staff College, by correspondence (2013)
-                    <br /><br />
-                    Associates in Intelligence Studies and Technology, Community College of the Air Force, Montgomery, Ala. (2013)
-                    <br /><br />
-                    Associates in Electronic Systems Technology, Community College of the Air Force, Montgomery, Ala. (2013)
-                    <br /><br />
-                    Noncommissioned Officer Academy, Kapaun Air Station, Germany (2011)
-                    <br /><br />
-                    Joint Battle Damage Assessment Course, Joint Targeting School, Va. (2010)
-                    <br /><br />
-                    Collateral Damage Estimation Course, U.S. Army Garrison Heidelberg, Germany (2009)
-                    <br /><br />
-                    Dynamics of International Terrorism, USAF Special Operations School (2007)
-                    <br /><br />
-                    Information Warfare Application Course, Maxwell AFB, Ala. (2007)
-                    <br />
-                    Intercontinental Ballistic Missile (ICBM) Maintenance Instructor Course, Francis E. Warren AFB, Wyo. (2005)
-                    <br /><br />
-                    Airman Leadership School, Francis E. Warren AFB, Wyo. (2005)
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">Professional Experience</span><br />
-                    Senior Enlisted Advisor to the Commandant and Career Field Manager for Academy Military Trainers (8B200), Cadet Wing, U.S. Air Force Academy, Colorado Springs, Colo. (Jan. 2021-Present)
-                    <br /><br />
-                    Command Chief, Commandant of Cadets, U.S. Air Force Academy, Colorado Springs, Colo. (Nov. 2020-Jan. 2021)
-                    <br /><br />
-                    Superintendent, 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla. (July 2019-Nov. 2020)
-                    <br /><br />
-                    Operations Superintendent, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (July 2016–July 2019)
-                    <br /><br />
-                    Course Chief, Advanced Targeting Courses, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2015–July 2016)
-                    <br /><br />
-                    Superintendent, ISR Programs and Resources, HQ USAFE-AFAFRICA Intelligence Directorate, Ramstein Air Base, Germany; Acting Intelligence Inspector, HQ USAFE-AFAFRICA Inspector General, Ramstein Air Base, Germany (April 2015– Sept. 2015); (June 2013–October 2015)
-                    <br /><br />
-                    Section Chief, Targeting and Imagery Support, 603rd Air & Space Operations Center, Ramstein Air Base, Germany (Feb. 2012–June 2013)
-                    <br /><br />
-                    NCOIC, Tactical Assessment, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Dynamic Targeting Chief, NATO Combined Air Operations Center, Poggio Renatico, Italy (Aug. 2011–Nov. 2011); (Aug. 2009–Feb. 2012)
-                    <br /><br />
-                    NCOIC, Dynamic Targeting, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Shift NCOIC, Targeting Cell, Combined Air & Space Operations Center, Al Udeid Air Base, Qatar (June 2009–Dec. 2009); (June 2008–August 2009)
-                    <br /><br />
-                    Student, Operations Intelligence Course, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2007–June 2008)
-                    <br /><br />
-                    Electronic System Security Assessment Analyst, 68th Information Operations Squadron, Brooks-City Base, San Antonio, Texas (Oct. 2006–Oct. 2007)
-                    <br /><br />
-                    Instructor, ICBM Electro-Mechanical Team, 90th Maintenance Operations Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (May 2005–Oct. 2006)
-                    <br /><br />
-                    Team Chief, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (Jan. 2004–May 2005)
-                    <br /><br />
-                    Technician, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (April 2001–Jan. 2004)
-                    <br /><br />
-                    Student, Missile and Space System Electronic Maintenance Course, 532nd Training Squadron, Vandenberg Air Force Base, Lompoc, Cal. (Nov. 2000–March 2001)
-                    <br /><br />
-                    Student, Electronic Principles Course, 344th Training Squadron, Lackland Air Force Base, San Antonio, Texas (Aug. 2000–Nov. 2000)
-                    <br /><br />
-                    Trainee, Basic Military Training, 324th Training Squadron, Lackland Air Force Base, San Antonio, Texas (July 2000–Aug. 2000)
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">Honors & Awards</span><br />
-                    Meritorious Service Medal with two oak leaf clusters
-                    <br />
-                    Joint Service Commendation Medal
-                    <br />
-                    Air Force Commendation Medal with one oak leaf cluster
-                    <br />
-                    Air Force Achievement Medal with one oak leaf cluster
-                    <br />
-                    Army Achievement Medal
-                    <br />
-                    Air & Space Campaign Medal
-                    <br />
-                    Nuclear Deterrence Operations Service Medal with ‘N’ device
-                    <br />
-                    Air Force Expeditionary Service Ribbon with Gold Border
-                    <br />
-                    Air Force Special Duty Ribbon
-                    <br />
-                    NATO Medal
-                    <br /><br />
-                    <span class="maroonText bold fontSize1_Halfem underline">OTHER ACHIEVEMENTS</span><br />
-                    Air Force Association Active Duty SNCO of the Year, State of Texas winner (2018)
-                    <br /><br />
-                    AETC Training Support SNCO of the Year, 17th Training Wing (2017)
-                    <br /><br />
-                    National Image Inc., Meritorious Service Award, 17th Training Wing (2017)
-                    <br /><br />
-                    Blacks in Government Meritorious Service Award, 17th Training Wing (2017)
-                    <br /><br />
-                    National Geospatial-Intelligence Agency Senior Enlisted of the Year Award, AETC (2016)
-                    <br /><br />
-                    SNCO of the Year, HQ USAFE-AFAFRICA (2014)
-                    <br /><br />
-                    AF ISR Awards Program SNCO of the Year, HQ USAFE-AFAFRICA Intelligence Directorate (2013)
-                    <br /><br />
-                    Distinguished Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
-                    <br />
-                    AETC Commander’s Top Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
-                    <br /><br />
-                    Academic Achievement Award, Airman Leadership School, F.E. Warren Air Force Base, Wyo. (2005)
-                </p>
+                        <p class="pTitle centerText underline">Chief Jerome Wright Biography</p>
+                        <p>
+                            <img alt="CMS_Wright.png" src="_Images/CMS_Wright.png" class="floatLeft width35 rightMargin2em maroonBorder" />
+                            Chief Master Sergeant (CMSgt) Jerome S. Wright serves as the senior enlisted advisor of the cadet wing at the U.S. Air Force Academy, Colorado Springs, Colo. He is the principle enlisted advisor to the commandant on training, education, standards and personnel matters for 4,400 cadets and 236 total force permanent party members. Additionally, as the career field manager for the Academy Military Trainer (8B200) Developmental Special Duty, he is responsible for the training, development, utilization, and readiness of 107 academy military trainers. He also provides mentorship to cadets, four group commanders, 40 squadron commanders, and respective superintendents and staff. The wing’s mission includes training, developing, and inspiring leaders of character for the Air and Space Force.
+                            <br /><br />
+                            Chief Wright was born in Guantanamo Bay, Cuba and raised in Virginia Beach, Va. He entered the Air Force in July of 2000. His background includes various duties in missile and space systems electronic maintenance, electronic systems security assessment, operations intelligence, and geospatial intelligence targeting career fields. He has deployed in support of Operation ENDURING FREEDOM, Operation IRAQI FREEDOM, Combined Joint Task Force-Horn of Africa, and Operation UNIFIED PROTECTOR. Prior to assuming his current position, Chief Wright was the superintendent and chief enlisted manager of the 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla.
+                            <br /><br />
+                            Education Chief Leadership Course, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2020)
+                            <br /><br />
+                            Senior Enlisted Joint Professional Military Education II, Joint Forces Staff College, by correspondence (2019)
+                            <br /><br />
+                            USAF Continuous Process Improvement Green Belt Course, Goodfellow Air Force Base, San Angelo, Texas (2017)
+                            <br /><br />
+                            USAF Master Resilience Trainer Course, Joint Base McGuire-Dix-Lakehurst, Burlington County, N.J. (2017)
+                            <br /><br />
+                            USAF Senior Noncommissioned Officer Academy, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2016)
+                            <br /><br />
+                            AETC Basic Instructor Course, Goodfellow Air Force Base, San Angelo, Texas (2015)
+                            <br /><br />
+                            Bachelor of Science, Human Resource Management and Organizational Development, University of Maryland, College Park, Md. (2015)
+                            <br /><br />
+                            Senior Enlisted ISR Master Skills Course, Goodfellow Air Force Base, San Angelo, Texas (2013)
+                            <br /><br />
+                            Senior Enlisted Joint Professional Military Education, Joint Forces Staff College, by correspondence (2013)
+                            <br /><br />
+                            Associates in Intelligence Studies and Technology, Community College of the Air Force, Montgomery, Ala. (2013)
+                            <br /><br />
+                            Associates in Electronic Systems Technology, Community College of the Air Force, Montgomery, Ala. (2013)
+                            <br /><br />
+                            Noncommissioned Officer Academy, Kapaun Air Station, Germany (2011)
+                            <br /><br />
+                            Joint Battle Damage Assessment Course, Joint Targeting School, Va. (2010)
+                            <br /><br />
+                            Collateral Damage Estimation Course, U.S. Army Garrison Heidelberg, Germany (2009)
+                            <br /><br />
+                            Dynamics of International Terrorism, USAF Special Operations School (2007)
+                            <br /><br />
+                            Information Warfare Application Course, Maxwell AFB, Ala. (2007)
+                            <br />
+                            Intercontinental Ballistic Missile (ICBM) Maintenance Instructor Course, Francis E. Warren AFB, Wyo. (2005)
+                            <br /><br />
+                            Airman Leadership School, Francis E. Warren AFB, Wyo. (2005)
+                            <br /><br />
+                            <span class="maroonText bold fontSize1_Halfem underline">Professional Experience</span><br />
+                            Senior Enlisted Advisor to the Commandant and Career Field Manager for Academy Military Trainers (8B200), Cadet Wing, U.S. Air Force Academy, Colorado Springs, Colo. (Jan. 2021-Present)
+                            <br /><br />
+                            Command Chief, Commandant of Cadets, U.S. Air Force Academy, Colorado Springs, Colo. (Nov. 2020-Jan. 2021)
+                            <br /><br />
+                            Superintendent, 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla. (July 2019-Nov. 2020)
+                            <br /><br />
+                            Operations Superintendent, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (July 2016–July 2019)
+                            <br /><br />
+                            Course Chief, Advanced Targeting Courses, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2015–July 2016)
+                            <br /><br />
+                            Superintendent, ISR Programs and Resources, HQ USAFE-AFAFRICA Intelligence Directorate, Ramstein Air Base, Germany; Acting Intelligence Inspector, HQ USAFE-AFAFRICA Inspector General, Ramstein Air Base, Germany (April 2015– Sept. 2015); (June 2013–October 2015)
+                            <br /><br />
+                            Section Chief, Targeting and Imagery Support, 603rd Air & Space Operations Center, Ramstein Air Base, Germany (Feb. 2012–June 2013)
+                            <br /><br />
+                            NCOIC, Tactical Assessment, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Dynamic Targeting Chief, NATO Combined Air Operations Center, Poggio Renatico, Italy (Aug. 2011–Nov. 2011); (Aug. 2009–Feb. 2012)
+                            <br /><br />
+                            NCOIC, Dynamic Targeting, 603rd Air & Space Operations Center, Ramstein Air Base, Germany; Shift NCOIC, Targeting Cell, Combined Air & Space Operations Center, Al Udeid Air Base, Qatar (June 2009–Dec. 2009); (June 2008–August 2009)
+                            <br /><br />
+                            Student, Operations Intelligence Course, 315th Training Squadron, Goodfellow Air Force Base, Tom Green County, Texas (Oct. 2007–June 2008)
+                            <br /><br />
+                            Electronic System Security Assessment Analyst, 68th Information Operations Squadron, Brooks-City Base, San Antonio, Texas (Oct. 2006–Oct. 2007)
+                            <br /><br />
+                            Instructor, ICBM Electro-Mechanical Team, 90th Maintenance Operations Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (May 2005–Oct. 2006)
+                            <br /><br />
+                            Team Chief, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (Jan. 2004–May 2005)
+                            <br /><br />
+                            Technician, ICBM Electro-Mechanical Team, 90th Missile Maintenance Squadron, Francis E. Warren Air Force Base, Cheyenne, Wyo. (April 2001–Jan. 2004)
+                            <br /><br />
+                            Student, Missile and Space System Electronic Maintenance Course, 532nd Training Squadron, Vandenberg Air Force Base, Lompoc, Cal. (Nov. 2000–March 2001)
+                            <br /><br />
+                            Student, Electronic Principles Course, 344th Training Squadron, Lackland Air Force Base, San Antonio, Texas (Aug. 2000–Nov. 2000)
+                            <br /><br />
+                            Trainee, Basic Military Training, 324th Training Squadron, Lackland Air Force Base, San Antonio, Texas (July 2000–Aug. 2000)
+                            <br /><br />
+                            <span class="maroonText bold fontSize1_Halfem underline">Honors & Awards</span><br />
+                            Meritorious Service Medal with two oak leaf clusters
+                            <br />
+                            Joint Service Commendation Medal
+                            <br />
+                            Air Force Commendation Medal with one oak leaf cluster
+                            <br />
+                            Air Force Achievement Medal with one oak leaf cluster
+                            <br />
+                            Army Achievement Medal
+                            <br />
+                            Air & Space Campaign Medal
+                            <br />
+                            Nuclear Deterrence Operations Service Medal with ‘N’ device
+                            <br />
+                            Air Force Expeditionary Service Ribbon with Gold Border
+                            <br />
+                            Air Force Special Duty Ribbon
+                            <br />
+                            NATO Medal
+                            <br /><br />
+                            <span class="maroonText bold fontSize1_Halfem underline">OTHER ACHIEVEMENTS</span><br />
+                            Air Force Association Active Duty SNCO of the Year, State of Texas winner (2018)
+                            <br /><br />
+                            AETC Training Support SNCO of the Year, 17th Training Wing (2017)
+                            <br /><br />
+                            National Image Inc., Meritorious Service Award, 17th Training Wing (2017)
+                            <br /><br />
+                            Blacks in Government Meritorious Service Award, 17th Training Wing (2017)
+                            <br /><br />
+                            National Geospatial-Intelligence Agency Senior Enlisted of the Year Award, AETC (2016)
+                            <br /><br />
+                            SNCO of the Year, HQ USAFE-AFAFRICA (2014)
+                            <br /><br />
+                            AF ISR Awards Program SNCO of the Year, HQ USAFE-AFAFRICA Intelligence Directorate (2013)
+                            <br /><br />
+                            Distinguished Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
+                            <br />
+                            AETC Commander’s Top Graduate Award, Operations Intelligence Course, Goodfellow Air Force Base, Texas (2008)
+                            <br /><br />
+                            Academic Achievement Award, Airman Leadership School, F.E. Warren Air Force Base, Wyo. (2005)
+                        </p>
 
-            </article>
+                    </article>
 
             <article id="Command3" class="CommandArt noDisplay backWhite">
-                <p class="pTitle underLine">Note from the Commander<br />By Col. James “Cobra” Finlayson</p>
+                    <p class="pTitle underLine">Note from the Commander<br />By Col. James “Cobra” Finlayson</p>
 
-                <p>
-                    Greetings to all the AFTAC giants out there, past and present! I’m thrilled to have been asked to
-                    contribute a few words to your newsletter, especially since I have heard so much about your legacy, the
-                    alumni association as a whole, and your continued efforts to stay engaged with the workforce in a variety
-                    of ways.
-                    <br /><br />
-                    I believe the Post Monitor editors are including my official biography in this quarter’s newsletter, so I won’t
-                    bore you with the details of my past military assignments, education and job titles. What my bio doesn’t
-                    cover is something I like to refer to as “Cobra’s Countdown” – sort of a list of rules to live by based on my
-                    philosophy of being a commander and an Air Force leader.
-                    I attribute a lot of who I am to how I was raised and where I came from. I was born in Heidelberg,
-                    Germany. My dad was an Army Warrant Officer, and like all military families, we moved around a lot. I
-                    call El Paso, Texas home since I graduated from Austin High School in 1993, and from there I was
-                    fortunate enough to attend the U.S. Air Force Academy. I spent the next 25-plus years traveling the
-                    world, applying my skills, contributing to the DOD mission, and meeting incredible people along the way.
-                    When I first sat down with my staff here at AFTAC, I relayed four parts of Cobra’s Countdown: contact,
-                    initiative, communication, and balance. Pretty simple stuff when you boil it down, and I find that keeping
-                    things simple is a big key to success.
-                    Contact. I like to walk around a lot and ask questions. I’m inquisitive by nature, and I think one of the
-                    best ways to learn is to ask the experts about what they do, how they do it, and why it matters. I love
-                    learning new things every day!
-                    <br /><br />
-                    Initiative. Quite frankly, the best ideas most often come from the bottom up, not from the top down. All
-                    too often I think senior leaders lose sight of that concept. As General Colin Powell aptly said, “Never let
-                    your ego get so close to your position that when your position goes, your ego goes with it.”
-                    Communication. It is crucial! We live in a world where a constant stream of information – more like a
-                    GLUT of info – comes at us every hour of every day, whether it’s email, texts, online messages, Tweets,
-                    Facebook posts, phone calls, or breaking news on TV. It’s always coming at us. But I am a firm believer
-                    that communication should be tailored to ensure the person receiving needs it at that moment in time, or if
-                    it can wait.
-                    <br /><br />
-                    Balance. As the saying goes, your personal life will long outlast your Air Force career, so it’s important to
-                    make sure your life is in balance. I imagine those reading this are long since retired from active duty, and
-                    you know this saying better than most! Having a career is great, but having a balanced family life is even
-                    better.
-                    <br /><br />
-                    And speaking of family life, I am blessed to be married to my amazing wife, Kristen, and we have two
-                    beautiful daughters together – Aurora and Audrey. They are the ones who bring balance to my life!
-                    I hope that gives you a little insight about me, and I’m looking forward to meeting you at one of the many
-                    AFTAC functions that our great alumni support during the year. Be sure to make a point of introducing
-                    yourself – I want to shake the hands of all the legends who are the foundation of AFTAC’s continued
-                    success. Thanks for all you do to make our center better!
-                    Cheers,<br />
-                    Cobra
-                </p>
-            </article>
+                    <p>
+                        Greetings to all the AFTAC giants out there, past and present! I’m thrilled to have been asked to
+                        contribute a few words to your newsletter, especially since I have heard so much about your legacy, the
+                        alumni association as a whole, and your continued efforts to stay engaged with the workforce in a variety
+                        of ways.
+                        <br /><br />
+                        I believe the Post Monitor editors are including my official biography in this quarter’s newsletter, so I won’t
+                        bore you with the details of my past military assignments, education and job titles. What my bio doesn’t
+                        cover is something I like to refer to as “Cobra’s Countdown” – sort of a list of rules to live by based on my
+                        philosophy of being a commander and an Air Force leader.
+                        I attribute a lot of who I am to how I was raised and where I came from. I was born in Heidelberg,
+                        Germany. My dad was an Army Warrant Officer, and like all military families, we moved around a lot. I
+                        call El Paso, Texas home since I graduated from Austin High School in 1993, and from there I was
+                        fortunate enough to attend the U.S. Air Force Academy. I spent the next 25-plus years traveling the
+                        world, applying my skills, contributing to the DOD mission, and meeting incredible people along the way.
+                        When I first sat down with my staff here at AFTAC, I relayed four parts of Cobra’s Countdown: contact,
+                        initiative, communication, and balance. Pretty simple stuff when you boil it down, and I find that keeping
+                        things simple is a big key to success.
+                        Contact. I like to walk around a lot and ask questions. I’m inquisitive by nature, and I think one of the
+                        best ways to learn is to ask the experts about what they do, how they do it, and why it matters. I love
+                        learning new things every day!
+                        <br /><br />
+                        Initiative. Quite frankly, the best ideas most often come from the bottom up, not from the top down. All
+                        too often I think senior leaders lose sight of that concept. As General Colin Powell aptly said, “Never let
+                        your ego get so close to your position that when your position goes, your ego goes with it.”
+                        Communication. It is crucial! We live in a world where a constant stream of information – more like a
+                        GLUT of info – comes at us every hour of every day, whether it’s email, texts, online messages, Tweets,
+                        Facebook posts, phone calls, or breaking news on TV. It’s always coming at us. But I am a firm believer
+                        that communication should be tailored to ensure the person receiving needs it at that moment in time, or if
+                        it can wait.
+                        <br /><br />
+                        Balance. As the saying goes, your personal life will long outlast your Air Force career, so it’s important to
+                        make sure your life is in balance. I imagine those reading this are long since retired from active duty, and
+                        you know this saying better than most! Having a career is great, but having a balanced family life is even
+                        better.
+                        <br /><br />
+                        And speaking of family life, I am blessed to be married to my amazing wife, Kristen, and we have two
+                        beautiful daughters together – Aurora and Audrey. They are the ones who bring balance to my life!
+                        I hope that gives you a little insight about me, and I’m looking forward to meeting you at one of the many
+                        AFTAC functions that our great alumni support during the year. Be sure to make a point of introducing
+                        yourself – I want to shake the hands of all the legends who are the foundation of AFTAC’s continued
+                        success. Thanks for all you do to make our center better!
+                        Cheers,<br />
+                        Cobra
+                    </p>
+                </article>
 
-        </section>
-    </article>        
+            </section>
+        </article>        
         
+<%--        <article id="79YearsArt" class="myArts noDisplay">
+            <p>
+                Seems Impossible<br />
+                Carefully study this art work and then read the text of what we did.
+                Not only is the picture awesome, but so are the statistics!
+            </p>
+
+            <img alt="79Years1.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years1.png" />
+        
+            <p>
+                During the 3-1/2 years of World War II that started with the Japanese bombing of
+                Pearl Harbor in December of 1941 and ended with the surrender of Germany and Japan in 1945, "We the People of the U.S.A." produced the following:
+            </p>
+            <hr class="myHR" />
+            <ul id="Production" class="floatLeft width45 leftMargin3em bottomMargin1em maroonText">
+                <li>22 aircraft carriers</li>
+                <li>8 battleships</li>
+                <li>48 cruisers</li>
+                <li>349 destroyers</li>
+                <li>420 destroyer escorts</li>
+                <li>203 submarines</li>
+                <li>34 million tons of merchant ships</li>
+                <li>100,000 fighter aircraft</li>
+            </ul>
+
+            <ul id="Production1" class="floatLeft width40 leftMargin3em bottomMargin1em maroonText">
+                <li>98,000 bombers</li>
+                <li>24,000 transport aircraft</li>
+                <li>58,000 training aircraft</li>
+                <li>93,000 tanks</li>
+                <li>257,000 artillery pieces</li>
+                <li>105,000 mortars</li>
+                <li>3,000,000 machine guns</li>
+                <li>2,500,000 military trucks</li>
+            </ul>
+
+            <div class="clear"></div>
+
+            <hr class="myHR" />
+
+            <p>
+                We put 16.1 million men in uniform in the various armed services, invaded Africa, invaded Sicily and Italy, won the battle for the Atlantic, planned and executed D-Day,
+                marched across the Pacific and Europe, developed the atomic bomb and, ultimately,
+                conquered Japan and Germany.
+                <br /><br />
+                It’s amazing what America did in those days: many of you already know the story, here is the update.
+                <br /><br />
+                <span class="maroonText bold fontSize1_Halfem underline">THE FINAL TOAST</span><br />
+                The text below references the movie “Thirty Seconds Over Tokyo.”<br />
+                There is a second film made in 1944 that details the “show” trials of
+                the 11 airmen that were captured & tortured by the Japanese titled “The Purple Heart.”<br />
+                Three were executed as war criminals, a fourth died in captivity.<br />
+                The FINAL TOAST! They bombed Tokyo 78 years ago.<br />
+                They once were among the most universally admired and revered men in the United States .. There were 80 of the Raiders in April 1942, when they carried out one of the most courageous and heart-stirring military operations in this nation's
+                history. The mere mention of their unit's name, in those
+                years, would bring tears to the eyes of grateful Americans.
+            </p>
+
+            <img alt="79Years2.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years2.png" />
+        
+            <p>
+                After Japan'ssneak attack on Pearl Harbor, with the United States reeling and wounded, something dramatic was needed to turn the war effort around. Even though
+                there were no friendly airfields close enough to Japan for the United States to
+                launch a retaliation, a daring plan was devised.<br />
+                Sixteen B-25s were modified so that they could take off from the deck of an aircraft carrier.
+                This had never before been tried -- sending such big, heavy bombers from a carrier.
+            </p>
+
+            <figure>
+                <img alt="79Years3.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years3.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">B-25Bs Parked on the deck of the Hornet during the Doolittle Raid. April 1942</figcaption>
+            </figure>
+
+            <img alt="79Years4.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years4.png" />
+        
+            <p>
+                The 16 five-man crews, under the command of Lt. Col. James Doolittle,
+                who himself flew the lead plane off the USS Hornet,
+                knew that they would not be able to return to the carrier.
+                They would have to hit Japan and then hope to make it to China for a safe landing.
+            </p>
+
+            <img alt="79Years5.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years5.png" />
+        
+            <p>
+                But on the day of the raid, the Japanese military caught wind of the plan.<br />
+                The Raiders were told that they would have to take off from much farther out
+                in the Pacific Ocean than they had counted on.<br />
+                They were told that because of this they would not have enough fuel to make it to
+                safety.<br />
+                <span class="width50 autoMarginLeftRight maroonText bold underLine fontSize1_Halfem">And those men went anyway.</span>
+            </p>
+
+            <figure>
+                <img alt="79Years6.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years6.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">Jimmy Doolittle returning medals that were awarded to him by Japan </figcaption>
+            </figure>
+
+            <p>
+                They bombed Tokyo and then flew as far as they could.<br />
+                Four planes crash-landed; 11 more crews bailed out, and three of the Raiders
+                died.<br />
+                Eight more were captured; three were executed.<br />
+                Another died of starvation in a Japanese prison camp. One crew made it to Russia .
+            </p>
+
+            <img alt="79Years7.png" class="floatLeft width45 leftMargin2em topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years7.png" />
+            <img alt="79Years8.png" class="floatLeft width45 leftMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years8.png" />
+            <div class="clear"></div>
+
+            <img alt="79Years10.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years10.png" />
+        
+            <p>
+                The Doolittle Raiders sent a message from the United States to its enemies,
+                and to the rest of the world: We will fight. And, no matter what it takes, we will
+                win.<br />
+                Of the 80 Raiders, 62 survived the war. They were celebrated as national heroes,
+                models of bravery.<br />
+                Metro-Goldwyn-Mayer produced a motion picture based on the raid; "Thirty
+                Seconds Over Tokyo "
+                starring Spencer Tracy and Van Johnson, was a patriotic and emotional box-office hit,
+                and the phrase became part of the national lexicon.<br />
+                In the movie-theater previews for the film, MGM proclaimed that it was presenting the story........
+                "with supreme pride."
+            </p>
+
+            <img alt="79Years11.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years11.png" />
+
+            <img alt="79Years12.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years12.png" />
+        
+            <p>
+                Beginning in 1946, the surviving Raiders have held a reunion each April,
+                to commemorate the mission. The reunion is in a different city each year.
+                In 1959, the city of Tucson , Arizona , as a gesture of respect and gratitude,
+                presented the Doolittle Raiders with a set of 80 silver goblets.
+                Each goblet was engraved with the name of a Raider.
+            </p>
+
+            <img alt="79Years15.png" class="floatLeft width45 leftMargin2em topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years15.png" />
+            <img alt="79Years16.png" class="floatLeft width45 leftMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years16.png" />
+            <div class="clear"></div>
+
+            <p>
+                Also in the wooden case is a bottle of 1896 Hennessy Very Special cognac<br />
+                The year is not happenstance: 1896 was when Jimmy Doolittle was born.<br /><br />
+                There has always been a plan: When there are only two surviving Raiders,
+                they would open the bottle, at last drink from it,
+                and toast their comrades who preceded them in death.<br />
+            </p>
+            
+            <img alt="79Years18.png" class="width80 autoMarginLeftRight topMargin1em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years18.png" />
+        
+            <p>
+                As 2013 began, there were five living Raiders; then, in February,
+                Tom Griffin passed away at age 96.<br />
+                What a man he was. After bailing out of his plane
+                Over a mountainous Chinese forest after the Tokyo raid, he became ill with malaria,
+                and almost died. When he recovered, he was sent to Europe to fly more combat
+                missions.<br />
+                He was shot down, captured, and spent 22 months in a German prisoner of war
+                camp.
+                <br /><br />
+                The selflessness of these men, the sheer guts ... There was a passage in
+                the Cincinnati Enquirer obituary for Mr. Griffin that, on the surface,
+                had nothing to do with the war, but that was emblematic of the depth
+                of his sense of duty and devotion:
+                "When his wife became ill and needed to go into a nursing home, he visited her
+                every day.<br />
+                He walked from his house to the nursing home, fed his wife,
+                and at the end of the day brought home her clothes. At night, he washed and ironed her clothes.
+                Then he walked them up to her room the next morning.<br />
+                He did that for three years until her death in 2005."
+            </p>
+
+            <figure>
+                <img alt="79Years19.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years19.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">With "Martha Jean" behind them, nine of the Doolittle Raiders and three "Honorary Guests" pose with WWII re-enactors dressed in period clothing.</figcaption>
+            </figure>
+
+            <p>
+                So now, out of the original 80, only four Raiders remain:<br />
+                Dick Cole (Doolittle's co-pilot on the Tokyo raid),
+                Robert Hite, Edward Saylor and David Thatcher. All are in their 90s.<br /><br />
+                They have decided that there are too few of them for the public reunions to continue.
+                The events in Fort Walton Beach marked the end. It has come full circle;
+                Florida 's nearby Eglin Field was where the Raiders trained in secrecy for the Tokyo mission.
+                The town planned to do all it can to honor the men: a six-day celebration of their valor,
+                including luncheons, a dinner and a parade.<br /><br />
+                The men have decided that after this final public reunion they will wait until a
+                later date --
+                sometime this year -- to get together once more, informally and in absolute privacy.
+                That is when they will open the bottle of brandy. The years are flowing by too
+                swiftly now;
+                they are not going to wait until there are only two of them.
+                They will fill the four remaining upturned goblets. And raise them in a toast to
+                those who are gone.
+            </p>
+
+            <figure class="floatLeft width40">
+                <img alt="79Years20.png" class="width80 autoMarginLeftRight leftMargin2em topMargin2em bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years20.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">Richard Cole Died June 2019 (The last surviver)</figcaption>
+            </figure>
+
+            <figure class="floatLeft width40">
+                <img alt="79Years21.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years21.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">David Thatcher died June 2016</figcaption>
+            </figure>
+
+            <div class="clear"></div>
+
+            <p class="centerText bold fontSize1_Halfem">
+                The last two remaining survivers
+            </p>
+
+            <figure>
+                <img alt="79Years22.png" class="width80 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/79 Years/79Years22.png" />
+                <figcaption class="width75 autoMarginLeftRight maroonText italic">Their 70th Anniversary Photo</figcaption>
+            </figure>
+
+            <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
+        </article>--%>
+
 <%--        <article id="JubileeArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">75th Diamond Jubilee</p>
 
