@@ -1580,6 +1580,12 @@
     <Content Include="_PDFs\FINLAYSON Bio.pdf" />
     <Content Include="_Minutes\6-24-2022_Minutes.pdf" />
     <Content Include="_PDFs\Commander_Note.pdf" />
+    <Content Include="_Minutes\12-9-2022_Minutes.pdf" />
+    <Content Include="_Minutes\11-14-2022_Minutes.pdf" />
+    <Content Include="_Minutes\7-22-2022_Minutes.pdf" />
+    <Content Include="_Minutes\10-21-2022_Minutes.pdf" />
+    <Content Include="_Minutes\8-19-2022_Minutes.pdf" />
+    <Content Include="_Minutes\9-16-2022_Minutes.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -3374,12 +3374,18 @@
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
-                        <li><a href="_Minutes/6-24-2022_Minutes.pdf" target="_blank">6-24-2022</a></li>
-                        <li><a href="_Minutes/5-12-2022_Minutes.pdf" target="_blank">5-12-2022</a></li>
-                        <li><a href="_Minutes/4-15-2022_Minutes.pdf" target="_blank">4-15-2022</a></li>
-                        <li><a href="_Minutes/3-18-2022_Minutes.pdf" target="_blank">3-18-2022</a></li>
-                        <li><a href="_Minutes/2-18-2022_Minutes.pdf" target="_blank">2-18-2022</a></li>
-                        <li><a href="_Minutes/1-21-2022_Minutes.pdf" target="_blank">1-21-2022</a></li>
+                    <li><a href="_Minutes/12-9-2022_Minutes.pdf" target="_blank">12-9-2022</a></li>
+                    <li><a href="_Minutes/11-14-2022_Minutes.pdf" target="_blank">11-14-2022</a></li>
+                    <li><a href="_Minutes/10-21-2022_Minutes.pdf" target="_blank">10-21-2022</a></li>
+                    <li><a href="_Minutes/9-16-2022_Minutes.pdf" target="_blank">9-16-2022</a></li>
+                    <li><a href="_Minutes/8-19-2022_Minutes.pdf" target="_blank">8-19-2022</a></li>
+                    <li><a href="_Minutes/7-22-2022_Minutes.pdf" target="_blank">7-22-2022</a></li>
+                    <li><a href="_Minutes/6-24-2022_Minutes.pdf" target="_blank">6-24-2022</a></li>
+                    <li><a href="_Minutes/5-12-2022_Minutes.pdf" target="_blank">5-12-2022</a></li>
+                    <li><a href="_Minutes/4-15-2022_Minutes.pdf" target="_blank">4-15-2022</a></li>
+                    <li><a href="_Minutes/3-18-2022_Minutes.pdf" target="_blank">3-18-2022</a></li>
+                    <li><a href="_Minutes/2-18-2022_Minutes.pdf" target="_blank">2-18-2022</a></li>
+                    <li><a href="_Minutes/1-21-2022_Minutes.pdf" target="_blank">1-21-2022</a></li>
                     </ul>
                 </div>
             </div>
@@ -12716,7 +12722,7 @@
                     <div class="clear"></div>
                     <div id="PoundPara" class="obitPara noDisplay">
                         <p>
-                            <img alt="Pound.png" class="floatLeft width30 rightMarginHalfem maroonBorder showShadow" src="_Photos/obitpics/Pound.png" />                            
+                            <img alt="Pound.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Pound.png" />                            
                             OBITUARY<br />
                             Donna Lee Pound<br />
                             NOVEMBER 9, 1941 – NOVEMBER 7, 2022<br />
@@ -12744,7 +12750,7 @@
                     <div class="clear"></div>
                     <div id="WilliamsonPara" class="obitPara noDisplay">
                         <p>
-                            <img alt="Williamson.png" class="floatLeft width30 rightMarginHalfem" src="_Photos/obitpics/Williamson.png" />                            
+                            <img alt="Williamson.png" class="floatLeft width30 rightMargin1em" src="_Photos/obitpics/Williamson.png" />                            
                             Gail Marie Williamson, 85, of Wisconsin Rapids, WI, passed away Sunday, October 16, 2022. Gail passed at home holding the hand of her husband of 66 years, Donald "Donnie" Williamson. At her bedside were the greatest joys of her life, her three children, Willie, Mike and Kelley.
                             <br /><br />
                             Gail was born on May 19, 1937, in Wisconsin Rapids, the daughter of Edward and Beatrice Krzykowski. Gail was predeceased by her brothers Ronald and Lawrence ("Babe"), and is survived by her brother James (Beverly) Krekowski of Wisconsin Rapids.
@@ -12773,7 +12779,7 @@
                     <div class="clear"></div>
                     <div id="AnderholmPara" class="obitPara noDisplay">
                         <p>
-                            <img alt="Anderholm.png" class="floatLeft width30 rightMarginHalfem" src="_Photos/obitpics/Anderholm.png" />                            
+                            <img alt="Anderholm.png" class="floatLeft width30 rightMargin1em" src="_Photos/obitpics/Anderholm.png" />                            
                             Nordin Curtis (Curt) Anderholm, Merritt Island. Passed away peacefully at Solaris Healthcare, in the morning hours on Friday, October 21st. Curt was 86 when he passed. In his last hours, he was surrounded by his family and the incredible caregivers from St Francis Reflections, and the nurses and staff at Solaris. 
                             Curt will be remembered by his wife, Mary Lou, and his children, John Curtis (Beverly), Christopher Michael (Monica), and Mary Elizabeth Lucks (David). He was the beloved Grandfather too, Dylan, Callie, and Katie (John and Beverly), Megan and Rachel (Mary Beth and David), and Paige and Jacob (Chris and Monica). He was a Great Grandfather to Trey (Rachel). He was predeceased by his Father Fritz, Mother Agnes, his brothers Cecil and Fred, and his sisters, Florence, and Joy. He looks forward to seeing them again soon.
                             Curt was born and grew up in Duluth, Minnesota. He went to college at the University of Minnesota Duluth, and it was there that he met his bride Mary Louise Blomgren, who was attending the neighboring St Scholastica College. They were married on August 9th, 1959. Upon graduation, Curt and Mary Lou moved to Evanston, IL, where Curt studied at Northwestern University and earned his Ph.D. in Nuclear Physics. While Curt was studying, Mary Lou was busy with their sons, John and Chris, who were both born in Evanston. After graduating, they moved their growing family to Albuquerque, NM where Curt went to work for Sandia Laboratories. Their daughter, Mary Beth was born there in 1964. He was proud that his work at Sandia, led to two US Patents. His career took him and his family from New Mexico to Washington DC and finally to Patrick Air Force Base, in Satellite Beach, Florida. They resided on Merritt Island.
@@ -12814,40 +12820,13 @@
                     <div class="clear"></div>
                     <div id="KimballPara" class="obitPara noDisplay">
                         <p>
-                            <img alt="Kimball.jpg" class="floatLeft width25 rightMarginHalfem maroonBorder" src="_Photos/ObitPics/Kimball.jpg" />
+                            <img alt="Kimball.jpg" class="floatLeft width25 rightMargin1em maroonBorder" src="_Photos/ObitPics/Kimball.jpg" />
                             We are sad to announce that on March 30, 2022 we had to say goodbye to Earl Jack Kimball of Greenville, Texas, born in Grand Haven, Michigan. Leave a sympathy message to the family in the guestbook on this memorial page of Earl Jack Kimball to show support.
                             He was predeceased by : his parents, Everett Kimball and Irene Lyons; and his wife Wanda Parker. He is survived by : his children, Darrell Kimball (Brenda), Joe Kimball (Vickie) and Debby Maddox (Jim); his sister-in-law Joy Galbraith; his grandchildren, Christopher Maddox (Kristin), Sean Miller (Karen), Stacey Gallien (Kevin), Nicole Frahm, Carrie Luna (Adam), Matthew Kimball (Ashley), Krystal Kimball, Billy and Jessica Kimball; and his close friend Eileen Jenkins. He is also survived by 12 great grandchildren, 4 great-great grandchildren.
                             In lieu of flowers, please make donations to: Caddo Mills Eastern Star, Re: Wanda Kimball Benevolent Fund, 7 Meadow Lane, Greenville, Tx 75402.
                         </p>
                     </div>
                 </article>     
-<%--                    <article>
-                        <div>
-                            <h2 id="SummersH2" class="obitH1">Richard Summers - 3/9/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="SummersPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Summers.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Summers.png"/>
-                                As per a telephone call from Rita Summers, 2022.03.09, Rita's Facebook Posting follows:
-                                <br /><br />
-                                "What better way to honor my husband today, than with a picture from his passport.
-                                We traveled the world together and he was so very respected in the Air Force.
-                                He passed away today and hopefully, I’ve notified as many of my relatives as possible.
-                                I came home from work and found him with his loyal sidekick Max. That dog would not leave his side. RIP Richard: 4-8-1935 - 3-9-2022. He died on my father's birthday."
-                                <br /><br />
-                                PERSONAL NOTE: I don't normally comment when I see a friend has died. However in this case I must. 'Alky' and I shared so many times during assignments to Pinedale, WY, and an accompanied overseas location. We lived together in Pinedale, and became very close friends, and married local ladies during that tour. Chris and Rita had graduated in the same Senior Class; we often double-dated. Richard could crack me up in a heartbeat and we'd both fall to the floor, literally, bent over laughing. I have a friend today that can do that to me ... you don't ever forget those people or that closeness. 
-                                <br /><br />
-                                Pinedale was my first assignment from school as well for SSgt Summers who had been a 702 at one of our overseas locations and thought so much of our mission to become a 99125 himself; it was there he 'earned' that nickname that would follow him during his time with AFTAC. Chris and I followed he and Rita into an overseas tour and continued our close friendship living less than a block apart. From there we both served a tour at the Headquarters in VA. Good times continued at these assignments. 
-                                <br /><br />
-                                Richard and Rita eventually left AFTAC and he finished his Air Force time in computers, finally retiring in Shreveport, LA ... Chris and I never went close without staying over with them for several days and the 'old days' would come back within minutes of being together. 
-                                <br /><br />
-                                Rita, thank you for the call yesterday. My feelings for ‘Alky’ and you run deep … there were no better friends while you guys were in our lives.
-                                <br /><br />
-                                NOTE: Any additional information will be shared upon receipt and will be posted at the Alumni Website and in the Post-Monitor. 
-                                <br /><br />
-                                John Horsch
-                             </p>--%>
             </div> 
         </article>            
   
