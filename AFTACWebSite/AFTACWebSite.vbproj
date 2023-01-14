@@ -250,6 +250,28 @@
     <Content Include="_Photos\20YearWall\Wien.jpg" />
     <Content Include="_Photos\20YearWall\Winders.jpg" />
     <Content Include="_Photos\20YearWall\Wolrab.jpg" />
+    <Content Include="_Photos\79 Years\79Years1.png" />
+    <Content Include="_Photos\79 Years\79Years10.png" />
+    <Content Include="_Photos\79 Years\79Years11.png" />
+    <Content Include="_Photos\79 Years\79Years12.png" />
+    <Content Include="_Photos\79 Years\79Years13.png" />
+    <Content Include="_Photos\79 Years\79Years14.png" />
+    <Content Include="_Photos\79 Years\79Years15.png" />
+    <Content Include="_Photos\79 Years\79Years16.png" />
+    <Content Include="_Photos\79 Years\79Years17.png" />
+    <Content Include="_Photos\79 Years\79Years18.png" />
+    <Content Include="_Photos\79 Years\79Years19.png" />
+    <Content Include="_Photos\79 Years\79Years2.png" />
+    <Content Include="_Photos\79 Years\79Years20.png" />
+    <Content Include="_Photos\79 Years\79Years21.png" />
+    <Content Include="_Photos\79 Years\79Years22.png" />
+    <Content Include="_Photos\79 Years\79Years3.png" />
+    <Content Include="_Photos\79 Years\79Years4.png" />
+    <Content Include="_Photos\79 Years\79Years5.png" />
+    <Content Include="_Photos\79 Years\79Years6.png" />
+    <Content Include="_Photos\79 Years\79Years7.png" />
+    <Content Include="_Photos\79 Years\79Years8.png" />
+    <Content Include="_Photos\79 Years\79Years9.png" />
     <Content Include="_Photos\Adopt_Highway.jpg" />
     <Content Include="_Photos\AftacHistory\DO1.png" />
     <Content Include="_Photos\AftacHistory\DO11.png" />
@@ -613,6 +635,7 @@
     <Content Include="_Photos\News2Know\wohFig4.JPG" />
     <Content Include="_Photos\News2Know\wohFig5.JPG" />
     <Content Include="_Photos\ObitPics\Alexander_w.jpg" />
+    <Content Include="_Photos\ObitPics\Anderholm.png" />
     <Content Include="_Photos\ObitPics\Anderson_Daniel.JPG" />
     <Content Include="_Photos\News2Know\Antarctic1.jpg" />
     <Content Include="_Photos\News2Know\Antarctic2.jpg" />
@@ -850,6 +873,7 @@
     <Content Include="_Photos\ObitPics\Kane.jpg" />
     <Content Include="_Photos\ObitPics\Kayser.jpg" />
     <Content Include="_Photos\ObitPics\Killey.jpg" />
+    <Content Include="_Photos\ObitPics\Kimball.jpg" />
     <Content Include="_Photos\ObitPics\Kretzschmar.jpg" />
     <Content Include="_Photos\ObitPics\Kubiak.jfif" />
     <Content Include="_Photos\ObitPics\Lanigan.png" />
@@ -881,6 +905,8 @@
     <Content Include="_Photos\ObitPics\Payne.png" />
     <Content Include="_Photos\ObitPics\Perkins.png" />
     <Content Include="_Photos\ObitPics\Peters.png" />
+    <Content Include="_Photos\ObitPics\Peterson1.png" />
+    <Content Include="_Photos\ObitPics\Peterson2.png" />
     <Content Include="_Photos\ObitPics\Piccoli.jpg" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -1028,6 +1054,8 @@
     <Content Include="_Photos\ObitPics\osteen.jpg" />
     <Content Include="_Photos\ObitPics\pabst.png" />
     <Content Include="_Photos\ObitPics\PaulGoforth.png" />
+    <Content Include="_Photos\ObitPics\Pierce.png" />
+    <Content Include="_Photos\ObitPics\Pound.png" />
     <Content Include="_Photos\ObitPics\price.png" />
     <Content Include="_Photos\ObitPics\Querry.jpg" />
     <Content Include="_Photos\ObitPics\Redlin.jpg" />
@@ -1068,6 +1096,7 @@
     <Content Include="_Photos\ObitPics\Wells.jpg" />
     <Content Include="_Photos\ObitPics\Willadsen.png" />
     <Content Include="_Photos\ObitPics\Williams.jpg" />
+    <Content Include="_Photos\ObitPics\Williamson.png" />
     <Content Include="_Photos\ObitPics\Wills.png" />
     <Content Include="_Photos\ObitPics\Wonner.png" />
     <Content Include="_Photos\ObitPics\Woodcock.jpg" />

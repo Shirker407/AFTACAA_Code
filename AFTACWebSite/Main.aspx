@@ -276,102 +276,32 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myJubilee" class="announcement greenText">The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.</td>
-                                    <td class="posted greenText">8/9/2022</td>
-                                    <td class="event greenText">9/17/2022</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWhitney" class="announcement blueText">Jan Whitney's Obituary was Posted.</td>
-                                    <td class="posted blueText">8/9/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myNote" class="announcement blueText">Note from new AFTAC Commander<br />to the Alumni</td>
-                                    <td class="posted blueText">7/19/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPhoenix" class="announcement blueText">New WC-135R Constant Phoenix<br />Tail Number 14386 (Updated)</td>
-                                    <td class="posted blueText">7/14/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMedical" class="announcement redText">Military Health System Patients placed in Civilian Care Starting This Year.</td>
-                                    <td class="posted redText">7/14/2022</td>
-                                    <td class="event redText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myFinlayson" class="announcement redText">Colonel James “Cobra” Finlayson Biography</td>
-                                    <td class="posted redText">7/12/2022</td>
-                                    <td class="event redText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myLarson" class="announcement blueText">Karla Larson's Obituary was Posted.</td>
-                                    <td class="posted blueText">6/25/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDunn" class="announcement blueText">David Dunn's Obituary was Posted.</td>
-                                    <td class="posted blueText">6/23/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySteskal" class="announcement blueText">Mike Steskal's Obituary was Updated.</td>
-                                    <td class="posted blueText">6/23/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCmd" class="announcement blueText">AFTAC Change of Command</td>
-                                    <td class="posted blueText">6/7/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWOH" class="announcement blueText">Added 2022 WOH Recipients</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCiambrone" class="announcement blueText">Terry Ciambrone's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWiley" class="announcement blueText">Judith Wiley's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myRobbirds" class="announcement blueText">James Robbird's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySmith" class="announcement blueText">Sam Smith's Obituary was posted.</td>
-                                    <td class="posted blueText">6/5/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                      
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMarcus" class="announcement blueText">Donald Marcus' Obituary was posted.</td>
-                                    <td class="posted blueText">5/9/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpaceA" class="announcement blueText">Space Available Air Travel is back.</td>
-                                    <td class="posted blueText">4/25/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCwikla" class="announcement blueText">Jim Cwikla's Obituary was posted.</td>
-                                    <td class="posted blueText">4/25/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="AOY2021" class="announcement blueText">Lou Seiler Latest Alumni of Year</td>
-                                    <td class="posted blueText">4/23/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                          </table>
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <td id="myCommPage" class="announcement blueText">Check "Command Corner" in Main Menu</td>
+                                <td class="posted blueText">1/9/2023</td>
+                                <td class="event blueText"></td>
+                            </tr>
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
+                                <td class="posted greenText">1/5/2023</td>
+                                <td class="event greenText">3/4/2023</td>
+                            </tr>
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
+                                <td class="posted blueText">3/4/2023</td>
+                                <td class="event blueText"></td>
+                            </tr>
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
+                                <td class="posted blueText">12/31/2022</td>
+                                <td class="event blueText"></td>
+                            </tr>
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <td id="myDecPomo" class="announcement blueText">December Pomo was Published.</td>
+                                <td class="posted blueText">12/23/2022</td>
+                                <td class="event blueText"></td>
+                            </tr>
+                         </table>
                         </div>
                     </div>
                 </div>
@@ -692,7 +622,7 @@
             </section>
         </article>        
         
-<%--        <article id="79YearsArt" class="myArts noDisplay">
+        <article id="79YearsArt" class="myArts noDisplay">
             <p>
                 Seems Impossible<br />
                 Carefully study this art work and then read the text of what we did.
@@ -912,7 +842,7 @@
             </figure>
 
             <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
-        </article>--%>
+        </article>
 
 <%--        <article id="JubileeArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">75th Diamond Jubilee</p>
@@ -12692,244 +12622,205 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
-                    <article>
-                        <div>
-                            <h2 id="WhitneyH2" class="obitH1">Janice (Jan) Whitney - 7/24/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="WhitneyPara" class="obitPara noDisplay">
-                            <p>
-                                Janice (Jan) Whitney, 80, passed away on Sunday, July 24, 2022, at her home in Satellite Beach, Florida. “Jan,” the oldest of five, was born in Detroit, MI to Marshall and Barbara Johns. The family moved to Liverpool, NY in the early 1960s where she met her eventual husband and life-long travel companion, Don Whitney. Soon after earning an Associate Degree at Cazenovia College, Jan and Don married. This began a life of travel as the wife of an Air Force Pilot, and later in life when they both retired. Guam, Alabama, Japan, California, Illinois, Virginia, Mississippi, and Hawaii were among the places they lived before settling in the Space Coast. Once she settled in Florida and emptied the nest of her three sons, Jan earned her real estate license and began selling homes – becoming a million-dollar seller for Coldwell Banker Realty and managing the Melbourne office. Jan is survived by her husband Don, her three sons and their spouses: Brad (Jill), Dean (Julie), and Todd (Heidi), and by her seven grandchildren. She also leaves her four siblings and their spouses: Marsha (John) Charles, Bud (Marlene) Johns, Gary (Debbie) Johns, and Cheryl (John) Potts. Jan’s engaging personality and infectious laugh will be missed by family, friends, and all the people she would always stop and talk with in random situations. Funeral services will be held on Friday, August 5th at Beach Funeral Home, 1689 S. Patrick Drive, Melbourne, FL. A viewing will take place 11:00AM -1:00PM with formal services starting at 1:00PM. Following the service, the Whitney family will welcome friends at the Tides Club at Patrick Space Force Base,1001 North Highway, A1A S Atlantic Ave. While flowers are welcomed, expressions of sympathy in Jan’s memory can also be made to the Bladder Cancer Advisory Network (BCAN.org).
-                            </p>
-                        </div>
-                    </article>             
- 
-                    <article>
-                        <div>
-                            <h2 id="LarsonH2" class="obitH1">Karla Larson - 6/23/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="LarsonPara" class="obitPara noDisplay">
-                            <p>
-                                (Notified by Don Whitney with information from Rick Larson, Rick writes.)
-                                <br /><br />
-                                Karla Glavas Larson died on June 23, 2022, in Reston Virginia.  She was born on 1 May 1947 in Kansas City, Missouri to Konstantine Spiros Glavas and Bonnie June (Shackleford) Glavas.   
-                                <br /><br />
-                                Karla graduated from Kansas City Junior College, Maryland University while accompanying her husband on his Air Force assignment in Japan, and Chapman University with a master’s in psychology.  She married Eric (Rick) Larson on 16 August 1969 and they have two daughters Dr. Stacy Larson Baron and Alexis Larson Lundeen.  
-                                <br /><br />
-                                In the course of 17 moves during Rick’s 30 years of Air Force service, Karla created wonderful homes from Japan to Egypt and Alaska to Mississippi.  She exhibited extraordinary flexibility working as a drug abuse counselor, as well as positions teaching, and in retail sales, medical insurance claims, and property management in the United States and abroad.  She served as a Vestry member, usher, and on the Altar Guild at St Francis Episcopal Church, Great Falls, Virginia.  Her nephews and nieces noted that she had an ability to connect and make friends with her personable nature and her wonderful sense of humor.  
-                                <br /><br />
-                                Karla and Rick were stationed at Detachment 407/DO, 1979 to 1982, Detachment 460/CC, 1982 to 1985, Technical Operation Division/DO, 1985 to 1989, HQ AFTAC/DO, 1991-1993 and HQ AFTAC/CV, 1995 to 1997.   
-                                <br /><br />
-                                She is survived by her husband Rick, daughters, Stacy and Alexis, two wonderful sons-in-law, Tim Baron and Kevin Lundeen, and six grandchildren, Aidan, Kyra, and Holden Baron and James, Lilly, and Madeleine Lundeen.  She was proceeded in death by her parents, and her brothers, Sam, Paul, and Larry Glavas. 
-                                <br /><br />
-                                A Burial Service will be held at Saint Francis Episcopal Church, Great Falls, Virginia on 13 July at 1100. In lieu of flowers, the family requests a donation to Saint Francis Church in Great Falls, Virginia.                           </p>
-                        </div>
-                    </article>             
- 
-                    <article>
-                        <div>
-                            <h2 id="DunnH2" class="obitH1">David Dunn - June 2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="DunnPara" class="obitPara noDisplay">
-                            <p>
-                                (Contacted by Chuck Conrad passing along the following information).
-                                <br /><br />
-                                'Received word of David's death at his home in Germantown MD.
-                                <br /><br />
-                                I don't know of any other details. And I can't find an obituary. He was ~50 y/o.
-                                <br /><br />
-                                He was at a few AFTAC detachments and TOD as a 9S from 1997-2005.'
-                                <br /><br />
-                                NOTE: No obituary has been located or additional information available. If either happens, we will pass it along. We will post this on the AFTACAA Website, www.aftacaa.us, and publish it in the PoMo. 
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="SteskalH2" class="obitH1">Mike Steskal - 4/27/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="SteskalPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Steskal.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Steskal.png"/>
-                                Michael J. Steskal, age 65, passed away unexpectedly on April 27, 2022 in Melbourne, FL.  Born October 7, 1956 in Oak Park, IL to Lawrence and Caroline (nee Hickey) Steskal, Mike was a treasured brother to Joe (Vicky) Steskal, Linda (Kevin) Brooks, Laura (Jim) Ciontea, Mary (Dan Lobbes) Steskal, and Barb (Marty) Gfesser as well as a giving uncle to Brian Brooks, Lauren Cunnane, Diana Ciontea, Monica Ciontea, Grant Steskal, Ben Steskal, and Gretta Gfesser.  He was preceded in death by his grandparents and late mother.
-                                <br /><br />
-                                After graduating from St. Viator High School, Mike joined the Air Force in 1977.  He spent the majority of his Air Force career in AFTAC (Air Force Technical Applications Center) as a scientific measurements technician based out of Patrick Space Force Base in Florida.  His position involved travel around the world. He also served as the Air Force Principal Investigator for several NASA associated AFTAC projects, including in-cabin experiments on Space Shuttle flights.  In 1991, his remote technical services directly supported the Warfighters’ missions during the first Gulf War.
-                                <br /><br />
-                                Upon leaving the Air Force at the end of 1991 as a Technical Sergeant, he continued to specialize in software quality, operations, and maintenance for a variety of companies engaged in government contract work including nine years with Raytheon and twelve years with Zeta Associates Inc.
-                                <br /><br />
-                                From 1991 until his retirement in 2016, Mike completed three Associate Degrees at Brevard Community College and was pursuing a BS in Business and Management at the University of Maryland.  Mike was a life-long learner and an avid reader.  During this time, Mike also spent four years in the Navy Reserves with the rank of a Petty Officer First Class. In addition, upon settling back in Melbourne, FL, he joined the AFTAC Alumni Association and became a board member in charge of Membership.  Mike cherished these shared memories and the fellowship it provided.  Most of all, he was proud to serve his country.
-                                <br /><br />
-                                In lieu of a traditional wake, family and friends are invited to gather for a Memorial visitation on Sunday, July 24, 2022 from 1:00 – 6:00 pm at the Rob Roy Clubhouse, 270 Country Club Lane, Prospect Heights, IL 60070.  A funeral mass will be held on Monday, July 25, 2022 at 10 am at St. Hubert’s Church, 729 Grand Canyon St., Hoffman Estates, IL 60169.  Interment of his cremains will immediately follow at St. Michael The Archangel Catholic Cemetery, 1185 W. Algonquin Rd., Palatine, IL 60067.
-                            </p>
-                            <hr class="myHR"/>
-                            <p>                       
-                                The following additional comments provided by SMSgt Tony De Marco (USAF-RET) & MSgt Dave Johnson (USAF-RET)
-                                <br /><br />
-                                This past April, one of our AFTAC Alumni Association Board Members, Mike Steskal, passed away unexpectedly. This came as a complete shock to those of us that knew Mike and were friends with him over the many years he served in AFTAC, and during the time he worked with many contractors over the years following his AFTAC Career. I first knew of Mike’s valued contributions to our Command’s Important Mission when Mike was assigned to one of the new “J” Technique Detachments installed OCONUS in the early 1980s. Mike was part of the 99 Team that established the new Det and brought it up to a FMC Status in mid-1980. I then got to know Mike personally starting in late 1984 when we worked together on numerous projects during our time in HQ/TX. We worked closely together in late 1984 when we were all part of the HQ Team that travelled to SRI for formal acceptance of the new ASDS (Advanced Sensor Deployment System). Mike was also on one of the initial official deployments of the ASDS and authored an excellent article in the Sept 2004 PoMo on this ASDS adventure out West. Mike worked on several other Special RF Collection Systems while in TX and performed multiple TDYs to both CONUS and OCONUS locations. One of the more unique Special Project Assignments Mike took on before leaving the Air Force was as Principal Investigator on the NASA LDEF (Long Duration Exposure Facility). AFTAC had an Experiment Tray M0006 on board the LDEF to evaluate Space Environment Effects on advanced sensor components. Mike decided to leave AFTAC and military service in 1991 and pursue a career in the civilian world working for many Special Contractors. His new career path included positions with Holmes Regional Med Ctr, Computer Sciences Raytheon, Raytheon Systems Corp, Raytheon C3I Systems, and Zeta Associates Inc. In many positions Mike continued to support the War fighter Missions worldwide until Mike finally Retired for good in 2016. Mike was an Outstanding AFTAC 99, a Great AFTAC Alumni Association Board Member, and a super friend to many of the AFTAC Alumni Team. Mike will be sorely missed as we move forward during these challenging times. RIP my friend.
-                            </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="CiambroneH2" class="obitH1">Theresa (Terry) Ciambrone - 5/11/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="CiambronePara" class="obitPara noDisplay">
-                            <p>
-                                (Contacted by Don Whitney.)
-                                <br />
-                                "Theresa (Terry) Ciambrone, wife of former AFTAC Vice commander and building name sake Col Thomas (Tom) Ciambrone (deceased) passed away 11 May 22 after a brief stay in the hospital."
-                                <br /><br />
-                                Personal Note: As the Col neared retirement, 1987, there was a groundswell of enlisted support to honor he and Terry for what they meant to the enlisted women and men of AFTAC. To my knowledge, Col Ciambrone was the only Headquarters Officer ever celebrated as an Honorary CMSgt and Terry the only CMSgt's Mate!! Chiefs from around the AFTAC World were there to participate in an official ceremony and all AFTAC enlisted invited to a congratulatory event after. 
-                             </p>
-                        </div>
-                    </article>    
-                
-                    <article>
-                        <div>
-                            <h2 id="RobbirdsH2" class="obitH1">James Robbirds - 3/2/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="RobbirdsPara" class="obitPara noDisplay">
-                            <p>
-                                (Contacted by Walt Hartley passing along information from Chip Reed.) 
-                                <br /><br />
-                                Walt, Chip, thanks for thinking of fellow Sages in sharing and sending this for further notification. I don't think much was published on Jim, all I can find: 
-                                <br /><br />
-                                James Timothy Robbirds, 74, of Defuniak Springs, Florida passed away Wednesday, March 2, 2022.
-                                <br /><br />
-                                Jim is in our Master Database. He was not a member of the association nor signed up for correspondence. 
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="WileyH2" class="obitH1">Judith Wiley</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="WileyPara" class="obitPara noDisplay">
-                            <p>
-                                (Contacted by Tony DeMarco passing along information from John Caban)
-                                <br /><br />
-                                I checked with Bob Wiley to see how he was doing as we have not heard anything from him, and he has not been to any of our recent Alumni Meetings or the 2022 WWR events.
-                                <br /><br />
-                                Bob told me his wife Judith has passed, and he has been dealing with that.
-                                <br /><br />
-                                Right now, no additional information is available, we will update as we learn more.
-                                <br /><br />
-                                Personal Note: Thank you, John and Tony. It's so important we keep track of each other now. I will try to call Bob today. I worked for Bob as Satellite Superintendent and knew Judith from Social Events. 
-                                <br /><br />
-                                NOTE: Additional information will be sent as received. 
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="SmithH2" class="obitH1">Samuel Lebron Smith - 5/1/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="SmithPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Smith.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Smith.png"/>
-                                Samuel Lebron Smith, of Soddy Daisy, Tennessee, passed away peacefully at his home on May 1st, 2022.  He was 72.
-                                <br /><br />
-                                Samuel was born in Daisy, Tennessee. He was very active young man, and served 10 years in the United States Air Force. Sam loved to paint and was an avid poet.
-                                <br /><br />
-                                Samuel is preceded in death by his parents, Claude and Elizabeth Smith.  He is survived by his wife of 21 years, Teresa Smith and his biological daughter, Honey Lynn Smith. Sam had a love for children so much that he raised many step children. Sam leaves behind several grandchildren and great-grandchildren that all loved him very much.   
-                                <br /><br />
-                                The family will host a private burial at Varner Cemetery on Monday, May 9th at 1:00 p.m.
-                                <br /><br />
-                                Condolences and memories can be shared at <a href="www.williamsonandsons.com" target="_blank">Williamson and Sons</a>.
-                                <br /><br />
-                                Arrangements are by Williamson and Sons Funeral Home, 8852 Dayton Pike, Soddy Daisy, TN 37379.
-                                <br /><br />
-                                To send flowers to the family or plant a tree in memory of Samuel Lebron Smith, please visit our floral store.
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="MarcusH2" class="obitH1">Donald Marcus - 5/4/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="MarcusPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Marcus.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Marcus.png"/>
-                                With deep regret, I must report that our beloved Donald passed away on May 4th at 6:00 PM. He was a devoted husband and father. Services will be held at Audubon Funeral Home Monday May 9th from 1030 AM with chapel services at 12:30 PM. He will be buried with full military honors following at Southeast Louisiana Veterans Cemetery at 1:30 PM. He will be missed by his beloved family and friends.
-                                <br /><br />
-                                Martha later added:<br />
-                                Lt. Col Donald R. Marcus, of Slidell, Louisiana, passed away on May 4, 2022 at the age of 87. He was a native of Birmingham, Alabama, born on March 4, 1935 to his loving parents, the late Kathrine Lucile Keith and Aubrey Renfroe Marcus. Donald is the beloved husband of 67 years to Martha Forbus Marcus; proud father of Donna Marcus Jones and Beverly Marcus Jones (Randal J. Jones); proud grandfather of Theresa Marie Jones, Tonya Jones Williams, Tina Jones Ritchie (Shane Ritchie), and Jaquelin Jenae Talbert; great-grandfather of Jamie Heston, B.J. Heston, Eric Zanco II, Zoey Goodeaux, Payton Keyes, Brandon Ritchie, Michael Ritchie, Kaitlyn Ritchie, and Abigail Ritchie; caring brother of the late Charles Ronald Marcus; uncle of Villeta Linton, Kelly Marcus, and David Marcus; cousin of Jeanne Salvago (daughters, Jessica and Johnica); and brother-in-law of Terry Marcus Long. Donald earned a Bachelor of Science degree from Howard College and a Master of Business Administration degree from Florida Institute of Technology. He retired from the United States Air Force, where he received many recognitions for his service including the Bronze Star, AF Commendation Medal with one oak leaf cluster, Meritorious Service Medal with two oak leaf clusters, and Republic of the Vietnam Campaign Medal. Donald taught courses at both Phillips Jr. College and Louisiana Technical College. He enjoyed fishing and golf in his spare time but treasured nothing more than the time he spent with family and friends. Donald will be greatly missed by all who knew and loved him. Relatives and friends are invited to attend a visitation on Monday, May 9, 2022 from 10:30 a.m. to 12:30 p.m. at Audubon Funeral Home in Slidell. A funeral service will begin in the chapel at 12:30. Donald will be laid to rest in the Southeast Louisiana Veterans Cemetery at 1:30 p.m. Memories and condolences may be expressed at <a href="http://AudubonFuneralHome.com" target="_blank">Audubon Funeral Home</a>
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="CwiklaH2" class="obitH1">Jim Cwikla - 4/24/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="CwiklaPara" class="obitPara noDisplay">
-                            <p>
-                                (Contacted by Ed LIndsay passing along email from Mike Stiewig.)
-                                "Apr 21, 2022, want to let folks know Jim Cwikla passed this morning.  He had cancer and had been failing. Not sure of the arrangements, but will pass that info on when I get it."
-                                <br /><br />
-                                Mike later added information of interest: "Jim was indeed a hell of a hand.  I was stationed with him for a few months at 423 in 75/76 (my first assignment). I have to admit he didn’t seem to trust my rookie capabilities too much back then, had me doing corrosion control pretty much solid…”if it doesn’t move, paint it!” Jim retired to Mesquite, NV, 8-10 years ago. He’s being cremated and I don’t believe there’s going to be any kind of service per se. His daughter is writing up an obit and I’ll pass it on with any other details when I get them."
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="CosnerH2" class="obitH1">Dale Cosner - 3/17/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="CosnerPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Cosner.png" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Cosner.png"/>
-                                "With sad news I inform you of the passing of a fellow airman, Dale Cosner, Dale was stationed at McClellan in the depot, he worked in Pickup and Delivery from 1969-1973. The following email was received from his daughter."
-                                <br /><br />
-                                --Hi John,  this is Denise Cosner, dale’s daughter. I unfortunately have to let you know that dad passed away on 3/17. 3 of us kids were able to be there with him at the end.
-                                <br /><br />
-                                He was admitted on 3/6 with breathing issues again. Not sure if you knew he had been inpatient in early January for pneumonia and I think his lungs were just never really better.
-                                <br /><br />
-                                Click <a href="https://www.becksfuneralhome.com/obituaries/Dale-Edward-Cosner?obId=24330741#/obituaryInfo" target="_blank">here</a> to see obituary.
 
-                             </p>
-                        </div>
-                    </article>             
-  
-                    <article>
-                        <div>
-                            <h2 id="RedlinH2" class="obitH1">Geraldine Redlin - 2/10/2022</h2>
-                        </div>
-                        <div class="clear"></div>
-                        <div id="RedlinPara" class="obitPara noDisplay">
-                            <p>
-                               <img alt="Redlin.jpg" class="floatLeft width25 maroonBorder showShadow rightMargin1em" src="_Photos/ObitPics/Redlin.jpg"/>
-                                Geraldine "Gerry" Linda Redlin, 85, of Aurora, Colorado, passed away on February 10, 2022, after a long hard-fought battle with Alzheimer's. Gerry was born on February 12, 1936, to Robert Frank Holland and Dorthey Virginia Holland (Burgoon) in Midway, Pennsylvania. After graduating from high school in 1954, she enlisted in the Air Force. Where she met the love of her life and they wed in 1955 going on to have three
-                                children, Jeffery, Brenda, and Valerie. When Gerry had Jeff, she decided to dedicate her life to being a fantastic and wonderful mother. She was very involved in the Girl Scouts for several years. Not only was she a troop leader but she also spent time helping at summer camps here in town and in the mountains. She spent over ten years working as an orthodontist assistant before moving to Texas. After returning to Colorado, she was an active member of her church and when she wasn’t filling her home with warmth and kindness, she could be found setting an example for other women to follow in volunteering their service.
-                                We will miss her greatly. Gerry was predeceased by her daughter Valerie Ann, Parents Frank and Dorthey Holland, Sisters Joy, Patty, and Brother Dale. She is survived by her husband Hugo, Jeffery and spouse Debra (Trask), Brenda and spouse Howard (Thurston), Grandchildren Christopher Redlin and spouse Amy (Altom), Ashley Redlin,
-                                Chad Thurston and Courtney Thurston, Grand Stepchildren Cody Trask and Spouse Sara (Williams) and Levi Trask and spouse Sheridan (Taylor), Great-grandchildren Carlie and Brandtley Thurston, Austyn, Christian, and Lane Redlin and Great Grand Stepchildren Landon Trask, Sophia Trask, Mia Williams and Emily Bounds (Redlin). The family requests that in lieu of flowers a donation to your favorite charity or to the Alzheimer's Association would be greatly appreciated. There will be a celebration of life for Gerry held on Saturday, March 19, 2022, 10:00 am at St. Mark's Lutheran Church, 111 Del Mar Circle, Aurora, Colorado
-                                80011.
-                                <br />
-                                V/R,
-                                Bryce Dunn President, Colorado AFTAC Alumni Association
-                                <br /><br />
-                                Click <a href="https://www.newcomerdenver.com/Obituary/211758/Geraldine-Gerry-Redlin/Denver-CO" target="_blank">here</a> to go to Gerry's obituary.
-                                <br /><br />
-                                NOTE: Additional information will be provided upon receipt and will be posted at the Alumni Website and published in the Post-Monitor. 
-                             </p>
-                        </div>
-                    </article>             
-  
+                <article>
+                    <div>
+                        <h2 id="PierceH2" class="obitH1">Earl C. Pierce - 12/29/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="PiercePara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Pierce.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Pierce.png" />                            
+                            Earl Carroll Pierce passed away peacefully on December 29, 2022, in his home surrounded by family. He was 90.
+                            <br /><br />
+                            Earl was a loving husband, father, grandfather, great grandfather and friend. He was also a 20-year veteran of the United States Air Force, athlete, coach, sports fan, traveler, volunteer, outdoorsman and dog lover.
+                            <br /><br />
+                            Earl was born November 2, 1932, in Farmville, NC, to Raymond Pierce and Bernice (Tucker) Pierce.
+                            <br /><br />
+                            His mother passed away when Earl was seven. His father could not take care of the children by himself so he decided to send Earl and four of his siblings to the Methodist Home for Children in Raleigh, NC. Earl said that was the best thing his dad ever did for him and his brother and sisters.
+                            <br /><br />
+                            Earl loved the Children’s Home. He enjoyed going to school, farm work, chores, and the lifelong friends he made. He excelled at every sport in which he participated, whether it was football, basketball, baseball, track or tennis. His basketball coach was a young recent college grad named Norm Sloan, who later coached North Carolina State and David Thompson to the 1974 NCAA basketball championship. It was Stormin’ Norman Sloan who gave Earl the nickname “Hook” because of his deadly hook shot.
+                            <br /><br />
+                            Earl was offered a partial basketball scholarship to Louisburg Junior College in North Carolina. After a year at college, Earl decided to enlist in the newly formed Air Force. While in the Air Force, Earl attained a Bachelor’s Degree from the University of Maryland.
+                            <br /><br />
+                            Earl was deployed to Bremerhaven, Germany, where he met the love of his life, a pretty young German mädchen named Marianne (Riel). The young couple married on July 6, 1956. Earl and Marianne were sent stateside to Youngstown, Ohio. Then Earl received orders to go to Tachikawa Air Force Base in Japan. It was there that the young couple became a young family. Son David came along followed by daughter Brenda.
+                            <br /><br />
+                            The family’s next transfer would eventually be their lifelong home. Earl received orders to teach Special Instruments at Lowry Air Force Base in Denver, CO. They purchased their forever home in Aurora, CO, in 1962. In 1967, Earl and family transferred to Alice Springs, Australia, where the small detachment “listened” to the Soviet Union testing atomic bombs. His job was top secret, so he told his children that alligators guarded the entrance to his building.
+                            <br /><br />
+                            The family transferred back to Lowry AFB in 1969, where they continued to live in their home in Morris Heights. Earl retired from the Air Force in 1972 as a Tech Sargent after “20 years and two days.”
+                            <br /><br />
+                            Post military retirement, Earl enjoyed a successful career with the Denver Urban Renewal Authority, which helped the resurgence of downtown Denver in the late 70s and early 80s. He also held various management positions in the loan industry before officially retiring.
+                            <br /><br />
+                            Post retirement, he worked at a driving range and continued to coach youth sports. Earl loved playing golf and long walks with his dog Gina.  He and Marianne enjoyed going to Blackhawk and traveling, especially ship cruises to far off lands. They were also active in Democratic Party politics, as well as volunteers for the Morris Heights Improvement Association. Earl was also active in the Air Force Technical Applications Center (AFTAC) Alumni Association.
+                            <br /><br />
+                            Earl coached youth sports throughout his adult life. Even up to a few years ago, Earl coached youth basketball. He was a diehard Broncos, Rockies and Nuggets fan. He and Marianne have held Bronco season tickets since 1970. They were among the original infamous South Standers. He went to Super Bowls with Marianne and also dear friends across the street, the Houstons.
+                            <br /><br />
+                            He loved spending family time. Vacations, camping, river rafting, attending ball games, recitals or even just hanging out playing board games. Even after a hard day at work, Earl was always ready to throw a ball or wrestle his children on the living room floor. 
+                            <br /><br />
+                            As his children grew into adulthood and began families of their own, Earl helped them with guidance, advice and friendship.
+                            <br /><br />
+                            He always told David and Brenda that he wanted to be a better dad than his dad. He succeeded a million times over.
+                            <br /><br />
+                            In addition to his wife Marianne, son David (Donna) and daughter Brenda (Michael), Earl is survived by grandchildren Christopher, Michelle (Andrew), Lauren, and Matthew (Ginger) and great grandchildren Graham and Maren.
+                            <br /><br />
+                            He is also survived by sisters Eleanor (George), Shirley and Mae.
+                            <br /><br />
+                            He was preceded in death by his father and mother, brother William, and sisters Mary, Barbara, Audrey, and Margaret.
+                            <br /><br />
+                            In lieu of flowers, the family requests donations to the Denver Dumb Friends League (where Earl found his beloved Gina) and/or the Methodist Home for Children in Raleigh, NC, in his name.
+                            <br /><br />
+                            <span class="underLine maroonText fontSize1_Halfem">Services</span><br />
+                            <span class="underLine maroonText">MEMORIAL SERVICE</span>
+                            Thursday
+                            January 26, 2023<br />
+                            10:00 AM<br />
+                            Horan & McConaty - Aurora<br />
+                            11150 East Dartmouth Avenue<br />
+                            Aurora, CO 80014<br />
+                            <a href="https://www.google.com/maps/place/11150+E+Dartmouth+Ave,+Aurora,+CO+80014/@39.6601407,-104.8573271,17z/data=!3m1!4b1!4m5!3m4!1s0x876c87e5df34efb3:0xd3256d47c964296d!8m2!3d39.6601407!4d-104.8551384" target="_blank">Direction to Memorial Service</a>
+                            <br /><br />
+                            <span class="underLine maroonText">MILITARY HONORS</span><br />
+                            Thursday<br />
+                            January 26, 2023<br />
+                            2:15 PM
+                            <br /><br />
+                            <span class="underLine maroonText">Fort Logan National Cemetery- Staging Area C</span><br />
+                            3698 S Sheridan Blvd<br />
+                            Denver, CO 80235<br />
+                            <a href="https://www.google.com/maps/place/3698+S+Sheridan+Blvd,+Denver,+CO+80236/@39.6497707,-105.0530671,17z/data=!3m1!4b1!4m5!3m4!1s0x876b801e10edeeb7:0x2b8f6e7b5693beaa!8m2!3d39.6497707!4d-105.0508784" target="_blank">Directions to Cemetery</a>
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2 id="ShaderH2" class="obitH1">Rita Jean Shader - 11/9/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="ShaderPara" class="obitPara noDisplay">
+                        <p>
+                            Rita Jean Shader, 74, of Hendersonville, NC, died Wednesday, November 9, 2022.<br />
+                            A native of Hoboken, NJ she is the daughter of Christina Sabella and the late Duilio Sabella.
+                            Having lived in Melbourne, FL before moving to Hendersonville, she was a church secretary and a supervisor of elections analyst for Brevard County, FL.  Rita was a member of Mills River Presbyterian and the Iona Community Scotland.  She enjoyed cooking, sewing, reading, crocheting, volunteering, Scottish and Celtic culture, newsletter editor, and tap dancing.
+                            In addition to her mother, she is survived by her loving husband of 50 years, Richard Shader; two daughters, Jennifer Richard (Michael) of Wellford, SC and Amy Slaven (Geoff) of Hendersonville, NC; six grandchildren, Michael Richard (Jennifer), Nick Richard, Kristof Weiss (Kim), Bradley Weiss, Joseph Richard, and Morgan Slaven; two great-grandchildren, Hayden Richard and Logan Richard; and a brother, William Sabella (Dora) of Chester, NY.
+                            A memorial service will be held at 3:00 PM on Sunday, December 4, 2022 at Mills River Presbyterian Church in Mills River, NC with Rev. Megan McMillan.
+                            Memorials may be made to: Mills River Presbyterian Church, 10 Presbyterian Road, Mills River, NC 28759.
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2 id="PoundH2" class="obitH1">Donna Pound - 11/7/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="PoundPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Pound.png" class="floatLeft width30 rightMarginHalfem maroonBorder showShadow" src="_Photos/obitpics/Pound.png" />                            
+                            OBITUARY<br />
+                            Donna Lee Pound<br />
+                            NOVEMBER 9, 1941 – NOVEMBER 7, 2022<br />
+                            Obituary of Donna Lee Pound<br />
+                            IN THE CARE OF<br />
+                            Life Event Center at Florida Memorial Gardens<br />
+                            Donna Lee Pound, born November 9th, 1941 and passed away November 7th, 2022.<br />
+                            She was preceded by her husband of 52 years Galen W. Pound.
+                            <br /><br />
+                            Donna is survived by her daughters Renay and Jeff Crouse, Colene Hewitt and Tammy and Duane Bond. She has six grandchildren Amanda and Matt Rinehart, Sabrina Hewitt, and Katlin, Randy and Rachel Bond; also 5 great grandchildren Paige and Annabelle Underwood, Serenity White, Thomas Bond and Malechkai Hagar.
+                            <br /><br />
+                            Donna attended Pineda Presbyterian Church and enjoyed her many jobs over the years. Donna enjoyed crocheting, reading and cruising. She was so loved by family and friends and will be sadly missed.
+                            <br /><br />
+                            A visitation for Donna will be held Sunday, November 13, 2022 from 6:00 PM to 8:00 PM at Life Event Center at Florida Memorial, 5950 S US Highway 1, Rockledge, Florida. A funeral service will occur Monday, November 14, 2022 from 10:00 AM at Life Event Center at Florida Memorial.
+                            <br /><br />
+                            Fond memories and expressions of sympathy may be shared with the Pound Family by clicking <a href="http://FloridaMemorialFH-Gardens.com" target="_blank">HERE</a>.
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2 id="WilliamsonH2" class="obitH1">Gail Marie Williamson - 10/16/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="WilliamsonPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Williamson.png" class="floatLeft width30 rightMarginHalfem" src="_Photos/obitpics/Williamson.png" />                            
+                            Gail Marie Williamson, 85, of Wisconsin Rapids, WI, passed away Sunday, October 16, 2022. Gail passed at home holding the hand of her husband of 66 years, Donald "Donnie" Williamson. At her bedside were the greatest joys of her life, her three children, Willie, Mike and Kelley.
+                            <br /><br />
+                            Gail was born on May 19, 1937, in Wisconsin Rapids, the daughter of Edward and Beatrice Krzykowski. Gail was predeceased by her brothers Ronald and Lawrence ("Babe"), and is survived by her brother James (Beverly) Krekowski of Wisconsin Rapids.
+                            <br /><br />
+                            A St. Mary's and Assumption alumna, Gail married her husband, Donnie, on August 25, 1956. The next 23 years of her life were spent as a United States Air Force wife and mother. Gail and Donnie left Wisconsin Rapids for Cape Cod, MA, then moved on to Denver, CO, next to Fairbanks, AK, and then back to Denver, CO. Gail and the three children spent 1970-71 back on Cape Cod while Donnie spent a year-long solo tour of service in the Fiji Islands. They reunited in Sacramento, CA from 1971-75, and then spent Donnie's last two years of service near Austin, TX. In 1977, Gail ended her career as an Air Force wife and mom when Donnie retired from the Air Force, and the family returned "home" to Wisconsin Rapids permanently.
+                            <br /><br />
+                            Over her adult life, Gail was a Red Cross nurse's assistant, a paper mill worker, a waitress, a cashier, and a den mother. She also knew how to play the "dad" role when Donnie was away serving our country, which happened often. She taught the boys to throw a baseball, made sure homework was done, and that curfews were obeyed. "Wait until your father gets home" wasn't an option for Gail. And, although she was good at most things she did, she was a superstar when it came to being a wife and mother. She loved her husband deeply and adored her children. She taught her whole family how to love and how to laugh until it hurt (in a good way). All three of Gail's children have been with their respective spouses in excess of 30 years.
+                            <br /><br />
+                            Gail was a woman of strong faith, and attended mass regularly at Our Lady Queen of Heaven Church, where she and Donnie were married. She loved her Green Bay Packers, the Milwaukee Brewers, and the Wisconsin Badgers, and enjoyed her extra dry gin martinis. One thing she was not fond of was Wisconsin Winters, which she and Donnie did their best to escape in their motorhome each year in their retirement.
+                            <br /><br />
+                            Gail is survived by her husband, Donald "Donnie" Williamson; oldest son, Donald "Willie" Williamson, his wife Julie Williamson, and their children, Donald Brandon Williamson and Cory Cae Williamson; her second son, Michael Williamson, and his husband, Otis Merry; and her daughter, Kelley (Williamson) Molitor, Kelley's husband Steve Molitor, their daughter Chelsea (Molitor) Massingill, and Gail's great granddaughter Alana Massingill.
+                            <br /><br />
+                            Gail is also survived by her sisters-in-law, Joan (Williamson) Johnson and Dolly Schmidt, and predeceased by her brothers-in-law, Charles Johnson and John Williamson.
+                            <br /><br />
+                            She will be missed by her many nieces and nephews. Her nephew and next-door neighbor Steve Krekowski and his partner Gene Marty, as well as her niece Lori Placek were a great comfort to the family in Gail's later life, helping with snow blowing, lawn mowing, medical visits, and dropping off countless baked goods and other treats. The family will be forever grateful to you.
+                            <br /><br />
+                            She will also be dearly missed by many close friends, including Marcine Amundson, Sally Parr, Ron and Bonnie Mancl, Al and Sherry Cleveland, and Clare and Monica Jenkins. The friends Gail leaves behind from traveling the country as a military spouse, and from spending winters motor-homing in Florida are too countless to list.
+                        </p>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h2 id="AnderholmH2" class="obitH1">Nordin Curtis Anderholm - 10/21/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="AnderholmPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Anderholm.png" class="floatLeft width30 rightMarginHalfem" src="_Photos/obitpics/Anderholm.png" />                            
+                            Nordin Curtis (Curt) Anderholm, Merritt Island. Passed away peacefully at Solaris Healthcare, in the morning hours on Friday, October 21st. Curt was 86 when he passed. In his last hours, he was surrounded by his family and the incredible caregivers from St Francis Reflections, and the nurses and staff at Solaris. 
+                            Curt will be remembered by his wife, Mary Lou, and his children, John Curtis (Beverly), Christopher Michael (Monica), and Mary Elizabeth Lucks (David). He was the beloved Grandfather too, Dylan, Callie, and Katie (John and Beverly), Megan and Rachel (Mary Beth and David), and Paige and Jacob (Chris and Monica). He was a Great Grandfather to Trey (Rachel). He was predeceased by his Father Fritz, Mother Agnes, his brothers Cecil and Fred, and his sisters, Florence, and Joy. He looks forward to seeing them again soon.
+                            Curt was born and grew up in Duluth, Minnesota. He went to college at the University of Minnesota Duluth, and it was there that he met his bride Mary Louise Blomgren, who was attending the neighboring St Scholastica College. They were married on August 9th, 1959. Upon graduation, Curt and Mary Lou moved to Evanston, IL, where Curt studied at Northwestern University and earned his Ph.D. in Nuclear Physics. While Curt was studying, Mary Lou was busy with their sons, John and Chris, who were both born in Evanston. After graduating, they moved their growing family to Albuquerque, NM where Curt went to work for Sandia Laboratories. Their daughter, Mary Beth was born there in 1964. He was proud that his work at Sandia, led to two US Patents. His career took him and his family from New Mexico to Washington DC and finally to Patrick Air Force Base, in Satellite Beach, Florida. They resided on Merritt Island.
+                            As a young man, Curt attained the rank of Eagle Scout. The lessons he learned in Scout’s taught him to enjoy spending time in the outdoors. He enjoyed camping, hiking, fishing, and sailing. He passed along his love of the outdoors to his family. He was an avid Brevard Manatees baseball fan and liked nothing better than to spend the afternoon or evening at the ballpark with friends cheering on the home team.
+                            Friends and Family will be received at Divine Mercy Catholic Church, at 1940 Courteney Pkwy Friday, November the 4th. Curt’s life will be honored with a Mass of Christian Burial at 11:00 AM. The family will greet guests prior to the service and a reception at the church will follow for all friends and Family.
+                            In lieu of flowers, donations to The Alzheimer’s Association would be greatly appreciated.
+                        </p>
+                    </div>
+                </article>
+                
+                <article>
+                    <div>
+                        <h2 id="PetersonH2" class="obitH1">Jesse LeRoy Peterson - 9/2/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="PetersonPara" class="obitPara noDisplay">
+                        <img alt="Peterson1.png" class="width95 maroonBorder autoMarginLeftRight" src="_Photos/ObitPics/Peterson1.png" />
+                        <img alt="Peterson2.png" class="width95 topMargin2em maroonBorder autoMarginLeftRight"  src="_Photos/ObitPics/Peterson2.png" />
+                    </div>
+                </article>             
+
+                <article>
+                    <div>
+                        <h2 id="WhitneyH2" class="obitH1">Janice (Jan) Whitney - 7/24/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="WhitneyPara" class="obitPara noDisplay">
+                        <p>
+                            Janice (Jan) Whitney, 80, passed away on Sunday, July 24, 2022, at her home in Satellite Beach, Florida. “Jan,” the oldest of five, was born in Detroit, MI to Marshall and Barbara Johns. The family moved to Liverpool, NY in the early 1960s where she met her eventual husband and life-long travel companion, Don Whitney. Soon after earning an Associate Degree at Cazenovia College, Jan and Don married. This began a life of travel as the wife of an Air Force Pilot, and later in life when they both retired. Guam, Alabama, Japan, California, Illinois, Virginia, Mississippi, and Hawaii were among the places they lived before settling in the Space Coast. Once she settled in Florida and emptied the nest of her three sons, Jan earned her real estate license and began selling homes – becoming a million-dollar seller for Coldwell Banker Realty and managing the Melbourne office. Jan is survived by her husband Don, her three sons and their spouses: Brad (Jill), Dean (Julie), and Todd (Heidi), and by her seven grandchildren. She also leaves her four siblings and their spouses: Marsha (John) Charles, Bud (Marlene) Johns, Gary (Debbie) Johns, and Cheryl (John) Potts. Jan’s engaging personality and infectious laugh will be missed by family, friends, and all the people she would always stop and talk with in random situations. Funeral services will be held on Friday, August 5th at Beach Funeral Home, 1689 S. Patrick Drive, Melbourne, FL. A viewing will take place 11:00AM -1:00PM with formal services starting at 1:00PM. Following the service, the Whitney family will welcome friends at the Tides Club at Patrick Space Force Base,1001 North Highway, A1A S Atlantic Ave. While flowers are welcomed, expressions of sympathy in Jan’s memory can also be made to the Bladder Cancer Advisory Network (BCAN.org).
+                        </p>
+                    </div>
+                </article>
+                
+                <article>
+                    <div>
+                        <h2 id="KimballH2" class="obitH1">Earl Jack Kimball - 3/30/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="KimballPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Kimball.jpg" class="floatLeft width25 rightMarginHalfem maroonBorder" src="_Photos/ObitPics/Kimball.jpg" />
+                            We are sad to announce that on March 30, 2022 we had to say goodbye to Earl Jack Kimball of Greenville, Texas, born in Grand Haven, Michigan. Leave a sympathy message to the family in the guestbook on this memorial page of Earl Jack Kimball to show support.
+                            He was predeceased by : his parents, Everett Kimball and Irene Lyons; and his wife Wanda Parker. He is survived by : his children, Darrell Kimball (Brenda), Joe Kimball (Vickie) and Debby Maddox (Jim); his sister-in-law Joy Galbraith; his grandchildren, Christopher Maddox (Kristin), Sean Miller (Karen), Stacey Gallien (Kevin), Nicole Frahm, Carrie Luna (Adam), Matthew Kimball (Ashley), Krystal Kimball, Billy and Jessica Kimball; and his close friend Eileen Jenkins. He is also survived by 12 great grandchildren, 4 great-great grandchildren.
+                            In lieu of flowers, please make donations to: Caddo Mills Eastern Star, Re: Wanda Kimball Benevolent Fund, 7 Meadow Lane, Greenville, Tx 75402.
+                        </p>
+                    </div>
+                </article>     
 <%--                    <article>
                         <div>
                             <h2 id="SummersH2" class="obitH1">Richard Summers - 3/9/2022</h2>
@@ -12957,8 +12848,8 @@
                                 <br /><br />
                                 John Horsch
                              </p>--%>
-                        </div> 
-                    </article>            
+            </div> 
+        </article>            
   
   
         <article id="archivedObitsArt" class="myArts noDisplay">

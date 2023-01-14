@@ -1466,6 +1466,9 @@ $(document).ready(function () {
             case 'PierceH2':
                 ShowMyObit('Pierce')
                 break;
+            case 'ShaderH2':
+                ShowMyObit('Shader')
+                break;
             case 'PoundH2':
                 ShowMyObit('Pound')
                 break;
