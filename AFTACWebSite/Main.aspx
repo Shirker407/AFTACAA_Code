@@ -632,6 +632,81 @@
             </section>
         </article>        
         
+        <article id="becoming99Art" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">Becoming a "99"</p>
+            <p>
+                An autobiographical sketch of the mystique of beginning a ‘99125’ career.
+                <br /><br />
+                By Michael P. Clark, AFTACer:  active duty 1969 – 1994, and ’99 forever (Once a ’99, always a ’99).<br />
+                From “B-technique, the early days”, Original author unknown:
+                <br /><br />
+                In the beginning<br />
+                They created the Seismic Technique<br />
+                And They said, “Let there be motion!”<br />
+                And there was motion<br />
+                And They said, “Let there be phases!”<br />
+                And there appeared a multitude of phases<br />
+                And They saw amongst the multitude<br />
+                Peep, Emerge, Shear, Bounce, Reflect, Score, Prism, Rebound, Transform, Love and Rayb
+                And They said, “Let there be airmen dedicated to monitor Heaven and Earth for nuclear tests!”<br />
+                And there appeared technical giants dispersed throughout the good Earth installing, maintaining, and operating equipment and analyzing the motion and phase data 24 / 7, immediately reporting anomalies to Them<br />
+                And They saw that the giants were ‘99s<br />
+                And They were pleased.
+                <br /><br />
+                In 1969, I was a sophomore at SUNY College of Forestry, Syracuse N.Y., studying chemistry.  World events of the late ‘60s weighed heavily on my mind, and I chose to fulfill my military obligation by enlisting in the Air Force, with the idea of coming back to school after 4 years of serving the country.  I talked to the recruiters, took the battery of tests, and found I placed near the highest percentile of scores.  I didn’t have a specific goal for a career field at that time, but the recruiter told me that I could qualify for virtually any I might choose.  There were 4 categories of career fields in those days, Administrative, Mechanical, Electronics and General.  I was most interested in Electronics as I perceived that to be the most ‘science-based’ category.  I asked for missile electronics but was open to any of the electronics fields.  
+                <br /><br />
+                I enlisted via the Delayed Enlistment Program in April 1969 and was called to report to Basic training at Lackland AFB in mid-May.  
+                As my brother Bob was previously enlisted in the Air force, his career field was munitions, he gave me the low-down on what to expect at Basic training, what the MTIs would look for, what to avoid doing, and how to succeed.  His overview was spot-on.  6 weeks of basic went by rapidly, starting with the first morning 04:30 AM ’30-gallon steel-trash-can-and-lid-crashing-down-the-middle-of-the-bay’, and the wake-up call of our Military Training Instructor SSgt Rabalais screaming ‘G’DAMIT!!  GET UP!!  Our entire basic flight instantly got the message and bailed out of the bunks, hitting the floor at our best guess of ‘Attention!’ 
+                <br /><br />
+                The normal basic training scenario followed, from the end of the ‘rainbow’ status with uniforms and buzzcuts, to immunizations, to learning marching and all the sundry military things that Basic teaches.  
+                <br /><br />
+                Sometime near the third or fourth week our flight #775, plus what seemed to be several other flights, were marched to an auditorium seating about 200 of us for a career briefing.  Each of us was handed our copy of the security paperwork we had filled out prior to arriving at Basic.  The instructor at the front of the stage walked everyone through the forms and drilled into us that each item had to be filled out precisely, or we could remain in Basic for the rest of our lives because we either would never get a security clearance to qualify for tech school or be relegated to some ‘weeds and seeds’ direct duty assignment.  At the top of each airman’s form was a 3-digit number printed in magic marker that the instructor told us was the Air Force Specialty Code (AFSC) for the job tech school for which we were being considered.  The instructor read a list from his sheaf of papers, telling the code number, then what the job was.  “207, Intelligence specialist. 304, electronic equipment repair.  461, munitions handler. 702, Administrator.  732, Personnel specialist. 811, Security Police.” And so forth, and so forth.  When he reached the end of his list, he asked “Does anyone have a code that I didn’t list?”  I looked down at my form, and saw ‘991’, which he hadn’t listed. Another airman in the front of the auditorium raised his hand and asked, “Sir! What about ‘991’?  
+                <br /><br />
+                The instructor stood frozen and silent for a good 20 seconds, which focused the entire room’s attention and silence.  Was he stumped by some Airman Basic?  
+                <br /><br />
+                He slowly said, “How many of you have ‘991’ on the form?” About 4 of us in the full auditorium raided our hands. “99125 is a Reporting Identifier, not an AFSC. All we can tell you about ‘99125’ is that it is a very specialized career field called ‘Special Electronics Technician’. You are specially selected for it by the Air Force.  Other than that, all I can tell you is that if you are selected for ‘99125’, when you graduate Basic training, we put you on an airplane to Denver Colorado and Lowry AFB, and we will never see you again”.  
+                <br /><br />
+                I could feel all the eyes in the room looking around to see who had this ‘991’ on their form, as if witnessing the condemned being sentenced to disappear from the face of the Earth.  I could feel what little hair I had on the back of my neck trying to stand up.  What did I get myself into?  Then I remembered the instructor had said, ‘Special Electronics Technician’ and thought “This could be interesting!”  I apparently had somehow qualified for and was selected by the Air Force for something rare.  It was apparently an electronics job, which is just what I was looking for.  
+                <br /><br />
+                Near the end of Basic training, assignments were posted for each of us for our follow-on tech schools or direct duty assignments.  A few of us were relegated to ‘AFI’, or ‘Awaiting Further Instructions’.  I was told that I would be interviewed within the next couple of weeks for this ‘991’ job.  In the interim I would be assigned to general purpose Lackland AFB details and duties following Basic graduation until the interview and final selection or non-selection for the job.   After about a week and a half, I was notified that I was to report to my interview with a Captain Booton. After six weeks plus of basic training, plus a week and a half of AFI, I was very surprised and a little intimidated to be reporting directly to a captain.  After all, we had been put through all kinds of stress during Basic with the most senior ranks being at the MSgt NCO level, with virtually no direct interaction with the officer corps.  
+                <br /><br />
+                At the appropriate time and place, after I had done several rehearsals to hone my crispest and most military reporting technique, I reported in for my interview with Captain Booton. Saluting, “Airman Clark reports as ordered sir!”. He immediately offered a smile and handshake, and said, ‘Hello Mike, how are you doing?  I’m Harley Booton from Detachment 057, Lowry AFB Colorado.  Please have a seat, relax, and let me tell you a little about the job for which you are a candidate”. 
+                <br /><br />
+                He then gave me a short briefing, stating that the job was electronics and science based, highly classified, and heavily overseas imbalanced. The tech school was at Lowry AFB in Denver, Colorado, and lasted up to 48 weeks. The first several weeks were electronics fundamentals, followed by the actual classified technique school and final assignment. After an overseas assignment, I would be rotated back to the ‘States, possibly to the Washington DC area, or California. I was being considered for ‘U’ technique training, one of many operational techniques. Some of the overseas locations were remote, and I would be operating and maintaining the equipment, and analyzing data to report immediately to higher headquarters for a mission of great national importance.  The job often involved shift work, and evening and midnight shifts were sometimes single-manned, so a great deal of responsibility was placed on the operator. “And, just to put your mind at ease, we have no stations in Vietnam, but most of the stations’ locations are classified”.  He mentioned that my records had been carefully screened and he considered me an excellent candidate. He said that If I felt the job’s not right for me, that’s OK.  I could pick one of the other electronics jobs he had on a list, and I would be on my way shortly to another tech school where he said he was sure I would do very well. In closing, he asked, “Would you consider accepting the job?”  
+                <br /><br />
+                I was still pleasantly surprised that an officer was interacting with me like a person instead of just another low-life single-stripe Airman and was asking my permission to be assigned to this special electronics technician job. My head was reeling a bit from all the information, but from what the captain had just told me, it sounded like the dream job for me!  I told Captain Booton that I appreciated his briefing and was willing to accept the job offer.  He said “Great!  We will get some orders cut, and you will be on your way to Lowry shortly. Thank you, Airman Clark”. He again shook my hand, told me that we were finished. I saluted, did a snappy about-face, and left the office.
+                <br /><br />
+                A few days later, I was notified that I was to attend an out briefing for PCS.  I was given my set of orders and blue-bussed to the San Antonio airport with a contingent of other airmen heading to Lowry.
+                <br /><br />
+                Our flight was diverted to Colorado Springs due to a strong thunderstorm near Denver, causing a few hours’ delay in our arrival.  During the short bus ride from Denver’s Stapleton airport to Lowry, an airman with a yellow ‘rope’ on his fatigue uniform shoulder (a student airman leader as we later learned) started haranguing us about how although we were no longer in Basic, we would still be under his total control no different than a basic trainee at Lackland. We were all heading to the Personnel Awaiting Training Squadron (PATS) where we would be waiting for several weeks before our technical training squadron would notify us of our class start date. One of the other 991s on the bus spoke up and said we had orders to start school on July 16, about one week away. The ‘rope’ just laughed and said that those dates were only estimates. He was the one in charge here! The outspoken wise guy that questioned him was now on his bad side and was going to get the worst details. We were just dirt since we were not yet in tech school, and we would be doing every dirty base detail he could find for weeks until the school called to let us in.  He seemed to enjoy doing his best imitation of a hard-ass MTI, but he still only had one stripe like all the rest of us.  
+                <br /><br />
+                Upon arrival at Lowry, we were herded into an auditorium where a SSgt called out names and told us where to report for our barracks that evening.  After almost all the other airmen had been called, there were still about 5 of us left.  “Who are you guys”? the SSgt asked.  He asked to see copies of our orders and saw that we were supposed to be going across base to the 3420 school squadron. He called the squadron orderly room, but as it was after duty hours, no one was there to receive us.  “OK you guys, you will be staying in PATS overnight, then tomorrow morning someone from your squadron will come to get you”.
+                <br /><br />
+                Naturally, we all got assigned to the hard-ass rope’s barracks for our overnight stay.  He tried his best to make us fear his every whim but, as it was getting late, and lights-out was imminent, we were mostly left alone with a promise that tomorrow morning we would be in trouble.  Virtually all the other barracks residents seemed completely intimidated by this guy.  The next morning, we 5 were ordered to wipe down and polish the barracks center aisle with our towels and make the floor shine, ready for inspection.  A few minutes after we started, the SSgt from the evening before called us out to the parking lot, told us to get our stuff, and get on the blue bus to go to our squadron. The ‘rope’ saw us return to the barracks and immediately asked us where the hell we thought we were going.  We replied that we were assigned to the 20th squadron.  He then visibly paled and backed off, only saying, “Oh… then get your s#%t and get out of here now!”.  As we found out later, there were two 20th squadrons on base, 3420 (ours) and 3320.  Almost no one on base knew anything of the low profile 3420 school squadron. The more well-known 3320 squadron was the holding squadron for airmen in trouble, those about to be jailed or discharged for various forms of misconduct, such as fraud, assault, murder, or other unsavory activities. The ‘rope’ apparently believed that our group of five 991s were axe murderers or some such being jailed and sent on to Leavenworth. He was probably thanking his lucky stars that he survived the previous night unscathed, wanting no part of us any longer!  Of course, as we left his barracks, we scuffed our way down the freshly polished center aisle, dragging our duffel bags on the way out. Nary a peep out of the ‘rope.
+                <br /><br />
+                We got on the bus and saw another yellow ‘rope’ already on board.  Great.  Another junior MTI-wannabe Hitler.  As the bus pulled away, he introduced himself and immediately radiated collegial friendship.  He told us we were going across base to the best squadron on Lowry, that we would be treated like permanent party, and that that our First Shirt, SMSgt Southard was a great guy. We told him about the young Hitler we just endured, and he rolled his eyes and said that was par for the course in PATS. They apparently told the ‘ropes in PATS, and they believed it, that yellow ropes were the equivalent of staff sergeants, and red ropes were the equivalent of second lieutenants. That didn’t happen in our squadron. Ropes were just ordinary students selected primarily to help manage the classes and flights as we marched to and from school. 
+                <br /><br />
+                We were in briefed by SMSgt Southard, SSgt Davenport the squadron MTI, and the Admin staff.  We were told that our squadron had a certain independence from the rest of the base and kept a low profile. Only a few senior people on the base knew what we did for a living and the base knew to leave us alone. We were not to talk about or repeat anything to anyone we might hear regarding our mission.  We would first be attending electronics fundamentals and other classes organized and taught by other 991s, not the base instructor pool. Our barracks were exclusively the 20th squadron, unlike other dorms on base, and everyone in our barracks was a ‘991’ trainee. 
+                <br /><br />
+                Our class consisted of myself, Bill Buckingham, Tom Lloyd, Charlie Lamb, Ralph Porter, Larry Porter, Sam ‘Snuffy’ Smith, Van Hodgkin, Paul Stack, and Bill Jones.  Our ‘Fundies’ instructor was Sgt Joe Kirk, a “Q” technique veteran, who treated us like college students not chattel.  Fundies consisted of blocks of basic electronics, DC and AC circuits, resistors, capacitors, inductors, transistors, vacuum tubes, etc. The last block of instruction was the practical exercise of each of us building our own oscilloscope from a box of parts and a schematic.  After our o’scope was built and tested, Sgt Kirk and some other instructors would escort us out of the training room, and then put ‘bugs’ into our creations that we had to find and fix.  It was a fun exercise, and a great practical learning experience!  We all passed.  At the completion of ‘Fundies’, we were given 2-weeks of leave as a break, then to return for our mission briefing and start the ‘U’ system ‘Sets’ training.  
+                <br /><br />
+                Our classified mission briefing day was filled with anticipation of finally finding out what our job was to be.  We had seen the detectors outside the training building #359, which we later knew to be ‘Z2’ tubs and ‘Q’ antenna dome igloos but had no idea of their purpose. Unfortunately, ‘Snuffy’ Smith’s final clearance was delayed by about a week, so he couldn’t join our class. He was picked up on the next class, which happened to be a ‘Q’ technique class. 
+                <br /><br />
+                To me, the (now declassified) global nuclear explosion monitoring job was totally fascinating.  They briefed us on not only the science and mission, but the station locations, and what all the other techniques did (‘A’ through Z2) and how they all worked together to provide the nation’s leadership critical and timely data.  ‘U’ was the very low frequency phase anomaly technique.
+                <br /><br />
+                Our class instructors were SSgts Carl Pacic and Pat Berner, both experienced ‘U’ troops. We went through all the technique theory and equipment in fine detail, also covering troubleshooting techniques. In addition to the analog VLF receivers, loop and whip antennas, cardioid units, strip chart recorders and sulzer oscillators, we were taught the ‘Type-2 U’, a new high sample rate digital equipment suite, and the DRFUD, Digital Recorder For U Data, referred to, of course, as ‘Doctor FUD’. Near the end of our ‘U’ sets portion, we were introduced to both ‘Z2’, atmospheric fluorescence, and ‘H’, magneto-telluric techniques, which, along with ‘U’, monitored the ionosphere worldwide for high-altitude nuclear testing. All three techniques were being grouped into a technique designated ‘K’.  
+                <br /><br />
+                The last block of instruction was a ‘field station’ exercise at a mockup of a station on Lowry in bldg. 1308.  Our ‘U’ class operated the site together with a ‘Z2’ class, and actually worked the station in 8-hour shifts 24 / 7 for 4 weeks. We operated the station as though we were an overseas detachment, complete with mockup comm center and test exercises provided by the field station instructors.
+                <br /><br />
+                Near the end of our tech school training, our class was notified of our assignments. The tradition of the school was to issue a ‘block’ of assignment locations to the class, and final class academic rank order determined who got which assignment choice. The highest cumulative score got first pick, second got second, etc.  I placed right in the middle at 5th place of 9, and I chose Ascension Island, a remote assignment in the South Atlantic Ocean.  
+                <br /><br />
+                At our class graduation, we were given our training completion certificates, and our orders to our next assignments. We were also officially granted the Reporting Identifier and shred-out of ‘Special Electronics Technician, 99125 U’. We were now officially ‘3-level’ ‘99s, ready for assignment and upgrade training to ‘5-level’ when we got to our assignments. I believe I speak for our whole class in saying it was a very proud moment for all of us. We had come a long way since that day in Basic when we were told by that instructor that ‘we would never be seen again’!
+                <br /><br />
+                Michael Clark
+
+            </p>
+        </article>
+
         <article id="79YearsArt" class="myArts noDisplay">
             <p>
                 Seems Impossible<br />
@@ -853,38 +928,6 @@
 
             <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
         </article>
-
-<%--        <article id="JubileeArt" class="myArts noDisplay">
-            <p class="pTitle centerText underLine">75th Diamond Jubilee</p>
-
-            <p class="centerDiv">
-                The AFTAC Booster Club
-                <br />
-                Requests the pleasure of your company to celebrate
-                <br /><br />
-                The Air Force Technical Applications Center 75th Diamond Jubilee Birthday Ball.
-                <br /><br />
-                To be held at
-                <br />
-                the Hilton Cocoa Beach Oceanfront
-                <br />
-                1550 N Atlantic Ave, Cocoa Beach, FL 32931
-                <br /><br />
-                on Saturday, the Seventeenth of September.
-                <br />
-                Program begins at six-thirty in the evening until ten-thirty in the evening.
-                <br /><br />
-                R.S.V.P. by September 7, 2022
-                <br /><br />
-                <a href="https://sendomatic.com/a2muF" target="_blank">Click here</a> to read more.
-                <br /><br />
-                POC: Capt Jesse Lubove
-                <br /><br />
-                COMM: 321-494-7321 / 854-7321
-                <br /><br />
-                Military: Mess Dress or Semi-Formal Civilian: Formal Attire
-            </p>
-        </article>--%>
 
         <article id="PhoenixArt" class="myArts noDisplay">
             <p class="pTitle underLine centerText">New WC-135R Constant Phoenix</p>

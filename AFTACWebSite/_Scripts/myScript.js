@@ -4187,7 +4187,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#my79Years').click(function () {
+    $('#my79Years, #79Years').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#79YearsArt').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
