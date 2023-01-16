@@ -72,7 +72,44 @@
                         <div id="divBoard" class="underMenu noDisplay">
                             <span id="showMinutes" class="underSel block bold leftMargin1em bottomDot">Minutes</span> 
                             <span id="showAgenda" class="underSel block bold leftMargin1em bottomDot">Agenda Next Meeting</span>
-                            <span id="showElected" class="underSel block bold leftMargin1em bottomDot">Elected Board</span>
+                            <span id="showelected" class="myArts width45 noDisplay autoMarginLeftRight floatLeft topMargin1em maroonBorder padding10 smallShadow"></span>
+                            <h2 class="boardTitle centerText maroonText bold">Elected Board</h2>
+                            <ul class="officersList">
+                <li>
+                    <img alt="Phil Godfrey" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/board members/godfrey.jpg" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Phil Godfrey<br />(President)
+                    </div>
+                    <div class="clear"></div>
+                </li>
+
+                <li>
+                    <img alt="Rob Christman" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Christman.JPG" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Rob Christman<br />(Vice President)
+                    </div>
+                    <div class="clear"></div>
+                </li>
+
+                <li>
+                    <img alt="Ed Lindsay" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/lindsay.png" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Ed Lindsay<br />(Secretary)
+                    </div>
+                    <div class="clear"></div>
+                </li>
+
+                <li>
+                    <img alt="Head Outline" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Ryan.png" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Sean Ryan<br />(Treasurer)
+                    </div>
+                    <div class="clear"></div>
+                </li>
+            </ul>
+        </article>
+
+" class="underSel block bold leftMargin1em bottomDot">Elected Board</span>
                             <span id="showAppointed" class="underSel block bold leftMargin1em bottomDot">Appointed Board</span>
                             <a id="showByLaws" class="underSel block leftMargin1em bottomDot" style="font-size:1em;">Bylaws</a>
                             <a id="showConstitution" class="underSel block leftMargin1em bottomDot" style="font-size:1em;">Constitution</a>
@@ -12974,37 +13011,37 @@
         <article id="electedBoardArt" class="myArts width45 noDisplay autoMarginLeftRight floatLeft topMargin1em maroonBorder padding10 smallShadow">
             <h2 class="boardTitle centerText maroonText bold">Elected Board</h2>
             <ul class="officersList">
-            <li>
-                <img alt="Ed Lindsay" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/lindsay.png" />
-                <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                    Ed Lindsay<br />(President)
-                </div>
-                <div class="clear"></div>
-            </li>
+                <li>
+                    <img alt="Phil Godfrey" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/board members/godfrey.jpg" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Phil Godfrey<br />(President)
+                    </div>
+                    <div class="clear"></div>
+                </li>
 
-            <li>
-                <img alt="Rick Manley" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Manley.png" />
-                <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                    Rick Manley<br />(Vice President)
-                </div>
-                <div class="clear"></div>
-            </li>
+                <li>
+                    <img alt="Rob Christman" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Christman.JPG" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Rob Christman<br />(Vice President)
+                    </div>
+                    <div class="clear"></div>
+                </li>
 
-            <li>
-                <img alt="Doug Colbary" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Colbary.png" />
-                <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                    Doug Colbary<br />(Secretary)
-                </div>
-                <div class="clear"></div>
-            </li>
+                <li>
+                    <img alt="Ed Lindsay" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/lindsay.png" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Ed Lindsay<br />(Secretary)
+                    </div>
+                    <div class="clear"></div>
+                </li>
 
-            <li>
-                <img alt="Sean Ryan" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Ryan.png" />
-                <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                    Sean Ryan<br />(Treasurer)
-                </div>
-                <div class="clear"></div>
-            </li>
+                <li>
+                    <img alt="Head Outline" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Ryan.png" />
+                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
+                        Sean Ryan<br />(Treasurer)
+                    </div>
+                    <div class="clear"></div>
+                </li>
             </ul>
         </article>
 
