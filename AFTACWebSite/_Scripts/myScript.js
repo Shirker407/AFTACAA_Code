@@ -4098,7 +4098,17 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#showMinutes').click(function () {
+    $('#mybecoming99, #mnubecoming99').click(function () {
+        subclicked = true;
+        $('#becoming99Art').css('color', 'lightgreen')
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#becoming99Art').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#mainHeader").offset().top
+        }, 500);
+    });
+
+   $('#showMinutes').click(function () {
         subclicked = true;
         $('#showMinutes').css('color', 'lightgreen')
         $('.myArts').removeClass('block').addClass('noDisplay');

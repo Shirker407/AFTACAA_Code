@@ -72,44 +72,7 @@
                         <div id="divBoard" class="underMenu noDisplay">
                             <span id="showMinutes" class="underSel block bold leftMargin1em bottomDot">Minutes</span> 
                             <span id="showAgenda" class="underSel block bold leftMargin1em bottomDot">Agenda Next Meeting</span>
-                            <span id="showelected" class="myArts width45 noDisplay autoMarginLeftRight floatLeft topMargin1em maroonBorder padding10 smallShadow"></span>
-                            <h2 class="boardTitle centerText maroonText bold">Elected Board</h2>
-                            <ul class="officersList">
-                <li>
-                    <img alt="Phil Godfrey" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/board members/godfrey.jpg" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Phil Godfrey<br />(President)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-
-                <li>
-                    <img alt="Rob Christman" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Christman.JPG" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Rob Christman<br />(Vice President)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-
-                <li>
-                    <img alt="Ed Lindsay" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/lindsay.png" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Ed Lindsay<br />(Secretary)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-
-                <li>
-                    <img alt="Head Outline" class="width25 topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Ryan.png" />
-                    <div class="maroonText inlineBlock topMargin2em leftMargin1em">
-                        Sean Ryan<br />(Treasurer)
-                    </div>
-                    <div class="clear"></div>
-                </li>
-            </ul>
-        </article>
-
-" class="underSel block bold leftMargin1em bottomDot">Elected Board</span>
+                            <span id="showElected" class="underSel block bold leftMargin1em bottomDot">Elected Board</span>
                             <span id="showAppointed" class="underSel block bold leftMargin1em bottomDot">Appointed Board</span>
                             <a id="showByLaws" class="underSel block leftMargin1em bottomDot" style="font-size:1em;">Bylaws</a>
                             <a id="showConstitution" class="underSel block leftMargin1em bottomDot" style="font-size:1em;">Constitution</a>
@@ -201,6 +164,7 @@
 
                     <li id="liHistory" class="liMainMenu bottomDot">Histories
                         <div id="divHistory" class="underMenu noDisplay">
+                            <span id="mnubecoming99" class="myHistories underSel block leftMargin1em bottomDot yellowText">Becoming a "99"</span>
                             <span id="my79Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">79 Years Ago</span>
                             <span id="my91Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC 91 Years of Proud 99 Service</span>
                             <span id="FourSkin" class="myHistories underSel block leftMargin1em bottomDot yellowText">Four Skin Rug</span>
@@ -314,7 +278,7 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="becoming99" class="announcement blueText">Becoming a "99" by Mike Clark</td>
+                                    <td id="mybecoming99" class="announcement blueText">Becoming a "99" by Mike Clark</td>
                                     <td class="posted blueText">1/15/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -13008,7 +12972,7 @@
             </p>
         </article>
 
-        <article id="electedBoardArt" class="myArts width45 noDisplay autoMarginLeftRight floatLeft topMargin1em maroonBorder padding10 smallShadow">
+<%--        <article id="electedBoardArt" class="myArts width45 noDisplay autoMarginLeftRight floatLeft topMargin1em maroonBorder padding10 smallShadow">
             <h2 class="boardTitle centerText maroonText bold">Elected Board</h2>
             <ul class="officersList">
                 <li>
@@ -13043,7 +13007,7 @@
                     <div class="clear"></div>
                 </li>
             </ul>
-        </article>
+        </article>--%>
 
         <article id="selectedBoardArt" class="myArts noDisplay width90 noDisplay floatLeft autoMarginLeftRight maroonBorder smallShadow">
             <h2 class="centerText maroonText bold">Appointed Board</h2>
