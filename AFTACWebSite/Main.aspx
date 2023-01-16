@@ -276,6 +276,16 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="becoming99" class="announcement blueText">Becoming a "99" by Mike Clark</td>
+                                    <td class="posted blueText">1/15/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="79Years" class="announcement blueText">Check "79 Years Ago"</td>
+                                    <td class="posted blueText">1/14/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                             <tr class="trAnnouncementsEntry bottomDotRed">                    
                                 <td id="myCommPage" class="announcement blueText">Check "Command Corner" in Main Menu</td>
                                 <td class="posted blueText">1/9/2023</td>
