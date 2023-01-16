@@ -38,6 +38,7 @@ $(document).ready(function () {
     clearInterval(aftacHisSlideShowInt)
     clearInterval(coloradoSlideShowInt)
 
+
     //pingInt = setInterval(function () { Ping() }, 4000);
     //picInt = setInterval(function () { ChangePic() }, 5000);
 
