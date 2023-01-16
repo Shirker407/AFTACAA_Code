@@ -164,6 +164,7 @@
 
                     <li id="liHistory" class="liMainMenu bottomDot">Histories
                         <div id="divHistory" class="underMenu noDisplay">
+                            <span id="mnubecoming99" class="myHistories underSel block leftMargin1em bottomDot yellowText">Becoming a "99"</span>
                             <span id="my79Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">79 Years Ago</span>
                             <span id="my91Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC 91 Years of Proud 99 Service</span>
                             <span id="FourSkin" class="myHistories underSel block leftMargin1em bottomDot yellowText">Four Skin Rug</span>
@@ -277,7 +278,7 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="becoming99" class="announcement blueText">Becoming a "99" by Mike Clark</td>
+                                    <td id="mybecoming99" class="announcement blueText">Becoming a "99" by Mike Clark</td>
                                     <td class="posted blueText">1/15/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
