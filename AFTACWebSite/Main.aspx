@@ -270,7 +270,6 @@
                     <div class="redBorder width100 padding5 backYellow showShadow">
                         <div class=" width95 centerDiv">
                             <span class="maroonText bold underLine" style="font-size:1.8em;">Recent Additions</span>
-<%--                        <p class="pTitle centerText topMarginMinus1em underLine fontSize2em">Recent Additions</p>--%>
                         </div>
                         <div>
                             <table class="tableAnnouncements">
@@ -329,8 +328,8 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 19 August<br />
-                        15:00 - 16:30 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Monday 13 February<br />
+                        15:00 - 16:00 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
@@ -340,7 +339,7 @@
                         Lobby Conference Room<br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
-                        Phil Godfrey, AFTACAA President, at <a href="MailTo:afsophil@gmail.com">afsophil@gmail.com</a>
+                        Ed Lindsay, AFTACAA President, at <a href="MailTo: piston_horse@hotmail.com">piston_horse@hotmail.com</a>
                     </p>
                     <%--</p>--%>
                 </div>
@@ -743,7 +742,7 @@
                 w/Raspberry Vinaigrette or House Ranch Dressing, Dinner Rolls, Coffee, IcedTea, and Dessert (Key Lime Pie). <br />Cost: $35.00 pp.  (All inclusive dinner, with gratuity included).<br />
                 </p>
                 <div class="centerDiv>">
-                <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="RSVP: 10 February 2023"></asp:Label>
+                <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="RSVP: No Later Than 10 February 2023"></asp:Label>
                 </div>
                 <p>
                 Florida AFTACAA POC: Sean Ryan, Florida AFTACAA Social Committee Chair.
@@ -755,7 +754,7 @@
                 Hope to see ya'll there!<br />
             </p>
             
-            <input id="btnSnow" class="myBut" type="button" value="Get Printable RSVP Form" />
+            <input id="btnSnow" class="myBut bottomMargin1em" type="button" value="Get Printable RSVP Form" />
         </article>
 
         <article id="79YearsArt" class="myArts noDisplay">
