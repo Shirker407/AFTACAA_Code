@@ -4048,7 +4048,11 @@ $(document).ready(function () {
         }, 500);
     })
 
-    $('#job9l').click(function () {
+    $('#btnSnow').click(function () {
+        window.open('_PDFs/2023 Snowball.pdf', '');
+    });
+
+   $('#job9l').click(function () {
         window.open('https://jobs.localjobnetwork.com/j/38444081', '');
     });
 
@@ -4099,7 +4103,17 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#mybecoming99, #mnubecoming99').click(function () {
+    $('#mySnowBall').click(function () {
+        subclicked = true;
+        $('#becoming99Art').css('color', 'lightgreen')
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#Snow2023').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#mainHeader").offset().top
+        }, 500);
+    });
+
+   $('#mybecoming99, #mnubecoming99').click(function () {
         subclicked = true;
         $('#becoming99Art').css('color', 'lightgreen')
         $('.myArts').removeClass('block').addClass('noDisplay');

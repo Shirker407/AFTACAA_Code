@@ -260,7 +260,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 6/6/2022</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 1/6/2023</span>
                     </div>
                 </div>
 
@@ -278,6 +278,11 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySnowBall" class="announcement greenText">SnowBall Announcement and Form</td>
+                                    <td class="posted greenText">1/16/2023</td>
+                                    <td class="event greenText">2/18/2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mybecoming99" class="announcement blueText">Becoming a "99" by Mike Clark</td>
@@ -301,7 +306,7 @@
                             </tr>--%>
                             <tr class="trAnnouncementsEntry bottomDotRed">                    
                                 <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
-                                <td class="posted blueText">3/4/2023</td>
+                                <td class="posted blueText">1/4/2023</td>
                                 <td class="event blueText"></td>
                             </tr>
                             <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -708,6 +713,49 @@
                 Michael Clark
 
             </p>
+        </article>
+
+        <article id="Snow2023" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">SnowBall 2023</p>
+
+            <div class="centerDiv">
+                <img alt="SnowBall.png" class="width25 topMarginMinus1em" src="_Images/Snowball.png" />
+            </div>
+
+            <p>
+                <span class="fontSize2em darkBlueText">2023 Florida AFTAC Alumni Association (AFTACAA), SnowBall
+                Saturday, 18 February 2023
+                Manatee Cove Golf Course (MCGC), Patrick SFB, Florida</span>
+                <br /><br />
+                Since 1999, the Florida AFTAC Alumni Association (AFTACAA), has thrown a themed SnowBall at the start of the new year. We like to have this event when our ‘Sage Snowbirds’ are in town. We also believe it is a grand way to introduce the newly elected and appointed board members, recognize our new Alumni of the Year (AOY), and Alumni accomplishments, hold a festive get-together and social, and wish old friends a great beginning to a new year.
+                <br /><br />
+                It is also tradition, where we welcome the AFTAC Commander, Vice Commander, Chief Scientist, Director of Staff, Command Chief, Directors, Group and Squadron Commanders, all active-duty military and civilian, and the outlying area commanders and superintendents, that may be on Temporary Duty (TDY) here for a unit leadership conference.
+                <br /><br />
+                This year’s theme will be "Germany", joining previous themes honoring Japan, Hawaii, Germany, Florida, Wyoming, Thailand, Australia, Korea, Nebraska and Colorado, ...locations where AFTAC had or has a presence, among others worldwide, along with mission items of AFTAC.
+                </p>
+                <div class="centerDiv>">
+                    <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="SAVE THE DATE"></asp:Label>
+                </div>
+                <p>
+                Location: Manatee Cove Golf Course (MCGC), Patrick SFB, FL.
+                Social Hour: 5:30 - 6:30; <br />
+                Chimes/Introductions/National Anthem/POW-MIA Remembrance/Sage Salute/Invocation: 6:30. <br />Dinner: 7:00. <br />Break: 7:45. <br />Program: 8:00. <br />Theme: Germany. <br />Entertainment: Music by Ana. <br />Dress: Florida Casual. <br />Menu: Grilled Flat Iron Steak, w/Roasted Shallot Butter, Buttered Baby Red Potatoes and Sautéed Mixed Vegetables OR,<br />Chicken Marsala, Baby Red Potatoes, and Sautéed Mixed Vegetables. OR,<br />Portabella Stack Eggplant, Tomato, Red Onion, Fresh Mozzarella, Balsamic Glaze (Vegetarian Meal). <br />Includes: House Salad w/Bleu Cheese, Diced Apples, Toasted Almonds
+                w/Raspberry Vinaigrette or House Ranch Dressing, Dinner Rolls, Coffee, IcedTea, and Dessert (Key Lime Pie). <br />Cost: $35.00 pp.  (All inclusive dinner, with gratuity included).<br />
+                </p>
+                <div class="centerDiv>">
+                <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="RSVP: 10 February 2023"></asp:Label>
+                </div>
+                <p>
+                Florida AFTACAA POC: Sean Ryan, Florida AFTACAA Social Committee Chair.
+                <a href="MailTo:oceanblueview@yahoo.com">oceanblueview@yahoo.com</a> or Cell 321-591-9053 (Unlisted).<br />
+                AFTAC Building POC: Mr. George Mirda 321-494-5126.<br />
+                Stay tuned to AFTACAA.US website, Calendar of Events (CoE), or eALLerts, for any updates.<br />
+                Thank you.
+                <br /><br />
+                Hope to see ya'll there!<br />
+            </p>
+            
+            <input id="btnSnow" class="myBut" type="button" value="Get Printable RSVP Form" />
         </article>
 
         <article id="79YearsArt" class="myArts noDisplay">
