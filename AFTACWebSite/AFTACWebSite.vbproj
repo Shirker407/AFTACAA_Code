@@ -1430,7 +1430,6 @@
     <Content Include="_Minutes\9-13-2019_Minutes.pdf" />
     <Content Include="_Minutes\10-15-2019_Minutes.pdf" />
     <Content Include="_Minutes\11-12-2019_Minutes.pdf" />
-    <Content Include="_PDFs\Snowball2020_RSVP.pdf" />
     <Content Include="_PDFs\MemorialWall.pdf" />
     <Content Include="_Minutes\12-9-2019_Minutes.pdf" />
     <Content Include="_PDFs\VetResources.pdf" />
@@ -1481,6 +1480,8 @@
     <Content Include="_Minutes\10-21-2022_Minutes.pdf" />
     <Content Include="_Minutes\8-19-2022_Minutes.pdf" />
     <Content Include="_Minutes\9-16-2022_Minutes.pdf" />
+    <Content Include="_PDFs\SnowBall RSVP.pdf" />
+    <Content Include="_PDFs\2023 Snowball.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

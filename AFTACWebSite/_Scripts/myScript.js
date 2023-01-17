@@ -38,6 +38,7 @@ $(document).ready(function () {
     clearInterval(aftacHisSlideShowInt)
     clearInterval(coloradoSlideShowInt)
 
+
     //pingInt = setInterval(function () { Ping() }, 4000);
     //picInt = setInterval(function () { ChangePic() }, 5000);
 
@@ -2096,16 +2097,16 @@ $(document).ready(function () {
         window.open('_Minutes/12-9-2022_Minutes.pdf', '');
     });
 
-    $('#aprilPomo').click(function () {
-        window.open('_Pomos/PoMo2022_04.pdf', '');
+    $('#AprilPomo').click(function () {
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_04.pdf', '');
     });
 
-    $('#augustPomo').click(function () {
-        window.open('_Pomos/PoMo2022_08.pdf', '');
+    $('#AugustPomo').click(function () {
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_08.pdf', '');
     });
 
-    $('#decemberPomo').click(function () {
-        window.open('_Pomos/PoMo2022_12.pdf', '');
+    $('#DecemberPomo').click(function () {
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_12.pdf', '');
     });
 
     //**********************************************************************
@@ -4047,7 +4048,11 @@ $(document).ready(function () {
         }, 500);
     })
 
-    $('#job9l').click(function () {
+    $('#btnSnow').click(function () {
+        window.open('_PDFs/2023 Snowball.pdf', '');
+    });
+
+   $('#job9l').click(function () {
         window.open('https://jobs.localjobnetwork.com/j/38444081', '');
     });
 
@@ -4098,7 +4103,17 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#mybecoming99, #mnubecoming99').click(function () {
+    $('#mySnowBall').click(function () {
+        subclicked = true;
+        $('#becoming99Art').css('color', 'lightgreen')
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#Snow2023').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#mainHeader").offset().top
+        }, 500);
+    });
+
+   $('#mybecoming99, #mnubecoming99').click(function () {
         subclicked = true;
         $('#becoming99Art').css('color', 'lightgreen')
         $('.myArts').removeClass('block').addClass('noDisplay');

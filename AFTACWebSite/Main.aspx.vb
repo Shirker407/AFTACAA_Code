@@ -1,4 +1,6 @@
 ﻿Imports System.Net.Mail
+Imports System.Net
+Imports System.Text.RegularExpressions
 
 
 Public Class _Default
@@ -12,17 +14,22 @@ Public Class _Default
     Dim ListType As String = "Name"
     Dim isSearch As Boolean = False
     Dim blank As String = ""
+    'Dim Users_Ip As String = GetExternalIP().ToString
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim ds As New DataSet
         Dim sb As New StringBuilder
         Dim ws As New myService
 
         If Not IsPostBack() Then
+            'sb.Append("<script>")
+            'sb.Append("$.getJSON('https://example.com/get_ip', function(data) {alert(JSON.stringify(data, null, 2));")
+            'sb.Append("</script>")
+            'RunScript(sb.ToString)
 
             hfSearchStatus.Value = ""
 
             action = "Default"
-
         End If
     End Sub
 
@@ -35,6 +42,11 @@ Public Class _Default
             Case "Default"
                 OpenArticle("defaultArt")
                 ScrollTo("defaultArt")
+                If Not IsPostBack() Then
+                    UpdateLogins("Login")
+                Else
+                    UpdateLogins("Main")
+                End If
             Case "btnDeceased_Click"
                 If btnDeceased.Text = "Hide Deceased" Then
                     btnDeceased.Text = "Show Deceased"
@@ -46,8 +58,10 @@ Public Class _Default
 
                 GetList()
 
+                UpdateLogins("Membership Opened")
                 OpenArticle("MembershipArt")
                 ScrollTo("MembershipArt")
+
             Case "btnSearch_Click"
                 If Len(txtSearch.Text) < 1 Then
                     lblMemCount.Text = "Nothing in Search Box"
@@ -75,7 +89,7 @@ Public Class _Default
             Case "ShowList"
                 sb.Append("<script>")
                 sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                sb.Append("$('#wallArt').removeClass('noDisplay').addClass('block');")
+                    sb.Append("$('#wallArt').removeClass('noDisplay').addClass('block');")
                 sb.Append("$('#hideListings').removeClass('block').addClass('noDisplay');")
                 sb.Append("$('#wallPic').removeClass('block').addClass('noDisplay');")
                 sb.Append("$('#wallListings').removeClass('noDisplay').addClass('block');")
@@ -84,6 +98,8 @@ Public Class _Default
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
             Case "Password"
                 OpenAdminPassword()
+                UpdateLogins("Password Opened")
+
             Case "PasswordSubmit"
                 Dim pw As String
                 Dim admin As Int16
@@ -147,18 +163,21 @@ Public Class _Default
                     Run_Sql(sql)
                 End If
 
+                UpdateLogins("Password Submit")
+
                 OpenAdminMenu()
 
             Case "openPasswordChange"
                 OpenArticle("changepasswordArt")
                 ScrollTo("changepasswordArt")
+                UpdateLogins("Password Changed")
+
             Case "memberadmin"
                 sb = New StringBuilder
                 sb.Append("<script>")
                 sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
-
             Case "Menu"
                 sb = New StringBuilder
                 sb.Append("<script>")
@@ -166,11 +185,15 @@ Public Class _Default
                 sb.Append("$('#adminMenuArt').removeClass('noDisplay').addClass('block');")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+                UpdateLogins("Open Admin Menu")
+
             Case "obitsRecent_Click"
                 OpenArticle("currentObitsArt")
+                UpdateLogins("Open Current Obits")
             Case "obitsArchived_Click"
                 FillObitList()
                 OpenArticle("archivedObitsArt")
+                UpdateLogins("Open Archived Obits")
             Case "lstObitNames_SelectedIndexChanged"
                 Dim obituary As String
                 Dim name As String
@@ -215,6 +238,7 @@ Public Class _Default
                     myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item(1)
                 End If
 
+                UpdateLogins("Open an Obituary")
                 OpenArticle("archivedObitsArt")
 
             Case "butObitSearchClicked"
@@ -277,6 +301,7 @@ Public Class _Default
                     Exit Sub
                 End If
 
+                UpdateLogins("Searched for Obituary")
                 OpenArticle("archivedObitsArt")
             Case "ObitClearSearch"
                 FillObitList()
@@ -401,6 +426,7 @@ Public Class _Default
                 sb.Append("$('#emlMess').addClass('noDisplay');")
                 sb.Append("</script>")
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
+                UpdateLogins("Looked up Email")
 
             Case "GoodEMail"
                 sql = "Exec GetInfobyEmail'" + txtEMailLook.Text + "'"
@@ -1863,6 +1889,14 @@ Public Class _Default
         ClearBoxes()
     End Sub
 
+    Protected Sub UpdateLogins(p As String)
+        'Dim sql As String
+        'Dim myDate As String = Now().ToString
+
+        'sql = "insert into loginsold (Page, ActivityDate) VALUES ('" & p & "','" & myDate & "')"
+        'Run_Sql(sql)
+    End Sub
+
     Protected Sub OpenArticle(s As String)
         Dim sb As New StringBuilder
         sb.Append("<script>")
@@ -1904,6 +1938,19 @@ Public Class _Default
 
         Return False
     End Function
+
+    'Function GetExternalIP() As IPAddress
+    '    'Return The users ip address
+    '    Dim lol As WebClient = New WebClient()
+    '    Dim str As String = lol.DownloadString("http://www.ip-adress.com/")
+    '    Dim pattern As String = "<h2>My IP address is: (.+)</h2>"
+    '    Dim matches1 As MatchCollection = Regex.Matches(str, pattern)
+    '    Dim ip As String = matches1(0).ToString
+    '    ip = ip.Remove(0, 21)
+    '    ip = ip.Replace("</h2>", "")
+    '    ip = ip.Replace(" ", "")
+    '    Return IPAddress.Parse(ip)
+    'End Function
 
     Private Sub SetupFriends()
         Dim ds As New DataSet

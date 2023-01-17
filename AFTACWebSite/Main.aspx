@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
 
     <!-- jQuery library -->
+<%--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>--%>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
@@ -56,6 +57,7 @@
     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
     <asp:HiddenField ID="myPWUser" runat="server" />
+    <asp:HiddenField ID="hfIPAddress" runat="server" />
 
     <div class="pageWrapper regBorder showShadow" style="font-size:1.1em;">
 
@@ -258,7 +260,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 6/6/2022</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 1/6/2023</span>
                     </div>
                 </div>
 
@@ -268,7 +270,6 @@
                     <div class="redBorder width100 padding5 backYellow showShadow">
                         <div class=" width95 centerDiv">
                             <span class="maroonText bold underLine" style="font-size:1.8em;">Recent Additions</span>
-<%--                        <p class="pTitle centerText topMarginMinus1em underLine fontSize2em">Recent Additions</p>--%>
                         </div>
                         <div>
                             <table class="tableAnnouncements">
@@ -276,6 +277,11 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySnowBall" class="announcement greenText">SnowBall Announcement and Form</td>
+                                    <td class="posted greenText">1/16/2023</td>
+                                    <td class="event greenText">2/18/2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mybecoming99" class="announcement blueText">Becoming a "99" by Mike Clark</td>
@@ -299,7 +305,7 @@
                             </tr>
                             <tr class="trAnnouncementsEntry bottomDotRed">                    
                                 <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
-                                <td class="posted blueText">3/4/2023</td>
+                                <td class="posted blueText">1/4/2023</td>
                                 <td class="event blueText"></td>
                             </tr>
                             <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -322,8 +328,8 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 19 August<br />
-                        15:00 - 16:30 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Monday 13 February<br />
+                        15:00 - 16:00 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
@@ -333,7 +339,7 @@
                         Lobby Conference Room<br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
-                        Phil Godfrey, AFTACAA President, at <a href="MailTo:afsophil@gmail.com">afsophil@gmail.com</a>
+                        Ed Lindsay, AFTACAA President, at <a href="MailTo: piston_horse@hotmail.com">piston_horse@hotmail.com</a>
                     </p>
                     <%--</p>--%>
                 </div>
@@ -708,6 +714,49 @@
             </p>
         </article>
 
+        <article id="Snow2023" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">SnowBall 2023</p>
+
+            <div class="centerDiv">
+                <img alt="SnowBall.png" class="width25 topMarginMinus1em" src="_Images/Snowball.png" />
+            </div>
+
+            <p>
+                <span class="fontSize2em darkBlueText">2023 Florida AFTAC Alumni Association (AFTACAA), SnowBall
+                Saturday, 18 February 2023
+                Manatee Cove Golf Course (MCGC), Patrick SFB, Florida</span>
+                <br /><br />
+                Since 1999, the Florida AFTAC Alumni Association (AFTACAA), has thrown a themed SnowBall at the start of the new year. We like to have this event when our ‘Sage Snowbirds’ are in town. We also believe it is a grand way to introduce the newly elected and appointed board members, recognize our new Alumni of the Year (AOY), and Alumni accomplishments, hold a festive get-together and social, and wish old friends a great beginning to a new year.
+                <br /><br />
+                It is also tradition, where we welcome the AFTAC Commander, Vice Commander, Chief Scientist, Director of Staff, Command Chief, Directors, Group and Squadron Commanders, all active-duty military and civilian, and the outlying area commanders and superintendents, that may be on Temporary Duty (TDY) here for a unit leadership conference.
+                <br /><br />
+                This year’s theme will be "Germany", joining previous themes honoring Japan, Hawaii, Germany, Florida, Wyoming, Thailand, Australia, Korea, Nebraska and Colorado, ...locations where AFTAC had or has a presence, among others worldwide, along with mission items of AFTAC.
+                </p>
+                <div class="centerDiv>">
+                    <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="SAVE THE DATE"></asp:Label>
+                </div>
+                <p>
+                Location: Manatee Cove Golf Course (MCGC), Patrick SFB, FL.
+                Social Hour: 5:30 - 6:30; <br />
+                Chimes/Introductions/National Anthem/POW-MIA Remembrance/Sage Salute/Invocation: 6:30. <br />Dinner: 7:00. <br />Break: 7:45. <br />Program: 8:00. <br />Theme: Germany. <br />Entertainment: Music by Ana. <br />Dress: Florida Casual. <br />Menu: Grilled Flat Iron Steak, w/Roasted Shallot Butter, Buttered Baby Red Potatoes and Sautéed Mixed Vegetables OR,<br />Chicken Marsala, Baby Red Potatoes, and Sautéed Mixed Vegetables. OR,<br />Portabella Stack Eggplant, Tomato, Red Onion, Fresh Mozzarella, Balsamic Glaze (Vegetarian Meal). <br />Includes: House Salad w/Bleu Cheese, Diced Apples, Toasted Almonds
+                w/Raspberry Vinaigrette or House Ranch Dressing, Dinner Rolls, Coffee, IcedTea, and Dessert (Key Lime Pie). <br />Cost: $35.00 pp.  (All inclusive dinner, with gratuity included).<br />
+                </p>
+                <div class="centerDiv>">
+                <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="RSVP: No Later Than 10 February 2023"></asp:Label>
+                </div>
+                <p>
+                Florida AFTACAA POC: Sean Ryan, Florida AFTACAA Social Committee Chair.
+                <a href="MailTo:oceanblueview@yahoo.com">oceanblueview@yahoo.com</a> or Cell 321-591-9053 (Unlisted).<br />
+                AFTAC Building POC: Mr. George Mirda 321-494-5126.<br />
+                Stay tuned to AFTACAA.US website, Calendar of Events (CoE), or eALLerts, for any updates.<br />
+                Thank you.
+                <br /><br />
+                Hope to see ya'll there!<br />
+            </p>
+            
+            <input id="btnSnow" class="myBut bottomMargin1em" type="button" value="Get Printable RSVP Form" />
+        </article>
+
         <article id="79YearsArt" class="myArts noDisplay">
             <p>
                 Seems Impossible<br />
@@ -928,6 +977,35 @@
             </figure>
 
             <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
+        </article>
+
+        <article id="CoBreakfastArt" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">Colorado Chapter Breakfast </p>
+
+            <p>
+                Dear AFTAC & LRD Alumni, Active Duty, Civilians, Family and Friends
+                <br />
+                You are cordially invited to join us at our first activity of the year – our Colorado membership breakfast on 4 March 2023. 
+                Location/Time:  Aurora Hills Golf Course, Tin Cup Banquet Room, 50 S. Peoria St. Aurora, CO 80012; Breakfast served at 9 AM.
+                <br /><br />
+                Breakfast will be the Tin Cup breakfast buffet including: Juice, coffee, eggs, bacon, sausage, fresh fruit, pastries, biscuits, gravy and potatoes.
+                Cost: $22; Children 12 and under Free. You can pay at the door with a check made out to “Maureen Hampson” or cash (exact change is appreciated).
+                <br /><br />
+                Please RSVP no later than 23 February. We need an accurate headcount to plan the Breakfast. 
+            </p>
+            <hr class="myHR" />
+            <p>
+                To RSVP you can:<br />
+                - call our Treasurer, Maureen Hampson, at 303-695-0477 (leave a message)
+                <br />
+                - or email <a href="MailTo:treasurer@aftacco.org">Maureen Hampson</a>
+                <br /><br />
+                We look forward to seeing you there! 
+                <br />
+                Sincerely, <br />
+                The AFTAC Alumni Association of Colorado Chapter Staff
+
+            </p>
         </article>
 
         <article id="PhoenixArt" class="myArts noDisplay">
@@ -12319,17 +12397,17 @@
 
                 <div id="pomo2" class="noDisplay">
                     <p class="centerText">Click on the Pomo of your choice.</p>
-                    <div id="aprilPomo" class="floatLeft leftMargin8em width25">
+                    <div id="DecemberPomo" class="floatLeft leftMargin8em width25">
+                        <img alt="December2022.png" class="myPomo blackBorder showShadow" src="_Images/December2022.png" style="height:15em;" />
+                        <p class="centerText">December 2022</p>
+                    </div>
+                    <div id="AugustPomo" class="floatLeft width25">
+                        <img alt="August2022.png" class="myPomo blackBorder showShadow" src="_Images/August2022.png" style="height:15em;" />
+                        <p class="centerText">August 2022</p>
+                    </div>
+                    <div id="AprilPomo" class="floatLeft width25">
                         <img alt="April2022.png" class="myPomo blackBorder showShadow" src="_Images/April2022.png" style="height:15em;" />
-                        <p class="centerText">April 2022</p>
-                    </div>
-                    <div id="decemberPomo" class="floatLeft width25">
-                        <img alt="December2021.png" class="myPomo blackBorder showShadow" src="_Images/December2021.png" style="height:15em;" />
-                        <p class="centerText">December 2021</p>
-                    </div>
-                    <div id="augustPomo" class="floatLeft width25">
-                        <img alt="August2021.png" class="myPomo blackBorder showShadow" src="_Images/August2021.png" style="height:15em;" />
-                        <p class="centerText">August 2021</p>
+                        <p class="centerText">August 2022</p>
                     </div>
                 </div>
 
@@ -12379,6 +12457,8 @@
                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2021</p>
                     <ul class="archList">
+                        <li><a class="maroonText" href="_Pomos/PoMo2021_12.pdf" target="_blank">December</a></li>
+                        <li><a class="maroonText" href="_Pomos/PoMo2021_08.pdf" target="_blank">August</a></li>
                         <li><a class="maroonText" href="_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
                     </ul>
                 </div>
