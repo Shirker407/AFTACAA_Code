@@ -2097,16 +2097,16 @@ $(document).ready(function () {
         window.open('_Minutes/12-9-2022_Minutes.pdf', '');
     });
 
-    $('#aprilPomo').click(function () {
-        window.open('_Pomos/PoMo2022_04.pdf', '');
+    $('#AprilPomo').click(function () {
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_04.pdf', '');
     });
 
-    $('#augustPomo').click(function () {
-        window.open('_Pomos/PoMo2022_08.pdf', '');
+    $('#AugustPomo').click(function () {
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_08.pdf', '');
     });
 
-    $('#decemberPomo').click(function () {
-        window.open('_Pomos/PoMo2022_12.pdf', '');
+    $('#DecemberPomo').click(function () {
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_12.pdf', '');
     });
 
     //**********************************************************************

@@ -299,11 +299,11 @@
                                 <td class="posted blueText">1/9/2023</td>
                                 <td class="event blueText"></td>
                             </tr>
-<%--                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
                                 <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
                                 <td class="posted greenText">1/5/2023</td>
                                 <td class="event greenText">3/4/2023</td>
-                            </tr>--%>
+                            </tr>
                             <tr class="trAnnouncementsEntry bottomDotRed">                    
                                 <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
                                 <td class="posted blueText">1/4/2023</td>
@@ -978,6 +978,35 @@
             </figure>
 
             <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
+        </article>
+
+        <article id="CoBreakfastArt" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">Colorado Chapter Breakfast </p>
+
+            <p>
+                Dear AFTAC & LRD Alumni, Active Duty, Civilians, Family and Friends
+                <br />
+                You are cordially invited to join us at our first activity of the year – our Colorado membership breakfast on 4 March 2023. 
+                Location/Time:  Aurora Hills Golf Course, Tin Cup Banquet Room, 50 S. Peoria St. Aurora, CO 80012; Breakfast served at 9 AM.
+                <br /><br />
+                Breakfast will be the Tin Cup breakfast buffet including: Juice, coffee, eggs, bacon, sausage, fresh fruit, pastries, biscuits, gravy and potatoes.
+                Cost: $22; Children 12 and under Free. You can pay at the door with a check made out to “Maureen Hampson” or cash (exact change is appreciated).
+                <br /><br />
+                Please RSVP no later than 23 February. We need an accurate headcount to plan the Breakfast. 
+            </p>
+            <hr class="myHR" />
+            <p>
+                To RSVP you can:<br />
+                - call our Treasurer, Maureen Hampson, at 303-695-0477 (leave a message)
+                <br />
+                - or email <a href="MailTo:treasurer@aftacco.org">Maureen Hampson</a>
+                <br /><br />
+                We look forward to seeing you there! 
+                <br />
+                Sincerely, <br />
+                The AFTAC Alumni Association of Colorado Chapter Staff
+
+            </p>
         </article>
 
         <article id="PhoenixArt" class="myArts noDisplay">
@@ -12369,17 +12398,17 @@
 
                 <div id="pomo2" class="noDisplay">
                     <p class="centerText">Click on the Pomo of your choice.</p>
-                    <div id="aprilPomo" class="floatLeft leftMargin8em width25">
+                    <div id="DecemberPomo" class="floatLeft leftMargin8em width25">
+                        <img alt="December2022.png" class="myPomo blackBorder showShadow" src="_Images/December2022.png" style="height:15em;" />
+                        <p class="centerText">December 2022</p>
+                    </div>
+                    <div id="AugustPomo" class="floatLeft width25">
+                        <img alt="August2022.png" class="myPomo blackBorder showShadow" src="_Images/August2022.png" style="height:15em;" />
+                        <p class="centerText">August 2022</p>
+                    </div>
+                    <div id="AprilPomo" class="floatLeft width25">
                         <img alt="April2022.png" class="myPomo blackBorder showShadow" src="_Images/April2022.png" style="height:15em;" />
-                        <p class="centerText">April 2022</p>
-                    </div>
-                    <div id="decemberPomo" class="floatLeft width25">
-                        <img alt="December2021.png" class="myPomo blackBorder showShadow" src="_Images/December2021.png" style="height:15em;" />
-                        <p class="centerText">December 2021</p>
-                    </div>
-                    <div id="augustPomo" class="floatLeft width25">
-                        <img alt="August2021.png" class="myPomo blackBorder showShadow" src="_Images/August2021.png" style="height:15em;" />
-                        <p class="centerText">August 2021</p>
+                        <p class="centerText">August 2022</p>
                     </div>
                 </div>
 
@@ -12429,6 +12458,8 @@
                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2021</p>
                     <ul class="archList">
+                        <li><a class="maroonText" href="_Pomos/PoMo2021_12.pdf" target="_blank">December</a></li>
+                        <li><a class="maroonText" href="_Pomos/PoMo2021_08.pdf" target="_blank">August</a></li>
                         <li><a class="maroonText" href="_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
                     </ul>
                 </div>
