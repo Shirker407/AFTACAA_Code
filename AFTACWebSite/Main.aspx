@@ -466,9 +466,21 @@
                         <p class="pTitle centerText underline">Chief Jerome Wright Biography</p>
                         <p>
                             <img alt="CMS_Wright.png" src="_Images/CMS_Wright.png" class="floatLeft width35 rightMargin2em maroonBorder" />
-                            Chief Master Sergeant Jerome S. Wright is Command Chief, Air Force Technical Applications Center, Patrick Space Force Base, Fla., where he advises the AFTAC wing commander on matters concerning the readiness, utilization, training, morale and welfare of the 1,000-member center and its 14 detachments around the globe who support AFTAC’s international nuclear treaty monitoring activities. AFTAC operates and maintains the United States Atomic Energy Detection System to monitor foreign compliance with various treaties limiting nuclear testing. AFTAC is also the designated U.S. laboratory system that provides technical support to the United Nations’ International Atomic Energy Agency.
+                            Chief Master Sergeant Jerome S. Wright is Command Chief, Air Force Technical Applications Center, 
+                            Patrick Space Force Base, Fla., where he advises the AFTAC wing commander on matters concerning the readiness, 
+                            utilization, training, morale and welfare of the 1,000-member center and its 14 detachments around the globe 
+                            who support AFTAC’s international nuclear treaty monitoring activities. AFTAC operates and maintains the 
+                            United States Atomic Energy Detection System to monitor foreign compliance with various treaties limiting 
+                            nuclear testing. AFTAC is also the designated U.S. laboratory system that provides technical support to the 
+                            United Nations’ International Atomic Energy Agency.
                             <br /><br />
-                            Chief Wright was born in Guantanamo Bay, Cuba and raised in Virginia Beach, Va. He entered the Air Force in July of 2000. His background includes various duties in missile and space systems electronic maintenance, electronic systems security assessment, operations intelligence, and geospatial intelligence targeting career fields. He has deployed in support of Operation ENDURING FREEDOM, Operation IRAQI FREEDOM, Combined Joint Task Force-Horn of Africa, and Operation UNIFIED PROTECTOR. Prior to assuming his current position, Chief Wright was the superintendent and chief enlisted manager of the 11th Special Operations Intelligence Squadron, Hurlburt Field, Okaloosa County, Fla.
+                            Chief Wright was born in Guantanamo Bay, Cuba and raised in Virginia Beach, Va. He entered the Air Force in 
+                            July of 2000. His background includes various duties in missile and space systems electronic maintenance, 
+                            electronic systems security assessment, operations intelligence, and geospatial intelligence targeting career fields. 
+                            He has deployed in support of Operation ENDURING FREEDOM, Operation IRAQI FREEDOM, Combined Joint Task Force-Horn of 
+                            Africa, and Operation UNIFIED PROTECTOR. Prior to assuming his current position, Chief Wright was the superintendent 
+                            and chief enlisted manager of the 11th Special Operations Intelligence Squadron, Hurlburt Field, 
+                            Okaloosa County, Fla.
                             <br /><br />
                             Education Chief Leadership Course, Gunter Annex-Maxwell Air Force Base, Montgomery, Ala. (2020)
                             <br /><br />
