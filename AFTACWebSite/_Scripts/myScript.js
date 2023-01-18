@@ -1,4 +1,4 @@
-﻿var action ='default'
+﻿var action = 'default'
 var MainPageIndex = 'mainHeader';
 
 $(document).ready(function () {
@@ -4052,7 +4052,7 @@ $(document).ready(function () {
         window.open('_PDFs/2023 Snowball.pdf', '');
     });
 
-   $('#job9l').click(function () {
+    $('#job9l').click(function () {
         window.open('https://jobs.localjobnetwork.com/j/38444081', '');
     });
 
@@ -4113,7 +4113,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-   $('#mybecoming99, #mnubecoming99').click(function () {
+    $('#mybecoming99, #mnubecoming99').click(function () {
         subclicked = true;
         $('#becoming99Art').css('color', 'lightgreen')
         $('.myArts').removeClass('block').addClass('noDisplay');
@@ -4123,7 +4123,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-   $('#showMinutes').click(function () {
+    $('#showMinutes').click(function () {
         subclicked = true;
         $('#showMinutes').css('color', 'lightgreen')
         $('.myArts').removeClass('block').addClass('noDisplay');
@@ -4305,23 +4305,26 @@ $(document).ready(function () {
 
     $('.CommandNotes').click(function () {
         switch ($(this).html()) {
-            case "Colonel Finlayson's Biography" :
+            case "Colonel Finlayson's Biography":
                 $('.CommandArt').removeClass('block').addClass('noDisplay');
                 $('#Command1').removeClass('noDisplay').addClass('block');
                 $([document.documentElement, document.body]).animate({
-                    scrollTop: $("#Command1").offset().top}, 500);
+                    scrollTop: $("#Command1").offset().top
+                }, 500);
                 break
             case "Chief Wright's Biography":
                 $('.CommandArt').removeClass('block').addClass('noDisplay');
                 $('#Command2').removeClass('noDisplay').addClass('block');
                 $([document.documentElement, document.body]).animate({
-                    scrollTop: $("#Command2").offset().top}, 500);
+                    scrollTop: $("#Command2").offset().top
+                }, 500);
                 break
             case "Note from the Commander":
                 $('.CommandArt').removeClass('block').addClass('noDisplay');
                 $('#Command3').removeClass('noDisplay').addClass('block');
                 $([document.documentElement, document.body]).animate({
-                    scrollTop: $("#Command3").offset().top}, 500);
+                    scrollTop: $("#Command3").offset().top
+                }, 500);
                 break
         }
     });
@@ -5009,9 +5012,9 @@ $(document).ready(function () {
     };
 
 });
-    //**********************************************************************
-    //**********************************************************************
-    //End of $(docoment.ready)
+//**********************************************************************
+//**********************************************************************
+//End of $(docoment.ready)
 
 function Show20YearPic(s) {
     $('.myArts').removeClass('block').addClass('noDisplay');
@@ -5039,12 +5042,11 @@ function Open20Year(s) {
     }, 500);
 };
 
-function OpenObit(s)
-{
+function OpenObit(s) {
     $('.myArts').removeClass('block').addClass('noDisplay');
     $('#currentObitsArt').removeClass('noDisplay').addClass('block');
     $('.n2KPara').removeClass('block').addClass('noDisplay');
-    $('#' + s +'Para').removeClass('noDisplay').addClass('block');
+    $('#' + s + 'Para').removeClass('noDisplay').addClass('block');
     $([document.documentElement, document.body]).animate({
         scrollTop: $('#' + s + 'H2').offset().top
     }, 500);
@@ -5079,15 +5081,15 @@ function OpenNTKfromMenu(s) {
 function Open20YearPic(s) {
     $('.myArts').removeClass('block').addClass('noDisplay');
     $('#wallArt').removeClass('noDisplay').addClass('block');
-//    $('#wallImg').attr('src', '_Photos/20YearWall/' + s + '.jpg');
-//    $('#wallImg').css('width', '100%')
-//    $('#hideListings').removeClass('noDisplay').addClass('block');
-//    $('#wallListings').removeClass('block').addClass('noDisplay');
-//    $('#wallPic').removeClass('noDisplay').addClass('block');
-//    $('#wallPic').attr('src', s & 'jpg')
-//    $([document.documentElement, document.body]).animate({
-//        scrollTop: $("#hideListings").offset().top
-//    }, 500);
+    //    $('#wallImg').attr('src', '_Photos/20YearWall/' + s + '.jpg');
+    //    $('#wallImg').css('width', '100%')
+    //    $('#hideListings').removeClass('noDisplay').addClass('block');
+    //    $('#wallListings').removeClass('block').addClass('noDisplay');
+    //    $('#wallPic').removeClass('noDisplay').addClass('block');
+    //    $('#wallPic').attr('src', s & 'jpg')
+    //    $([document.documentElement, document.body]).animate({
+    //        scrollTop: $("#hideListings").offset().top
+    //    }, 500);
 };
 
 function OpenNTK(s) {
@@ -5180,29 +5182,24 @@ function scrollToElement(ele) {
 
 }
 
-document.getElementsByAttribute = Element.prototype.getElementsByAttribute = function (attr)
-{
+document.getElementsByAttribute = Element.prototype.getElementsByAttribute = function (attr) {
     var tagArray = document.getElementsByTagName("*");
     var tagList = [];
-    for (var i = 0; i < tagArray.length; i++)
-    {
+    for (var i = 0; i < tagArray.length; i++) {
         if (tagArray[i].getAttribute(attr)) tagList.push(tagArray[i]);
     }
     return tagList;
 }
 
-window.onload = function ()
-{
+window.onload = function () {
     setEventListenersForArticles(document.getElementsByAttribute("data-toggle-art"));
     setEventListenersForLinks(document.getElementsByAttribute("data-toggle-link"));
 }
 
-function setEventListenersForArticles(tagList)
-{
-    tagList.forEach(function(tag) {
+function setEventListenersForArticles(tagList) {
+    tagList.forEach(function (tag) {
         var attrVal = tag.getAttribute("data-toggle-art");
-        tag.addEventListener("click",function ()
-        {
+        tag.addEventListener("click", function () {
             $('.myArts').removeClass('block').addClass('noDisplay');
             $('#' + attrVal).removeClass('noDisplay').addClass('block');
             scrollTo(0, 0);
