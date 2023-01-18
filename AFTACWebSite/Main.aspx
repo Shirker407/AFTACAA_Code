@@ -368,14 +368,10 @@
                         </div>
                     </article>
 
-            <article id="Command1" class="CommandArt noDisplay backWhite">
-                    <div class="centerDiv">
-                        <img id="AirForceHeader" alt="Air Force Header" class="width100" src="_Images/Air Forse Header.png" />
-                    </div>
-
+            <article id="Command1" class="CommandArt noDisplay backLightBlue">
                     <p class="pTitle centerText underline">COLONEL JAMES FINLAYSON</p>
                     <p>
-                        <img alt="Finlayson.png" class="floatRight width35 leftMargin1em maroonBorder" src="_Images/Finlayson.png"/>
+                        <img alt="Finlayson.png" class="floatRight width35 leftMargin1em rightMarginHalfem maroonBorder showShadow" src="_Images/Finlayson.png"/>
                         Colonel James “Cobra” Finlayson is the Commander, Air Force
                         Technical Applications Center, Patrick Space Force Base, Fla.
                         AFTAC operates and maintains the United States Atomic Energy
@@ -462,10 +458,10 @@
                     </p>
                 </article>
 
-            <article id="Command2" class="CommandArt noDisplay backWhite">
+            <article id="Command2" class="CommandArt noDisplay backLightBlue">
                         <p class="pTitle centerText underline">Chief Jerome Wright Biography</p>
                         <p>
-                            <img alt="CMS_Wright.png" src="_Images/CMS_Wright.png" class="floatLeft width35 rightMargin2em maroonBorder" />
+                            <img alt="CMS_Wright.png" src="_Images/CMS_Wright.png" class="floatLeft width35 rightMargin2em maroonBorder showShadow" />
                             Chief Master Sergeant Jerome S. Wright is Command Chief, Air Force Technical Applications Center, 
                             Patrick Space Force Base, Fla., where he advises the AFTAC wing commander on matters concerning the readiness, 
                             utilization, training, morale and welfare of the 1,000-member center and its 14 detachments around the globe 
@@ -598,7 +594,7 @@
 
                     </article>
 
-            <article id="Command3" class="CommandArt noDisplay backWhite">
+            <article id="Command3" class="CommandArt noDisplay backLightBlue">
                     <p class="pTitle underLine">Note from the Commander<br />By Col. James “Cobra” Finlayson</p>
 
                     <p>
@@ -12774,6 +12770,75 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+
+<%--                <article>
+                    <div>
+                        <h2 id="BalentineH2" class="obitH1">Earl C. Pierce - 12/29/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="BalentinePara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Pierce.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Pierce.png" />                            
+                            Earl Carroll Pierce passed away peacefully on December 29, 2022, in his home surrounded by family. He was 90.
+                            <br /><br />
+                            Earl was a loving husband, father, grandfather, great grandfather and friend. He was also a 20-year veteran of the United States Air Force, athlete, coach, sports fan, traveler, volunteer, outdoorsman and dog lover.
+                            <br /><br />
+                            Earl was born November 2, 1932, in Farmville, NC, to Raymond Pierce and Bernice (Tucker) Pierce.
+                            <br /><br />
+                            His mother passed away when Earl was seven. His father could not take care of the children by himself so he decided to send Earl and four of his siblings to the Methodist Home for Children in Raleigh, NC. Earl said that was the best thing his dad ever did for him and his brother and sisters.
+                            <br /><br />
+                            Earl loved the Children’s Home. He enjoyed going to school, farm work, chores, and the lifelong friends he made. He excelled at every sport in which he participated, whether it was football, basketball, baseball, track or tennis. His basketball coach was a young recent college grad named Norm Sloan, who later coached North Carolina State and David Thompson to the 1974 NCAA basketball championship. It was Stormin’ Norman Sloan who gave Earl the nickname “Hook” because of his deadly hook shot.
+                            <br /><br />
+                            Earl was offered a partial basketball scholarship to Louisburg Junior College in North Carolina. After a year at college, Earl decided to enlist in the newly formed Air Force. While in the Air Force, Earl attained a Bachelor’s Degree from the University of Maryland.
+                            <br /><br />
+                            Earl was deployed to Bremerhaven, Germany, where he met the love of his life, a pretty young German mädchen named Marianne (Riel). The young couple married on July 6, 1956. Earl and Marianne were sent stateside to Youngstown, Ohio. Then Earl received orders to go to Tachikawa Air Force Base in Japan. It was there that the young couple became a young family. Son David came along followed by daughter Brenda.
+                            <br /><br />
+                            The family’s next transfer would eventually be their lifelong home. Earl received orders to teach Special Instruments at Lowry Air Force Base in Denver, CO. They purchased their forever home in Aurora, CO, in 1962. In 1967, Earl and family transferred to Alice Springs, Australia, where the small detachment “listened” to the Soviet Union testing atomic bombs. His job was top secret, so he told his children that alligators guarded the entrance to his building.
+                            <br /><br />
+                            The family transferred back to Lowry AFB in 1969, where they continued to live in their home in Morris Heights. Earl retired from the Air Force in 1972 as a Tech Sargent after “20 years and two days.”
+                            <br /><br />
+                            Post military retirement, Earl enjoyed a successful career with the Denver Urban Renewal Authority, which helped the resurgence of downtown Denver in the late 70s and early 80s. He also held various management positions in the loan industry before officially retiring.
+                            <br /><br />
+                            Post retirement, he worked at a driving range and continued to coach youth sports. Earl loved playing golf and long walks with his dog Gina.  He and Marianne enjoyed going to Blackhawk and traveling, especially ship cruises to far off lands. They were also active in Democratic Party politics, as well as volunteers for the Morris Heights Improvement Association. Earl was also active in the Air Force Technical Applications Center (AFTAC) Alumni Association.
+                            <br /><br />
+                            Earl coached youth sports throughout his adult life. Even up to a few years ago, Earl coached youth basketball. He was a diehard Broncos, Rockies and Nuggets fan. He and Marianne have held Bronco season tickets since 1970. They were among the original infamous South Standers. He went to Super Bowls with Marianne and also dear friends across the street, the Houstons.
+                            <br /><br />
+                            He loved spending family time. Vacations, camping, river rafting, attending ball games, recitals or even just hanging out playing board games. Even after a hard day at work, Earl was always ready to throw a ball or wrestle his children on the living room floor. 
+                            <br /><br />
+                            As his children grew into adulthood and began families of their own, Earl helped them with guidance, advice and friendship.
+                            <br /><br />
+                            He always told David and Brenda that he wanted to be a better dad than his dad. He succeeded a million times over.
+                            <br /><br />
+                            In addition to his wife Marianne, son David (Donna) and daughter Brenda (Michael), Earl is survived by grandchildren Christopher, Michelle (Andrew), Lauren, and Matthew (Ginger) and great grandchildren Graham and Maren.
+                            <br /><br />
+                            He is also survived by sisters Eleanor (George), Shirley and Mae.
+                            <br /><br />
+                            He was preceded in death by his father and mother, brother William, and sisters Mary, Barbara, Audrey, and Margaret.
+                            <br /><br />
+                            In lieu of flowers, the family requests donations to the Denver Dumb Friends League (where Earl found his beloved Gina) and/or the Methodist Home for Children in Raleigh, NC, in his name.
+                            <br /><br />
+                            <span class="underLine maroonText fontSize1_Halfem">Services</span><br />
+                            <span class="underLine maroonText">MEMORIAL SERVICE</span>
+                            Thursday
+                            January 26, 2023<br />
+                            10:00 AM<br />
+                            Horan & McConaty - Aurora<br />
+                            11150 East Dartmouth Avenue<br />
+                            Aurora, CO 80014<br />
+                            <a href="https://www.google.com/maps/place/11150+E+Dartmouth+Ave,+Aurora,+CO+80014/@39.6601407,-104.8573271,17z/data=!3m1!4b1!4m5!3m4!1s0x876c87e5df34efb3:0xd3256d47c964296d!8m2!3d39.6601407!4d-104.8551384" target="_blank">Direction to Memorial Service</a>
+                            <br /><br />
+                            <span class="underLine maroonText">MILITARY HONORS</span><br />
+                            Thursday<br />
+                            January 26, 2023<br />
+                            2:15 PM
+                            <br /><br />
+                            <span class="underLine maroonText">Fort Logan National Cemetery- Staging Area C</span><br />
+                            3698 S Sheridan Blvd<br />
+                            Denver, CO 80235<br />
+                            <a href="https://www.google.com/maps/place/3698+S+Sheridan+Blvd,+Denver,+CO+80236/@39.6497707,-105.0530671,17z/data=!3m1!4b1!4m5!3m4!1s0x876b801e10edeeb7:0x2b8f6e7b5693beaa!8m2!3d39.6497707!4d-105.0508784" target="_blank">Directions to Cemetery</a>
+                        </p>
+                    </div>
+                </article>--%>
 
                 <article>
                     <div>
