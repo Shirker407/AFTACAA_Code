@@ -279,6 +279,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myBalentine" class="announcement blueText">Tony Balentine's Obituary was Posted.</td>
+                                    <td class="posted blueText">1/18/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                    <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySnowBall" class="announcement greenText">SnowBall Announcement and Form</td>
                                     <td class="posted greenText">1/16/2023</td>
                                     <td class="event greenText">2/18/2023</td>
@@ -12771,74 +12776,24 @@
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
 
-<%--                <article>
+                <article>
                     <div>
-                        <h2 id="BalentineH2" class="obitH1">Earl C. Pierce - 12/29/2022 </h2>
+                        <h2 id="BalentineH2" class="obitH1">Tony Balentine - 1/5/2023 </h2>
                     </div>
                     <div class="clear"></div>
                     <div id="BalentinePara" class="obitPara noDisplay">
                         <p>
-                            <img alt="Pierce.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Pierce.png" />                            
-                            Earl Carroll Pierce passed away peacefully on December 29, 2022, in his home surrounded by family. He was 90.
+                            <img alt="Balentine.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Balentine.png" />                            
+                            Chief Master Sergeant Robert A. (Tony) Balentine, USAF Retired, passed away in San Antonio, Texas on January 5, 2023, with his wife Alyson, son Alton, and brother Jim by his side. Born in Fort Worth, Texas, he grew up in a military family, spending his early years in Fort Worth, Texas; Tampa, Florida; Paris, France; Montgomery Alabama; and graduating from Yamato High School in Tachikawa, Japan. Music was always an important part of his life, and he played guitar, sang with folk groups in school, played trombone, and attended NTSU (now UNT) as a music major in the early 60s. He played the trombone professionally in Austin before deciding to make the Air Force his career.
                             <br /><br />
-                            Earl was a loving husband, father, grandfather, great grandfather and friend. He was also a 20-year veteran of the United States Air Force, athlete, coach, sports fan, traveler, volunteer, outdoorsman and dog lover.
+                            His 30-year career in the Air Force, most of those years with the Air Force Technical Applications Center (AFTAC), included an early assignment to Blenheim, New Zealand, where he met and married his wife, Alyson Heather Cameron. Referring to himself often as a "tumbleweed", living wherever the wind took him, his assignments included Sacramento, California; Chiang Mai, Thailand; Yokota, Japan; Honolulu, Hawaii; and Kelly AFB in San Antonio, Texas, where he retired in 1995. His many TDYs throughout his career took him literally around the world several times. His honors included the Air Force Commendation Medal, Air Medal, Meritorious Service Medal, National Defense Service Medal, and many others.
                             <br /><br />
-                            Earl was born November 2, 1932, in Farmville, NC, to Raymond Pierce and Bernice (Tucker) Pierce.
+                            He was preceded in death by his father, Lt. Col. Robert A. Balentine, Jr., mother Eleanore Smith Balentine, sister Kathryn Ohnheiser, and brother Douglas Balentine. He is survived by his wife of fifty-five years, Alyson Cameron Balentine; a son, Alton Cameron Balentine; brother James S. (Jim) and wife Cindy Balentine; brother Bruce Balentine and Nancy Cummings; sister-in-law Susan Neely; stepmother Wanda Balentine, stepbrothers Larry Hussey and Steve Hussman, many nieces, nephews, cousins, aunts and uncles, and numerous friends and colleagues.
                             <br /><br />
-                            His mother passed away when Earl was seven. His father could not take care of the children by himself so he decided to send Earl and four of his siblings to the Methodist Home for Children in Raleigh, NC. Earl said that was the best thing his dad ever did for him and his brother and sisters.
-                            <br /><br />
-                            Earl loved the Children’s Home. He enjoyed going to school, farm work, chores, and the lifelong friends he made. He excelled at every sport in which he participated, whether it was football, basketball, baseball, track or tennis. His basketball coach was a young recent college grad named Norm Sloan, who later coached North Carolina State and David Thompson to the 1974 NCAA basketball championship. It was Stormin’ Norman Sloan who gave Earl the nickname “Hook” because of his deadly hook shot.
-                            <br /><br />
-                            Earl was offered a partial basketball scholarship to Louisburg Junior College in North Carolina. After a year at college, Earl decided to enlist in the newly formed Air Force. While in the Air Force, Earl attained a Bachelor’s Degree from the University of Maryland.
-                            <br /><br />
-                            Earl was deployed to Bremerhaven, Germany, where he met the love of his life, a pretty young German mädchen named Marianne (Riel). The young couple married on July 6, 1956. Earl and Marianne were sent stateside to Youngstown, Ohio. Then Earl received orders to go to Tachikawa Air Force Base in Japan. It was there that the young couple became a young family. Son David came along followed by daughter Brenda.
-                            <br /><br />
-                            The family’s next transfer would eventually be their lifelong home. Earl received orders to teach Special Instruments at Lowry Air Force Base in Denver, CO. They purchased their forever home in Aurora, CO, in 1962. In 1967, Earl and family transferred to Alice Springs, Australia, where the small detachment “listened” to the Soviet Union testing atomic bombs. His job was top secret, so he told his children that alligators guarded the entrance to his building.
-                            <br /><br />
-                            The family transferred back to Lowry AFB in 1969, where they continued to live in their home in Morris Heights. Earl retired from the Air Force in 1972 as a Tech Sargent after “20 years and two days.”
-                            <br /><br />
-                            Post military retirement, Earl enjoyed a successful career with the Denver Urban Renewal Authority, which helped the resurgence of downtown Denver in the late 70s and early 80s. He also held various management positions in the loan industry before officially retiring.
-                            <br /><br />
-                            Post retirement, he worked at a driving range and continued to coach youth sports. Earl loved playing golf and long walks with his dog Gina.  He and Marianne enjoyed going to Blackhawk and traveling, especially ship cruises to far off lands. They were also active in Democratic Party politics, as well as volunteers for the Morris Heights Improvement Association. Earl was also active in the Air Force Technical Applications Center (AFTAC) Alumni Association.
-                            <br /><br />
-                            Earl coached youth sports throughout his adult life. Even up to a few years ago, Earl coached youth basketball. He was a diehard Broncos, Rockies and Nuggets fan. He and Marianne have held Bronco season tickets since 1970. They were among the original infamous South Standers. He went to Super Bowls with Marianne and also dear friends across the street, the Houstons.
-                            <br /><br />
-                            He loved spending family time. Vacations, camping, river rafting, attending ball games, recitals or even just hanging out playing board games. Even after a hard day at work, Earl was always ready to throw a ball or wrestle his children on the living room floor. 
-                            <br /><br />
-                            As his children grew into adulthood and began families of their own, Earl helped them with guidance, advice and friendship.
-                            <br /><br />
-                            He always told David and Brenda that he wanted to be a better dad than his dad. He succeeded a million times over.
-                            <br /><br />
-                            In addition to his wife Marianne, son David (Donna) and daughter Brenda (Michael), Earl is survived by grandchildren Christopher, Michelle (Andrew), Lauren, and Matthew (Ginger) and great grandchildren Graham and Maren.
-                            <br /><br />
-                            He is also survived by sisters Eleanor (George), Shirley and Mae.
-                            <br /><br />
-                            He was preceded in death by his father and mother, brother William, and sisters Mary, Barbara, Audrey, and Margaret.
-                            <br /><br />
-                            In lieu of flowers, the family requests donations to the Denver Dumb Friends League (where Earl found his beloved Gina) and/or the Methodist Home for Children in Raleigh, NC, in his name.
-                            <br /><br />
-                            <span class="underLine maroonText fontSize1_Halfem">Services</span><br />
-                            <span class="underLine maroonText">MEMORIAL SERVICE</span>
-                            Thursday
-                            January 26, 2023<br />
-                            10:00 AM<br />
-                            Horan & McConaty - Aurora<br />
-                            11150 East Dartmouth Avenue<br />
-                            Aurora, CO 80014<br />
-                            <a href="https://www.google.com/maps/place/11150+E+Dartmouth+Ave,+Aurora,+CO+80014/@39.6601407,-104.8573271,17z/data=!3m1!4b1!4m5!3m4!1s0x876c87e5df34efb3:0xd3256d47c964296d!8m2!3d39.6601407!4d-104.8551384" target="_blank">Direction to Memorial Service</a>
-                            <br /><br />
-                            <span class="underLine maroonText">MILITARY HONORS</span><br />
-                            Thursday<br />
-                            January 26, 2023<br />
-                            2:15 PM
-                            <br /><br />
-                            <span class="underLine maroonText">Fort Logan National Cemetery- Staging Area C</span><br />
-                            3698 S Sheridan Blvd<br />
-                            Denver, CO 80235<br />
-                            <a href="https://www.google.com/maps/place/3698+S+Sheridan+Blvd,+Denver,+CO+80236/@39.6497707,-105.0530671,17z/data=!3m1!4b1!4m5!3m4!1s0x876b801e10edeeb7:0x2b8f6e7b5693beaa!8m2!3d39.6497707!4d-105.0508784" target="_blank">Directions to Cemetery</a>
+                            A service with military honors will be at Fort Sam Houston in San Antonio, on February 10, 11:15 am.
                         </p>
                     </div>
-                </article>--%>
+                </article>
 
                 <article>
                     <div>

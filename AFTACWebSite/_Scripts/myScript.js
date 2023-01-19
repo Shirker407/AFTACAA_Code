@@ -1457,6 +1457,10 @@ $(document).ready(function () {
         $('#CommInitial').removeClass('block').addClass('block');
     });
 
+    $('#myBalentine').click(function () {
+        OpenObit('Balentine');
+    });
+
     $('#myPierce').click(function () {
         OpenObit('Pierce');
     });
@@ -1464,6 +1468,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'BalentineH2':
+                ShowMyObit('Balentine')
+                break;
             case 'PierceH2':
                 ShowMyObit('Pierce')
                 break;
