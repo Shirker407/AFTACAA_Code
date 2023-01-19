@@ -3515,6 +3515,13 @@
         <article id="minutesArt" class="myArts noDisplay">
             <p class="pTitle centerText">AFTACAA Board Meeting Minutes by Year</p>
 
+            <div class="floatLeft width30" style="margin-top:-2em;">
+                <p class="centerText">2023</p>
+                <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
+                    <ul class="minutesUL">
+                    </ul>
+                </div>
+            </div>
             <div class="floatLeft" style="margin-top:-2em;">
                 <p class="centerText">2022</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
@@ -3554,7 +3561,9 @@
                 </div>
             </div>            
             
-            <div class="floatLeft" style="margin-top:-2em;">
+            <div class="clear"></div>
+
+            <div class="floatLeft" style="margin-top:-3em;">
                 <p class="centerText">2020</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
@@ -3573,8 +3582,6 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="clear"></div>
 
             <div class="floatLeft" style="margin-top:-3em;">
                 <p class="centerText">2019</p>
@@ -3616,6 +3623,8 @@
                 </div>
             </div>
 
+            <div class="clear"></div>
+
             <div class="floatLeft" style="margin-top:-3em;">
                 <p class="centerText">2017</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
@@ -3634,8 +3643,6 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="clear"></div>
 
             <div class="floatLeft" style="margin-top:-3em;">
                 <p class="pTitle centerText">2016</p>
