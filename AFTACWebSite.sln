@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AFTACWebSite", "AFTACWebSite\AFTACWebSite.vbproj", "{00FC749C-CAD6-4388-A798-99C387A3B047}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VB_Reports", "VB_Reports\VB_Reports.vbproj", "{F49DE014-5467-45C1-83F2-FFD1CCAAA674}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{00FC749C-CAD6-4388-A798-99C387A3B047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00FC749C-CAD6-4388-A798-99C387A3B047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00FC749C-CAD6-4388-A798-99C387A3B047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49DE014-5467-45C1-83F2-FFD1CCAAA674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49DE014-5467-45C1-83F2-FFD1CCAAA674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49DE014-5467-45C1-83F2-FFD1CCAAA674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49DE014-5467-45C1-83F2-FFD1CCAAA674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A45D8308-3C3B-466D-8BAA-76C69437D322}
 	EndGlobalSection
 EndGlobal
