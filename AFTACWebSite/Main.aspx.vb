@@ -238,7 +238,7 @@ Public Class _Default
                     myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item(1)
                 End If
 
-                UpdateLogins("Open an Obituary")
+                UpdateLogins("Opened Archived an Obituary")
                 OpenArticle("archivedObitsArt")
 
             Case "butObitSearchClicked"
