@@ -51,9 +51,11 @@ Public Class _Default
                 If btnDeceased.Text = "Hide Deceased" Then
                     btnDeceased.Text = "Show Deceased"
                     lblListTitle.Text = getAction() & " Database<br/>Deceased Hidden"
+                    UpdateLogins("Decdeased Hidden")
                 Else
                     btnDeceased.Text = "Hide Deceased"
                     lblListTitle.Text = getAction() & " Database<br/>Deceased Shown"
+                    UpdateLogins("Decdeased Swhown")
                 End If
 
                 GetList()
@@ -79,7 +81,7 @@ Public Class _Default
 
                 hfSearchStatus.Value = ""
 
-                OpenArticle("MembershipArt")
+                OpenArticle("Searched Members")
                 ScrollTo("MembershipArt")
             Case "btnClearSearch_Click"
                 GetList()
@@ -163,7 +165,7 @@ Public Class _Default
                     Run_Sql(sql)
                 End If
 
-                UpdateLogins("Password Submit")
+                UpdateLogins("Password Submited")
 
                 OpenAdminMenu()
 
@@ -238,7 +240,7 @@ Public Class _Default
                     myObitArt.InnerHtml = ds.Tables(0).Rows(0).Item(1)
                 End If
 
-                UpdateLogins("Open an Obituary")
+                UpdateLogins("Opened Archived an Obituary")
                 OpenArticle("archivedObitsArt")
 
             Case "butObitSearchClicked"
@@ -1890,11 +1892,9 @@ Public Class _Default
     End Sub
 
     Protected Sub UpdateLogins(p As String)
-        'Dim sql As String
-        'Dim myDate As String = Now().ToString
-
-        'sql = "insert into loginsold (Page, ActivityDate) VALUES ('" & p & "','" & myDate & "')"
-        'Run_Sql(sql)
+        Dim sql As String
+        sql = "insert into logins (Page, ActivityDate) VALUES ('" & p & "', DateAdd(hh,3,getDate()))"
+        Run_Sql(sql)
     End Sub
 
     Protected Sub OpenArticle(s As String)
