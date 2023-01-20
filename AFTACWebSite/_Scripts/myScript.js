@@ -1,4 +1,4 @@
-﻿var action ='default'
+﻿var action = 'default'
 var MainPageIndex = 'mainHeader';
 
 $(document).ready(function () {
@@ -37,6 +37,7 @@ $(document).ready(function () {
     clearInterval(SBSlideShowInt)
     clearInterval(aftacHisSlideShowInt)
     clearInterval(coloradoSlideShowInt)
+
 
     //pingInt = setInterval(function () { Ping() }, 4000);
     //picInt = setInterval(function () { ChangePic() }, 5000);
@@ -1306,7 +1307,7 @@ $(document).ready(function () {
 
     });
 
-    $('#butAOYTop').click(function (){
+    $('#butAOYTop').click(function () {
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#lblAOY").offset().top
         }, 500)
@@ -1319,7 +1320,8 @@ $(document).ready(function () {
         $('#butAOYTop').removeClass('block').addClass('noDisplay');
         $('.alumArt').removeClass('block').addClass('noDisplay');
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#lblAOY").offset().top}, 500);
+            scrollTop: $("#lblAOY").offset().top
+        }, 500);
     });
     //**********************************************************************
 
@@ -1436,14 +1438,6 @@ $(document).ready(function () {
         window.open('https://www.offutt.af.mil/News/Article/3090736/team-offutt-welcomes-first-wc-135r-to-its-fleet/fbclid/team-offutt-welcomes-first-wc-135r-to-its-fleet/', '');
     });
 
-    $('#myTricare').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#TricareArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("TricareArt").offset().top
-        }, 500);
-    });
-
     $('#myDecPomo').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#pomoArt').removeClass('block').addClass('block');
@@ -1456,41 +1450,30 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#myNote').click(function () {
-        window.open('_pdfs/Commander_Note.pdf', '');
+    $('#myCommPage').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#myCommandArt').removeClass('block').addClass('block');
+        $('.CommandArt').removeClass('block').addClass('noDisplay');
+        $('#CommInitial').removeClass('block').addClass('block');
     });
 
-    $('#mySign').click(function () {
-        OpenNTK('Sign')
+    $('#myBalentine').click(function () {
+        OpenObit('Balentine');
     });
 
-    $('#myCTBTO').click(function () {
-        OpenNTK('CTBTO')
-    });
-
-    $('#myFinlayson').click(function () {
-        window.open('_pdfs/Finlayson bio.pdf', '');
-    });
-
-    $('#myShader').click(function () {
-        OpenObit('Shader');
-    });
-
-    $('#myPound').click(function () {
-        OpenObit('Pound');
-    });
-
-    $('#myWilliamson').click(function () {
-        OpenObit('Williamson');
-    });
-
-    $('#myAnderholm').click(function () {
-        OpenObit('Anderholm');
+    $('#myPierce').click(function () {
+        OpenObit('Pierce');
     });
 
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'BalentineH2':
+                ShowMyObit('Balentine')
+                break;
+            case 'PierceH2':
+                ShowMyObit('Pierce')
+                break;
             case 'ShaderH2':
                 ShowMyObit('Shader')
                 break;
@@ -1512,7 +1495,7 @@ $(document).ready(function () {
             case 'KimballH2':
                 ShowMyObit('Kimball')
                 break;
-         }
+        }
 
         $('#butShowListings').val('Return to Obituaries');
     });
@@ -2115,22 +2098,22 @@ $(document).ready(function () {
         }, 500);
     });
 
-   //**********************************************************************
+    //**********************************************************************
 
     $('#myMinutes').click(function () {
-        window.open('_Minutes/7-22-2022_Minutes.pdf', '');
+        window.open('_Minutes/12-9-2022_Minutes.pdf', '');
     });
 
-    $('#aprilPomo').click(function () {
-        window.open('_Pomos/PoMo2022_04.pdf', '');
+    $('#AprilPomo').click(function () {
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_04.pdf', '');
     });
 
-    $('#augustPomo').click(function () {
-        window.open('_Pomos/PoMo2022_08.pdf', '');
+    $('#AugustPomo').click(function () {
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_08.pdf', '');
     });
 
-    $('#decemberPomo').click(function () {
-        window.open('_Pomos/PoMo2021_12.pdf', '');
+    $('#DecemberPomo').click(function () {
+        window.open('http://aftacaa.us/_Pomos/PoMo2022_12.pdf', '');
     });
 
     //**********************************************************************
@@ -4072,6 +4055,10 @@ $(document).ready(function () {
         }, 500);
     })
 
+    $('#btnSnow').click(function () {
+        window.open('_PDFs/2023 Snowball.pdf', '');
+    });
+
     $('#job9l').click(function () {
         window.open('https://jobs.localjobnetwork.com/j/38444081', '');
     });
@@ -4120,6 +4107,26 @@ $(document).ready(function () {
 
         $([document.documentElement, document.body]).animate({
             scrollTop: $('#recentTitle').offset().top
+        }, 500);
+    });
+
+    $('#mySnowBall').click(function () {
+        subclicked = true;
+        $('#becoming99Art').css('color', 'lightgreen')
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#Snow2023').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#mainHeader").offset().top
+        }, 500);
+    });
+
+    $('#mybecoming99, #mnubecoming99').click(function () {
+        subclicked = true;
+        $('#becoming99Art').css('color', 'lightgreen')
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#becoming99Art').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#mainHeader").offset().top
         }, 500);
     });
 
@@ -4204,6 +4211,23 @@ $(document).ready(function () {
         }, 500);
     });
 
+    $('#myCoBreakfast').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#CoBreakfastArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#CoBreakfastArt").offset().top
+        }, 500);
+    });
+
+    $('#my79Years, #79Years').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#79YearsArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#79YearsArt").offset().top
+        }, 500);
+        //    window.open('_PDFs/79 Years Ago.pdf');
+    });
+
     $('#mySpy').click(function () {
         window.open('https://www.scmp.com/news/china/military/article/3154476/us-spy-planes-over-south-china-sea-likely-surveyed-nuclear', '');
     });
@@ -4284,6 +4308,47 @@ $(document).ready(function () {
         }, 500);
         $('#butShowListings').val('Return to Listings');
 
+    });
+
+    $('.CommandNotes').click(function () {
+        switch ($(this).html()) {
+            case "Colonel Finlayson's Biography":
+                $('.CommandArt').removeClass('block').addClass('noDisplay');
+                $('#Command1').removeClass('noDisplay').addClass('block');
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $("#Command1").offset().top
+                }, 500);
+                break
+            case "Chief Wright's Biography":
+                $('.CommandArt').removeClass('block').addClass('noDisplay');
+                $('#Command2').removeClass('noDisplay').addClass('block');
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $("#Command2").offset().top
+                }, 500);
+                break
+            case "Note from the Commander":
+                $('.CommandArt').removeClass('block').addClass('noDisplay');
+                $('#Command3').removeClass('noDisplay').addClass('block');
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $("#Command3").offset().top
+                }, 500);
+                break
+        }
+    });
+
+    $('#liCommand').click(function () {
+        if ($('#divChapters').hasClass('noDisplay')) {
+            resetpage()
+            $('.liMainMenu').css('color', 'yellow');
+            $(this).css('color', 'lightgreen');
+            $('.underSel').css('color', 'yellow');
+            $('.underMenu').removeClass('block').addClass('noDisplay');
+            $('.myArts').removeClass('block').addClass('noDisplay');
+            $('#myCommandArt').removeClass('noDisplay').addClass('block');
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#myCommandArt").offset().top
+            }, 500);
+        };
     });
 
     $('#liIndependent').click(function () {
@@ -4421,7 +4486,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#Golf2022, #myGolf2022').click(function () {
+    $('#Golf2022').click(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow')
         $(this).css('color', 'lightgreen')
@@ -4429,17 +4494,6 @@ $(document).ready(function () {
         $('#Golf2022Art').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#Golf2022Art").offset().top
-        }, 500);
-    });
-
-    $('#DiamondJub, #myDiamondJub').click(function () {
-        subclicked = true;
-        $('.underSel').css('color', 'yellow')
-        $(this).css('color', 'lightgreen')
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#DiamondArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#DiamondArt").offset().top
         }, 500);
     });
 
@@ -4965,9 +5019,9 @@ $(document).ready(function () {
     };
 
 });
-    //**********************************************************************
-    //**********************************************************************
-    //End of $(docoment.ready)
+//**********************************************************************
+//**********************************************************************
+//End of $(docoment.ready)
 
 function Show20YearPic(s) {
     $('.myArts').removeClass('block').addClass('noDisplay');
@@ -4995,12 +5049,11 @@ function Open20Year(s) {
     }, 500);
 };
 
-function OpenObit(s)
-{
+function OpenObit(s) {
     $('.myArts').removeClass('block').addClass('noDisplay');
     $('#currentObitsArt').removeClass('noDisplay').addClass('block');
     $('.n2KPara').removeClass('block').addClass('noDisplay');
-    $('#' + s +'Para').removeClass('noDisplay').addClass('block');
+    $('#' + s + 'Para').removeClass('noDisplay').addClass('block');
     $([document.documentElement, document.body]).animate({
         scrollTop: $('#' + s + 'H2').offset().top
     }, 500);
@@ -5035,15 +5088,15 @@ function OpenNTKfromMenu(s) {
 function Open20YearPic(s) {
     $('.myArts').removeClass('block').addClass('noDisplay');
     $('#wallArt').removeClass('noDisplay').addClass('block');
-//    $('#wallImg').attr('src', '_Photos/20YearWall/' + s + '.jpg');
-//    $('#wallImg').css('width', '100%')
-//    $('#hideListings').removeClass('noDisplay').addClass('block');
-//    $('#wallListings').removeClass('block').addClass('noDisplay');
-//    $('#wallPic').removeClass('noDisplay').addClass('block');
-//    $('#wallPic').attr('src', s & 'jpg')
-//    $([document.documentElement, document.body]).animate({
-//        scrollTop: $("#hideListings").offset().top
-//    }, 500);
+    //    $('#wallImg').attr('src', '_Photos/20YearWall/' + s + '.jpg');
+    //    $('#wallImg').css('width', '100%')
+    //    $('#hideListings').removeClass('noDisplay').addClass('block');
+    //    $('#wallListings').removeClass('block').addClass('noDisplay');
+    //    $('#wallPic').removeClass('noDisplay').addClass('block');
+    //    $('#wallPic').attr('src', s & 'jpg')
+    //    $([document.documentElement, document.body]).animate({
+    //        scrollTop: $("#hideListings").offset().top
+    //    }, 500);
 };
 
 function OpenNTK(s) {
@@ -5136,29 +5189,24 @@ function scrollToElement(ele) {
 
 }
 
-document.getElementsByAttribute = Element.prototype.getElementsByAttribute = function (attr)
-{
+document.getElementsByAttribute = Element.prototype.getElementsByAttribute = function (attr) {
     var tagArray = document.getElementsByTagName("*");
     var tagList = [];
-    for (var i = 0; i < tagArray.length; i++)
-    {
+    for (var i = 0; i < tagArray.length; i++) {
         if (tagArray[i].getAttribute(attr)) tagList.push(tagArray[i]);
     }
     return tagList;
 }
 
-window.onload = function ()
-{
+window.onload = function () {
     setEventListenersForArticles(document.getElementsByAttribute("data-toggle-art"));
     setEventListenersForLinks(document.getElementsByAttribute("data-toggle-link"));
 }
 
-function setEventListenersForArticles(tagList)
-{
-    tagList.forEach(function(tag) {
+function setEventListenersForArticles(tagList) {
+    tagList.forEach(function (tag) {
         var attrVal = tag.getAttribute("data-toggle-art");
-        tag.addEventListener("click",function ()
-        {
+        tag.addEventListener("click", function () {
             $('.myArts').removeClass('block').addClass('noDisplay');
             $('#' + attrVal).removeClass('noDisplay').addClass('block');
             scrollTo(0, 0);

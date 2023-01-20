@@ -50,6 +50,15 @@ Partial Public Class _Default
     Protected WithEvents myPWUser As Global.System.Web.UI.WebControls.HiddenField
 
     '''<summary>
+    '''hfIPAddress control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents hfIPAddress As Global.System.Web.UI.WebControls.HiddenField
+
+    '''<summary>
     '''mainMenu control.
     '''</summary>
     '''<remarks>
@@ -57,15 +66,6 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents mainMenu As Global.System.Web.UI.HtmlControls.HtmlGenericControl
-
-    '''<summary>
-    '''lbl2022 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lbl2022 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''lbl2021 control.
@@ -102,6 +102,15 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lbl2018 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''lbl2017 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lbl2017 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''btnFriends control.
@@ -219,15 +228,6 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnFriendSearch As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''btnFriendClear control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnFriendClear As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''pnlMemDefault control.
@@ -860,15 +860,6 @@ Partial Public Class _Default
     Protected WithEvents lblMemErr As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''pnlReason control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents pnlReason As Global.System.Web.UI.WebControls.Panel
-
-    '''<summary>
     '''txtReason control.
     '''</summary>
     '''<remarks>
@@ -903,6 +894,15 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnAdd As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''txtsql control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txtsql As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''btnReturnAdminMenu control.
@@ -1445,6 +1445,24 @@ Partial Public Class _Default
     Protected WithEvents Label11 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Label5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Label6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Label22 control.
     '''</summary>
     '''<remarks>
@@ -1587,6 +1605,15 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents myObitArt As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''Label10 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label10 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Label16 control.
