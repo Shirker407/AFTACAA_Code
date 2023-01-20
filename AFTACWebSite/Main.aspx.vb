@@ -79,7 +79,7 @@ Public Class _Default
 
                 hfSearchStatus.Value = ""
 
-                OpenArticle("MembershipArt")
+                OpenArticle("Searched Members")
                 ScrollTo("MembershipArt")
             Case "btnClearSearch_Click"
                 GetList()
@@ -163,7 +163,7 @@ Public Class _Default
                     Run_Sql(sql)
                 End If
 
-                UpdateLogins("Password Submit")
+                UpdateLogins("Password Submited")
 
                 OpenAdminMenu()
 
@@ -1890,11 +1890,9 @@ Public Class _Default
     End Sub
 
     Protected Sub UpdateLogins(p As String)
-        'Dim sql As String
-        'Dim myDate As String = Now().ToString
-
-        'sql = "insert into loginsold (Page, ActivityDate) VALUES ('" & p & "','" & myDate & "')"
-        'Run_Sql(sql)
+        Dim sql As String
+        sql = "insert into logins (Page, ActivityDate) VALUES ('" & p & "', DateAdd(hh,3,getDate()))"
+        Run_Sql(sql)
     End Sub
 
     Protected Sub OpenArticle(s As String)
