@@ -51,9 +51,11 @@ Public Class _Default
                 If btnDeceased.Text = "Hide Deceased" Then
                     btnDeceased.Text = "Show Deceased"
                     lblListTitle.Text = getAction() & " Database<br/>Deceased Hidden"
+                    UpdateLogins("Decdeased Hidden")
                 Else
                     btnDeceased.Text = "Hide Deceased"
                     lblListTitle.Text = getAction() & " Database<br/>Deceased Shown"
+                    UpdateLogins("Decdeased Swhown")
                 End If
 
                 GetList()
