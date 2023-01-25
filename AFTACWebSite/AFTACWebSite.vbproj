@@ -876,6 +876,7 @@
     <Content Include="_Photos\ObitPics\Killey.jpg" />
     <Content Include="_Photos\ObitPics\Kimball.jpg" />
     <Content Include="_Photos\ObitPics\Kretzschmar.jpg" />
+    <Content Include="_Photos\ObitPics\Kridle.png" />
     <Content Include="_Photos\ObitPics\Kubiak.jfif" />
     <Content Include="_Photos\ObitPics\Lanigan.png" />
     <Content Include="_Photos\ObitPics\Leathers.png" />
@@ -1259,7 +1260,6 @@
     <Content Include="_Photos\WOH\wohFig3.JPG" />
     <Content Include="_Photos\WOH\wohFig4.JPG" />
     <Content Include="_Photos\Wooden HQ.jpg" />
-    <Content Include="_Scripts\Kridle.png" />
     <Content Include="_Scripts\myScript.js" />
     <Content Include="_Styles\BasicStyles.css" />
     <Content Include="_Styles\myStyles.css" />
