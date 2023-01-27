@@ -1095,6 +1095,7 @@
                         <div>
                             <asp:Image ID="imgCal" ImageUrl="~/_Images/checked.jpg" Width="5%" runat="server" /><span class="maroonText bold" style="font-size:1.5em;"> California</span>
                             <asp:Image ID="imgCol" CssClass=" leftMargin1Halfem" ImageUrl="~/_Images/checked.jpg" Width="5%" runat="server" /><span class="maroonText bold" style="font-size:1.5em;"> Colorado</span>
+                            <br />
                             <asp:Image ID="imgFla" CssClass=" leftMargin1Halfem" ImageUrl="~/_Images/checked.jpg" Width="5%" runat="server" /><span class="maroonText bold" style="font-size:1.5em;"> Florida</span>
                         </div>
                     </div>
