@@ -1824,6 +1824,7 @@ Public Class _Default
         Dim sql As String = ""
 
         lblSearchErr.Visible = False
+        txtSearchName.Text = ""
 
         sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac Order By Last, First, Initial"
 
