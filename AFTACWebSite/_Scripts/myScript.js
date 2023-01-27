@@ -1438,7 +1438,7 @@ $(document).ready(function () {
         window.open('https://www.offutt.af.mil/News/Article/3090736/team-offutt-welcomes-first-wc-135r-to-its-fleet/fbclid/team-offutt-welcomes-first-wc-135r-to-its-fleet/', '');
     });
 
-    $('#myDecPomo').click(function () {
+  /*  $('#myDecPomo').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#pomoArt').removeClass('block').addClass('block');
         $('#sectPomoCurrent').removeClass('noDisplay').addClass('block');
@@ -1449,12 +1449,17 @@ $(document).ready(function () {
             scrollTop: $("pomoArt").offset().top
         }, 500);
     });
-
+    */
     $('#myCommPage').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#myCommandArt').removeClass('block').addClass('block');
         $('.CommandArt').removeClass('block').addClass('noDisplay');
         $('#CommInitial').removeClass('block').addClass('block');
+    });
+
+    $('#mySpecalLinksPage').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
     });
 
     $('#myBalentine').click(function () {
@@ -2110,7 +2115,7 @@ $(document).ready(function () {
         window.open('_PDFs/WiSE2023.pdf', '');
     });
 
-    $('#myMinutes').click(function () {
+  $('#myMinutes').click(function () {
         window.open('_Minutes/12-9-2022_Minutes.pdf', '');
     });
 
