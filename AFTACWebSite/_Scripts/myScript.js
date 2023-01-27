@@ -1465,9 +1465,16 @@ $(document).ready(function () {
         OpenObit('Pierce');
     });
 
+    $('#myKridle').click(function () {
+        OpenObit('Kridle');
+    });
+
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'KridleH2':
+                ShowMyObit('Kridle')
+                break;
             case 'BalentineH2':
                 ShowMyObit('Balentine')
                 break;
@@ -4902,7 +4909,19 @@ $(document).ready(function () {
             scrollTop: $("#mainHeader").offset().top
         }, 500);
     });
-
+    //This code is used to open the Special Links "page" from an announcement on adding new links and can be deleted after the announcement is deleted> 
+    $('#anouncementSpecialLinks').click(function () {
+        resetpage()
+        $('.liMainMenu').css('color', 'yellow');
+        $(this).css('color', 'lightgreen');
+        $('.underMenu').removeClass('block').addClass('noDisplay');
+        $('.underSel').css('color', 'yellow');
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#mainHeader").offset().top
+        }, 500);
+    });
     $('#liHurricane').click(function () {
         if ($('#divHurricane').hasClass('noDisplay')) {
             resetpage()
