@@ -1438,7 +1438,7 @@ $(document).ready(function () {
         window.open('https://www.offutt.af.mil/News/Article/3090736/team-offutt-welcomes-first-wc-135r-to-its-fleet/fbclid/team-offutt-welcomes-first-wc-135r-to-its-fleet/', '');
     });
 
-    $('#myDecPomo').click(function () {
+  /*  $('#myDecPomo').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#pomoArt').removeClass('block').addClass('block');
         $('#sectPomoCurrent').removeClass('noDisplay').addClass('block');
@@ -1449,12 +1449,17 @@ $(document).ready(function () {
             scrollTop: $("pomoArt").offset().top
         }, 500);
     });
-
+    */
     $('#myCommPage').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#myCommandArt').removeClass('block').addClass('block');
         $('.CommandArt').removeClass('block').addClass('noDisplay');
         $('#CommInitial').removeClass('block').addClass('block');
+    });
+
+    $('#mySpecalLinksPage').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
     });
 
     $('#myBalentine').click(function () {
@@ -1465,9 +1470,16 @@ $(document).ready(function () {
         OpenObit('Pierce');
     });
 
+    $('#myKridle').click(function () {
+        OpenObit('Kridle');
+    });
+
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'KridleH2':
+                ShowMyObit('Kridle')
+                break;
             case 'BalentineH2':
                 ShowMyObit('Balentine')
                 break;
@@ -2099,8 +2111,11 @@ $(document).ready(function () {
     });
 
     //**********************************************************************
+    $('#myWise2023').click(function () {
+        window.open('_PDFs/WiSE2023.pdf', '');
+    });
 
-    $('#myMinutes').click(function () {
+  $('#myMinutes').click(function () {
         window.open('_Minutes/12-9-2022_Minutes.pdf', '');
     });
 
@@ -4899,7 +4914,19 @@ $(document).ready(function () {
             scrollTop: $("#mainHeader").offset().top
         }, 500);
     });
-
+    //This code is used to open the Special Links "page" from an announcement on adding new links and can be deleted after the announcement is deleted> 
+    $('#anouncementSpecialLinks').click(function () {
+        resetpage()
+        $('.liMainMenu').css('color', 'yellow');
+        $(this).css('color', 'lightgreen');
+        $('.underMenu').removeClass('block').addClass('noDisplay');
+        $('.underSel').css('color', 'yellow');
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#mainHeader").offset().top
+        }, 500);
+    });
     $('#liHurricane').click(function () {
         if ($('#divHurricane').hasClass('noDisplay')) {
             resetpage()

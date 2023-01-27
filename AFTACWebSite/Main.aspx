@@ -279,6 +279,24 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWise2023" class="announcement blueText">Women in Science and Engineering Profesional Symposium.</td>
+                                    <td class="posted blueText">1/27/2023</td>
+                                    <td class="event greenText">2/8/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr>    
+                                    <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myKridle" class="announcement blueText">Robert "Bob" Michael Kridle's Obituary Posted</td>
+                                    <td class="posted blueText">1/24/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr>    
+                                    <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage" class="announcement blueText">2023 Disney Military Discouts and 4 AFTAC Facebook Page Links Posted</td>
+                                    <td class="posted blueText">1/24/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myBalentine" class="announcement blueText">Tony Balentine's Obituary was Posted.</td>
                                     <td class="posted blueText">1/18/2023</td>
                                     <td class="event blueText"></td>
@@ -313,16 +331,19 @@
                                 <td class="posted blueText">1/4/2023</td>
                                 <td class="event blueText"></td>
                             </tr>
-                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+                          <tr class="trAnnouncementsEntry bottomDotRed">                    
                                 <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
                                 <td class="posted blueText">12/31/2022</td>
                                 <td class="event blueText"></td>
                             </tr>
-                            <tr class="trAnnouncementsEntry bottomDotRed">                    
+
+<!--                           
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                 <td id="myDecPomo" class="announcement blueText">December Pomo was Published.</td>
                                 <td class="posted blueText">12/23/2022</td>
                                 <td class="event blueText"></td>
                             </tr>
+-->
                          </table>
                         </div>
                     </div>
@@ -1089,6 +1110,7 @@
                         <div>
                             <asp:Image ID="imgCal" ImageUrl="~/_Images/checked.jpg" Width="5%" runat="server" /><span class="maroonText bold" style="font-size:1.5em;"> California</span>
                             <asp:Image ID="imgCol" CssClass=" leftMargin1Halfem" ImageUrl="~/_Images/checked.jpg" Width="5%" runat="server" /><span class="maroonText bold" style="font-size:1.5em;"> Colorado</span>
+                            <br />
                             <asp:Image ID="imgFla" CssClass=" leftMargin1Halfem" ImageUrl="~/_Images/checked.jpg" Width="5%" runat="server" /><span class="maroonText bold" style="font-size:1.5em;"> Florida</span>
                         </div>
                     </div>
@@ -6040,6 +6062,23 @@
                 <li>
                     <a href="https://blogs.va.gov/VAntage" target="_blank">Current information that you might like to read.</a>
                 </li>
+
+                <li>
+                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.military.com%2Fdiscounts%2Fdisney-discounts-for-military-families.html%3Futm_medium%3DSocial%26utm_source%3DFacebook%26fbclid%3DIwAR2exec-mL17HtM38pzGyaQ1x1WQ4l_YogwG0jCBQAWawCteNcYTAKgVFRc%23Echobox%3D1670249177&data=05%7C01%7C%7C288e87b25aa64562624a08dafe2ba6da%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638101760735774323%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=ZxHSXSkvmhI7BVhpYD1%2FGex33TmdTaIwWIZ0Gb4JH6A%3D&reserved=0" target="_blank">2023 Disney Military Discounts</a>
+                </li>
+                <li>
+                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2Faftacaa%2F&data=05%7C01%7C%7Cf39ea75b4e2546929ef108dafd65fd38%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100911751545649%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=GHmo4ZFjy%2F4P23XDAvFvzUauMwvV23kj1gpPX8ZifBY%3D&reserved=0" target="_blank">AFTAC Alumni of the world Unite Facebook Page.</a>
+                </li>
+                <li>
+                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F159548326438%2F&data=05%7C01%7C%7C7835cdd2963e4e9ac96b08dafee202e7%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638102543939297797%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=t6vAiZRif6KzFtr%2FjIo42mwUGRgENEGf4ufPxQG6AvE%3D&reserved=0" target="_blank">99105 99104 99106 99125 9s100 Facebook Page</a>
+                </li>
+                <li>
+                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F116840384633%2F&data=05%7C01%7C%7C7835cdd2963e4e9ac96b08dafee202e7%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638102543939297797%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=gzPjd2Hm97zpd2T6XPtCFU4va6kAHBJYzHXu5YQhBTo%3D&reserved=0" target="_blank">AFTAC Airborne Operations Facebook Page</a>
+                </li>
+                <li>
+                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F416570163563783%2F&data=05%7C01%7C%7Cf39ea75b4e2546929ef108dafd65fd38%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100911751701899%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=0BKTrUQTvA4v7d89loC7a8nbGVq17Sl9FbsJP6yRRk4%3D&reserved=0" target="_blank">Pioneers of LRD (AFTAC) - the Early Years Facebook Page</a>
+                </li>
+
             </ul>
 <%--            <img id="coin" alt="EFAE.jpg" src="_Images/EFAE.jpg" />--%>
         </article>
@@ -12428,7 +12467,7 @@
                     </div>
                     <div id="AprilPomo" class="floatLeft width25">
                         <img alt="April2022.png" class="myPomo blackBorder showShadow" src="_Images/April2022.png" style="height:15em;" />
-                        <p class="centerText">August 2022</p>
+                        <p class="centerText">April 2022</p>
                     </div>
                 </div>
 
@@ -12783,7 +12822,7 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
-
+    
                 <article>
                     <div>
                         <h2 id="BalentineH2" class="obitH1">Tony Balentine - 1/5/2023 </h2>
@@ -12974,6 +13013,32 @@
                         <img alt="Peterson2.png" class="width95 topMargin2em maroonBorder autoMarginLeftRight"  src="_Photos/ObitPics/Peterson2.png" />
                     </div>
                 </article>             
+
+           <article>
+                    <div>
+                        <h2 id="KridleH2" class="obitH1">Robert "Bob" Michael Kridle - 7/31/2022 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="KridlePara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Kridle.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Kridle.png" />                            
+                            Robert “Bob” Michael Kridle, age 92 of Biloxi, passed away on Sunday, July 31, 2022.<br /><br />
+                            Bob was born on April 3, 1930 in Greensboro, Pennsylvania. He earned a Bachelor of Science in Business from University of Maryland College Park. He enjoyed a 20-year career as an Industrial Arts Teacher (Electronics) at T.C. Williams High School in Alexandria, Virginia and served 22 years in the United States Air Force where he retired as a Major.<br /><br />
+                            During his spare time, he enjoyed the Gulf Coast Symphony, staying active in the parish life at Nativity BVM as a greeter, being a member of Men of St. Joseph, and a member of the Engaged Couples/Marriage Encounter Team. During his younger years, he also enjoyed golfing as well as bowling.<br /><br />
+                            Referred to lovingly as The Mighty Oak, Bob spent his life in service to others, most notably his dedication to his first wife Jean, in both the good and challenging times.  Together they weathered life’s literal and figurative storms. He was also instrumental and devoted in caring for his daughter, Barbara Ann, during her end-of-life journey.<br /><br /> 
+                            Bob was always present and lived his life in the moment, making extraordinary efforts to attend his grandchildren’s significant milestones. <br /><br />
+                            He was a creative craftsman and enjoyed spending time in his well-equipped workshop, recreating treasures which will carry on family traditions for generations to come.  Always observant of everyday life, he used his creativity and ‘engineering based’ mindset to make countless items in order to make life at home easier and safer for his loved ones.  ‘Measure twice, cut once’ was often his mantra. Bob will be deeply missed by all who were fortunate enough to be part of his life.<br /><br />
+                            Bob is preceded in death by his parents, John and Lena Kridle; his first wife of 60 years, Jean Fountain Kridle; daughter, Barbara Kridle Maynard; brothers, Leo, Charles, William, Bernard Kridle; and sister, Martha Kridle Young.<br /><br />
+                            His survivors include his daughters, Mary (Ross Sr.) Harding, Jeanne (Thomas Jr.) O’Connor, Caroline (Stephen) Korte and Linda (Charles) Bubeck; son-in-law, Riley Maynard; spouse, Patricia Modenbach Kridle; grandchildren, Michael Harding (Kora Stafslein), Ross (Rebecca Reeves) Harding Jr., Elizabeth Harding (Terry) Bullman, Jennifer O’Connor (Barry) Smoler, Kaitlin O’Connor, Thomas (Diana) O’Connor III, Nathan Maynard, Meredith Maynard (Thomas) Mallon, Jacqueline Korte (Andrew) McShane, Wilson Korte, Hannah Korte (Nathan) Dye, Emily Bubeck and Claire Bubeck; 15 great grandchildren; sister, Dr. Lois Hlavac; and a host of nieces, nephews, relatives, and dear friends.<br /><br />
+                            With deepest appreciation and heartfelt gratitude, the family of Bob Kridle thanks each of you for your presence, prayers, support and kindness.<br /><br />
+                            In lieu of flowers donations can be made to Sisters of the Holy Family, 6901 Chef Menteur Highway, New Orleans, LA 70126.<br /><br />
+                            A Mass of Christian Burial will be held on Monday, August 8, 2022 at 11:00 am at Nativity BVM Cathedral. Friends are invited to visit one hour prior. Interment will follow at Southern Memorial Park. A reception will follow burial in the Sacred Heart Center at Nativity BVM.<br /><br />
+                            Bradford-O’Keefe Funeral Home is honored to serve the family of Robert “Bob” Michael Kridle.<br /><br />
+                            To order <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmanage2.tukioswebsites.com%2Fo%2Fv2%2Ftrees%2F3c6b1f32-d955-4150-bf44-295dbfa77ff6&data=05%7C01%7C%7Cf1342378310e4bb7c7ac08dafce41573%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100353824384033%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=TEuc5XB9wwiG%2F8tKpwRVz5up4sftPgXX%2B2plCSW4gqw%3D&reserved=0"> memorial trees <a /> or send flowers to the family in memory of Robert "Bob" Michael Kridle, please visit our <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmanage2.tukioswebsites.com%2Fo%2Fv2%2Fflowers%2F3c6b1f32-d955-4150-bf44-295dbfa77ff6&data=05%7C01%7C%7Cf1342378310e4bb7c7ac08dafce41573%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100353824384033%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=%2BwfSStc%2BDldJKpf1pbOmxEk6UC%2B5XcD7eb%2Fwp0pRwQM%3D&reserved=0">flower store.<a /><br /><br />
+
+                        </p>
+                    </div>
+                </article>
 
                 <article>
                     <div>

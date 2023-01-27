@@ -876,6 +876,7 @@
     <Content Include="_Photos\ObitPics\Killey.jpg" />
     <Content Include="_Photos\ObitPics\Kimball.jpg" />
     <Content Include="_Photos\ObitPics\Kretzschmar.jpg" />
+    <Content Include="_Photos\ObitPics\Kridle.png" />
     <Content Include="_Photos\ObitPics\Kubiak.jfif" />
     <Content Include="_Photos\ObitPics\Lanigan.png" />
     <Content Include="_Photos\ObitPics\Leathers.png" />
@@ -1483,6 +1484,7 @@
     <Content Include="_Minutes\9-16-2022_Minutes.pdf" />
     <Content Include="_PDFs\SnowBall RSVP.pdf" />
     <Content Include="_PDFs\2023 Snowball.pdf" />
+    <Content Include="_PDFs\WiSE2023.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
