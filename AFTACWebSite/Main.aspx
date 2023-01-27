@@ -279,6 +279,12 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWise2023" class="announcement blueText">Women in Science and Engineering Profesional Symposium.</td>
+                                    <td class="posted blueText">1/27/2023</td>
+                                    <td class="event greenText">2/8/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myBalentine" class="announcement blueText">Tony Balentine's Obituary was Posted.</td>
                                     <td class="posted blueText">1/18/2023</td>
                                     <td class="event blueText"></td>
