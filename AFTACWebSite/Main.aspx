@@ -279,19 +279,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWise2023" class="announcement blueText">Women in Science and Engineering Profesional Symposium.</td>
-                                    <td class="posted blueText">1/27/2023</td>
+                                    <td id="myWise2023" class="announcement greenText">Women in Science and Engineering Profesional Symposium.</td>
+                                    <td class="posted greenText">1/27/2023</td>
                                     <td class="event greenText">2/8/2023</td>
-                                    <td class="event blueText"></td>
                                 </tr>
-                                <tr>    
-                                    <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myKridle" class="announcement blueText">Robert "Bob" Michael Kridle's Obituary Posted</td>
                                     <td class="posted blueText">1/24/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr>    
-                                    <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage" class="announcement blueText">2023 Disney Military Discouts and 4 AFTAC Facebook Page Links Posted</td>
                                     <td class="posted blueText">1/24/2023</td>
                                     <td class="event blueText"></td>
@@ -301,7 +298,7 @@
                                     <td class="posted blueText">1/18/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                    <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySnowBall" class="announcement greenText">SnowBall Announcement and Form</td>
                                     <td class="posted greenText">1/16/2023</td>
                                     <td class="event greenText">2/18/2023</td>
@@ -316,26 +313,26 @@
                                     <td class="posted blueText">1/14/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                            <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                <td id="myCommPage" class="announcement blueText">Check "Command Corner" in Main Menu</td>
-                                <td class="posted blueText">1/9/2023</td>
-                                <td class="event blueText"></td>
-                            </tr>
-                            <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
-                                <td class="posted greenText">1/5/2023</td>
-                                <td class="event greenText">3/4/2023</td>
-                            </tr>
-                            <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
-                                <td class="posted blueText">1/4/2023</td>
-                                <td class="event blueText"></td>
-                            </tr>
-                          <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
-                                <td class="posted blueText">12/31/2022</td>
-                                <td class="event blueText"></td>
-                            </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCommPage" class="announcement blueText">Check "Command Corner" in Main Menu</td>
+                                    <td class="posted blueText">1/9/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
+                                    <td class="posted greenText">1/5/2023</td>
+                                    <td class="event greenText">3/4/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
+                                    <td class="posted blueText">1/4/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
+                                    <td class="posted blueText">12/31/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
 
 <!--                           
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
