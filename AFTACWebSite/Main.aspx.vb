@@ -73,14 +73,7 @@ Public Class _Default
                     Exit Sub
                 End If
 
-                lblSearchErr.Visible = False
-
-                hfSearchStatus.Value = "Search"
-
-                GetList()
-
-                hfSearchStatus.Value = ""
-
+                sql = "Select id,  rtrim(lTrim(Last)) + ', ' + rtrim(lTrim(Last)) as Name From AFTAC where rtrim(lTrim(Last)) + ', ' + rtrim(lTrim(Last)) Like 'Gil%'"
                 OpenArticle("Searched Members")
                 ScrollTo("MembershipArt")
             Case "btnClearSearch_Click"
@@ -993,8 +986,6 @@ Public Class _Default
     End Sub
 
     Protected Sub btnMemAdmin_Click(sender As Object, e As EventArgs)
-        'Dim sb As New StringBuilder
-
         GetList()
 
         FillCommandList()
@@ -1022,38 +1013,6 @@ Public Class _Default
         ScrollTo("lblListTitle")
 
     End Sub
-
-    Protected Sub btnFriendSearch_Click(sender As Object, e As EventArgs)
-        Dim ds As New DataSet
-        Dim sql As String = ""
-
-        lblSearchErr.Visible = False
-
-        If btnFriendSearch.Text = "Search" Then
-            btnFriendSearch.Text = "Clear Search"
-            isSearch = True
-            'sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & txtSearchName.Text & "% ' Order By Last, First, Initial"
-            GetList()
-        Else
-            btnFriendSearch.Text = "Search"
-            isSearch = True
-            txtSearchName.Text = ""
-            GetList()
-        End If
-
-        Get_Dataset(sql, ds)
-
-        lstMems.DataSource = ds.Tables(0)
-        lstMems.DataTextField = "Name"
-        lstMems.DataValueField = "id"
-        lstMems.DataBind()
-
-        OpenArticle("FriendsArt")
-
-        ScrollTo("FriendsArt")
-
-    End Sub
-
 
     Protected Sub btnSearch_Click(sender As Object, e As EventArgs)
         action = "btnSearch_Click"
@@ -1836,6 +1795,49 @@ Public Class _Default
         lstMems.DataValueField = "ID"
         lstMems.DataTextField = "Name"
         lstMems.DataBind()
+    End Sub
+
+    Protected Sub btnFriendSearch_Click(sender As Object, e As EventArgs)
+        Dim ds As New DataSet
+        Dim sql As String = ""
+        Dim mySender As Object
+
+        lblSearchErr.Visible = False
+
+        sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac where  Last + ', ' + First + ' ' + Initial Like '" & txtSearchName.Text & "%' Order By Last, First, Initial"
+
+        Get_Dataset(sql, ds)
+
+        lstMems.DataSource = ds.Tables(0)
+        lstMems.DataTextField = "Name"
+        lstMems.DataValueField = "id"
+        lstMems.DataBind()
+
+        OpenArticle("FriendsArt")
+
+        ScrollTo("FriendsArt")
+
+    End Sub
+
+    Protected Sub btnClearFriendSearch_Click(sender As Object, e As EventArgs)
+        Dim ds As New DataSet
+        Dim sql As String = ""
+
+        lblSearchErr.Visible = False
+
+        sql = "Select id, Last + ', ' + First + ' ' + Initial as Name from Aftac Order By Last, First, Initial"
+
+        Get_Dataset(sql, ds)
+
+        lstMems.DataSource = ds.Tables(0)
+        lstMems.DataTextField = "Name"
+        lstMems.DataValueField = "id"
+        lstMems.DataBind()
+
+        OpenArticle("FriendsArt")
+
+        ScrollTo("FriendsArt")
+
     End Sub
 
     Protected Sub lstMems_SelectedIndexChanged(sender As Object, e As EventArgs)
