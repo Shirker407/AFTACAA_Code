@@ -2106,6 +2106,9 @@ $(document).ready(function () {
     });
 
     //**********************************************************************
+    $('#myWise2023').click(function () {
+        window.open('_PDFs/WiSE2023.pdf', '');
+    });
 
     $('#myMinutes').click(function () {
         window.open('_Minutes/12-9-2022_Minutes.pdf', '');
