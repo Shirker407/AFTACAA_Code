@@ -1462,6 +1462,10 @@ $(document).ready(function () {
         $('#specialLinksArt').removeClass('noDisplay').addClass('block');
     });
 
+    $('#myDobbins').click(function () {
+        OpenObit('Dobbins');
+    });
+
     $('#myBalentine').click(function () {
         OpenObit('Balentine');
     });
@@ -1477,6 +1481,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'DobbinsH2':
+                ShowMyObit('Dobbins')
+                break;
             case 'KridleH2':
                 ShowMyObit('Kridle')
                 break;
