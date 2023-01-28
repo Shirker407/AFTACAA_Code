@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
 <%--Swell %>
@@ -318,26 +318,26 @@
                                     <td class="posted blueText">1/14/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                            <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                <td id="myCommPage" class="announcement blueText">Check "Command Corner" in Main Menu</td>
-                                <td class="posted blueText">1/9/2023</td>
-                                <td class="event blueText"></td>
-                            </tr>
-                            <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
-                                <td class="posted greenText">1/5/2023</td>
-                                <td class="event greenText">3/4/2023</td>
-                            </tr>
-                            <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
-                                <td class="posted blueText">1/4/2023</td>
-                                <td class="event blueText"></td>
-                            </tr>
-                          <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
-                                <td class="posted blueText">12/31/2022</td>
-                                <td class="event blueText"></td>
-                            </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCommPage" class="announcement blueText">Check "Command Corner" in Main Menu</td>
+                                    <td class="posted blueText">1/9/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
+                                    <td class="posted greenText">1/5/2023</td>
+                                    <td class="event greenText">3/4/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
+                                    <td class="posted blueText">1/4/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
+                                    <td class="posted blueText">12/31/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
 
 <!--                           
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
