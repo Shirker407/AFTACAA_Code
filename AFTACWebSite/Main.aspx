@@ -279,29 +279,31 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWise2023" class="announcement blueText">Women in Science and Engineering Profesional Symposium.</td>
-                                    <td class="posted blueText">1/27/2023</td>
-                                    <td class="event greenText">2/8/2023</td>
+                                    <td id="myDobbins" class="announcement blueText">Carey Leon Dobbins' Obituary was Posted.</td>
+                                    <td class="posted blueText">1/28/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr>    
-                                    <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWise2023" class="announcement greenText">Women in Science and Engineering Profesional Symposium.</td>
+                                    <td class="posted greenText">1/27/2023</td>
+                                    <td class="event greenText">2/8/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myKridle" class="announcement blueText">Robert "Bob" Michael Kridle's Obituary Posted</td>
                                     <td class="posted blueText">1/24/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr>    
-                                    <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage" class="announcement blueText">2023 Disney Military Discouts and 4 AFTAC Facebook Page Links Posted</td>
                                     <td class="posted blueText">1/24/2023</td>
                                     <td class="event blueText"></td>
-                                </tr>
+                                </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myBalentine" class="announcement blueText">Tony Balentine's Obituary was Posted.</td>
                                     <td class="posted blueText">1/18/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                    <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySnowBall" class="announcement greenText">SnowBall Announcement and Form</td>
                                     <td class="posted greenText">1/16/2023</td>
                                     <td class="event greenText">2/18/2023</td>
@@ -6022,7 +6024,7 @@
 
         <article id="specialLinksArt" class="myArts noDisplay">
             <asp:Label ID="Label22" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="SPECIAL LINKS"></asp:Label>
-            <p class="width50 topMargin1em autoMarginLeftRight smallShadow maroonBorder">
+            <p class="width100 topMargin1em autoMarginLeftRight smallShadow maroonBorder">
                 This is a list of web pages that we feel would be useful to you. If you would like to see more, please contact the webmaster and let us know.
             </p>
             <ul id="linkUl" class="autoMarginLeftRight topMargin2em">
@@ -6039,7 +6041,7 @@
                     <a href="http://www.gopatrickfl.com/" target="_blank">Go Patrick FL</a>
                 </li>
                 <li>
-                    <a href="https://www.25af.af.mil/" target="_blank">16<sup class="redText">th</sup> Air Force Videos</a>
+                    <a href="https://www.16af.af.mil/" target="_blank">16th Air Force News</a>
                 </li>
                 <li>
                     <a href="https://www.patrick.spaceforce.mil/" target="_blank">Space Launch Delta 45</a>
@@ -13013,8 +13015,24 @@
                         <img alt="Peterson2.png" class="width95 topMargin2em maroonBorder autoMarginLeftRight"  src="_Photos/ObitPics/Peterson2.png" />
                     </div>
                 </article>             
+                <article>
+                    <div>
+                        <h2 id="DobbinsH2" class="obitH1">Carey Leon Dobbins - 8/17/2021 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="DobbinsPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Dobbins.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Dobbins.jpg" />                            
+                            Carey Leon Dobbins, 91, peacefully went to be with the Lord on Wednesday, August 17, 2022.  <br /><br />
+                            Born on October 1, 1930, in Bemis, Tennessee, Carey was a celebrated U.S. Air Force MSGT with twenty-one years of dedicated service. He was stationed at Rhein-Main, Germany, McClellan Air Force Base in Sacramento, California, and Craig Air Force Base in Selma, Alabama. From 1951-1954 he was a B-25 flight engineer, with one thousand hours of flying time. In addition to serving his country, Carey was a man of many interests and accomplishments. Before joining the Air Force, he was a minor league pitcher for the Owensboro Oilers from 1949-1950. After retiring, he owned a real estate business with his former wife, Mary, in Hermitage, Tennessee, and in 1990, Carey even studied art under famous painter Bob Ross, eventually becoming a certified instructor himself. For the last thirty years, he both worshiped and served at the Naval Aviation Memorial Chapel in Pensacola, Florida. Throughout his life, he was an avid golfer, as well as an accomplished home chef who would prepare an incredible seven-course meal each year for his wife, Olena.Carey is preceded in death by his father, Leon V. Dobbins; mother, Ruth Wren Dobbins; and his former wife, Mary Helen Dobbins. <br /><br />
+                            He is survived by his wife, Olena L. Dobbins; his three daughters, Pamela Granata, Debra Dobbins, and Wendy Sweeney; his 6 grandchildren; 13 great-grandchildren; and 1 great-great-grandchild. His memorial service will be held Thursday, August 25, 2022 at 1:00 PM at Faith Chapel Funeral Home South. A reception will immediately follow the service. <br /><br />
+                            Faith Chapel Funeral Home South, 100 Beverly Parkway, Pensacola, is entrusted with arrangements. You may express condolences online at www.fcfhs.com. <br /><br />
+                            Published by Faith Chapel Funeral Homes - South Chapel on Aug. 19, 2022. <br /><br />
 
-           <article>
+                        </p>
+                    </div>
+                </article>
+                <article>
                     <div>
                         <h2 id="KridleH2" class="obitH1">Robert "Bob" Michael Kridle - 7/31/2022 </h2>
                     </div>
