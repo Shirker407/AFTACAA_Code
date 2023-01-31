@@ -214,6 +214,29 @@ Module Module1
         Return strBuffer
 
     End Function
+    Public Function SafeText(ByVal S As String) As String
+        'This function makes text safe for display in HTML additional characters that cause issues can be added by copying the Check for é if section below can be added 
+        Dim textBuffer As String
+
+        '   If Len(S) = 0 Or IsNothing(S) Then
+        '  Return ""
+        '        Exit Function
+        'End If
+
+        'Check for single quotes/apostrophes 
+        If InStr(S, "'") > 0 Then
+            textBuffer = Replace(S, "'", "''")
+        Else
+            textBuffer = S
+        End If
+
+        'Check for é 
+        If InStr(textBuffer, "é") > 0 Then
+            textBuffer = Replace(textBuffer, "é", "&eacute;")
+        End If
+
+        Return textBuffer
+    End Function
 
     Function ValidEmail(ByVal strCheck As String) As Boolean
         'Created by Chad M. Kovac
