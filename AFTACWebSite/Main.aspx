@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>2023 SnowBall
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
 <%--Swell %>
@@ -260,7 +260,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 1/6/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 1/30/2023</span>
                     </div>
                 </div>
 
@@ -278,6 +278,10 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage2" class="announcement RedText"><a href="https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.thedrive.com%2Fthe-war-zone%2Fnew-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission&data=05%7C01%7C%7Cf84ad95f2e634875697208db0214dd34%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638106060903414366%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=YcCMR8lKkezD5SF1gUjpmRlL8L%2BFP%2Bx0z%2Bk8Vp%2FtViI%3D&reserved=0" target ="_bank")> New Nuke-Sniffing Jet Flies Off South America On First International Mission</a></td>
+                                    <td class="posted RedText">1/31/2023</td>
+                                    <td class="event RedText"></td>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDobbins" class="announcement blueText">Carey Leon Dobbins' Obituary was Posted.</td>
                                     <td class="posted blueText">1/28/2023</td>
@@ -333,18 +337,17 @@
                                     <td class="posted blueText">1/4/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+ <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
                                     <td class="posted blueText">12/31/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>
-
-<!--                           
+                                                     
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                <td id="myDecPomo" class="announcement blueText">December Pomo was Published.</td>
-                                <td class="posted blueText">12/23/2022</td>
-                                <td class="event blueText"></td>
-                            </tr>
+                                    <td id="myDecPomo" class="announcement blueText">December Pomo was Published.</td>
+                                    <td class="posted blueText">12/23/2022</td>
+                                    <td class="event blueText"></td>
+                                </tr>
 -->
                          </table>
                         </div>
@@ -762,11 +765,11 @@
                 Saturday, 18 February 2023
                 Manatee Cove Golf Course (MCGC), Patrick SFB, Florida</span>
                 <br /><br />
-                Since 1999, the Florida AFTAC Alumni Association (AFTACAA), has thrown a themed SnowBall at the start of the new year. We like to have this event when our ‘Sage Snowbirds’ are in town. We also believe it is a grand way to introduce the newly elected and appointed board members, recognize our new Alumni of the Year (AOY), and Alumni accomplishments, hold a festive get-together and social, and wish old friends a great beginning to a new year.
+                Since 1999, the Florida AFTAC Alumni Association (AFTACAA), has thrown a themed SnowBall at the start of the new year. We like to have this event when our é'Sage Snowbirds' are in town. We also believe it is a grand way to introduce the newly elected and appointed board members, recognize our new Alumni of the Year (AOY), and Alumni accomplishments, hold a festive get-together and social, and wish old friends a great beginning to a new year.
                 <br /><br />
                 It is also tradition, where we welcome the AFTAC Commander, Vice Commander, Chief Scientist, Director of Staff, Command Chief, Directors, Group and Squadron Commanders, all active-duty military and civilian, and the outlying area commanders and superintendents, that may be on Temporary Duty (TDY) here for a unit leadership conference.
                 <br /><br />
-                This year’s theme will be "Germany", joining previous themes honoring Japan, Hawaii, Germany, Florida, Wyoming, Thailand, Australia, Korea, Nebraska and Colorado, ...locations where AFTAC had or has a presence, among others worldwide, along with mission items of AFTAC.
+                This year&#39;s theme will be "Germany", joining previous themes honoring Japan, Hawaii, Germany, Florida, Wyoming, Thailand, Australia, Korea, Nebraska and Colorado, ...locations where AFTAC had or has a presence, among others worldwide, along with mission items of AFTAC.
                 </p>
                 <div class="centerDiv>">
                     <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="SAVE THE DATE"></asp:Label>
@@ -774,7 +777,7 @@
                 <p>
                 Location: Manatee Cove Golf Course (MCGC), Patrick SFB, FL.
                 Social Hour: 5:30 - 6:30; <br />
-                Chimes/Introductions/National Anthem/POW-MIA Remembrance/Sage Salute/Invocation: 6:30. <br />Dinner: 7:00. <br />Break: 7:45. <br />Program: 8:00. <br />Theme: Germany. <br />Entertainment: Music by Ana. <br />Dress: Florida Casual. <br />Menu: Grilled Flat Iron Steak, w/Roasted Shallot Butter, Buttered Baby Red Potatoes and Sautéed Mixed Vegetables OR,<br />Chicken Marsala, Baby Red Potatoes, and Sautéed Mixed Vegetables. OR,<br />Portabella Stack Eggplant, Tomato, Red Onion, Fresh Mozzarella, Balsamic Glaze (Vegetarian Meal). <br />Includes: House Salad w/Bleu Cheese, Diced Apples, Toasted Almonds
+                Chimes/Introductions/National Anthem/POW-MIA Remembrance/Sage Salute/Invocation: 6:30. <br />Dinner: 7:00. <br />Break: 7:45. <br />Program: 8:00. <br />Theme: Germany. <br />Entertainment: Music by Ana. <br />Dress: Florida Casual. <br />Menu: Grilled Flat Iron Steak, w/Roasted Shallot Butter, Buttered Baby Red Potatoes and Saut&eacute;ed Mixed Vegetables OR,<br />Chicken Marsala, Baby Red Potatoes, and Saut&eacute;ed Mixed Vegetables. OR,<br />Portabella Stack Eggplant, Tomato, Red Onion, Fresh Mozzarella, Balsamic Glaze (Vegetarian Meal). <br />Includes: House Salad w/Bleu Cheese, Diced Apples, Toasted Almonds
                 w/Raspberry Vinaigrette or House Ranch Dressing, Dinner Rolls, Coffee, IcedTea, and Dessert (Key Lime Pie). <br />Cost: $35.00 pp.  (All inclusive dinner, with gratuity included).<br />
                 </p>
                 <div class="centerDiv>">
@@ -784,7 +787,7 @@
                 Florida AFTACAA POC: Sean Ryan, Florida AFTACAA Social Committee Chair.
                 <a href="MailTo:oceanblueview@yahoo.com">oceanblueview@yahoo.com</a> or Cell 321-591-9053 (Unlisted).<br />
                 AFTAC Building POC: Mr. George Mirda 321-494-5126.<br />
-                Stay tuned to AFTACAA.US website, Calendar of Events (CoE), or eALLerts, for any updates.<br />
+                Stay tuned to AFTACAA.US website, Calendar of Events (CoE), or eALLerts, for any updates'.<br />
                 Thank you.
                 <br /><br />
                 Hope to see ya'll there!<br />
@@ -6029,6 +6032,9 @@
             </p>
             <ul id="linkUl" class="autoMarginLeftRight topMargin2em">
                 <li>
+                    <a href="https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target="_blank">New Nuke-Sniffing Jet Flies Off South America On First International Mission (Jan 2023)</a>
+                </li>
+                <li>
                     <a href="http://www.va.gov" target="_blank">Veterans Admin</a>
                 </li>
                 <li>
@@ -6066,19 +6072,19 @@
                 </li>
 
                 <li>
-                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.military.com%2Fdiscounts%2Fdisney-discounts-for-military-families.html%3Futm_medium%3DSocial%26utm_source%3DFacebook%26fbclid%3DIwAR2exec-mL17HtM38pzGyaQ1x1WQ4l_YogwG0jCBQAWawCteNcYTAKgVFRc%23Echobox%3D1670249177&data=05%7C01%7C%7C288e87b25aa64562624a08dafe2ba6da%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638101760735774323%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=ZxHSXSkvmhI7BVhpYD1%2FGex33TmdTaIwWIZ0Gb4JH6A%3D&reserved=0" target="_blank">2023 Disney Military Discounts</a>
+                    <a href="https://www.military.com/discounts/disney-discounts-for-military-families.html?utm_medium=Social&utm_source=Facebook&fbclid=IwAR2exec-mL17HtM38pzGyaQ1x1WQ4l_YogwG0jCBQAWawCteNcYTAKgVFRc#Echobox=1670249177" target="_blank">2023 Disney Military Discounts</a>
                 </li>
                 <li>
-                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2Faftacaa%2F&data=05%7C01%7C%7Cf39ea75b4e2546929ef108dafd65fd38%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100911751545649%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=GHmo4ZFjy%2F4P23XDAvFvzUauMwvV23kj1gpPX8ZifBY%3D&reserved=0" target="_blank">AFTAC Alumni of the world Unite Facebook Page.</a>
+                    <a href="https://www.facebook.com/groups/aftacaa/" target="_blank">AFTAC Alumni of the world Unite Facebook Page.</a>
                 </li>
                 <li>
-                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F159548326438%2F&data=05%7C01%7C%7C7835cdd2963e4e9ac96b08dafee202e7%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638102543939297797%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=t6vAiZRif6KzFtr%2FjIo42mwUGRgENEGf4ufPxQG6AvE%3D&reserved=0" target="_blank">99105 99104 99106 99125 9s100 Facebook Page</a>
+                    <a href="https://www.facebook.com/groups/159548326438/" target="_blank">99105 99104 99106 99125 9s100 Facebook Page</a>
                 </li>
                 <li>
-                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F116840384633%2F&data=05%7C01%7C%7C7835cdd2963e4e9ac96b08dafee202e7%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638102543939297797%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=gzPjd2Hm97zpd2T6XPtCFU4va6kAHBJYzHXu5YQhBTo%3D&reserved=0" target="_blank">AFTAC Airborne Operations Facebook Page</a>
+                    <a href="https://www.facebook.com/groups/116840384633/" target="_blank">AFTAC Airborne Operations Facebook Page</a>
                 </li>
                 <li>
-                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F416570163563783%2F&data=05%7C01%7C%7Cf39ea75b4e2546929ef108dafd65fd38%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100911751701899%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=0BKTrUQTvA4v7d89loC7a8nbGVq17Sl9FbsJP6yRRk4%3D&reserved=0" target="_blank">Pioneers of LRD (AFTAC) - the Early Years Facebook Page</a>
+                    <a href="https://www.facebook.com/groups/416570163563783/" target="_blank">Pioneers of LRD (AFTAC) - the Early Years Facebook Page</a>
                 </li>
 
             </ul>
