@@ -256,7 +256,7 @@
         End If
 
         GetList(ds, "Search", hidedeceased, txtSearch.Text)
-
+        'GetList(ds, "All", hidedeceased, txtSearch.Text)  'I belive this line is correct and the above"Search" is worng based on the SQL function being called in GetList- ATMoy 1 Feb 2023
         If Not ok Then
             lblSearchErr.Visible = True
             Exit Sub
