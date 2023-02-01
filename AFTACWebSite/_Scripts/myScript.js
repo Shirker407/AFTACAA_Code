@@ -1465,6 +1465,10 @@ $(document).ready(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#specialLinksArt').removeClass('noDisplay').addClass('block');
     });
+    $('#mySpecalLinksPage3').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
+    });
 
     $('#myDobbins').click(function () {
         OpenObit('Dobbins');
