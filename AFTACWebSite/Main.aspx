@@ -279,7 +279,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage2" class="announcement RedText"><a href="https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.thedrive.com%2Fthe-war-zone%2Fnew-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission&data=05%7C01%7C%7Cf84ad95f2e634875697208db0214dd34%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638106060903414366%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=YcCMR8lKkezD5SF1gUjpmRlL8L%2BFP%2Bx0z%2Bk8Vp%2FtViI%3D&reserved=0" target ="_bank")> New Nuke-Sniffing Jet Flies Off South America On First International Mission</a></td>
+                                    <td id="mySpecalLinksPage3" class="announcement blueText">Universal Orlando Freedom Pass $200<a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Click Here for Universal Site</a></td>
+                                    <td class="posted blueText">2/1/2023</td>
+                                    <td class="event blueText"></td>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage2" class="announcement RedText"><a href ="https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_bank")> New Nuke-Sniffing Jet Flies Off South America On First International Mission</a></td>
                                     <td class="posted RedText">1/31/2023</td>
                                     <td class="event RedText"></td>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -6031,17 +6035,16 @@
                 This is a list of web pages that we feel would be useful to you. If you would like to see more, please contact the webmaster and let us know.
             </p>
             <ul id="linkUl" class="autoMarginLeftRight topMargin2em">
-                <li>
+                  <li>
+                    --NEWS--
+                </li>              <li>
                     <a href="https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target="_blank">New Nuke-Sniffing Jet Flies Off South America On First International Mission (Jan 2023)</a>
                 </li>
                 <li>
-                    <a href="http://www.va.gov" target="_blank">Veterans Admin</a>
+                    <a href="https://blogs.va.gov/VAntage" target="_blank">Current VA News that you might like to read.</a>
                 </li>
                 <li>
-                    <a href="http://www.tricare.com" target="_blank">Tricare</a>
-                </li>
-                <li>
-                    <a href="https://www.tricare.mil/CoveredServices/Pharmacy/Drugs.aspx/" target="_blank">Tricare Covered Services, Pharmacy, Drugs Information</a>
+                    --US AIR FORCE--
                 </li>
                 <li>
                     <a href="http://www.gopatrickfl.com/" target="_blank">Go Patrick FL</a>
@@ -6053,29 +6056,49 @@
                     <a href="https://www.patrick.spaceforce.mil/" target="_blank">Space Launch Delta 45</a>
                 </li>
                 <li>
-                    <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantage Blog</a>
+                    <a href="https://www.va.gov/records/get-military-service-records/" target="_blank">How To Find Your Military Records</a>
+                </li>
+                <li>
+                    --VETERANS ADMINISTRATION/HEALTHCARE/BENIFITS--
+                </li>
+                <li>
+                    <a href="http://www.va.gov" target="_blank">Veterans Admin</a>
+                </li>
+                <li>
+                    <a href="http://www.tricare.com" target="_blank">Tricare</a>
+                </li>
+                <li>
+                    <a href="https://www.tricare.mil/CoveredServices/Pharmacy/Drugs.aspx/" target="_blank">Tricare Covered Services, Pharmacy, Drugs Information</a>
                 </li>
                 <li>
                     <a href="https://www.va.gov/health-care/get-medical-records/" target="_blank">Your VA Medical records are within reach</a>
+                </li>
+                                <li>
+                    <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantag:  Benifits/Blog</a>
+                </li>
+                <li>
+                   --DISCOUNTS--
+                </li>
+                <li>
+                    <a href="https://blogs.va.gov/VAntage/85765/veteran-discounts-available-year-round" target="_blank">Veteran discounts available year round</a>
+                </li>
+                 <li>
+                    <a href="https://www.gopatrickfl.com/tickets-and-travel.html" target="_blank">Patrick AFB Tickets and Travel Office</a>
+                </li>
+               <li>
+                    <a href="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target="_blank">2023 Universal Orlando Freedom Pass</a>
                 </li>
                 <li>
                     <a href="https://seaworld.com/orlando/tickets/military-discount/veterans/?utm_source=Silverpop&utm_medium=Email&utm_campaign=SWO_Pass_Veterans_FreeDayTicket_TP1_05202019_00780379+%281%29&utm_content=DIGITAL&xtor=-%5BSWO_Pass_Veterans_FreeDayTicket_TP1_05202019_00780379+%281%29%5D--%5BSWO+Tickets%5D-&bxid=%5BMTc4NDQzNjkzMTg3S0%5D--&spMailingID=15676176&spUserID=MTc4NDQzNjkzMTg3S0&spJobID=1641345088&spReportId=MTY0MTM0NTA4OAS2&fbclid=IwAR1vwxXap9xcGuAcFiAU_b6LR2anqzr5E2LYoPB-uR7FpQCIolzuUYcEdlU" target="_blank">Discount and Free Seaworld Tickets</a>
                 </li>
                 <li>
-                    <a href="https://www.va.gov/records/get-military-service-records/" target="_blank">How To Find Your Military Records</a>
-                </li>
-                <li>
-                    <a href="https://blogs.va.gov/VAntage/85765/veteran-discounts-available-year-round" target="_blank">Veteran discounts available year round</a>
-                </li>
-                <li>
-                    <a href="https://blogs.va.gov/VAntage" target="_blank">Current information that you might like to read.</a>
-                </li>
-
-                <li>
                     <a href="https://www.military.com/discounts/disney-discounts-for-military-families.html?utm_medium=Social&utm_source=Facebook&fbclid=IwAR2exec-mL17HtM38pzGyaQ1x1WQ4l_YogwG0jCBQAWawCteNcYTAKgVFRc#Echobox=1670249177" target="_blank">2023 Disney Military Discounts</a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/groups/aftacaa/" target="_blank">AFTAC Alumni of the world Unite Facebook Page.</a>
+                    --SOCIAL MEDIA--
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/groups/aftacaa/" target="_blank">AFTAC Alumni of the world Unite Facebook Page</a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/groups/159548326438/" target="_blank">99105 99104 99106 99125 9s100 Facebook Page</a>
