@@ -1373,7 +1373,6 @@
     <Content Include="_PDFs\FallSocialSignupForm.pdf" />
     <Content Include="_PDFs\ColoradoDinnerAnnouncement.pdf" />
     <Content Include="_PDFs\VeteransDaySpecials.pdf" />
-    <Content Include="_PDFs\Agenda.pdf" />
     <Content Include="_PDFs\Minutes.pdf" />
     <Content Include="_PDFs\TaxInfo.pdf" />
     <Content Include="_Minutes\1-11-2016_Minutes.pdf" />
@@ -1486,6 +1485,8 @@
     <Content Include="_PDFs\SnowBall RSVP.pdf" />
     <Content Include="_PDFs\2023 Snowball.pdf" />
     <Content Include="_PDFs\WiSE2023.pdf" />
+    <Content Include="_Minutes\1-9-2023_Minutes.pdf" />
+    <Content Include="_PDFs\Agenda.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
