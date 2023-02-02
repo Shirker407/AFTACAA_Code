@@ -43,7 +43,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
-    
+    Recent
     <link href="_Styles/BasicStyles.css" rel="stylesheet" />
    
     <link href="_Styles/myStyles.css" rel="stylesheet" />
@@ -278,6 +278,11 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">January Minutes Published.</td>
+                                    <td class="posted blueText">2/1/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage3" class="announcement blueText">Universal Orlando Freedom Pass $200<a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Click Here for Universal Site</a></td>
                                     <td class="posted blueText">2/1/2023</td>
@@ -341,12 +346,7 @@
                                     <td class="posted blueText">1/4/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
- <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
-                                    <td class="posted blueText">12/31/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                                     
+ <!--                                                
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDecPomo" class="announcement blueText">December Pomo was Published.</td>
                                     <td class="posted blueText">12/23/2022</td>
@@ -3551,6 +3551,7 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/1-9-2023_Minutes.pdf" target="_blank">1-9-2023</a></li>
                     </ul>
                 </div>
             </div>

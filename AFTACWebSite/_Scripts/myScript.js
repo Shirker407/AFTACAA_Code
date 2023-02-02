@@ -2131,7 +2131,7 @@ $(document).ready(function () {
     });
 
   $('#myMinutes').click(function () {
-        window.open('_Minutes/12-9-2022_Minutes.pdf', '');
+        window.open('_Minutes/1-9-2023_Minutes.pdf', '');
     });
 
     $('#AprilPomo').click(function () {
@@ -4171,7 +4171,7 @@ $(document).ready(function () {
     });
 
     $('#meetingMinutes').click(function () {
-        window.open('_Minutes/12-17-2021_Minutes.pdf', '');
+        window.open('_Minutes/1-9-2023_Minutes.pdf', '');
     });
 
     $('#showAgenda').click(function () {
