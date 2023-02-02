@@ -7,7 +7,7 @@
      <%--TABLE OF CONTENTS--%>
      <%--myHeader = Header--%>
      <%--mainMenu = Menu--%> 
-     <%--defaultArt = Main Page--%> 
+     <%--defaultArt = Main Page--%> Agenda Next
      <%--passwordArt = Password Page--%>     
      <%--picnicArt = AFTAC Annual Spring Picnic --%>                                     
      <%--sbArt = SnowBall 2018 --%>                                      
