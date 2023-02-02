@@ -279,7 +279,7 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">January Minutes Published.</td>
+                                    <td id="myMinutes" class="announcement blueText">January Minutes Published</td>
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -292,12 +292,12 @@
                                     <td class="posted RedText">1/31/2023</td>
                                     <td class="event RedText"></td>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDobbins" class="announcement blueText">Carey Leon Dobbins' Obituary was Posted.</td>
+                                    <td id="myDobbins" class="announcement blueText">Carey Leon Dobbins' Obituary was Posted</td>
                                     <td class="posted blueText">1/28/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWise2023" class="announcement greenText">Women in Science and Engineering Profesional Symposium.</td>
+                                    <td id="myWise2023" class="announcement greenText">Women in Science and Engineering Profesional Symposium</td>
                                     <td class="posted greenText">1/27/2023</td>
                                     <td class="event greenText">2/8/2023</td>
                                 </tr>
@@ -312,7 +312,7 @@
                                     <td class="event blueText"></td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBalentine" class="announcement blueText">Tony Balentine's Obituary was Posted.</td>
+                                    <td id="myBalentine" class="announcement blueText">Tony Balentine's Obituary was Posted</td>
                                     <td class="posted blueText">1/18/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -342,13 +342,13 @@
                                     <td class="event greenText">3/4/2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
+                                    <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted</td>
                                     <td class="posted blueText">1/4/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
  <!--                                                
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDecPomo" class="announcement blueText">December Pomo was Published.</td>
+                                    <td id="myDecPomo" class="announcement blueText">December Pomo was Published</td>
                                     <td class="posted blueText">12/23/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>
