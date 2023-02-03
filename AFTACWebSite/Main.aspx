@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>2023 SnowBall
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
 <%--Swell %>
@@ -7,7 +7,7 @@
      <%--TABLE OF CONTENTS--%>
      <%--myHeader = Header--%>
      <%--mainMenu = Menu--%> 
-     <%--defaultArt = Main Page--%> 
+     <%--defaultArt = Main Page--%> Agenda Next
      <%--passwordArt = Password Page--%>     
      <%--picnicArt = AFTAC Annual Spring Picnic --%>                                     
      <%--sbArt = SnowBall 2018 --%>                                      
@@ -43,7 +43,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
-    
+    Recent
     <link href="_Styles/BasicStyles.css" rel="stylesheet" />
    
     <link href="_Styles/myStyles.css" rel="stylesheet" />
@@ -260,7 +260,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 1/6/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 1/30/2023</span>
                     </div>
                 </div>
 
@@ -278,8 +278,26 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">January Minutes Published</td>
+                                    <td class="posted blueText">2/1/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWise2023" class="announcement greenText">Women in Science and Engineering Profesional Symposium.</td>
+                                    <td id="mySpecalLinksPage3" class="announcement blueText">Universal Orlando Freedom Pass $200<a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Click Here for Universal Site</a></td>
+                                    <td class="posted blueText">2/1/2023</td>
+                                    <td class="event blueText"></td>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage2" class="announcement RedText"><a href ="https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_bank")> New Nuke-Sniffing Jet Flies Off South America On First International Mission</a></td>
+                                    <td class="posted RedText">1/31/2023</td>
+                                    <td class="event RedText"></td>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myDobbins" class="announcement blueText">Carey Leon Dobbins' Obituary was Posted</td>
+                                    <td class="posted blueText">1/28/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWise2023" class="announcement greenText">Women in Science and Engineering Profesional Symposium</td>
                                     <td class="posted greenText">1/27/2023</td>
                                     <td class="event greenText">2/8/2023</td>
                                 </tr>
@@ -292,9 +310,9 @@
                                     <td id="mySpecalLinksPage" class="announcement blueText">2023 Disney Military Discouts and 4 AFTAC Facebook Page Links Posted</td>
                                     <td class="posted blueText">1/24/2023</td>
                                     <td class="event blueText"></td>
-                                </tr>
+                                </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBalentine" class="announcement blueText">Tony Balentine's Obituary was Posted.</td>
+                                    <td id="myBalentine" class="announcement blueText">Tony Balentine's Obituary was Posted</td>
                                     <td class="posted blueText">1/18/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -324,22 +342,16 @@
                                     <td class="event greenText">3/4/2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted.</td>
+                                    <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted</td>
                                     <td class="posted blueText">1/4/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
+ <!--                                                
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">December Minutes Published.</td>
-                                    <td class="posted blueText">12/31/2022</td>
+                                    <td id="myDecPomo" class="announcement blueText">December Pomo was Published</td>
+                                    <td class="posted blueText">12/23/2022</td>
                                     <td class="event blueText"></td>
                                 </tr>
-
-<!--                           
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                <td id="myDecPomo" class="announcement blueText">December Pomo was Published.</td>
-                                <td class="posted blueText">12/23/2022</td>
-                                <td class="event blueText"></td>
-                            </tr>
 -->
                          </table>
                         </div>
@@ -757,11 +769,11 @@
                 Saturday, 18 February 2023
                 Manatee Cove Golf Course (MCGC), Patrick SFB, Florida</span>
                 <br /><br />
-                Since 1999, the Florida AFTAC Alumni Association (AFTACAA), has thrown a themed SnowBall at the start of the new year. We like to have this event when our ‘Sage Snowbirds’ are in town. We also believe it is a grand way to introduce the newly elected and appointed board members, recognize our new Alumni of the Year (AOY), and Alumni accomplishments, hold a festive get-together and social, and wish old friends a great beginning to a new year.
+                Since 1999, the Florida AFTAC Alumni Association (AFTACAA), has thrown a themed SnowBall at the start of the new year. We like to have this event when our 'Sage Snowbirds' are in town. We also believe it is a grand way to introduce the newly elected and appointed board members, recognize our new Alumni of the Year (AOY), and Alumni accomplishments, hold a festive get-together and social, and wish old friends a great beginning to a new year.
                 <br /><br />
                 It is also tradition, where we welcome the AFTAC Commander, Vice Commander, Chief Scientist, Director of Staff, Command Chief, Directors, Group and Squadron Commanders, all active-duty military and civilian, and the outlying area commanders and superintendents, that may be on Temporary Duty (TDY) here for a unit leadership conference.
                 <br /><br />
-                This year’s theme will be "Germany", joining previous themes honoring Japan, Hawaii, Germany, Florida, Wyoming, Thailand, Australia, Korea, Nebraska and Colorado, ...locations where AFTAC had or has a presence, among others worldwide, along with mission items of AFTAC.
+                This year&#39;s theme will be "Germany", joining previous themes honoring Japan, Hawaii, Germany, Florida, Wyoming, Thailand, Australia, Korea, Nebraska and Colorado, ...locations where AFTAC had or has a presence, among others worldwide, along with mission items of AFTAC.
                 </p>
                 <div class="centerDiv>">
                     <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="SAVE THE DATE"></asp:Label>
@@ -769,7 +781,7 @@
                 <p>
                 Location: Manatee Cove Golf Course (MCGC), Patrick SFB, FL.
                 Social Hour: 5:30 - 6:30; <br />
-                Chimes/Introductions/National Anthem/POW-MIA Remembrance/Sage Salute/Invocation: 6:30. <br />Dinner: 7:00. <br />Break: 7:45. <br />Program: 8:00. <br />Theme: Germany. <br />Entertainment: Music by Ana. <br />Dress: Florida Casual. <br />Menu: Grilled Flat Iron Steak, w/Roasted Shallot Butter, Buttered Baby Red Potatoes and Sautéed Mixed Vegetables OR,<br />Chicken Marsala, Baby Red Potatoes, and Sautéed Mixed Vegetables. OR,<br />Portabella Stack Eggplant, Tomato, Red Onion, Fresh Mozzarella, Balsamic Glaze (Vegetarian Meal). <br />Includes: House Salad w/Bleu Cheese, Diced Apples, Toasted Almonds
+                Chimes/Introductions/National Anthem/POW-MIA Remembrance/Sage Salute/Invocation: 6:30. <br />Dinner: 7:00. <br />Break: 7:45. <br />Program: 8:00. <br />Theme: Germany. <br />Entertainment: Music by Ana. <br />Dress: Florida Casual. <br />Menu: Grilled Flat Iron Steak, w/Roasted Shallot Butter, Buttered Baby Red Potatoes and Saut&eacute;ed Mixed Vegetables OR,<br />Chicken Marsala, Baby Red Potatoes, and Saut&eacute;ed Mixed Vegetables. OR,<br />Portabella Stack Eggplant, Tomato, Red Onion, Fresh Mozzarella, Balsamic Glaze (Vegetarian Meal). <br />Includes: House Salad w/Bleu Cheese, Diced Apples, Toasted Almonds
                 w/Raspberry Vinaigrette or House Ranch Dressing, Dinner Rolls, Coffee, IcedTea, and Dessert (Key Lime Pie). <br />Cost: $35.00 pp.  (All inclusive dinner, with gratuity included).<br />
                 </p>
                 <div class="centerDiv>">
@@ -779,7 +791,7 @@
                 Florida AFTACAA POC: Sean Ryan, Florida AFTACAA Social Committee Chair.
                 <a href="MailTo:oceanblueview@yahoo.com">oceanblueview@yahoo.com</a> or Cell 321-591-9053 (Unlisted).<br />
                 AFTAC Building POC: Mr. George Mirda 321-494-5126.<br />
-                Stay tuned to AFTACAA.US website, Calendar of Events (CoE), or eALLerts, for any updates.<br />
+                Stay tuned to AFTACAA.US website, Calendar of Events (CoE), or eALLerts, for any updates'.<br />
                 Thank you.
                 <br /><br />
                 Hope to see ya'll there!<br />
@@ -3539,6 +3551,7 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/1-9-2023_Minutes.pdf" target="_blank">1-9-2023</a></li>
                     </ul>
                 </div>
             </div>
@@ -6019,10 +6032,36 @@
 
         <article id="specialLinksArt" class="myArts noDisplay">
             <asp:Label ID="Label22" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="SPECIAL LINKS"></asp:Label>
-            <p class="width50 topMargin1em autoMarginLeftRight smallShadow maroonBorder">
+            <p class="width100 topMargin1em autoMarginLeftRight smallShadow maroonBorder">
                 This is a list of web pages that we feel would be useful to you. If you would like to see more, please contact the webmaster and let us know.
             </p>
             <ul id="linkUl" class="autoMarginLeftRight topMargin2em">
+                  <li>
+                    --NEWS--
+                </li>              <li>
+                    <a href="https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target="_blank">New Nuke-Sniffing Jet Flies Off South America On First International Mission (Jan 2023)</a>
+                </li>
+                <li>
+                    <a href="https://blogs.va.gov/VAntage" target="_blank">Current VA News that you might like to read.</a>
+                </li>
+                <li>
+                    --US AIR FORCE--
+                </li>
+                <li>
+                    <a href="http://www.gopatrickfl.com/" target="_blank">Go Patrick FL</a>
+                </li>
+                <li>
+                    <a href="https://www.16af.af.mil/" target="_blank">16th Air Force News</a>
+                </li>
+                <li>
+                    <a href="https://www.patrick.spaceforce.mil/" target="_blank">Space Launch Delta 45</a>
+                </li>
+                <li>
+                    <a href="https://www.va.gov/records/get-military-service-records/" target="_blank">How To Find Your Military Records</a>
+                </li>
+                <li>
+                    --VETERANS ADMINISTRATION/HEALTHCARE/BENIFITS--
+                </li>
                 <li>
                     <a href="http://www.va.gov" target="_blank">Veterans Admin</a>
                 </li>
@@ -6033,47 +6072,43 @@
                     <a href="https://www.tricare.mil/CoveredServices/Pharmacy/Drugs.aspx/" target="_blank">Tricare Covered Services, Pharmacy, Drugs Information</a>
                 </li>
                 <li>
-                    <a href="http://www.gopatrickfl.com/" target="_blank">Go Patrick FL</a>
-                </li>
-                <li>
-                    <a href="https://www.25af.af.mil/" target="_blank">16<sup class="redText">th</sup> Air Force Videos</a>
-                </li>
-                <li>
-                    <a href="https://www.patrick.spaceforce.mil/" target="_blank">Space Launch Delta 45</a>
-                </li>
-                <li>
-                    <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantage Blog</a>
-                </li>
-                <li>
                     <a href="https://www.va.gov/health-care/get-medical-records/" target="_blank">Your VA Medical records are within reach</a>
+                </li>
+                                <li>
+                    <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantag:  Benifits/Blog</a>
+                </li>
+                <li>
+                   --DISCOUNTS--
+                </li>
+                <li>
+                    <a href="https://blogs.va.gov/VAntage/85765/veteran-discounts-available-year-round" target="_blank">Veteran discounts available year round</a>
+                </li>
+                 <li>
+                    <a href="https://www.gopatrickfl.com/tickets-and-travel.html" target="_blank">Patrick AFB Tickets and Travel Office</a>
+                </li>
+               <li>
+                    <a href="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target="_blank">2023 Universal Orlando Freedom Pass</a>
                 </li>
                 <li>
                     <a href="https://seaworld.com/orlando/tickets/military-discount/veterans/?utm_source=Silverpop&utm_medium=Email&utm_campaign=SWO_Pass_Veterans_FreeDayTicket_TP1_05202019_00780379+%281%29&utm_content=DIGITAL&xtor=-%5BSWO_Pass_Veterans_FreeDayTicket_TP1_05202019_00780379+%281%29%5D--%5BSWO+Tickets%5D-&bxid=%5BMTc4NDQzNjkzMTg3S0%5D--&spMailingID=15676176&spUserID=MTc4NDQzNjkzMTg3S0&spJobID=1641345088&spReportId=MTY0MTM0NTA4OAS2&fbclid=IwAR1vwxXap9xcGuAcFiAU_b6LR2anqzr5E2LYoPB-uR7FpQCIolzuUYcEdlU" target="_blank">Discount and Free Seaworld Tickets</a>
                 </li>
                 <li>
-                    <a href="https://www.va.gov/records/get-military-service-records/" target="_blank">How To Find Your Military Records</a>
+                    <a href="https://www.military.com/discounts/disney-discounts-for-military-families.html?utm_medium=Social&utm_source=Facebook&fbclid=IwAR2exec-mL17HtM38pzGyaQ1x1WQ4l_YogwG0jCBQAWawCteNcYTAKgVFRc#Echobox=1670249177" target="_blank">2023 Disney Military Discounts</a>
                 </li>
                 <li>
-                    <a href="https://blogs.va.gov/VAntage/85765/veteran-discounts-available-year-round" target="_blank">Veteran discounts available year round</a>
+                    --SOCIAL MEDIA--
                 </li>
                 <li>
-                    <a href="https://blogs.va.gov/VAntage" target="_blank">Current information that you might like to read.</a>
-                </li>
-
-                <li>
-                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.military.com%2Fdiscounts%2Fdisney-discounts-for-military-families.html%3Futm_medium%3DSocial%26utm_source%3DFacebook%26fbclid%3DIwAR2exec-mL17HtM38pzGyaQ1x1WQ4l_YogwG0jCBQAWawCteNcYTAKgVFRc%23Echobox%3D1670249177&data=05%7C01%7C%7C288e87b25aa64562624a08dafe2ba6da%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638101760735774323%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=ZxHSXSkvmhI7BVhpYD1%2FGex33TmdTaIwWIZ0Gb4JH6A%3D&reserved=0" target="_blank">2023 Disney Military Discounts</a>
+                    <a href="https://www.facebook.com/groups/aftacaa/" target="_blank">AFTAC Alumni of the world Unite Facebook Page</a>
                 </li>
                 <li>
-                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2Faftacaa%2F&data=05%7C01%7C%7Cf39ea75b4e2546929ef108dafd65fd38%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100911751545649%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=GHmo4ZFjy%2F4P23XDAvFvzUauMwvV23kj1gpPX8ZifBY%3D&reserved=0" target="_blank">AFTAC Alumni of the world Unite Facebook Page.</a>
+                    <a href="https://www.facebook.com/groups/159548326438/" target="_blank">99105 99104 99106 99125 9s100 Facebook Page</a>
                 </li>
                 <li>
-                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F159548326438%2F&data=05%7C01%7C%7C7835cdd2963e4e9ac96b08dafee202e7%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638102543939297797%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=t6vAiZRif6KzFtr%2FjIo42mwUGRgENEGf4ufPxQG6AvE%3D&reserved=0" target="_blank">99105 99104 99106 99125 9s100 Facebook Page</a>
+                    <a href="https://www.facebook.com/groups/116840384633/" target="_blank">AFTAC Airborne Operations Facebook Page</a>
                 </li>
                 <li>
-                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F116840384633%2F&data=05%7C01%7C%7C7835cdd2963e4e9ac96b08dafee202e7%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638102543939297797%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=gzPjd2Hm97zpd2T6XPtCFU4va6kAHBJYzHXu5YQhBTo%3D&reserved=0" target="_blank">AFTAC Airborne Operations Facebook Page</a>
-                </li>
-                <li>
-                    <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.facebook.com%2Fgroups%2F416570163563783%2F&data=05%7C01%7C%7Cf39ea75b4e2546929ef108dafd65fd38%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100911751701899%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=0BKTrUQTvA4v7d89loC7a8nbGVq17Sl9FbsJP6yRRk4%3D&reserved=0" target="_blank">Pioneers of LRD (AFTAC) - the Early Years Facebook Page</a>
+                    <a href="https://www.facebook.com/groups/416570163563783/" target="_blank">Pioneers of LRD (AFTAC) - the Early Years Facebook Page</a>
                 </li>
 
             </ul>
@@ -13010,8 +13045,24 @@
                         <img alt="Peterson2.png" class="width95 topMargin2em maroonBorder autoMarginLeftRight"  src="_Photos/ObitPics/Peterson2.png" />
                     </div>
                 </article>             
+                <article>
+                    <div>
+                        <h2 id="DobbinsH2" class="obitH1">Carey Leon Dobbins - 8/17/2021 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="DobbinsPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="Dobbins.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Dobbins.jpg" />                            
+                            Carey Leon Dobbins, 91, peacefully went to be with the Lord on Wednesday, August 17, 2022.  <br /><br />
+                            Born on October 1, 1930, in Bemis, Tennessee, Carey was a celebrated U.S. Air Force MSGT with twenty-one years of dedicated service. He was stationed at Rhein-Main, Germany, McClellan Air Force Base in Sacramento, California, and Craig Air Force Base in Selma, Alabama. From 1951-1954 he was a B-25 flight engineer, with one thousand hours of flying time. In addition to serving his country, Carey was a man of many interests and accomplishments. Before joining the Air Force, he was a minor league pitcher for the Owensboro Oilers from 1949-1950. After retiring, he owned a real estate business with his former wife, Mary, in Hermitage, Tennessee, and in 1990, Carey even studied art under famous painter Bob Ross, eventually becoming a certified instructor himself. For the last thirty years, he both worshiped and served at the Naval Aviation Memorial Chapel in Pensacola, Florida. Throughout his life, he was an avid golfer, as well as an accomplished home chef who would prepare an incredible seven-course meal each year for his wife, Olena.Carey is preceded in death by his father, Leon V. Dobbins; mother, Ruth Wren Dobbins; and his former wife, Mary Helen Dobbins. <br /><br />
+                            He is survived by his wife, Olena L. Dobbins; his three daughters, Pamela Granata, Debra Dobbins, and Wendy Sweeney; his 6 grandchildren; 13 great-grandchildren; and 1 great-great-grandchild. His memorial service will be held Thursday, August 25, 2022 at 1:00 PM at Faith Chapel Funeral Home South. A reception will immediately follow the service. <br /><br />
+                            Faith Chapel Funeral Home South, 100 Beverly Parkway, Pensacola, is entrusted with arrangements. You may express condolences online at www.fcfhs.com. <br /><br />
+                            Published by Faith Chapel Funeral Homes - South Chapel on Aug. 19, 2022. <br /><br />
 
-           <article>
+                        </p>
+                    </div>
+                </article>
+                <article>
                     <div>
                         <h2 id="KridleH2" class="obitH1">Robert "Bob" Michael Kridle - 7/31/2022 </h2>
                     </div>

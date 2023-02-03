@@ -1461,6 +1461,18 @@ $(document).ready(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#specialLinksArt').removeClass('noDisplay').addClass('block');
     });
+    $('#mySpecalLinksPage2').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
+    });
+    $('#mySpecalLinksPage3').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
+    });
+
+    $('#myDobbins').click(function () {
+        OpenObit('Dobbins');
+    });
 
     $('#myBalentine').click(function () {
         OpenObit('Balentine');
@@ -1477,6 +1489,9 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'DobbinsH2':
+                ShowMyObit('Dobbins')
+                break;
             case 'KridleH2':
                 ShowMyObit('Kridle')
                 break;
@@ -2116,7 +2131,7 @@ $(document).ready(function () {
     });
 
   $('#myMinutes').click(function () {
-        window.open('_Minutes/12-9-2022_Minutes.pdf', '');
+        window.open('_Minutes/1-9-2023_Minutes.pdf', '');
     });
 
     $('#AprilPomo').click(function () {
@@ -4156,7 +4171,7 @@ $(document).ready(function () {
     });
 
     $('#meetingMinutes').click(function () {
-        window.open('_Minutes/12-17-2021_Minutes.pdf', '');
+        window.open('_Minutes/1-9-2023_Minutes.pdf', '');
     });
 
     $('#showAgenda').click(function () {

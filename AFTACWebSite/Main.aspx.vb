@@ -72,9 +72,8 @@ Public Class _Default
                     ScrollTo("MembershipArt")
                     Exit Sub
                 End If
-
-                sql = "Select id,  rtrim(lTrim(Last)) + ', ' + rtrim(lTrim(Last)) as Name From AFTAC where rtrim(lTrim(Last)) + ', ' + rtrim(lTrim(Last)) Like 'Gil%'"
-                OpenArticle("Searched Members")
+                GetList()
+                OpenArticle("MembershipArt")
                 ScrollTo("MembershipArt")
             Case "btnClearSearch_Click"
                 GetList()
@@ -1860,13 +1859,12 @@ Public Class _Default
         Else
             hidedeceased = 1 'This will show the deceased
         End If
-
-        If hfSearchStatus.Value = "Search" Then
+        If Len(txtSearch.Text) > 0 Then
             sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & txtSearch.Text & "%'"
+            txtSearch.Text = ""
         Else
             sql = "exec GetMemberList '" & chap & "'," & hidedeceased & ",'" & blank & "'"
         End If
-
 
         Get_Dataset(sql, ds)
 
