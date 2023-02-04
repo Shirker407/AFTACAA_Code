@@ -287,10 +287,12 @@
                                     <td id="mySpecalLinksPage3" class="announcement blueText">Universal Orlando Freedom Pass $200<a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Click Here for Universal Site</a></td>
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage2" class="announcement RedText"><a href ="https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_bank")> New Nuke-Sniffing Jet Flies Off South America On First International Mission</a></td>
                                     <td class="posted RedText">1/31/2023</td>
                                     <td class="event RedText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDobbins" class="announcement blueText">Carey Leon Dobbins' Obituary was Posted</td>
                                     <td class="posted blueText">1/28/2023</td>
@@ -13082,7 +13084,7 @@
                             In lieu of flowers donations can be made to Sisters of the Holy Family, 6901 Chef Menteur Highway, New Orleans, LA 70126.<br /><br />
                             A Mass of Christian Burial will be held on Monday, August 8, 2022 at 11:00 am at Nativity BVM Cathedral. Friends are invited to visit one hour prior. Interment will follow at Southern Memorial Park. A reception will follow burial in the Sacred Heart Center at Nativity BVM.<br /><br />
                             Bradford-O’Keefe Funeral Home is honored to serve the family of Robert “Bob” Michael Kridle.<br /><br />
-                            To order <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmanage2.tukioswebsites.com%2Fo%2Fv2%2Ftrees%2F3c6b1f32-d955-4150-bf44-295dbfa77ff6&data=05%7C01%7C%7Cf1342378310e4bb7c7ac08dafce41573%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100353824384033%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=TEuc5XB9wwiG%2F8tKpwRVz5up4sftPgXX%2B2plCSW4gqw%3D&reserved=0"> memorial trees <a /> or send flowers to the family in memory of Robert "Bob" Michael Kridle, please visit our <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmanage2.tukioswebsites.com%2Fo%2Fv2%2Fflowers%2F3c6b1f32-d955-4150-bf44-295dbfa77ff6&data=05%7C01%7C%7Cf1342378310e4bb7c7ac08dafce41573%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100353824384033%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=%2BwfSStc%2BDldJKpf1pbOmxEk6UC%2B5XcD7eb%2Fwp0pRwQM%3D&reserved=0">flower store.<a /><br /><br />
+                            To order <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmanage2.tukioswebsites.com%2Fo%2Fv2%2Ftrees%2F3c6b1f32-d955-4150-bf44-295dbfa77ff6&data=05%7C01%7C%7Cf1342378310e4bb7c7ac08dafce41573%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100353824384033%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=TEuc5XB9wwiG%2F8tKpwRVz5up4sftPgXX%2B2plCSW4gqw%3D&reserved=0"> memorial trees </a> or send flowers to the family in memory of Robert "Bob" Michael Kridle, please visit our <a href="https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fmanage2.tukioswebsites.com%2Fo%2Fv2%2Fflowers%2F3c6b1f32-d955-4150-bf44-295dbfa77ff6&data=05%7C01%7C%7Cf1342378310e4bb7c7ac08dafce41573%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638100353824384033%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=%2BwfSStc%2BDldJKpf1pbOmxEk6UC%2B5XcD7eb%2Fwp0pRwQM%3D&reserved=0">flower store.</a><br /><br />
 
                         </p>
                     </div>
