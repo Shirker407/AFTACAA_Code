@@ -1461,14 +1461,6 @@ $(document).ready(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#specialLinksArt').removeClass('noDisplay').addClass('block');
     });
-    $('#mySpecalLinksPage2').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
-    });
-    $('#mySpecalLinksPage3').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
-    });
 
     $('#myDobbins').click(function () {
         OpenObit('Dobbins');
@@ -1476,10 +1468,6 @@ $(document).ready(function () {
 
     $('#myBalentine').click(function () {
         OpenObit('Balentine');
-    });
-
-    $('#myPierce').click(function () {
-        OpenObit('Pierce');
     });
 
     $('#myKridle').click(function () {
@@ -1760,6 +1748,9 @@ $(document).ready(function () {
                 break;
             case "CTBTO Executive Secretary visits AFTAC - 11/12/2022":
                 OpenNTKfromMenu('CTBTO');
+                break;
+            case "New Nuke-Sniffing Jet Flies Off South America On First International Mission - 1/18/2023":
+                OpenNTKfromMenu('ConstnatPhoenix2023');
                 break;
             case "Finlayson takes command of nuclear treaty monitoring center - 7/6/2022":
                 OpenNTKfromMenu('Finlayson');
