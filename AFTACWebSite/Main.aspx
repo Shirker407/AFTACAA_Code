@@ -284,7 +284,7 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage3" class="announcement blueText">Universal Orlando Freedom Pass $200<a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Click Here for Universal Site</a></td>
+                                    <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Universal Orlando Freedom Pass $200</a></td>
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -342,11 +342,6 @@
                                     <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
                                     <td class="posted greenText">1/5/2023</td>
                                     <td class="event greenText">3/4/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted</td>
-                                    <td class="posted blueText">1/4/2023</td>
-                                    <td class="event blueText"></td>
                                 </tr>
  <!--                                                
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -6155,12 +6150,113 @@
 
            <asp:Label CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="NEWS TO KNOW"></asp:Label>
             
-           <div class="ntkButs aLeft block">
+            <div class="ntkButs aLeft block">
                 <p id="newsTitle" class="width30 pTitle redText inline leftMargin1em">Current News Articles</p>
                 <input id="btnShowArticles" class="myBut inline leftMargin8em" type="button" value=" Show Archived Articles " />
             </div>
 
             <div class="clear"></div>
+
+ 
+
+            <section id="secConstnatPhoenix2023" class="block">
+                <div class="block">
+                    <div class="aLeft">
+                        <h2 id="ntkConstnatPhoenix2023H2" class="currentNews news2KnowH1">New Nuke-Sniffing Jet Flies Off South America On First International Mission - 1/18/2023</h2>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+
+                <article id="ntkConstnatPhoenix2023Para" class="n2KPara noDisplay">
+                    <p> The Air Force's first WC-135R Constant Phoenix collected air samples off South America's eastern coast to establish baseline atmospheric radiation conditions.
+                    <br />   
+                    </p>    
+                    <byline>BY JOSEPH TREVITHICK<br />PUBLISHED JAN 18, 2023 7:48 PM<br />  </byline>
+                    <a href= "https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission"> Link to Original Article</a>
+                    <br /><br />
+                    <figure>
+                        <img alt="ConstantPhoenix2023Ramp.jpg" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/ConstantPhoenix2023Ramp.jpg" />
+                        <figcaption class="width95 autoMarginLeftRight topMargin1em maroonText bold italic">
+                            USAF
+                        </figcaption>
+                    </figure>
+                    <p>
+                        South America was the first time it has conducted an air-sampling sortie outside of the Continental United States. Constant Phoenix aircraft regularly conduct missions to gather data that can be used to help keep watch for unusual spikes in atmospheric radiation. The planes can also be used to help gather data after nuclear weapon tests or other radiological incidents and track the spread of potentially dangerous radioactive material.
+                        <br /><br />
+                        The WC-135R, which has the serial number 64-14836, conducted this flight in coordination with U.S. Southern Command (SOUTHCOM) on January 16, staging from Luis Mu&ntilde;oz Marin International Airport in Puerto Rico. The aircraft followed a route that took it west out of the Caribbean Sea and into the southern end of the Atlantic Ocean. It then followed a path off the coasts of Venezuela, Guyana, Suriname, French Guiana, and Brazil, before turning around and returning to Puerto Rico.
+                        <br /><br />
+                        Branson assumed command of the Department of Defense's sole nuclear treaty monitoring center in June 2020, at the height of the global pandemic.  Since that time, Branson oversaw significant key successes by the Airmen and Guardians of AFTAC, including the creation of the center's War Room and Artificial Intelligence/Machine Learning Accelerator Lab; procuring an additional WC-135 aircraft to expand Nuclear Debris Collection and Analysis capabilities; and earning Air Combat Command's only "Highly Effective" rating during the center's 2020 inspection.
+                        <br /><br />
+                    </p>
+                    <figure>
+                        <img alt="ConstantPhoenixTwiter1.png" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/ConstantPhoenixTwiter1.png" />
+                        <figcaption class="width95 autoMarginLeftRight topMargin1em maroonText bold italic">
+                            <a href="https://twitter.com/AircraftSpots/status/1615131435454853121?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1615169121536315392%7Ctwgr%5E229d0ef2815caf537ad857a6073f169721497bff%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fwww.thedrive.com%2Fthe-war-zone%2Fnew-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_blank"> Link to Twiter</a>
+                        </figcaption>
+                    </figure> 
+                    <br /><br />
+                    <p>
+                    The aircraft was in international airspace the entire time. Online flight tracking software showed that at least one Air Force KC-10A Extender aerial refueling tanker was used to support the mission.
+                    </p>
+                     <figure>
+                         <img alt="ConstantPhoenixTwiter2.png" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/ConstantPhoenixTwiter2.png" />
+                         <figcaption class="width50 autoMarginLeftRight topMargin1em maroonText bold italic">
+                              <a href="https://twitter.com/wipljw/status/1615007393955610625?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1615007393955610625%7Ctwgr%5E229d0ef2815caf537ad857a6073f169721497bff%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.thedrive.com%2Fthe-war-zone%2Fnew-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_blank"> Link to Twiter</a>
+                         </figcaption>
+                     </figure>
+                     <p>
+                        <br /><br />
+                        "This is... the first 'OCONUS' (outside the Continental United States) deployment for #836," Susan Romano, the director of Public Affairs at the Air Force Technical Applications Center (AFTAC), confirmed to The War Zone in a statement. "The aircraft was able to take on more than 90,000 pounds of fuel - the largest air-to-air refueling onload for the jet since AFTAC and the 55th Wing at Offutt [Air Force Base], Nebraska, took delivery of #836."
+                        <br /><br />
+                        This particular flight was a so-called "baseline" collection mission to gather air samples that are then used to establish what atmospheric radiation levels should look like under normal conditions. This is primarily done as part of the enforcement of the 1963 Partial Nuclear Test Ban Treaty, which prohibits signatories from conducting open-air nuclear weapon tests, as well as ones in space and underwater. Subsequent detection of elevated radiation levels could point to nuclear weapon testing in violation of the treaty, or by countries that are not party to that agreement, as well as other radiological events.
+                        <br /><br />
+                        Members of the 45th Reconnaissance Squadron, part of the 55th Wing, fly and maintain the Constant Phoenix aircraft. Personnel from AFTAC's 21st Surveillance Squadron are responsible for operating and maintaining the actual mission equipment inside the jets.
+                        <br /><br />
+                        The Air Force took delivery of 64-14836 in July 2022. The service had said that it expected to receive the second of three planned WC-135Rs by the end of last year, but it's not clear if that has happened. The Air Force retired two older Constant Phoenix jets, a WC-135C and a WC-135W, in 2020 and 2022, respectively.
+                        <br /><br />
+                        Plane spotters and online flight trackers who followed 64-14836's flight earlier this week also noted that the South American route was a rare one for a Constant Phoenix aircraft to take.
+                    </p>
+                    <figure>
+                        <img alt="ConstantPhoenixTwiter3.png" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/ConstantPhoenixTwiter3.png" />
+                        <figcaption class="width50 autoMarginLeftRight topMargin1em maroonText bold italic">
+                             <a href="https://twitter.com/GDarkconrad/status/1615001276055420929?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1615001276055420929%7Ctwgr%5E229d0ef2815caf537ad857a6073f169721497bff%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.thedrive.com%2Fthe-war-zone%2Fnew-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_blank"> Link to Twiter</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        "This was the first WC-135 background sortie collection off the central east coast of South America in nearly 30 years," Romano, the AFTAC spokesperson further confirmed to The War Zone. "Flying in a different geographical area helps establish a baseline of debris in the atmosphere, which is important to keeping the world safe."
+                        <br /><br />
+                        This is, however, not the only time Constant Phoenix aircraft have flown missions from Puerto Rico in coordination with SOUTHCOM since the 1990s. One of the previous WC-135s conducted at least three such flights, collectively referred to as Coral Phoenix missions, in 2008, according to declassified portions of an annual Air Combat Command (ACC) history that the author previously obtained via the Freedom of Information Act (FOIA).
+                        <br />
+                    </p>
+                    <figure>
+                        <img alt="ConstantPhoenixFOIA3.png" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/ConstantPhoenixFOIA.png" />
+                        <figcaption class="width50 autoMarginLeftRight topMargin1em maroonText bold italic">
+                            (From previously obtained (FOIA) annual Air Combat Command (ACC) history)
+                        </figcaption>
+                    </figure>
+                    <p>
+                        64-14836's flight off South America was also its second operational mission, overall, according to AFTAC's Romano. The aircraft conducted its first air-sampling sortie sometime after its delivery in July of last year from the Continental United States in coordination with U.S. Northern Command (NORTHCOM).
+                        <br /><br />
+                        The Air Force first announced its plans to acquire the trio of WC-135Rs in 2019, which The War Zone was first to report on, specifically citing the increasing difficulties in operating and maintaining the previous aging WC-135C/W jets.
+                        <br /><br />
+                        Though 64-14836 is certainly not new - the "64" in its serial number is the fiscal year when it was purchased - it has received a number of upgrades, including more modern CFM-56 turbofan engines, over the years. The older WC-135C/Ws had much less capable and more maintenance-intensive Pratt & Whitney TF-33 engines, a design that went out of production entirely in 1985.
+                        <br /><br />
+                        The TF-33s were often at the heart of safety and reliability issues for the previous Constant Phoenix jets. For instance, one of the previous WC-135s had to make an emergency landing in Indonesia's Aceh province in 2017 and spent a week grounded there due to engine issues.
+                        <br /><br />
+                        "I am extremely proud of the Airmen who executed this collection sortie,"Air Force Col. James A. Finlayson, commander of AFTAC, said in a statement provided to The War Zone. "It takes a great deal of collaboration to coordinate all the moving parts on missions like these." 
+                        <br /><br />
+                        "This mission is an important one, not just for the United States, but for our allies and citizens of the world who benefit from AFTAC's analysis of atmospheric debris and collection samples," Col. Finlayson continued. "Thanks to U.S. Southern Command for their assistance and oversight as well."
+                        <br /><br />
+                        All told, though it remains to be seen whether more flights around Latin America are in 64-14836's future, the jet's two sorties in the last six months are just the start of its new nuke-sniffing career.
+                        <br /><br />
+                    </p>
+                </article>
+            </section>
+ 
+
+
+
 
            <section id="secFinlayson" class="block">
                 <div class="block">
