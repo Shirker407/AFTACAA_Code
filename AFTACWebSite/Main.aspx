@@ -26,7 +26,7 @@
      <%--golfGetArt = Golf N'GetTogether 2016 --%>                                      
      <%--toiletArt = Toilet Bowl 2016 --%>                                      
 <%--*****************************************************************************--%>
-     
+ <%--Does this affect things? --%>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -299,11 +299,6 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWise2023" class="announcement greenText">Women in Science and Engineering Profesional Symposium</td>
-                                    <td class="posted greenText">1/27/2023</td>
-                                    <td class="event greenText">2/8/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myKridle" class="announcement blueText">Robert "Bob" Michael Kridle's Obituary Posted</td>
                                     <td class="posted blueText">1/24/2023</td>
                                     <td class="event blueText"></td>
@@ -331,11 +326,6 @@
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="79Years" class="announcement blueText">Check "79 Years Ago"</td>
                                     <td class="posted blueText">1/14/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCommPage" class="announcement blueText">Check "Command Corner" in Main Menu</td>
-                                    <td class="posted blueText">1/9/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -2370,6 +2360,11 @@
                         <td class="cmdHeaderDate">Date Installed</td>
                         <td class="cmdHeaderSource">Source</td>
                     </tr>
+                     <tr>
+                        <td class="cmdName">Col James Finlayson</td>
+                        <td class="cmdDate">2 June 2022</td>
+                        <td class="cmdSource">Intel</td>
+                    </tr>
                     <tr>
                         <td class="cmdName">Col Katherine Barber</td>
                         <td class="cmdDate">30 June 2020</td>
@@ -2992,10 +2987,7 @@
                 <br /><br />
                 In total, 29 donations (including 10 responses from the mailing) have been received to support the building of the memorial.  In addition two pledges have been made, one by the AFTAC Alumni Association for $10,000, and one by as yet unnamed Alumni for $5,000.  Of the 29 donors, there are 3 Silver ($2500-$4999) and one Bronze ($1000$2499).   
                 <br /><br />
-                It was our desire to have the Memorial Built and to have the Dedication Ceremony as a part of the 2021 AFTAC 
-                <br /><br />
-                World Wide Reunion (WWR) in 2021 (around the June 
-                timeframe), however, that dedication timeline is no longer possible. 
+                It was our desire to have the Memorial Built and to have the Dedication Ceremony as a part of the 2021 AFTAC World Wide Reunion (WWR) in 2021 (around the June timeframe), however, that dedication timeline is no longer possible. 
                 <br /><br />
                 As of the date of this article, the AFTACMC has approximately $5700 in the building fund, with $15,000 in pledges for a total of $20,700.  The estimated cost to build the proposed Memorial is $150,000 to $180,000.  So you can see we are a long way off.     
                 <br /><br />
@@ -6035,9 +6027,6 @@
             <ul id="linkUl" class="autoMarginLeftRight topMargin2em">
                   <li>
                     --NEWS--
-                </li>              <li>
-                    <a href="https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target="_blank">New Nuke-Sniffing Jet Flies Off South America On First International Mission (Jan 2023)</a>
-                </li>
                 <li>
                     <a href="https://blogs.va.gov/VAntage" target="_blank">Current VA News that you might like to read.</a>
                 </li>

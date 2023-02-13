@@ -1450,13 +1450,13 @@ $(document).ready(function () {
         }, 500);
     });
     */
-    $('#myCommPage').click(function () {
+  /*  $('#myCommPage').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#myCommandArt').removeClass('block').addClass('block');
         $('.CommandArt').removeClass('block').addClass('noDisplay');
         $('#CommInitial').removeClass('block').addClass('block');
     });
-
+    */
     $('#mySpecalLinksPage').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#specialLinksArt').removeClass('noDisplay').addClass('block');
@@ -2117,9 +2117,6 @@ $(document).ready(function () {
     });
 
     //**********************************************************************
-    $('#myWise2023').click(function () {
-        window.open('_PDFs/WiSE2023.pdf', '');
-    });
 
   $('#myMinutes').click(function () {
         window.open('_Minutes/1-9-2023_Minutes.pdf', '');

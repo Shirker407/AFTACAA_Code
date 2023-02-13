@@ -1266,6 +1266,7 @@
     <Content Include="_Photos\WOH\wohFig3.JPG" />
     <Content Include="_Photos\WOH\wohFig4.JPG" />
     <Content Include="_Photos\Wooden HQ.jpg" />
+    <Content Include="_Scripts\JQueryStuff.js" />
     <Content Include="_Scripts\myScript.js" />
     <Content Include="_Styles\BasicStyles.css" />
     <Content Include="_Styles\myStyles.css" />
@@ -1489,7 +1490,6 @@
     <Content Include="_Minutes\9-16-2022_Minutes.pdf" />
     <Content Include="_PDFs\SnowBall RSVP.pdf" />
     <Content Include="_PDFs\2023 Snowball.pdf" />
-    <Content Include="_PDFs\WiSE2023.pdf" />
     <Content Include="_Minutes\1-9-2023_Minutes.pdf" />
     <Content Include="_PDFs\Agenda.pdf" />
   </ItemGroup>
