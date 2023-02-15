@@ -1,7 +1,7 @@
 <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>2023 SnowBall
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
-<%--Swell %>
+<%--Swell --%>
 <%--*****************************************************************************--%>
 <%--*****************************************************************************--%>
      <%--TABLE OF CONTENTS--%>
@@ -26,7 +26,7 @@
      <%--golfGetArt = Golf N'GetTogether 2016 --%>                                      
      <%--toiletArt = Toilet Bowl 2016 --%>                                      
 <%--*****************************************************************************--%>
- <%--Does this affect things? --%>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -227,9 +227,8 @@
             </div>
 
         </aside>
-<%--End Main Menu*****************************************************************************--%>
-<%--Page Header  *****************************************************************************--%>
 
+<%--Page Header  *****************************************************************************--%>
         <header id="mainHeader" class="myHeader topMargin1em showShadow block" style="margin-left:22%;" runat="server">
             <div class="floatLeft backMoccasin width25" style="background-color:chocolate;">
                 <asp:ImageButton ID="alumniLogo" CssClass="width50 thinMaroonBorder smallShadow" ImageUrl="_Images/alumniLogo.jpg" runat="server" OnClick="alumniLogo_Click" />
@@ -3858,7 +3857,7 @@
                 </p>
             </div>
         </article>
-<%--  AFTAC's Last 70 Years Article*****************************************************************************--%>
+<%--  AFTAC's Last 70 Years Slide Show*****************************************************************************--%>
         <article id="last70yearArt" class="myArts noDisplay">
             <p class="pTitle topMargin1em centerText underLine">AFTAC's Last 70 Years</p>
 
@@ -3871,13 +3870,13 @@
                 <div class="clear"></div>
             </div>
         </article>
-<%--  70th Anniversary of AFTAC Slide Show*****************************************************************************--%>
+<%--  Modifications Report Page*****************************************************************************--%>
         <article id="modlog" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Modification Log</p>
             <asp:Button ID="modLogReturn" CssClass="autoMarginLeftRight smallBut block bottomMargin1em fontSize1em" runat="server" Text=" Return To Menu " OnClick="modLogReturn_Click" />
             <asp:GridView ID="gvModLog" CssClass="autoMarginLeftRight topMargin1em" Font-Bold="true" runat="server"></asp:GridView>
         </article>
-<%--  Modifications Report Page *****************************************************************************--%>
+<%--  EAll Report Page *****************************************************************************--%>
         <article id="eallArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Eall Address Report</p>
             <asp:Button ID="butEallReturn" CssClass="autoMarginLeftRight smallBut block bottomMargin1em fontSize1em" runat="server" Text=" Return To Menu " OnClick="modLogReturn_Click" />
@@ -3901,7 +3900,7 @@
             </asp:Panel>
             
         </article>
-<%--  Eall Address Report Page*****************************************************************************--%>
+<%--  Eall Address Report 2 Page*****************************************************************************--%>
         <article id="allMailArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Eall Address Report</p>
             <asp:Button ID="Button1" CssClass="autoMarginLeftRight smallBut block bottomMargin1em fontSize1em" runat="server" Text=" Return To Menu " OnClick="modLogReturn_Click" />
@@ -4292,7 +4291,7 @@
 
             <p class="centerText">Video by Clark Creery</p>
             </div>
-        </article>--%>
+        </article>
 <%--  History of AFTAC Alumni Association Article *****************************************************************************--%>
         <article id="historyAlumniArt" class="myArts noDisplay">
             <asp:Label ID="Label17" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="History of AFTAC Alumni Association"></asp:Label>
@@ -4383,7 +4382,7 @@
 
             </div>
         </article>
-<%--  History of AFTAC Alumni Association Article *****************************************************************************--%>
+<%--  AFTAC Mission Article *****************************************************************************--%>
         <article id="historyArt" class="myArts noDisplay">
             <div>
                 <img alt="AFTAC LOGO" class="autoMarginLeftRight width30 topMargin2em maroonBorder smallShadow" src="_Images/AFTACLogo.JPG" />
@@ -4453,7 +4452,7 @@
                 Michael J. Marcus
             </p>
         </article>
-<%--  20 Year Wall Of Service Honorees Article *****************************************************************************--%>
+<%--  20 Year Wall Of Service Honorees Page *****************************************************************************--%>
         <article id="wallArt" class="myArts noDisplay">
             <p id="paraWallTitle" class="pTitle block centerText" style="font-size:2.5em;">
                 20 Year Wall Of Service Honorees
@@ -4658,7 +4657,7 @@
             </div>
 
         </article>
-<%--  Wall of Honor Selectees Article *****************************************************************************--%>
+<%--  Wall of Honor Selectees Page *****************************************************************************--%>
         <article id="honorArt" class="myArts noDisplay">
             <div id="wohMainImg" class="block backChocolate maroonBorder showShadow">
                 <div id="pWOH_Honorees" class="bold"><p class="pTitle centerText topMargin1em yellowText">Wall of Honor Selectees<br /><span class="yellowText italic" style="font-size:.6em;">Click a name to see biography</span></p></div>
@@ -4940,7 +4939,7 @@
                 <div class="clear"></div>
             </div>
         </article>
-<%--  Alumni of the Year Article *****************************************************************************--%>
+<%--  Alumni of the Year Page *****************************************************************************--%>
         <article id="alumniArt" class="myArts noDisplay">
             <asp:Label ID="lblAOY" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="Alumni of the Year"></asp:Label>
         
@@ -5838,8 +5837,8 @@
                     P.S. I had the honor of being seated beside Mrs. Bobby Cobb, Colonel Cobb's wife. He is doing as well as can be expected, and he sends his best. Remember Alumni "He is our Chairman of the Board." Godspeed sir and congratulations to Frank Hall.
                 </p>
             </article>
-<%--   John and Chris Horsch 1999 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
+<%--   John and Chris Horsch 1999 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="HorschP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     1999 ALUMNUS OF THE YEAR <br />John and Chris Horsch                  
@@ -5865,8 +5864,8 @@
                     brought closer together because of it.
                 </p>
             </article>
-<%--   Ben Vlassick 2000 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
+<%--   Ben Vlassick 2000 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="VlassickP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     2000 ALUMNUS OF THE YEAR <br />Ben Vlassick               
@@ -7717,6 +7716,7 @@
                 </article>
             </section>
             
+<%--   Archived NTK College Fellows develop nuke detection system Article *****************************************************************************--%>
 
            <section class="archivedNews block">
                     <h2 id="ntkfellowsH2" class="news2KnowH1 left">College Fellows develop nuke detection system to test at RED FLAG '19 - 10/30/2019</h2>
@@ -7798,6 +7798,7 @@
                     <div class="clear"></div>
             </section>
 
+<%--   Archived NTK Military Affairs Council tours only radiochemistry lab in USAF - 10/30/2019 Article *****************************************************************************--%>
            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcouncilH2" class="news2KnowH1">Military Affairs Council tours only radiochemistry lab in USAF - 10/30/2019</h2>
@@ -7864,6 +7865,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK CRF develops innovative solution to seismic array vulnerability - 10/4/2019 Article *****************************************************************************--%>
            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcrfH2" class="news2KnowH1">CRF develops innovative solution to seismic array vulnerability - 10/4/2019</h2>
@@ -7913,7 +7915,8 @@
             </article>
         </section>
 
-           <section class="archivedNews block">
+<%--   Archived NTK Local '16 valedictorian recruited by AFTAC as nuclear data analyst - 9/25/2019 Article *****************************************************************************--%>
+          <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkvaledictorianH2" class="news2KnowH1">Local '16 valedictorian recruited by AFTAC as nuclear data analyst - 9/25/2019</h2>
                 </div>
@@ -7972,6 +7975,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Experts from AFTAC travel to Georgia for STEMversity - 9/16/2019 Article *****************************************************************************--%>
             <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkSTEMversityH2" class="news2KnowH1">Experts from AFTAC travel to Georgia for STEMversity - 9/16/2019</h2>
@@ -8030,7 +8034,8 @@
 
             </section>
 
-            <section class="archivedNews block">
+ <%--   Archived NTK Despite Dorian, vital nuke mission continues uninterrupted - 9/14/2019 Article *****************************************************************************--%>
+           <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkDorianH2" class="news2KnowH1">Despite Dorian, vital nuke mission continues uninterrupted - 9/14/2019</h2>
                 </div>
@@ -8093,7 +8098,8 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+<%--   Archived NTK Two distinguished executives receive Presidential Rank Awards - 7/12/2019 Article *****************************************************************************--%>
+           <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkPresidentialH2" class="news2KnowH1">Two distinguished executives receive Presidential Rank Awards - 7/12/2019</h2>
                 </div>
@@ -8151,6 +8157,7 @@
 
             </section>
 
+<%--   Archived NTK From Uzbekistan to America: One Airman's Tale - 6/27/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkUzbekistanH2" class="news2KnowH1">From Uzbekistan to America: One Airman's Tale - 6/27/2019</h2>
@@ -8230,6 +8237,7 @@
 
             </section>
 
+<%--   Archived NTK Dr Glenn Sjoden, AFTAC Chief Scientist, Is Leaving Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSjodenH2" class="news2KnowH1">Dr Glenn Sjoden, AFTAC Chief Scientist, Is Leaving</h2>
@@ -8312,6 +8320,7 @@
 
             </section>
 
+<%--   Archived NTK A1C with PhD now a 2Lt - 6/6/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkLtH2" class="news2KnowH1">A1C with PhD now a 2Lt - 6/6/2019</h2>
@@ -8468,6 +8477,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Cannon Shot Nuclear Test - 5/27/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCannonH2" class="news2KnowH1">Cannon Shot Nuclear Test - 5/27/2019</h2>
@@ -8492,6 +8502,7 @@
 
             </section>
 
+<%--   Archived NTK Secret lab at Patrick Air Force Base - 4/23/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSecLabH2" class="news2KnowH1">Secret lab at Patrick Air Force Base - 4/23/2019</h2>
@@ -8588,6 +8599,7 @@
            
             </section>
 
+<%--   Archived NTK Using dynamite and TNT to enhance nuclear mission - 4/17/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkTNTH2" class="news2KnowH1">Using dynamite and TNT to enhance nuclear mission - 4/17/2019</h2>
@@ -8660,6 +8672,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Divisional wins lead to state competition for AFTAC mentors - 4/17/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkMentorsH2" class="news2KnowH1">Divisional wins lead to state competition for AFTAC mentors - 4/17/2019</h2>
@@ -8710,6 +8723,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Nuclear air sampling aircraft on display at Patrick AFB - 3/14/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkNuclearH2" class="news2KnowH1">Nuclear air sampling aircraft on display at Patrick AFB - 3/14/2019</h2>
@@ -8789,6 +8803,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Rare boat-to-boat transfer executed on the high seas - 3/13/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="n2kB2BH2" class="news2KnowH1">Rare boat-to-boat transfer executed on the high seas - 3/13/2019</h2>
@@ -8856,6 +8871,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Defense Department pushing ahead to merge commissary and exchange systems - 3/13/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="n2kCommissaryH2" class="news2KnowH1">Defense Department pushing ahead to merge commissary and exchange systems - 3/13/2019</h2>
@@ -8906,6 +8922,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Congressional staffers learn about AFTAC's heritage, mission - 3/13/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStaffersH2" class="news2KnowH1">Congressional staffers learn about AFTAC's heritage, mission - 3/13/2019</h2>
@@ -8938,6 +8955,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK STEM outreach key to uniting Airmen with students - 2/20/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStem1H2" class="news2KnowH1">STEM outreach key to uniting Airmen with students - 2/20/2019</h2>
@@ -9035,6 +9053,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Another tournament, another trophy for AFTAC Hockey - 1/16/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHockeyH2" class="news2KnowH1">Another tournament, another trophy for AFTAC Hockey - 1/16/2019</h2>
@@ -9089,6 +9108,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK A1C with Ph.D. lands job at nuclear treaty monitoring center - 12/16/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkA1CH2" class="news2KnowH1">A1C with Ph.D. lands job at nuclear treaty monitoring center - 12/16/2018</h2>
@@ -9167,6 +9187,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Our Cardboard Christmas Tree - 11/28/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCardboardH2" class="news2KnowH1">Our Cardboard Christmas Tree - 11/28/2018</h2>
@@ -9208,6 +9229,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Hoop coaches, life mentors: AFTAC Airmen engage with community youth - 11/16/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHoopH2" class="news2KnowH1">Hoop coaches, life mentors: AFTAC Airmen engage with community youth - 11/16/2018</h2>
@@ -9306,6 +9328,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Leadership in a Selfie Culture - 11/6/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSelfieH2" class="news2KnowH1">Leadership in a Selfie Culture - 11/6/2018</h2>
@@ -9339,6 +9362,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTAC molecular biologist represents Air Force at SWE18 conference - 11/6/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkWE18H2" class="news2KnowH1">AFTAC molecular biologist represents Air Force at SWE18 conference - 11/6/2018</h2>
@@ -9371,6 +9395,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Air Force Chief Scientist pays visit to treaty monitoring center - 10/22/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkChiefH2" class="news2KnowH1">Air Force Chief Scientist pays visit to treaty monitoring center - 10/22/2018</h2>
@@ -9430,6 +9455,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Downrange 'MacGyvers' creatively get the job done - 10/3/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkMacgyverH2" class="news2KnowH1">Downrange 'MacGyvers' creatively get the job done - 10/3/2018</h2>
@@ -9530,6 +9556,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Musical Tesla Coil, 3-D printer draws crowd at Science Bowl - 10/2/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkTestlaH2" class="news2KnowH1">Musical Tesla Coil, 3-D printer draws crowd at Science Bowl - 10/2/2018</h2>
@@ -9606,6 +9633,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Creative prototype leads to fielded implementation - 9/20/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkProtoTypeH2" class="news2KnowH1">Creative prototype leads to fielded implementation - 9/20/2018</h2>
@@ -9674,6 +9702,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Chemist at AFTAC earns award from national Hispanic organization - 9/19/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkChemistH2" class="news2KnowH1">Chemist at AFTAC earns award from national Hispanic organization - 9/19/2018</h2>
@@ -9738,6 +9767,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK eFAILution Wall:  Failure + Learning = Successful Evolution - 9/18/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkFailureH2" class="news2KnowH1">eFAILution Wall:  Failure + Learning = Successful Evolution - 9/18/2018</h2>
@@ -9826,9 +9856,9 @@
                         </p>
                     </div>
                 </article>
-<%--            </section>--%>
-        </section>
+            </section>
 
+<%--   Archived NTK AFTAC Hockey takes trophy at charity match - 9/18/2018 Article *****************************************************************************--%>
             <section>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
@@ -9885,6 +9915,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Center exercises capability to relocate treaty monitoring mission - 9/6/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkRelocateH2" class="news2KnowH1">Center exercises capability to relocate treaty monitoring mission - 9/6/2018</h2>
@@ -9946,6 +9977,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Breaking the STEM mold, one woman at a time - 8/24/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkStemGirlsH2" class="news2KnowH1">Breaking the STEM mold, one woman at a time - 8/24/2018</h2>
@@ -10077,6 +10109,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Contractor with treaty monitoring center puts lifesaving skills to the test - 8/24/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkSkillsH2" class="news2KnowH1">Contractor with treaty monitoring center puts lifesaving skills to the test - 8/24/2018</h2>
@@ -10176,6 +10209,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Cop for a Day: AFTAC Airmen learn role of base Security Forces - 8/21/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkSFSH2" class="news2KnowH1">Cop for a Day: AFTAC Airmen learn role of base Security Forces - 8/21/2018</h2>
@@ -10257,6 +10291,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Not just a buzzword; AFTAC showcases innovation to ISR community - 7/9/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkbuzzH2" class="news2KnowH1">Not just a buzzword; AFTAC showcases innovation to ISR community - 7/9/2018</h2>
@@ -10323,6 +10358,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Officials announce 2018 ACC STEM Award winners - 6/26/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstemawardH2" class="news2KnowH1">Officials announce 2018 ACC STEM Award winners - 6/26/2018</h2>
@@ -10380,6 +10416,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK When the storms of life arise, how do you survive the onslaught? - 6/25/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstormsH2" class="news2KnowH1">When the storms of life arise, how do you survive the onslaught? - 6/25/2018</h2>
@@ -10449,6 +10486,7 @@
                     </article>
                 </section>
    
+<%--   Archived NTK New commander inherits newly-structured Air Force organization - 6/20/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkchangeH2" class="news2KnowH1">New commander inherits newly-structured Air Force organization - 6/20/2018</h2>
@@ -10521,6 +10559,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK 24/7 treaty monitoring center ready for contingency ops - 6/15/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkmonitoringH2" class="news2KnowH1">24/7 treaty monitoring center ready for contingency ops - 6/15/2018</h2>
@@ -10598,6 +10637,7 @@
                 </section>
             </section>
 
+<%--   Archived NTK Florida Airmen Skype with Georgia middle school students - 5/12/2018 Article *****************************************************************************--%>
             <section>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
@@ -10670,6 +10710,7 @@
                         </article>
                    </section>
 
+<%--   Archived NTK Reorganization brings structure, leadership to treaty monitoring center - 5/9/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcommH2" class="news2KnowH1">Reorganization brings structure, leadership to treaty monitoring center - 5/9/2018</h2>
@@ -10768,6 +10809,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Reserve Citizen Airman sets sail as first reserve mission commander - 5/1/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcitizenH2" class="news2KnowH1">Reserve Citizen Airman sets sail as first reserve mission commander - 5/1/2018</h2>
@@ -10839,6 +10881,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK DoD's sole nuclear surveillance unit undergoes organizational change - 4/25/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntknuclearH2" class="news2KnowH1">DoD's sole nuclear surveillance unit undergoes organizational change - 4/25/2018</h2>
@@ -10907,6 +10950,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK With help from Airmen, Boy Scouts earn prestigious merit badge - 4/15/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstemH2" class="news2KnowH1">With help from Airmen, Boy Scouts earn prestigious merit badge - 4/15/2018</h2>
@@ -10990,6 +11034,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Treaty Monitoring Center inducts three to its Wall of Honor - 4/4/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntktreatyH2" class="news2KnowH1">Treaty Monitoring Center inducts three to its Wall of Honor - 4/4/2018</h2>
@@ -11060,6 +11105,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Grass does not grow under this octogenarian's feet - 3/31/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkgrassH2" class="news2KnowH1">Grass does not grow under this octogenarian's feet - 3/31/2018</h2>
@@ -11145,6 +11191,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK AFTAC Hockey Team receives special Congressional recognition - 3/31/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkhockeyH2" class="news2KnowH1">AFTAC Hockey Team receives special Congressional recognition - 3/31/2018</h2>
@@ -11205,6 +11252,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK 25th AF commander immerses into treaty monitoring mission - 3/1/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcommandH2" class="news2KnowH1">25th AF commander immerses into treaty monitoring mission - 3/1/2018</h2>
@@ -11279,6 +11327,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Industry Day brings high-tech companies to AFTAC - 2/28/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkindustH2" class="news2KnowH1">Industry Day brings high-tech companies to AFTAC - 2/28/2018</h2>
@@ -11334,6 +11383,7 @@
                     </article>
                </section>
 
+<%--   Archived NTK AFTAC hosts annual WiSE Symposium - 2/15/2018 Article *****************************************************************************--%>
           <section>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
@@ -11411,6 +11461,7 @@
 
             </section>
 
+<%--   Archived NTK SecAF briefed on AFTAC role in nuclear explosions - 2/15/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntksecAfH2" class="news2KnowH1">SecAF briefed on AFTAC role in nuclear explosions - 2/15/2018</h2>
@@ -11463,6 +11514,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Holmes, Batten pay first visit to nuclear treaty monitoring center - 1/26/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkholmesH2" class="news2KnowH1">Holmes, Batten pay first visit to nuclear treaty monitoring center - 1/26/2018</h2>
@@ -11546,6 +11598,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Airmen travel to Earth's southernmost point for annual maintenance 1/16/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkantarcticH2" class="news2KnowH1">Airmen travel to Earth's southernmost point for annual maintenance 1/16/2018</h2>
@@ -11623,6 +11676,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTAC civilian, Army Reservist selected for promotion to brigadier general 12/5/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkgeneralH2" class="news2KnowH1">AFTAC civilian, Army Reservist selected for promotion to brigadier general 12/5/2017</h2>
@@ -11661,6 +11715,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTAC civilian returns to duty after Hurricane Maria relief efforts 11/30/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkmariaH2" class="news2KnowH1">AFTAC civilian returns to duty after Hurricane Maria relief efforts 11/30/2017</h2>
@@ -11731,6 +11786,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTAC names lab after 'giant' of nuclear forensics 11/24/20177 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkharkinsH2" class="news2KnowH1">AFTAC names lab after 'giant' of nuclear forensics 11/24/2017</h2>
@@ -11813,6 +11869,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Ions and betas and treaties, oh my! 11/8/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkionsH2" class="news2KnowH1">Ions and betas and treaties, oh my! 11/8/2017</h2>
@@ -11885,6 +11942,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTAC Airman honored with Valor Award for life-saving actions 9/27/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkValorH2" class="news2KnowH1">AFTAC Airman honored with Valor Award for life-saving actions 9/27/2017</h2>
@@ -11933,6 +11991,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Nuclear Treaty Monitoring unit cleans up after Hurricane Irma 9/16/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHurricaneH2" class="news2KnowH1">Nuclear Treaty Monitoring unit cleans up after Hurricane Irma 9/16/2017</h2>
@@ -12160,6 +12219,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Air Force team monitors North Korean nuclear threat 9/16/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkNokH2" class="news2KnowH1">Air Force team monitors North Korean nuclear threat 9/16/2017</h2>
@@ -12228,6 +12288,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Sixth generation Sailor, first generation Airman 8/29/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSailorH2" class="news2KnowH1">Sixth generation Sailor, first generation Airman 8/29/2017</h2>
@@ -12292,6 +12353,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Cyberspace domain critical to Nuclear Treaty Monitoring 8/29/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCyberH2" class="news2KnowH1">Cyberspace domain critical to Nuclear Treaty Monitoring 8/29/2017</h2>
@@ -12357,6 +12419,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTACers thrill young STEM minds, get surprise visit from HAF 3-star 8/23/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStemH2" class="news2KnowH1">AFTACers thrill young STEM minds, get surprise visit from HAF 3-star 8/23/2017</h2>
@@ -12496,6 +12559,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Tech Ops Squadron is heartbeat of nuke treaty monitoring from air, sea, space 5/23/2017 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                     <h2 id="ntkTopsH2" class="news2KnowH1">Tech Ops Squadron is heartbeat of nuke treaty monitoring from air, sea, space 5/23/2017</h2>
@@ -12591,6 +12655,7 @@
             </section>
         </article>
 
+<%--   CURRENT POST MONITORS Page *****************************************************************************--%>
         <article id="pomoArt" class="myArts noDisplay">
 
             <div class="clear"></div>
@@ -12966,11 +13031,13 @@
             </section>
         </article>
 
+<%--   Current Obits Page *****************************************************************************--%>
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
     
-                <article>
+ <%--   Current Obits Tony Balentine - 1/5/2023 *****************************************************************************--%>
+               <article>
                     <div>
                         <h2 id="BalentineH2" class="obitH1">Tony Balentine - 1/5/2023 </h2>
                     </div>
@@ -12989,6 +13056,7 @@
                     </div>
                 </article>
 
+ <%--   Current Obits Earl C. Pierce - 12/29/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="PierceH2" class="obitH1">Earl C. Pierce - 12/29/2022 </h2>
@@ -13058,6 +13126,7 @@
                     </div>
                 </article>
 
+ <%--   Current Obits Rita Jean Shader - 11/9/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="ShaderH2" class="obitH1">Rita Jean Shader - 11/9/2022 </h2>
@@ -13103,6 +13172,7 @@
                     </div>
                 </article>
 
+ <%--   Current Obits Gail Marie Williamson - 10/16/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="WilliamsonH2" class="obitH1">Gail Marie Williamson - 10/16/2022 </h2>
@@ -13132,6 +13202,7 @@
                     </div>
                 </article>
 
+ <%--   Current Obits Nordin Curtis Anderholm - 10/21/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="AnderholmH2" class="obitH1">Nordin Curtis Anderholm - 10/21/2022 </h2>
@@ -13150,7 +13221,8 @@
                     </div>
                 </article>
                 
-                <article>
+  <%--   Current Obits Jesse LeRoy Peterson - 9/2/2022 *****************************************************************************--%>
+               <article>
                     <div>
                         <h2 id="PetersonH2" class="obitH1">Jesse LeRoy Peterson - 9/2/2022</h2>
                     </div>
@@ -13177,6 +13249,8 @@
                         </p>
                     </div>
                 </article>
+ 
+  <%--   Current Obits Robert "Bob" Michael Kridle - 7/31/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="KridleH2" class="obitH1">Robert "Bob" Michael Kridle - 7/31/2022 </h2>
@@ -13203,6 +13277,7 @@
                     </div>
                 </article>
 
+  <%--   Current Obits Janice (Jan) Whitney - 7/24/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="WhitneyH2" class="obitH1">Janice (Jan) Whitney - 7/24/2022</h2>
@@ -13233,6 +13308,7 @@
         </article>            
   
   
+<%--   Archived Obits Page *****************************************************************************--%>
         <article id="archivedObitsArt" class="myArts noDisplay">
                 <h1 class="maroonText centerText bold underLine">Archived Obituaries</h1>
 
@@ -13305,6 +13381,7 @@
                 Your browser does not support the audio element.
             </audio>
 
+<%--   Sage Shop Page *****************************************************************************--%>
         </article>
 
         <article id="sageShopArt" class="myArts noDisplay bottomMargin7em">
@@ -13357,6 +13434,7 @@
             </ul>
         </article>
 
+<%--   Appointed Board Page *****************************************************************************--%>
         <article id="selectedBoardArt" class="myArts noDisplay width90 noDisplay floatLeft autoMarginLeftRight maroonBorder smallShadow">
             <h2 class="centerText maroonText bold">Appointed Board</h2>
             <ul class="aLeft width45 floatLeft appOfficersList">
@@ -13439,6 +13517,7 @@
             <div class="clear"></div>
         </article>
 
+<%--   AFTAC Cares for Deployed Page *****************************************************************************--%>
         <article id="deploymentArt" class="myArts noDisplay">
             <div class="leftMargin2em">
                 <div class="floatLeft width20">
@@ -13542,7 +13621,8 @@
             </div>
         </article>
 
-        <article id="emailLookupArt" class="myArts noDisplay">
+ <%--   email Lookup for contact Info Page *****************************************************************************--%>
+       <article id="emailLookupArt" class="myArts noDisplay">
             <p class="pTitle centerText">EMail Lookup</p>
             <aside class="floatLeft width40" style="">
                 <p class="pTitle centerText">Enter Email Address</p>
@@ -13575,6 +13655,7 @@
             <div class="clear"></div>
         </article>
 
+ <%--   Administrative Menu Page *****************************************************************************--%>
         <article id="adminMenuArt" class="myArts noDisplay">
             <p class="pTitle centerText">Administrative Menu</p>
 
@@ -13604,6 +13685,7 @@
             </div>
         </article>
 
+ <%--   Administrative Log In Page *****************************************************************************--%>
         <article id="passwordArt" class="myArts noDisplay">
             <div class="width60 autoMarginLeftRight bottomMargin2em">
                 <p class="pTitle centerText underLine">ENTER USER NAME AND PASSWORD</p>
@@ -13632,7 +13714,8 @@
             </div>
         </article>  
               
-        <article id="changepasswordArt" class="myArts noDisplay">
+  <%--   Administrative Change Password Page *****************************************************************************--%>
+       <article id="changepasswordArt" class="myArts noDisplay">
             <div class="width70 autoMarginLeftRight">
                 <p class="pTitle centerText underLine">CHANGE PASSWORD</p>
                 <div id="PWbody" class="maroonBorder showShadow block">
@@ -13688,6 +13771,7 @@
             </div>
         </article>
 
+  <%--   Page Footer Section *****************************************************************************--%>
         <article class="myFooter centerDiv block">
             <div class="clear"></div>
             <hr class="myHR" />
