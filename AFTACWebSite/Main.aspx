@@ -353,20 +353,19 @@
                 </div>
             </div>
 
- <%--Main Page Right Margin Notices Box *****************************************************************************--%>  
+ <%--Main Page Right Margin Meeting Notices Box *****************************************************************************--%>  
             <div class="floatLeft width45">
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Monday 13 February<br />
-                        15:00 - 16:00 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 10 March<br />
+                        11:30 - 12:30 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
-                        AFTAC Headquarters,<br />
-                        Patrick Space Force Base, FL<br />
-                        Flag Room<br /> 
-                        Lobby Conference Room<br />
+                        Beef O'Brady's<br />
+                        3030 Lake Washington Road<br />
+                        Melbourne Fl<br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Ed Lindsay, AFTACAA President, at <a href="MailTo: piston_horse@hotmail.com">piston_horse@hotmail.com</a>
