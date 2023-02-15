@@ -280,7 +280,12 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myBack" class="announcement blueText">Denny Back passed 12 September 2022 an obituary is not available to post. <a href="https://www.floridatoday.com/obituaries/bft084190" Target = "_Blank">Florida Today Obituary</a></td>
+                                    <td class="posted blueText">2/15/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">January Minutes Published</td>
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
@@ -6537,7 +6542,7 @@
                             Chief of Space Operations Gen. John W. "Jay" Raymond, speaks at the re-designation ceremony of Patrick Air Force Base and Cape Canaveral Air Force Station, Dec. 9, 2020. The two bases were redesigned Patrick Space Force Base and Cape Canaveral Space Force Station respectively.
                         </figcaption>
                     </figure>
-                    <byline>By Charles Pope, Secretary of the Air Force Public Affairs <br />ublished December 09, 2020<br /></byline>
+                    <byline>By Charles Pope<br />Secretary of the Air Force Public Affairs <br />Published December 09, 2020<br /></byline>
                     <p>
                         Cape Canaveral Air Force Station and Patrick Air Force Base were formally re-designated Dec. 9, as facilities central to the mission of the U.S. Space Force during a ceremony rich in symbolism that further confirmed the nation's commitment to operating in and defending space.
                         <br /><br />
