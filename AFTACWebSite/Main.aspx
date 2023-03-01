@@ -280,6 +280,26 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCameron" class="announcement blueText">James "Tom" Thomas Cameron Jr, 2/25/2023 obituary was posted. </td>
+                                    <td class="posted blueText">3/1/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySchmied" class="announcement blueText">William "Bill" Schmied, 2/25/2023 obituary was posted.</td>
+                                    <td class="posted blueText">3/1/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMason" class="announcement blueText">Ed Mason, 2/20/2023 obituary was posted.</td>
+                                    <td class="posted blueText">3/1/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMOWhite" class="announcement blueText">Matthew Odis White Sr., 2/17/2023 obituary was posted.</td>
+                                    <td class="posted blueText">3/1/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myBack" class="announcement blueText">Denny Back passed 12 September 2022 an obituary is not available to post. <a href="https://www.floridatoday.com/obituaries/bft084190" Target = "_Blank">Florida Today Obituary</a></td>
                                     <td class="posted blueText">2/15/2023</td>
                                     <td class="event blueText"></td>
@@ -300,12 +320,12 @@
                                     <td class="event RedText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDobbins" class="announcement blueText">Carey Leon Dobbins' Obituary was Posted</td>
+                                    <td id="myDobbins" class="announcement blueText">Carey Leon Dobbins' obituary was posted.</td>
                                     <td class="posted blueText">1/28/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myKridle" class="announcement blueText">Robert "Bob" Michael Kridle's Obituary Posted</td>
+                                    <td id="myKridle" class="announcement blueText">Robert "Bob" Michael Kridle's obituary was posted.</td>
                                     <td class="posted blueText">1/24/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -314,8 +334,8 @@
                                     <td class="posted blueText">1/24/2023</td>
                                     <td class="event blueText"></td>
                                 </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBalentine" class="announcement blueText">Tony Balentine's Obituary was Posted</td>
+ <!--                               <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myBalentine" class="announcement blueText">Tony Balentine's obituary was posted.</td>
                                     <td class="posted blueText">1/18/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -339,7 +359,7 @@
                                     <td class="posted greenText">1/5/2023</td>
                                     <td class="event greenText">3/4/2023</td>
                                 </tr>
- <!--                                                
+                                             
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDecPomo" class="announcement blueText">December Pomo was Published</td>
                                     <td class="posted blueText">12/23/2022</td>
@@ -13035,7 +13055,82 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
-    
+
+ <%--   Current Obits Tom Cameron - 2/25/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="CameronH2" class="obitH1">James "Tom" Thomas Cameron Jr. - 2/25/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="CameronPara" class="obitPara noDisplay">
+                        <p>
+                            Cameron.jpg
+                           <img alt="Cameron.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Cameron.jpg" />
+                            James "Tom" Thomas Cameron Jr., age 68, passed away on February 25 after battling brain cancer. We rejoice that Tom has gone home to be with the Lord. Tom was a loving husband, father, and brother. His battle while brief was a fierce one and Tom made every attempt to fight but sadly succumb to the illness. <br /><br />
+                            Tom is survived by his wife Debra Cameron, Brother Rev. Keith Cameron, sons: Mark, Dennis, and Ben Cameron, Daughter in laws; Christina and Megan Cameron. He is also survived by his grandchildren; Cole, Hunter, Madisyn, Cheyanne, Seth and Cyran Cameron. Plus, two bonus daughters; Tari Honeycutt-Kinyon and Cyndy Guerry, as well as his bonus granddaughter Les Guerry. Tom is preceded in death by both his parents; James and Marie Cameron of Warner Robins, GA. & his bonus Grandson Richard Honeycutt of Folkston, GA. <br /><br />
+                            Tom was an avid bass fisherman with the local Patrick Bass Club. While he will be missed by his entire family, he will never be forgotten. <br /><br />
+                            Rest in peace and catch some big fish in the lakes up above. Officiated by Reverend Keith Cameron<br /><br />
+                            Tom's service will be on Tuesday, March 7, at 9 am at the Canaveral National Cemetery in Mims. A Celebration of Life get-together will be held after at the service at VFW 'Rocket' Post 4543, 3250 U.S Hwy 1, Rockledge, FL, United States, Florida.
+                        </p>
+                    </div>
+                </article>  
+
+ <%--   Current Obits William "Bill" Schmied - 2/25/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="SchmiedH2" class="obitH1">William "Bill" Schmied - 2/25/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="SchmiedPara" class="obitPara noDisplay">
+                        <p>
+                            We were notified by the Colorado Chapter that Bill passed away last night (2023.02.25) at Lowry Hospice with his family present. After a long battle with cancer, may he rest in peace.  <br /><br />
+                            Visitation and Rosary will be on Wednesday, March 15th, from 4:30-6:30 p.m., at Horan & McConaty Funeral Home, 11150 E. Dartmouth Ave, Aurora 80014.<br /><br />
+                            Bill's funeral mass will be celebrated on Thursday, March 16th, beginning at 10:30 a.m., at St. Pius X Catholic Church, 13670 E. 13th Place, Aurora 80011. The mass celebrant will be Bill's brother, Monsignor Micheal Schmied, from Richmond VA.<br /><br />
+                            Internment will also be on Thursday, March 16th, beginning at 1:30 p.m., at Ft Logan National Cemetery, 4400 W. Kenyon Ave, Denver 80236.<br /><br />
+                            More information will be posted when it is available. Please send your prayers for Bill's family.
+                        </p>
+                    </div>
+                </article>  
+
+ <%--   Current Obits Ed Mason - 2/20/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="MasonH2" class="obitH1">Ed Mason - 2/20/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="MasonPara" class="obitPara noDisplay">
+                        <p>
+                            Message from AFTAC CC/Col Finlayson.<br /><br />
+                            Team, It is with great sadness and a heavy heart that I inform you of the passing of longtime AFTAC member, Mr. Ed Mason (SD) after a long battle with cancer. <br /><br /> 
+                            Ed joined AFTAC as a civil servant after serving as an enlisted 99 (9S100) for nearly 23 years achieving the rank of Senior Master Sergeant.<br /><br />
+                            Ed will be buried in his hometown of Vermont.  The family will not be holding a local service prior to his interment at this time, but may hold a "Celebration of Life" later down the road. <br /><br />
+                            Once we get that information, we will share it with AFTAC ALL.  Please keep his wife Rosanne and the rest of the Mason family in your thoughts as they navigate through this very sad chapter.<br /><br />
+                            
+                        </p>
+                    </div>
+                </article>  
+
+ <%--   Current Obits Ken MOWhite - 2/17/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="MOWhiteH2" class="obitH1">Matthew Odis White Sr. - 2/17/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="MOWhitePara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="MOWhite.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/MOWhite.jpg" />                        
+                            Matthew Odis White, Sr. 76, died on February 17, 2023 at home after a courageous battle with cancer. He was born on October 26, 1946 in La Junta, CO, to Matthew F. White and Cletus Viola White.<br /><br />
+                            The family lived in La Junta, CO, Trinidad, CO and then La Junta again as Matt grew up. He participated in Boy Scouts, earning their two most prestigious awards: the God and Country Award in 1960; the Eagle Scout Award in 1962. He graduated from La Junta High School in 1964 and immediately enlisted in the Air Force. He served from 1964 to 1968.<br /><br />
+                            In 1969 he moved to Greeley. He married Kay Kelso on June 26, 1971 in Denver and they made their home in Greeley. In 1973 he joined the Colorado State Patrol. His first duty station was Byers, CO where their three children were born: Shelley Anne White, Melissa Lynn White and Matthew Odis White, Jr. In 1988 they moved back to Greeley when he was promoted to Sergeant with the State Patrol. He retired from the State Patrol in 2000 after 27 years. He then worked for Allnutt Funeral Service for 10 years followed by 5 years working for CTS, a Commercial Defensive Driving School teaching defensive driving all over the United States. He retired at the end of 2014. He received his private pilot license in 1995 and purchased a Cessna airplane for a lot of family fun. He and his family always enjoyed camping, fishing, travelling and he and Kay also enjoyed cruising.<br /><br />
+                            Matt joined the American Legion Post 18 in Greeley in 2009 and maintained an active role in the American Legion-sponsored Boys State program. He was also a member of the CSPA, the State Patrol retired members association and the AFTAC Alumni Association, members of his job group from the Air Force. He was proud of his Native American heritage maintaining his membership in the Oklahoma Cherokee tribe. <br /><br />
+                            He is survived by his wife, Kay; daughters Shelley (Scott) Welch, Melissa Winter and a son, Matthew "Matt" White, Jr. and eight grandchildren, with his first great-grandson expected in March.<br /><br />                             He was preceded in death by his parents and his sister, Shirley Jean White.<br /><br /> 
+                            The family would like to thank the wonderful people of Pathways Hospice, especially Christine and Shelly who made this transition easier.<br /><br />
+                            Matt's Life Celebration will be held at 11:00 a.m. Friday, February 24, 2023 at Adamson Life Celebration Home with a reception to follow. Memorial gifts may be made to "rescueme.org", the wonderful organization where Matt got his beloved Maltese, Molly. Condolences may be shared at AdamsonCares.com. 
+                            To send flowers to the family or plant a tree in memory of Matthew Odis White, Sr. please visit our 
+                            <a href="http://adamson-life-celebration-home.tributestore.com/?oId=27334236&source=ta2&taph=2" target="_blank"> Tribute Store</a>.<br /><br />
+                        </p>
+                    </div>
+                </article>                     
  <%--   Current Obits Tony Balentine - 1/5/2023 *****************************************************************************--%>
                <article>
                     <div>
