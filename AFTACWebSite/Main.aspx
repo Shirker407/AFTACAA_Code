@@ -13100,7 +13100,17 @@
                     <div class="clear"></div>
                     <div id="MasonPara" class="obitPara noDisplay">
                         <p>
-                            Message from AFTAC CC/Col Finlayson.<br /><br />
+                            It is with great sadness to announce the passing of SMSgt Edward A Mason (ret) on 20 Feb 2023 after a battle with cancer. Ed served on active duty in AFTAC from July 1977 - July 2001. After retirement he spent a short time at ZELTEC then returned to the AFTAC building as a GS until his passing. <br /><br />
+                            Ed is survived by Rosanne, his wife of 42 years, daughter Jessica, son-in-law Robert, grandson Ralph, Mother Margaret, sister Louise, and his brothers Pat, John, Dan, Micheal, and Robert. <br /><br />
+                            Ed will be buried in a Private Ceremony in his home town of Bennington, Vermont on March 8th. <br /><br />
+                            The family is requesting in lieu of flowers that donations be made to:<br />
+                            St Francis Reflections Lifestage Care<br />
+                            250 N Wickham Road, Melbourne, FL 32935<br />
+                            Or the Wounded Warriors Foundation<br /><br />
+                            A Celebration of Life will occur once the family returns from Vermont. Date/time/location will be provided as soon as possible. <br /><br />
+                            Ed's smile, wit, and sense of humor will be deeply missed by all that knew him. <br /><br />
+
+                            A Message from AFTAC CC/Col Finlayson:<br /><br />
                             Team, It is with great sadness and a heavy heart that I inform you of the passing of longtime AFTAC member, Mr. Ed Mason (SD) after a long battle with cancer. <br /><br /> 
                             Ed joined AFTAC as a civil servant after serving as an enlisted 99 (9S100) for nearly 23 years achieving the rank of Senior Master Sergeant.<br /><br />
                             Ed will be buried in his hometown of Vermont.  The family will not be holding a local service prior to his interment at this time, but may hold a "Celebration of Life" later down the road. <br /><br />
