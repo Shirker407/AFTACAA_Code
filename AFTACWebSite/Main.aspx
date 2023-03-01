@@ -354,13 +354,14 @@
                                     <td class="posted blueText">1/14/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
+     -->
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
                                     <td class="posted greenText">1/5/2023</td>
                                     <td class="event greenText">3/4/2023</td>
                                 </tr>
                                              
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+ <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDecPomo" class="announcement blueText">December Pomo was Published</td>
                                     <td class="posted blueText">12/23/2022</td>
                                     <td class="event blueText"></td>
