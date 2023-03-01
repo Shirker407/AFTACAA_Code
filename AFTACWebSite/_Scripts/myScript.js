@@ -1462,6 +1462,22 @@ $(document).ready(function () {
         $('#specialLinksArt').removeClass('noDisplay').addClass('block');
     });
 
+    $('#mySchmied').click(function () {
+        OpenObit('Schmied');
+            });
+
+    $('#myMOWhite').click(function () {
+        OpenObit('MOWhite');
+    });
+
+    $('#myCameron').click(function () {
+        OpenObit('Cameron');
+    });
+
+    $('#myMason').click(function () {
+        OpenObit('Mason');
+    });
+
     $('#myDobbins').click(function () {
         OpenObit('Dobbins');
     });
@@ -1477,6 +1493,18 @@ $(document).ready(function () {
     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'SchmiedH2':
+                ShowMyObit('Schmied')
+                break;
+            case 'MOWhiteH2':
+                ShowMyObit('MOWhite')
+                break;
+            case 'CameronH2':
+                ShowMyObit('Cameron')
+                break;
+            case 'MasonH2':
+                ShowMyObit('Mason')
+                break;
             case 'DobbinsH2':
                 ShowMyObit('Dobbins')
                 break;
