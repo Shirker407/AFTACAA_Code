@@ -305,7 +305,7 @@
                                     <td class="event blueText"></td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">January Minutes Published</td>
+                                    <td id="myMinutes" class="announcement blueText">February Minutes Published</td>
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -770,49 +770,7 @@
 
             </p>
         </article>
-<%--SnowBall 2023 Article  *****************************************************************************--%>  
-        <article id="Snow2023" class="myArts noDisplay">
-            <p class="pTitle centerText underLine">SnowBall 2023</p>
 
-            <div class="centerDiv">
-                <img alt="SnowBall.png" class="width25 topMarginMinus1em" src="_Images/Snowball.png" />
-            </div>
-
-            <p>
-                <span class="fontSize2em darkBlueText">2023 Florida AFTAC Alumni Association (AFTACAA), SnowBall
-                Saturday, 18 February 2023
-                Manatee Cove Golf Course (MCGC), Patrick SFB, Florida</span>
-                <br /><br />
-                Since 1999, the Florida AFTAC Alumni Association (AFTACAA), has thrown a themed SnowBall at the start of the new year. We like to have this event when our 'Sage Snowbirds' are in town. We also believe it is a grand way to introduce the newly elected and appointed board members, recognize our new Alumni of the Year (AOY), and Alumni accomplishments, hold a festive get-together and social, and wish old friends a great beginning to a new year.
-                <br /><br />
-                It is also tradition, where we welcome the AFTAC Commander, Vice Commander, Chief Scientist, Director of Staff, Command Chief, Directors, Group and Squadron Commanders, all active-duty military and civilian, and the outlying area commanders and superintendents, that may be on Temporary Duty (TDY) here for a unit leadership conference.
-                <br /><br />
-                This year&#39;s theme will be "Germany", joining previous themes honoring Japan, Hawaii, Germany, Florida, Wyoming, Thailand, Australia, Korea, Nebraska and Colorado, ...locations where AFTAC had or has a presence, among others worldwide, along with mission items of AFTAC.
-                </p>
-                <div class="centerDiv>">
-                    <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="SAVE THE DATE"></asp:Label>
-                </div>
-                <p>
-                Location: Manatee Cove Golf Course (MCGC), Patrick SFB, FL.
-                Social Hour: 5:30 - 6:30; <br />
-                Chimes/Introductions/National Anthem/POW-MIA Remembrance/Sage Salute/Invocation: 6:30. <br />Dinner: 7:00. <br />Break: 7:45. <br />Program: 8:00. <br />Theme: Germany. <br />Entertainment: Music by Ana. <br />Dress: Florida Casual. <br />Menu: Grilled Flat Iron Steak, w/Roasted Shallot Butter, Buttered Baby Red Potatoes and Saut&eacute;ed Mixed Vegetables OR,<br />Chicken Marsala, Baby Red Potatoes, and Saut&eacute;ed Mixed Vegetables. OR,<br />Portabella Stack Eggplant, Tomato, Red Onion, Fresh Mozzarella, Balsamic Glaze (Vegetarian Meal). <br />Includes: House Salad w/Bleu Cheese, Diced Apples, Toasted Almonds
-                w/Raspberry Vinaigrette or House Ranch Dressing, Dinner Rolls, Coffee, IcedTea, and Dessert (Key Lime Pie). <br />Cost: $35.00 pp.  (All inclusive dinner, with gratuity included).<br />
-                </p>
-                <div class="centerDiv>">
-                <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="RSVP: No Later Than 10 February 2023"></asp:Label>
-                </div>
-                <p>
-                Florida AFTACAA POC: Sean Ryan, Florida AFTACAA Social Committee Chair.
-                <a href="MailTo:oceanblueview@yahoo.com">oceanblueview@yahoo.com</a> or Cell 321-591-9053 (Unlisted).<br />
-                AFTAC Building POC: Mr. George Mirda 321-494-5126.<br />
-                Stay tuned to AFTACAA.US website, Calendar of Events (CoE), or eALLerts, for any updates'.<br />
-                Thank you.
-                <br /><br />
-                Hope to see ya'll there!<br />
-            </p>
-            
-            <input id="btnSnow" class="myBut bottomMargin1em" type="button" value="Get Printable RSVP Form" />
-        </article>
 <%--79 Years Article  *****************************************************************************--%>  
         <article id="79YearsArt" class="myArts noDisplay">
             <p>
@@ -3540,6 +3498,7 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/2-13-2023_Minutes.pdf" target="_blank">2-13-2023</a></li>
                     <li><a href="_Minutes/1-9-2023_Minutes.pdf" target="_blank">1-9-2023</a></li>
                     </ul>
                 </div>
@@ -4967,6 +4926,7 @@
             <div id="AOYList" class="block">
                 <div class="italic width90 autoMarginLeftRight maroonBorder smallShadow backChocolate padding5">
                     <ul class="alumniList leftMargin5em floatLeft leftMargin1em">
+ <%--                        <li id="youngSel">Dr. Mike Young-2022</li> --%>
                         <li id="seilerSel">Lou Seiler-2021</li>
                         <li id="lindsaySel">Ed Lindsay-2020</li>
                         <li id="dunnSel">Bryce Dunn-2019</li>
@@ -5058,6 +5018,31 @@
             </article>
 
             <div id="ScrollTarget" style="height:0px;"></div> <%--ScrollTarget is just a target I point to for scrolling--%>
+<%--  Dr. Mike Young 2022 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
+<%--            <article id="young" class="alumArt myAlumni noDisplay">
+                <p class="pTitle centerText titlePara">
+                    Dr Mike Young<br />
+                    2022 ALUMNUS OF THE YEAR
+                </p>
+                <figure>
+                    <img alt="Seiler1.jpg" class="width45 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY-2021/Seiler1.jpg" />
+                    <figcaption class="width40 autoMarginLeftRight topMargin1em maroonText italic fontSize1em">
+                        Lou Seiler
+                    </figcaption>
+                </figure>
+                <p>
+                    The AFTACAA Alumni of the Year (AOY) selectee for 2022 is Dr. Mike Young. Dr. Young joined the AFTAC Alumni Association when he arrived 11 years ago.  He has attended and provided input in every Alumni monthly meeting the he was able to attend.  <br /><br />
+                    He has been diligent in attending our Associations events and attended every day of our Florida reunions. He has attended our snowballs and involved himself in providing the colors for these events and even provided a $20,000 ship artifact for one of our Snowballs. Concern for such an expensive item had to be high but never-the-less, he provided it. He has always responded to our needs and put them as a priority when necessary. <br /><br />
+                    During the 70th AFTAC Anniversary Dining-In, he was asked to be the guest speaker.  He offered many kind and supportive comments on the Alumni and coined the phrase “Standing on the Shoulders of Giants” at that event. He was referring to our peers and the phrase is used to this day. <br /><br />
+                    He has solicited inputs from the Alumni at large for publication in his Nucleus Newspaper, which is circulated throughout the organization.  <br /><br />
+                    Dr. Young was the driving factor to having the Alumni invited to the many active duty functions. To name a few, the Christmas parties held in the headquarters, the open houses held for many years. He offers himself as a guide at these events and is active in briefings at the Heritage Room.  The Heritage Room itself is an effort aimed at the alumni. <br /><br />
+                    He is active in the newly developed “Wall of Honor”. He represents the Alumni’s in the voting process and participates in the final selection. Research into the nominee’s past also takes a great portion of his time. All of his time in this effort is directed solely in support of our Alumnus. <br /><br />
+                    He is also actively involved in the Memorial Project, an effort to provide a dedication monument to those Alumni that died while service with the organization. This is an extremely complicated effort and he spends much of his time on this project. <br /><br />
+                    It may not have been noticed at our functions, but when he attends them, he always sits with the Alumni at one of their tables instead of sitting at the “Command” table. I’m sure that he feels that this is a tribute to the Alumni, and it really is. <br /><br />
+                    He has spent time researching and verifying inputs for the Alumni Website at the expense of losing time needed for his job. <br /><br />
+                    Dr. Young has always been our advocate in every respect.  Many times, his efforts are performed behind the scenes and go unnoticed. He respects the Alumni and feels we are the best of the best.    <br /><br />
+                  </p>
+            </article> -->
 <%--  Lou Seiler 2021 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="seiler" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
