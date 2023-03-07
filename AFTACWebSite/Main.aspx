@@ -261,7 +261,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 1/30/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 3/6/2023</span>
                     </div>
                 </div>
 
@@ -328,49 +328,9 @@
                                     <td class="posted RedText">1/31/2023</td>
                                     <td class="event RedText"></td>
                                 </tr>
+ <!-- 
+                                                 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDobbins" class="announcement blueText">Carey Leon Dobbins' obituary was posted.</td>
-                                    <td class="posted blueText">1/28/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myKridle" class="announcement blueText">Robert "Bob" Michael Kridle's obituary was posted.</td>
-                                    <td class="posted blueText">1/24/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage" class="announcement blueText">2023 Disney Military Discouts and 4 AFTAC Facebook Page Links Posted</td>
-                                    <td class="posted blueText">1/24/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr> 
- <!--                               <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBalentine" class="announcement blueText">Tony Balentine's obituary was posted.</td>
-                                    <td class="posted blueText">1/18/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySnowBall" class="announcement greenText">SnowBall Announcement and Form</td>
-                                    <td class="posted greenText">1/16/2023</td>
-                                    <td class="event greenText">2/18/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mybecoming99" class="announcement blueText">Becoming a "99" by Mike Clark</td>
-                                    <td class="posted blueText">1/15/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="79Years" class="announcement blueText">Check "79 Years Ago"</td>
-                                    <td class="posted blueText">1/14/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-     -->
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
-                                    <td class="posted greenText">1/5/2023</td>
-                                    <td class="event greenText">3/4/2023</td>
-                                </tr>
-                                             
- <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDecPomo" class="announcement blueText">December Pomo was Published</td>
                                     <td class="posted blueText">12/23/2022</td>
                                     <td class="event blueText"></td>
