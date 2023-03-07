@@ -1462,12 +1462,7 @@ $(document).ready(function () {
         $('#CommInitial').removeClass('block').addClass('block');
     });
     */
-    $('#mySpecalLinksPage').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
-    });
-
-    $('#mySchmied').click(function () {
+     $('#mySchmied').click(function () {
         OpenObit('Schmied');
             });
 
@@ -1481,18 +1476,6 @@ $(document).ready(function () {
 
     $('#myMason').click(function () {
         OpenObit('Mason');
-    });
-
-    $('#myDobbins').click(function () {
-        OpenObit('Dobbins');
-    });
-
-    $('#myBalentine').click(function () {
-        OpenObit('Balentine');
-    });
-
-    $('#myKridle').click(function () {
-        OpenObit('Kridle');
     });
 
     $('.obitH1').click(function () {
