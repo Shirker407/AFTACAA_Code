@@ -318,7 +318,7 @@
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+  <!--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Universal Orlando Freedom Pass $200</a></td>
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
@@ -328,7 +328,7 @@
                                     <td class="posted RedText">1/31/2023</td>
                                     <td class="event RedText"></td>
                                 </tr>
- <!-- 
+
                                                  
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDecPomo" class="announcement blueText">December Pomo was Published</td>
@@ -347,14 +347,16 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 10 March<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 14 April<br />
                         11:30 - 12:30 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
                         Beef O'Brady's<br />
-                        3030 Lake Washington Road<br />
-                        Melbourne Fl<br />
+                        724 S Patrick Drive<br />
+                        Satellite Beach FL<br />
+                        <!--3030 Lake Washington Road<br />
+                        Melbourne Fl<br /> -->
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Ed Lindsay, AFTACAA President, at <a href="MailTo: piston_horse@hotmail.com">piston_horse@hotmail.com</a>
