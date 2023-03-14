@@ -280,9 +280,15 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage4" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Details will be provided when recieved.</td>
+                                    <td class="posted greenText">3/14/2023</td>
+                                    <td class="event greenText"> 3/31/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage4" class="announcement blueText"><a href ="https://irs.treasury.gov/freetaxprep/jsp/vita.jsp?zip=32940&lat=28.1988979&lng=-80.7879407&radius=25" target ="_bank")>IRS Free Tax Help In Melbourne Florida Area.</a></td>
                                     <td class="posted blueText">3/4/2023</td>
                                     <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage1" class="announcement blueText"><a href ="https://irs.treasury.gov/freetaxprep" target ="_bank")>IRS Free Tax Help lookup by zip code</a></td>
                                     <td class="posted blueText">3/4/2023</td>
@@ -4897,7 +4903,7 @@
             <div id="AOYList" class="block">
                 <div class="italic width90 autoMarginLeftRight maroonBorder smallShadow backChocolate padding5">
                     <ul class="alumniList leftMargin5em floatLeft leftMargin1em">
- <%--                        <li id="youngSel">Dr. Mike Young-2022</li> --%>
+                      <li id="youngSel">Dr. Mike Young-2022</li> 
                         <li id="seilerSel">Lou Seiler-2021</li>
                         <li id="lindsaySel">Ed Lindsay-2020</li>
                         <li id="dunnSel">Bryce Dunn-2019</li>
@@ -4947,19 +4953,26 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="width95 autoMarginLeftRight italic">
+                            <p class="centerText whiteText">The Alumni of the Year that attended the 2023 Florida Snowball</p>
+                        </div>
+                        <img alt="_Photos/SB2020/AOY2021.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/AOY-2022/AttendingAOYs.jpg" />
+                        <p class="italic fontSize1em width65 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Ed Lindsay (2020), Frank Hall (1998), Judy Milam-Henderson (1997), Lou Seiler (2021), Bob Wiley (2008), Mike Young (2022), Dee & Gene Melchior (2012), and Sean P. Ryan (2014).</p>
+                </div>
+                    <div class="carousel-item">
+                        <div class="width95 autoMarginLeftRight italic">
                             <p class="centerText whiteText">The Alumni of the Year that attended the 2021 AOY Presentation</p>
                         </div>
-                        <img alt="_Photos/SB2020/AOY2021.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2021.jpg" />
+                        <img alt="_Photos/SB2020/AOY2020.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2021.jpg" />
                         <p class="italic fontSize1em width65 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Sean P. Ryan (2014), Bob Wiley (2008), Lou Seiler (2021), Frank Hall (1998), Frank Calenda (2015), Ed Lindsay (2020), Judy Milam (1997), Gene Melchior (2012)</p>
-                </div>
+                   </div>
                     <div class="carousel-item">
                         <div class="width95 autoMarginLeftRight italic">
                             <p class="centerText whiteText">The Alumni of the Year that attended the 2020 Florida Snowball</p>
                         </div>
-                        <img alt="_Photos/SB2020/AOY2020.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2020.jpg" />
-                        <p class="italic fontSize1em width65 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Bob Wiley (2008), Sean P. Ryan (2014), Frank Calenda (2015), Dee & Gene Melchior (2012), Pete Gilbert (2018), Bryce Dunn (2019)</p>
-                   </div>
-                    <div class="carousel-item">
+                        <img alt="_Photos/AOY/Alumni2019.JPG" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2020.jpg" />
+                        <p class="italic fontSize1em width70 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Bob Wiley (2008), Sean P. Ryan (2014), Frank Calenda (2015), Dee & Gene Melchior (2012), Pete Gilbert (2018), Bryce Dunn (2019)</p>
+                    </div>
+                                        <div class="carousel-item">
                         <div class="width95 autoMarginLeftRight italic">
                             <p class="centerText whiteText">The Alumni of the Year that attended the 2019 Colorado Reunion</p>
                         </div>
@@ -4990,30 +5003,30 @@
 
             <div id="ScrollTarget" style="height:0px;"></div> <%--ScrollTarget is just a target I point to for scrolling--%>
 <%--  Dr. Mike Young 2022 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
-<%--            <article id="young" class="alumArt myAlumni noDisplay">
+          <article id="young" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Dr Mike Young<br />
                     2022 ALUMNUS OF THE YEAR
                 </p>
                 <figure>
-                    <img alt="Seiler1.jpg" class="width45 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY-2021/Seiler1.jpg" />
+                    <img alt="DrYoungAFTACAward.jpg" class="width45 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY-2022/DrYoungAFTACAward.jpg" />
                     <figcaption class="width40 autoMarginLeftRight topMargin1em maroonText italic fontSize1em">
-                        Lou Seiler
+                        Dr. Mike Young
                     </figcaption>
                 </figure>
                 <p>
                     The AFTACAA Alumni of the Year (AOY) selectee for 2022 is Dr. Mike Young. Dr. Young joined the AFTAC Alumni Association when he arrived 11 years ago.  He has attended and provided input in every Alumni monthly meeting the he was able to attend.  <br /><br />
-                    He has been diligent in attending our Associations events and attended every day of our Florida reunions. He has attended our snowballs and involved himself in providing the colors for these events and even provided a $20,000 ship artifact for one of our Snowballs. Concern for such an expensive item had to be high but never-the-less, he provided it. He has always responded to our needs and put them as a priority when necessary. <br /><br />
-                    During the 70th AFTAC Anniversary Dining-In, he was asked to be the guest speaker.  He offered many kind and supportive comments on the Alumni and coined the phrase “Standing on the Shoulders of Giants” at that event. He was referring to our peers and the phrase is used to this day. <br /><br />
+                    He has been diligent in attending our Associations' events and attended every day of our Florida reunions. He has attended our snowballs and involved himself in providing the colors for these events and even provided a $20,000 ship artifact for one of our Snowballs. Concern for such an expensive item had to be high but never-the-less, he provided it. He has always responded to our needs and put them as a priority when necessary. <br /><br />
+                    During the 70th AFTAC Anniversary Dining-In, he was asked to be the guest speaker.  He offered many kind and supportive comments on the Alumni and coined the phrase "Standing on the Shoulders of Giants" at that event. He was referring to our peers and the phrase is used to this day. <br /><br />
                     He has solicited inputs from the Alumni at large for publication in his Nucleus Newspaper, which is circulated throughout the organization.  <br /><br />
-                    Dr. Young was the driving factor to having the Alumni invited to the many active duty functions. To name a few, the Christmas parties held in the headquarters, the open houses held for many years. He offers himself as a guide at these events and is active in briefings at the Heritage Room.  The Heritage Room itself is an effort aimed at the alumni. <br /><br />
-                    He is active in the newly developed “Wall of Honor”. He represents the Alumni’s in the voting process and participates in the final selection. Research into the nominee’s past also takes a great portion of his time. All of his time in this effort is directed solely in support of our Alumnus. <br /><br />
-                    He is also actively involved in the Memorial Project, an effort to provide a dedication monument to those Alumni that died while service with the organization. This is an extremely complicated effort and he spends much of his time on this project. <br /><br />
-                    It may not have been noticed at our functions, but when he attends them, he always sits with the Alumni at one of their tables instead of sitting at the “Command” table. I’m sure that he feels that this is a tribute to the Alumni, and it really is. <br /><br />
+                    Dr. Young was the driving factor to having the Alumni invited to the many active duty functions. To name a few, the Christmas parties held in the headquarters, the open houses held for many years. He offers himself as a guide at these events and is active in briefings at the Heritage Room.  The Heritage Room itself is focused on the achievements of the alumni. <br /><br />
+                    He is the chairman of the "Wall of Honor" program. He represents the Alumni in the voting process and participates in the final selection. Research into the nominee's past also takes a great portion of his time. All of his time in this effort is directed solely in support of our Alumnus. <br /><br />
+                    He is also actively involved in the Memorial Project, an effort to provide a dedication monument to those Alumni that died while service with the organization. This was an extremely complicated effort and he spends much of his time on this project. <br /><br />
+                    It may not have been noticed at our functions, but when he attends them, he always sits with the Alumni at one of their tables instead of sitting at the "Command" table. I'm sure that he feels that this is a tribute to the Alumni, and it really is. <br /><br />
                     He has spent time researching and verifying inputs for the Alumni Website at the expense of losing time needed for his job. <br /><br />
                     Dr. Young has always been our advocate in every respect.  Many times, his efforts are performed behind the scenes and go unnoticed. He respects the Alumni and feels we are the best of the best.    <br /><br />
                   </p>
-            </article> -->
+            </article> 
 <%--  Lou Seiler 2021 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="seiler" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">

@@ -1160,11 +1160,11 @@ $(document).ready(function () {
         //image = '_Photos/Wall/' + $(this).attr('id') + '.jpg';
 
         switch ($(this).attr('id')) {
- //          case 'youngSel':
- //               $('.alumArt').removeClass('block').addClass('noDisplay');
- //               $('#young').removeClass('noDisplay').addClass('block');
- //               $('#AOYCarousel').removeClass('block').addClass('noDisplay');
- //               break;
+           case 'youngSel':
+                $('.alumArt').removeClass('block').addClass('noDisplay');
+                $('#young').removeClass('noDisplay').addClass('block');
+                $('#AOYCarousel').removeClass('block').addClass('noDisplay');
+                break;
             case 'seilerSel':
                 $('.alumArt').removeClass('block').addClass('noDisplay');
                 $('#seiler').removeClass('noDisplay').addClass('block');
