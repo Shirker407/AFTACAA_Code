@@ -280,6 +280,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myDaveHamil" class="announcement blueText">Notified by Chuck Conrad that Dave Hamil has passed.  Memorial information included.</td>
+                                    <td class="posted blueText">3/19/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage4" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Details will be provided when recieved.</td>
                                     <td class="posted greenText">3/14/2023</td>
                                     <td class="event greenText"> 3/31/2023</td>
@@ -13025,6 +13030,38 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+<%--   Current Obits Dave Hamil - 3/10/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="DaveHamilH2" class="obitH1">Dave Hamil - 3/9/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="DaveHamilPara" class="obitPara noDisplay">
+                        <p>
+                    <img alt="DaveHamil.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/DaveHamil.jpg" /> -->
+                    (2023.03.19, Chuck Conrad posted on FB Site, RI 99...)<br /><br />
+
+                    "RIP Dave Hamil, former 9S and member of this group. <br /><br />
+                    Passed away 9 March 2023. <br /><br /> <br /><br />
+
+                    His wife, Angela, writes: <br /><br />
+                    'Sarge's memorial date has been set. <br />
+                    Obituary still in the works.<br />
+                    Memorial April 14<br />
+                    Northbay Community Church in Superior WI<br />
+                    Visitation 2 pm<br />
+                    Service 3pm<br />
+                    Light meal following'<br /><br />
+
+                    Last time I saw Dave he had been retired from the Air Force for a few years and  returned to Alice Springs to play in the Masters Games. I recall he competed successfully in quite a few events but, the one I watched was baseball.<br /><br />
+                    They call the Masters Games "The Fun Games" yet the tension was in the air. His team was trailing by a run or two going into the bottom of the last. On the bright side, they had managed to get a couple runners on base before it was Dave's turn to bat. Earlier in the game Dave had some good hits to the left field. So, when he came up to bat the right fielder cheated left. <br /><br />
+                    Dave drilled one down the right field line just inside the foul line. By the time the right fielder got to the ball, Dave was approaching third base and made it home for a walk off home run victory.<br /><br />
+                    All the Masters Games aged players on the team celebrated with jumps of joy, hugs and high fives. Quite a scene!<br /><br />
+                    It is sad to see a lively guy like Dave leave us so soon. <br /><br />
+                    Deepest condolences to his family as they seek comfort."<br /><br />
+                        </p>
+                    </div>
+                </article>  
 
  <%--   Current Obits Tom Cameron - 2/25/2023 *****************************************************************************--%>
                <article>
@@ -13034,7 +13071,6 @@
                     <div class="clear"></div>
                     <div id="CameronPara" class="obitPara noDisplay">
                         <p>
-                            Cameron.jpg
                            <img alt="Cameron.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Cameron.jpg" />
                             James "Tom" Thomas Cameron Jr., age 68, passed away on February 25 after battling brain cancer. We rejoice that Tom has gone home to be with the Lord. Tom was a loving husband, father, and brother. His battle while brief was a fierce one and Tom made every attempt to fight but sadly succumb to the illness. <br /><br />
                             Tom is survived by his wife Debra Cameron, Brother Rev. Keith Cameron, sons: Mark, Dennis, and Ben Cameron, Daughter in laws; Christina and Megan Cameron. He is also survived by his grandchildren; Cole, Hunter, Madisyn, Cheyanne, Seth and Cyran Cameron. Plus, two bonus daughters; Tari Honeycutt-Kinyon and Cyndy Guerry, as well as his bonus granddaughter Les Guerry. Tom is preceded in death by both his parents; James and Marie Cameron of Warner Robins, GA. & his bonus Grandson Richard Honeycutt of Folkston, GA. <br /><br />

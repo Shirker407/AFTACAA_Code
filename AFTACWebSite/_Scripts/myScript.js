@@ -1473,6 +1473,10 @@ $(document).ready(function () {
     $('#myCameron').click(function () {
         OpenObit('Cameron');
     });
+    
+    $('#myDaveHamil').click(function () {
+        OpenObit('DaveHamil');
+    });
 
     $('#myMason').click(function () {
         OpenObit('Mason');
@@ -1483,6 +1487,9 @@ $(document).ready(function () {
         switch (myText) {
             case 'SchmiedH2':
                 ShowMyObit('Schmied')
+                break;
+            case 'DaveHamilH2':
+                ShowMyObit('DaveHamil')
                 break;
             case 'MOWhiteH2':
                 ShowMyObit('MOWhite')
