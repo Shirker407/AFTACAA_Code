@@ -2145,6 +2145,10 @@ $(document).ready(function () {
         window.open('_Minutes/1-9-2023_Minutes.pdf', '');
     });
 
+    $('#myAFTACPicnic').click(function () {
+        window.open('_PDFs/2023AFTACPicnic.pdf', '');
+    });
+
     $('#AprilPomo').click(function () {
         window.open('http://aftacaa.us/_Pomos/PoMo2022_04.pdf', '');
     });

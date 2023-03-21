@@ -1498,6 +1498,7 @@
     <Content Include="_Minutes\1-9-2023_Minutes.pdf" />
     <Content Include="_PDFs\Agenda1.pdf" />
     <Content Include="_Minutes\2-13-2023_Minutes.pdf" />
+    <Content Include="_PDFs\2023AFTACPicnic.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

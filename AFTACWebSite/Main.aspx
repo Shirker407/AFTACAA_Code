@@ -280,15 +280,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myAFTACPicnic" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Click for details!</td>
+                                    <td class="posted greenText">3/21/2023</td>
+                                    <td class="event greenText"> 3/31/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDaveHamil" class="announcement blueText">Notified by Chuck Conrad that Dave Hamil has passed.  Memorial information included.</td>
                                     <td class="posted blueText">3/19/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage4" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Details will be provided when recieved.</td>
-                                    <td class="posted greenText">3/14/2023</td>
-                                    <td class="event greenText"> 3/31/2023</td>
-                                </tr>
+
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage4" class="announcement blueText"><a href ="https://irs.treasury.gov/freetaxprep/jsp/vita.jsp?zip=32940&lat=28.1988979&lng=-80.7879407&radius=25" target ="_bank")>IRS Free Tax Help In Melbourne Florida Area.</a></td>
                                     <td class="posted blueText">3/4/2023</td>
