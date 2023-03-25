@@ -151,6 +151,7 @@ Public Class _Default
                 sql = "Select Last + ', ' + First as Name from AFTAC Where ID = " & myID
                 Get_Dataset(sql, myDS, "Name")
                 myName = myDS.Tables("Name").Rows(0).Item("Name")
+                Session("myName") = myName
 
                 If myName <> "Gilbert, Peter" Then
                     sql = "Insert into AdminLogins (Name, LoginDate) values ('" & myName & " ', getdate())"
@@ -1235,8 +1236,8 @@ Public Class _Default
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "'," &
                 GetChapters() & "," & GetDeceased() & "," & GetMailPomo() & "," & ReceiveEalls() & ",'" &
                 ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & "," &
-                GetDeleted() & ",'" & Session("UserName") & "','" & Apos(txtReason.Text) & "'"
-            'txtsql.Text = (GetMailPomo())
+                GetDeleted() & ",'" & Session("myName") & "','" & Apos(txtReason.Text) & "'"
+            'txtsql.Text = sql '(GetMailPomo())
             Try
                 Run_Sql(sql)
 
@@ -1269,7 +1270,7 @@ Public Class _Default
                 GetChapters() & "," & GetDead() & "," & "','" & GetMailPomo() & "," & Capitolize(ddlCommand.Text) & "','" &
                 txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWUser & "'"
 
-            txtsql.Text = sql
+            'txtsql.Text = sql
 
             Try
                 Run_Sql(sql)
@@ -1513,14 +1514,14 @@ Public Class _Default
     End Sub
 
     Protected Function GetChapters() As String
-        Dim buffer As String = ""
+        Dim buffer As String = "0"
 
         If chkCalifornia.Checked Then
             buffer = "1"
         End If
 
         If chkColorado.Checked Then
-            If Len(buffer) = 0 Then
+            If buffer = 0 Then 'If Len(buffer) = 0 Then
                 buffer = "2"
             Else
                 buffer = buffer & "2"
@@ -1528,7 +1529,7 @@ Public Class _Default
         End If
 
         If chkFlorida.Checked Then
-            If Len(buffer) = 0 Then
+            If buffer = 0 Then 'If Len(buffer) = 0 Then
                 buffer = "3"
             Else
                 buffer = buffer & "3"
