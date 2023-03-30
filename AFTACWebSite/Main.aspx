@@ -280,6 +280,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://vimeo.com/807598018 " target ="_bank")>9S100 Career Field Awarded the Chief Master Sgt. Richard Etchberger Team Award at the AFA Warefare Symposium (see minutes 41:14 - 44:45 of the Video)</a></td>
+                                    <td class="posted blueText">3/30/2023</td>
+                                    <td class="event blueText"></td>  
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage2" class="announcement blueText"><a href ="https://www.airandspaceforces.com/?p=185363#:~:text=Empowering%20enlisted%20Airmen%20and%20Guardians%20regardless%20of%20rank,environment%20is%20in%20itself%20a%20critical%20operational%20imperative" target ="_bank")>AFA Warefare Symposium: The Enlisted Imperative </a></td>
+                                    <td class="posted blueText">3/30/2023</td>
+                                    <td class="event blueText"></td>  
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAFTACPicnic" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Click for details!</td>
                                     <td class="posted greenText">3/21/2023</td>
                                     <td class="event greenText"> 3/31/2023</td>
@@ -320,7 +330,7 @@
                                     <td class="posted blueText">3/1/2023</td>
                                     <td class="event blueText"></td>
                                 </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+  <!--                              <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myBack" class="announcement blueText">Denny Back passed 12 September 2022 an obituary is not available to post. <a href="https://www.floridatoday.com/obituaries/bft084190" Target = "_Blank">Florida Today Obituary</a></td>
                                     <td class="posted blueText">2/15/2023</td>
                                     <td class="event blueText"></td>
@@ -330,7 +340,7 @@
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-  <!--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                              <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Universal Orlando Freedom Pass $200</a></td>
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
@@ -1311,7 +1321,8 @@
                         <div>
                             <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
                             <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
-                            <asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox>
+<!-- This tet box is a troubleshooting aid and can be assigned values in Main.aspx.vb on lines 1240 and 1273**********************************************************************  
+                            <asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox> -->
                         </div>
                         <asp:Button ID="btnReturnAdminMenu" CssClass="myBut topMarginHalfem" runat="server" Text="Return to Admin Menu" onclick="btnReturnAdminMenu_Click" />
                     </asp:Panel>
