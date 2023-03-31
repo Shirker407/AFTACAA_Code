@@ -842,7 +842,6 @@
     <Content Include="_Photos\ObitPics\Creery.jpg" />
     <Content Include="_Photos\ObitPics\Crouse.png" />
     <Content Include="_Photos\ObitPics\Daniels.png" />
-    <Content Include="_Photos\ObitPics\DaveHamil.jpg" />
     <Content Include="_Photos\ObitPics\Dickinson.jpg" />
     <Content Include="_Photos\ObitPics\Dobbins.jpg" />
     <Content Include="_Photos\ObitPics\Douthett.jpg" />
@@ -857,6 +856,7 @@
     <Content Include="_Photos\ObitPics\Gilmore.png" />
     <Content Include="_Photos\ObitPics\Griffin.jpg" />
     <Content Include="_Photos\ObitPics\Hall.jpg" />
+    <Content Include="_Photos\ObitPics\HamilDave.jpg" />
     <Content Include="_Photos\ObitPics\Harris.png" />
     <Content Include="_Photos\ObitPics\Harvey.jpg" />
     <Content Include="_Photos\ObitPics\Hayden1.jpg" />
@@ -1500,6 +1500,7 @@
     <Content Include="_PDFs\Agenda1.pdf" />
     <Content Include="_Minutes\2-13-2023_Minutes.pdf" />
     <Content Include="_PDFs\2023AFTACPicnic.pdf" />
+    <Content Include="_Minutes\3-10-2023_Minutes.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
