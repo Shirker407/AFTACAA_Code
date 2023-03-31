@@ -2142,7 +2142,7 @@ $(document).ready(function () {
     //**********************************************************************
 
   $('#myMinutes').click(function () {
-        window.open('_Minutes/1-9-2023_Minutes.pdf', '');
+        window.open('_Minutes/3-10-2023_Minutes.pdf', '');
     });
 
     $('#myAFTACPicnic').click(function () {

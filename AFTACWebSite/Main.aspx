@@ -280,26 +280,30 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">March Minutes Published</td>
+                                    <td class="posted blueText">3/30/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://vimeo.com/807598018 " target ="_bank")>9S100 Career Field Awarded the Chief Master Sgt. Richard Etchberger Team Award at the AFA Warefare Symposium (see minutes 41:14 - 44:45 of the Video)</a></td>
                                     <td class="posted blueText">3/30/2023</td>
                                     <td class="event blueText"></td>  
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage2" class="announcement blueText"><a href ="https://www.airandspaceforces.com/?p=185363#:~:text=Empowering%20enlisted%20Airmen%20and%20Guardians%20regardless%20of%20rank,environment%20is%20in%20itself%20a%20critical%20operational%20imperative" target ="_bank")>AFA Warefare Symposium: The Enlisted Imperative </a></td>
+                                <!--<tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage2" class="announcement blueText"><a href ="https://www.airandspaceforces.com/?p=185363#:" target ="_bank")>AFA Warefare Symposium: The Enlisted Imperative </a></td>
                                     <td class="posted blueText">3/30/2023</td>
-                                    <td class="event blueText"></td>  
+                                    <td class="event blueText"></td> --> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myDaveHamil" class="announcement blueText">David Earl "Sarge" Hamil, 3/9/2023 Obituary was  posted.</td>
+                                    <td class="posted blueText">3/30/2023</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAFTACPicnic" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Click for details!</td>
                                     <td class="posted greenText">3/21/2023</td>
                                     <td class="event greenText"> 3/31/2023</td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDaveHamil" class="announcement blueText">Notified by Chuck Conrad that Dave Hamil has passed.  Memorial information included.</td>
-                                    <td class="posted blueText">3/19/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage4" class="announcement blueText"><a href ="https://irs.treasury.gov/freetaxprep/jsp/vita.jsp?zip=32940&lat=28.1988979&lng=-80.7879407&radius=25" target ="_bank")>IRS Free Tax Help In Melbourne Florida Area.</a></td>
                                     <td class="posted blueText">3/4/2023</td>
@@ -334,13 +338,8 @@
                                     <td id="myBack" class="announcement blueText">Denny Back passed 12 September 2022 an obituary is not available to post. <a href="https://www.floridatoday.com/obituaries/bft084190" Target = "_Blank">Florida Today Obituary</a></td>
                                     <td class="posted blueText">2/15/2023</td>
                                     <td class="event blueText"></td>
-                                </tr> 
+                                </tr>  
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">February Minutes Published</td>
-                                    <td class="posted blueText">2/1/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                              <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Universal Orlando Freedom Pass $200</a></td>
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
@@ -3492,6 +3491,7 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/3-10-2023_Minutes.pdf" target="_blank">3-10-2023</a></li>
                     <li><a href="_Minutes/2-13-2023_Minutes.pdf" target="_blank">2-13-2023</a></li>
                     <li><a href="_Minutes/1-9-2023_Minutes.pdf" target="_blank">1-9-2023</a></li>
                     </ul>
@@ -13050,27 +13050,18 @@
                     <div class="clear"></div>
                     <div id="DaveHamilPara" class="obitPara noDisplay">
                         <p>
-                    <img alt="DaveHamil.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/DaveHamil.jpg" /> -->
-                    (2023.03.19, Chuck Conrad posted on FB Site, RI 99...)<br /><br />
+                    <img alt="HamilDave.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/HamilDave.jpg" />
+                    David Earl "Sarge" Hamil 1959 - 2023<br /><br />
 
-                    "RIP Dave Hamil, former 9S and member of this group. <br /><br />
-                    Passed away 9 March 2023. <br /><br /> <br /><br />
+                    David "Sarge" Hamil, 63, of Duluth, MN, passed away on March 9, 2023, after a brief fight against cancer. He was born in Newport Beach, CA to Bonnie (White) and Edward Hamil. He served in the US Air Force 24 years, retiring as MSgt in 2005. His last duty was with AFTAC as Detachment Chief in Alice Springs Australia.<br /><br />
+                    In 1984 he married Sharon Madsen with whom he had 3 children. Later he met Angela Veech Johnson whom he married in 2021 and gained 2 more sons.<br /><br />
+                    After retiring he was a mail man, then became part owner of the DISC in Duluth MN. He was very active as a national volleyball referee and coached volleyball through Minnesota North Volleyball Club. He was not only coach but father/mentor to his girls. He was an avid softball player and also active in local dart leagues and win or lose he was a faithful Vikings fan.<br /><br />
+                    Preceding him in death were his father and grandparents. Survivors include his wife, Angela; children Joshua of Two Harbors; Jeremiah and Sarah and mother Bonnie of Superior, WI; stepsons Logan and Ian Johnson of Duluth.<br /><br />
+                    Services will be held at North Bay Community Church in Superior, WI on April 14, 2023: visitation at 2:00 p.m. with services at 3:00 p.m. A light meal will follow. Military honors and committal services will be in the spring at MN State Veterans Cemetery Duluth.<br /><br />
+                    If desired, in lieu of flowers memorials can be made to St Jude's Children's Hospital or a charity of your choice.<br /><br />
 
-                    His wife, Angela, writes: <br /><br />
-                    'Sarge's memorial date has been set. <br />
-                    Obituary still in the works.<br />
-                    Memorial April 14<br />
-                    Northbay Community Church in Superior WI<br />
-                    Visitation 2 pm<br />
-                    Service 3pm<br />
-                    Light meal following'<br /><br />
+                    
 
-                    Last time I saw Dave he had been retired from the Air Force for a few years and  returned to Alice Springs to play in the Masters Games. I recall he competed successfully in quite a few events but, the one I watched was baseball.<br /><br />
-                    They call the Masters Games "The Fun Games" yet the tension was in the air. His team was trailing by a run or two going into the bottom of the last. On the bright side, they had managed to get a couple runners on base before it was Dave's turn to bat. Earlier in the game Dave had some good hits to the left field. So, when he came up to bat the right fielder cheated left. <br /><br />
-                    Dave drilled one down the right field line just inside the foul line. By the time the right fielder got to the ball, Dave was approaching third base and made it home for a walk off home run victory.<br /><br />
-                    All the Masters Games aged players on the team celebrated with jumps of joy, hugs and high fives. Quite a scene!<br /><br />
-                    It is sad to see a lively guy like Dave leave us so soon. <br /><br />
-                    Deepest condolences to his family as they seek comfort."<br /><br />
                         </p>
                     </div>
                 </article>  
