@@ -4934,30 +4934,31 @@
                     <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
                         <li id="melchiorSel" class="yellowText">Gene & Dee Melchior-2012</li>
                         <li id="klugSel" class="yellowText">Dale Klug-2011</li>
-                        <li id="smithSel" class="yellowText">Jack Smith-2010</li>
-                        <li id="jacksonSel" class="yellowText">Jack Jackson-2009</li>
+                        <li id="smithSel" class="yellowText">Jack Smith (D)-2010</li>
+                        <li id="jacksonSel" class="yellowText">Jack Jackson (D)-2009</li>
                         <li id="wileySel" class="yellowText">Bob Wiley-2008</li>
-                        <li id="schmiedSel" class="yellowText">Bill Schmied-2007</li>
+                        <li id="schmiedSel" class="yellowText">Bill Schmied (D)-2007</li>
                         <li id="carsonSel" class="yellowText">Deborah Carson-2006</li>
                         <li id="blackSel" class="yellowText">Mike Black-2005</li>
-                        <li id="goldianSel" class="yellowText">Joe Goldian-2004</li>
+                        <li id="goldianSel" class="yellowText">Joe Goldian (D)-2004</li>
                     </ul>
                     <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
                         <li id="snyderpSel" class="yellowText">Pat Snyder-2003</li>
-                        <li id="johnsonpSel" class="yellowText">Joe Johnson-2002</li>
-                        <li id="payneSel" class="yellowText">Jim Payne-2001</li>
-                        <li id="vlassickpSel" class="yellowText">Ben Vlassick-2000</li>
-                        <li id="horschpSel" class="yellowText">John & Christel Horsch-1999</li>
+                        <li id="johnsonpSel" class="yellowText">Joe Johnson (D)-2002</li>
+                        <li id="payneSel" class="yellowText">Jim Payne (D)-2001</li>
+                        <li id="vlassickpSel" class="yellowText">Ben Vlassick (D)-2000</li>
+                        <li id="horschpSel" class="yellowText">John & Christel (D) Horsch-1999</li>
                         <li id="hallpSel" class="yellowText">Frank Hall-1998</li>
                         <li id="milampSel" class="yellowText">Judy Milam-1997</li>
-                        <li id="gaileypSel" class="yellowText">Carl Gailey-1996</li>
-                        <li class="yellowText">Clark Creery-1995</li>
+                        <li id="gaileypSel" class="yellowText">Carl Gailey (D)-1996</li>
+                        <li class="yellowText">Clark Creery (D)-1995</li>
                     </ul>
                     <div class="clear"></div>
                 </div>
 
                 <p id="AOYPara" class="centerText italic fontSize1em maroonText">
-                    Click a name in the list to see their biography
+                    Click a name in the list to see their biography <br />
+                    (D) Indicates Deceased
                 </p>
             </div>
 
