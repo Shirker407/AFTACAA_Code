@@ -238,7 +238,7 @@ $(document).ready(function () {
     });
 
     $('#butCOE').click(function () {
-        window.open('_pdfs/calendar.pdf', '');
+        window.open('_pdfs/calendar1.pdf', '');
     });
 
     $('#myCorona').click(function () {
