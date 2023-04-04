@@ -13048,7 +13048,7 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
-%--   Current Obits James Carl Davis - 3/16/2023 *****************************************************************************--%>
+<%--   Current Obits James Carl Davis - 3/16/2023 *****************************************************************************--%>
                <article>
                     <div>
                         <h2 id="JamesDavisH2" class="obitH1">James Carl (Carl, Jimp, Jim, Firehead) Davis - 3/16/2023 </h2>
