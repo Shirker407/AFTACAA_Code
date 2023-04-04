@@ -1500,7 +1500,6 @@
     <Content Include="_Minutes\1-9-2023_Minutes.pdf" />
     <Content Include="_PDFs\Agenda1.pdf" />
     <Content Include="_Minutes\2-13-2023_Minutes.pdf" />
-    <Content Include="_PDFs\2023AFTACPicnic.pdf" />
     <Content Include="_Minutes\3-10-2023_Minutes.pdf" />
   </ItemGroup>
   <PropertyGroup>
