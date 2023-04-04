@@ -1465,27 +1465,12 @@ $(document).ready(function () {
     $('#myJamesDavis').click(function () {
         OpenObit('JamesDavis');
     });
-    $('#mySchmied').click(function () {
-        OpenObit('Schmied');
-            });
-
-    $('#myMOWhite').click(function () {
-        OpenObit('MOWhite');
-    });
-
-    $('#myCameron').click(function () {
-        OpenObit('Cameron');
-    });
-    
+      
     $('#myDaveHamil').click(function () {
         OpenObit('DaveHamil');
     });
 
-    $('#myMason').click(function () {
-        OpenObit('Mason');
-    });
-
-    $('.obitH1').click(function () {
+     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
             case 'SchmiedH2':
@@ -2149,10 +2134,6 @@ $(document).ready(function () {
 
   $('#myMinutes').click(function () {
         window.open('_Minutes/3-10-2023_Minutes.pdf', '');
-    });
-
-    $('#myAFTACPicnic').click(function () {
-        window.open('_PDFs/2023AFTACPicnic.pdf', '');
     });
 
     $('#AprilPomo').click(function () {

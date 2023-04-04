@@ -319,43 +319,13 @@
                                     <td class="posted blueText">3/4/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-   <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCameron" class="announcement blueText">James "Tom" Thomas Cameron Jr, 2/25/2023 obituary was posted. </td>
-                                    <td class="posted blueText">3/1/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySchmied" class="announcement blueText">William "Bill" Schmied, 2/25/2023 obituary was posted.</td>
-                                    <td class="posted blueText">3/1/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMason" class="announcement blueText">Ed Mason, 2/20/2023 obituary was posted.</td>
-                                    <td class="posted blueText">3/1/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMOWhite" class="announcement blueText">Matthew Odis White Sr., 2/17/2023 obituary was posted.</td>
-                                    <td class="posted blueText">3/1/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr> 
-                            <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBack" class="announcement blueText">Denny Back passed 12 September 2022 an obituary is not available to post. <a href="https://www.floridatoday.com/obituaries/bft084190" Target = "_Blank">Florida Today Obituary</a></td>
-                                    <td class="posted blueText">2/15/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>  
+   <!--                                 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Universal Orlando Freedom Pass $200</a></td>
                                     <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage2" class="announcement RedText"><a href ="https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_bank")> New Nuke-Sniffing Jet Flies Off South America On First International Mission</a></td>
-                                    <td class="posted RedText">1/31/2023</td>
-                                    <td class="event RedText"></td>
-                                </tr>
-
-                                                 
+                                                   
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDecPomo" class="announcement blueText">December Pomo was Published</td>
                                     <td class="posted blueText">12/23/2022</td>
