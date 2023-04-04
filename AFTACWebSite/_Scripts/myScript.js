@@ -4180,7 +4180,7 @@ $(document).ready(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $('#showAgenda').css('color', 'lightgreen');
-        window.open('_PDFs/agenda1.pdf', '');
+        window.open('_PDFs/agenda2.pdf', '');
     });
 
     $('#showElected').click(function () {
