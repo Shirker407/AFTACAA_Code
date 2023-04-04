@@ -85,7 +85,7 @@
 
                     <li id="liPoMos" class="liMainMenu bottomDot">Post-Monitors
                         <div id="divPomos" class="underMenu noDisplay">
-                            <span id="pomosArchived" class="underSel block leftMargin1em">Archived Post Monitors</span>
+                            <span id="pomosArchived" class="underSel block leftMargin1em">Archived Post Monitors</span>break;
                             <span id="pomosCurrent" class="underSel block leftMargin1em">Recent Post Monitors</span>
                         </div>
                     </li>
@@ -261,7 +261,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 3/6/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 4/3/2023</span>
                     </div>
                 </div>
 
@@ -278,6 +278,11 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myJamesDavis" class="announcement blueText">James Carl (Carl, Jimp, Jim, Firehead) Davis, 3/16/2023 Obituary was  posted.</td>
+                                    <td class="posted blueText">4/4/2023</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">March Minutes Published</td>
@@ -299,10 +304,10 @@
                                     <td class="posted blueText">3/30/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+   <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAFTACPicnic" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Click for details!</td>
                                     <td class="posted greenText">3/21/2023</td>
-                                    <td class="event greenText"> 3/31/2023</td>
+                                    <td class="event greenText"> 3/31/2023</td> -->
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage4" class="announcement blueText"><a href ="https://irs.treasury.gov/freetaxprep/jsp/vita.jsp?zip=32940&lat=28.1988979&lng=-80.7879407&radius=25" target ="_bank")>IRS Free Tax Help In Melbourne Florida Area.</a></td>
@@ -314,7 +319,7 @@
                                     <td class="posted blueText">3/4/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+   <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myCameron" class="announcement blueText">James "Tom" Thomas Cameron Jr, 2/25/2023 obituary was posted. </td>
                                     <td class="posted blueText">3/1/2023</td>
                                     <td class="event blueText"></td>
@@ -334,7 +339,7 @@
                                     <td class="posted blueText">3/1/2023</td>
                                     <td class="event blueText"></td>
                                 </tr> 
-  <!--                              <tr class="trAnnouncementsEntry bottomDotRed">                    
+                            <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myBack" class="announcement blueText">Denny Back passed 12 September 2022 an obituary is not available to post. <a href="https://www.floridatoday.com/obituaries/bft084190" Target = "_Blank">Florida Today Obituary</a></td>
                                     <td class="posted blueText">2/15/2023</td>
                                     <td class="event blueText"></td>
@@ -13043,6 +13048,25 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+%--   Current Obits James Carl Davis - 3/16/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="JamesDavisH2" class="obitH1">James Carl (Carl, Jimp, Jim, Firehead) Davis - 3/16/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="JamesDavisPara" class="obitPara noDisplay">
+                        <p>
+                    <img alt="DavisJames.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/DavisJames.png" />
+                    James Carl (Carl, Jimp, Jim, Firehead) Davis 1927 - 2023<br /><br />
+                    Passed away peacefully in the Welland Hospital on Thursday, March 16, 2023, in his 96th year. Adoring husband of his loving wife Joyce Davis of Fonthill, Ontario, who passed away in 2022. Loving father of John Davis and his wife Marty of Grimsby, and JoAnne Davis of Tweed. Cherished grandfather of Brendan and Andrew, and his partner, Simone; and of Dylan, Caitlin, and Maeghan and her husband Wayne. Predeceased by his brothers Dillard, Edward "Red," and Billy of Georgia, and by his sister Carolyn of Tennessee. Jim will be fondly remembered by his nieces and nephews Steve Davis, Dwaine Setzer and DeAnn Rauth, Dale Davis and Sylvia Harmon, Steward McKenzie, Barb Chambers and Doug Chambers, and their families, and by Merina Paoa, the daughter of Jim's good friend Orlando Paoa of Easter Island, who learned English in Canada at the home of Jim and Joyce. Jim leaves behind his brother Jack Davis and his wife Vivian of Dillard, Georgia, his brother-in-law Bud Setzer of Knoxville, Tennessee, his sister-in-law Adilene Burrell Davis of Gibsonville, North Carolina, and cousins in Georgia and Tennessee.<br /><br />
+                    Jim was born in Dillard, Georgia in the Great Smoky Mountains on September 2, 1927, where he grew up working on farms, trapping animals, and getting into mischief. He graduated from Rabun Gap - Nacoochee School and attended the University of North Georgia before entering the United States Air Force in 1946. He served in the USAF weather service around continental America, in Japan, and in Bermuda, where he met Joyce, a Canadian who was working as a nurse. From 1953 until his retirement in 1973, Jim worked in the USAF's nuclear detection agency, the Air Force Technical Applications Center, with assignments from Alaska to Hawaii, California to Virginia, Japan to Iran, Europe to Africa, and from the North Pole to Easter Island. After retiring from the USAF, Jim trained in hotel management and moved to Ridgeville in the Niagara Region of Ontario, the area where his wife, Joyce, was from. In Niagara, he served as the manager of the Niagara Parks Commission restaurant at Queenston Heights before retiring in 1984. Jim also managed his hobby farm with its orchards, asparagus, vegetables, horses, and other animals. Jim and Joyce traveled a great deal around Canada and the US, and together returned to Easter Island where they visited the numerous friends Jim had made when stationed there for a year in 1968-1969. Jim was very attached to the Canadian Legion and to the Lion's Clubs in both Fenwick and Fonthill and served the Pelham Community Church for many years. He was grateful for the many friends he had in and around his Ridgeville hobby farm, at Pelham Town Square Manor where he and Joyce lived after leaving the farm, and at Lookout Ridge Retirement Community where he and Joyce last resided.<br /><br />
+                    Family and friends will be received at the PELHAM FUNERAL HOME, 1292 Pelham Street, Fonthill on Friday, March 24 from 2-4 and 6-8 PM. The memorial service to honor Jim's life will take place at Pelham Community Church, 461 Canboro Road on Saturday, March 25 beginning at 11:00 AM. Interment will follow at Hillside Cemetery.<br /><br />
+                    An expression of sympathy donation may be made to <a href="https://www.pelham.cc/" target="_blank">Pelham Community Church.</a><br /><br />
+                    Condolences may be shared at www.pelhamfuneralhome.ca<br /><br />
+                    To send <a href="https://james-l-pedlar-funeral-home-ltd.tributestore.com/?oId=27524695&fbclid=IwAR2_gpfvmxT6ICzN39LletOmVNcb3LMEK1s48juKEAPfigE1AdHL5wJRkvo" target="_blank">Flowers</a> to the family or <a href="https://treecan.tributestore.com/memorial-tree?oId=27524695&fbclid=IwAR0legngphjZm4rLJKale-n166gBkfQljGrqewyN1MuGA5Z77icm97JjBO8" target="_blank">plant a tree</a> in memory of James Carl Davis, please visit our <a href="https://james-l-pedlar-funeral-home-ltd.tributestore.com/?oId=27524695&fbclid=IwAR1R_sCAEZeTYNv-0jeBZPh0WgcqBhMqypvfipKkJGXfktJHaKH0k4jXegg" target="_blank">Heartfelt Sympathies Store</a>.<br /><br />
+                        </p>
+                    </div>
+                </article>  
 <%--   Current Obits Dave Hamil - 3/10/2023 *****************************************************************************--%>
                <article>
                     <div>
