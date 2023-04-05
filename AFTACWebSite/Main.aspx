@@ -32,6 +32,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AFTAC Alumni Association</title>
     <meta charset="utf-8" />
     <!-- Latest compiled and minified CSS -->
@@ -47,6 +48,12 @@
     <link href="_Styles/BasicStyles.css" rel="stylesheet" />
    
     <link href="_Styles/myStyles.css" rel="stylesheet" />
+<%--FAVICON Link lines --%>    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
 </head>
 
 <body>
@@ -85,7 +92,7 @@
 
                     <li id="liPoMos" class="liMainMenu bottomDot">Post-Monitors
                         <div id="divPomos" class="underMenu noDisplay">
-                            <span id="pomosArchived" class="underSel block leftMargin1em">Archived Post Monitors</span>break;
+                            <span id="pomosArchived" class="underSel block leftMargin1em">Archived Post Monitors</span>
                             <span id="pomosCurrent" class="underSel block leftMargin1em">Recent Post Monitors</span>
                         </div>
                     </li>
@@ -3405,7 +3412,7 @@
                 (barbeque pork a la TSgt Chevis Stanley) dogs, burgers, even an Italian Ice truck. Alumni hosted and managed 4 kegs of beer and a tasty cider to help cool down
                 the players. John Horsch, Frank Calenda, Ed Lindsey assured tradition and 99 culture were maintained.
                 <br /><br />
-                <img class="floatRight width25 leftMarginHalfem maroonBorder showShadow" alt="tb2.jpg" src="_Photos/ToiletBowl/TB2.JPG" />
+                <img class="floatRight width25 leftMarginHalfem maroonBorder showShadow" alt="tb2.jpg" src="_Photos/ToiletBowl/tb2.JPG" />
                 The tournament was
                 superbly honchoed
                 by Kathie Querry who
@@ -4161,7 +4168,7 @@
             </div>
         </article>--%>
 <%--  2015 AFTAC Reunion Video *****************************************************************************--%> 
-<%--        <article id="2015ReunionArt" class="myArts noDisplay">
+<%--      <article id="2015ReunionArt" class="myArts noDisplay">
             <div id="2015ReunionVideo" class="myvids nodisplay">
                 <video id="2015Reunion" preload="auto" controls="controls" poster="_images/airshow.png" class="width60 autoMarginLeftRight maroonBorder showShadow">
                     <source src="_Videos/2015 AFTAC Reunion.mp4" type="video/mp4" />
@@ -4170,9 +4177,9 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>--%>
+        </article>-->
 <%--  2018_Melbourne_Air_Show Video *****************************************************************************--%> 
-        <article id="2018AirShowArt" class="myArts noDisplay">
+<%--        <article id="2018AirShowArt" class="myArts noDisplay">
             <div id="2018AirShowVideo" class="myvids nodisplay">
                 <video id="2018vidAirShow" preload="auto" controls="controls" poster="_images/airshow.png" class="width60 autoMarginLeftRight maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/2018_Melbourne_Air_Show.mp4" type="video/mp4" />
@@ -4181,7 +4188,7 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>
+        </article>-->
 <%--  AFTAC Building Dedication Video *****************************************************************************--%>
 <%--        <article id="dedicationArt" class="myArts noDisplay">
             <div id="dedicationVideo" class="myvids nodisplay">
@@ -4192,9 +4199,9 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>
+        </article>-->
 <%--  Wall of Honor Video *****************************************************************************--%>
-        <article id="honorVidArt" class="myArts noDisplay">
+<%--        <article id="honorVidArt" class="myArts noDisplay">
             <div id="honorVideo" class="myvids nodisplay">
                 <video id="vidHonor" preload="auto" controls="controls" poster="_images/Building Dedication.png" class="width60 maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/Wall of Honor.mp4" type="video/mp4" />
@@ -4204,9 +4211,9 @@
                 </video>
             </div>
 
-        </article>
+        </article>-->
 <%--  Stonehenge Video *****************************************************************************--%>
-        <article id="stonehengeArt" class="myArts noDisplay">
+<%-- %>        <article id="stonehengeArt" class="myArts noDisplay">
             <div id="stonehengeVideo" class="myvids nodisplay">
                 <video id="vidstonehenge" preload="auto" controls="controls" poster="_images/Building Dedication.png" class="width60 maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/Stonehenge.mp4" type="video/mp4" />
@@ -4216,9 +4223,9 @@
                 </video>
             </div>
 
-        </article>
+        </article>-->
 <%--  AFTAC Seminar Video *****************************************************************************--%>
-        <article id="SeminarArt" class="myArts noDisplay">
+ <%--       <article id="SeminarArt" class="myArts noDisplay">
             <div id="SeminarVideo" class="myvids nodisplay">
                 <video id="vidSem" preload="auto" controls="controls" poster="_images/Building Dedication.png" class="width60 maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/AFTAC Seminar.mp4" type="video/mp4" />
@@ -4227,9 +4234,9 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>
+        </article>-->
 <%--  AFTAC UPGRADE Video *****************************************************************************--%>
-        <article id="underArt" class="myArts noDisplay">
+<%--        <article id="underArt" class="myArts noDisplay">
             <div id="underVideo" class="myvids nodisplay">
                 <video id="vid_Under" preload="auto" controls="controls" poster="_images/upgrade.png" class="width60 maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/AFTAC UPGRADE.mp4" type="video/mp4" />
@@ -4240,7 +4247,7 @@
 
             <p class="centerText">Video by Clark Creery</p>
             </div>
-        </article>
+        </article>-->
 <%--  History of AFTAC Alumni Association Article *****************************************************************************--%>
         <article id="historyAlumniArt" class="myArts noDisplay">
             <asp:Label ID="Label17" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="History of AFTAC Alumni Association"></asp:Label>
@@ -5725,7 +5732,7 @@
                 <p class="pTitle centerText titlePara">
                     2001 ALUMNUS OF THE YEAR <br />JIM PAYNE                    
                 </p>
-                <img alt="payne.png" class="maroonBorder showShadow autoMarginLeftRight" src="_Photos/AOY/payne.png" />
+                <img alt="payne_AOY.png" class="maroonBorder showShadow autoMarginLeftRight" src="_Photos/AOY/payne_AOY.png" />
                 <p>
                     The highlight of our annual association Snow- Ball on February 18th was the announcement of the selection of Jim Payne as the '2001 Alumni of the Year.' He received a special coin that flew on the Shuttle Orbiter 'Atlantis' on the occasion of the Air Force, and AFTAC's, 50th anniversary (Sep-Oct '97). Jim will also be honored at the AFTAC Command Award ceremony on April 24th at the PAFB NCO Club, come on out and show your support (info. page 19).
                     At the presentation, Joe Marshall, Association President, noted that Jim began his Air Force career in October, '52. He first served in Ground Radio at Japan, NJ, and MS. In May '62, he was assigned to AFTAC initially serving in the 'R' technique. Jim worked at several detachments as well as at Denver, Germany and California. In 1981, Cot. 'Meis' selected him to the organization's highest enlisted post, 'Senior Enlisted Advisor,' and he served in this capacity until his retirement in '83.
@@ -5973,7 +5980,7 @@
             <p>Throughout the day, chances for the Winter Social gift baskets were also being sold.  This was a great idea and many were filling up those chance boxes with plenty of tickets.</p>
             <p>Bob Wiley, James Griffieth, Ed Lindsay, and Jim Whidden helped man the beer kegs.  Beer and cider was flowing and the stories were being told.  The championship teams had been determined, but they would have to wait.  It was now time for the Home Run Derby and to eat some wonderful pulled pork, hot dogs, and hamburgers that had been prepared by MSgt Chevis Stanley and others. </p>
             <figure class="width45 floatLeft">
-                <img alt="tb2.jpg" class="leftMargin2em maroonBorder smallShadow width90" src="_Photos/toilet/tb2.jpg" />
+                <img alt="tb2.jpg" class="leftMargin2em maroonBorder smallShadow width90" src="_Photos/Toilet/tb2.jpg" />
                 <figcaption class="italic topMarginHalfem fontSize1em maroonText centerText">
                     Colonel Gorski, AFTAC commander, getting a pie in the face for the cause
                 </figcaption>

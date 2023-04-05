@@ -9,7 +9,8 @@
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <link href="_Styles/BasicStyles.css" rel="stylesheet" />
     <link href="_Styles/myStyles.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%--<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />--%>
 </head>
 
 <body>
