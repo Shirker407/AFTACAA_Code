@@ -254,17 +254,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#myWells').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#wallArt').removeClass('noDisplay').addClass('block');
-        $('#wallListings').removeClass('block').addClass('noDisplay');
-        $('#hideListings').removeClass('noDisplay').addClass('block');
-        $('#wallImg').removeClass('noDisplay').addClass('block');
-        $('#wallImg').attr('src', '_photos/20yearwall/Wells.jpg')
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#hideListings").offset().top
-        }, 500);
-    });
+
 
     $('.dpPic').click(function () {
         $('#doMainPic').attr('src', $(this).attr('src'))
@@ -344,14 +334,15 @@ $(document).ready(function () {
             scrollTop: $("#vcsafH2").offset().top
         }, 500);
     });
-
-    $('#myLindsay').click(function () {
+//Displays 20 Year photo from Recent Additions Table 
+    $('#myEddleman').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#wallArt').removeClass('noDisplay').addClass('block');
         $('#wallListings').removeClass('block').addClass('noDisplay');
         $('#hideListings').removeClass('noDisplay').addClass('block');
         $('#wallImg').removeClass('noDisplay').addClass('block');
-        $('#wallImg').attr('src', '_photos/20yearwall/lindsay_ed.jpg')
+        $('#wallImg').attr('src', '_photos/20yearwall/Eddleman.jpg')
+        $('#showPic').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#hideListings").offset().top
         }, 500);
