@@ -108,7 +108,13 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="android-chrome-192x192.png" />
+    <Content Include="android-chrome-512x512.png" />
+    <Content Include="apple-touch-icon.png" />
     <Content Include="Default.aspx" />
+    <Content Include="favicon-16x16.png" />
+    <Content Include="favicon-32x32.png" />
+    <Content Include="favicon.ico" />
     <Content Include="Main.aspx" />
     <Content Include="_Images\91Years\4Photos.png" />
     <Content Include="_Images\91Years\Badge.png" />
@@ -121,6 +127,7 @@
     <Content Include="_Images\Bob Land Celebration.png" />
     <Content Include="_Images\Borowski Obituary.jpg" />
     <Content Include="_Images\CMS_Wright.png" />
+    <Content Include="_Photos\20YearWall\Eddleman.jpg" />
     <Content Include="_Photos\AOY-2022\AttendingAOYs.jpg" />
     <Content Include="_Photos\AOY-2022\DrYoungAFTACAward.jpg" />
     <Content Include="_Photos\News2Know\ConstantPhoenix2023Ramp.jpg" />
@@ -1368,6 +1375,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="packages.config" />
+    <Content Include="site.webmanifest" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
