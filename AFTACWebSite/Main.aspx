@@ -287,6 +287,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage" class="announcement blueText"><a href ="https://www.togetherweserved.com" target ="_bank")>Veterans of the US Military - Stay Connected For Life!  Link to 'Together We Served' site added to Speical Links</a></td>
+                                    <td class="posted blueText">4/7/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myEddleman" class="announcement blueText">CMSgt Thomas N. Eddleman added to the 20 Year Wall.</td>
                                     <td class="posted blueText">4/6/2023</td>
                                     <td class="event blueText"></td>
@@ -6044,7 +6049,7 @@
                     <a href="https://www.va.gov/records/get-military-service-records/" target="_blank">How To Find Your Military Records</a>
                 </li>
                 <li>
-                    --VETERANS ADMINISTRATION/HEALTHCARE/BENIFITS--
+                    --VETERANS ADMINISTRATION/HEALTHCARE/BENEFITS--
                 </li>
                 <li>
                     <a href="http://www.va.gov" target="_blank">Veterans Admin</a>
@@ -6058,7 +6063,7 @@
                 <li>
                     <a href="https://www.va.gov/health-care/get-medical-records/" target="_blank">Your VA Medical records are within reach</a>
                 </li>
-                                <li>
+                <li>
                     <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantag:  Benifits/Blog</a>
                 </li>
                 <li>
@@ -6081,6 +6086,9 @@
                 </li>
                 <li>
                     --SOCIAL MEDIA--
+                </li>
+                <li>
+                    <a href="https://www.togetherweserved.com" target="_blank">Together We Served: Veterans of the US Military - Stay Connected For Life!</a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/groups/aftacaa/" target="_blank">AFTAC Alumni of the world Unite Facebook Page</a>
