@@ -287,7 +287,12 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage" class="announcement blueText"><a href ="https://www.togetherweserved.com" target ="_bank")>Veterans of the US Military - Stay Connected For Life!  Link to 'Together We Served' site added to Speical Links</a></td>
+                                    <td id="myLoftis" class="announcement blueText">John E. Loftis added to the 20 Year Wall.</td>
+                                    <td class="posted blueText">4/6/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage" class="announcement blueText"><a href ="https://www.togetherweserved.com" target ="_bank")>Veterans of the US Military - Stay Connected For Life!  Link to 'Together We Served' site added to Special Links</a></td>
                                     <td class="posted blueText">4/7/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
@@ -4521,6 +4526,7 @@
                             <li id="Klug" class="my20YearLi">Klug, Dale E.</li>
                             <li id="Labarre" class="my20YearLi">Labarre, Gerald R. (D)</li>
                             <li id="Lindsay_Ed" class="my20YearLi">Lindsay, Edward W.</li>
+                            <li id="Loftis" class="my20YearLi">Loftis, John E.</li>
                             <li id="Lubin" class="my20YearLi">Lubin, Michael D.</li>
                             <li id="Lucas" class="my20YearLi">Lucas, James S. (D)</li>
                         </ul>

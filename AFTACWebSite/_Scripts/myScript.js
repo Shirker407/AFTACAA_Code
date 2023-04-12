@@ -347,7 +347,18 @@ $(document).ready(function () {
             scrollTop: $("#hideListings").offset().top
         }, 500);
     });
-
+    $('#myLoftis').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#wallArt').removeClass('noDisplay').addClass('block');
+        $('#wallListings').removeClass('block').addClass('noDisplay');
+        $('#hideListings').removeClass('noDisplay').addClass('block');
+        $('#wallImg').removeClass('noDisplay').addClass('block');
+        $('#wallImg').attr('src', '_photos/20yearwall/Loftis.jpg')
+        $('#showPic').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#hideListings").offset().top
+        }, 500);
+    });
     $('#myTaxes').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#myTracy').removeClass('noDisplay').addClass('block');
