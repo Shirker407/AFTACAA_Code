@@ -288,7 +288,7 @@
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myLoftis" class="announcement blueText">John E. Loftis added to the 20 Year Wall.</td>
-                                    <td class="posted blueText">4/6/2023</td>
+                                    <td class="posted blueText">4/12/2023</td>
                                     <td class="event blueText"></td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
