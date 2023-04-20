@@ -1021,7 +1021,6 @@ Public Class _Default
     Protected Sub btnClearSearch_Click(sender As Object, e As EventArgs)
         action = "btnClearSearch_Click"
     End Sub
-
     Private Sub FillBoxes()
         Dim sql As String
         Dim ds As New DataSet
@@ -1228,6 +1227,7 @@ Public Class _Default
                 OpenArticle("MembershipArt")
                 Exit Sub
             End If
+            _id = lstMembers.SelectedValue
 
             sql = "Exec SaveMemberInfo " & lstMembers.SelectedValue & ",'" & Capitolize(txtFirst.Text) & "','" & Apos(Capitolize(txtLast.Text)) & "','" &
                 UCase(txtInitial.Text) & "','" & txtJoined.Text & "','" & Capitolize(txtSuffix.Text) & "','" & Capitolize(txtSpouse.Text) & "','" &
@@ -1255,20 +1255,23 @@ Public Class _Default
 
             lstMembers.SelectedIndex = currentindex
 
-            _id = lstMembers.SelectedValue
+
 
             FillBoxes()
 
         Else
             'btnsave text does not equal "Save Changes" so we are adding a new member
-
+            If Len(txtJoined.Text) < 4 Then
+                txtJoined.Text = Date.Today
+            End If
+            txtsql.Text = txtJoined.Text
             sql = "Exec AddNewMemberInfo '" & Capitolize(txtFirst.Text) & "','" & Apos(Capitolize(txtLast.Text)) & "','" &
-                UCase(txtInitial.Text) & "','" & txtJoined.Text & "','" & Capitolize(txtSuffix.Text) & "','" & Capitolize(txtSpouse.Text) & "','" &
-                txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" & Capitolize(txtCity.Text) & "','" &
-                UCase(txtState.Text) & "','" & txtZip.Text & "','" & Capitolize(txtCountry.Text) & "','" & txtRank.Text & "','" &
-                UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
-                GetChapters() & "," & GetDead() & "," & "','" & GetMailPomo() & "," & Capitolize(ddlCommand.Text) & "','" &
-                txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & PWUser & "'"
+            UCase(txtInitial.Text) & "','" & txtJoined.Text & "','" & Capitolize(txtSuffix.Text) & "','" & Capitolize(txtSpouse.Text) & "','" &
+            txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" & Capitolize(txtCity.Text) & "','" &
+            UCase(txtState.Text) & "','" & txtZip.Text & "','" & UCase(txtCountry.Text) & "','" & txtRank.Text & "','" &
+            UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
+            GetChapters() & "','" & GetDeceased() & "'," & GetMailPomo() & ",'" & Capitolize(ddlCommand.Text) & "','" &
+            txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & "," & ReceiveEalls() & ",'" & Session("myName") & "'"
 
             'txtsql.Text = sql
 
@@ -1289,6 +1292,11 @@ Public Class _Default
 
                 Exit Sub
             End Try
+            If lblMess.Text = "Data Saved." Then
+                sql = "Select Id from AFTAC Where Last = '" & Apos(Capitolize(txtLast.Text)) & "' AND First = '" & Capitolize(txtFirst.Text) & "' AND EMail = '" & txtMemEmail.Text & "'"
+                Get_Dataset(sql, ds)
+                _id = ds.Tables(0).Rows(0).Item("ID")
+            End If
 
             btnMemSave.Text = " Save Changes "
             btnAdd.Text = " Add New "
@@ -1296,9 +1304,8 @@ Public Class _Default
 
             GetList()
 
-            lstMembers.SelectedIndex = currentindex
 
-            _id = lstMembers.SelectedValue
+            lstMembers.SelectedIndex = currentindex
 
             Dim ok As Boolean = False
 
@@ -1317,6 +1324,8 @@ Public Class _Default
 
             If ok Then
                 lstMembers.SelectedIndex = x
+            Else
+                lstMembers.SelectedIndex = 1
             End If
 
             FillBoxes()

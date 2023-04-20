@@ -1464,6 +1464,9 @@ $(document).ready(function () {
         $('#CommInitial').removeClass('block').addClass('block');
     });
     */
+    $('#myKater').click(function () {
+        OpenObit('Kater');
+    });
     $('#myJamesDavis').click(function () {
         OpenObit('JamesDavis');
     });
@@ -1477,6 +1480,9 @@ $(document).ready(function () {
         switch (myText) {
             case 'SchmiedH2':
                 ShowMyObit('Schmied')
+                break;
+            case 'KaterH2':
+                ShowMyObit('Kater')
                 break;
             case 'JamesDavisH2':
                 ShowMyObit('JamesDavis')

@@ -365,6 +365,15 @@ Partial Public Class _Default
     Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
+    '''lblSetup control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblSetup As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''lblListTitle control.
     '''</summary>
     '''<remarks>
