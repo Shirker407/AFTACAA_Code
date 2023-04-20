@@ -287,8 +287,18 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myKater" class="announcement blueText">Martin "Marty" L. Kater, 4/11/2023 Obituary was posted.</td>
+                                    <td class="posted blueText">4/19/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage1" class="announcement blueText"><a href ="https://www.nps.gov/planyourvisit/veterans-and-gold-star-families-free-access.htm" target ="_bank")>Free ($10.00 processing fee) Lifetime National Parks Pass available to Military Veterans and Gold Star Families</a></td>
+                                    <td class="posted blueText">4/19/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myLoftis" class="announcement blueText">John E. Loftis added to the 20 Year Wall.</td>
-                                    <td class="posted blueText">4/6/2023</td>
+                                    <td class="posted blueText">4/12/2023</td>
                                     <td class="event blueText"></td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -303,7 +313,7 @@
                                 </tr>                                
                                 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myJamesDavis" class="announcement blueText">James Carl (Carl, Jimp, Jim, Firehead) Davis, 3/16/2023 Obituary was  posted.</td>
+                                    <td id="myJamesDavis" class="announcement blueText">James Carl (Carl, Jimp, Jim, Firehead) Davis, 3/16/2023 Obituary was posted.</td>
                                     <td class="posted blueText">4/4/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -330,19 +340,9 @@
    <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAFTACPicnic" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Click for details!</td>
                                     <td class="posted greenText">3/21/2023</td>
-                                    <td class="event greenText"> 3/31/2023</td> -->
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage4" class="announcement blueText"><a href ="https://irs.treasury.gov/freetaxprep/jsp/vita.jsp?zip=32940&lat=28.1988979&lng=-80.7879407&radius=25" target ="_bank")>IRS Free Tax Help In Melbourne Florida Area.</a></td>
-                                    <td class="posted blueText">3/4/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage1" class="announcement blueText"><a href ="https://irs.treasury.gov/freetaxprep" target ="_bank")>IRS Free Tax Help lookup by zip code</a></td>
-                                    <td class="posted blueText">3/4/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-   <!--                                 
+                                    <td class="event greenText"> 3/31/2023</td> 
+                                </tr>-->
+ <!--                                 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Universal Orlando Freedom Pass $200</a></td>
                                     <td class="posted blueText">2/1/2023</td>
@@ -366,14 +366,17 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 14 April<br />
-                        11:30 - 12:30 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Monday 8 May<br />
+                        15:00 - 16:00 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
-                        Beef O'Brady's<br />
-                        724 S Patrick Drive<br />
-                        Satellite Beach FL<br />
+                        HQ AFTAC <br />
+                        Loby Conference Room<br />
+                        Patrick AFB FL<br />
+                        <!--Beef O'Brady's<br />
+                        724 S Patrick Drive<br /> 
+                        Satellite Beach FL<br />-->
                         <!--3030 Lake Washington Road<br />
                         Melbourne Fl<br /> -->
                         --------------------------<br />
@@ -1102,7 +1105,10 @@
         </article>
 <%--Membership Management Page  *****************************************************************************--%>
         <article id="MembershipArt" class="myArts noDisplay">
-            <aside class=" leftMargin1em floatLeft" style="margin-top:-2em;width:19%;">
+            <aside class=" leftMargin1em floatLeft" style="margin-top:-1em;width:90%;">    
+                <asp:Label ID="lblSetup" CssClass="autoMarginLeftRight" Font-Size="1em" Font-Bold="true" Visible="True" ForeColor="Blue" runat="server" Text=" To Add New Member Click 'Add New' button (bottom of form) before entering data. <br /> To Edit a record, scroll or use search to find name and click on it in list box to load data.<br />"></asp:Label>
+             </aside>
+                <aside class=" leftMargin1em floatLeft" style="margin-top:-2em;width:19%;">
                 <asp:Label ID="lblListTitle" CssClass="block centerText topMargin1em" Font-Size="1.5em" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Entire Database<br/>Deceased Shown"></asp:Label>
                 <asp:Button ID="btnDeceased" Font-Size="1em" CssClass="block myBut autoMarginLeftRight centerText" runat="server" Text="Hide Deceased" OnClick="btnDeceased_Click" />
                 <asp:ListBox ID="lstMembers" CssClass="block topMargin1em padding5" Font-Size=".9em" Font-Bold="true" BackColor="LightGoldenrodYellow" Rows="10" Width="95%" runat="server"  AutoPostBack="True" OnSelectedIndexChanged="lstMembers_SelectedIndexChanged"></asp:ListBox>
@@ -1131,7 +1137,8 @@
                 <div class="clear"></div>
 
             </aside>
-
+           
+               
             <section id="demos" class="floatLeft leftMargin2em bottomMargin2em width75 maroonBorder smallShadow maroonBorder">
                 <asp:Label ID="lblMess" CssClass="autoMarginLeftRight" Font-Size="2em" Font-Bold="true" Visible="False" ForeColor="Blue" runat="server" Text="Data Saved"></asp:Label>
                 <section>
@@ -1318,8 +1325,8 @@
                         <div>
                             <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
                             <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
-<!-- This tet box is a troubleshooting aid and can be assigned values in Main.aspx.vb on lines 1240 and 1273**********************************************************************  
-                            <asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox> -->
+<!-- This tet box is a troubleshooting aid and can be assigned values in Main.aspx.vb on lines 1240 and 1273********************************************************************** --> 
+                        '<asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox> 
                         </div>
                         <asp:Button ID="btnReturnAdminMenu" CssClass="myBut topMarginHalfem" runat="server" Text="Return to Admin Menu" onclick="btnReturnAdminMenu_Click" />
                     </asp:Panel>
@@ -13046,6 +13053,25 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+<%--   Current Obits Martin “Marty” L. Kater - 4/11/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="KaterH2" class="obitH1">Martin "Marty" L. Kater - 4/11/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="KaterPara" class="obitPara noDisplay">
+                        <p>
+                    <img alt="Kater.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/kater.jpg" />
+                    Martin "Marty" L. Kater, was born on Sep 29, 1942, in Binghamton, NY to Donald and Esther (nee Oretskin) Kater.  Marty, age 80, passed away peacefully on April 11, 2023, at his home in Melbourne (Suntree), Florida.<br /><br />
+                    Marty spent his early years in Germany where his father worked for the U.S. Government on post-war issues.  The Kater family moved back to the U.S. and resided in Washington D.C.  Marty was a paperboy, diligently rising and delivering papers early in the morning.  He was an Eagle Scout and traveled with his troop across the US, visiting many historical sites.  Marty graduated from George Washington High School in 1960 and entered college at Georgia Tech in Atlanta, Georgia.  He was Captain of the Georgia Tech Swim Team and spent summers lifeguarding at various locations.  Marty graduated in 1964 and entered the U.S. Air Force.<br /><br />
+                    Marty's Air Force career spanned 27 years when he rose to Full Colonel.  During this time, he gained his Master's Degree from Golden Gate University, San Francisco, CA.  Assignments included:  Moody AFB, Valdosta, Georgia (flight school); Mather AFB, Sacramento, CA (Navigator/Electronic Warfare School); Wright-Patterson AFB, Dayton, Ohio (during this time, Marty completed 100 B-52 missions in Vietnam); Castle AFB, Merced, CA (B-52 Instructor); Sembach, Germany (ATOC); Ramstein AFB, Germany (HQ USAFE, Salty Control); Offutt AFB, Omaha, NE (Commander, Hq Squadron); Military Enlistment Processing Command, Great Lakes Naval Training Center, Great Lakes, IL (Dir Info Sys);  AFTAC, Patrick AFB, FL (Dir, Comm, and Computer Sys).  Marty retired from the Air Force Jul 31, 1991.   He completed his working career at Kennedy Space Center, Florida.<br /><br />
+                    Marty was passionate about his family, swimming, tennis, traveling, wine, and the San Francisco 49ers.<br /><br />
+                    Marty is survived by his beloved wife, Valarie J Kater (nee Bodnar), son Geoffrey (Cheryl), son James (Mai), and brother Robert (Kathleen) Kater.  Marty has three beautiful grandchildren:  Misha (16), Alina (10), and Carolina (6). He is predeceased by his parents, Donald and Esther Kater.  Expressions of sympathy in Marty's memory can be made to:<br />
+                    -  <a href="https://pva.org/ways-to-give/" target="_blank">Paralyzed Veterans of America (PVA)</a>  <br />
+                    -  <a href="https://www.feedhopenow.org/site/SPageServer/" target="_blank">2nd Harvest Food Bank of America (Central Florida Link Provided)</a>  <br />
+                    -  <a href="https://donate.cancer.org/?campaign=search&gclid=CjwKCAjwue6hBhBVEiwA9YTx8NNsVqGEV68eumIBHCdsGg2Dp_n_GZ-zjwsXu3qQ7E9z7-jQbx4NBRoC-d4QAvD_BwE" target="_blank">American Cancer Society</a>  <br /><br />
+                    A Memorial Service will be held Monday, April 24, 2023, 10-12 am at Beach Funeral Home, 1689 South Patrick Drive, Satellite Beach, FL 32937<br /><br />
+                </article>  
 <%--   Current Obits James Carl Davis - 3/16/2023 *****************************************************************************--%>
                <article>
                     <div>
