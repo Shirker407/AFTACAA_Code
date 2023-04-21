@@ -13,7 +13,7 @@
      <%--sbArt = SnowBall 2018 --%>                                      
      <%--2017AirShowArt = 2017 Air Show Video --%>                                      
      <%--2018AirShowArt = 2018 Air Show Video --%>                                      
-     <%--dedicationArt =  Building Dedication Video --%>                                      
+     <%--dedicationArt =  Building Dedication Video --%>                                     
      <%--reunionArt = 2015 Reunion Video --%>                                      
      <%--WallofHonorArt = Wall of Honor Video --%>                                      
      <%--underArt = Video of New Building Upgrade --%>                                      
@@ -286,6 +286,11 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage2" class="announcement blueText">Notified by Roger Hornsby and Van Roberts that Rich Bohn was found deceased in his home on 12 April 2023.  Additional information will be posted when avaialble.</td>
+                                    <td class="posted blueText">4/21/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myKater" class="announcement blueText">Martin "Marty" L. Kater, 4/11/2023 Obituary was posted.</td>
                                     <td class="posted blueText">4/19/2023</td>
