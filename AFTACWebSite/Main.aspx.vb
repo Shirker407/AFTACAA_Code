@@ -309,8 +309,8 @@ Public Class _Default
                 txtObitSearch.Text = ""
                 OpenArticle("archivedObitsArt")
             Case "eall"
-                OpenArticle("localeallArt")
-                ScrollTo("localeallArt")
+                OpenArticle("eallArt")
+                ScrollTo("eallArt")
             Case "allmail"
                 OpenArticle("allMailArt")
                 ScrollTo("allMailArt")
@@ -348,6 +348,7 @@ Public Class _Default
                 ClientScript.RegisterStartupScript(Me.GetType(), "script", sb.ToString)
             Case "localeall"
                 Dim x As Int32 = 0
+                Dim cnt As Integer
 
                 ds = New DataSet
                 sql = "Exec LocalEAll"
@@ -370,7 +371,7 @@ Public Class _Default
                 gvLocalList.DataBind()
 
                 localEallTitle.Text = "Florida Eall Address Report"
-                lblEallMess.Text = "All Florida Ealls"
+                lblEallMess.Text = x & " Florida Eall Addresses"
                 txtLocalEalls.Text = sb.ToString
 
                 OpenArticle("localeallArt")
@@ -939,7 +940,6 @@ Public Class _Default
 
         txtGood.Text = sbgood.ToString
         txtBad.Text = sbbad.ToString
-
         action = "allmail"
     End Sub
 
