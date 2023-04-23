@@ -287,6 +287,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage4" class="announcement blueText"><a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card avaialbe as prove you are eligable for discounts added to Special Links page.</a></td>
+                                    <td class="posted blueText">4/22/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage2" class="announcement blueText">Notified by Roger Hornsby and Van Roberts that Rich Bohn was found deceased in his home on 12 April 2023.  Additional information will be posted when avaialble.</td>
                                     <td class="posted blueText">4/21/2023</td>
                                     <td class="event blueText"></td> 
@@ -297,7 +302,7 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage1" class="announcement blueText"><a href ="https://www.nps.gov/planyourvisit/veterans-and-gold-star-families-free-access.htm" target ="_bank")>Free ($10.00 processing fee) Lifetime National Parks Pass available to Military Veterans and Gold Star Families</a></td>
+                                    <td id="mySpecalLinksPage1" class="announcement blueText"><a href ="https://www.nps.gov/planyourvisit/veterans-and-gold-star-families-free-access.htm" target ="_bank")>Free ($10.00 on-line processing fee) Lifetime National Parks Pass available to Military Veterans and Gold Star Families</a></td>
                                     <td class="posted blueText">4/19/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
@@ -3886,7 +3891,7 @@
         </article>
 <%--  Eall Address Report 2 Page*****************************************************************************--%>
         <article id="allMailArt" class="myArts noDisplay">
-            <p class="pTitle centerText underLine">Eall Address Report</p>
+            <p class="pTitle centerText underLine">All Email Addresses Report</p>
             <asp:Button ID="Button1" CssClass="autoMarginLeftRight smallBut block bottomMargin1em fontSize1em" runat="server" Text=" Return To Menu " OnClick="modLogReturn_Click" />
             <div class="floatLeft leftMargin2em width40" >
                 <p class="pTitle centerText">Good Emails</p>
@@ -6083,6 +6088,9 @@
                 </li>
                 <li>
                     <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantag:  Benifits/Blog</a>
+                </li>
+                <li>
+                     <a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card avaialbe as prove you are eligable for discounts</a>
                 </li>
                 <li>
                    --DISCOUNTS--
