@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>2023 SnowBall
+  <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>2023 SnowBall
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
 <%--Swell --%>
@@ -115,6 +115,14 @@
                             <div>
                                 <p id="eventMess" class="italic block yellowText" style="font-size:1em;">Click a year to see events.</p>
                             </div>
+                            <div>
+                                <asp:Label ID="lbl2022" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2022"></asp:Label>
+                                <div id="2022Act" class="myActs noDisplay">
+                                    <span id="WWR2022" class="underSel block bottomDot">World Wide Reunion</span>
+                                </div>
+                                <hr class="myHR" />
+                            </div>
+
                             <div>
                                 <asp:Label ID="lbl2021" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2021"></asp:Label>
                                 <div id="2021Act" class="myActs noDisplay">
@@ -4150,6 +4158,7 @@
             </p>
             <hr class="myHR" />
             <h1 id="h1SB2SlideShow" class="bold maroonText underLine" style="cursor:pointer;"> Show Slide Show </h1>
+            <h1 id="btnsb2PhotoGal" class="bold maroonText underLine" style="cursor:pointer;"> Photo Gallery </h1>
 
             <div id="divSB2SlideShow" class="maroonBorder smallShadow noDisplay">
 
