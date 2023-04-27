@@ -1,5 +1,6 @@
 ﻿var action = 'default'
 var MainPageIndex = 'mainHeader';
+var glbGalPath = 'Gal2018SB';
 
 $(document).ready(function () {
     var SlideShowInt;
@@ -4424,6 +4425,21 @@ $(document).ready(function () {
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#lblAOY").offset().top
         }, 500);
+    });
+
+    $('#WWR2022').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow')
+        $(this).css('color', 'lightgreen')
+        glbGalPath = "Gal2022WWR";
+        window.open("PhotoGallery.html");
+    });
+    $('#btnsb2PhotoGal').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow')
+        $(this).css('color', 'lightgreen')
+        glbGalPath = "Gal2018SB";
+        window.open("PhotoGallery.html");
     });
 
     $('#liEventPhotos').click(function () {

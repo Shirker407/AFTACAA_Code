@@ -116,6 +116,14 @@
                                 <p id="eventMess" class="italic block yellowText" style="font-size:1em;">Click a year to see events.</p>
                             </div>
                             <div>
+                                <asp:Label ID="lbl2022" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2022"></asp:Label>
+                                <div id="2022Act" class="myActs noDisplay">
+                                    <span id="WWR2022" class="underSel block bottomDot">World Wide Reunion</span>
+                                </div>
+                                <hr class="myHR" />
+                            </div>
+
+                            <div>
                                 <asp:Label ID="lbl2021" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2021"></asp:Label>
                                 <div id="2021Act" class="myActs noDisplay">
                                     <span id="Golf2021" class="underSel block bottomDot">Golf N'Get Together</span>
@@ -4150,6 +4158,7 @@
             </p>
             <hr class="myHR" />
             <h1 id="h1SB2SlideShow" class="bold maroonText underLine" style="cursor:pointer;"> Show Slide Show </h1>
+            <h1 id="btnsb2PhotoGal" class="bold maroonText underLine" style="cursor:pointer;"> Photo Gallery </h1>
 
             <div id="divSB2SlideShow" class="maroonBorder smallShadow noDisplay">
 
