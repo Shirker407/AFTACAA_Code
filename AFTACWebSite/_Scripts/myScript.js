@@ -239,7 +239,7 @@ $(document).ready(function () {
     });
 
     $('#butCOE').click(function () {
-        window.open('_pdfs/calendar1.pdf', '');
+        window.open('_pdfs/calendar2.pdf', '');
     });
 
     $('#myCorona').click(function () {
