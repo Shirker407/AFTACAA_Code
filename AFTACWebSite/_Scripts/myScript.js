@@ -1446,7 +1446,7 @@ $(document).ready(function () {
         window.open('https://www.offutt.af.mil/News/Article/3090736/team-offutt-welcomes-first-wc-135r-to-its-fleet/fbclid/team-offutt-welcomes-first-wc-135r-to-its-fleet/', '');
     });
 
-  /*  $('#myDecPomo').click(function () {
+    $('#myPomo').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#pomoArt').removeClass('block').addClass('block');
         $('#sectPomoCurrent').removeClass('noDisplay').addClass('block');
@@ -1457,7 +1457,7 @@ $(document).ready(function () {
             scrollTop: $("pomoArt").offset().top
         }, 500);
     });
-    */
+
   /*  $('#myCommPage').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#myCommandArt').removeClass('block').addClass('block');
@@ -2146,8 +2146,8 @@ $(document).ready(function () {
     });
 
     $('#AprilPomo').click(function () {
-        window.open('http://aftacaa.us/_Pomos/PoMo2022_04.pdf', '');
-    });
+        window.open('http://aftacaa.us/_Pomos/PoMo2023_04.pdf', '');
+    });       
 
     $('#AugustPomo').click(function () {
         window.open('http://aftacaa.us/_Pomos/PoMo2022_08.pdf', '');
