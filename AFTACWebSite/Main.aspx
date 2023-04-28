@@ -1,4 +1,4 @@
-  <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>2023 SnowBall
+  <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
 <%--Swell --%>
@@ -68,7 +68,7 @@
 
     <div class="pageWrapper regBorder showShadow" style="font-size:1.1em;">
 <%--Main Menu*****************************************************************************--%>
-        <aside id="mainMenu" class="myAside showShadow  block" runat="server">
+        <aside id="mainMenu" class="myAside showShadow  Block" runat="server">
             <div class="topMargin1em backChocolate whiteText maroonBorder width90 autoMarginLeftRight padding5">
                 <a class="whiteText centerText" style="font-size:1em;" href="mailto:fcalenda@aol.com,aftacaawebmaster@gmail.com,piston_horse@hotmail.com, amoy@cfl.rr.com">Click to send Comments<br />or Report Errors</a>
             </div>
@@ -276,7 +276,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 4/3/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 4/26/2023</span>
                     </div>
                 </div>
 
