@@ -68,6 +68,15 @@ Partial Public Class _Default
     Protected WithEvents mainMenu As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
+    '''lbl2022 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lbl2022 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''lbl2021 control.
     '''</summary>
     '''<remarks>
@@ -363,6 +372,15 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
+
+    '''<summary>
+    '''lblSetup control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblSetup As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''lblListTitle control.

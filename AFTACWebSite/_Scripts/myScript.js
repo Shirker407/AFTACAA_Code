@@ -1,5 +1,6 @@
 ﻿var action = 'default'
 var MainPageIndex = 'mainHeader';
+var glbGalPath = 'Gal2018SB';
 
 $(document).ready(function () {
     var SlideShowInt;
@@ -238,7 +239,7 @@ $(document).ready(function () {
     });
 
     $('#butCOE').click(function () {
-        window.open('_pdfs/calendar.pdf', '');
+        window.open('_pdfs/calendar2.pdf', '');
     });
 
     $('#myCorona').click(function () {
@@ -254,17 +255,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#myWells').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#wallArt').removeClass('noDisplay').addClass('block');
-        $('#wallListings').removeClass('block').addClass('noDisplay');
-        $('#hideListings').removeClass('noDisplay').addClass('block');
-        $('#wallImg').removeClass('noDisplay').addClass('block');
-        $('#wallImg').attr('src', '_photos/20yearwall/Wells.jpg')
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#hideListings").offset().top
-        }, 500);
-    });
+
 
     $('.dpPic').click(function () {
         $('#doMainPic').attr('src', $(this).attr('src'))
@@ -344,19 +335,31 @@ $(document).ready(function () {
             scrollTop: $("#vcsafH2").offset().top
         }, 500);
     });
-
-    $('#myLindsay').click(function () {
+//Displays 20 Year photo from Recent Additions Table 
+    $('#myEddleman').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#wallArt').removeClass('noDisplay').addClass('block');
         $('#wallListings').removeClass('block').addClass('noDisplay');
         $('#hideListings').removeClass('noDisplay').addClass('block');
         $('#wallImg').removeClass('noDisplay').addClass('block');
-        $('#wallImg').attr('src', '_photos/20yearwall/lindsay_ed.jpg')
+        $('#wallImg').attr('src', '_photos/20yearwall/Eddleman.jpg')
+        $('#showPic').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#hideListings").offset().top
         }, 500);
     });
-
+    $('#myLoftis').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#wallArt').removeClass('noDisplay').addClass('block');
+        $('#wallListings').removeClass('block').addClass('noDisplay');
+        $('#hideListings').removeClass('noDisplay').addClass('block');
+        $('#wallImg').removeClass('noDisplay').addClass('block');
+        $('#wallImg').attr('src', '_photos/20yearwall/Loftis.jpg')
+        $('#showPic').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#hideListings").offset().top
+        }, 500);
+    });
     $('#myTaxes').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#myTracy').removeClass('noDisplay').addClass('block');
@@ -1160,6 +1163,11 @@ $(document).ready(function () {
         //image = '_Photos/Wall/' + $(this).attr('id') + '.jpg';
 
         switch ($(this).attr('id')) {
+           case 'youngSel':
+                $('.alumArt').removeClass('block').addClass('noDisplay');
+                $('#young').removeClass('noDisplay').addClass('block');
+                $('#AOYCarousel').removeClass('block').addClass('noDisplay');
+                break;
             case 'seilerSel':
                 $('.alumArt').removeClass('block').addClass('noDisplay');
                 $('#seiler').removeClass('noDisplay').addClass('block');
@@ -1438,7 +1446,7 @@ $(document).ready(function () {
         window.open('https://www.offutt.af.mil/News/Article/3090736/team-offutt-welcomes-first-wc-135r-to-its-fleet/fbclid/team-offutt-welcomes-first-wc-135r-to-its-fleet/', '');
     });
 
-  /*  $('#myDecPomo').click(function () {
+    $('#myPomo').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#pomoArt').removeClass('block').addClass('block');
         $('#sectPomoCurrent').removeClass('noDisplay').addClass('block');
@@ -1449,46 +1457,49 @@ $(document).ready(function () {
             scrollTop: $("pomoArt").offset().top
         }, 500);
     });
-    */
-    $('#myCommPage').click(function () {
+
+  /*  $('#myCommPage').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#myCommandArt').removeClass('block').addClass('block');
         $('.CommandArt').removeClass('block').addClass('noDisplay');
         $('#CommInitial').removeClass('block').addClass('block');
     });
-
-    $('#mySpecalLinksPage').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
+    */
+    $('#myKater').click(function () {
+        OpenObit('Kater');
     });
-    $('#mySpecalLinksPage2').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
+    $('#myJamesDavis').click(function () {
+        OpenObit('JamesDavis');
     });
-    $('#mySpecalLinksPage3').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#specialLinksArt').removeClass('noDisplay').addClass('block');
+      
+    $('#myDaveHamil').click(function () {
+        OpenObit('DaveHamil');
     });
 
-    $('#myDobbins').click(function () {
-        OpenObit('Dobbins');
-    });
-
-    $('#myBalentine').click(function () {
-        OpenObit('Balentine');
-    });
-
-    $('#myPierce').click(function () {
-        OpenObit('Pierce');
-    });
-
-    $('#myKridle').click(function () {
-        OpenObit('Kridle');
-    });
-
-    $('.obitH1').click(function () {
+     $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
+            case 'SchmiedH2':
+                ShowMyObit('Schmied')
+                break;
+            case 'KaterH2':
+                ShowMyObit('Kater')
+                break;
+            case 'JamesDavisH2':
+                ShowMyObit('JamesDavis')
+                break;
+            case 'DaveHamilH2':
+                ShowMyObit('DaveHamil')
+                break;
+            case 'MOWhiteH2':
+                ShowMyObit('MOWhite')
+                break;
+            case 'CameronH2':
+                ShowMyObit('Cameron')
+                break;
+            case 'MasonH2':
+                ShowMyObit('Mason')
+                break;
             case 'DobbinsH2':
                 ShowMyObit('Dobbins')
                 break;
@@ -1760,6 +1771,9 @@ $(document).ready(function () {
                 break;
             case "CTBTO Executive Secretary visits AFTAC - 11/12/2022":
                 OpenNTKfromMenu('CTBTO');
+                break;
+            case "New Nuke-Sniffing Jet Flies Off South America On First International Mission - 1/18/2023":
+                OpenNTKfromMenu('ConstnatPhoenix2023');
                 break;
             case "Finlayson takes command of nuclear treaty monitoring center - 7/6/2022":
                 OpenNTKfromMenu('Finlayson');
@@ -2126,17 +2140,14 @@ $(document).ready(function () {
     });
 
     //**********************************************************************
-    $('#myWise2023').click(function () {
-        window.open('_PDFs/WiSE2023.pdf', '');
-    });
 
   $('#myMinutes').click(function () {
-        window.open('_Minutes/1-9-2023_Minutes.pdf', '');
+        window.open('_Minutes/3-10-2023_Minutes.pdf', '');
     });
 
     $('#AprilPomo').click(function () {
-        window.open('http://aftacaa.us/_Pomos/PoMo2022_04.pdf', '');
-    });
+        window.open('http://aftacaa.us/_Pomos/PoMo2023_04.pdf', '');
+    });       
 
     $('#AugustPomo').click(function () {
         window.open('http://aftacaa.us/_Pomos/PoMo2022_08.pdf', '');
@@ -4178,7 +4189,7 @@ $(document).ready(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $('#showAgenda').css('color', 'lightgreen');
-        window.open('_PDFs/agenda.pdf', '');
+        window.open('_PDFs/agenda2.pdf', '');
     });
 
     $('#showElected').click(function () {
@@ -4414,6 +4425,21 @@ $(document).ready(function () {
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#lblAOY").offset().top
         }, 500);
+    });
+
+    $('#WWR2022').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow')
+        $(this).css('color', 'lightgreen')
+        glbGalPath = "Gal2022WWR";
+        window.open("PhotoGallery.html");
+    });
+    $('#btnsb2PhotoGal').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow')
+        $(this).css('color', 'lightgreen')
+        glbGalPath = "Gal2018SB";
+        window.open("PhotoGallery.html");
     });
 
     $('#liEventPhotos').click(function () {

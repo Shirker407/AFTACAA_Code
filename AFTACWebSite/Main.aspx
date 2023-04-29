@@ -1,7 +1,7 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>2023 SnowBall
+  <%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Main.aspx.vb" Inherits="AFTACWebSite._Default" %>
 
 <%@ Register Assembly="System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
-<%--Swell %>
+<%--Swell --%>
 <%--*****************************************************************************--%>
 <%--*****************************************************************************--%>
      <%--TABLE OF CONTENTS--%>
@@ -13,7 +13,7 @@
      <%--sbArt = SnowBall 2018 --%>                                      
      <%--2017AirShowArt = 2017 Air Show Video --%>                                      
      <%--2018AirShowArt = 2018 Air Show Video --%>                                      
-     <%--dedicationArt =  Building Dedication Video --%>                                      
+     <%--dedicationArt =  Building Dedication Video --%>                                     
      <%--reunionArt = 2015 Reunion Video --%>                                      
      <%--WallofHonorArt = Wall of Honor Video --%>                                      
      <%--underArt = Video of New Building Upgrade --%>                                      
@@ -26,12 +26,13 @@
      <%--golfGetArt = Golf N'GetTogether 2016 --%>                                      
      <%--toiletArt = Toilet Bowl 2016 --%>                                      
 <%--*****************************************************************************--%>
-     
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AFTAC Alumni Association</title>
     <meta charset="utf-8" />
     <!-- Latest compiled and minified CSS -->
@@ -47,6 +48,12 @@
     <link href="_Styles/BasicStyles.css" rel="stylesheet" />
    
     <link href="_Styles/myStyles.css" rel="stylesheet" />
+<%--FAVICON Link lines --%>    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
 </head>
 
 <body>
@@ -60,10 +67,10 @@
     <asp:HiddenField ID="hfIPAddress" runat="server" />
 
     <div class="pageWrapper regBorder showShadow" style="font-size:1.1em;">
-
-        <aside id="mainMenu" class="myAside showShadow  block" runat="server">
+<%--Main Menu*****************************************************************************--%>
+        <aside id="mainMenu" class="myAside showShadow  Block" runat="server">
             <div class="topMargin1em backChocolate whiteText maroonBorder width90 autoMarginLeftRight padding5">
-                <a class="whiteText centerText" style="font-size:1em;" href="mailto:fcalenda@aol.com,aftacaawebmaster@gmail.com,piston_horse@hotmail.com">Click to send Comments<br />or Report Errors</a>
+                <a class="whiteText centerText" style="font-size:1em;" href="mailto:fcalenda@aol.com,aftacaawebmaster@gmail.com,piston_horse@hotmail.com, amoy@cfl.rr.com">Click to send Comments<br />or Report Errors</a>
             </div>
 
             <div class="topMarginHalfem width90 autoMarginLeftRight backChocolate maroonBorder" style="overflow-y: scroll;max-height:30em">
@@ -85,8 +92,8 @@
 
                     <li id="liPoMos" class="liMainMenu bottomDot">Post-Monitors
                         <div id="divPomos" class="underMenu noDisplay">
-                            <span id="pomosArchived" class="underSel block leftMargin1em">Archived Post Monitors</span>
                             <span id="pomosCurrent" class="underSel block leftMargin1em">Recent Post Monitors</span>
+                            <span id="pomosArchived" class="underSel block leftMargin1em">Archived Post Monitors</span>
                         </div>
                     </li>
 
@@ -108,6 +115,14 @@
                             <div>
                                 <p id="eventMess" class="italic block yellowText" style="font-size:1em;">Click a year to see events.</p>
                             </div>
+                            <div>
+                                <asp:Label ID="lbl2022" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2022"></asp:Label>
+                                <div id="2022Act" class="myActs noDisplay">
+                                    <span id="WWR2022" class="underSel block bottomDot">World Wide Reunion</span>
+                                </div>
+                                <hr class="myHR" />
+                            </div>
+
                             <div>
                                 <asp:Label ID="lbl2021" CssClass="block" ForeColor="yellow" Font-Size="1.3em" Font-Bold="true" runat="server" Text="2021"></asp:Label>
                                 <div id="2021Act" class="myActs noDisplay">
@@ -228,6 +243,7 @@
 
         </aside>
 
+<%--Page Header  *****************************************************************************--%>
         <header id="mainHeader" class="myHeader topMargin1em showShadow block" style="margin-left:22%;" runat="server">
             <div class="floatLeft backMoccasin width25" style="background-color:chocolate;">
                 <asp:ImageButton ID="alumniLogo" CssClass="width50 thinMaroonBorder smallShadow" ImageUrl="_Images/alumniLogo.jpg" runat="server" OnClick="alumniLogo_Click" />
@@ -243,7 +259,7 @@
 
             <div class="clear"></div>
         </header>
-        
+<%--Main Page Highlighted Article Buttons  *****************************************************************************--%>        
         <article id="defaultArt" class="myArts noDisplay">
             <div class="floatLeft width55">
                 <div class="floatLeft centerDiv width50">
@@ -260,12 +276,12 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 1/30/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 4/26/2023</span>
                     </div>
                 </div>
 
                 <div class="clear"></div>
-
+<%--Main Page Recent Additions Table  *****************************************************************************--%>  
                 <div>
                     <div class="redBorder width100 padding5 backYellow showShadow">
                         <div class=" width95 centerDiv">
@@ -278,77 +294,89 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">January Minutes Published</td>
-                                    <td class="posted blueText">2/1/2023</td>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myPomo" class="announcement blueText">April Pomo was Published</td>
+                                    <td class="posted blueText">4/27/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage3" class="announcement blueText">Universal Orlando Freedom Pass $200<a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Click Here for Universal Site</a></td>
-                                    <td class="posted blueText">2/1/2023</td>
+                                    <td id="mySpecalLinksPage5" class="announcement blueText"><a href="https://view.m.seaworldparks.com/?qs=9901c02964908f02be655d1bf3b6c43c15279a14733379ef808ba21ef69a112a31ba86ffcf777af3c90b01ab7109f58b7e757eb692b5c3a407de96e3d7a3c020b7f1720b5bcdfef7dcd4f542192ec9e2" target="_blank">4 Free and 6 half price Bush Gardens Tampa Tickets for Veterans!  Register by 14 May and use by 9 July 2023 </a></td>
+                                    <td class="posted blueText">4/24/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage4" class="announcement blueText"><a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card avaialbe as prove you are eligable for discounts added to Special Links page.</a></td>
+                                    <td class="posted blueText">4/22/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage2" class="announcement blueText">Notified by Roger Hornsby and Van Roberts that Rich Bohn was found deceased in his home on 12 April 2023.  Additional information will be posted when avaialble.</td>
+                                    <td class="posted blueText">4/21/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myKater" class="announcement blueText">Martin "Marty" L. Kater, 4/11/2023 Obituary was posted.</td>
+                                    <td class="posted blueText">4/19/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage2" class="announcement RedText"><a href ="https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_bank")> New Nuke-Sniffing Jet Flies Off South America On First International Mission</a></td>
-                                    <td class="posted RedText">1/31/2023</td>
-                                    <td class="event RedText"></td>
-                                </tr>
+                                    <td id="mySpecalLinksPage1" class="announcement blueText"><a href ="https://www.nps.gov/planyourvisit/veterans-and-gold-star-families-free-access.htm" target ="_bank")>Free ($10.00 on-line processing fee) Lifetime National Parks Pass available to Military Veterans and Gold Star Families</a></td>
+                                    <td class="posted blueText">4/19/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDobbins" class="announcement blueText">Carey Leon Dobbins' Obituary was Posted</td>
-                                    <td class="posted blueText">1/28/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWise2023" class="announcement greenText">Women in Science and Engineering Profesional Symposium</td>
-                                    <td class="posted greenText">1/27/2023</td>
-                                    <td class="event greenText">2/8/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myKridle" class="announcement blueText">Robert "Bob" Michael Kridle's Obituary Posted</td>
-                                    <td class="posted blueText">1/24/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage" class="announcement blueText">2023 Disney Military Discouts and 4 AFTAC Facebook Page Links Posted</td>
-                                    <td class="posted blueText">1/24/2023</td>
+                                    <td id="myLoftis" class="announcement blueText">John E. Loftis added to the 20 Year Wall.</td>
+                                    <td class="posted blueText">4/12/2023</td>
                                     <td class="event blueText"></td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBalentine" class="announcement blueText">Tony Balentine's Obituary was Posted</td>
-                                    <td class="posted blueText">1/18/2023</td>
+                                    <td id="mySpecalLinksPage" class="announcement blueText"><a href ="https://www.togetherweserved.com" target ="_bank")>Veterans of the US Military - Stay Connected For Life!  Link to 'Together We Served' site added to Special Links</a></td>
+                                    <td class="posted blueText">4/7/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myEddleman" class="announcement blueText">CMSgt Thomas N. Eddleman added to the 20 Year Wall.</td>
+                                    <td class="posted blueText">4/6/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>                                
+                                
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myJamesDavis" class="announcement blueText">James Carl (Carl, Jimp, Jim, Firehead) Davis, 3/16/2023 Obituary was posted.</td>
+                                    <td class="posted blueText">4/4/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySnowBall" class="announcement greenText">SnowBall Announcement and Form</td>
-                                    <td class="posted greenText">1/16/2023</td>
-                                    <td class="event greenText">2/18/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mybecoming99" class="announcement blueText">Becoming a "99" by Mike Clark</td>
-                                    <td class="posted blueText">1/15/2023</td>
+                                    <td id="myMinutes" class="announcement blueText">March Minutes Published</td>
+                                    <td class="posted blueText">3/30/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="79Years" class="announcement blueText">Check "79 Years Ago"</td>
-                                    <td class="posted blueText">1/14/2023</td>
+                                    <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://vimeo.com/807598018 " target ="_bank")>9S100 Career Field Awarded the Chief Master Sgt. Richard Etchberger Team Award at the AFA Warefare Symposium (see minutes 41:14 - 44:45 of the Video)</a></td>
+                                    <td class="posted blueText">3/30/2023</td>
+                                    <td class="event blueText"></td>  
+                                </tr>
+                                <!--<tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage2" class="announcement blueText"><a href ="https://www.airandspaceforces.com/?p=185363#:" target ="_bank")>AFA Warefare Symposium: The Enlisted Imperative </a></td>
+                                    <td class="posted blueText">3/30/2023</td>
+                                    <td class="event blueText"></td> --> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myDaveHamil" class="announcement blueText">David Earl "Sarge" Hamil, 3/9/2023 Obituary was  posted.</td>
+                                    <td class="posted blueText">3/30/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
+   <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myAFTACPicnic" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Click for details!</td>
+                                    <td class="posted greenText">3/21/2023</td>
+                                    <td class="event greenText"> 3/31/2023</td> 
+                                </tr>-->
+ <!--                                 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCommPage" class="announcement blueText">Check "Command Corner" in Main Menu</td>
-                                    <td class="posted blueText">1/9/2023</td>
+                                    <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Universal Orlando Freedom Pass $200</a></td>
+                                    <td class="posted blueText">2/1/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCoBreakfast" class="announcement greenText">Colorado Chapter Breakfast</td>
-                                    <td class="posted greenText">1/5/2023</td>
-                                    <td class="event greenText">3/4/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPierce" class="announcement blueText">Earl C. Pierce's Obituary was Posted</td>
-                                    <td class="posted blueText">1/4/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
- <!--                                                
+                                                   
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDecPomo" class="announcement blueText">December Pomo was Published</td>
                                     <td class="posted blueText">12/23/2022</td>
@@ -361,19 +389,24 @@
                 </div>
             </div>
 
+ <%--Main Page Right Margin Meeting Notices Box *****************************************************************************--%>  
             <div class="floatLeft width45">
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Monday 13 February<br />
+                    <p class="blueText fontSize1_Halfem centerText">Monday 8 May<br />
                         15:00 - 16:00 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
-                        AFTAC Headquarters,<br />
-                        Patrick Space Force Base, FL<br />
-                        Flag Room<br /> 
-                        Lobby Conference Room<br />
+                        HQ AFTAC <br />
+                        Loby Conference Room<br />
+                        Patrick AFB FL<br />
+                        <!--Beef O'Brady's<br />
+                        724 S Patrick Drive<br /> 
+                        Satellite Beach FL<br />-->
+                        <!--3030 Lake Washington Road<br />
+                        Melbourne Fl<br /> -->
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Ed Lindsay, AFTACAA President, at <a href="MailTo: piston_horse@hotmail.com">piston_horse@hotmail.com</a>
@@ -384,7 +417,7 @@
 
             <div class="clear"></div>
         </article>
-
+<%--Command Corner Page  *****************************************************************************--%>  
         <article id="myCommandArt" class="myArts noDisplay">
                 <p class="pTitle centerTest underLine">Command Corner</p>
 
@@ -683,7 +716,7 @@
 
             </section>
         </article>        
-        
+ <%--Becoming a 99 Article  *****************************************************************************--%>         
         <article id="becoming99Art" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Becoming a "99"</p>
             <p>
@@ -759,49 +792,7 @@
             </p>
         </article>
 
-        <article id="Snow2023" class="myArts noDisplay">
-            <p class="pTitle centerText underLine">SnowBall 2023</p>
-
-            <div class="centerDiv">
-                <img alt="SnowBall.png" class="width25 topMarginMinus1em" src="_Images/Snowball.png" />
-            </div>
-
-            <p>
-                <span class="fontSize2em darkBlueText">2023 Florida AFTAC Alumni Association (AFTACAA), SnowBall
-                Saturday, 18 February 2023
-                Manatee Cove Golf Course (MCGC), Patrick SFB, Florida</span>
-                <br /><br />
-                Since 1999, the Florida AFTAC Alumni Association (AFTACAA), has thrown a themed SnowBall at the start of the new year. We like to have this event when our 'Sage Snowbirds' are in town. We also believe it is a grand way to introduce the newly elected and appointed board members, recognize our new Alumni of the Year (AOY), and Alumni accomplishments, hold a festive get-together and social, and wish old friends a great beginning to a new year.
-                <br /><br />
-                It is also tradition, where we welcome the AFTAC Commander, Vice Commander, Chief Scientist, Director of Staff, Command Chief, Directors, Group and Squadron Commanders, all active-duty military and civilian, and the outlying area commanders and superintendents, that may be on Temporary Duty (TDY) here for a unit leadership conference.
-                <br /><br />
-                This year&#39;s theme will be "Germany", joining previous themes honoring Japan, Hawaii, Germany, Florida, Wyoming, Thailand, Australia, Korea, Nebraska and Colorado, ...locations where AFTAC had or has a presence, among others worldwide, along with mission items of AFTAC.
-                </p>
-                <div class="centerDiv>">
-                    <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="SAVE THE DATE"></asp:Label>
-                </div>
-                <p>
-                Location: Manatee Cove Golf Course (MCGC), Patrick SFB, FL.
-                Social Hour: 5:30 - 6:30; <br />
-                Chimes/Introductions/National Anthem/POW-MIA Remembrance/Sage Salute/Invocation: 6:30. <br />Dinner: 7:00. <br />Break: 7:45. <br />Program: 8:00. <br />Theme: Germany. <br />Entertainment: Music by Ana. <br />Dress: Florida Casual. <br />Menu: Grilled Flat Iron Steak, w/Roasted Shallot Butter, Buttered Baby Red Potatoes and Saut&eacute;ed Mixed Vegetables OR,<br />Chicken Marsala, Baby Red Potatoes, and Saut&eacute;ed Mixed Vegetables. OR,<br />Portabella Stack Eggplant, Tomato, Red Onion, Fresh Mozzarella, Balsamic Glaze (Vegetarian Meal). <br />Includes: House Salad w/Bleu Cheese, Diced Apples, Toasted Almonds
-                w/Raspberry Vinaigrette or House Ranch Dressing, Dinner Rolls, Coffee, IcedTea, and Dessert (Key Lime Pie). <br />Cost: $35.00 pp.  (All inclusive dinner, with gratuity included).<br />
-                </p>
-                <div class="centerDiv>">
-                <asp:Label foreColor="Red" Font-Size="2em" Font-Bold="true" runat="server" Text="RSVP: No Later Than 10 February 2023"></asp:Label>
-                </div>
-                <p>
-                Florida AFTACAA POC: Sean Ryan, Florida AFTACAA Social Committee Chair.
-                <a href="MailTo:oceanblueview@yahoo.com">oceanblueview@yahoo.com</a> or Cell 321-591-9053 (Unlisted).<br />
-                AFTAC Building POC: Mr. George Mirda 321-494-5126.<br />
-                Stay tuned to AFTACAA.US website, Calendar of Events (CoE), or eALLerts, for any updates'.<br />
-                Thank you.
-                <br /><br />
-                Hope to see ya'll there!<br />
-            </p>
-            
-            <input id="btnSnow" class="myBut bottomMargin1em" type="button" value="Get Printable RSVP Form" />
-        </article>
-
+<%--79 Years Article  *****************************************************************************--%>  
         <article id="79YearsArt" class="myArts noDisplay">
             <p>
                 Seems Impossible<br />
@@ -1023,7 +1014,7 @@
 
             <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
         </article>
-
+<%--Colorado Chapter Breacfast 2023 Article  *****************************************************************************--%>  
         <article id="CoBreakfastArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Colorado Chapter Breakfast </p>
 
@@ -1052,14 +1043,14 @@
 
             </p>
         </article>
-
+<%--New Constant Phoenix Article 2022 *****************************************************************************--%> 
         <article id="PhoenixArt" class="myArts noDisplay">
             <p class="pTitle underLine centerText">New WC-135R Constant Phoenix</p>
 
             <div class="centerDiv">
                 <img alt="Pheonix1.png" class="width50 maroonBorder showShadow" src="_Photos/PhoenixPics/Phoenix1.png" />
             </div>
-
+            <byline>Published July 12, 2022 <br />By 55th Wing Public Affairs </byline>
             <p>
                 Team Offutt welcomed a new aircraft to its fleet for the first time in decades when WC-135R 
                 Constant Phoenix tail number 14836 arrived at Lincoln Airport today. This is the first of 
@@ -1076,7 +1067,7 @@
                 <input id="btnMore" class="padding5 myBut" type="button" value="Read More" />
             </div>
         </article>
-
+<%--Friends Search Page  *****************************************************************************--%>
         <article id="FriendsArt" class="myArts noDisplay">
             <aside class="floatLeft width25 topMargin2em leftMargin5em">
                 <p class="centerText pTitle" style="font-size:1.5em;">Member's List</p>
@@ -1140,9 +1131,12 @@
             <div class="clear bottomMargin2em"></div>
 
         </article>
-
+<%--Membership Management Page  *****************************************************************************--%>
         <article id="MembershipArt" class="myArts noDisplay">
-            <aside class=" leftMargin1em floatLeft" style="margin-top:-2em;width:19%;">
+            <aside class=" leftMargin1em floatLeft" style="margin-top:-1em;width:90%;">    
+                <asp:Label ID="lblSetup" CssClass="autoMarginLeftRight" Font-Size="1em" Font-Bold="true" Visible="True" ForeColor="Blue" runat="server" Text=" To Add New Member Click 'Add New' button (bottom of form) before entering data. <br /> To Edit a record, scroll or use search to find name and click on it in list box to load data.<br />"></asp:Label>
+             </aside>
+                <aside class=" leftMargin1em floatLeft" style="margin-top:-2em;width:19%;">
                 <asp:Label ID="lblListTitle" CssClass="block centerText topMargin1em" Font-Size="1.5em" ForeColor="Maroon" Font-Bold="true" runat="server" Text="Entire Database<br/>Deceased Shown"></asp:Label>
                 <asp:Button ID="btnDeceased" Font-Size="1em" CssClass="block myBut autoMarginLeftRight centerText" runat="server" Text="Hide Deceased" OnClick="btnDeceased_Click" />
                 <asp:ListBox ID="lstMembers" CssClass="block topMargin1em padding5" Font-Size=".9em" Font-Bold="true" BackColor="LightGoldenrodYellow" Rows="10" Width="95%" runat="server"  AutoPostBack="True" OnSelectedIndexChanged="lstMembers_SelectedIndexChanged"></asp:ListBox>
@@ -1171,7 +1165,8 @@
                 <div class="clear"></div>
 
             </aside>
-
+           
+               
             <section id="demos" class="floatLeft leftMargin2em bottomMargin2em width75 maroonBorder smallShadow maroonBorder">
                 <asp:Label ID="lblMess" CssClass="autoMarginLeftRight" Font-Size="2em" Font-Bold="true" Visible="False" ForeColor="Blue" runat="server" Text="Data Saved"></asp:Label>
                 <section>
@@ -1358,7 +1353,8 @@
                         <div>
                             <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
                             <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
-                            <asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox>
+<!-- This tet box is a troubleshooting aid and can be assigned values in Main.aspx.vb on lines 1240 and 1273********************************************************************** --> 
+                        <!--<asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox>--> 
                         </div>
                         <asp:Button ID="btnReturnAdminMenu" CssClass="myBut topMarginHalfem" runat="server" Text="Return to Admin Menu" onclick="btnReturnAdminMenu_Click" />
                     </asp:Panel>
@@ -1374,7 +1370,7 @@
             <div class="clear"></div>
 
         </article>
-
+<%--AFTAC December 2021 Open House  *****************************************************************************--%>
         <article id="openHouse2021Art" class="myArts noDisplay maroonBorder showShadow">
             <p class="pTitle centerText">2021 AFTAC Open House</p>
             <p>
@@ -1422,7 +1418,7 @@
                 It was good to get back in the building and talk to those that are now executing the mission. We hope to be able to again visit the building and the Heritage Hall next May during the 2022 WorldWide Reunion.
             </p>
         </article>
-
+<%--AFTACAA Golf Tournement 2021  *****************************************************************************--%>
         <article id="Golf2021Art" class="myArts noDisplay maroonBorder showShadow">
             <p class="pTitle centerText">Fall 2021 Golf N'Get Together</p>
             <p>
@@ -1532,7 +1528,7 @@
                 </div>
 
         </article>
-
+<%--AFTAC Winter Social 2021  *****************************************************************************--%>
         <article id="WinterSocialArt" class="myArts noDisplay maroonBorder showShadow">
 
             <p class="centerText">
@@ -1566,7 +1562,7 @@
                 MSgt David Olsen:  321-494-1412<br />
             </p>
         </article>
-
+<%--AFTAC 91 YEARS OF PROUD 99 SERVICE  *****************************************************************************--%>
         <article id="AFTAC91Art" class="myArts noDisplay maroonBorder showShadow">
             <p id="91Para" class="pTitle centerText underLine">AFTAC 91 YEARS OF PROUD 99 SERVICE</p>
             <img alt="Badge.png" class="autoMarginLeftRight maroonBorder showShadow" src="_Images/91Years/Badge.png" />
@@ -1594,11 +1590,11 @@
         <article id="AFTAC91ClickArt" class="myArts noDisplay">
             <img alt="4Photos.png" class="autoMarginLeftRight width100 topMargin2em" src="_Images/91Years/4Photos.png" />
         </article>
-
+<%--AFTAC WOH Three inductees join past "giants" 2021 *****************************************************************************--%>
         <article id="WOH2021Art" class="myArts noDisplay">
 
             <p id="myWOHPara" class="pTitle centerText">Three inductees join past "giants"<br />on AFTAC Wall of Honor</p>
-
+            <byline>Published June 2, 2021<br />By Susan A. Romano<br />AFTAC Public Affairs</byline>
             <div class="clear"></div>
 
             <div >
@@ -1671,7 +1667,7 @@
                 </p>
             </div>
         </article>
-
+<%--Glen Miller Article *****************************************************************************--%>
         <article id="millerArt" class="myArts noDisplay">
             <p id="millerPara" class="pTitle underLine centerText">The Lone Ranger Rides Again - Wow</p>
             <p>
@@ -1694,7 +1690,7 @@
                 <a class="autoMarginLeftRight" href="https://biggeekdad.com/2016/04/william-tell-overture-glen-campbell/" target="_blank">Click here to see this wonderful video.</a>
             </p>
         </article>
-
+<%--AFTAC AA 2020 Alumni of the year Article *****************************************************************************--%>
         <article id="AOYAwardArt" class="myArts noDisplay">
             <p id="myAwardsPara" class="pTitle centerText underLine">
                 AFTAC Alumni Association 2020 Alumni of the Year Receives his Award<br />By: Phil Godfrey, AFTACAA President
@@ -1738,7 +1734,7 @@
                 Thanks goes to Bob Wiley, who leads our AOY process and selection committee. Bob, Angelina (Ed's daughter) and I were in the Theater celebrating along with Ed. We wish you all could have been there!
             </p>
         </article>
-
+<%--Get Free Tax Prep Help Article *****************************************************************************--%>
         <article id="TaxPrepArt" class="myArts noDisplay">
             <p id="taxPara" class="pTitle centerText">Get Free Tax Prep Help</p>
             <p>
@@ -1776,7 +1772,7 @@
                 Your Florida Alumni Association
             </p>
         </article>
-
+<%--Update on John Nederhoed Article *****************************************************************************--%>
         <article id="NederhoedArt" class="myArts noDisplay">
             <p id="pNederhoed" class="pTitle centerText underLine">Update on John Nederhoed</p>
 
@@ -1788,7 +1784,7 @@
                 The Obituary will follow when it is received.
             </p>
         </article>
-
+<%--Solis Jobs Article *****************************************************************************--%>
         <article id="solisArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Various job openings at Solis Applied Science</p>
 
@@ -1993,7 +1989,7 @@
             </div>
 
         </article>
-
+<%--2020 Florida AFTAC Alumni Association SnowBall XXII Article *****************************************************************************--%>
         <article id="SB2020Art" class="myArts noDisplay">
             <p id="SB2020Para" class="pTitle centerText underLine">2020 Florida AFTAC Alumni Association SnowBall XXII </p>
             <figure>
@@ -2132,6 +2128,8 @@
 
         </article>
 
+<%--45th MDG FLU Shots Available Article *****************************************************************************--%>
+
         <article id="FluShotArt" class="myArts noDisplay">
             <p id="fluShotPara" class="pTitle centerText underLine">45th MDG FLU Shots Available</p>
             <p>
@@ -2151,7 +2149,7 @@
                 Colonel Tracy Bozung, 45 MDG Commander
             </p>
         </article>
-
+<%--2020 Veterans Day Flag Run Article *****************************************************************************--%>
         <article id="FlagRunArt" class="myArts noDisplay">
             <p id="flagRunPara" class="pTitle centerText underLine">2020 Veterans Day Flag Run</p>
 
@@ -2275,7 +2273,7 @@
             <div class="clear"></div>--%>
 
         </article>
-
+<%--Four-Skin Rug Article *****************************************************************************--%>
         <article id="FourSkinArt" class="myArts noDisplay">
             <p id="fourSkinPara" class="pTitle centerText">Four Skin Rug</p>
             <p>
@@ -2310,7 +2308,7 @@
                 Det 421 Aug 77-Oct 78
             </p>
         </article>
-
+<%--Veteran's Day 2020 Article *****************************************************************************--%>
         <article id="VeteransDay2020Art" class="myArts noDisplay">
             <p class="pTitle centerText">
                 Veteran's Day 2020
@@ -2362,7 +2360,7 @@
                 After hours, contact the Nurse Advice Line at 1-800-874-2273.
             </p>
         </article>
-
+<%--AFTAC CCs/CVs over the Years Page *****************************************************************************--%>
         <article id="CommandArt" class="myArts noDisplay">
             <p id="CommandTitle" class="pTitle centerText underLine">AFTAC CCs/CVs over the Years</p>
 
@@ -2374,6 +2372,11 @@
                         <td class="cmdHeaderName">Name</td>
                         <td class="cmdHeaderDate">Date Installed</td>
                         <td class="cmdHeaderSource">Source</td>
+                    </tr>
+                     <tr>
+                        <td class="cmdName">Col James Finlayson</td>
+                        <td class="cmdDate">2 June 2022</td>
+                        <td class="cmdSource">Intel</td>
                     </tr>
                     <tr>
                         <td class="cmdName">Col Katherine Barber</td>
@@ -2669,10 +2672,10 @@
                 </table>
             </div>
         </article>
-
+<%--AFTAC Alumni Association seeking donations for memorial at Patrick Air Force Base Article *****************************************************************************--%>
         <article id="FloridaTodayArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">AFTAC Alumni Association seeking donations for memorial at Patrick Air Force Base</p>
-                
+            <Byline>By Time Walters, Florida Today, 27 August 2020</Byline>     
             <div id="butmemReturn" class="autoMarginLeftRight backDarkBlue width30 padding5" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
                 <span class="centerText backDarkBlue lightBlueText">Return to<br />Memorial Article</span>
             </div>
@@ -2725,7 +2728,7 @@
             </div>
 
         </article>
-
+<%--Posting of Our Memorial  Names Article *****************************************************************************--%>        
         <article id="MemorialArt" class="myArts noDisplay">
             <p id="memTitle" class="pTitle centerText underLine">Posting of Our Memorial  Names </p>
 
@@ -2837,7 +2840,7 @@
                 Respectfully,<br />Your AFTAC Alumni Association and the AFTAC Memorial Corporation
             </p>
         </article>
-
+<%--Fun_Spot/Korean_Taxi Video *****************************************************************************--%> 
 <%--        <article id="FunSpotArt" class="myArts noDisplay">
             <video id="vidFunSpot" preload="auto"  controls="controls" class="width90 autoMarginLeftRight maroonBorder showShadow">
                 <source src="_Fun_Spot/Korean_Taxi.mp4" type="video/mp4" />
@@ -2846,7 +2849,7 @@
                 Sorry, but your browser does not support video
             </video>
         </article>--%>
-
+<%--HPCON Bravo 16 June 2020 Article *****************************************************************************--%> 
         <article id="HPCONArt" class="myArts noDisplay">
             <p id="HPCONPara" class="pTitle centerText underLine topMargin3em">HPCON Bravo</p>
             <p class=" width75 centerText autoMarginLeftRight maroonBorder showShadow">
@@ -2860,7 +2863,7 @@
                 &nbsp;&nbsp;With a special "Hat Tip" to Sean Ryan
             </p>
         </article>
-
+<%--TESTING IN BREVARD COUNTY 2020 Article *****************************************************************************--%>
         <article id="covidTestArt" class="myArts noDisplay">
             <p id="covidPara" class="centerText pTitle underLine">TESTING IN BREVARD COUNTY</p>
 
@@ -2891,7 +2894,7 @@
 
             </p>
         </article>
-
+<%--Corona Virus Gate Procedure 2020 Article *****************************************************************************--%>
         <article id="gateArt" class="myArts noDisplay">
             <p class="pTitle centerText">
                 Corona Virus Gate Procedure
@@ -2930,7 +2933,7 @@
                 Brig Gen Doug Schiess
             </p>
         </article>
-
+<%-- 2019 AFTAC Dining Out Article *****************************************************************************--%>
         <article id="aftacDOArt" class="myArts noDisplay">
             <p id="doPara" class="pTitle centerText underLine">
                 2019 AFTAC Dining Out<br />
@@ -2982,7 +2985,7 @@
                 <input id="btnDoSlide" class="myBut leftMargin4em" type="button" value=" Start Slide Show " />
             </div>
         </article>
-
+<%-- AFTAC MEMORIAL CORPORATION (AFTACMC) Article *****************************************************************************--%>
         <article id="wallMemArt" class="myArts noDisplay">
             <p id="menWallPara" class="centerText underLine">AFTAC MEMORIAL CORPORATION (AFTACMC) </p>
 
@@ -2997,10 +3000,7 @@
                 <br /><br />
                 In total, 29 donations (including 10 responses from the mailing) have been received to support the building of the memorial.  In addition two pledges have been made, one by the AFTAC Alumni Association for $10,000, and one by as yet unnamed Alumni for $5,000.  Of the 29 donors, there are 3 Silver ($2500-$4999) and one Bronze ($1000$2499).   
                 <br /><br />
-                It was our desire to have the Memorial Built and to have the Dedication Ceremony as a part of the 2021 AFTAC 
-                <br /><br />
-                World Wide Reunion (WWR) in 2021 (around the June 
-                timeframe), however, that dedication timeline is no longer possible. 
+                It was our desire to have the Memorial Built and to have the Dedication Ceremony as a part of the 2021 AFTAC World Wide Reunion (WWR) in 2021 (around the June timeframe), however, that dedication timeline is no longer possible. 
                 <br /><br />
                 As of the date of this article, the AFTACMC has approximately $5700 in the building fund, with $15,000 in pledges for a total of $20,700.  The estimated cost to build the proposed Memorial is $150,000 to $180,000.  So you can see we are a long way off.     
                 <br /><br />
@@ -3037,7 +3037,7 @@
                 <div class="clear"></div>
             </div>
         </article>
-
+<%-- 2019 AFTAC Fall Picnic Article *****************************************************************************--%>
         <article id="picnicArt" class="myArts noDisplay">
             <p id="picnicPara" class="pTitle centerText">2019 AFTAC Fall Picnic </p>
 
@@ -3078,7 +3078,7 @@
                 Treasurer, Publicity/Social Chair, AFTACAA 
             </p>
         </article>
-
+<%-- CMSGT Amy Long new AFTAC Command Chief Article *****************************************************************************--%>
         <article id="longArt" class="myArts noDisplay">
             <p id="longPara" class="pTitle centerText">CMSGT Amy Long new AFTAC Command Chief</p>
 
@@ -3154,7 +3154,7 @@
                 Chief Master Sergeant October 2015
             </p>
         </article>
-
+<%--  Florida AFTAC Alumni Association Monthly Meeting 2019 Article *****************************************************************************--%>
         <article id="meetingArt" class="myArts noDisplay">
             <p class="meetingTitle pTitle underLine centerText maroonText" style="font-size: 2em;">
                 Florida AFTAC Alumni Association Monthly Meeting<br />                  
@@ -3192,7 +3192,7 @@
                 <a href="MailTo:robert.snelgrove@us.af.mil">Mr.  Bruce Snelgrove</a>-- 321-494-6166 (Unlisted)
             </p>
         </article>
-
+<%--  Fun Spot Article *****************************************************************************--%>
         <article id="funSpotArt" class="myArts noDisplay">
             <p id="fsPara" class="pTitle width60 centerText autoMarginLeftRight maroonBorder showShadow">
                 Fun Spot
@@ -3213,7 +3213,7 @@
             </div>
 
         </article>
-
+<%--  2019 AFTAC Wall of Honor Inductees Article *****************************************************************************--%>
         <article id="2019WOHArt" class="myArts noDisplay">
             <div class="floatLeft width25">
                 <img alt="WOH1.jpg" class="width80 autoMarginLeftRight maroonBorder showShadow" src="_Photos/News2Know/WOH1.jpg" />
@@ -3279,7 +3279,7 @@
                 One Team, One Fight!
             </p>
         </article>
-
+<%--  News Of The Toilet Bowl Winner 2019? Article *****************************************************************************--%>
         <article id="tbWinnersArt" class="myArts noDisplay">
             <p class="pTitle centerText">News Of The Toilet Bowl Winners</p> 
 
@@ -3299,7 +3299,7 @@
                 NOTE: (From Post Monitor Editor) It was a spectacular day and the alumni association was proud to be a part of the beverage dispensing group. Helping were Frank Calenda, Sean Ryan, Doug Colbary, and John Horsch made a 20-minute appearance!! Also, thanks to several of the active duty for their assistance with setting up the kegs and pouring when the lines got long.
             </p>
         </article>
-
+<%--  Annual Spring Golf-n'GetTogether XXXIV 2019 Article *****************************************************************************--%>
         <article id="newGolfArt" class="myArts noDisplay">
             <p class="pTitle centerText">AFTAC Alumni Association (AFTACAA)<br />
                 Annual Spring Golf-n'GetTogether XXXIV<br />
@@ -3321,7 +3321,7 @@
                 phone: 321-494-6166 
             </p>
         </article>
-
+<%--  2019 AFTAC Awards Ceremony Article *****************************************************************************--%>
         <article id="aftacAwardsArt" class="myArts noDisplay">
             <p class="pTitle centerText">
                 2019 AFTAC Awards Ceremony<br />
@@ -3368,7 +3368,7 @@
                 </div> 
             </section>
         </article>
-
+<%--  AFTAC Alumni Retreat Attendance 2019 Article *****************************************************************************--%>
         <article id="retreatArt" class="myArts noDisplay">
             <p class="pTitle centerText">AFTAC Alumni Retreat Attendance</p> 
             <p>
@@ -3431,7 +3431,7 @@
                 Article and Photos by Bob Chadwick, AFTAC Alumni
             </p>
         </article>
-
+<%--  Mark Smith Wooden AFTAC Display Article *****************************************************************************--%>
         <article id="woodenHQArt" class="myArts noDisplay">
             <img alt="Wooden HQ.jpg" class="width70 autoMarginLeftRight maroonBorder showShadow" src="_Photos/Wooden HQ.jpg" />
             <p class="topMargin2em">
@@ -3451,36 +3451,19 @@
                 Mark Smith
             </p>
         </article>
-
+<%--  AFTAC Toilet Bowl 2017 Article *****************************************************************************--%>
         <article id="toilet2017Art" class="myArts noDisplay">
             <p class="pTitle centerText">AFTAC Toilet Bowl 2017<br />by George Mirda</p>
             <p>
                 <img class="floatLeft width25 rightMarginHalfem maroonBorder showShadow" alt="tb1.jpg" src="_Photos/ToiletBowl/TB1.JPG" />
-                December 1st in the
-                North means football,
-                snow and below
-                zero temperatures,
-                but at the
-                Viera Regional
-                Sports Complex
-                and to AFTAC active
-                duty, civilians,
-                contractors and
-                alumni the temps
-                are 80F, beer and softball tournaments.
+                December 1st in the North means football, snow and below zero temperatures,
+                but at the Viera Regional Sports Complex and to AFTAC active duty, civilians, contractors and alumni the temps are 80F, beer and softball tournaments.
                 <br /><br />
-                Friday began at 0900 with spirited play and challenge
-                rounds. Event lead, SMSgt Steve "Carp" Carpenter
-                from DO, organized committees and set up a fantastic
-                venue for hundreds of attendees with all the trimmings
-                (barbeque pork a la TSgt Chevis Stanley) dogs, burgers,
-                even an Italian Ice truck. Alumni hosted and managed
-                4 kegs of beer and a tasty cider to help cool down
-                the players. John Horsch, Frank Calenda, Ed Lindsey
-                assured tradition and
-                99 culture were maintained.
+                Friday began at 0900 with spirited play and challenge rounds. Event lead, SMSgt Steve "Carp" Carpenter from DO, organized committees and set up a fantastic venue for hundreds of attendees with all the trimmings
+                (barbeque pork a la TSgt Chevis Stanley) dogs, burgers, even an Italian Ice truck. Alumni hosted and managed 4 kegs of beer and a tasty cider to help cool down
+                the players. John Horsch, Frank Calenda, Ed Lindsey assured tradition and 99 culture were maintained.
                 <br /><br />
-                <img class="floatRight width25 leftMarginHalfem maroonBorder showShadow" alt="tb2.jpg" src="_Photos/ToiletBowl/TB2.JPG" />
+                <img class="floatRight width25 leftMarginHalfem maroonBorder showShadow" alt="tb2.jpg" src="_Photos/ToiletBowl/tb2.JPG" />
                 The tournament was
                 superbly honchoed
                 by Kathie Querry who
@@ -3511,12 +3494,7 @@
                 trophy.
                 <br /><br />
                 <img class="floatRight width25 leftMarginHalfem maroonBorder showShadow" alt="tb4.jpg" src="_Photos/ToiletBowl/TB4.JPG" />
-                Highlights of the
-                day were, for the
-                first time in a long
-                time, a lack of major
-                injuries, some
-                terrific cornhole
+                Highlights of the day were, for the first time in a long time, a lack of major injuries, some terrific cornhole
                 mini-tourneys, long
                 chow lines, but
                 satisfyingly more
@@ -3529,23 +3507,16 @@
                 he and Command Chief Joseph presented the latrine-themed
                 awards.
                 <br /><br />
-                The Toilet Bowl harkens back to it's annual namesake
-                softball tournament 4 decades ago at AFTAC's depot/
-                laboratory on McClellan AFB, California. My observation
-                is that deadly cigarettes have been replaced with
-                much more healthy cellphones. Soft drinks have taken
-                a backseat to bottled water. Yet what hasn't changed is
-                the competitive spirit and camaraderie that sports
-                brings out in everyone whether player, official or spectator.
-                Plus the USAF's finest organization and best
-                people made it a day to remember for years to come.
+                The Toilet Bowl harkens back to it's annual namesake softball tournament 4 decades ago at AFTAC's depot/laboratory on McClellan AFB, California. My observation is that deadly cigarettes have been replaced with much more healthy cellphones. Soft drinks have taken
+                a backseat to bottled water. Yet what hasn't changed is the competitive spirit and camaraderie that sports brings out in everyone whether player, official or spectator.
+                Plus the USAF's finest organization and best people made it a day to remember for years to come.
             </p>
         </article>
-
+<%--  iFrameArt Article *****************************************************************************--%>
         <article id="iFrameArt" class="myArts width100 noDisplay">
             <iframe id="myFrame" class="width100"> style="height=" & winHeight & "px"</iframe>
         </article>
-
+<%--  AFTACAA Board Meeting Minutes by Year Page *****************************************************************************--%>
         <article id="minutesArt" class="myArts noDisplay">
             <p class="pTitle centerText">AFTACAA Board Meeting Minutes by Year</p>
 
@@ -3553,6 +3524,8 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/3-10-2023_Minutes.pdf" target="_blank">3-10-2023</a></li>
+                    <li><a href="_Minutes/2-13-2023_Minutes.pdf" target="_blank">2-13-2023</a></li>
                     <li><a href="_Minutes/1-9-2023_Minutes.pdf" target="_blank">1-9-2023</a></li>
                     </ul>
                 </div>
@@ -3702,7 +3675,7 @@
             <div class="clear"></div>
 
         </article>
-
+<%--  2019 Colorado World Wide Reunion Article *****************************************************************************--%>
         <article id="coloReunionArt" class="myArts noDisplay maroonBorder showShadow">
             <p class="pTitle centerText">2019 Colorado World Wide Reunion</p>
 
@@ -3784,7 +3757,7 @@
                 </p>
             </div>
         </article>
-
+<%--  Federal TriCare Dental and Vision Plans Changing 2018 Article*****************************************************************************--%>
         <article id="triCareArt" class="myArts noDisplay">
             <p class="pTitle centerText">Federal TriCare Dental and Vision Plans Changing</p>
 
@@ -3817,7 +3790,7 @@
             <div class="clear"></div>
             <p class="pTitle">Regards, Your Alumni Website guys</p>
         </article>
-
+<%--  Awards and Wall of Honor Presentations (in Planning) Article*****************************************************************************--%>
         <article id="awardsArt" class="myArts noDisplay">
             <p class="pTitle centerText">Awards and Wall of Honor Presentations</p>
 
@@ -3840,7 +3813,7 @@
                 Congratulations AFTAC, on achieving another Air Force Organizational Excellence Award! We were 1 of 10 organizations within Air Combat Command chosen to receive this honor, and it is no doubt due solely to our professional workforce's commitment to the mission and dedication in service to our Nation. 
             </p>
         </article>
-
+<%--  AFTAC Ladies Christmas Luncheon Article*****************************************************************************--%>
         <article id="ladiesLunchArt" class="myArts noDisplay">
             <p class="pTitle centerText">
                 AFTAC Ladies Christmas Luncheon<br />
@@ -3860,7 +3833,7 @@
                 <a href="MailTo:jem2415@earthlink.net">jem2415@earthlink.net</a> to be placed on the list of those who receive a direct invitation.
             </p>
         </article>
-
+<%--  70th Anniversary of AFTAC Article*****************************************************************************--%>
         <article id="diningOut" class="myArts noDisplay">
             <p class="pTitle centerText">
                 70th Anniversary of AFTAC<br />
@@ -3891,7 +3864,7 @@
                 </p>
             </div>
         </article>
-
+<%--  AFTAC's Last 70 Years Slide Show*****************************************************************************--%>
         <article id="last70yearArt" class="myArts noDisplay">
             <p class="pTitle topMargin1em centerText underLine">AFTAC's Last 70 Years</p>
 
@@ -3904,13 +3877,13 @@
                 <div class="clear"></div>
             </div>
         </article>
-
+<%--  Modifications Report Page*****************************************************************************--%>
         <article id="modlog" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Modification Log</p>
             <asp:Button ID="modLogReturn" CssClass="autoMarginLeftRight smallBut block bottomMargin1em fontSize1em" runat="server" Text=" Return To Menu " OnClick="modLogReturn_Click" />
             <asp:GridView ID="gvModLog" CssClass="autoMarginLeftRight topMargin1em" Font-Bold="true" runat="server"></asp:GridView>
         </article>
-
+<%--  EAll Report Page *****************************************************************************--%>
         <article id="eallArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Eall Address Report</p>
             <asp:Button ID="butEallReturn" CssClass="autoMarginLeftRight smallBut block bottomMargin1em fontSize1em" runat="server" Text=" Return To Menu " OnClick="modLogReturn_Click" />
@@ -3934,9 +3907,9 @@
             </asp:Panel>
             
         </article>
-
+<%--  Eall Address Report 2 Page*****************************************************************************--%>
         <article id="allMailArt" class="myArts noDisplay">
-            <p class="pTitle centerText underLine">Eall Address Report</p>
+            <p class="pTitle centerText underLine">All Email Addresses Report</p>
             <asp:Button ID="Button1" CssClass="autoMarginLeftRight smallBut block bottomMargin1em fontSize1em" runat="server" Text=" Return To Menu " OnClick="modLogReturn_Click" />
             <div class="floatLeft leftMargin2em width40" >
                 <p class="pTitle centerText">Good Emails</p>
@@ -3950,7 +3923,7 @@
 
             <div class="clear"></div>
         </article>
-
+<%--  Wunderground Weather Hurricane Tracking Article *****************************************************************************--%>
         <article id="wunderArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Wunderground Weather</p>
             <p>
@@ -3977,7 +3950,7 @@
                 <a class="underLine centerText" href="https://www.wunderground.com/hurricane" target="_blank" style="font-size:2em;">Wunderground Weather</a>
             </div>
         </article>
-
+<%--  National Hurricane Center Hurricane Tracking Article *****************************************************************************--%>
         <article id="nhcArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">National Hurricane Center</p>
             <p>
@@ -4006,7 +3979,7 @@
                 <a class="underLine centerText" href="http://www.nhc.noaa.gov/?atlc" target="_blank" style="font-size:2em;">National Hurricane Center</a>
             </div>
         </article>
-
+<%--  West Coast Chapter Fall Social & Election Of Officers 2017 Article *****************************************************************************--%>
         <article id="wccelectionArt" class="myArts noDisplay">
             <p class="pTitle centerText topMargin1em underLine">West Coast Chapter Fall Social & Election Of Officers</p>
 
@@ -4024,7 +3997,7 @@
                 </p>
             </div>
         </article>
-
+<%--  Wall of Honor Selection Process begins in August (no Year) Article *****************************************************************************--%>
         <article id="wallhonorArt" class="myArts noDisplay">
             <p class="pTitle centerText topMargin1em underLine">Wall of Honor Selection Process begins in August</p>
             <p>
@@ -4037,7 +4010,7 @@
                 Please contact Bob at <a href="MailTo:rwiley1@cfl.rr.com">rwiley1@cfl.rr.com</a> with any questions you may have.
             </p>
         </article>
-
+<%--  AFTAC Booster Club News Article *****************************************************************************--%>
         <article id="aftacboosterArt" class="myArts noDisplay">
             <p class="pTitle centerText">AFTAC Booster Club News</p>
 
@@ -4047,7 +4020,7 @@
                 <b>NOTE: </b>Other than the paragraph above, this page is under construction.
                 </p>
         </article>
-
+<%--  A Piece of History - by Jack O'Connor Article *****************************************************************************--%>
         <article id="oconnerArt" class="myArts noDisplay">
             <p class="pTitle centerText">A Piece of History - by Jack O'Connor</p>
 
@@ -4081,7 +4054,7 @@
                 <br /><br />
                 Though we had nothing to show for our long flight but flight time logged, it was still a successful mission. Just like hunting or fishing, there would be better results on the next time out!            </p>
         </article>
-
+<%--  Elections Meeting Article *****************************************************************************--%>
         <article id="annualmeetingArt" class="myArts noDisplay">
             <p class="pTitle centerText">
                 Elections Meeting
@@ -4095,7 +4068,8 @@
 
             </p>
         </article>
-      
+  
+<%--  Colorado Alumni Breakfast 2018 Article *****************************************************************************--%>    
         <article id="CoAlumniBreakfastArt" class="myArts noDisplay">
             <p class="pTitle centerText">Colorado Alumni Breakfast</p>
             <p class="pTitle centerText maroonBorder smallShadow" style="font-size: 25px">
@@ -4113,7 +4087,8 @@
                 <span style="font-weight: bold">Colorado Alumni POC:</span> Bryce Dunn, <a href="mailto:EchoesPublisher@aftacco.org?subject=AACO%20Alumni%20Breakfast">EchoesPublisher@aftacco.org</a><br/>
             </p>
         </article>
-
+  
+<%--  History and Heritage: Similar, yet different Commentary Article *****************************************************************************--%>  
         <article id="heritageArt" class="myArts noDisplay">
             <p class="pTitle">
                 History and Heritage: Similar, yet different Commentary 
@@ -4135,7 +4110,7 @@
                 History is our past; heritage is a reminder of our past.  Or as I like to say, history makes us smarter; heritage makes us prouder.         
             </p>
         </article>
-
+<%--  SnowBall 2018 Submitted By Gene and Dee Melchior Article *****************************************************************************--%> 
         <article id="sbArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">SnowBall 2018<br />Submitted By Gene and Dee Melchior</p>
 
@@ -4179,7 +4154,7 @@
                 </p>
             </section>
         </article>
-
+<%--  2018 AFTAC Alumni Association (AFTACAA) Snowball XX Article *****************************************************************************--%> 
         <article id="sb2Art" class="myArts noDisplay">
             <p class="pTitle centerText bold">2018 AFTAC Alumni Association (AFTACAA) Snowball XX</p>
             <p class="centerText">
@@ -4188,6 +4163,7 @@
             </p>
             <hr class="myHR" />
             <h1 id="h1SB2SlideShow" class="bold maroonText underLine" style="cursor:pointer;"> Show Slide Show </h1>
+            <h1 id="btnsb2PhotoGal" class="bold maroonText underLine" style="cursor:pointer;"> Photo Gallery </h1>
 
             <div id="divSB2SlideShow" class="maroonBorder smallShadow noDisplay">
 
@@ -4221,7 +4197,7 @@
                 Judy Milam-Henderson and Michelle Ryan made centerpieces decorated with nautical figures and "sea like" items, that were an awesome compliment to the ship displays. Thank you Judy and Michelle…It added so much color and "theme diversity" to the guest tables. A special thanks to all Team AFTAC Alumni Members and Spouses that volunteered to help with the various tasks and support required to provide for an awesome evening for all in attendance, once again. We look forward to the 2019 Snowball XXI in January 2019, when the Alumni gather once again, to mingle, socialize, and reminisce of the times we were in and the current AFTAC of today and recognize 2019 AOY.
             </p>
         </article>
-
+<%--  AFTAC Mission Briefing Video *****************************************************************************--%> 
 <%--        <article id="SeminarArt" class="myArts noDisplay">
             <div id="SeminarVideo" class="myvids nodisplay">
                 <video id="vidSem" preload="auto" controls="controls" poster="_images/Building Dedication.png" class="width60 maroonBorder showShadow">
@@ -4232,7 +4208,7 @@
                 </video>
             </div>
         </article>--%>
-
+<%--  2017 Melbourne Air Show Video *****************************************************************************--%> 
 <%--        <article id="2017AirShowArt" class="myArts noDisplay">
             <div id="2017AirShowVideo" class="myvids nodisplay">
                 <video id="2017vidAirShow" preload="auto" controls="controls" poster="_images/airshow.png" class="width60 autoMarginLeftRight maroonBorder showShadow">
@@ -4243,8 +4219,8 @@
                 </video>
             </div>
         </article>--%>
-
-<%--        <article id="2015ReunionArt" class="myArts noDisplay">
+<%--  2015 AFTAC Reunion Video *****************************************************************************--%> 
+<%--      <article id="2015ReunionArt" class="myArts noDisplay">
             <div id="2015ReunionVideo" class="myvids nodisplay">
                 <video id="2015Reunion" preload="auto" controls="controls" poster="_images/airshow.png" class="width60 autoMarginLeftRight maroonBorder showShadow">
                     <source src="_Videos/2015 AFTAC Reunion.mp4" type="video/mp4" />
@@ -4253,9 +4229,9 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>--%>
-
-        <article id="2018AirShowArt" class="myArts noDisplay">
+        </article>-->
+<%--  2018_Melbourne_Air_Show Video *****************************************************************************--%> 
+<%--        <article id="2018AirShowArt" class="myArts noDisplay">
             <div id="2018AirShowVideo" class="myvids nodisplay">
                 <video id="2018vidAirShow" preload="auto" controls="controls" poster="_images/airshow.png" class="width60 autoMarginLeftRight maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/2018_Melbourne_Air_Show.mp4" type="video/mp4" />
@@ -4264,8 +4240,8 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>
-
+        </article>-->
+<%--  AFTAC Building Dedication Video *****************************************************************************--%>
 <%--        <article id="dedicationArt" class="myArts noDisplay">
             <div id="dedicationVideo" class="myvids nodisplay">
                 <video id="vidDed" preload="auto" controls="controls" poster="_images/Building Dedication.png" class="width60 maroonBorder showShadow">
@@ -4275,9 +4251,9 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>
-
-        <article id="honorVidArt" class="myArts noDisplay">
+        </article>-->
+<%--  Wall of Honor Video *****************************************************************************--%>
+<%--        <article id="honorVidArt" class="myArts noDisplay">
             <div id="honorVideo" class="myvids nodisplay">
                 <video id="vidHonor" preload="auto" controls="controls" poster="_images/Building Dedication.png" class="width60 maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/Wall of Honor.mp4" type="video/mp4" />
@@ -4287,9 +4263,9 @@
                 </video>
             </div>
 
-        </article>
-
-        <article id="stonehengeArt" class="myArts noDisplay">
+        </article>-->
+<%--  Stonehenge Video *****************************************************************************--%>
+<%-- %>        <article id="stonehengeArt" class="myArts noDisplay">
             <div id="stonehengeVideo" class="myvids nodisplay">
                 <video id="vidstonehenge" preload="auto" controls="controls" poster="_images/Building Dedication.png" class="width60 maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/Stonehenge.mp4" type="video/mp4" />
@@ -4299,9 +4275,9 @@
                 </video>
             </div>
 
-        </article>
-
-        <article id="SeminarArt" class="myArts noDisplay">
+        </article>-->
+<%--  AFTAC Seminar Video *****************************************************************************--%>
+ <%--       <article id="SeminarArt" class="myArts noDisplay">
             <div id="SeminarVideo" class="myvids nodisplay">
                 <video id="vidSem" preload="auto" controls="controls" poster="_images/Building Dedication.png" class="width60 maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/AFTAC Seminar.mp4" type="video/mp4" />
@@ -4310,9 +4286,9 @@
                     Sorry, but your browser does not support video
                 </video>
             </div>
-        </article>
-
-        <article id="underArt" class="myArts noDisplay">
+        </article>-->
+<%--  AFTAC UPGRADE Video *****************************************************************************--%>
+<%--        <article id="underArt" class="myArts noDisplay">
             <div id="underVideo" class="myvids nodisplay">
                 <video id="vid_Under" preload="auto" controls="controls" poster="_images/upgrade.png" class="width60 maroonBorder showShadow">
                     <source src="https://aftacaa.us/_Videos/AFTAC UPGRADE.mp4" type="video/mp4" />
@@ -4323,8 +4299,8 @@
 
             <p class="centerText">Video by Clark Creery</p>
             </div>
-        </article>--%>
-
+        </article>-->
+<%--  History of AFTAC Alumni Association Article *****************************************************************************--%>
         <article id="historyAlumniArt" class="myArts noDisplay">
             <asp:Label ID="Label17" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="History of AFTAC Alumni Association"></asp:Label>
 
@@ -4414,7 +4390,7 @@
 
             </div>
         </article>
-
+<%--  AFTAC Mission Article *****************************************************************************--%>
         <article id="historyArt" class="myArts noDisplay">
             <div>
                 <img alt="AFTAC LOGO" class="autoMarginLeftRight width30 topMargin2em maroonBorder smallShadow" src="_Images/AFTACLogo.JPG" />
@@ -4464,7 +4440,7 @@
                 (321) 494-7688
             </p>
         </article>
-
+<%--  Memories of an OL Article *****************************************************************************--%>
         <article id="olMemoriesArt" class="myArts noDisplay">
             <p class="pTitle centerText">Memories of an OL</p>
 
@@ -4484,7 +4460,7 @@
                 Michael J. Marcus
             </p>
         </article>
-
+<%--  20 Year Wall Of Service Honorees Page *****************************************************************************--%>
         <article id="wallArt" class="myArts noDisplay">
             <p id="paraWallTitle" class="pTitle block centerText" style="font-size:2.5em;">
                 20 Year Wall Of Service Honorees
@@ -4550,12 +4526,13 @@
                             <li id="Dohaney" class="my20YearLi">Dohaney, Brian T.</li>
                             <li id="Draper" class="my20YearLi">Draper, Reginald A.</li>
                             <li id="Dunn" class="my20YearLi">Dunn, Bryce B.</li>
-                            <li id="Farrell" class="my20YearLi">Farrell, Michael F.</li>
+                            <li id="Eddleman" class="my20YearLi">Eddleman, Thomas N.</li>
                         </ul>
                     </div>
 
                     <div class="floatLeft leftMargin1em topMarginMinus1em backMoccasin maroonBorder" style="height:32em;width:22%;">
                         <ul id="WallList3" class="myList20Year topMargin1em">
+                            <li id="Farrell" class="my20YearLi">Farrell, Michael F.</li>
                             <li id="Fish" class="my20YearLi">Fish, Norman</li>
                             <li id="French" class="my20YearLi">French, Lloyd S.</li>
                             <li id="Fuhr" class="my20YearLi">Fuhr, William R.</li>
@@ -4575,16 +4552,17 @@
                             <li id="Iske" class="my20YearLi">Iske, Margaret A. (D)</li>
                             <li id="Dave_Johnson" class="my20YearLi">Johnson, David M.</li>
                             <li id="Johnson" class="my20YearLi">Johnson, Joseph M. (D)</li>
-                            <li id="Jones" class="my20YearLi">Jones, Robert H. (D)</li>
                         </ul>
                     </div>
 
                     <div class="floatLeft leftMargin1em topMarginMinus1em backMoccasin maroonBorder" style="height:32em;width:22%;">
                         <ul id="WallList4" class="myList20Year topMargin1em">
+                            <li id="Jones" class="my20YearLi">Jones, Robert H. (D)</li>
                             <li id="Kemna" class="my20YearLi">Kemna, John G.</li>
                             <li id="Klug" class="my20YearLi">Klug, Dale E.</li>
                             <li id="Labarre" class="my20YearLi">Labarre, Gerald R. (D)</li>
                             <li id="Lindsay_Ed" class="my20YearLi">Lindsay, Edward W.</li>
+                            <li id="Loftis" class="my20YearLi">Loftis, John E.</li>
                             <li id="Lubin" class="my20YearLi">Lubin, Michael D.</li>
                             <li id="Lucas" class="my20YearLi">Lucas, James S. (D)</li>
                         </ul>
@@ -4689,7 +4667,7 @@
             </div>
 
         </article>
-
+<%--  Wall of Honor Selectees Page *****************************************************************************--%>
         <article id="honorArt" class="myArts noDisplay">
             <div id="wohMainImg" class="block backChocolate maroonBorder showShadow">
                 <div id="pWOH_Honorees" class="bold"><p class="pTitle centerText topMargin1em yellowText">Wall of Honor Selectees<br /><span class="yellowText italic" style="font-size:.6em;">Click a name to see biography</span></p></div>
@@ -4960,7 +4938,10 @@
 
                 <div>
                     <asp:Image ID="wohImg" ForeColor="Maroon" Font-Bold="true" Width="30%" CssClass="floatLeft padding10 leftMargin10em bottomMargin2em maroonBorder showShadow" Style="min-height:10em;" runat="server" />
-                    <input id="btnwohReturn" type="button" class="inLine myBut leftMargin1em topMargin3em bottomMargin2em" value="Return to Listing" />
+                    <div class="floatRight backmoccasin width40" style="background-color:moccasin;">
+                        <img id="wohCoin" alt="_Photos/WOH/Coin.jpg" class="width60 smallShadow"  src="_Photos/WOH/Coin.jpg" />
+                    </div>
+                    <input id="btnwohReturn" type="button" class="inLine myBut leftMargin5em topMargin1em bottomMargin2em" value="Return to Listing" />
                     <div class="clear"></div>
                 </div>
 
@@ -4971,13 +4952,14 @@
                 <div class="clear"></div>
             </div>
         </article>
-
+<%--  Alumni of the Year Page *****************************************************************************--%>
         <article id="alumniArt" class="myArts noDisplay">
             <asp:Label ID="lblAOY" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="Alumni of the Year"></asp:Label>
         
             <div id="AOYList" class="block">
                 <div class="italic width90 autoMarginLeftRight maroonBorder smallShadow backChocolate padding5">
                     <ul class="alumniList leftMargin5em floatLeft leftMargin1em">
+                      <li id="youngSel">Dr. Mike Young-2022</li> 
                         <li id="seilerSel">Lou Seiler-2021</li>
                         <li id="lindsaySel">Ed Lindsay-2020</li>
                         <li id="dunnSel">Bryce Dunn-2019</li>
@@ -4991,30 +4973,31 @@
                     <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
                         <li id="melchiorSel" class="yellowText">Gene & Dee Melchior-2012</li>
                         <li id="klugSel" class="yellowText">Dale Klug-2011</li>
-                        <li id="smithSel" class="yellowText">Jack Smith-2010</li>
-                        <li id="jacksonSel" class="yellowText">Jack Jackson-2009</li>
+                        <li id="smithSel" class="yellowText">Jack Smith (D)-2010</li>
+                        <li id="jacksonSel" class="yellowText">Jack Jackson (D)-2009</li>
                         <li id="wileySel" class="yellowText">Bob Wiley-2008</li>
-                        <li id="schmiedSel" class="yellowText">Bill Schmied-2007</li>
+                        <li id="schmiedSel" class="yellowText">Bill Schmied (D)-2007</li>
                         <li id="carsonSel" class="yellowText">Deborah Carson-2006</li>
                         <li id="blackSel" class="yellowText">Mike Black-2005</li>
-                        <li id="goldianSel" class="yellowText">Joe Goldian-2004</li>
+                        <li id="goldianSel" class="yellowText">Joe Goldian (D)-2004</li>
                     </ul>
                     <ul class="alumniList leftMargin2em floatLeft leftMargin1em">
                         <li id="snyderpSel" class="yellowText">Pat Snyder-2003</li>
-                        <li id="johnsonpSel" class="yellowText">Joe Johnson-2002</li>
-                        <li id="payneSel" class="yellowText">Jim Payne-2001</li>
-                        <li id="vlassickpSel" class="yellowText">Ben Vlassick-2000</li>
-                        <li id="horschpSel" class="yellowText">John & Christel Horsch-1999</li>
+                        <li id="johnsonpSel" class="yellowText">Joe Johnson (D)-2002</li>
+                        <li id="payneSel" class="yellowText">Jim Payne (D)-2001</li>
+                        <li id="vlassickpSel" class="yellowText">Ben Vlassick (D)-2000</li>
+                        <li id="horschpSel" class="yellowText">John & Christel (D) Horsch-1999</li>
                         <li id="hallpSel" class="yellowText">Frank Hall-1998</li>
                         <li id="milampSel" class="yellowText">Judy Milam-1997</li>
-                        <li id="gaileypSel" class="yellowText">Carl Gailey-1996</li>
-                        <li class="yellowText">Clark Creery-1995</li>
+                        <li id="gaileypSel" class="yellowText">Carl Gailey (D)-1996</li>
+                        <li class="yellowText">Clark Creery (D)-1995</li>
                     </ul>
                     <div class="clear"></div>
                 </div>
 
                 <p id="AOYPara" class="centerText italic fontSize1em maroonText">
-                    Click a name in the list to see their biography
+                    Click a name in the list to see their biography <br />
+                    (D) Indicates Deceased
                 </p>
             </div>
 
@@ -5027,19 +5010,26 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="width95 autoMarginLeftRight italic">
+                            <p class="centerText whiteText">The Alumni of the Year that attended the 2023 Florida Snowball</p>
+                        </div>
+                        <img alt="_Photos/SB2020/AOY2021.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/AOY-2022/AttendingAOYs.jpg" />
+                        <p class="italic fontSize1em width65 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Ed Lindsay (2020), Frank Hall (1998), Judy Milam-Henderson (1997), Lou Seiler (2021), Bob Wiley (2008), Mike Young (2022), Dee & Gene Melchior (2012), and Sean P. Ryan (2014).</p>
+                </div>
+                    <div class="carousel-item">
+                        <div class="width95 autoMarginLeftRight italic">
                             <p class="centerText whiteText">The Alumni of the Year that attended the 2021 AOY Presentation</p>
                         </div>
-                        <img alt="_Photos/SB2020/AOY2021.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2021.jpg" />
+                        <img alt="_Photos/SB2020/AOY2020.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2021.jpg" />
                         <p class="italic fontSize1em width65 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Sean P. Ryan (2014), Bob Wiley (2008), Lou Seiler (2021), Frank Hall (1998), Frank Calenda (2015), Ed Lindsay (2020), Judy Milam (1997), Gene Melchior (2012)</p>
-                </div>
+                   </div>
                     <div class="carousel-item">
                         <div class="width95 autoMarginLeftRight italic">
                             <p class="centerText whiteText">The Alumni of the Year that attended the 2020 Florida Snowball</p>
                         </div>
-                        <img alt="_Photos/SB2020/AOY2020.jpg" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2020.jpg" />
-                        <p class="italic fontSize1em width65 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Bob Wiley (2008), Sean P. Ryan (2014), Frank Calenda (2015), Dee & Gene Melchior (2012), Pete Gilbert (2018), Bryce Dunn (2019)</p>
-                   </div>
-                    <div class="carousel-item">
+                        <img alt="_Photos/AOY/Alumni2019.JPG" class="autoMarginLeftRight width65 maroonBorder showShadow" src="_Photos/SB2020/AOY2020.jpg" />
+                        <p class="italic fontSize1em width70 whiteText topMargin1em autoMarginLeftRight">Left to Right:  Bob Wiley (2008), Sean P. Ryan (2014), Frank Calenda (2015), Dee & Gene Melchior (2012), Pete Gilbert (2018), Bryce Dunn (2019)</p>
+                    </div>
+                                        <div class="carousel-item">
                         <div class="width95 autoMarginLeftRight italic">
                             <p class="centerText whiteText">The Alumni of the Year that attended the 2019 Colorado Reunion</p>
                         </div>
@@ -5069,7 +5059,32 @@
             </article>
 
             <div id="ScrollTarget" style="height:0px;"></div> <%--ScrollTarget is just a target I point to for scrolling--%>
-
+<%--  Dr. Mike Young 2022 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
+          <article id="young" class="alumArt myAlumni noDisplay">
+                <p class="pTitle centerText titlePara">
+                    Dr Mike Young<br />
+                    2022 ALUMNUS OF THE YEAR
+                </p>
+                <figure>
+                    <img alt="DrYoungAFTACAward.jpg" class="width45 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY-2022/DrYoungAFTACAward.jpg" />
+                    <figcaption class="width40 autoMarginLeftRight topMargin1em maroonText italic fontSize1em">
+                        Dr. Mike Young
+                    </figcaption>
+                </figure>
+                <p>
+                    The AFTACAA Alumni of the Year (AOY) selectee for 2022 is Dr. Mike Young. Dr. Young joined the AFTAC Alumni Association when he arrived 11 years ago.  He has attended and provided input in every Alumni monthly meeting the he was able to attend.  <br /><br />
+                    He has been diligent in attending our Associations' events and attended every day of our Florida reunions. He has attended our snowballs and involved himself in providing the colors for these events and even provided a $20,000 ship artifact for one of our Snowballs. Concern for such an expensive item had to be high but never-the-less, he provided it. He has always responded to our needs and put them as a priority when necessary. <br /><br />
+                    During the 70th AFTAC Anniversary Dining-In, he was asked to be the guest speaker.  He offered many kind and supportive comments on the Alumni and coined the phrase "Standing on the Shoulders of Giants" at that event. He was referring to our peers and the phrase is used to this day. <br /><br />
+                    He has solicited inputs from the Alumni at large for publication in his Nucleus Newspaper, which is circulated throughout the organization.  <br /><br />
+                    Dr. Young was the driving factor to having the Alumni invited to the many active duty functions. To name a few, the Christmas parties held in the headquarters, the open houses held for many years. He offers himself as a guide at these events and is active in briefings at the Heritage Room.  The Heritage Room itself is focused on the achievements of the alumni. <br /><br />
+                    He is the chairman of the "Wall of Honor" program. He represents the Alumni in the voting process and participates in the final selection. Research into the nominee's past also takes a great portion of his time. All of his time in this effort is directed solely in support of our Alumnus. <br /><br />
+                    He is also actively involved in the Memorial Project, an effort to provide a dedication monument to those Alumni that died while service with the organization. This was an extremely complicated effort and he spends much of his time on this project. <br /><br />
+                    It may not have been noticed at our functions, but when he attends them, he always sits with the Alumni at one of their tables instead of sitting at the "Command" table. I'm sure that he feels that this is a tribute to the Alumni, and it really is. <br /><br />
+                    He has spent time researching and verifying inputs for the Alumni Website at the expense of losing time needed for his job. <br /><br />
+                    Dr. Young has always been our advocate in every respect.  Many times, his efforts are performed behind the scenes and go unnoticed. He respects the Alumni and feels we are the best of the best.    <br /><br />
+                  </p>
+            </article> 
+<%--  Lou Seiler 2021 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="seiler" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Lou Seiler<br />
@@ -5093,7 +5108,7 @@
                     After moving into the new AFTAC building, the AFTAC Commander asked if the Alumni would take on a project to replace the plaques from the old building lobby with some sort of memorial to fallen AFTAC members. Lou volunteered to lead the effort.
                 </p>
             </article>
-
+<%--  Edward Lindsay 2020 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="lindsay" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Edward Lindsay<br />
@@ -5123,7 +5138,7 @@
                     Ed Lindsay 
                 </p>
             </article>
-
+<%--  Wallace Bryce Dunn 2019 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="dunn" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Wallace Bryce Dunn<br />
@@ -5145,7 +5160,7 @@
                     After many years of valued service to our association, our 2019 Alumni of the Year selectee accepted a challenge at our semiannual breakfast meeting in February 2017.  By unanimous vote Wallace Bryce Dunn was elected to be the new President of our Colorado AFTAC Alumni Association and after serving two very successful years leading our organization, he again accepted the challenge and continued serving as president where he has been a driving force getting this 2019 reunion organized and keeping things on track while arranging activities and obtaining inside and outside support including the guest of honor speakers, and our emcee for this event.  Bryce is highly deserving of this selection and we thank him for his many years of service to our AFTAC Alumni Association
                 </p>
             </article>
-
+<%--  Pete Gilbert 2019 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="gilbert" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Pete Gilbert<br />
@@ -5182,6 +5197,7 @@
                     I​ ​spent​ ​20​ ​years​ ​in​ ​the​ ​Air​ ​Force,​ ​May​ ​60​ ​-​ ​May​ ​80,​ ​was​ ​assigned​ ​to​ ​AFTAC​ ​​ ​the​ ​whole​ ​time.​ ​​ ​I​ ​was asked​ ​at​ ​Lackland​ ​to​ ​ volunteer​ ​for​ ​a​ ​Special​ ​Weapons​ ​Career​ ​Field,​ ​which​ ​turned​ ​out​ ​to​ ​be​ ​Q-System [99125]​ ​in​ ​AFTAC.​ ​​ ​ One​ ​year​ ​later​ ​I​ ​found​ ​out​ ​what​ ​the​ ​job​ ​was.​ ​​ ​I​ ​spent​ ​time​ ​at​ ​McClellan​ ​and an assignment overseas​ ​in​ ​Q-System.​ ​​ ​When​ ​I​ ​came​ ​back​ ​to​ ​McClellan​ ​I​ ​cross​ ​trained​ ​into​ ​A-System.​ ​​ ​I​ ​spent​ ​17 unbelievable​ ​years,​ ​amassing​ ​over​ ​7,500​ ​hours​ ​of​ ​flight​ ​time​ ​supporting​ ​airborne​ ​sampling​ ​program​ ​all over​ ​the​ ​world.​ ​​ ​The​ ​friends​ ​I​ ​made,​ ​the​ ​places​ ​I​ ​went​ ​and​ ​ the​ ​things​ ​we​ ​did​ ​I​ ​would​ ​not​ ​give​ ​up​ ​for anything.
                 </p>
             </article>
+<%--   Carol Snyder 2016 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="snyder" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5200,7 +5216,7 @@
                     Carol.
                 </p>
             </article>                                                                                                                                                                  
-
+<%--   Frank S. Calenda 2015 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="calenda" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Frank S. Calenda <br />2015 ALUMNUS OF THE YEAR
@@ -5257,7 +5273,7 @@
 
                 <p class="pTitle centerText">Very Well Deserved!!</p>
             </article>
-
+<%--   Sean Ryan 2014 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="ryan" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     Sean Ryan<br />2014 ALUMNUS OF THE YEAR
@@ -5288,7 +5304,7 @@
                     Force, 1982-2008, and AFTAC, 1998-2008. 
                 </p>
             </article>
-
+<%--   MSgt (Ret) Lonnie Gibbons 2013 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="gibbons" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     ALUMNUS of the year, 2013<br />MSgt (Ret) Lonnie Gibbons
@@ -5351,6 +5367,7 @@
                     1982 and is now living the life of a retired civil servant. 
                 </p>
             </article>
+<%--   MSgt (Ret) Gene and Dee Mechior 2012 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="melchior" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5396,6 +5413,7 @@
                     art. Thanks." 
                 </p>
             </article>
+<%--   Dale Klug 2011 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="klug" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5455,6 +5473,7 @@
                     for the trek to the main gate!!
                 </p>
             </article>
+<%--   Jack Smith 2010 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="smith" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5516,6 +5535,7 @@
                     AFTAC and Alumni events.
                 </p>
             </article>
+<%--   Walter 'Jack' Jackson 2009 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="jackson" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5563,6 +5583,7 @@
                 </p>
                 <div class="clear"></div>
             </article>
+<%--    Robert 'Bob' Wiley 2008 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="wiley" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5583,7 +5604,8 @@
                     encouraging additional participation in association management and increasing membership. He is Chair of the
                     2009 WorldWide Reunion Committee.
                 </p>
-            </article>
+<%--    WILLIAM "BILL" SCHMIED 2007 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
+           </article>
 
             <article id="schmied" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5626,6 +5648,7 @@
                 </p>
 
             </article>
+<%--    DEBORAH CARSON 2006 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="carson" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5646,6 +5669,7 @@
                     that follows and in the 'Prez Sez' column. 
                 </p>
             </article>
+<%--    MIKE BLACK 2005 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             
             <article id="black" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5709,7 +5733,8 @@
                     and John Carson. 
                 </p>
             </article>
-            
+<%--    JOE GOLDIAN 2004 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
+          
             <article id="goldian" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     2004 ALUMNUS OF THE YEAR <br />JOE GOLDIAN                    
@@ -5758,12 +5783,13 @@
                     Banquet on March 3rd.
                 </p>
             </article>
+<%--    JIM PAYNE 2001 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
  
             <article id="payne" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     2001 ALUMNUS OF THE YEAR <br />JIM PAYNE                    
                 </p>
-                <img alt="payne.png" class="maroonBorder showShadow autoMarginLeftRight" src="_Photos/AOY/payne.png" />
+                <img alt="payne_AOY.png" class="maroonBorder showShadow autoMarginLeftRight" src="_Photos/AOY/payne_AOY.png" />
                 <p>
                     The highlight of our annual association Snow- Ball on February 18th was the announcement of the selection of Jim Payne as the '2001 Alumni of the Year.' He received a special coin that flew on the Shuttle Orbiter 'Atlantis' on the occasion of the Air Force, and AFTAC's, 50th anniversary (Sep-Oct '97). Jim will also be honored at the AFTAC Command Award ceremony on April 24th at the PAFB NCO Club, come on out and show your support (info. page 19).
                     At the presentation, Joe Marshall, Association President, noted that Jim began his Air Force career in October, '52. He first served in Ground Radio at Japan, NJ, and MS. In May '62, he was assigned to AFTAC initially serving in the 'R' technique. Jim worked at several detachments as well as at Denver, Germany and California. In 1981, Cot. 'Meis' selected him to the organization's highest enlisted post, 'Senior Enlisted Advisor,' and he served in this capacity until his retirement in '83.
@@ -5793,6 +5819,7 @@
                     We all applauded Pat for what she had done for us, even though she arranged not to be there, As it turned out she was cruisin' the ocean blue while we recognized her and thanked her for all her efforts. Judy held up the award for all to see and Pat actually received the award at the "Center Awards Banquet"
                 </p>
             </article>
+<%--   Judy Milam 1997 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="MilamP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5809,6 +5836,7 @@
                     Judy joinms Clark Creery ('95) and Carl Gailey ('96) as reciipents ofv this high honor.
                 </p>
             </article>
+<%--   SMSGT (Ret) JOSEPH 'JOE' JOHNSON 2002 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="JohnsonP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5832,6 +5860,7 @@
 
                 </p>
             </article>
+<%--   Frank Hall 1998 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="HallP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5856,6 +5885,7 @@
                 </p>
             </article>
 
+<%--   John and Chris Horsch 1999 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="HorschP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     1999 ALUMNUS OF THE YEAR <br />John and Chris Horsch                  
@@ -5882,6 +5912,7 @@
                 </p>
             </article>
 
+<%--   Ben Vlassick 2000 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
             <article id="VlassickP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
                     2000 ALUMNUS OF THE YEAR <br />Ben Vlassick               
@@ -5903,6 +5934,7 @@
                     Thanks  Ben,  for  your  service to the country, the US Air Force,  AFTAC  and the Alumni  Association. Your  service  is  truly  appreciated.
                 </p>
             </article>
+<%--   Carl Gailey 1996 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="GaileyP" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
@@ -5932,6 +5964,7 @@
             </div>
 
         </article>
+<%--   Golf N'GetTogether Article *****************************************************************************--%>
 
         <article id="golfGetArt" class="myArts padding10 noDisplay maroonBorder smallShadow">
             <asp:Label ID="Label7" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2em" runat="server" Text="Golf N'GetTogether"></asp:Label>
@@ -5987,7 +6020,8 @@
             </p>
         </article>
             
-        <article id="toiletArt" class="myArts noDisplay maroonBorder smallShadow">
+ <%--   TOILET BOWL 2016 Article *****************************************************************************--%>
+       <article id="toiletArt" class="myArts noDisplay maroonBorder smallShadow">
             <asp:Label ID="Label5" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2em" runat="server" Text="TOILET BOWL"></asp:Label>
             <asp:Label ID="Label6" CssClass="block" ForeColor="DarkRed" Font-Italic="true" Font-Bold="true" Font-Size="1.4em" runat="server" Text="Reported By Ed Lindsay"></asp:Label>
             <p>Fall of 2016 was a season for many needs for change in AFTAC.  So, more of the same.  One of these was the need to change the date of the Annual gathering that pits Directorates/Squadrons against each other on the softball field.  A windy, blowhard named Matthew visited much of the East coast of the U.S.  The initial Toilet Bowl date of  7 October had to be scrubbed three days prior to the event since it appeared that Matthew was looking to do some major damage to the Space Coast.</p>
@@ -6003,7 +6037,7 @@
             <p>Throughout the day, chances for the Winter Social gift baskets were also being sold.  This was a great idea and many were filling up those chance boxes with plenty of tickets.</p>
             <p>Bob Wiley, James Griffieth, Ed Lindsay, and Jim Whidden helped man the beer kegs.  Beer and cider was flowing and the stories were being told.  The championship teams had been determined, but they would have to wait.  It was now time for the Home Run Derby and to eat some wonderful pulled pork, hot dogs, and hamburgers that had been prepared by MSgt Chevis Stanley and others. </p>
             <figure class="width45 floatLeft">
-                <img alt="tb2.jpg" class="leftMargin2em maroonBorder smallShadow width90" src="_Photos/toilet/tb2.jpg" />
+                <img alt="tb2.jpg" class="leftMargin2em maroonBorder smallShadow width90" src="_Photos/Toilet/tb2.jpg" />
                 <figcaption class="italic topMarginHalfem fontSize1em maroonText centerText">
                     Colonel Gorski, AFTAC commander, getting a pie in the face for the cause
                 </figcaption>
@@ -6032,6 +6066,7 @@
             </figure>
        </article>
 
+ <%--   SPECIAL LINKS Page *****************************************************************************--%>
         <article id="specialLinksArt" class="myArts noDisplay">
             <asp:Label ID="Label22" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="SPECIAL LINKS"></asp:Label>
             <p class="width100 topMargin1em autoMarginLeftRight smallShadow maroonBorder">
@@ -6040,9 +6075,6 @@
             <ul id="linkUl" class="autoMarginLeftRight topMargin2em">
                   <li>
                     --NEWS--
-                </li>              <li>
-                    <a href="https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target="_blank">New Nuke-Sniffing Jet Flies Off South America On First International Mission (Jan 2023)</a>
-                </li>
                 <li>
                     <a href="https://blogs.va.gov/VAntage" target="_blank">Current VA News that you might like to read.</a>
                 </li>
@@ -6062,7 +6094,7 @@
                     <a href="https://www.va.gov/records/get-military-service-records/" target="_blank">How To Find Your Military Records</a>
                 </li>
                 <li>
-                    --VETERANS ADMINISTRATION/HEALTHCARE/BENIFITS--
+                    --VETERANS ADMINISTRATION/HEALTHCARE/BENEFITS--
                 </li>
                 <li>
                     <a href="http://www.va.gov" target="_blank">Veterans Admin</a>
@@ -6076,8 +6108,11 @@
                 <li>
                     <a href="https://www.va.gov/health-care/get-medical-records/" target="_blank">Your VA Medical records are within reach</a>
                 </li>
-                                <li>
+                <li>
                     <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantag:  Benifits/Blog</a>
+                </li>
+                <li>
+                     <a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card avaialbe as prove you are eligable for discounts</a>
                 </li>
                 <li>
                    --DISCOUNTS--
@@ -6101,6 +6136,9 @@
                     --SOCIAL MEDIA--
                 </li>
                 <li>
+                    <a href="https://www.togetherweserved.com" target="_blank">Together We Served: Veterans of the US Military - Stay Connected For Life!</a>
+                </li>
+                <li>
                     <a href="https://www.facebook.com/groups/aftacaa/" target="_blank">AFTAC Alumni of the world Unite Facebook Page</a>
                 </li>
                 <li>
@@ -6117,6 +6155,7 @@
 <%--            <img id="coin" alt="EFAE.jpg" src="_Images/EFAE.jpg" />--%>
         </article>
 
+ <%--   DAILY HIT REPORT Page *****************************************************************************--%>
         <article id="dailyHitReportArt" class="myArts noDisplay">
             <asp:Label ID="Label21" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="DAILY HIT REPORT"></asp:Label>
 
@@ -6145,22 +6184,126 @@
 
         </article>
 
-        <article id="databaseArt" class="myArts noDisplay bottomMargin7em">
+  <%--   Kegman Jobs Article *****************************************************************************--%>
+       <article id="databaseArt" class="myArts noDisplay bottomMargin7em">
            <p class="pTitle centerText">Database Administrator at PAFB</p>
            <h1 data-toggle-link="http://kegmaninc.com/index.php/job/database-administrator-2018-1224-134/" class="autoMarginLeftRight underLine maroonText bold topMargin3em" style="cursor:pointer;">See details of Database Administrator Job</h1>
            <h1 data-toggle-link="http://kegmaninc.com/index.php/side-navigation/jobs" class="autoMarginLeftRight underLine maroonText bold topMargin2em" style="cursor:pointer;">Click here to see other great jobs at KEGMAN Inc.</h1>
        </article>
 
+  <%--   NTK Nuke-Sniffing Jet Flies Off South America Article *****************************************************************************--%>
         <article id="newsToKnowArt" class="myArts noDisplay bottomMargin7em">
 
            <asp:Label CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="NEWS TO KNOW"></asp:Label>
             
-           <div class="ntkButs aLeft block">
+            <div class="ntkButs aLeft block">
                 <p id="newsTitle" class="width30 pTitle redText inline leftMargin1em">Current News Articles</p>
                 <input id="btnShowArticles" class="myBut inline leftMargin8em" type="button" value=" Show Archived Articles " />
             </div>
 
             <div class="clear"></div>
+
+ 
+
+            <section id="secConstnatPhoenix2023" class="block">
+                <div class="block">
+                    <div class="aLeft">
+                        <h2 id="ntkConstnatPhoenix2023H2" class="currentNews news2KnowH1">New Nuke-Sniffing Jet Flies Off South America On First International Mission - 1/18/2023</h2>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+
+                <article id="ntkConstnatPhoenix2023Para" class="n2KPara noDisplay">
+                    <p> The Air Force's first WC-135R Constant Phoenix collected air samples off South America's eastern coast to establish baseline atmospheric radiation conditions.
+                    <br />   
+                    </p>    
+                    <byline>BY JOSEPH TREVITHICK<br />PUBLISHED JAN 18, 2023 7:48 PM<br />  </byline>
+                    <a href= "https://www.thedrive.com/the-war-zone/new-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission"> Link to Original Article</a>
+                    <br /><br />
+                    <figure>
+                        <img alt="ConstantPhoenix2023Ramp.jpg" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/ConstantPhoenix2023Ramp.jpg" />
+                        <figcaption class="width95 autoMarginLeftRight topMargin1em maroonText bold italic">
+                            USAF
+                        </figcaption>
+                    </figure>
+                    <p>
+                        South America was the first time it has conducted an air-sampling sortie outside of the Continental United States. Constant Phoenix aircraft regularly conduct missions to gather data that can be used to help keep watch for unusual spikes in atmospheric radiation. The planes can also be used to help gather data after nuclear weapon tests or other radiological incidents and track the spread of potentially dangerous radioactive material.
+                        <br /><br />
+                        The WC-135R, which has the serial number 64-14836, conducted this flight in coordination with U.S. Southern Command (SOUTHCOM) on January 16, staging from Luis Mu&ntilde;oz Marin International Airport in Puerto Rico. The aircraft followed a route that took it west out of the Caribbean Sea and into the southern end of the Atlantic Ocean. It then followed a path off the coasts of Venezuela, Guyana, Suriname, French Guiana, and Brazil, before turning around and returning to Puerto Rico.
+                        <br /><br />
+                        Branson assumed command of the Department of Defense's sole nuclear treaty monitoring center in June 2020, at the height of the global pandemic.  Since that time, Branson oversaw significant key successes by the Airmen and Guardians of AFTAC, including the creation of the center's War Room and Artificial Intelligence/Machine Learning Accelerator Lab; procuring an additional WC-135 aircraft to expand Nuclear Debris Collection and Analysis capabilities; and earning Air Combat Command's only "Highly Effective" rating during the center's 2020 inspection.
+                        <br /><br />
+                    </p>
+                    <figure>
+                        <img alt="ConstantPhoenixTwiter1.png" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/ConstantPhoenixTwiter1.png" />
+                        <figcaption class="width95 autoMarginLeftRight topMargin1em maroonText bold italic">
+                            <a href="https://twitter.com/AircraftSpots/status/1615131435454853121?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1615169121536315392%7Ctwgr%5E229d0ef2815caf537ad857a6073f169721497bff%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fwww.thedrive.com%2Fthe-war-zone%2Fnew-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_blank"> Link to Twiter</a>
+                        </figcaption>
+                    </figure> 
+                    <br /><br />
+                    <p>
+                    The aircraft was in international airspace the entire time. Online flight tracking software showed that at least one Air Force KC-10A Extender aerial refueling tanker was used to support the mission.
+                    </p>
+                     <figure>
+                         <img alt="ConstantPhoenixTwiter2.png" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/ConstantPhoenixTwiter2.png" />
+                         <figcaption class="width50 autoMarginLeftRight topMargin1em maroonText bold italic">
+                              <a href="https://twitter.com/wipljw/status/1615007393955610625?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1615007393955610625%7Ctwgr%5E229d0ef2815caf537ad857a6073f169721497bff%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.thedrive.com%2Fthe-war-zone%2Fnew-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_blank"> Link to Twiter</a>
+                         </figcaption>
+                     </figure>
+                     <p>
+                        <br /><br />
+                        "This is... the first 'OCONUS' (outside the Continental United States) deployment for #836," Susan Romano, the director of Public Affairs at the Air Force Technical Applications Center (AFTAC), confirmed to The War Zone in a statement. "The aircraft was able to take on more than 90,000 pounds of fuel - the largest air-to-air refueling onload for the jet since AFTAC and the 55th Wing at Offutt [Air Force Base], Nebraska, took delivery of #836."
+                        <br /><br />
+                        This particular flight was a so-called "baseline" collection mission to gather air samples that are then used to establish what atmospheric radiation levels should look like under normal conditions. This is primarily done as part of the enforcement of the 1963 Partial Nuclear Test Ban Treaty, which prohibits signatories from conducting open-air nuclear weapon tests, as well as ones in space and underwater. Subsequent detection of elevated radiation levels could point to nuclear weapon testing in violation of the treaty, or by countries that are not party to that agreement, as well as other radiological events.
+                        <br /><br />
+                        Members of the 45th Reconnaissance Squadron, part of the 55th Wing, fly and maintain the Constant Phoenix aircraft. Personnel from AFTAC's 21st Surveillance Squadron are responsible for operating and maintaining the actual mission equipment inside the jets.
+                        <br /><br />
+                        The Air Force took delivery of 64-14836 in July 2022. The service had said that it expected to receive the second of three planned WC-135Rs by the end of last year, but it's not clear if that has happened. The Air Force retired two older Constant Phoenix jets, a WC-135C and a WC-135W, in 2020 and 2022, respectively.
+                        <br /><br />
+                        Plane spotters and online flight trackers who followed 64-14836's flight earlier this week also noted that the South American route was a rare one for a Constant Phoenix aircraft to take.
+                    </p>
+                    <figure>
+                        <img alt="ConstantPhoenixTwiter3.png" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/ConstantPhoenixTwiter3.png" />
+                        <figcaption class="width50 autoMarginLeftRight topMargin1em maroonText bold italic">
+                             <a href="https://twitter.com/GDarkconrad/status/1615001276055420929?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1615001276055420929%7Ctwgr%5E229d0ef2815caf537ad857a6073f169721497bff%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.thedrive.com%2Fthe-war-zone%2Fnew-nuke-sniffing-jet-flies-off-south-america-on-first-international-mission" target ="_blank"> Link to Twiter</a>
+                        </figcaption>
+                    </figure>
+                    <p>
+                        "This was the first WC-135 background sortie collection off the central east coast of South America in nearly 30 years," Romano, the AFTAC spokesperson further confirmed to The War Zone. "Flying in a different geographical area helps establish a baseline of debris in the atmosphere, which is important to keeping the world safe."
+                        <br /><br />
+                        This is, however, not the only time Constant Phoenix aircraft have flown missions from Puerto Rico in coordination with SOUTHCOM since the 1990s. One of the previous WC-135s conducted at least three such flights, collectively referred to as Coral Phoenix missions, in 2008, according to declassified portions of an annual Air Combat Command (ACC) history that the author previously obtained via the Freedom of Information Act (FOIA).
+                        <br />
+                    </p>
+                    <figure>
+                        <img alt="ConstantPhoenixFOIA3.png" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/News2Know/ConstantPhoenixFOIA.png" />
+                        <figcaption class="width50 autoMarginLeftRight topMargin1em maroonText bold italic">
+                            (From previously obtained (FOIA) annual Air Combat Command (ACC) history)
+                        </figcaption>
+                    </figure>
+                    <p>
+                        64-14836's flight off South America was also its second operational mission, overall, according to AFTAC's Romano. The aircraft conducted its first air-sampling sortie sometime after its delivery in July of last year from the Continental United States in coordination with U.S. Northern Command (NORTHCOM).
+                        <br /><br />
+                        The Air Force first announced its plans to acquire the trio of WC-135Rs in 2019, which The War Zone was first to report on, specifically citing the increasing difficulties in operating and maintaining the previous aging WC-135C/W jets.
+                        <br /><br />
+                        Though 64-14836 is certainly not new - the "64" in its serial number is the fiscal year when it was purchased - it has received a number of upgrades, including more modern CFM-56 turbofan engines, over the years. The older WC-135C/Ws had much less capable and more maintenance-intensive Pratt & Whitney TF-33 engines, a design that went out of production entirely in 1985.
+                        <br /><br />
+                        The TF-33s were often at the heart of safety and reliability issues for the previous Constant Phoenix jets. For instance, one of the previous WC-135s had to make an emergency landing in Indonesia's Aceh province in 2017 and spent a week grounded there due to engine issues.
+                        <br /><br />
+                        "I am extremely proud of the Airmen who executed this collection sortie,"Air Force Col. James A. Finlayson, commander of AFTAC, said in a statement provided to The War Zone. "It takes a great deal of collaboration to coordinate all the moving parts on missions like these." 
+                        <br /><br />
+                        "This mission is an important one, not just for the United States, but for our allies and citizens of the world who benefit from AFTAC's analysis of atmospheric debris and collection samples," Col. Finlayson continued. "Thanks to U.S. Southern Command for their assistance and oversight as well."
+                        <br /><br />
+                        All told, though it remains to be seen whether more flights around Latin America are in 64-14836's future, the jet's two sorties in the last six months are just the start of its new nuke-sniffing career.
+                        <br /><br />
+                    </p>
+                </article>
+            </section>
+ 
+
+
+  <%--   NTK Finlayson takes command Article *****************************************************************************--%>
+
 
            <section id="secFinlayson" class="block">
                 <div class="block">
@@ -6178,7 +6321,7 @@
                             Col. James "Cobra" Finlayson renders a salute to Lt. Gen. Timothy Haugh, 16th Air Force Commander, upon assuming command of the Air Force Technical Applications Center, Patrick Space Force Base, Fla., June 2, 2022 as outgoing commander, Col. Katharine Branson, relinquishes command. Also pictured is Chief Master Sgt. Amy Long, AFTAC command chief and guidon bearer for the ceremony. (U.S. Air Force photo by Matthew S. Jurgens)
                         </figcaption>
                     </figure>
-
+                    <byline>By Susan A. Romano <br /> AFTAC Public Affairs <br />Published June 7, 2022<br /></byline>
                     <p>
                         PATRICK SPACE FORCE BASE, Fla. --  The Air Force Technical Applications Center gained a new commander June 2 during the time-honored military tradition known as the change of command ceremony. 
                         <br /><br />
@@ -6221,12 +6364,15 @@
                     </p>
                 </article>
             </section>
+ 
+ <%--   NTK AFTAC earns highly effective rating Article *****************************************************************************--%>
 
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
                         <h2 id="ntkEffectiveH2" class="currentNews news2KnowH1">AFTAC earns highly effective rating from Inspector General - 2/3/2021</h2>
                     </div>
+                 
                 </div>
 
                 <div class="clear"></div>
@@ -6238,8 +6384,9 @@
                             Official shield of the U.S. Air Force Inspector General. (U.S. Air Force graphic)
                         </figcaption>
                     </figure>
-
+                    <byline>By Susan A. Romano <br /> AFTAC Public Affairs <br />Published Jan. 20, 2021<br /></byline>
                     <p>
+                        
                         PATRICK SPACE FORCE BASE, Fla. -- A team from the Air Combat Command Inspector General's Office traveled here during the first quarter of fiscal year 2021 to conduct a Unit Effectiveness Inspection of the Air Force Technical Applications Center.
                         <br /><br />
                         A UEI is a method used to evaluate an Air Force wing's performance, compliance and readiness, which are assessed based on four major graded areas: executing the mission, managing resources, improving the unit, and leading people.  It also provides an independent assessment of a unit's effectiveness and validates the inspected unit's Commander's Inspection Program. 
@@ -6302,6 +6449,7 @@
                 </article>
             </section>
 
+  <%--   NTK H.S. student immerses with AFTAC in the Outback Article *****************************************************************************--%>
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
@@ -6318,7 +6466,7 @@
                             High school sophomore Paxton Rhoads uses security bolts to fasten a solar panel to a power box lid to deter possible theft in the austere Australian Outback. Rhoads immersed with Airmen from the 709th Technical Maintenance Squadron's Detachment 421 in Alice Springs, Australia as part of a school community outreach project. (U.S. Air Force courtesy photo)
                         </figcaption>
                     </figure>
-
+                    <byline>By Susan A. Romano <br /> AFTAC Public Affairs <br />Published Feb. 2, 2021<br /></byline>
                     <p>
                         ALICE SPRINGS, AUSTRALIA -- Situated in the remote terrain of Central Australia, the 709th Technical Maintenance Squadron's Detachment 421 is responsible for operating and sustaining an expansive seismic array to detect the detonation of nuclear bombs.
                         <br /><br />
@@ -6387,7 +6535,8 @@
                 </article>
             </section>
 
-           <section class="block">
+   <%--   NTK Innovative self-serve temperature check Article *****************************************************************************--%>
+          <section class="block">
                 <div class="block">
                     <div class="aLeft">
                         <h2 id="ntkSelfTempH2" class="currentNews news2KnowH1">Innovative self-serve temperature check helps workforce during COVID - 2/3/2021</h2>
@@ -6403,7 +6552,7 @@
                             To help maintain a safe and healthy workplace environment, Tech. Sgt. David Sanchez, a mission manager at the Air Force Technical Applications Center at Patrick Space Force Base, Fla., developed a hands-free temperature check device for members of the nuclear treaty monitoring center to use when they entered the building. (U.S. Air Force Photo)
                         </figcaption>
                     </figure>
-
+                    <byline>By Susan A. Romano <br /> AFTAC Public Affairs <br />Published Jan. 21, 2021<br /></byline>
                     <p>
                         PATRICK SPACE FORCE BASE, Fla. -- Social distancing.  Six feet of separation.  Tapping elbows instead of shaking hands. 
                         <br /><br />
@@ -6427,6 +6576,7 @@
                 </article>
             </section>
 
+   <%--   NTK 2 famed bases re-designated to highlight Space Forc Article *****************************************************************************--%>
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
@@ -6443,9 +6593,8 @@
                             Chief of Space Operations Gen. John W. "Jay" Raymond, speaks at the re-designation ceremony of Patrick Air Force Base and Cape Canaveral Air Force Station, Dec. 9, 2020. The two bases were redesigned Patrick Space Force Base and Cape Canaveral Space Force Station respectively.
                         </figcaption>
                     </figure>
-
+                    <byline>By Charles Pope<br />Secretary of the Air Force Public Affairs <br />Published December 09, 2020<br /></byline>
                     <p>
-                        <span class="maroonText italic fontSize1em bold">By Charles Pope, Secretary of the Air Force Public Affairs / Published December 09, 2020</span><br />
                         Cape Canaveral Air Force Station and Patrick Air Force Base were formally re-designated Dec. 9, as facilities central to the mission of the U.S. Space Force during a ceremony rich in symbolism that further confirmed the nation's commitment to operating in and defending space.
                         <br /><br />
                         Vice President Mike Pence announced the decision to shift the designation of Cape Canaveral Air Force Station to Cape Canaveral Space Force Station and Patrick Air Force Base to Patrick Space Force Base during a formal ceremony at Cape Canaveral.
@@ -6495,7 +6644,7 @@
                      </p>
                 </article>
             </section>
-
+   <%--   NTK The science of mind and body Article *****************************************************************************--%>
             <section class="block">
                 <div class="block">
                     <div class="aLeft">
@@ -6514,7 +6663,7 @@
                     </figure>
 
                     <p>
-                        <span class="maroonText italic fontSize1em bold">PATRICK AIR FORCE BASE, Fla.  | By By Susan A. Romano</span><br />
+                        <span class="maroonText italic fontSize1em bold">PATRICK AIR FORCE BASE, Fla.  | By Susan A. Romano Sept. 9, 2020</span><br />
                         When Dalton McIntire was a freshman in high school, he spent a lot of time lifting weights in his school's gym.  For him, it was a way to increase stamina, strengthen his workout routine, and further build on his abilities on the baseball field
                         <br /><br />
                         It wasn't until about four years ago after he enlisted in the Air Force that he developed a love for powerlifting.
@@ -6564,6 +6713,7 @@
                 </article>
             </section>
 
+   <%--   NTK COMACC joins AFTAC Airmen in online training session Article *****************************************************************************--%>
            <section class="block">
                 <div class="block">
                     <div class="aLeft">
@@ -6610,7 +6760,8 @@
                 </article>
             </section>
 
-           <section class="block">
+<%--   NTK Air Force Vice Chief: Nearly One-Third of Employees May Permanently Telework Article *****************************************************************************--%>
+          <section class="block">
                 <div class="block">
                     <div class="aLeft">
                         <h2 id="ntkTeleworkH2" class="currentNews news2KnowH1">Air Force Vice Chief: Nearly One-Third of Employees May Permanently Telework - 9/17/2020</h2>
@@ -6674,7 +6825,8 @@
                 </article>
             </section>
 
-           <section class="block">
+ <%--   NTK For 1st Time in 3 Decades, Military Families and Retirees Are Getting Revamped IDs Article *****************************************************************************--%>
+          <section class="block">
                 <div class="block">
                     <div class="aLeft">
                         <h2 id="ntkIDH2" class="currentNews news2KnowH1">For 1st Time in 3 Decades, Military Families and Retirees Are Getting Revamped IDs - 9/1/2020</h2>
@@ -6723,8 +6875,10 @@
                     </p>
                 </article>
             </section>
+<%--********************************************The following is Archived News*************************************************************--%>
 
-           <section class="block">
+<%--   Archived NTK AFTAC Master Scientific Applications Specialist Badge Article *****************************************************************************--%>
+          <section class="block">
                 <div class="block">
                     <div class="aLeft">
                         <h2 id="ntkMSASBH2" class="archivedNews news2KnowH1">AFTAC Master Scientific Applications Specialist Badge - 9/17/2020</h2>
@@ -6858,7 +7012,7 @@
                 </article>
             </section>
 
-           <%--The following is Archived News--%>
+<%--   Archived NTK Arguing Artificial Intelligence during pandemic Article *****************************************************************************--%>
             <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkAIH2" class="news2KnowH1">Arguing Artificial Intelligence during pandemic becomes a reality - 5/17/2020</h2>
@@ -6939,6 +7093,7 @@
                     He added, "AFIT is a special place, particularly suited to pursue operational and classified research for the Department of Defense.  The faculty is top-notch and the close proximity to the Air Force Research Lab is invaluable.  I highly encourage anyone who's interested in advanced education to look into scholarships offered by the DOD STEM program.  Convince your leadership that you are worth the investment, and then work your tail off!  The payoff is well worth the effort."
                 </p>
             </article>
+<%--   Archived NTK Suicide survivor helps Airmen Article *****************************************************************************--%>
 
             <section class="archivedNews block">
                 <div class="aLeft">
@@ -7004,6 +7159,7 @@
 
             <div class="clear"></div>
 
+<%--   Archived NTK Curbside Pick-Up at PAFB BX Arcticle*****************************************************************************--%>
             <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcurbsideH2" class="news2KnowH1">Curbside Pick-Up at PAFB BX - 4/15/2020</h2>
@@ -7044,7 +7200,8 @@
 
             <div class="clear"></div>
 
-            <section class="archivedNews block">
+ <%--   Archived NTK Pandemic can't stop AFTAC's innovative Airmen Article *****************************************************************************--%>
+           <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkpandemicH2" class="news2KnowH1">Pandemic can't stop AFTAC's innovative Airmen - 4/14/2020</h2>
                 </div>
@@ -7104,6 +7261,7 @@
 
             <div class="clear"></div>
 
+ <%--   Archived NTK Vital treaty monitoring mission continues in wake of COVID-19 response Article *****************************************************************************--%>
             <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcoVidH2" class="news2KnowH1">Vital treaty monitoring mission continues in wake of COVID-19 response - 4/8/2020</h2>
@@ -7168,6 +7326,7 @@
 
             <div class="clear"></div>
 
+ <%--   Archived NTK AFTAC inducts 3 into famed Wall of Honor Article *****************************************************************************--%>
             <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkinducteesH2" class="news2KnowH1">AFTAC inducts 3 into famed Wall of Honor - 3/18/2020</h2>
@@ -7231,7 +7390,8 @@
                 </p>
             </article>
 
-            <section class="archivedNews block">
+  <%--   Archived NTK DOD Issues Flexible Instructions on Response to Coronavirus Article *****************************************************************************--%>
+           <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcoronaH2" class="news2KnowH1">DOD Issues Flexible Instructions on Response to Coronavirus - 3/13/2020</h2>
                 </div>
@@ -7273,6 +7433,7 @@
                 </div>
             </article>
 
+  <%--   Archived NTK DoD to restructure 50 hospitals, clinics to improve readiness Article *****************************************************************************--%>
             <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkclinicsH2" class="news2KnowH1">DoD to restructure 50 hospitals, clinics to improve readiness - 2/21/2020</h2>
@@ -7314,6 +7475,7 @@
                 </div>
             </article>
 
+  <%--   Archived NTK DOD Closing Dozens of Military Clinics to Retirees, Families Article *****************************************************************************--%>
             <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcloseH2" class="news2KnowH1">DOD Closing Dozens of Military Clinics to Retirees, Families - 2/20/2020</h2>
@@ -7365,6 +7527,7 @@
                 </div>
             </article>
 
+  <%--   Archived NTK AFTAC hosts 5th annual WiSE Symposium Article *****************************************************************************--%>
             <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkWise2H2" class="news2KnowH1">AFTAC hosts 5th annual WiSE Symposium - 2/13/2020</h2>
@@ -7434,6 +7597,7 @@
                 </div>
             </article>
 
+  <%--   Archived NTK VCSAF meets with nuclear scientists, engineers about future operations Article *****************************************************************************--%>
            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="vcsafH2" class="news2KnowH1">VCSAF meets with nuclear scientists, engineers about future operations - 12/10/2019</h2>
@@ -7531,7 +7695,8 @@
                 </article>
             </section>
 
-           <section class="archivedNews block">
+   <%--   Archived NTK AFTAC leads charge on R&D Roadmap for USAFs Article *****************************************************************************--%>
+          <section class="archivedNews block">
                 <article>
                     <div class="aLeft">
                         <h2 id="roadMapH2" class="news2KnowH1">AFTAC leads charge on R&amp;D Roadmap for USAF - 11/2/2019</h2>
@@ -7604,6 +7769,7 @@
                 </article>
             </section>
             
+<%--   Archived NTK College Fellows develop nuke detection system Article *****************************************************************************--%>
 
            <section class="archivedNews block">
                     <h2 id="ntkfellowsH2" class="news2KnowH1 left">College Fellows develop nuke detection system to test at RED FLAG '19 - 10/30/2019</h2>
@@ -7685,6 +7851,7 @@
                     <div class="clear"></div>
             </section>
 
+<%--   Archived NTK Military Affairs Council tours only radiochemistry lab in USAF - 10/30/2019 Article *****************************************************************************--%>
            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcouncilH2" class="news2KnowH1">Military Affairs Council tours only radiochemistry lab in USAF - 10/30/2019</h2>
@@ -7751,6 +7918,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK CRF develops innovative solution to seismic array vulnerability - 10/4/2019 Article *****************************************************************************--%>
            <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkcrfH2" class="news2KnowH1">CRF develops innovative solution to seismic array vulnerability - 10/4/2019</h2>
@@ -7800,7 +7968,8 @@
             </article>
         </section>
 
-           <section class="archivedNews block">
+<%--   Archived NTK Local '16 valedictorian recruited by AFTAC as nuclear data analyst - 9/25/2019 Article *****************************************************************************--%>
+          <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkvaledictorianH2" class="news2KnowH1">Local '16 valedictorian recruited by AFTAC as nuclear data analyst - 9/25/2019</h2>
                 </div>
@@ -7859,6 +8028,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Experts from AFTAC travel to Georgia for STEMversity - 9/16/2019 Article *****************************************************************************--%>
             <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkSTEMversityH2" class="news2KnowH1">Experts from AFTAC travel to Georgia for STEMversity - 9/16/2019</h2>
@@ -7917,7 +8087,8 @@
 
             </section>
 
-            <section class="archivedNews block">
+ <%--   Archived NTK Despite Dorian, vital nuke mission continues uninterrupted - 9/14/2019 Article *****************************************************************************--%>
+           <section class="archivedNews block">
                 <div class="aLeft">
                     <h2 id="ntkDorianH2" class="news2KnowH1">Despite Dorian, vital nuke mission continues uninterrupted - 9/14/2019</h2>
                 </div>
@@ -7980,7 +8151,8 @@
                 </article>
             </section>
 
-            <section class="archivedNews noDisplay">
+<%--   Archived NTK Two distinguished executives receive Presidential Rank Awards - 7/12/2019 Article *****************************************************************************--%>
+           <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkPresidentialH2" class="news2KnowH1">Two distinguished executives receive Presidential Rank Awards - 7/12/2019</h2>
                 </div>
@@ -8038,6 +8210,7 @@
 
             </section>
 
+<%--   Archived NTK From Uzbekistan to America: One Airman's Tale - 6/27/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkUzbekistanH2" class="news2KnowH1">From Uzbekistan to America: One Airman's Tale - 6/27/2019</h2>
@@ -8117,6 +8290,7 @@
 
             </section>
 
+<%--   Archived NTK Dr Glenn Sjoden, AFTAC Chief Scientist, Is Leaving Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSjodenH2" class="news2KnowH1">Dr Glenn Sjoden, AFTAC Chief Scientist, Is Leaving</h2>
@@ -8199,6 +8373,7 @@
 
             </section>
 
+<%--   Archived NTK A1C with PhD now a 2Lt - 6/6/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkLtH2" class="news2KnowH1">A1C with PhD now a 2Lt - 6/6/2019</h2>
@@ -8355,6 +8530,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Cannon Shot Nuclear Test - 5/27/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCannonH2" class="news2KnowH1">Cannon Shot Nuclear Test - 5/27/2019</h2>
@@ -8379,6 +8555,7 @@
 
             </section>
 
+<%--   Archived NTK Secret lab at Patrick Air Force Base - 4/23/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSecLabH2" class="news2KnowH1">Secret lab at Patrick Air Force Base - 4/23/2019</h2>
@@ -8475,6 +8652,7 @@
            
             </section>
 
+<%--   Archived NTK Using dynamite and TNT to enhance nuclear mission - 4/17/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkTNTH2" class="news2KnowH1">Using dynamite and TNT to enhance nuclear mission - 4/17/2019</h2>
@@ -8547,6 +8725,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Divisional wins lead to state competition for AFTAC mentors - 4/17/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkMentorsH2" class="news2KnowH1">Divisional wins lead to state competition for AFTAC mentors - 4/17/2019</h2>
@@ -8597,6 +8776,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Nuclear air sampling aircraft on display at Patrick AFB - 3/14/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkNuclearH2" class="news2KnowH1">Nuclear air sampling aircraft on display at Patrick AFB - 3/14/2019</h2>
@@ -8676,6 +8856,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Rare boat-to-boat transfer executed on the high seas - 3/13/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="n2kB2BH2" class="news2KnowH1">Rare boat-to-boat transfer executed on the high seas - 3/13/2019</h2>
@@ -8743,6 +8924,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Defense Department pushing ahead to merge commissary and exchange systems - 3/13/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="n2kCommissaryH2" class="news2KnowH1">Defense Department pushing ahead to merge commissary and exchange systems - 3/13/2019</h2>
@@ -8793,6 +8975,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Congressional staffers learn about AFTAC's heritage, mission - 3/13/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStaffersH2" class="news2KnowH1">Congressional staffers learn about AFTAC's heritage, mission - 3/13/2019</h2>
@@ -8825,6 +9008,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK STEM outreach key to uniting Airmen with students - 2/20/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStem1H2" class="news2KnowH1">STEM outreach key to uniting Airmen with students - 2/20/2019</h2>
@@ -8922,6 +9106,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Another tournament, another trophy for AFTAC Hockey - 1/16/2019 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHockeyH2" class="news2KnowH1">Another tournament, another trophy for AFTAC Hockey - 1/16/2019</h2>
@@ -8976,6 +9161,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK A1C with Ph.D. lands job at nuclear treaty monitoring center - 12/16/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkA1CH2" class="news2KnowH1">A1C with Ph.D. lands job at nuclear treaty monitoring center - 12/16/2018</h2>
@@ -9054,6 +9240,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Our Cardboard Christmas Tree - 11/28/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCardboardH2" class="news2KnowH1">Our Cardboard Christmas Tree - 11/28/2018</h2>
@@ -9095,6 +9282,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Hoop coaches, life mentors: AFTAC Airmen engage with community youth - 11/16/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHoopH2" class="news2KnowH1">Hoop coaches, life mentors: AFTAC Airmen engage with community youth - 11/16/2018</h2>
@@ -9193,6 +9381,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Leadership in a Selfie Culture - 11/6/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSelfieH2" class="news2KnowH1">Leadership in a Selfie Culture - 11/6/2018</h2>
@@ -9226,6 +9415,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTAC molecular biologist represents Air Force at SWE18 conference - 11/6/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkWE18H2" class="news2KnowH1">AFTAC molecular biologist represents Air Force at SWE18 conference - 11/6/2018</h2>
@@ -9258,6 +9448,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Air Force Chief Scientist pays visit to treaty monitoring center - 10/22/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkChiefH2" class="news2KnowH1">Air Force Chief Scientist pays visit to treaty monitoring center - 10/22/2018</h2>
@@ -9317,6 +9508,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Downrange 'MacGyvers' creatively get the job done - 10/3/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkMacgyverH2" class="news2KnowH1">Downrange 'MacGyvers' creatively get the job done - 10/3/2018</h2>
@@ -9417,6 +9609,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Musical Tesla Coil, 3-D printer draws crowd at Science Bowl - 10/2/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkTestlaH2" class="news2KnowH1">Musical Tesla Coil, 3-D printer draws crowd at Science Bowl - 10/2/2018</h2>
@@ -9493,6 +9686,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Creative prototype leads to fielded implementation - 9/20/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkProtoTypeH2" class="news2KnowH1">Creative prototype leads to fielded implementation - 9/20/2018</h2>
@@ -9561,6 +9755,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Chemist at AFTAC earns award from national Hispanic organization - 9/19/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkChemistH2" class="news2KnowH1">Chemist at AFTAC earns award from national Hispanic organization - 9/19/2018</h2>
@@ -9625,6 +9820,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK eFAILution Wall:  Failure + Learning = Successful Evolution - 9/18/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkFailureH2" class="news2KnowH1">eFAILution Wall:  Failure + Learning = Successful Evolution - 9/18/2018</h2>
@@ -9713,9 +9909,9 @@
                         </p>
                     </div>
                 </article>
-<%--            </section>--%>
-        </section>
+            </section>
 
+<%--   Archived NTK AFTAC Hockey takes trophy at charity match - 9/18/2018 Article *****************************************************************************--%>
             <section>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
@@ -9772,6 +9968,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Center exercises capability to relocate treaty monitoring mission - 9/6/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkRelocateH2" class="news2KnowH1">Center exercises capability to relocate treaty monitoring mission - 9/6/2018</h2>
@@ -9833,6 +10030,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Breaking the STEM mold, one woman at a time - 8/24/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkStemGirlsH2" class="news2KnowH1">Breaking the STEM mold, one woman at a time - 8/24/2018</h2>
@@ -9964,6 +10162,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Contractor with treaty monitoring center puts lifesaving skills to the test - 8/24/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkSkillsH2" class="news2KnowH1">Contractor with treaty monitoring center puts lifesaving skills to the test - 8/24/2018</h2>
@@ -10063,6 +10262,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Cop for a Day: AFTAC Airmen learn role of base Security Forces - 8/21/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkSFSH2" class="news2KnowH1">Cop for a Day: AFTAC Airmen learn role of base Security Forces - 8/21/2018</h2>
@@ -10144,6 +10344,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Not just a buzzword; AFTAC showcases innovation to ISR community - 7/9/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkbuzzH2" class="news2KnowH1">Not just a buzzword; AFTAC showcases innovation to ISR community - 7/9/2018</h2>
@@ -10210,6 +10411,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Officials announce 2018 ACC STEM Award winners - 6/26/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstemawardH2" class="news2KnowH1">Officials announce 2018 ACC STEM Award winners - 6/26/2018</h2>
@@ -10267,6 +10469,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK When the storms of life arise, how do you survive the onslaught? - 6/25/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstormsH2" class="news2KnowH1">When the storms of life arise, how do you survive the onslaught? - 6/25/2018</h2>
@@ -10336,6 +10539,7 @@
                     </article>
                 </section>
    
+<%--   Archived NTK New commander inherits newly-structured Air Force organization - 6/20/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkchangeH2" class="news2KnowH1">New commander inherits newly-structured Air Force organization - 6/20/2018</h2>
@@ -10408,6 +10612,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK 24/7 treaty monitoring center ready for contingency ops - 6/15/2018 Article *****************************************************************************--%>
                 <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkmonitoringH2" class="news2KnowH1">24/7 treaty monitoring center ready for contingency ops - 6/15/2018</h2>
@@ -10485,6 +10690,7 @@
                 </section>
             </section>
 
+<%--   Archived NTK Florida Airmen Skype with Georgia middle school students - 5/12/2018 Article *****************************************************************************--%>
             <section>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
@@ -10557,6 +10763,7 @@
                         </article>
                    </section>
 
+<%--   Archived NTK Reorganization brings structure, leadership to treaty monitoring center - 5/9/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcommH2" class="news2KnowH1">Reorganization brings structure, leadership to treaty monitoring center - 5/9/2018</h2>
@@ -10655,6 +10862,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Reserve Citizen Airman sets sail as first reserve mission commander - 5/1/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcitizenH2" class="news2KnowH1">Reserve Citizen Airman sets sail as first reserve mission commander - 5/1/2018</h2>
@@ -10726,6 +10934,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK DoD's sole nuclear surveillance unit undergoes organizational change - 4/25/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntknuclearH2" class="news2KnowH1">DoD's sole nuclear surveillance unit undergoes organizational change - 4/25/2018</h2>
@@ -10794,6 +11003,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK With help from Airmen, Boy Scouts earn prestigious merit badge - 4/15/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkstemH2" class="news2KnowH1">With help from Airmen, Boy Scouts earn prestigious merit badge - 4/15/2018</h2>
@@ -10877,6 +11087,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Treaty Monitoring Center inducts three to its Wall of Honor - 4/4/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntktreatyH2" class="news2KnowH1">Treaty Monitoring Center inducts three to its Wall of Honor - 4/4/2018</h2>
@@ -10947,6 +11158,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Grass does not grow under this octogenarian's feet - 3/31/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkgrassH2" class="news2KnowH1">Grass does not grow under this octogenarian's feet - 3/31/2018</h2>
@@ -11032,6 +11244,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK AFTAC Hockey Team receives special Congressional recognition - 3/31/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkhockeyH2" class="news2KnowH1">AFTAC Hockey Team receives special Congressional recognition - 3/31/2018</h2>
@@ -11092,6 +11305,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK 25th AF commander immerses into treaty monitoring mission - 3/1/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkcommandH2" class="news2KnowH1">25th AF commander immerses into treaty monitoring mission - 3/1/2018</h2>
@@ -11166,6 +11380,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Industry Day brings high-tech companies to AFTAC - 2/28/2018 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkindustH2" class="news2KnowH1">Industry Day brings high-tech companies to AFTAC - 2/28/2018</h2>
@@ -11221,6 +11436,7 @@
                     </article>
                </section>
 
+<%--   Archived NTK AFTAC hosts annual WiSE Symposium - 2/15/2018 Article *****************************************************************************--%>
           <section>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
@@ -11298,6 +11514,7 @@
 
             </section>
 
+<%--   Archived NTK SecAF briefed on AFTAC role in nuclear explosions - 2/15/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntksecAfH2" class="news2KnowH1">SecAF briefed on AFTAC role in nuclear explosions - 2/15/2018</h2>
@@ -11350,6 +11567,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Holmes, Batten pay first visit to nuclear treaty monitoring center - 1/26/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                     <div class="aLeft">
                         <h2 id="ntkholmesH2" class="news2KnowH1">Holmes, Batten pay first visit to nuclear treaty monitoring center - 1/26/2018</h2>
@@ -11433,6 +11651,7 @@
                     </article>
                 </section>
 
+<%--   Archived NTK Airmen travel to Earth's southernmost point for annual maintenance 1/16/2018 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkantarcticH2" class="news2KnowH1">Airmen travel to Earth's southernmost point for annual maintenance 1/16/2018</h2>
@@ -11510,6 +11729,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTAC civilian, Army Reservist selected for promotion to brigadier general 12/5/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkgeneralH2" class="news2KnowH1">AFTAC civilian, Army Reservist selected for promotion to brigadier general 12/5/2017</h2>
@@ -11548,6 +11768,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTAC civilian returns to duty after Hurricane Maria relief efforts 11/30/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkmariaH2" class="news2KnowH1">AFTAC civilian returns to duty after Hurricane Maria relief efforts 11/30/2017</h2>
@@ -11618,6 +11839,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTAC names lab after 'giant' of nuclear forensics 11/24/20177 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkharkinsH2" class="news2KnowH1">AFTAC names lab after 'giant' of nuclear forensics 11/24/2017</h2>
@@ -11700,6 +11922,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Ions and betas and treaties, oh my! 11/8/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkionsH2" class="news2KnowH1">Ions and betas and treaties, oh my! 11/8/2017</h2>
@@ -11772,6 +11995,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTAC Airman honored with Valor Award for life-saving actions 9/27/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkValorH2" class="news2KnowH1">AFTAC Airman honored with Valor Award for life-saving actions 9/27/2017</h2>
@@ -11820,6 +12044,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Nuclear Treaty Monitoring unit cleans up after Hurricane Irma 9/16/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkHurricaneH2" class="news2KnowH1">Nuclear Treaty Monitoring unit cleans up after Hurricane Irma 9/16/2017</h2>
@@ -12047,6 +12272,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Air Force team monitors North Korean nuclear threat 9/16/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkNokH2" class="news2KnowH1">Air Force team monitors North Korean nuclear threat 9/16/2017</h2>
@@ -12115,6 +12341,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Sixth generation Sailor, first generation Airman 8/29/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkSailorH2" class="news2KnowH1">Sixth generation Sailor, first generation Airman 8/29/2017</h2>
@@ -12179,6 +12406,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Cyberspace domain critical to Nuclear Treaty Monitoring 8/29/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkCyberH2" class="news2KnowH1">Cyberspace domain critical to Nuclear Treaty Monitoring 8/29/2017</h2>
@@ -12244,6 +12472,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK AFTACers thrill young STEM minds, get surprise visit from HAF 3-star 8/23/2017 Article *****************************************************************************--%>
             <section class="archivedNews noDisplay">
                 <div class="aLeft">
                     <h2 id="ntkStemH2" class="news2KnowH1">AFTACers thrill young STEM minds, get surprise visit from HAF 3-star 8/23/2017</h2>
@@ -12383,6 +12612,7 @@
                 </article>
             </section>
 
+<%--   Archived NTK Tech Ops Squadron is heartbeat of nuke treaty monitoring from air, sea, space 5/23/2017 Article *****************************************************************************--%>
                <section class="archivedNews noDisplay">
                     <div class="aLeft">
                     <h2 id="ntkTopsH2" class="news2KnowH1">Tech Ops Squadron is heartbeat of nuke treaty monitoring from air, sea, space 5/23/2017</h2>
@@ -12478,6 +12708,7 @@
             </section>
         </article>
 
+<%--   CURRENT POST MONITORS Page *****************************************************************************--%>
         <article id="pomoArt" class="myArts noDisplay">
 
             <div class="clear"></div>
@@ -12491,17 +12722,17 @@
 
                 <div id="pomo2" class="noDisplay">
                     <p class="centerText">Click on the Pomo of your choice.</p>
-                    <div id="DecemberPomo" class="floatLeft leftMargin8em width25">
+                    <div id="AprilPomo" class="floatLeft leftMargin8em width25">
+                        <img alt="April2023.png" class="myPomo blackBorder showShadow" src="_Images/April2023.png" style="height:15em;" />
+                        <p class="centerText">April 2023</p>
+                    </div>
+                    <div id="DecemberPomo" class="floatLeft width25">
                         <img alt="December2022.png" class="myPomo blackBorder showShadow" src="_Images/December2022.png" style="height:15em;" />
                         <p class="centerText">December 2022</p>
                     </div>
                     <div id="AugustPomo" class="floatLeft width25">
                         <img alt="August2022.png" class="myPomo blackBorder showShadow" src="_Images/August2022.png" style="height:15em;" />
                         <p class="centerText">August 2022</p>
-                    </div>
-                    <div id="AprilPomo" class="floatLeft width25">
-                        <img alt="April2022.png" class="myPomo blackBorder showShadow" src="_Images/April2022.png" style="height:15em;" />
-                        <p class="centerText">April 2022</p>
                     </div>
                 </div>
 
@@ -12548,7 +12779,14 @@
                     </ul>
                 </div>--%>
 
-               <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
+              <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
+                    <p class="underLine">20222</p>
+                    <ul class="archList">
+                        <li><a class="maroonText" href="_Pomos/PoMo2022_04.pdf" target="_blank">April</a></li>
+                    </ul>
+                </div>
+
+               <div class="floatLeft aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2021</p>
                     <ul class="archList">
                         <li><a class="maroonText" href="_Pomos/PoMo2021_12.pdf" target="_blank">December</a></li>
@@ -12593,8 +12831,11 @@
                         <li><a class="maroonText" href="_Pomos/PoMo2017_04.pdf" target="_blank">April</a></li>
                     </ul>
                 </div>
+                <div class="clear"></div>
 
-               <div class="floatLeft aLeft width15" style="margin-top:-1em;">
+                <hr class="myHR autoMarginLeftRight" />
+
+               <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2016</p>
                     <ul class="archList">
                         <li><a class="maroonText" href="_Pomos/PoMo2016_12.pdf" target="_blank">December</a></li>
@@ -12603,11 +12844,9 @@
                     </ul>
                 </div>
 
-                <div class="clear"></div>
 
-                <hr class="myHR autoMarginLeftRight" />
 
-               <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
+               <div class="floatLeft aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2015</p>
                     <ul class="archList">
                         <li><a class="maroonText" href='_Pomos/PoMo2015-12.pdf' target="_blank">December</a></li>
@@ -12652,7 +12891,11 @@
                     </ul>
                 </div>
 
-                <div class="floatLeft aLeft width15" style="margin-top:-1em;">
+                <div class="clear"></div>
+
+                <hr class="myHR autoMarginLeftRight" />
+
+                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2010</p>
                     <ul class="archList">
                         <li><a class="maroonText" href='_Pomos/PoMo2010-12.pdf' target="_blank">December</a></li>
@@ -12661,11 +12904,7 @@
                     </ul>
                 </div>
 
-                <div class="clear"></div>
-
-                <hr class="myHR autoMarginLeftRight" />
-
-                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
+                <div class="floatLeft aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">2009</p>
                     <ul class="archList">
                         <li><a class="maroonText" href='_Pomos/PoMo2009-12.pdf' target="_blank">December</a></li>
@@ -12714,7 +12953,11 @@
                     </ul>
                 </div>
 
-                <div class="floatLeft aLeft width15" style="margin-top:-1em;"">
+                <div class="clear"></div>
+
+                <hr class="myHR autoMarginLeftRight" />
+
+                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;"">
                     <p class="underLine">2004</p>
                     <ul class="archList">
                         <li><a class="maroonText" href="_Pomos/PoMo2004-12.pdf" target="_blank">December</a></li>
@@ -12724,11 +12967,7 @@
                     </ul>
                 </div>
 
-                <div class="clear"></div>
-
-                <hr class="myHR autoMarginLeftRight" />
-
-                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;"">
+                 <div class="floatLeft aLeft width15" style="margin-top:-1em;"">
                     <p class="underLine">2003</p>
                     <ul class="archList">
                         <li><a class="maroonText" href="_Pomos/PoMo2003-12.pdf" target="_blank">December</a></li>
@@ -12778,7 +13017,11 @@
                     </ul>
                 </div>
 
-                <div class="floatLeft aLeft width15" style="margin-top:-1em;"">
+                <div class="clear"></div>
+
+                <hr class="myHR autoMarginLeftRight" />
+
+                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;"">
                     <p class="underLine">1998</p>
                     <ul class="archList">
                         <li><a class="maroonText" href="_Pomos/PoMo1998-12.pdf" target="_blank">December</a></li>
@@ -12788,11 +13031,7 @@
                     </ul>
                 </div>
 
-                <div class="clear"></div>
-
-                <hr class="myHR autoMarginLeftRight" />
-
-                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
+                 <div class="floatLeft aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">1997</p>
                     <ul class="archList">
                         <li><a class="maroonText" href='_Pomos/PoMo1997-12.pdf' target="_blank">December</a></li>
@@ -12840,8 +13079,10 @@
                         <li><a class="maroonText" href='_Pomos/PoMo1993-06.pdf' target="_blank">June</a></li>
                     </ul>
                 </div>
+                <div class="clear"></div>
 
-                <div class="floatLeft aLeft width15" style="margin-top:-1em;">
+                <hr class="myHR autoMarginLeftRight" />
+                <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
                     <p class="underLine">1985</p>
                     <ul class="archList">
                         <li><a class="maroonText" href='_Pomos/PoMo1985-06.pdf' target="_blank">June<br />First Issue</a></li>
@@ -12853,11 +13094,160 @@
             </section>
         </article>
 
+<%--   Current Obits Page *****************************************************************************--%>
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
-    
-                <article>
+<%--   Current Obits Martin “Marty” L. Kater - 4/11/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="KaterH2" class="obitH1">Martin "Marty" L. Kater - 4/11/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="KaterPara" class="obitPara noDisplay">
+                        <p>
+                    <img alt="Kater.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/kater.jpg" />
+                    Martin "Marty" L. Kater, was born on Sep 29, 1942, in Binghamton, NY to Donald and Esther (nee Oretskin) Kater.  Marty, age 80, passed away peacefully on April 11, 2023, at his home in Melbourne (Suntree), Florida.<br /><br />
+                    Marty spent his early years in Germany where his father worked for the U.S. Government on post-war issues.  The Kater family moved back to the U.S. and resided in Washington D.C.  Marty was a paperboy, diligently rising and delivering papers early in the morning.  He was an Eagle Scout and traveled with his troop across the US, visiting many historical sites.  Marty graduated from George Washington High School in 1960 and entered college at Georgia Tech in Atlanta, Georgia.  He was Captain of the Georgia Tech Swim Team and spent summers lifeguarding at various locations.  Marty graduated in 1964 and entered the U.S. Air Force.<br /><br />
+                    Marty's Air Force career spanned 27 years when he rose to Full Colonel.  During this time, he gained his Master's Degree from Golden Gate University, San Francisco, CA.  Assignments included:  Moody AFB, Valdosta, Georgia (flight school); Mather AFB, Sacramento, CA (Navigator/Electronic Warfare School); Wright-Patterson AFB, Dayton, Ohio (during this time, Marty completed 100 B-52 missions in Vietnam); Castle AFB, Merced, CA (B-52 Instructor); Sembach, Germany (ATOC); Ramstein AFB, Germany (HQ USAFE, Salty Control); Offutt AFB, Omaha, NE (Commander, Hq Squadron); Military Enlistment Processing Command, Great Lakes Naval Training Center, Great Lakes, IL (Dir Info Sys);  AFTAC, Patrick AFB, FL (Dir, Comm, and Computer Sys).  Marty retired from the Air Force Jul 31, 1991.   He completed his working career at Kennedy Space Center, Florida.<br /><br />
+                    Marty was passionate about his family, swimming, tennis, traveling, wine, and the San Francisco 49ers.<br /><br />
+                    Marty is survived by his beloved wife, Valarie J Kater (nee Bodnar), son Geoffrey (Cheryl), son James (Mai), and brother Robert (Kathleen) Kater.  Marty has three beautiful grandchildren:  Misha (16), Alina (10), and Carolina (6). He is predeceased by his parents, Donald and Esther Kater.  Expressions of sympathy in Marty's memory can be made to:<br />
+                    -  <a href="https://pva.org/ways-to-give/" target="_blank">Paralyzed Veterans of America (PVA)</a>  <br />
+                    -  <a href="https://www.feedhopenow.org/site/SPageServer/" target="_blank">2nd Harvest Food Bank of America (Central Florida Link Provided)</a>  <br />
+                    -  <a href="https://donate.cancer.org/?campaign=search&gclid=CjwKCAjwue6hBhBVEiwA9YTx8NNsVqGEV68eumIBHCdsGg2Dp_n_GZ-zjwsXu3qQ7E9z7-jQbx4NBRoC-d4QAvD_BwE" target="_blank">American Cancer Society</a>  <br /><br />
+                    A Memorial Service will be held Monday, April 24, 2023, 10-12 am at Beach Funeral Home, 1689 South Patrick Drive, Satellite Beach, FL 32937<br /><br />
+                </article>  
+<%--   Current Obits James Carl Davis - 3/16/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="JamesDavisH2" class="obitH1">James Carl (Carl, Jimp, Jim, Firehead) Davis - 3/16/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="JamesDavisPara" class="obitPara noDisplay">
+                        <p>
+                    <img alt="DavisJames.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/DavisJames.png" />
+                    James Carl (Carl, Jimp, Jim, Firehead) Davis 1927 - 2023<br /><br />
+                    Passed away peacefully in the Welland Hospital on Thursday, March 16, 2023, in his 96th year. Adoring husband of his loving wife Joyce Davis of Fonthill, Ontario, who passed away in 2022. Loving father of John Davis and his wife Marty of Grimsby, and JoAnne Davis of Tweed. Cherished grandfather of Brendan and Andrew, and his partner, Simone; and of Dylan, Caitlin, and Maeghan and her husband Wayne. Predeceased by his brothers Dillard, Edward "Red," and Billy of Georgia, and by his sister Carolyn of Tennessee. Jim will be fondly remembered by his nieces and nephews Steve Davis, Dwaine Setzer and DeAnn Rauth, Dale Davis and Sylvia Harmon, Steward McKenzie, Barb Chambers and Doug Chambers, and their families, and by Merina Paoa, the daughter of Jim's good friend Orlando Paoa of Easter Island, who learned English in Canada at the home of Jim and Joyce. Jim leaves behind his brother Jack Davis and his wife Vivian of Dillard, Georgia, his brother-in-law Bud Setzer of Knoxville, Tennessee, his sister-in-law Adilene Burrell Davis of Gibsonville, North Carolina, and cousins in Georgia and Tennessee.<br /><br />
+                    Jim was born in Dillard, Georgia in the Great Smoky Mountains on September 2, 1927, where he grew up working on farms, trapping animals, and getting into mischief. He graduated from Rabun Gap - Nacoochee School and attended the University of North Georgia before entering the United States Air Force in 1946. He served in the USAF weather service around continental America, in Japan, and in Bermuda, where he met Joyce, a Canadian who was working as a nurse. From 1953 until his retirement in 1973, Jim worked in the USAF's nuclear detection agency, the Air Force Technical Applications Center, with assignments from Alaska to Hawaii, California to Virginia, Japan to Iran, Europe to Africa, and from the North Pole to Easter Island. After retiring from the USAF, Jim trained in hotel management and moved to Ridgeville in the Niagara Region of Ontario, the area where his wife, Joyce, was from. In Niagara, he served as the manager of the Niagara Parks Commission restaurant at Queenston Heights before retiring in 1984. Jim also managed his hobby farm with its orchards, asparagus, vegetables, horses, and other animals. Jim and Joyce traveled a great deal around Canada and the US, and together returned to Easter Island where they visited the numerous friends Jim had made when stationed there for a year in 1968-1969. Jim was very attached to the Canadian Legion and to the Lion's Clubs in both Fenwick and Fonthill and served the Pelham Community Church for many years. He was grateful for the many friends he had in and around his Ridgeville hobby farm, at Pelham Town Square Manor where he and Joyce lived after leaving the farm, and at Lookout Ridge Retirement Community where he and Joyce last resided.<br /><br />
+                    Family and friends will be received at the PELHAM FUNERAL HOME, 1292 Pelham Street, Fonthill on Friday, March 24 from 2-4 and 6-8 PM. The memorial service to honor Jim's life will take place at Pelham Community Church, 461 Canboro Road on Saturday, March 25 beginning at 11:00 AM. Interment will follow at Hillside Cemetery.<br /><br />
+                    An expression of sympathy donation may be made to <a href="https://www.pelham.cc/" target="_blank">Pelham Community Church.</a><br /><br />
+                    Condolences may be shared at www.pelhamfuneralhome.ca<br /><br />
+                    To send <a href="https://james-l-pedlar-funeral-home-ltd.tributestore.com/?oId=27524695&fbclid=IwAR2_gpfvmxT6ICzN39LletOmVNcb3LMEK1s48juKEAPfigE1AdHL5wJRkvo" target="_blank">Flowers</a> to the family or <a href="https://treecan.tributestore.com/memorial-tree?oId=27524695&fbclid=IwAR0legngphjZm4rLJKale-n166gBkfQljGrqewyN1MuGA5Z77icm97JjBO8" target="_blank">plant a tree</a> in memory of James Carl Davis, please visit our <a href="https://james-l-pedlar-funeral-home-ltd.tributestore.com/?oId=27524695&fbclid=IwAR1R_sCAEZeTYNv-0jeBZPh0WgcqBhMqypvfipKkJGXfktJHaKH0k4jXegg" target="_blank">Heartfelt Sympathies Store</a>.<br /><br />
+                        </p>
+                    </div>
+                </article>  
+<%--   Current Obits Dave Hamil - 3/10/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="DaveHamilH2" class="obitH1">Dave Hamil - 3/9/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="DaveHamilPara" class="obitPara noDisplay">
+                        <p>
+                    <img alt="HamilDave.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/HamilDave.jpg" />
+                    David Earl "Sarge" Hamil 1959 - 2023<br /><br />
+
+                    David "Sarge" Hamil, 63, of Duluth, MN, passed away on March 9, 2023, after a brief fight against cancer. He was born in Newport Beach, CA to Bonnie (White) and Edward Hamil. He served in the US Air Force 24 years, retiring as MSgt in 2005. His last duty was with AFTAC as Detachment Chief in Alice Springs Australia.<br /><br />
+                    In 1984 he married Sharon Madsen with whom he had 3 children. Later he met Angela Veech Johnson whom he married in 2021 and gained 2 more sons.<br /><br />
+                    After retiring he was a mail man, then became part owner of the DISC in Duluth MN. He was very active as a national volleyball referee and coached volleyball through Minnesota North Volleyball Club. He was not only coach but father/mentor to his girls. He was an avid softball player and also active in local dart leagues and win or lose he was a faithful Vikings fan.<br /><br />
+                    Preceding him in death were his father and grandparents. Survivors include his wife, Angela; children Joshua of Two Harbors; Jeremiah and Sarah and mother Bonnie of Superior, WI; stepsons Logan and Ian Johnson of Duluth.<br /><br />
+                    Services will be held at North Bay Community Church in Superior, WI on April 14, 2023: visitation at 2:00 p.m. with services at 3:00 p.m. A light meal will follow. Military honors and committal services will be in the spring at MN State Veterans Cemetery Duluth.<br /><br />
+                    If desired, in lieu of flowers memorials can be made to St Jude's Children's Hospital or a charity of your choice.<br /><br />
+
+                    
+
+                        </p>
+                    </div>
+                </article>  
+
+ <%--   Current Obits Tom Cameron - 2/25/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="CameronH2" class="obitH1">James "Tom" Thomas Cameron Jr. - 2/25/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="CameronPara" class="obitPara noDisplay">
+                        <p>
+                           <img alt="Cameron.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Cameron.jpg" />
+                            James "Tom" Thomas Cameron Jr., age 68, passed away on February 25 after battling brain cancer. We rejoice that Tom has gone home to be with the Lord. Tom was a loving husband, father, and brother. His battle while brief was a fierce one and Tom made every attempt to fight but sadly succumb to the illness. <br /><br />
+                            Tom is survived by his wife Debra Cameron, Brother Rev. Keith Cameron, sons: Mark, Dennis, and Ben Cameron, Daughter in laws; Christina and Megan Cameron. He is also survived by his grandchildren; Cole, Hunter, Madisyn, Cheyanne, Seth and Cyran Cameron. Plus, two bonus daughters; Tari Honeycutt-Kinyon and Cyndy Guerry, as well as his bonus granddaughter Les Guerry. Tom is preceded in death by both his parents; James and Marie Cameron of Warner Robins, GA. & his bonus Grandson Richard Honeycutt of Folkston, GA. <br /><br />
+                            Tom was an avid bass fisherman with the local Patrick Bass Club. While he will be missed by his entire family, he will never be forgotten. <br /><br />
+                            Rest in peace and catch some big fish in the lakes up above. Officiated by Reverend Keith Cameron<br /><br />
+                            Tom's service will be on Tuesday, March 7, at 9 am at the Canaveral National Cemetery in Mims. A Celebration of Life get-together will be held after at the service at VFW 'Rocket' Post 4543, 3250 U.S Hwy 1, Rockledge, FL, United States, Florida.
+                        </p>
+                    </div>
+                </article>  
+
+ <%--   Current Obits William "Bill" Schmied - 2/25/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="SchmiedH2" class="obitH1">William "Bill" Schmied - 2/25/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="SchmiedPara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="SchmiedB.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/SchmiedB.png" />
+                            William "Bill" Charles Schmied Jr., age 79, passed away in Aurora, Colorado on February 25, 2023.  Bill was born January 6, 1944, in Richmond, Virginia to parents William and Ann Schmied.  He was the 2nd oldest of eight children, with three brothers and four sisters.  Bill is preceded in death by his parents and the love of his life, Sue Ellen Schmied, who died February 22, 2021.<br /><br /><br />    
+                            Bill joined the military and landed in Lakeside, MT as an airman in the Air Force and was stationed at an air defense radar site.  Not far from Lakeside, Bill stayed in the small town of Kalispell where he met Sue at the Conrad Bank where she worked.  Being the young, handsome airman he was, he swept Sue off her feet and they were married in Bigfork in 1966.  Their adventure began as a military couple and over the years they were stationed in the Philippines, Japan (twice), North Carolina and South Carolina, before landing permanently at Lowry Air Force base in Denver in 1983 where they continued to raise their two children. <br /><br />
+                            Bill spent 30 years of service with the United States Air Force and retired as Chief MSGT in October 1991.  Bill enjoyed retirement for almost 2 years, which included some traveling as well as not shaving and growing a face full of hair!  Not being able to sit still for too long, Bill found a new home in civilian employment and continued to work until 2009, when he retired for the second time from Newark Services in Aurora, CO.   By then, Bill had become a grandpa five times and along with Sue, together their love for their grandchildren shined brightly above all else.  They rarely missed a sporting or school function and not only had their own set of car seats, the grandchildren had their very own room at the house. <br /><br />
+                            Bill was forever a military man at heart and remained closely connected to his love of the Air Force.  He was Treasurer of the Colorado Chapter of AFTAC Alumni (Air Force Technical Applications Center) for years and was honored as the AFTAC Alumni of the year in Florida in 2007.  Bill will be honored and remembered with a funeral mass at St. Pius the Tenth in Aurora on Thursday, March 16, 2023, and then laid to his final resting place at Ft. Logan National Cemetery that afternoon, surrounded by family and friends who loved him.  Bill is survived by his two children, Jeb Schmied and Stacia Johnston, 5 grandchildren, and his first great-granddaughter. <br /><br />
+                            A Visitation will be held on Wednesday, March 15th at 4:30 pm with a Recitation of the Rosary to follow at 5:30 pm at the Horan and McConaty Family Chapel at 11150 E. Dartmouth Ave. Aurora, CO 80014. A Funeral Mass will take place the following day, Thursday, March 16th at St. Pius X Catholic Church at 10:30 am followed by burial at 1:30 at Fort Logan National Cemetery. <br /><br />
+
+                        </p>
+                    </div>
+                </article>  
+
+ <%--   Current Obits Ed Mason - 2/20/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="MasonH2" class="obitH1">Ed Mason - 2/20/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="MasonPara" class="obitPara noDisplay">
+                        <p>
+                            It is with great sadness to announce the passing of SMSgt Edward A Mason (ret) on 20 Feb 2023 after a battle with cancer. Ed served on active duty in AFTAC from July 1977 - July 2001. After retirement he spent a short time at ZELTEC then returned to the AFTAC building as a GS until his passing. <br /><br />
+                            Ed is survived by Rosanne, his wife of 42 years, daughter Jessica, son-in-law Robert, grandson Ralph, Mother Margaret, sister Louise, and his brothers Pat, John, Dan, Micheal, and Robert. <br /><br />
+                            Ed will be buried in a Private Ceremony in his home town of Bennington, Vermont on March 8th. <br /><br />
+                            The family is requesting in lieu of flowers that donations be made to:<br />
+                            St Francis Reflections Lifestage Care<br />
+                            250 N Wickham Road, Melbourne, FL 32935<br />
+                            Or the Wounded Warriors Foundation<br /><br />
+                            A Celebration of Life will occur once the family returns from Vermont. Date/time/location will be provided as soon as possible. <br /><br />
+                            Ed's smile, wit, and sense of humor will be deeply missed by all that knew him. <br /><br />
+
+                            A Message from AFTAC CC/Col Finlayson:<br /><br />
+                            Team, It is with great sadness and a heavy heart that I inform you of the passing of longtime AFTAC member, Mr. Ed Mason (SD) after a long battle with cancer. <br /><br /> 
+                            Ed joined AFTAC as a civil servant after serving as an enlisted 99 (9S100) for nearly 23 years achieving the rank of Senior Master Sergeant.<br /><br />
+                            Ed will be buried in his hometown of Vermont.  The family will not be holding a local service prior to his interment at this time, but may hold a "Celebration of Life" later down the road. <br /><br />
+                            Once we get that information, we will share it with AFTAC ALL.  Please keep his wife Rosanne and the rest of the Mason family in your thoughts as they navigate through this very sad chapter.<br /><br />
+                            
+                        </p>
+                    </div>
+                </article>  
+
+ <%--   Current Obits Ken MOWhite - 2/17/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="MOWhiteH2" class="obitH1">Matthew Odis White Sr. - 2/17/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="MOWhitePara" class="obitPara noDisplay">
+                        <p>
+                            <img alt="MOWhite.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/MOWhite.jpg" />                        
+                            Matthew Odis White, Sr. 76, died on February 17, 2023 at home after a courageous battle with cancer. He was born on October 26, 1946 in La Junta, CO, to Matthew F. White and Cletus Viola White.<br /><br />
+                            The family lived in La Junta, CO, Trinidad, CO and then La Junta again as Matt grew up. He participated in Boy Scouts, earning their two most prestigious awards: the God and Country Award in 1960; the Eagle Scout Award in 1962. He graduated from La Junta High School in 1964 and immediately enlisted in the Air Force. He served from 1964 to 1968.<br /><br />
+                            In 1969 he moved to Greeley. He married Kay Kelso on June 26, 1971 in Denver and they made their home in Greeley. In 1973 he joined the Colorado State Patrol. His first duty station was Byers, CO where their three children were born: Shelley Anne White, Melissa Lynn White and Matthew Odis White, Jr. In 1988 they moved back to Greeley when he was promoted to Sergeant with the State Patrol. He retired from the State Patrol in 2000 after 27 years. He then worked for Allnutt Funeral Service for 10 years followed by 5 years working for CTS, a Commercial Defensive Driving School teaching defensive driving all over the United States. He retired at the end of 2014. He received his private pilot license in 1995 and purchased a Cessna airplane for a lot of family fun. He and his family always enjoyed camping, fishing, travelling and he and Kay also enjoyed cruising.<br /><br />
+                            Matt joined the American Legion Post 18 in Greeley in 2009 and maintained an active role in the American Legion-sponsored Boys State program. He was also a member of the CSPA, the State Patrol retired members association and the AFTAC Alumni Association, members of his job group from the Air Force. He was proud of his Native American heritage maintaining his membership in the Oklahoma Cherokee tribe. <br /><br />
+                            He is survived by his wife, Kay; daughters Shelley (Scott) Welch, Melissa Winter and a son, Matthew "Matt" White, Jr. and eight grandchildren, with his first great-grandson expected in March.<br /><br />                             He was preceded in death by his parents and his sister, Shirley Jean White.<br /><br /> 
+                            The family would like to thank the wonderful people of Pathways Hospice, especially Christine and Shelly who made this transition easier.<br /><br />
+                            Matt's Life Celebration will be held at 11:00 a.m. Friday, February 24, 2023 at Adamson Life Celebration Home with a reception to follow. Memorial gifts may be made to "rescueme.org", the wonderful organization where Matt got his beloved Maltese, Molly. Condolences may be shared at AdamsonCares.com. 
+                            To send flowers to the family or plant a tree in memory of Matthew Odis White, Sr. please visit our 
+                            <a href="http://adamson-life-celebration-home.tributestore.com/?oId=27334236&source=ta2&taph=2" target="_blank"> Tribute Store</a>.<br /><br />
+                        </p>
+                    </div>
+                </article>                     
+ <%--   Current Obits Tony Balentine - 1/5/2023 *****************************************************************************--%>
+               <article>
                     <div>
                         <h2 id="BalentineH2" class="obitH1">Tony Balentine - 1/5/2023 </h2>
                     </div>
@@ -12876,6 +13266,7 @@
                     </div>
                 </article>
 
+ <%--   Current Obits Earl C. Pierce - 12/29/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="PierceH2" class="obitH1">Earl C. Pierce - 12/29/2022 </h2>
@@ -12945,6 +13336,7 @@
                     </div>
                 </article>
 
+ <%--   Current Obits Rita Jean Shader - 11/9/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="ShaderH2" class="obitH1">Rita Jean Shader - 11/9/2022 </h2>
@@ -12990,6 +13382,7 @@
                     </div>
                 </article>
 
+ <%--   Current Obits Gail Marie Williamson - 10/16/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="WilliamsonH2" class="obitH1">Gail Marie Williamson - 10/16/2022 </h2>
@@ -13019,6 +13412,7 @@
                     </div>
                 </article>
 
+ <%--   Current Obits Nordin Curtis Anderholm - 10/21/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="AnderholmH2" class="obitH1">Nordin Curtis Anderholm - 10/21/2022 </h2>
@@ -13037,7 +13431,8 @@
                     </div>
                 </article>
                 
-                <article>
+  <%--   Current Obits Jesse LeRoy Peterson - 9/2/2022 *****************************************************************************--%>
+               <article>
                     <div>
                         <h2 id="PetersonH2" class="obitH1">Jesse LeRoy Peterson - 9/2/2022</h2>
                     </div>
@@ -13064,6 +13459,8 @@
                         </p>
                     </div>
                 </article>
+ 
+  <%--   Current Obits Robert "Bob" Michael Kridle - 7/31/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="KridleH2" class="obitH1">Robert "Bob" Michael Kridle - 7/31/2022 </h2>
@@ -13098,6 +13495,7 @@
                     </div>
                 </article>
 
+  <%--   Current Obits Janice (Jan) Whitney - 7/24/2022 *****************************************************************************--%>
                 <article>
                     <div>
                         <h2 id="WhitneyH2" class="obitH1">Janice (Jan) Whitney - 7/24/2022</h2>
@@ -13128,6 +13526,7 @@
         </article>            
   
   
+<%--   Archived Obits Page *****************************************************************************--%>
         <article id="archivedObitsArt" class="myArts noDisplay">
                 <h1 class="maroonText centerText bold underLine">Archived Obituaries</h1>
 
@@ -13200,6 +13599,7 @@
                 Your browser does not support the audio element.
             </audio>
 
+<%--   Sage Shop Page *****************************************************************************--%>
         </article>
 
         <article id="sageShopArt" class="myArts noDisplay bottomMargin7em">
@@ -13252,6 +13652,7 @@
             </ul>
         </article>
 
+<%--   Appointed Board Page *****************************************************************************--%>
         <article id="selectedBoardArt" class="myArts noDisplay width90 noDisplay floatLeft autoMarginLeftRight maroonBorder smallShadow">
             <h2 class="centerText maroonText bold">Appointed Board</h2>
             <ul class="aLeft width45 floatLeft appOfficersList">
@@ -13334,6 +13735,7 @@
             <div class="clear"></div>
         </article>
 
+<%--   AFTAC Cares for Deployed Page *****************************************************************************--%>
         <article id="deploymentArt" class="myArts noDisplay">
             <div class="leftMargin2em">
                 <div class="floatLeft width20">
@@ -13437,7 +13839,8 @@
             </div>
         </article>
 
-        <article id="emailLookupArt" class="myArts noDisplay">
+ <%--   email Lookup for contact Info Page *****************************************************************************--%>
+       <article id="emailLookupArt" class="myArts noDisplay">
             <p class="pTitle centerText">EMail Lookup</p>
             <aside class="floatLeft width40" style="">
                 <p class="pTitle centerText">Enter Email Address</p>
@@ -13470,6 +13873,7 @@
             <div class="clear"></div>
         </article>
 
+ <%--   Administrative Menu Page *****************************************************************************--%>
         <article id="adminMenuArt" class="myArts noDisplay">
             <p class="pTitle centerText">Administrative Menu</p>
 
@@ -13499,6 +13903,7 @@
             </div>
         </article>
 
+ <%--   Administrative Log In Page *****************************************************************************--%>
         <article id="passwordArt" class="myArts noDisplay">
             <div class="width60 autoMarginLeftRight bottomMargin2em">
                 <p class="pTitle centerText underLine">ENTER USER NAME AND PASSWORD</p>
@@ -13527,7 +13932,8 @@
             </div>
         </article>  
               
-        <article id="changepasswordArt" class="myArts noDisplay">
+  <%--   Administrative Change Password Page *****************************************************************************--%>
+       <article id="changepasswordArt" class="myArts noDisplay">
             <div class="width70 autoMarginLeftRight">
                 <p class="pTitle centerText underLine">CHANGE PASSWORD</p>
                 <div id="PWbody" class="maroonBorder showShadow block">
@@ -13583,6 +13989,7 @@
             </div>
         </article>
 
+  <%--   Page Footer Section *****************************************************************************--%>
         <article class="myFooter centerDiv block">
             <div class="clear"></div>
             <hr class="myHR" />

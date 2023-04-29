@@ -479,12 +479,12 @@
         }, 500);
     });
 
-    $('#showAgenda').click(function () {
-        subclicked = true;
-        $('.underSel').css('color', 'yellow');
-        $('#showAgenda').css('color', 'lightgreen');
-        window.open('_PDFs/agenda.pdf', '');
-    });
+ //   $('#showAgenda').click(function () {
+ //       subclicked = true;
+ //       $('.underSel').css('color', 'yellow');
+ //       $('#showAgenda').css('color', 'lightgreen');
+ //       window.open('_PDFs/agenda1.pdf', '');
+ //   });
 
     $('#job1').click(function () {
         subclicked = true;

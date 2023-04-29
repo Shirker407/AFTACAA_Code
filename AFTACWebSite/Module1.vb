@@ -144,27 +144,30 @@ Module Module1
         Dim x As Int32
         Dim temp As String
 
-        s = unApos(s)
+        If Len(s) < 1 Then
+            temp = ""
+        Else
+            s = unApos(s)
 
-        temp = UCase(Mid$(s, 1, 1))
+            temp = UCase(Mid$(s, 1, 1))
 
-        For x = 2 To Len(s)
-            If x = 3 And Mid$(s, x - 1, 1) = "'" Then
-                temp &= UCase(Mid$(s, x, 1))
-            Else
-                If Mid$(s, x - 1, 1) = " " Then
-                    temp &= UCase(Mid$(s, x, 1))
-                ElseIf temp = "Mc" And x = 3 Then
-                    temp &= UCase(Mid$(s, x, 1))
-                ElseIf Mid$(s, x - 1, 1) = "(" Then
+            For x = 2 To Len(s)
+                If x = 3 And Mid$(s, x - 1, 1) = "'" Then
                     temp &= UCase(Mid$(s, x, 1))
                 Else
-                    temp &= LCase(Mid$(s, x, 1))
+                    If Mid$(s, x - 1, 1) = " " Then
+                        temp &= UCase(Mid$(s, x, 1))
+                    ElseIf temp = "Mc" And x = 3 Then
+                        temp &= UCase(Mid$(s, x, 1))
+                    ElseIf Mid$(s, x - 1, 1) = "(" Then
+                        temp &= UCase(Mid$(s, x, 1))
+                    Else
+                        temp &= LCase(Mid$(s, x, 1))
+                    End If
                 End If
-            End If
 
-        Next
-
+            Next
+        End If
         Return temp
 
     End Function

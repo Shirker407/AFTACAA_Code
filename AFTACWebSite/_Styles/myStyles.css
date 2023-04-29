@@ -428,7 +428,7 @@ h3
     width:75%;
     padding:.5em;
     background-color:moccasin;
-    border-top:thick solid darkred
+
 }
 
 #mySlideRequest 
@@ -1043,3 +1043,9 @@ tr:nth-child(even) {
     text-align:left;
 }
 
+.byLine {
+    font-weight: lighter
+    font-size: 0.5em;
+    color: blue;
+    text-align: center
+}
