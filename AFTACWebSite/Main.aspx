@@ -295,6 +295,17 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage7" class="announcement blueText">Notified thriough Facebook that Craig Pickel has passed.  Additional information will be posted when avaialble.</td>
+                                    <td class="posted blueText">4/30/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage6" class="announcement blueText">Notified by Judy Henderson that Tannie H Landry has passed.  <a href="https://www.floridatoday.com/obituaries/bft087636" target="_blank">Florida Today Link.</a>   Additional information will be posted when avaialble.</td>
+                                    <td class="posted blueText">4/30/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPomo" class="announcement blueText">April Pomo was Published</td>
                                     <td class="posted blueText">4/27/2023</td>
                                     <td class="event blueText"></td>
@@ -350,39 +361,27 @@
                                     <td class="posted blueText">3/30/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+  <!--                               <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://vimeo.com/807598018 " target ="_bank")>9S100 Career Field Awarded the Chief Master Sgt. Richard Etchberger Team Award at the AFA Warefare Symposium (see minutes 41:14 - 44:45 of the Video)</a></td>
                                     <td class="posted blueText">3/30/2023</td>
                                     <td class="event blueText"></td>  
                                 </tr>
-                                <!--<tr class="trAnnouncementsEntry bottomDotRed">                    
+                               <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage2" class="announcement blueText"><a href ="https://www.airandspaceforces.com/?p=185363#:" target ="_bank")>AFA Warefare Symposium: The Enlisted Imperative </a></td>
                                     <td class="posted blueText">3/30/2023</td>
-                                    <td class="event blueText"></td> --> 
+                                    <td class="event blueText"></td> 
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myDaveHamil" class="announcement blueText">David Earl "Sarge" Hamil, 3/9/2023 Obituary was  posted.</td>
                                     <td class="posted blueText">3/30/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-   <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                   <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAFTACPicnic" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Click for details!</td>
                                     <td class="posted greenText">3/21/2023</td>
                                     <td class="event greenText"> 3/31/2023</td> 
                                 </tr>-->
- <!--                                 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://www.universalorlando.com/web/en/us/tickets-packages/military-deals-specials" target ="_bank")> Universal Orlando Freedom Pass $200</a></td>
-                                    <td class="posted blueText">2/1/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
                                                    
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDecPomo" class="announcement blueText">December Pomo was Published</td>
-                                    <td class="posted blueText">12/23/2022</td>
-                                    <td class="event blueText"></td>
-                                </tr>
--->
                          </table>
                         </div>
                     </div>
