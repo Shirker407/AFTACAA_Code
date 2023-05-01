@@ -295,12 +295,12 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage7" class="announcement blueText">Notified thriough Facebook that Craig Pickel has passed.  Additional information will be posted when avaialble.</td>
+                                    <td id="mySpecalLinksPage7" class="announcement blueText">Notified thriough Facebook that Craig Pickel has passed.  Additional information will be posted when available.</td>
                                     <td class="posted blueText">4/30/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage6" class="announcement blueText">Notified by Judy Henderson that Tannie H Landry has passed.  <a href="https://www.floridatoday.com/obituaries/bft087636" target="_blank">Florida Today Link.</a>   Additional information will be posted when avaialble.</td>
+                                    <td id="mySpecalLinksPage6" class="announcement blueText">Notified by Judy Henderson that Tannie H Landry has passed.  <a href="https://www.floridatoday.com/obituaries/bft087636" target="_blank">Florida Today Link.</a>   Additional information will be posted when available.</td>
                                     <td class="posted blueText">4/30/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
@@ -311,17 +311,17 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage5" class="announcement blueText"><a href="https://view.m.seaworldparks.com/?qs=9901c02964908f02be655d1bf3b6c43c15279a14733379ef808ba21ef69a112a31ba86ffcf777af3c90b01ab7109f58b7e757eb692b5c3a407de96e3d7a3c020b7f1720b5bcdfef7dcd4f542192ec9e2" target="_blank">4 Free and 6 half price Bush Gardens Tampa Tickets for Veterans!  Register by 14 May and use by 9 July 2023 </a></td>
+                                    <td id="mySpecalLinksPage5" class="announcement blueText"><a href="https://view.m.seaworldparks.com/?qs=9901c02964908f02be655d1bf3b6c43c15279a14733379ef808ba21ef69a112a31ba86ffcf777af3c90b01ab7109f58b7e757eb692b5c3a407de96e3d7a3c020b7f1720b5bcdfef7dcd4f542192ec9e2" target="_blank">4 Free and 6 half price Busch Gardens Tampa Tickets for Veterans!  Register by 14 May and use by 9 July 2023 </a></td>
                                     <td class="posted blueText">4/24/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage4" class="announcement blueText"><a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card avaialbe as prove you are eligable for discounts added to Special Links page.</a></td>
+                                    <td id="mySpecalLinksPage4" class="announcement blueText"><a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card available as as proof you are eligible for discounts added to Special Links page.</a></td>
                                     <td class="posted blueText">4/22/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage2" class="announcement blueText">Notified by Roger Hornsby and Van Roberts that Rich Bohn was found deceased in his home on 12 April 2023.  Additional information will be posted when avaialble.</td>
+                                    <td id="mySpecalLinksPage2" class="announcement blueText">Notified by Roger Hornsby and Van Roberts that Rich Bohn was found deceased in his home on 12 April 2023.  Additional information will be posted when available.</td>
                                     <td class="posted blueText">4/21/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
