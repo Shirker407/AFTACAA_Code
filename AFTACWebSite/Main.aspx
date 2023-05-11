@@ -295,12 +295,27 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage7" class="announcement blueText">Notified thriough Facebook that Craig Pickel has passed.  Additional information will be posted when available.</td>
+                                    <td id="myMeharg" class="announcement blueText">William "Bryan" Meharg, 4/27/2023 Obituary was  posted.</td>
+                                    <td class="posted blueText">5/11/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">April Minutes Published</td>
+                                    <td class="posted blueText">5/11/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage6" class="announcement blueText">Notified by Dale Klug that Alexander Spicci has passed.  Limited information is available, but support can be shown through this <a href="https://obituaries.tridentsociety.com/obituaries/roseville-ca/alexander-spicci-11277406" target="_blank">link.</a>  Additional information will be posted when available.</td>
+                                    <td class="posted blueText">5/11/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecalLinksPage7" class="announcement blueText">Notified through Facebook that Craig Pickel has passed.  Additional information will be posted when available.</td>
                                     <td class="posted blueText">4/30/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage6" class="announcement blueText">Notified by Judy Henderson that Tannie H Landry has passed.  <a href="https://www.floridatoday.com/obituaries/bft087636" target="_blank">Florida Today Link.</a>   Additional information will be posted when available.</td>
+                                    <td id="mySpecalLinksPage7" class="announcement blueText">Notified by Judy Henderson that Tannie H Landry has passed. <a href="https://www.floridatoday.com/obituaries/bft087636" target="_blank">Florida Today Link.</a>    Additional information will be posted when available.</td>
                                     <td class="posted blueText">4/30/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
@@ -316,7 +331,7 @@
                                     <td class="event blueText"></td> 
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage4" class="announcement blueText"><a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card available as as proof you are eligible for discounts added to Special Links page.</a></td>
+                                    <td id="mySpecalLinksPage4" class="announcement blueText"><a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card available as proof you are eligible for discounts added to Special Links page.</a></td>
                                     <td class="posted blueText">4/22/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
@@ -340,27 +355,7 @@
                                     <td class="posted blueText">4/12/2023</td>
                                     <td class="event blueText"></td>
                                 </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage" class="announcement blueText"><a href ="https://www.togetherweserved.com" target ="_bank")>Veterans of the US Military - Stay Connected For Life!  Link to 'Together We Served' site added to Special Links</a></td>
-                                    <td class="posted blueText">4/7/2023</td>
-                                    <td class="event blueText"></td> 
-                                </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myEddleman" class="announcement blueText">CMSgt Thomas N. Eddleman added to the 20 Year Wall.</td>
-                                    <td class="posted blueText">4/6/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>                                
-                                
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myJamesDavis" class="announcement blueText">James Carl (Carl, Jimp, Jim, Firehead) Davis, 3/16/2023 Obituary was posted.</td>
-                                    <td class="posted blueText">4/4/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">March Minutes Published</td>
-                                    <td class="posted blueText">3/30/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
+
   <!--                               <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://vimeo.com/807598018 " target ="_bank")>9S100 Career Field Awarded the Chief Master Sgt. Richard Etchberger Team Award at the AFA Warefare Symposium (see minutes 41:14 - 44:45 of the Video)</a></td>
                                     <td class="posted blueText">3/30/2023</td>
@@ -393,19 +388,21 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Monday 8 May<br />
-                        15:00 - 16:00 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 9 June<br />
+                        11:30 - 12:30 Hrs<br />
                         --------------------------<br />
-                        AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
+                        AFTAC Alumni Association Quarterly General Membership Off-Site Luncheon and Teleconference Meeting<br />
+                        <!--AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />-->
                         --------------------------<br />
-                        HQ AFTAC <br />
-                        Loby Conference Room<br />
-                        Patrick AFB FL<br />
-                        <!--Beef O'Brady's<br />
-                        724 S Patrick Drive<br /> 
+                        <!--HQ AFTAC <br />
+                        Lobby Conference Room<br />
+                        Patrick SFB FL<br />-->
+                        Beef O'Brady's<br />
+                        3030 Lake Washington Road<br />
+                        Melbourne FL<br />
+                        Note:  Please arrive at 1100 if you desire to order food/beverages. <br />
+                        <!--724 S Patrick Drive<br /> 
                         Satellite Beach FL<br />-->
-                        <!--3030 Lake Washington Road<br />
-                        Melbourne Fl<br /> -->
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Ed Lindsay, AFTACAA President, at <a href="MailTo: piston_horse@hotmail.com">piston_horse@hotmail.com</a>
@@ -3523,6 +3520,7 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/4-14-2023_Minutes.pdf" target="_blank">4-14-2023</a></li>
                     <li><a href="_Minutes/3-10-2023_Minutes.pdf" target="_blank">3-10-2023</a></li>
                     <li><a href="_Minutes/2-13-2023_Minutes.pdf" target="_blank">2-13-2023</a></li>
                     <li><a href="_Minutes/1-9-2023_Minutes.pdf" target="_blank">1-9-2023</a></li>
@@ -4736,7 +4734,7 @@
                                 <asp:Button ID="btnHall" CssClass="wohBut" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Col Franklin Hall" OnClick="btnHall_Click" />
                             </div>
                             <div class='floatLeft width30'>
-                                <asp:Button ID="btnMacInnes" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Lt Col George MacInnes" OnClick="btnMacInnes_Click" />
+                                <asp:Button ID="btnMacInnes" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Lt Col Michael MacInnes" OnClick="btnMacInnes_Click" />
                             </div>
                             <div class='floatLeft width30'>
                                 <asp:Button ID="btnRothe" ForeColor="Maroon" BackColor="Transparent" Font-Bold="true" Font-Size="1.3em" BorderStyle="None" runat="server" Text="Dr. George Rothe" OnClick="btnRothe_Click" />
@@ -13097,6 +13095,26 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+<%--   Current Obits Col. William "Bryan" Meharg - 4/27/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="MehargH2" class="obitH1">Col. William "Bryan" Meharg - 4/27/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="MehargPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="meharg.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/meharg.jpg" />
+                        Col. William "Bryan" Meharg, USAF (Ret.), died peacefully Thursday, April 27, 2023, at his home in Satellite Beach, FL.<br /><br />
+                        Bryan was born on January 17, 1925, to William Bryan and Ellen H. Meharg in Lakeland, FL. He was an only child and his father died when Bryan was 8. He became an original "latchkey" child, developing an independent, inquisitive, and "slightly" rebellious nature, as well as an enduring bond with his mother.<br /><br />
+                        He entered the US Army Air Forces during WWII and flew 27 combat missions over Europe, serving as a Ball Turret/Nose Gunner on a B-24 assigned to the 8th Army Air Forces. Upon his discharge, he entered college and graduated from Florida Southern in Lakeland.<br /><br />
+                        After graduation, Bryan began a career in the citrus business and joined the US Air Force Reserves. While attending a church dinner with his mother, he met Lolita Peel. They were married in Lakeland on November 20, 1948. He was recalled to active duty at the outbreak of the Korean War and then decided on an Air Force career. He stayed on duty for an additional 30 years and retired in 1981 as head of logistics for AFTAC at Patrick AFB. He served his country in WWII, the Korean War, and Vietnam with great integrity and distinction and received over 30 awards and decorations during his service.<br /><br />
+                        Bryan had a lifelong love of tennis and played the amateur circuit wherever he was stationed. He was the Air Force Seniors Champion in 1979. During his retirement he continued to play tennis and traveled the amateur circuit in Florida with Lolita, collecting an impressive number of trophies. Bryan and Lolita were active members of their dance club and enjoyed traveling by land and sea. He lived a life filled with honor and integrity with a love of family.<br /><br />
+                        Bryan is survived by his daughters, Toogie (Don) McIntosh, Pam Meharg, and Lisa (Tony) Thompson; his grandchildren, Michael-John Sever, and Brittany Sever; and great-grandchild Halo Eve Rodriguez. He was preceded in death by his wife, Lolita.<br /><br />
+                        Visitation will be held at Beach Funeral Home, Friday, May 12, 2023, at 3:00 PM. Memorial Service with Honors to follow at 4:00 PM.<br /><br />
+                        Inurnment will be held at Oak Hill Burial Park, Lakeland, FL at a later date.<br /><br />
+                        </p>
+                    </div>
+               </article>  
 <%--   Current Obits Martin “Marty” L. Kater - 4/11/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13105,16 +13123,18 @@
                     <div class="clear"></div>
                     <div id="KaterPara" class="obitPara noDisplay">
                         <p>
-                    <img alt="Kater.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/kater.jpg" />
-                    Martin "Marty" L. Kater, was born on Sep 29, 1942, in Binghamton, NY to Donald and Esther (nee Oretskin) Kater.  Marty, age 80, passed away peacefully on April 11, 2023, at his home in Melbourne (Suntree), Florida.<br /><br />
-                    Marty spent his early years in Germany where his father worked for the U.S. Government on post-war issues.  The Kater family moved back to the U.S. and resided in Washington D.C.  Marty was a paperboy, diligently rising and delivering papers early in the morning.  He was an Eagle Scout and traveled with his troop across the US, visiting many historical sites.  Marty graduated from George Washington High School in 1960 and entered college at Georgia Tech in Atlanta, Georgia.  He was Captain of the Georgia Tech Swim Team and spent summers lifeguarding at various locations.  Marty graduated in 1964 and entered the U.S. Air Force.<br /><br />
-                    Marty's Air Force career spanned 27 years when he rose to Full Colonel.  During this time, he gained his Master's Degree from Golden Gate University, San Francisco, CA.  Assignments included:  Moody AFB, Valdosta, Georgia (flight school); Mather AFB, Sacramento, CA (Navigator/Electronic Warfare School); Wright-Patterson AFB, Dayton, Ohio (during this time, Marty completed 100 B-52 missions in Vietnam); Castle AFB, Merced, CA (B-52 Instructor); Sembach, Germany (ATOC); Ramstein AFB, Germany (HQ USAFE, Salty Control); Offutt AFB, Omaha, NE (Commander, Hq Squadron); Military Enlistment Processing Command, Great Lakes Naval Training Center, Great Lakes, IL (Dir Info Sys);  AFTAC, Patrick AFB, FL (Dir, Comm, and Computer Sys).  Marty retired from the Air Force Jul 31, 1991.   He completed his working career at Kennedy Space Center, Florida.<br /><br />
-                    Marty was passionate about his family, swimming, tennis, traveling, wine, and the San Francisco 49ers.<br /><br />
-                    Marty is survived by his beloved wife, Valarie J Kater (nee Bodnar), son Geoffrey (Cheryl), son James (Mai), and brother Robert (Kathleen) Kater.  Marty has three beautiful grandchildren:  Misha (16), Alina (10), and Carolina (6). He is predeceased by his parents, Donald and Esther Kater.  Expressions of sympathy in Marty's memory can be made to:<br />
-                    -  <a href="https://pva.org/ways-to-give/" target="_blank">Paralyzed Veterans of America (PVA)</a>  <br />
-                    -  <a href="https://www.feedhopenow.org/site/SPageServer/" target="_blank">2nd Harvest Food Bank of America (Central Florida Link Provided)</a>  <br />
-                    -  <a href="https://donate.cancer.org/?campaign=search&gclid=CjwKCAjwue6hBhBVEiwA9YTx8NNsVqGEV68eumIBHCdsGg2Dp_n_GZ-zjwsXu3qQ7E9z7-jQbx4NBRoC-d4QAvD_BwE" target="_blank">American Cancer Society</a>  <br /><br />
-                    A Memorial Service will be held Monday, April 24, 2023, 10-12 am at Beach Funeral Home, 1689 South Patrick Drive, Satellite Beach, FL 32937<br /><br />
+                        <img alt="Kater.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/kater.jpg" />
+                        Martin "Marty" L. Kater, was born on Sep 29, 1942, in Binghamton, NY to Donald and Esther (nee Oretskin) Kater.  Marty, age 80, passed away peacefully on April 11, 2023, at his home in Melbourne (Suntree), Florida.<br /><br />
+                        Marty spent his early years in Germany where his father worked for the U.S. Government on post-war issues.  The Kater family moved back to the U.S. and resided in Washington D.C.  Marty was a paperboy, diligently rising and delivering papers early in the morning.  He was an Eagle Scout and traveled with his troop across the US, visiting many historical sites.  Marty graduated from George Washington High School in 1960 and entered college at Georgia Tech in Atlanta, Georgia.  He was Captain of the Georgia Tech Swim Team and spent summers lifeguarding at various locations.  Marty graduated in 1964 and entered the U.S. Air Force.<br /><br />
+                        Marty's Air Force career spanned 27 years when he rose to Full Colonel.  During this time, he gained his Master's Degree from Golden Gate University, San Francisco, CA.  Assignments included:  Moody AFB, Valdosta, Georgia (flight school); Mather AFB, Sacramento, CA (Navigator/Electronic Warfare School); Wright-Patterson AFB, Dayton, Ohio (during this time, Marty completed 100 B-52 missions in Vietnam); Castle AFB, Merced, CA (B-52 Instructor); Sembach, Germany (ATOC); Ramstein AFB, Germany (HQ USAFE, Salty Control); Offutt AFB, Omaha, NE (Commander, Hq Squadron); Military Enlistment Processing Command, Great Lakes Naval Training Center, Great Lakes, IL (Dir Info Sys);  AFTAC, Patrick AFB, FL (Dir, Comm, and Computer Sys).  Marty retired from the Air Force Jul 31, 1991.   He completed his working career at Kennedy Space Center, Florida.<br /><br />
+                        Marty was passionate about his family, swimming, tennis, traveling, wine, and the San Francisco 49ers.<br /><br />
+                        Marty is survived by his beloved wife, Valarie J Kater (nee Bodnar), son Geoffrey (Cheryl), son James (Mai), and brother Robert (Kathleen) Kater.  Marty has three beautiful grandchildren:  Misha (16), Alina (10), and Carolina (6). He is predeceased by his parents, Donald and Esther Kater.  Expressions of sympathy in Marty's memory can be made to:<br />
+                        -  <a href="https://pva.org/ways-to-give/" target="_blank">Paralyzed Veterans of America (PVA)</a>  <br />
+                        -  <a href="https://www.feedhopenow.org/site/SPageServer/" target="_blank">2nd Harvest Food Bank of America (Central Florida Link Provided)</a>  <br />
+                        -  <a href="https://donate.cancer.org/?campaign=search&gclid=CjwKCAjwue6hBhBVEiwA9YTx8NNsVqGEV68eumIBHCdsGg2Dp_n_GZ-zjwsXu3qQ7E9z7-jQbx4NBRoC-d4QAvD_BwE" target="_blank">American Cancer Society</a>  <br /><br />
+                        A Memorial Service will be held Monday, April 24, 2023, 10-12 am at Beach Funeral Home, 1689 South Patrick Drive, Satellite Beach, FL 32937<br /><br />
+                        </p>
+                   </div>
                 </article>  
 <%--   Current Obits James Carl Davis - 3/16/2023 *****************************************************************************--%>
                <article>
@@ -13690,9 +13710,9 @@
             </li>
 
             <li>
-                <img alt="Michael Steskal" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png"/>
+                <img alt="Pete Gilbert" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png"/>
                 <div class="floatLeft maroonText topMargin2em leftMargin1em">
-                    Vacant<br />(Membership)
+                    Pete Gilbert<br />(Membership)
                 </div>
                 <div class="clear"></div>
             </li>
@@ -13985,7 +14005,7 @@
             <div class="clear"></div>
             <hr class="myHR" />
             <p class="centerText" style="font-size:1.5em;">
-                Click on the link below to get an application to join the<br /> <asp:HyperLink ID="HyperLink6" ForeColor="DarkRed" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida Membership Application.pdf" Target="_blank" runat="server"> Florida Association Membership Application. </asp:HyperLink>
+                Click on the link below to get an application to join the<br /> <asp:HyperLink ID="HyperLink6" ForeColor="DarkRed" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida Membership Application_2023.pdf" Target="_blank" runat="server"> Florida Association Membership Application. </asp:HyperLink>
             </p>
         </article>
     </div>
