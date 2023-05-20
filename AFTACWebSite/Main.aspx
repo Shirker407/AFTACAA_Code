@@ -310,7 +310,7 @@
                                     <td class="event blueText"></td> 
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage7" class="announcement blueText">Notified through Facebook that Craig Pickel has passed.  Additional information will be posted when available.</td>
+                                    <td id="mySpecalLinksPage8" class="announcement blueText">Notified through Facebook that Craig Pickel has passed.  Additional information will be posted when available.</td>
                                     <td class="posted blueText">4/30/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
@@ -319,17 +319,12 @@
                                     <td class="posted blueText">4/30/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
-                                
+                              
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPomo" class="announcement blueText">April Pomo was Published</td>
                                     <td class="posted blueText">4/27/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage5" class="announcement blueText"><a href="https://view.m.seaworldparks.com/?qs=9901c02964908f02be655d1bf3b6c43c15279a14733379ef808ba21ef69a112a31ba86ffcf777af3c90b01ab7109f58b7e757eb692b5c3a407de96e3d7a3c020b7f1720b5bcdfef7dcd4f542192ec9e2" target="_blank">4 Free and 6 half price Busch Gardens Tampa Tickets for Veterans!  Register by 14 May and use by 9 July 2023 </a></td>
-                                    <td class="posted blueText">4/24/2023</td>
-                                    <td class="event blueText"></td> 
-                                </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage4" class="announcement blueText"><a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card available as proof you are eligible for discounts added to Special Links page.</a></td>
                                     <td class="posted blueText">4/22/2023</td>
@@ -340,11 +335,7 @@
                                     <td class="posted blueText">4/21/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myKater" class="announcement blueText">Martin "Marty" L. Kater, 4/11/2023 Obituary was posted.</td>
-                                    <td class="posted blueText">4/19/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
+  <!--                          
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage1" class="announcement blueText"><a href ="https://www.nps.gov/planyourvisit/veterans-and-gold-star-families-free-access.htm" target ="_bank")>Free ($10.00 on-line processing fee) Lifetime National Parks Pass available to Military Veterans and Gold Star Families</a></td>
                                     <td class="posted blueText">4/19/2023</td>
@@ -356,7 +347,7 @@
                                     <td class="event blueText"></td>
                                 </tr> 
 
-  <!--                               <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://vimeo.com/807598018 " target ="_bank")>9S100 Career Field Awarded the Chief Master Sgt. Richard Etchberger Team Award at the AFA Warefare Symposium (see minutes 41:14 - 44:45 of the Video)</a></td>
                                     <td class="posted blueText">3/30/2023</td>
                                     <td class="event blueText"></td>  
@@ -367,11 +358,6 @@
                                     <td class="event blueText"></td> 
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myDaveHamil" class="announcement blueText">David Earl "Sarge" Hamil, 3/9/2023 Obituary was  posted.</td>
-                                    <td class="posted blueText">3/30/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                   <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAFTACPicnic" class="announcement greenText">AFTAC Picnic and Toilet Bowl to be held at Kiwanis Park, Merritt Island.  Click for details!</td>
                                     <td class="posted greenText">3/21/2023</td>
                                     <td class="event greenText"> 3/31/2023</td> 
