@@ -1453,9 +1453,6 @@ $(document).ready(function () {
         $('#CommInitial').removeClass('block').addClass('block');
     });
     */
-    $('#myKater').click(function () {
-        OpenObit('Kater');
-    });
      
     $('#myMeharg').click(function () {
         OpenObit('Meharg');
