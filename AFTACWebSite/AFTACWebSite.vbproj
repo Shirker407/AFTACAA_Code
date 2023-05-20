@@ -916,6 +916,7 @@
     <Content Include="_Photos\ObitPics\mason2.jpg" />
     <Content Include="_Photos\ObitPics\McCune.jpg" />
     <Content Include="_Photos\ObitPics\McLaren.png" />
+    <Content Include="_Photos\ObitPics\meharg.jpg" />
     <Content Include="_Photos\ObitPics\Meisenheimer.jpg" />
     <Content Include="_Photos\ObitPics\metcalf.png" />
     <Content Include="_Photos\ObitPics\milstead.jpg" />
@@ -1509,7 +1510,7 @@
     <Content Include="_Audio\taps.ogg" />
     <Content Include="_PDFs\California Membership Application.pdf" />
     <Content Include="_PDFs\Colorado Membership Application.pdf" />
-    <Content Include="_PDFs\Florida Membership Application.pdf" />
+    <Content Include="_PDFs\Florida Membership Application_2023.pdf" />
     <Content Include="_PDFs\Requested Calendar.pdf" />
     <Content Include="_PDFs\AFTACAA Bylaws.pdf" />
     <Content Include="_PDFs\AFTACAA Constitution.pdf" />
@@ -1741,6 +1742,8 @@
     <Content Include="_Pomos\PoMo2022_08.pdf" />
     <Content Include="_Pomos\PoMo2023_04.pdf" />
     <Content Include="_PDFs\Calendar2.pdf" />
+    <Content Include="_PDFs\Agenda_5_2023.pdf" />
+    <Content Include="_Minutes\4-14-2023_Minutes.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -336,18 +336,6 @@ $(document).ready(function () {
         }, 500);
     });
 //Displays 20 Year photo from Recent Additions Table 
-    $('#myEddleman').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#wallArt').removeClass('noDisplay').addClass('block');
-        $('#wallListings').removeClass('block').addClass('noDisplay');
-        $('#hideListings').removeClass('noDisplay').addClass('block');
-        $('#wallImg').removeClass('noDisplay').addClass('block');
-        $('#wallImg').attr('src', '_photos/20yearwall/Eddleman.jpg')
-        $('#showPic').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#hideListings").offset().top
-        }, 500);
-    });
     $('#myLoftis').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#wallArt').removeClass('noDisplay').addClass('block');
@@ -1465,15 +1453,9 @@ $(document).ready(function () {
         $('#CommInitial').removeClass('block').addClass('block');
     });
     */
-    $('#myKater').click(function () {
-        OpenObit('Kater');
-    });
-    $('#myJamesDavis').click(function () {
-        OpenObit('JamesDavis');
-    });
-      
-    $('#myDaveHamil').click(function () {
-        OpenObit('DaveHamil');
+     
+    $('#myMeharg').click(function () {
+        OpenObit('Meharg');
     });
 
      $('.obitH1').click(function () {
@@ -1481,6 +1463,9 @@ $(document).ready(function () {
         switch (myText) {
             case 'SchmiedH2':
                 ShowMyObit('Schmied')
+                break;
+            case 'MehargH2':
+                ShowMyObit('Meharg')
                 break;
             case 'KaterH2':
                 ShowMyObit('Kater')
@@ -2142,7 +2127,7 @@ $(document).ready(function () {
     //**********************************************************************
 
   $('#myMinutes').click(function () {
-        window.open('_Minutes/3-10-2023_Minutes.pdf', '');
+        window.open('_Minutes/4-14-2023_Minutes.pdf', '');
     });
 
     $('#AprilPomo').click(function () {
@@ -4189,7 +4174,7 @@ $(document).ready(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $('#showAgenda').css('color', 'lightgreen');
-        window.open('_PDFs/agenda2.pdf', '');
+        window.open('_PDFs/agenda_5_2023.pdf', '');
     });
 
     $('#showElected').click(function () {
