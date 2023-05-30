@@ -280,7 +280,7 @@
                 </div>
 
                 <div class="clear"></div>
-<%--Main Page Recent Additions Table  *****************************************************************************--%>  
+<%--Main Page Recent Additions Table     *****************************************************************************--%>  
                 <div>
                     <div class="redBorder width100 padding5 backYellow showShadow">
                         <div class=" width95 centerDiv">
@@ -294,7 +294,7 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPickel" class="announcement blueText">Craig Pickel, 4/28/2023 obtuary was posted.</td>
+                                    <td id="myPickel" class="announcement blueText">Craig Pickel, 4/28/2023 obituary was posted.</td>
                                     <td class="posted blueText">5/30/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
