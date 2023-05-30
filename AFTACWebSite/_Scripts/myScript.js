@@ -1457,12 +1457,18 @@ $(document).ready(function () {
     $('#myMeharg').click(function () {
         OpenObit('Meharg');
     });
+    $('#myPickel').click(function () {
+        OpenObit('Pickel');
+    });
 
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
         switch (myText) {
             case 'SchmiedH2':
                 ShowMyObit('Schmied')
+                break;
+            case 'PickelH2':
+                ShowMyObit('Pickel')
                 break;
             case 'MehargH2':
                 ShowMyObit('Meharg')

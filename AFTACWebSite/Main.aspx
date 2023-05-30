@@ -7,7 +7,7 @@
      <%--TABLE OF CONTENTS--%>
      <%--myHeader = Header--%>
      <%--mainMenu = Menu--%> 
-     <%--defaultArt = Main Page--%> Agenda Next
+     <%--defaultArt = Main Page--%>
      <%--passwordArt = Password Page--%>     
      <%--picnicArt = AFTAC Annual Spring Picnic --%>                                     
      <%--sbArt = SnowBall 2018 --%>                                      
@@ -44,7 +44,6 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
-    Recent
     <link href="_Styles/BasicStyles.css" rel="stylesheet" />
    
     <link href="_Styles/myStyles.css" rel="stylesheet" />
@@ -295,7 +294,12 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMeharg" class="announcement blueText">William "Bryan" Meharg, 4/27/2023 Obituary was  posted.</td>
+                                    <td id="myPickel" class="announcement blueText">Craig Pickel, 4/28/2023 obtuary was posted.</td>
+                                    <td class="posted blueText">5/30/2023</td>
+                                    <td class="event blueText"></td> 
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMeharg" class="announcement blueText">William "Bryan" Meharg, 4/27/2023 obituary was  posted.</td>
                                     <td class="posted blueText">5/11/2023</td>
                                     <td class="event blueText"></td>
                                 </tr> 
@@ -309,18 +313,8 @@
                                     <td class="posted blueText">5/11/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage8" class="announcement blueText">Notified through Facebook that Craig Pickel has passed.  Additional information will be posted when available.</td>
-                                    <td class="posted blueText">4/30/2023</td>
-                                    <td class="event blueText"></td> 
-                                </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage7" class="announcement blueText">Notified by Judy Henderson that Tannie H Landry has passed. <a href="https://www.floridatoday.com/obituaries/bft087636" target="_blank">Florida Today Link.</a>    Additional information will be posted when available.</td>
-                                    <td class="posted blueText">4/30/2023</td>
-                                    <td class="event blueText"></td> 
-                                </tr> 
                               
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+   <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPomo" class="announcement blueText">April Pomo was Published</td>
                                     <td class="posted blueText">4/27/2023</td>
                                     <td class="event blueText"></td>
@@ -330,12 +324,8 @@
                                     <td class="posted blueText">4/22/2023</td>
                                     <td class="event blueText"></td> 
                                 </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage2" class="announcement blueText">Notified by Roger Hornsby and Van Roberts that Rich Bohn was found deceased in his home on 12 April 2023.  Additional information will be posted when available.</td>
-                                    <td class="posted blueText">4/21/2023</td>
-                                    <td class="event blueText"></td> 
-                                </tr> 
-  <!--                          
+
+                        
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage1" class="announcement blueText"><a href ="https://www.nps.gov/planyourvisit/veterans-and-gold-star-families-free-access.htm" target ="_bank")>Free ($10.00 on-line processing fee) Lifetime National Parks Pass available to Military Veterans and Gold Star Families</a></td>
                                     <td class="posted blueText">4/19/2023</td>
@@ -13081,6 +13071,31 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+<%--   Current Obits Craig William Pickel - 4/28/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="PickelH2" class="obitH1">Craig William Pickel - 4/28/2023 </h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="PickelPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="pickel.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/pickel.jpg" />
+                        Craig William Pickel 
+                        Obituary of Craig William Pickel
+                        Craig William Pickel, 67, passed away on April 28, 2023, unexpectedly from a heart attack. Even though a failing heart took him away from this world, his loving heart left a beacon of light for all that knew him.<br /><br />
+                        Craig is survived by his wife and best friend, Mikki, His Children Stephen, Ashley, Taelor, Joshua, Dylan, Laura and Cherokee, 12 Grandchildren, two sisters Delane and Devon. Craig is preceded in death by his Mother Eileen Pickel Nyburg, Father Creel Pickel and Daughter Destinee. His cheerful attitude and bright smile will be dearly missed.<br /><br />
+                        Craig put his whole life into Faith and family. Everyone in the family knew that he was just a phone call away, literally his phone never stopped ringing. But he would have had it no other way. He loved giving advice, sharing his knowledge, and helping in any way that he could. However, if you asked for advice, you had better listen and utilize the advice he gave or he would use his famous saying, "what's my middle name". Yes, Craigs AKA is Craig (I Told You So) Pickel.<br /><br />
+                        Craig had a passionate love affair with sports, whether that was coaching, officiating or playing sports himself. He also loved dancing, so much that he was known to break out in dance like someone straight out of a flash mob. Craig had an enchanting sense of humor and was always making others laugh with his witty remarks, funny stories, or silly antics.<br /><br />
+                        Craigs spare time was spent feeding his addictions to shopping, garage sales, Facebook and computer games. Garage sale to follow his services in his memory.<br /><br />
+                        Military Interment<br />
+                        10:15 am - 10:45 am<br />
+                        Tuesday, May 30, 2023<br />
+                        Fort Logan National Cemetery<br />
+                        Staging Area C, 3698 S. Sheridan Blvd<br />
+                        Denver, Colorado, United States<br /><br />
+                        </p>
+                    </div>
+               </article>  
 <%--   Current Obits Col. William "Bryan" Meharg - 4/27/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13100,7 +13115,8 @@
                         Inurnment will be held at Oak Hill Burial Park, Lakeland, FL at a later date.<br /><br />
                         </p>
                     </div>
-               </article>  
+               </article> 
+
 <%--   Current Obits Martin “Marty” L. Kater - 4/11/2023 *****************************************************************************--%>
                <article>
                     <div>
