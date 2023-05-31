@@ -13720,7 +13720,7 @@
             </li>
 
             <li>
-                <img alt="Pete Gilbert" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Outline of Head.png"/>
+                <img alt="Pete Gilbert" class="width30 floatLeft topMargin1em maroonBorder smallShadow" src="_Photos/Board Members/Gilbert.jpg"/>
                 <div class="floatLeft maroonText topMargin2em leftMargin1em">
                     Pete Gilbert<br />(Membership)
                 </div>
