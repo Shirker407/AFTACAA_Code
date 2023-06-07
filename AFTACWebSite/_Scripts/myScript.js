@@ -270,7 +270,7 @@ $(document).ready(function () {
     });
 
     $('#btnMemWallDonation').click(function () {
-        window.open('_pdfs/MemorialWall.pdf', '')
+        window.open('_pdfs/MemorialWallJune2023.pdf', '')
     });
 
     $('#btnMemWallLetter').click(function () {
