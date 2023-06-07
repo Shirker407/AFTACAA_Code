@@ -2710,7 +2710,7 @@
                 If you want to read this, please do it soon since they will pull the article after a short time.
                 <br /><br />
                 We fully realize that we are in a pandemic state and that some of you might not be able to bear this expense.  However, while purchasing a brick is one of our best sellers, any donation is always helpful.  This eAllert will be posted on our website: www.aftacaa.us listed on the first page under the link: Posting of Our Memorial  Names - 9/5.  A donation form and links for internet donations can also be found there under: AFTAC Memorial Corp - Update 8/14.  It will also be printed in our next Post Monitor's December Issue. Finally, you can go directly to the Corporation site to place an order now at: 
-                <a class="autoMarginLeftRight" href="https://brickmarkersusa.com/donors/aftacmc.html" target="_blank">Brick Order Form</a>
+                <a class="autoMarginLeftRight" href="Https://donate.Brickmarkers.com/aftacmc" target="_blank">Brick Order Form</a>
                 <br /><br />
                 This listing, received from the AFTAC Historian, Dr Mike Young, is of those departed members that died while assigned to AFTAC (LRD). We have additional information on some of these individuals.  However, the one's marked with an asterisk (*) indicate those members that we have little, or no information.  As you go through the list, if you recognize the name and have knowledge of the date they passed, how it happened and any knowledge of their association with the AFTAC, LRD, AFOAT-1 organization, and anything else that might be pertinent, please provide what you know to our Alumni President, <a href="MailTo:afsophil@gmail.com">Phil Godfrey</a>. 
                 <br /><br />
@@ -2990,7 +2990,7 @@
                 P.O. Box 372012 <br />
                 Satellite Beach, FL   32937 
                 <br /><br />
-                Or you may also click <a href="https://brickmarkersusa.com/donors/aftacmc.html" target="_blank">here</a> to go to the website  
+                Or you may also click <a href="https://donate.Brickmarkers.com/aftacmc" target="_blank">here</a> to go to the website  
                 From there you may download a donation form, order a brick on-line, or make a donation only, and pay through PayPal using your credit card or through your own PayPal account. 
                 <br /><br />
                 We are asking for your help to build a lasting Memorial to the men and women who have served AFTAC for the past 73 years, and continuing into the future.  It is your decision to make! 
