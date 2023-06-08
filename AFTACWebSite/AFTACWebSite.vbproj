@@ -129,6 +129,8 @@
     <Content Include="_Images\Bob Land Celebration.png" />
     <Content Include="_Images\Borowski Obituary.jpg" />
     <Content Include="_Images\CMS_Wright.png" />
+    <Content Include="_Photos\WOH\Coin.png" />
+    <Content Include="_Photos\WOH\Coin2.jpg" />
     <Content Include="_Photos\20YearWall\Eddleman.jpg" />
     <Content Include="_Photos\20YearWall\Loftis.jpg" />
     <Content Include="_Photos\AOY-2022\AttendingAOYs.jpg" />
@@ -1747,6 +1749,9 @@
     <Content Include="_PDFs\Agenda_5_2023.pdf" />
     <Content Include="_Minutes\4-14-2023_Minutes.pdf" />
     <Content Include="_PDFs\MemorialWallJune2023.pdf" />
+    <Content Include="_Minutes\2023-5-8_Minutes.pdf" />
+    <Content Include="_PDFs\Agenda_6_2023.pdf" />
+    <Content Include="_PDFs\Calendar_7_JUNE_2023.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
