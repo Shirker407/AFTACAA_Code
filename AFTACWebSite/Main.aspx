@@ -275,7 +275,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 4/26/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 6/7/2023</span>
                     </div>
                 </div>
 
@@ -294,6 +294,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpeciallinks" class="announcement blueText">Space Force names Patrick SFB as new home for STARCOM HQ:  <br /><a href="https://www.starcom.spaceforce.mil/News/Article-Display/Article/3412209/department-of-the-air-force-announces-preferred-locations-for-starcom-hq-three/" target="_blank">Air Force Announcement;<br /></a>  <a href="https://www.rickscott.senate.gov/2023/5/sen-rick-scott-applauds-florida-space-coast-s-selection-for-starcom-headquarters" target="_blank"> Sen Rick Scott Announcement.</a></td>
+                                    <td class="posted blueText">6/8/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">May Minutes Published</td>
+                                    <td class="posted blueText">6/8/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPickel" class="announcement blueText">Craig Pickel, 4/28/2023 obituary was posted.</td>
                                     <td class="posted blueText">5/30/2023</td>
                                     <td class="event blueText"></td> 
@@ -303,11 +313,6 @@
                                     <td class="posted blueText">5/11/2023</td>
                                     <td class="event blueText"></td>
                                 </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">April Minutes Published</td>
-                                    <td class="posted blueText">5/11/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage6" class="announcement blueText">Notified by Dale Klug that Alexander Spicci has passed.  Limited information is available, but support can be shown through this <a href="https://obituaries.tridentsociety.com/obituaries/roseville-ca/alexander-spicci-11277406" target="_blank">link.</a>  Additional information will be posted when available.</td>
                                     <td class="posted blueText">5/11/2023</td>
@@ -3496,6 +3501,7 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/2023-5-8_Minutes.pdf" target="_blank">5-8-2023</a></li>
                     <li><a href="_Minutes/4-14-2023_Minutes.pdf" target="_blank">4-14-2023</a></li>
                     <li><a href="_Minutes/3-10-2023_Minutes.pdf" target="_blank">3-10-2023</a></li>
                     <li><a href="_Minutes/2-13-2023_Minutes.pdf" target="_blank">2-13-2023</a></li>
@@ -4912,7 +4918,7 @@
                 <div>
                     <asp:Image ID="wohImg" ForeColor="Maroon" Font-Bold="true" Width="30%" CssClass="floatLeft padding10 leftMargin10em bottomMargin2em maroonBorder showShadow" Style="min-height:10em;" runat="server" />
                     <div class="floatRight backmoccasin width40" style="background-color:moccasin;">
-                        <img id="wohCoin" alt="_Photos/WOH/Coin.jpg" class="width60 smallShadow"  src="_Photos/WOH/Coin.jpg" />
+                        <img id="wohCoin" alt="_Photos/WOH/Coin.png" class="width60"  src="_Photos/WOH/Coin.png" />
                     </div>
                     <input id="btnwohReturn" type="button" class="inLine myBut leftMargin5em topMargin1em bottomMargin2em" value="Return to Listing" />
                     <div class="clear"></div>
