@@ -12,7 +12,7 @@
      <%--picnicArt = AFTAC Annual Spring Picnic --%>                                     
      <%--sbArt = SnowBall 2018 --%>                                      
      <%--2017AirShowArt = 2017 Air Show Video --%>                                      
-     <%--2018AirShowArt = 2018 Air Show Video --%>                                      
+     <%--2018AirShowArt = 2018 Air Show Video --%>                                     
      <%--dedicationArt =  Building Dedication Video --%>                                     
      <%--reunionArt = 2015 Reunion Video --%>                                      
      <%--WallofHonorArt = Wall of Honor Video --%>                                      
@@ -13570,6 +13570,8 @@
                         Robert Eugene Justman was born in Wausau, Wisc., on Jan. 23, 1944, to Norma and Warren. Bob joined the Air Force in 1963 and served for 23 years in AFTAC both in Japan at Yokota AB and in Sacramento at McClellan AFB. He married Lenore Anne Edgeworth on Nov. 28, 1965. He died on June 30, 2006. <br /><br />
                         When he retired from the Air Force in 1986, he went to work for KVIE Channel 6 where he was Facility Services Manager. He became active in the Presbyterian church in the early '80s, and over the last 20 years has become deeply involved in the local and national governing bodies of the church. He was an elder at St. Stephens Pres. Church and the current Moderator of the Synod of the Pacific.<br /><br />
                         Bob is survived by his wife Lenore, his children Ian and Anne Marie, his sister Mary, his mother Norma, and many friends. He will be much missed, but his memory will be treasured for his wisdom, his dry wit and his cowboy hat and ponytail.<br /><br />
+                        Memories and Condolences can be added <a href="https://www.legacy.com/us/obituaries/sacbee/name/robert-justman-obituary?id=13770657" target="_blank">here. </a>
+
                         </p>
                     </div>
                </article> 
