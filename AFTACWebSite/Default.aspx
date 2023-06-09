@@ -20,7 +20,7 @@
     <div class="pageWrapper regBorder showShadow">
         <header class="myHeaderFirst topMargin1em showShadow block">
             <div class="floatLeft backMoccasin width25" style="background-color:chocolate;">
-                <img alt="_Images/alumniLogo.jpg" class="width50 thinMaroonBorder smallShadow" src="_Images/alumniLogo.jpg" />
+                <img alt="_Images/alumniLogo.png" class="width50" src="_Images/alumniLogo.png" />
             </div>
             <div class="floatLeft backMoccasin width45" style="margin-top:.25em;">
                 <asp:Label ID="Label1" CssClass="block" ForeColor="Yellow" BackColor="Chocolate" Font-Bold="true" Font-Size="2.5em" runat="server" Text="AFTAC ALUMNI"></asp:Label>
@@ -28,7 +28,7 @@
                 <asp:Label ID="Label20" CssClass="block" ForeColor="Yellow" BackColor="Chocolate" Font-Bold="true" Font-Size="2.5em" runat="server" Text="(AFTACAA)"></asp:Label>
             </div>  
             <div class="floatLeft backMoccasin width30" style="background-color:chocolate;">
-                <img id="clickImage" alt="_Images/EFAE.jpg" class="width50 smallShadow"  src="_Images/EFAE.jpg" />
+                <img id="clickImage" alt="_Images/EFAE.png" class="width50"  src="_Images/EFAE.png" />
             </div>
 
             <div class="clear"></div>

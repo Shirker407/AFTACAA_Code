@@ -1457,6 +1457,9 @@ $(document).ready(function () {
     $('#myMeharg').click(function () {
         OpenObit('Meharg');
     });
+    $('#myJustman').click(function () {
+        OpenObit('Justman');
+    });
     $('#myPickel').click(function () {
         OpenObit('Pickel');
     });
@@ -1523,6 +1526,9 @@ $(document).ready(function () {
                 break;
             case 'KimballH2':
                 ShowMyObit('Kimball')
+                break;
+            case 'JustmanH2':
+                ShowMyObit('Justman')
                 break;
         }
 
