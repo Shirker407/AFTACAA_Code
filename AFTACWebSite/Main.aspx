@@ -245,7 +245,7 @@
 <%--Page Header  *****************************************************************************--%>
         <header id="mainHeader" class="myHeader topMargin1em showShadow block" style="margin-left:22%;" runat="server">
             <div class="floatLeft backMoccasin width25" style="background-color:chocolate;">
-                <asp:ImageButton ID="alumniLogo" CssClass="width50 thinMaroonBorder smallShadow" ImageUrl="_Images/alumniLogo.jpg" runat="server" OnClick="alumniLogo_Click" />
+                <asp:ImageButton ID="alumniLogo" CssClass="width50" ImageUrl="_Images/alumniLogo.png" runat="server" OnClick="alumniLogo_Click" />
             </div>
             <div class="floatLeft backMoccasin width45" style="margin-top:.25em;">
                 <asp:Label ID="Label1" CssClass="block" ForeColor="Yellow" BackColor="Chocolate" Font-Bold="true" Font-Size="2.5em" runat="server" Text="AFTAC ALUMNI"></asp:Label>
@@ -253,7 +253,7 @@
                 <asp:Label ID="Label20" CssClass="block" ForeColor="Yellow" BackColor="Chocolate" Font-Bold="true" Font-Size="2.5em" runat="server" Text="(AFTACAA)"></asp:Label>
             </div>  
             <div class="floatLeft backMoccasin width30" style="background-color:chocolate;">
-                <img id="clickImage" alt="_Images/EFAE.jpg" class="width50 smallShadow"  src="_Images/EFAE.jpg" />
+                <img id="clickImage" alt="_Images/EFAE.png" class="width50"  src="_Images/EFAE.png" />
             </div>
 
             <div class="clear"></div>
@@ -292,6 +292,11 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myJustman" class="announcement blueText">Robert Eugene Justman, 6/30/2006 obituary was posted.</td>
+                                    <td class="posted blueText">6/8/2023</td>
+                                    <td class="event blueText"></td> 
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpeciallinks" class="announcement blueText">Space Force names Patrick SFB as new home for STARCOM HQ:  <br /><a href="https://www.starcom.spaceforce.mil/News/Article-Display/Article/3412209/department-of-the-air-force-announces-preferred-locations-for-starcom-hq-three/" target="_blank">Air Force Announcement;<br /></a>  <a href="https://www.rickscott.senate.gov/2023/5/sen-rick-scott-applauds-florida-space-coast-s-selection-for-starcom-headquarters" target="_blank"> Sen Rick Scott Announcement.</a></td>
@@ -13549,10 +13554,27 @@
                         </p>
                     </div>
                 </article>     
-            </div> 
-        </article>            
-  
-  
+           
+ <%--   Current Obits Robert Eugene Justman - 6/30/2006 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="JustmanH2" class="obitH1">Robert Eugene Justman - 6/30/2006</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="JustmanPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Justman.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Justman.jpg" />
+                        Robert Eugene Justman<br />
+                        JAN 23, 1944 - JUN 30, 2006<br />
+                        AFTAC 99125 SEO 012<br /><br />
+                        Robert Eugene Justman was born in Wausau, Wisc., on Jan. 23, 1944, to Norma and Warren. Bob joined the Air Force in 1963 and served for 23 years in AFTAC both in Japan at Yokota AB and in Sacramento at McClellan AFB. He married Lenore Anne Edgeworth on Nov. 28, 1965. He died on June 30, 2006. <br /><br />
+                        When he retired from the Air Force in 1986, he went to work for KVIE Channel 6 where he was Facility Services Manager. He became active in the Presbyterian church in the early '80s, and over the last 20 years has become deeply involved in the local and national governing bodies of the church. He was an elder at St. Stephens Pres. Church and the current Moderator of the Synod of the Pacific.<br /><br />
+                        Bob is survived by his wife Lenore, his children Ian and Anne Marie, his sister Mary, his mother Norma, and many friends. He will be much missed, but his memory will be treasured for his wisdom, his dry wit and his cowboy hat and ponytail.<br /><br />
+                        </p>
+                    </div>
+               </article> 
+              </div> 
+        </article> 
 <%--   Archived Obits Page *****************************************************************************--%>
         <article id="archivedObitsArt" class="myArts noDisplay">
                 <h1 class="maroonText centerText bold underLine">Archived Obituaries</h1>
