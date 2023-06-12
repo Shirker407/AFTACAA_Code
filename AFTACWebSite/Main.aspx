@@ -44,6 +44,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+    
     <link href="_Styles/BasicStyles.css" rel="stylesheet" />
    
     <link href="_Styles/myStyles.css" rel="stylesheet" />
@@ -374,21 +375,21 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 9 June<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 7 July<br />
                         11:30 - 12:30 Hrs<br />
                         --------------------------<br />
-                        AFTAC Alumni Association Quarterly General Membership Off-Site Luncheon and Teleconference Meeting<br />
+                        AFTAC Alumni Association General Membership Off-Site Luncheon and Teleconference Meeting<br />
                         <!--AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />-->
                         --------------------------<br />
                         <!--HQ AFTAC <br />
                         Lobby Conference Room<br />
                         Patrick SFB FL<br />-->
                         Beef O'Brady's<br />
-                        3030 Lake Washington Road<br />
-                        Melbourne FL<br />
+                        <!--3030 Lake Washington Road<br />
+                        Melbourne FL<br />-->
+                        724 S Patrick Drive<br /> 
+                        Satellite Beach FL<br />
                         Note:  Please arrive at 1100 if you desire to order food/beverages. <br />
-                        <!--724 S Patrick Drive<br /> 
-                        Satellite Beach FL<br />-->
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Ed Lindsay, AFTACAA President, at <a href="MailTo: piston_horse@hotmail.com">piston_horse@hotmail.com</a>
@@ -1306,12 +1307,17 @@
                         <div class="autoMarginLeftRight topMarginMinus1em width90">
                             <asp:CheckBox ID="deceasedChk" CssClass="centerDiv" Font-Size="1.5em" Font-Bold="true" Text="Deceased" Style="color:maroon;" runat="server" />
                             <asp:CheckBox ID="RecieveEallsChk" CssClass="leftMargin2em" Font-Size="1.5em" Font-Bold="true" Text="Ealls" Style="color:maroon;" runat="server" />
+                            <asp:CheckBox ID="badEmailChk" CssClass="myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Bad Email" Style="color:maroon;" runat="server" />
                         </div>
 
                         <div class="autoMarginLeftRight centerDiv width90">
                             <asp:CheckBox ID="deletedChk" CssClass="myChk" Font-Size="1.5em" Font-Bold="true" Text="Deleted" Style="color:maroon;" runat="server" />
                             <asp:CheckBox ID="mailPomoChk" CssClass="myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Mail Pomo" Style="color:maroon;" runat="server" />
-                            <asp:CheckBox ID="badEmailChk" CssClass="myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Bad Email" Style="color:maroon;" runat="server" />
+                            <div class="centerDiv">
+                                    <asp:Label ForeColor="DarkBlue" Font-Size="1.5em" Font-Bold="true" runat="server" Text="PoMo mailing fee paid: "></asp:Label>
+                                    <asp:TextBox ID="MailingFeeDate" CssClass="padding5" Width="10em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="Date"></asp:TextBox>
+                            </div>
+                    
                         </div>
                     </div>
 
@@ -1336,7 +1342,7 @@
                             <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
                             <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
 <!-- This tet box is a troubleshooting aid and can be assigned values in Main.aspx.vb on lines 1240 and 1273********************************************************************** --> 
-                        <!--<asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox>--> 
+                        <!--<asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox>-->
                         </div>
                         <asp:Button ID="btnReturnAdminMenu" CssClass="myBut topMarginHalfem" runat="server" Text="Return to Admin Menu" onclick="btnReturnAdminMenu_Click" />
                     </asp:Panel>
@@ -3867,6 +3873,12 @@
             <asp:Button ID="modLogReturn" CssClass="autoMarginLeftRight smallBut block bottomMargin1em fontSize1em" runat="server" Text=" Return To Menu " OnClick="modLogReturn_Click" />
             <asp:GridView ID="gvModLog" CssClass="autoMarginLeftRight topMargin1em" Font-Bold="true" runat="server"></asp:GridView>
         </article>
+<%--  MailPoMo Report Page*****************************************************************************--%>
+        <article id="mailPoMo" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">PoMo Mailing List</p>
+            <asp:Button ID="mailPoMoReturn" CssClass="autoMarginLeftRight smallBut block bottomMargin1em fontSize1em" runat="server" Text=" Return To Menu " OnClick="modLogReturn_Click" />
+            <asp:GridView ID="gvMailPoMo" CssClass="autoMarginLeftRight topMargin1em" Font-Bold="true" runat="server"></asp:GridView>
+        </article>
 <%--  EAll Report Page *****************************************************************************--%>
         <article id="eallArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Eall Address Report</p>
@@ -4474,7 +4486,7 @@
                             <li id="Aning" class="my20YearLi">Aning, Harm F.</li>
                             <li id="Armitage" class="my20YearLi">Armitage, Steven J.</li>
                             <li id="Baker" class="my20YearLi">Baker, Harold M. (D)</li>
-                            <li id="Balentine" class="my20YearLi">Balentine, Robert A.</li>
+                            <li id="Balentine" class="my20YearLi">Balentine, Robert A. (D)</li>
                             <li id="Baney" class="my20YearLi">Baney, Ramon D.</li>
                             <li id="Bartow" class="my20YearLi">Bartow, Jeff</li>
                             <li id="Blau" class="my20YearLi">Blau, Robert O. (D)</li>
@@ -13935,12 +13947,13 @@
 
                 <div class="width60 autoMarginLeftRight">
                     <asp:Button ID="elladdresses" CssClass="smallBut floatLeft fontSize1em" runat="server" Text=" E-all Addresses " OnClick="elladdresses_Click" />
-                    <asp:Button ID="allemail" CssClass="smallBut floatLeft leftMargin2em bottomMargin1em fontSize1em" runat="server" Text=" All Addresses " OnClick="allemail_Click" />
+                    <asp:Button ID="allemail" CssClass="smallBut floatLeft leftMargin3em bottomMargin1em fontSize1em" runat="server" Text=" All Addresses " OnClick="allemail_Click" />
                     <div class="clear bottomMargin1em"></div>
                 </div>
 
-                <div class="bottomMargin1em" style="margin-top:-1em;">
-                    <asp:Button ID="localelladdresses" CssClass="smallBut autoMarginLeftRight leftMargin3em fontSize1em" runat="server" Text=" Florida E-All Addresses " OnClick="localelladdresses_Click" />
+                <div class="width60 autoMarginLeftRight bottomMargin1em" style="margin-top:-1em;">
+                    <asp:Button ID="localelladdresses" CssClass="smallBut floatLeft block fontSize1em" runat="server" Text=" Florida E-All List " OnClick="localelladdresses_Click" />
+                     <asp:Button ID="btnmailPoMorpt" CssClass="smallBut floatLeft leftMargin3em bottomMargin1em fontSize1em" runat="server" Text="PoMo Mail list" OnClick="btnmailPoMoRpt_Click" />
                     <div class="clear bottomMargin1em"></div>
                 </div>
             </div>

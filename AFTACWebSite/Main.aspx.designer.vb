@@ -842,6 +842,15 @@ Partial Public Class _Default
     Protected WithEvents RecieveEallsChk As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
+    '''badEmailChk control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents badEmailChk As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
     '''deletedChk control.
     '''</summary>
     '''<remarks>
@@ -860,13 +869,13 @@ Partial Public Class _Default
     Protected WithEvents mailPomoChk As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
-    '''badEmailChk control.
+    '''MailingFeeDate control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents badEmailChk As Global.System.Web.UI.WebControls.CheckBox
+    Protected WithEvents MailingFeeDate As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''pnlMemErr control.
@@ -993,6 +1002,24 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents gvModLog As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''mailPoMoReturn control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents mailPoMoReturn As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''gvMailPoMo control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents gvMailPoMo As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''butEallReturn control.
@@ -1830,6 +1857,15 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents localelladdresses As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnmailPoMorpt control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnmailPoMorpt As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Label33 control.

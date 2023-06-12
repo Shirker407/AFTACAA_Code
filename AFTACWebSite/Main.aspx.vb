@@ -317,6 +317,9 @@ Public Class _Default
             Case "modlog"
                 OpenArticle("modlog")
                 ScrollTo("modlog")
+            Case "mailPoMo"
+                OpenArticle("mailPoMo")
+                ScrollTo("mailPoMo")
             Case "WOH"
                 Dim pre, first, last, verb As String, pic As String, myTitle As String
                 sb = New StringBuilder
@@ -735,6 +738,18 @@ Public Class _Default
         action = "modlog"
     End Sub
 
+    Protected Sub btnmailPoMoRpt_Click(sender As Object, e As EventArgs)
+        Dim ds As New DataSet
+        Dim sql As String = "Exec Get_MailPoMoFees"
+
+        Get_Dataset(sql, ds)
+
+        gvMailPoMo.DataSource = ds.Tables(0)
+        gvMailPoMo.DataBind()
+
+        action = "mailPoMo"
+    End Sub
+
     Protected Sub btnPasswordReturn_Click(sender As Object, e As EventArgs)
         action = "password"
     End Sub
@@ -1055,7 +1070,7 @@ Public Class _Default
         txtDues.Text = ds.Tables(0).Rows(0).Item("MemberDues")
         txtSEO.Text = ds.Tables(0).Rows(0).Item("SEOID")
         ddlCommand.Text = ds.Tables(0).Rows(0).Item("Command")
-        txtcmdDates.Text = ds.Tables(0).Rows(0).Item("cmdServiceDates")
+
 
         If ds.Tables(0).Rows(0).Item("Chapters") Like "1*" Then
             chkCalifornia.Checked = True
@@ -1094,7 +1109,16 @@ Public Class _Default
         End If
 
         If ds.Tables(0).Rows(0).Item("MailPomo") = "1" Then
+            Dim y, d, m As String
             mailPomoChk.Checked = True
+            y = CStr(Year(ds.Tables(0).Rows(0).Item("MailingFeeDate")))
+            d = CStr(Day(ds.Tables(0).Rows(0).Item("MailingFeeDate")))
+            If Len(d) < 2 Then d = "0" & d
+            m = CStr(Month(ds.Tables(0).Rows(0).Item("MailingFeeDate")))
+            If Len(m < 2) Then m = "0" & m
+
+            MailingFeeDate.Text = y & "-" & m & "-" & d
+
         Else
             mailPomoChk.Checked = False
         End If
@@ -1156,6 +1180,9 @@ Public Class _Default
         txtDues.Text = ""
         txtSEO.Text = ""
         txtReason.Text = ""
+        MailingFeeDate.Text = ""
+        txtCellPhone.Text = ""
+        lblMemID.Text = ""
         'calChkBox.Checked = False
         'colChkBox.Checked = False
         'flaChkBox.Checked = False
@@ -1203,6 +1230,15 @@ Public Class _Default
             Exit Sub
         End If
 
+        If Not IsDate(MailingFeeDate.Text) And GetMailPomo() = 1 Then
+            lblMess.Text = "A date that the PoMo mailing fees were last paid must be entered."
+            lblMess.ForeColor = Drawing.Color.Red
+            lblMess.Visible = True
+            txtJoined.Focus()
+            OpenArticle("MembershipArt")
+            Exit Sub
+        End If
+
         If Not IsDate(txtJoined.Text) And Len(txtJoined.Text) > 0 Then
             lblMess.Text = "An invalid date was entered"
             lblMess.ForeColor = Drawing.Color.Red
@@ -1236,8 +1272,8 @@ Public Class _Default
                 UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "'," &
                 GetChapters() & "," & GetDeceased() & "," & GetMailPomo() & "," & ReceiveEalls() & ",'" &
                 ddlCommand.Text & "','" & txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & "," &
-                GetDeleted() & ",'" & Session("myName") & "','" & Apos(txtReason.Text) & "'"
-            'txtsql.Text = sql '(GetMailPomo())
+                GetDeleted() & ",'" & Session("myName") & "','" & Apos(txtReason.Text) & "','" & MailingFeeDate.Text & "'"
+            txtsql.Text = sql '(GetMailPomo())
             Try
                 Run_Sql(sql)
 
@@ -1270,7 +1306,7 @@ Public Class _Default
             UCase(txtState.Text) & "','" & txtZip.Text & "','" & UCase(txtCountry.Text) & "','" & txtRank.Text & "','" &
             UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
             GetChapters() & "','" & GetDeceased() & "'," & GetMailPomo() & ",'" & Capitolize(ddlCommand.Text) & "','" &
-            txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & "," & ReceiveEalls() & ",'" & Session("myName") & "'"
+            txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & "," & ReceiveEalls() & ",'" & "','" & MailingFeeDate.Text & Session("myName") & "'"
 
             'txtsql.Text = sql
 
