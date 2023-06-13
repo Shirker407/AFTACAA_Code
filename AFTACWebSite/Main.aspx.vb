@@ -1,7 +1,7 @@
 ﻿Imports System.Net.Mail
 Imports System.Net
 Imports System.Text.RegularExpressions
-
+Imports System.Data.Entity.Core.Mapping
 
 Public Class _Default
     Inherits System.Web.UI.Page
@@ -83,7 +83,7 @@ Public Class _Default
             Case "ShowList"
                 sb.Append("<script>")
                 sb.Append("$('.myArts').removeClass('block').addClass('noDisplay');")
-                    sb.Append("$('#wallArt').removeClass('noDisplay').addClass('block');")
+                sb.Append("$('#wallArt').removeClass('noDisplay').addClass('block');")
                 sb.Append("$('#hideListings').removeClass('block').addClass('noDisplay');")
                 sb.Append("$('#wallPic').removeClass('block').addClass('noDisplay');")
                 sb.Append("$('#wallListings').removeClass('noDisplay').addClass('block');")
@@ -1107,18 +1107,19 @@ Public Class _Default
         Else
             RecieveEallsChk.Checked = False
         End If
-
-        If ds.Tables(0).Rows(0).Item("MailPomo") = "1" Then
-            Dim y, d, m As String
+        If (ds.Tables(0).Rows(0).Item("MailPomo")) = 1 Then
             mailPomoChk.Checked = True
-            y = CStr(Year(ds.Tables(0).Rows(0).Item("MailingFeeDate")))
-            d = CStr(Day(ds.Tables(0).Rows(0).Item("MailingFeeDate")))
-            If Len(d) < 2 Then d = "0" & d
-            m = CStr(Month(ds.Tables(0).Rows(0).Item("MailingFeeDate")))
-            If Len(m < 2) Then m = "0" & m
+            If IsDate(ds.Tables(0).Rows(0).Item("MailingFeeDate")) Then
+                Dim y, d, m As String
 
-            MailingFeeDate.Text = y & "-" & m & "-" & d
+                y = CStr(Year(ds.Tables(0).Rows(0).Item("MailingFeeDate")))
+                d = CStr(Day(ds.Tables(0).Rows(0).Item("MailingFeeDate")))
+                If Len(d) < 2 Then d = "0" & d
+                m = CStr(Month(ds.Tables(0).Rows(0).Item("MailingFeeDate")))
+                If Len(m < 2) Then m = "0" & m
 
+                MailingFeeDate.Text = y & "-" & m & "-" & d
+            End If
         Else
             mailPomoChk.Checked = False
         End If

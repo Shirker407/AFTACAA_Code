@@ -1314,7 +1314,7 @@
                             <asp:CheckBox ID="deletedChk" CssClass="myChk" Font-Size="1.5em" Font-Bold="true" Text="Deleted" Style="color:maroon;" runat="server" />
                             <asp:CheckBox ID="mailPomoChk" CssClass="myChk leftMargin1em" Font-Size="1.5em" Font-Bold="true" Text="Mail Pomo" Style="color:maroon;" runat="server" />
                             <div class="centerDiv">
-                                    <asp:Label ForeColor="DarkBlue" Font-Size="1.5em" Font-Bold="true" runat="server" Text="PoMo mailing fee paid: "></asp:Label>
+                                    <asp:Label ForeColor="DarkBlue" Font-Size="1.5em" Font-Bold="true" runat="server" Text="Mail PoMo paid through: "></asp:Label>
                                     <asp:TextBox ID="MailingFeeDate" CssClass="padding5" Width="10em" Font-Size="1em" ForeColor="Maroon" Font-Bold="true" BackColor="#ff9900" runat="server" TextMode="Date"></asp:TextBox>
                             </div>
                     
