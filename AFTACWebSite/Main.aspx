@@ -46,7 +46,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
     
     <link href="_Styles/BasicStyles.css" rel="stylesheet" />
-   
+
     <link href="_Styles/myStyles.css" rel="stylesheet" />
 <%--FAVICON Link lines --%>    
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
