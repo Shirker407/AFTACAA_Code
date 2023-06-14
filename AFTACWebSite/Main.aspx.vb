@@ -1,7 +1,10 @@
-﻿Imports System.Net.Mail
+﻿
+Imports System.Net.Mail
 Imports System.Net
 Imports System.Text.RegularExpressions
 Imports System.Data.Entity.Core.Mapping
+Imports System.Web.Hosting
+
 
 Public Class _Default
     Inherits System.Web.UI.Page
