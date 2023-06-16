@@ -35,6 +35,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AFTAC Alumni Association</title>
     <meta charset="utf-8" />
+    <filesMatch ".(js|css|jpg|jpeg|png|gif|js|css|ico|swf)$">
+                Header set Cache-Control "max-age=31536000, public"
+                Header unset Last-Modified
+                Header set ETag
+    </filesMatch>
+    
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
 
@@ -1405,6 +1411,44 @@
                 <br /><br />
                 It was good to get back in the building and talk to those that are now executing the mission. We hope to be able to again visit the building and the Heritage Hall next May during the 2022 WorldWide Reunion.
             </p>
+        </article>
+<%--WWR 2022  *****************************************************************************--%>
+        <article id="WWR2022Art" class="myArts noDisplay maroonBorder showShadow">
+            <p class="pTitle centerText">THE 2022 AFTAC WORLDWIDE REUNION</p>
+            <byline>By Phil Godfrey <br />Vice Chair, 2022 AFTAC WWR </byline><br /><br />
+            
+            <div id="WWR2022PG" class="autoMarginLeftRight backDarkBlue width25 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
+                <span class="centerText bold backDarkBlue lightBlueText">Click to Open Photo Gallery</span>
+                
+            </div>
+            <myCaption class="block bottomDot">(Lots of photos! It takes a while to load.)<br /> 
+              
+            <p>
+                The 2022 AFTAC Worldwide Reunion (2022 AFTAC WWR), was truly an awesome time and event, making it one of the best we have ever had! Seventy-two fellow Alumni from 14 states, and 1 guest from overseas, gathered in sunny Cape Canaveral, Florida for the 2022 AFTAC WWR. Our Theme this time was "75 Years Monitoring Earth & Heaven since 1947". Itmarked a perfect opportunity to gather and celebrate AFTAC's 75 years of LRD excellence and the 75th Birthday of the United States Air Force. Mired in stories and steeped in tradition, 
+                members seasoned and spry proffered tales of AFTAC days gone by, but not forgotten. The 18th - 22d of May assembled a cast of characters from parts known and unknown to share stories, beverages, and laughs. It was wonderful to see so many folks from all over the lands arrive in style, to participate in the events and activities the reunion team had planned. <br /><br />
+                Those staying in the fabulous Radisson Resort at the Port hotel in Cape Canaveral, generally arrived on Wednesday. Each Alumni and their guests then signed in with Barb, the representative from A Complete Reunion. This made sure that they each received a goody bag and knew the layout of the Hospitality Room. It was the Hospitality Room that proved to be the command post and gathering place for the reunion, for the duration of the week. Fully stocked 
+                with spirits, suds, and snacks, Alumni spent many hours catching up with old friends and making new ones. There were also a display of notable events and people from AFTAC's past to add to the ambiance, as well as hand-carved medallions commemorating the 75th year of LRD and the USAF, available for a donation. These were expertly crafted by Mr. Mark Bitter, also an AFTAC Alumni, and the proceeds went to support the planned AFTAC Memorial in front of the current HQ. The Hospitality Room truly had it all this year.<br /><br />
+                The resort festivities began on Thursday night with our traditional Icebreaker. Here attendees arrived in the main ballroom of the resort, dressed and ready to kick off this reunion the right way - with aplomb! This event was emceed by our own past President, CMSgt (Ret.) Ed Lindsay, who made sure all were entertained and sufficiently lubricated. Ed traveled the room making sure folks connected and mingled, which really was not that hard since AFTAC'ers are 
+                a big family! That evening also, a pleasant surprise for our WWR guests was the launch of an Atlas V Rocket with Boeing's Starliner Space Capsule. A total "Awe" moment for those that have never seen a rocket launch LIVE!<br /><br />
+                As noted earlier, the Hospitality Room was the Command Post. Intelligence reports (and we always trust Intelligence, right?) firmly state that all information both heard and delivered in this hallowed room was 100% true. Your Reunion planners, and heck, anyone else we could rope in, made sure the truth serum was well stocked and ready, and tales of past battles were shared, by elixirs of courage. Mike Johnston had some of the best tales on many a night. Even more amazing was hearing of the past conquests of Gene Melchior, Dee Melchior, Dan Gilb, 
+                and Michael Clark - but, there were so many other fascinating conversations in our Command Post that we cannot name them all. During the entire reunion, the Hospitality Room was the place to socialize, chat, relax, and catch up with old friends and family members. The most typical remark overheard was, "Do you remember when we....?" That was usually followed by some hearty laughter.<br /><br />
+                The highlight of the Reunion was the visit to the AFTAC Headquarters on Thursday morning. Most attendees and their guests decided to attend this event, which began with a briefing by the AFTAC Commander, Colonel Katharine Branson, and included a tour of the new AFTAC Heritage Room. This room holds amazing artifacts from our history and provides a place to connect current AFTAC'ers with the legacy built by all of us Alumni. Most importantly, the AFTAC HQ visit was to celebrate the addition of three Alumni members onto 
+                the sacred AFTAC Wall of Honor (WOH). Adorned with names like Singlevich, Ciambrone and Northrop, this day saw Colonel (Ret.) Jim Whidden, SMSgt (Ret.) Frank Calenda and MSgt (Ret.) Curtis Smith (deceased) forever enshrined on the WOH, which honored their significant contributions to the AFTAC and LRD missions over the years. This was a truly special event, and a joyous occasion for these Alumni and their special guests. Attendees finished this event with an awesome Burger Burn cookout at the AFTAC Pavilion hosted by Mark Bitter and the AFTAC Memorial Corporation, before it was back on the bus for the short trip back up Highway A1A to the hotel.<br /><br />
+                Friday brought with it dreams of Space. No, we did not launch any purveyors of bad intel into space, though there were some volunteers. So, we did the next best thing. Sixteen guests boarded the Alumni Express (a bus-shaped armored vehicle) and plotted a course for the Kennedy Space Center Visitor's Center. This fine establishment has changed a lot in recent years, with the addition of a real Space Shuttle, the Atlantis, and many more flamey-rockety things in the Rocket Garden. The KSC Visitor's Center offered our Alumni a fantastic view of 
+                the latest in space technology and was a great avenue to explore the absolute best of NASA's history. Once there, our Alumni performed heavy recon of the grounds and establishments, taking careful notes and imagery of anything suspicious. I heard several tales that items of excellent value were retrieved from the enemy trading post, and that KSC's rations were enjoyable.<br /><br />
+                Saturday, the peak of the Reunion, brought us to the Reunion Banquet that night. This feast assembled the vast majority of our attendees for a night of great celebration of each other and our shared time in the AFTAC and LRD missions. This event was held in the resort's main ballroom to exquisite standards, and well serviced by attentive and friendly Radisson staff. No MREs here, the meals were a delicious selection of Chicken, Beef or Vegetarian and the dessert was quite outstanding. The Uniform of the Day was "Dress Nice," and folks did just that – and 
+                looked dashing and fabulous! Also emceed by Ed Lindsay, with help from Sean Ryan, the dinner and drinks inspired fellowship and conversation, but more than that, connection, and family. It's connection and family that glued AFTAC together over the years, and still does in the Alumni corps. <br /><br />
+                To celebrate our history of victorious excellence, the reunion team enlisted the help of the Aloha Hula of Brevard Dance Team. This fantastic group of talented performers, brought joy and wonder to the banquet. I don't know how they move like they do, but I'll bet it hurts! The Hula we witnessed was simply wonderful and amazing and should remain a closely guarded secret by all of us, for they provided a morale boost the enemy could only wish for!  The highlight of this night was the Keynote Address by the AFTAC Historian, Dr. Mike 
+                Young. Mike did an amazing and outstanding job reminding us of all of the impact we've had on the science of Nuclear Treaty Monitoring, and on national security policy for over 75 years. Dr. Young has done stunning work cataloging and documenting AFTAC's history during his 12-year tenure as the AFTAC Historian, and we were all so honored to have him as our Keynote on this special night. Mike has since retired, and he let me know that he felt it was a "perfect way to finish his career" as our Keynote Address speaker. Dr. Young's support for the 
+                Alumni over the years is too vast to fully describe here, and we greatly appreciate all his efforts, and sincerely thank him for them.<br /><br />
+                Sunday morning brought a buffet breakfast and travel outbound to other duty stations for our Worldwide Reunion Attendees, having secured victory of the primary mission: Fellowship, Fun, and Celebration. While the pandemic tried to keep us apart, it was defeated in the end by our uncanny sense of courage, dedication to our legacy, and good ol' fashioned hard work. Your Alumni team was so happy you came - it was wonderful to see each of you and catch up. Thank you so much for joining us and others!<br /><br />
+                Finally, none of this could have happened without Volunteers, chief among them, Mr. Sean "Radar" Ryan. Living up to his call sign, "Radar", expertly planned the mission with the skills of a hardened General and the grace of an F-16 in flight. We all owe Sean a huge (Atomic) thank you for an outstanding and extremely successful event. Other volunteers, Sages, and shoulders to cry on include Michelle Ryan, Frank Calenda, Judy Henderson, and Ed Lindsay for the absolutely instrumental planning support and strategy. Thanks to Tony De Marco (for the 
+                super cool commemorative coasters), Bob Wiley and Frank Hall (for the historical display), Angelina Lindsay (for her amazing photography and great conversations), The AFTAC Memorial Corporation (for the Burger Burn), and Mike Clark (for the amazing CTBTO presentation). I'm sure I'm leaving a few folks out, but we thank you too! <br /><br />
+                Remember, the AFTAC Alumni Association, is an all-volunteer organization, and it takes all of us, to make the thing go. But we are not immortal. Our last thank you goes to Mike Steskal, our Membership Chair. Mike passed away on 27 April. Mike was a friend to all and played a role in linking us up with the reunion planning company we used. He also was a huge part in making sure we could contact all of you to advertise the Reunion, which was two-years in planning, and gave us great advice on what to include in the Reunion. Mike was a vital 
+                member of the AFTAC appointed Board, but more than that, he was a dear friend who would have loved to join us for this Reunion. His passing was unexpected and hit all of us very hard. Mike, we felt your spirit - thank you dear friend, and accept our salute.<br /><br />
+                We can't tell you when our next Reunion will be yet, but the 2023 SnowBall is right around the corner. We hope to see you present for duty at our next muster! Until then, "In God We Trust, All Others We Monitor"! <br /><br />
+           </p>
+
         </article>
 <%--AFTACAA Golf Tournement 2021  *****************************************************************************--%>
         <article id="Golf2021Art" class="myArts noDisplay maroonBorder showShadow">
@@ -5049,7 +5093,7 @@
             <input id="btnShowSlides" class="myBut autoMarginLeftRight noDisplay" type="button" value=" Show SlideShow "/> 
 
             <article id="notIncluded" class="alumArt noDisplay">
-                <img alt="Not Included" class="autoMarginLeftRight width30 topMargin2em maroonBorder smallShadow" src="_Images/Not Included.jpg" />
+                <img alt="Not Included" class="autoMarginLeftRight width30 topMargin2em maroonBorder smallShadow" src="_Images/Not_Included.jpg" />
 
                 <p class="pTitle centerText">This page is still under construction.<br />We are still looking for some documentation.</p>
             </article>
@@ -6024,41 +6068,41 @@
             
             <p>Matthew passed and now it was time to clean up.  But the question still arose, "when is the Toilet Bowl"?  AFTACers needed a break from the hustle and bustle, so Nov 10, the day before Veteran's Day, was the date selected for competition, food, and fun.</p>
             <p>The softball competition was a double-elimination format, with 9 teams participating.  An 8:00 safety brief was conducted.  Then the first games began.  It was a very calm, cool day.  Perfect for a long day of softball and picnicking.  Unlike some of the previous years that were hot, muggy, and rainy at times.  The games went on and some teams were eliminated.</p>
-            <figure class="width45 autoMarginLeftRight">
+            <!--<figure class="width45 autoMarginLeftRight">
                 <img alt="tb1.jpg" class="leftMargin1em maroonBorder smallShadow width90" src="_Photos/toilet/tb1.jpg" />
                 <figcaption class="italic topMarginHalfem fontSize1em maroonText centerText">
                     Director of Staff, Jim Whidden taking his turn providing beverages
                 </figcaption>
-            </figure>
+            </figure>-->
             <p>Throughout the day, chances for the Winter Social gift baskets were also being sold.  This was a great idea and many were filling up those chance boxes with plenty of tickets.</p>
             <p>Bob Wiley, James Griffieth, Ed Lindsay, and Jim Whidden helped man the beer kegs.  Beer and cider was flowing and the stories were being told.  The championship teams had been determined, but they would have to wait.  It was now time for the Home Run Derby and to eat some wonderful pulled pork, hot dogs, and hamburgers that had been prepared by MSgt Chevis Stanley and others. </p>
-            <figure class="width45 floatLeft">
+           <!-- <figure class="width45 floatLeft">
                 <img alt="tb2.jpg" class="leftMargin2em maroonBorder smallShadow width90" src="_Photos/Toilet/tb2.jpg" />
                 <figcaption class="italic topMarginHalfem fontSize1em maroonText centerText">
                     Colonel Gorski, AFTAC commander, getting a pie in the face for the cause
                 </figcaption>
-            </figure>
-            <figure class="width45 floatLeft">
+            </figure>-->
+            <!--<figure class="width45 floatLeft">
                 <img alt="tb5.jpg" class="leftMarginem maroonBorder smallShadow width90" src="_Photos/toilet/tb5.jpg" />
                 <figcaption class="italic topMarginHalfem fontSize1em maroonText centerText">
                     People getting ready to get a pie in the face.  Colonel Gorski on the left.
                 </figcaption>
-            </figure>
+            </figure>-->
             <div class="clear"></div>
             <p>Also during the day's events, there was a nominating competition going on to select someone to get a pie in the face.  Once the Home Run Derby was finished, the real bidding started.  Five individuals were selected, but this author does not know all the recipients.  Two of them were AFTAC Commander, Colonel Gorski and SMSgt Chad Madore.</p>
-            <figure class="width45 autoMarginLeftRight">
+            <!--<figure class="width45 autoMarginLeftRight">
                 <img alt="tb3.jpg" class="leftMargin1em maroonBorder smallShadow width90" src="_Photos/toilet/tb3.jpg" />
                 <figcaption class="italic topMarginHalfem fontSize1em maroonText centerText">
                     AFTAC Alumni president Ed Lindsay, playing for the winning MS-1 team
                 </figcaption>
-            </figure>
+            </figure>-->
             <p>After people got cleaned up, the masses met for the final games.  Colonel Gorski thanked everyone for attending and the National Anthem was sung by Atomic Blue, the AFTAC chorus.  Then Mission Support 1 (MS) and Materials Directorate (TM) faced off.  MS-1 had already beat TM in a close game during regular competition.  The MS-1 team took it to the TM team hard and only one game was needed to crown MS-1 the winners for the second year straight.</p>
             <p>It was a great day to get together, have some friendly competition, many laughs, and get ready for the long weekend.  Looking forward to next year's event and I have heard some murmurings of putting together an AFTAC Alumni team…I know we have some softball players out there and some very crafty ones at that.</p>
-            <figure class="width45 autoMarginLeftRight">
+            <!--<figure class="width45 autoMarginLeftRight">
                 <img alt="tb4.jpg" class="leftMargin1em maroonBorder smallShadow width90" src="_Photos/toilet/tb4.jpg" />
                 <figcaption class="italic topMarginHalfem fontSize1em maroonText centerText">
                     Some of the Toilet Bowl trophies and the tournament bracket
-                </figcaption>
+                </figcaption>-->
             </figure>
        </article>
 

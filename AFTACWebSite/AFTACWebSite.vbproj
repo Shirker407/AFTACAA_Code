@@ -131,6 +131,9 @@
     <Content Include="_Images\Borowski Obituary.jpg" />
     <Content Include="_Images\CMS_Wright.png" />
     <Content Include="_Images\EFAE.png" />
+    <Content Include="_Photos\AOY\Milam_AOY.png" />
+    <Content Include="_Photos\News2Know\mem1.jpg" />
+    <Content Include="_Photos\News2Know\mem2.jpg" />
     <Content Include="_Photos\ObitPics\ciambroneTom.jpg" />
     <Content Include="_Photos\ObitPics\Justman.jpg" />
     <Content Include="_Photos\WOH\Coin.png" />
@@ -960,7 +963,7 @@
     <Content Include="_Images\EFAE.jpg" />
     <Content Include="_Images\Events.jpg" />
     <Content Include="_Images\lovingmemory.jpg" />
-    <Content Include="_Images\Not Included.jpg" />
+    <Content Include="_Images\Not_Included.jpg" />
     <Content Include="_Images\picnic.jpg" />
     <Content Include="_Images\Snowball.png" />
     <Content Include="_Images\SocialBasket.png" />

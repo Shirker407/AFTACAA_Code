@@ -4207,7 +4207,13 @@ $(document).ready(function () {
             scrollTop: $("#openHouse2021Art").offset().top
         }, 500);
     });
-
+    $('#myWWR2022').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#WWR2022Art').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#mainHeader").offset().top
+        }, 500);
+    });
     $('#myGolf2021').click(function () {
         $('.myArts').removeClass('block').addClass('noDisplay');
         $('#Golf2021Art').removeClass('noDisplay').addClass('block');
@@ -4424,7 +4430,7 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#WWR2022').click(function () {
+    $('#WWR2022PG').click(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow')
         $(this).css('color', 'lightgreen')
@@ -4498,7 +4504,7 @@ $(document).ready(function () {
     });
 
 
-    //2019 events
+    // events
     //**********************************************************************
 
     $('#coReunion').click(function () {
@@ -4539,17 +4545,17 @@ $(document).ready(function () {
         }, 500);
     });
 
-    $('#Golf2022').click(function () {
+    $('#WWR2022').click(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow')
         $(this).css('color', 'lightgreen')
         $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#Golf2022Art').removeClass('noDisplay').addClass('block');
+        $('#WWR2022Art').removeClass('noDisplay').addClass('block');
         $([document.documentElement, document.body]).animate({
-            scrollTop: $("#Golf2022Art").offset().top
+            scrollTop: $("#WWR2022Art").offset().top
         }, 500);
     });
-
+    
     $('#Golf2022').click(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow')
