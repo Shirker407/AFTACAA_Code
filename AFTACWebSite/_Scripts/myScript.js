@@ -4544,7 +4544,16 @@ $(document).ready(function () {
             scrollTop: $("#DiamondArtArt").offset().top
         }, 500);
     });
-
+    $('#WWR2022RecentAddition').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow')
+        $(this).css('color', 'lightgreen')
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#WWR2022Art').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#WWR2022Art").offset().top
+        }, 500);
+    });
     $('#WWR2022').click(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow')
