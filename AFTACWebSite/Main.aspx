@@ -35,11 +35,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AFTAC Alumni Association</title>
     <meta charset="utf-8" />
-    <filesMatch ".(js|css|jpg|jpeg|png|gif|js|css|ico|swf)$">
+    <!--THis didn't work to cause the .js and .css files to reload is they were changed....
+        <filesMatch ".(js|css)$">
                 Header set Cache-Control "max-age=31536000, public"
                 Header unset Last-Modified
                 Header set ETag
-    </filesMatch>
+    </filesMatch>-->
     
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
@@ -299,6 +300,12 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr>
+                                
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="WWR2022RecentAddition" class="announcement blueText">2022 World Wide Reunion Article by Phil Godfrey Posted</td>
+                                    <td class="posted blueText">6/8/2023</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myJustman" class="announcement blueText">Robert Eugene Justman, 6/30/2006 obituary was posted.</td>
@@ -1416,7 +1423,11 @@
         <article id="WWR2022Art" class="myArts noDisplay maroonBorder showShadow">
             <p class="pTitle centerText">THE 2022 AFTAC WORLDWIDE REUNION</p>
             <byline>By Phil Godfrey <br />Vice Chair, 2022 AFTAC WWR </byline><br /><br />
-            
+            <figure>
+                <img alt="group.jpg" class="autoMarginLeftRight width50 maroonBorder showShadow" src="_Photos/wwReunion2022/group.jpg" /> 
+                <figcaption class="autoMarginLeftRight width50 maroonText italic topMargin1em">The Group!</figcaption>
+            </figure>
+
             <div id="WWR2022PG" class="autoMarginLeftRight backDarkBlue width25 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
                 <span class="centerText bold backDarkBlue lightBlueText">Click to Open Photo Gallery</span>
                 
