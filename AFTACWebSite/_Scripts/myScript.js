@@ -2139,7 +2139,7 @@ $(document).ready(function () {
     //**********************************************************************
 
   $('#myMinutes').click(function () {
-        window.open('_Minutes/2023-5-8_Minutes.pdf', '');
+        window.open('_Minutes/2023-6-9_Minutes.pdf', '');
     });
 
     $('#AprilPomo').click(function () {
