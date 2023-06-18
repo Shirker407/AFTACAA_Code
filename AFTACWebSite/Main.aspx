@@ -301,10 +301,19 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                                
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">June Minutes Published</td>
+                                    <td class="posted blueText">6/18/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySpecialLinks2" class="announcement blueText">Notified by Roger Horsby that Gary Glover passed 6/17/2023.  Additional information will be posted when available.</td>
+                                    <td class="posted blueText">6/17/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="WWR2022RecentAddition" class="announcement blueText">2022 World Wide Reunion Article by Phil Godfrey Posted</td>
-                                    <td class="posted blueText">6/8/2023</td>
+                                    <td class="posted blueText">6/17/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -314,11 +323,6 @@
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpeciallinks" class="announcement blueText">Space Force names Patrick SFB as new home for STARCOM HQ:  <br /><a href="https://www.starcom.spaceforce.mil/News/Article-Display/Article/3412209/department-of-the-air-force-announces-preferred-locations-for-starcom-hq-three/" target="_blank">Air Force Announcement;<br /></a>  <a href="https://www.rickscott.senate.gov/2023/5/sen-rick-scott-applauds-florida-space-coast-s-selection-for-starcom-headquarters" target="_blank"> Sen Rick Scott Announcement.</a></td>
-                                    <td class="posted blueText">6/8/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">May Minutes Published</td>
                                     <td class="posted blueText">6/8/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -388,7 +392,7 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 7 July<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 14 July<br />
                         11:30 - 12:30 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association General Membership Off-Site Luncheon and Teleconference Meeting<br />
@@ -3567,6 +3571,7 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/2023-6-9_Minutes.pdf" target="_blank">6-9-2023</a></li>
                     <li><a href="_Minutes/2023-5-8_Minutes.pdf" target="_blank">5-8-2023</a></li>
                     <li><a href="_Minutes/4-14-2023_Minutes.pdf" target="_blank">4-14-2023</a></li>
                     <li><a href="_Minutes/3-10-2023_Minutes.pdf" target="_blank">3-10-2023</a></li>
@@ -14123,9 +14128,8 @@
     </ContentTemplate>
     </asp:UpdatePanel>
 
-    <script src="_Scripts/myScript.js"></script>
-
-
+    <script src="_Scripts/myScript.js"></script> 
+    
     </form>
 </body>
 </html>
