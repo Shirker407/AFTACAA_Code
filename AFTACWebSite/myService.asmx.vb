@@ -13,6 +13,29 @@ Public Class myService
     Private cs As String = My.Settings.ComString
 
     <WebMethod()>
+    Public Function SetJsVersion(ByVal context As HttpContext, ByVal filename As String) As String
+        Dim version As String = GetJsFileVersion(context, filename)
+        Return Chr(34) & filename & version & Chr(34)
+    End Function
+
+    Private Function GetJsFileVersion(ByVal context As HttpContext, ByVal filename As String) As String
+        If context.Cache(filename) Is Nothing Then
+            Dim filePhysicalPath As String = context.Server.MapPath(filename)
+            Dim version As String = "?v=" & GetFileLastModifiedDateTime(context, filePhysicalPath, "yyyyMMddhhmmss")
+            Return version
+        Else
+            Return String.Empty
+        End If
+    End Function
+    <WebMethod()>
+    Public Function GetFileLastModifiedDateTime(ByVal context As HttpContext, ByVal filePath As String, ByVal dateFormat As String) As String
+        Return New System.IO.FileInfo(filePath).LastWriteTime.ToString(dateFormat)
+    End Function
+
+
+
+
+    <WebMethod()>
     Public Function isAdmin(name As String) As Boolean
         Dim sql As String = "Exec isAdmin '" & name & "'"
         Dim ds As New DataSet
