@@ -55,6 +55,8 @@
     <link href="_Styles/BasicStyles.css" rel="stylesheet" />
 
     <link href="_Styles/myStyles.css" rel="stylesheet" />
+
+
 <%--FAVICON Link lines --%>    
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -307,7 +309,7 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecialLinks2" class="announcement blueText">Notified by Roger Horsby that Gary Glover passed 6/17/2023.  Additional information will be posted when available.</td>
+                                    <td id="mySpecialLinks2" class="announcement blueText">Notified by Roger Horsby that Garry Glover passed 6/17/2023.  Additional information will be posted when available.</td>
                                     <td class="posted blueText">6/17/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -14119,8 +14121,9 @@
             <asp:Timer ID="Timer1" Interval="60000" runat="server" OnTick="Timer1_Tick"></asp:Timer>
     </ContentTemplate>
     </asp:UpdatePanel>
-
-    <script src="_Scripts/myScript.js"></script> 
+    
+    <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
+    <script src="_Scripts/myScript.js"></script>
     
     </form>
 </body>
