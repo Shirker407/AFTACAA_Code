@@ -1454,9 +1454,7 @@ $(document).ready(function () {
     });
     */
      
-    $('#myMeharg').click(function () {
-        OpenObit('Meharg');
-    });
+
     $('#myJustman').click(function () {
         OpenObit('Justman');
     });
@@ -1494,38 +1492,8 @@ $(document).ready(function () {
             case 'MasonH2':
                 ShowMyObit('Mason')
                 break;
-            case 'DobbinsH2':
-                ShowMyObit('Dobbins')
-                break;
-            case 'KridleH2':
-                ShowMyObit('Kridle')
-                break;
             case 'BalentineH2':
                 ShowMyObit('Balentine')
-                break;
-            case 'PierceH2':
-                ShowMyObit('Pierce')
-                break;
-            case 'ShaderH2':
-                ShowMyObit('Shader')
-                break;
-            case 'PoundH2':
-                ShowMyObit('Pound')
-                break;
-            case 'WilliamsonH2':
-                ShowMyObit('Williamson')
-                break;
-            case 'AnderholmH2':
-                ShowMyObit('Anderholm')
-                break;
-            case 'WhitneyH2':
-                ShowMyObit('Whitney')
-                break;
-            case 'PetersonH2':
-                ShowMyObit('Peterson')
-                break;
-            case 'KimballH2':
-                ShowMyObit('Kimball')
                 break;
             case 'JustmanH2':
                 ShowMyObit('Justman')

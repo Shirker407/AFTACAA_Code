@@ -1794,7 +1794,6 @@ Public Class _Default
     Protected Sub obitsRecent_Click(sender As Object, e As EventArgs)
         action = "obitsRecent_Click"
     End Sub
-
     Protected Sub obitsArchived_Click(sender As Object, e As EventArgs)
         action = "obitsArchived_Click"
     End Sub
