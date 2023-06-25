@@ -131,6 +131,10 @@
     <Content Include="_Images\Borowski Obituary.jpg" />
     <Content Include="_Images\CMS_Wright.png" />
     <Content Include="_Images\EFAE.png" />
+    <Content Include="_Photos\20YearWall\Horsch1.jpg" />
+    <Content Include="_Photos\20YearWall\Marshall3.jpg" />
+    <Content Include="_Photos\20YearWall\Moran.jpg" />
+    <Content Include="_Photos\20YearWall\Silhanek1.jpg" />
     <Content Include="_Photos\AOY\Milam_AOY.png" />
     <Content Include="_Photos\News2Know\mem1.jpg" />
     <Content Include="_Photos\News2Know\mem2.jpg" />
@@ -230,12 +234,12 @@
     <Content Include="_Photos\20YearWall\Cahill.jpg" />
     <Content Include="_Photos\20YearWall\Chadwick.jpg" />
     <Content Include="_Photos\20YearWall\Christman.jpg" />
-    <Content Include="_Photos\20YearWall\Clark.jpg" />
+    <Content Include="_Photos\20YearWall\Clark1.jpg" />
     <Content Include="_Photos\20YearWall\Conrad.jpg" />
     <Content Include="_Photos\20YearWall\Cramlet.jpg" />
     <Content Include="_Photos\20YearWall\Dave_Johnson.jpg" />
     <Content Include="_Photos\20YearWall\Deforest.jpg" />
-    <Content Include="_Photos\20YearWall\DeMarco1.jpg" />
+    <Content Include="_Photos\20YearWall\DeMarco2.jpg" />
     <Content Include="_Photos\20YearWall\Ciambrone.jpg" />
     <Content Include="_Photos\20YearWall\Doberstein.jpg" />
     <Content Include="_Photos\20YearWall\Dunn.jpg" />
@@ -244,7 +248,7 @@
     <Content Include="_Photos\20YearWall\Gindlesperger.jpg" />
     <Content Include="_Photos\20YearWall\Good.jpg" />
     <Content Include="_Photos\20YearWall\Hackner.jpg" />
-    <Content Include="_Photos\20YearWall\Harris.jpg" />
+    <Content Include="_Photos\20YearWall\Harris1.jpg" />
     <Content Include="_Photos\20YearWall\Hummel.jpg" />
     <Content Include="_Photos\20YearWall\Kemna.jpg" />
     <Content Include="_Photos\20YearWall\Lindsay_Ed.jpg" />
