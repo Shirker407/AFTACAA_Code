@@ -1461,11 +1461,17 @@ $(document).ready(function () {
     $('#myPickel').click(function () {
         OpenObit('Pickel');
     });
+    $('#myWilliamson').click(function () {
+        OpenObit('Williamson');
+    });
 
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
-        switch (myText) {
-            case 'SchmiedH2':
+         switch (myText) {  
+             case 'WilliamsonH2':
+                 ShowMyObit('Williamson')
+                break;
+             case 'SchmiedH2':
                 ShowMyObit('Schmied')
                 break;
             case 'PickelH2':

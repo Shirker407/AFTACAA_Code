@@ -304,6 +304,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myWilliamson" class="announcement blueText">Notified by Tony De Marco that Donald "Donnie" Nash Williamson has passed, 7/4/2023.  Obituray Posted.</td>
+                                    <td class="posted blueText">7/10/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myArchivedObits" runat="server" OnClick="obitsArchived_Click" class="announcement blueText">Obituaries added to the archives for Thomas William Ciambrone, 9/8/2005, and Wilford C. (Clark) Wells, 9/20/2019.  Click on Obituaries and Archived in the main menu to search our archives.</td>
                                     <td class="posted blueText">6/21/2023</td>
                                     <td class="event blueText"></td>
@@ -323,7 +328,7 @@
                                     <td class="posted blueText">6/17/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+       <!--                             <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myJustman" class="announcement blueText">Robert Eugene Justman, 6/30/2006 obituary was posted.</td>
                                     <td class="posted blueText">6/8/2023</td>
                                     <td class="event blueText"></td> 
@@ -339,7 +344,7 @@
                                     <td class="event blueText"></td> 
                                 </tr> 
                                 
-   <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPomo" class="announcement blueText">April Pomo was Published</td>
                                     <td class="posted blueText">4/27/2023</td>
                                     <td class="event blueText"></td>
@@ -13153,6 +13158,42 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+<%--   Current Obits Donnald "Donnie" Nash Williamson - 7/4/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="WilliamsonH2" class="obitH1">Donnald "Donnie" Nash Williamson - 7/4/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="WilliamsonPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Williamson_Donald.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Williamson_Donald.jpg" />
+                        Donald "Donnie" Nash Williamson<br />
+                        Dec 1, 1934 - Jul 4, 2023<br />
+                        Donald "Donnie" Nash Williamson, 88, of Wisconsin Rapids, WI, passed away Tuesday, July 4, 2023. Donnie passed in the home he grew up in, surrounded in love by his three children, Don "Willie" Williamson, Mike Williamson, and Kelley (Williamson) Molitor.<br /><br />
+                        Funeral Services will be held at 10:30 AM on Thursday, July 13, 2023, at Our Lady Queen of Heaven Catholic Church in Wisconsin Rapids, WI. Deacon Tom Anderson will officiate the service. Visitation will be held from 9:30 AM until the time of service at 10:30 AM. Interment and military rites will be held following the funeral service at Good Sheppard Mausoleum at Calvary Cemetery in Wisconsin Rapids.<br /><br />
+                        In lieu of flowers, please consider making a donation in memory of Donald N. Williamson to one of these two organizations:<br />
+                        Our Lady Queen of Heaven Parish, 750 10th Avenue South, Wisconsin Rapids, WI 54495 / <a href="https://www.our-lady.org/" target="_blank">www.our-lady.org. </a><br />
+                        Or,<br />
+                        Rudolph Grotto Gardens and Wonder Cave, 6957 Grotto Avenue, Rudolph, WI. 54475 / <a href="https://www.rudolphgrotto.org/" target="_blank">www.rudolphgrotto.org. </a><br /><br />
+                        Donnie was born on December 1, 1934, in Wisconsin Rapids, WI, the son of Fredrick and Lucille (Nash) Williamson. Donnie was predeceased by his wife of 66 years, Gail Marie (Krzykowski) Williamson, and his brother, John Williamson. He is survived by his three children and his sister, Joan (Williamson) Johnson of Wisconsin Rapids.<br /><br />
+                        A graduate of Lincoln High School (class of 1952), Donnie attended St. Norbert's College and UW-Stevens Point before joining the United States Air Force in 1955. He attended basic training at Sampson Air Force Base in Seneca Lake, NY. After basic, Donnie attended advanced electronics training at Keesler Air Force Base in Biloxi, MS.<br /><br />
+                        After graduating from advanced training, Donnie returned home to Wisconsin Rapids to marry his high school sweetheart, Gail, on August 25, 1956, at Our Lady Queen of Heaven church.<br /><br />
+                        After marriage, the newlyweds traveled to their first duty station together at Otis Air Force Base on Cape Cod, MA, where both boys, Willie and Mike, were born. Donnie worked on C-121E "Super Connie" Constellation aircraft. Following his tour of duty at Otis Air Force Base, Donnie was selected to join the US Air Force Technical Applications Center (AFTAC), a highly-selective, national-level program to monitor global nuclear treaty compliance.<br /><br />
+                        Donnie received his initial AFTAC training at Lowry Air Force Base in Denver, CO, in 1964. Following training, Donnie and Gail moved to Fairbanks, AK, where their daughter, Kelley, was born. They lived in Fairbanks from 1964-1966. Following this tour of duty, Donnie and Gail moved back to Denver, CO, where Donnie was an AFTAC instructor at Lowry Air Force Base from 1967-1969.<br /><br />
+                        Donnie then did a remote tour of duty to the Fiji Islands in the South Pacific while Gail and the kids moved back to Cape Cod from 1970-1971. Following this remote duty, the family moved to Sacramento, CA, where Donnie served as a senior AFTAC technical advisor and completed numerous temporary assignments to Europe, Asia, and the Middle East to do repairs on forward-deployed equipment from 1972-1975.<br /><br />
+                        Donnie's last duty assignment was to Bergstrom Air Force Base near Austin, TX. While at Bergstrom AFB, Donnie was assigned to the 67th Avionics Maintenance Squadron and maintained RF-4 Phantom aircraft.<br /><br />
+                        After retiring from the Air Force as a Master Sergeant in 1977, following his 22-year career of service to our nation, Donnie, Gail, and the kids settled back home in Wisconsin Rapids, WI. Donnie worked for Ore-Ida Foods for the next 18 years when he retired for the second time in 1997.<br /><br />
+                        In retirement, Donnie and Gail enjoyed traveling the country in their motorhome. They enjoyed spending winters in warmer weather with their close friends from Wisconsin.<br /><br />
+                        Donnie was a man of honor, principles, and ethics. He was a role model for his children to emulate and the best Dad ever. He loved his wife deeply and adored his children. All three of Donnie's children have been with their respective spouses for more than 30 years.<br /><br />
+                        Donnie was also a man of strong faith. He attended mass regularly at Our Lady Queen of Heaven Church, serving as an usher for many years. In his spare time, Donnie enjoyed dinner out with friends, attending classic car shows, and meeting with his Ham radio buddies. Donnie was a founding member of the Heart of Wisconsin Amateur Radio Group (callsign KB9KFA). All those activities were enjoyed with a little "Dr. Jim" (if you know, you know!).<br /><br />
+                        Donnie is survived by the eldest son, Donald "Willie" Williamson, his wife Julie (Crotteau) Williamson, and their children, Donald Brandon Williamson and Cory Cae Williamson; second son, Michael Williamson, and his husband, Otis Merry; and daughter, Kelley (Williamson) Molitor, her husband Steve Molitor, their daughter Chelsea (Molitor) Massingill, and Donnie's great-granddaughter Alana Massingill.<br /><br />
+                        Donnie is also survived by his sister, Joan (Williamson) Johnson, and sister-in-law Dolly Schmit, and predeceased by his brother John Williamson and his brother-in-law, Charles Johnson.<br /><br />
+                        He will be missed by his many nieces and nephews. His nephew and next-door neighbor Steve Krekowski and his partner Gene Marty, as well as his niece Lori Placek, were a great comfort to the family in Donnie's later life, helping with snow blowing, lawn mowing, medical visits, and dropping off countless baked goods and other treats. The family will be forever grateful to you.<br /><br />
+                        The family would also like to sincerely thank his entire home care team that took loving care of Donnie for over a year. Thank you April Gruba, Tanya Morgan, Barb McElroy, Molly Karnatz and Dolly Schmit. We will be forever grateful for the compassion and comfort you provided to Dad.<br /><br />
+                        Donnie will also be dearly missed by many close friends, including Bev Krekowski, Sally Parr, Ron and Bonnie Mancl, Al and Sherry Cleveland, Clare and Monica Jenkins, and Ron and Marcine Amundson. The friends Donnie leaves behind from his time in the Air Force and from spending winters motor-homing in Florida are too countless to list.<br /><br />
+                        </p>
+                    </div>
+               </article>   
 <%--   Current Obits Craig William Pickel - 4/28/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13368,7 +13409,7 @@
                         </p>
                     </div>
                 </article>
-  
+ 
            
  <%--   Current Obits Robert Eugene Justman - 6/30/2006 *****************************************************************************--%>
                <article>
@@ -13872,8 +13913,9 @@
     </asp:UpdatePanel>
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
-    <script src="_Scripts/myScript.js"></script>
-    
+    <!--<script src="_Scripts/myScript.js"></script>-->
+    <script src="_Scripts/myScript.js?v=1"></script>
+       
     </form>
 </body>
 </html>
