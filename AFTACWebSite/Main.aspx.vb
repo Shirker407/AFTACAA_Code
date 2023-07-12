@@ -1149,7 +1149,7 @@ Public Class _Default
 
         lblModDate.Text = "Date Last Modified " & ds.Tables(0).Rows(0).Item("LastModified")
 
-        sql = "EXEC isCommander " & lstMembers.SelectedValue
+        sql = "EXEC isCommander " & _id
 
         Get_Dataset(sql, ds, "Command")
 
@@ -1345,29 +1345,34 @@ Public Class _Default
             lstMembers.Enabled = True
 
             GetList()
+            FillBoxes()
 
-
+            lstMembers.SelectedIndex = lstMembers.Items.Count - 1
             Dim ok As Boolean = False
 
             lblSearchErr.Visible = False
 
-            Dim x As Int16
+            Dim x As Int32
 
             For x = 0 To lstMembers.Items.Count - 1
-                If UCase(lstMembers.Items(x).Text) = (txtLast.Text & ", " & txtFirst.Text) Then
+                If InStr(lstMembers.Items(x).Text, txtLast.Text) > 0 Then 'UCase(lstMembers.Items(x).Text) = Trim(UCase(txtLast.Text & ", " & txtFirst.Text & " " & txtInitial.Text)) Then
                     ok = True
                     Exit For
                 End If
 
             Next
 
-            If ok Then
-                lstMembers.SelectedIndex = x
-            Else
-                lstMembers.SelectedIndex = 1
-            End If
+            'If ok Then
+            '    If x > -1 And x < lstMembers.Items.Count Then
+            '        lstMembers.SelectedIndex = x
+            '    Else
+            '        lstMembers.SelectedIndex = 0
+            '    End If
+            'Else
+            '    lstMembers.SelectedIndex = 1
+            'End If
 
-            FillBoxes()
+
 
         End If
 
@@ -1847,7 +1852,7 @@ Public Class _Default
     Protected Sub btnFriendSearch_Click(sender As Object, e As EventArgs)
         Dim ds As New DataSet
         Dim sql As String = ""
-        Dim mySender As Object
+        'Dim mySender As Object
 
         lblSearchErr.Visible = False
 
