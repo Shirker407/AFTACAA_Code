@@ -1304,13 +1304,16 @@ Public Class _Default
             If Len(txtJoined.Text) < 4 Then
                 txtJoined.Text = Date.Today
             End If
+            If Len(MailingFeeDate.Text) < 4 Then
+                MailingFeeDate.Text = "1/1/1900"
+            End If
             sql = "Exec AddNewMemberInfo '" & Capitolize(txtFirst.Text) & "','" & Apos(Capitolize(txtLast.Text)) & "','" &
             UCase(txtInitial.Text) & "','" & txtJoined.Text & "','" & Capitolize(txtSuffix.Text) & "','" & Capitolize(txtSpouse.Text) & "','" &
             txtMemEmail.Text & "','" & FixMyPhone(txtPhone.Text) & "','" & FixMyPhone(txtCellPhone.Text) & "','" & Capitolize(txtAddress.Text) & "','" & Capitolize(txtCity.Text) & "','" &
             UCase(txtState.Text) & "','" & txtZip.Text & "','" & UCase(txtCountry.Text) & "','" & txtRank.Text & "','" &
             UCase(txtDues.Text) & "','" & Apos(txtDets.Text) & "','" & Apos(txtRemarks.Text) & "','" & Apos(txtComments.Text) & "','" &
             GetChapters() & "','" & GetDeceased() & "'," & GetMailPomo() & ",'" & Capitolize(ddlCommand.Text) & "','" &
-            txtcmdDates.Text & "','" & txtSEO.Text & "'," & GetFailed() & "," & ReceiveEalls() & ",'" & "','" & MailingFeeDate.Text & Session("myName") & "'"
+            txtcmdDates.Text & "','" & txtSEO.Text & "','" & GetFailed() & "','" & ReceiveEalls() & "','" & CDate(MailingFeeDate.Text) & "','" & Session("myName") & "'"
 
             'txtsql.Text = sql
 
@@ -1344,13 +1347,9 @@ Public Class _Default
             GetList()
 
 
-            lstMembers.SelectedIndex = currentindex
-
             Dim ok As Boolean = False
 
             lblSearchErr.Visible = False
-
-            lstMembers.SelectedIndex = currentindex
 
             Dim x As Int16
 
@@ -1359,6 +1358,7 @@ Public Class _Default
                     ok = True
                     Exit For
                 End If
+
             Next
 
             If ok Then

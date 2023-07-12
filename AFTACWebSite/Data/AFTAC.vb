@@ -67,7 +67,7 @@ Partial Public Class AFTAC
     <StringLength(3)>
     Public Property MEMBERDUES As String
 
-    Public Property MemberID As Integer?
+    'Public Property MemberID As Integer
 
     Public Property Comments As String
 
