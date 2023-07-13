@@ -4155,6 +4155,12 @@ $(document).ready(function () {
     $('#meetingMinutes').click(function () {
         window.open('_Minutes/1-9-2023_Minutes.pdf', '');
     });
+    $('#myAgenda').click(function () {
+        subclicked = true;
+        $('.underSel').css('color', 'yellow');
+        $('#showAgenda').css('color', 'lightgreen');
+        window.open('_PDFs/agenda_7_2023.pdf', '');
+    });
 
     $('#showAgenda').click(function () {
         subclicked = true;

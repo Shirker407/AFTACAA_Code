@@ -1362,15 +1362,15 @@ Public Class _Default
 
             Next
 
-            'If ok Then
-            '    If x > -1 And x < lstMembers.Items.Count Then
-            '        lstMembers.SelectedIndex = x
-            '    Else
-            '        lstMembers.SelectedIndex = 0
-            '    End If
-            'Else
-            '    lstMembers.SelectedIndex = 1
-            'End If
+            If ok Then
+                If x > -1 And x < lstMembers.Items.Count Then
+                    lstMembers.SelectedIndex = x
+                Else
+                    lstMembers.SelectedIndex = 0
+                End If
+            Else
+                lstMembers.SelectedIndex = 1
+            End If
 
 
 
