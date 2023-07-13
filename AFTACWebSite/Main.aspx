@@ -304,6 +304,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement greenText">Notified by Kelly (Meisenheimer) Fetto that Col Robert (Bob) A. Meisenheimer will be interred at Arlington National Cemetery the morning of October 19th, 2023.  Anyone wishing to attend should meet at Arlington's Main Gate at 10:05 that day.  Additional Information will be posted when available.</td>
+                                    <td class="posted greenText">7/13/2023</td>
+                                    <td class="event greenText"> 19 Oct 2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myAgenda" class="announcement blueText">Agenda for 14 July 2023 Meeting Posted.</td>
+                                    <td class="posted blueText">7/13/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWilliamson" class="announcement blueText">Notified by Tony De Marco that Donald "Donnie" Nash Williamson has passed, 7/4/2023.  Obituray Posted.</td>
                                     <td class="posted blueText">7/10/2023</td>
                                     <td class="event blueText"></td>
@@ -319,7 +329,7 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecialLinks2" class="announcement blueText">Notified by Roger Horsby that Garry Glover passed 6/17/2023.  Additional information will be posted when available.</td>
+                                    <td id="mySpecialLinks2" class="announcement blueText">Notified by Roger Hornsby that Garry Glover passed 6/17/2023.  Additional information will be posted when available.</td>
                                     <td class="posted blueText">6/17/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -13916,7 +13926,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=2"></script>
+    <script src="_Scripts/myScript.js?v=3"></script>
        
     </form>
 </body>
