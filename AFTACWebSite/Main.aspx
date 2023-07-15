@@ -101,8 +101,10 @@
 
                     <li id="liPoMos" class="liMainMenu bottomDot">Post-Monitors
                         <div id="divPomos" class="underMenu noDisplay">
-                            <span id="pomosCurrent" class="underSel block leftMargin1em">Recent Post Monitors</span>
-                            <span id="pomosArchived" class="underSel block leftMargin1em">Archived Post Monitors</span>
+                            <span id="pomosCurrent" class="underSel block leftMargin1em">Recent</span>
+                            <span id="pomosArchived" class="underSel block leftMargin1em">Archived</span>
+                            <a class="underSel block leftMargin1em"  style="font-size:1em" href="mailto: jem2415@earthlink.net; chrisjohn2@gmail.com">eMail Editors</a>
+
                         </div>
                     </li>
 
@@ -304,6 +306,21 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement greenText">AFTAC Memorial Dedication Ceremony, 4 Aug 2023, 10:30 am.  <a href="https://einvitations.afit.edu/inv/anim.cfm?i=776508&k=0566440C7B5F" target="_blank">You played a big part in making this happen and are all invited (click for invitation)!</a>  Zoom Meeting details also included.</td>
+                                    <td class="posted greenText">7/15/2023</td>
+                                    <td class="event greenText"> 4 Aug 2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMcCloskey" class="announcement blueText">Notified by John Horsch that Charles Stuart McCloskey Jr. passed on 7/8/2023.  Obituary Posted.</td>
+                                    <td class="posted blueText">7/14/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="Td1" runat="server" OnClick="obitsArchived_Click" class="announcement blueText">Obituary added to the archives for Lindsay Edward Miller, 6/3/1998.  Click on Obituaries and Archived in the main menu to search our archives.</td>
+                                    <td class="posted blueText">7/14/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">Notified by Kelly (Meisenheimer) Fetto that Col Robert (Bob) A. Meisenheimer will be interred at Arlington National Cemetery the morning of October 19th, 2023.  Anyone wishing to attend should meet at Arlington's Main Gate at 10:05 that day.  Additional Information will be posted when available.</td>
                                     <td class="posted greenText">7/13/2023</td>
                                     <td class="event greenText"> 19 Oct 2023</td>
@@ -314,7 +331,7 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWilliamson" class="announcement blueText">Notified by Tony De Marco that Donald "Donnie" Nash Williamson has passed, 7/4/2023.  Obituray Posted.</td>
+                                    <td id="myWilliamson" class="announcement blueText">Notified by Tony De Marco that Donald "Donnie" Nash Williamson has passed, 7/4/2023.  Obituary Posted.</td>
                                     <td class="posted blueText">7/10/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -404,7 +421,7 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 14 July<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 18 August<br />
                         11:30 - 12:30 Hrs<br />
                         --------------------------<br />
                         AFTAC Alumni Association General Membership Off-Site Luncheon and Teleconference Meeting<br />
@@ -414,10 +431,10 @@
                         Lobby Conference Room<br />
                         Patrick SFB FL<br />-->
                         Beef O'Brady's<br />
-                        <!--3030 Lake Washington Road<br />
-                        Melbourne FL<br />-->
-                        724 S Patrick Drive<br /> 
-                        Satellite Beach FL<br />
+                        3030 Lake Washington Road<br />
+                        Melbourne FL<br />
+                        <!--724 S Patrick Drive<br />                         
+                        Satellite Beach FL<br />-->
                         Note:  Please arrive at 1100 if you desire to order food/beverages. <br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
@@ -3076,8 +3093,8 @@
                 Donations for any amount can be made by a check made out to "AFTAC Memorial Corporation" and mailed to  
                 <br /><br />
                 AFTAC Memorial Corporation <br />
-                P.O. Box 372012 <br />
-                Satellite Beach, FL   32937 
+                2822 Englewood Drive <br />
+                Melbourne, FL   32940 
                 <br /><br />
                 Or you may also click <a href="https://donate.Brickmarkers.com/aftacmc" target="_blank">here</a> to go to the website  
                 From there you may download a donation form, order a brick on-line, or make a donation only, and pay through PayPal using your credit card or through your own PayPal account. 
@@ -13170,6 +13187,27 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+<%--   Current Obits Lt. Col. (Ret) Charles Stuart McCloskey Jr. - 7/8/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="McCloskeyH2" class="obitH1">Lt. Col. (Ret) Charles Stuart McCloskey Jr. - 7/8/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="McCloskeyPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="McCloskey.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/McCloskey.jpg" />
+                        Charles Stuart McCloskey Jr.<br />
+                        Mar 6, 1932 - Jul 8, 2023<br />
+                        He was born on March 6, 1932, to parents Stuart and Mary Bell in Vicksburg, MS. He and his parents attended Holy Trinity Episcopal Church. He graduated from Carr Central High School in 1949. Stuart went on to earn his BS in Physics from the Virginia Military Institute in 1953 and his MS in Physics from the U.S. Naval Post Graduate School in 1962.
+                        Upon graduating from VMI, Stuart began a long and distinguished career in the United States Air Force where he had posts in Europe, Houma, LA, Jacksonville, FL, Monterey, CA, Alexandria, VA, and Oslo, Norway. During this time, he met and married Patsy Hebert and had two beautiful children, Charles Stuart III and Karen. In 1972, the family moved to Satellite Beach where Stuart worked at the Air Force Technical Applications Center on Patrick Air Force Base. He retired from the US Air Force in 1979 as a Lt. Colonel after honorably serving his country for 26 years. Stuart continued to work as a civilian contractor for 8 years at the Kennedy Space Center as a safety engineer.<br /><br />
+                        Stuart was a member of Holy Apostles Episcopal Church in Satellite Beach and many other organizations including the Air Force Association, The Military Officers Association, Tides, and AARP. In his spare time, he was an avid walker, reader, and bridge/poker player. Sports were a big part of Stuart's life both as a spectator and participant. In his youth, he played basketball and tennis. At most times, you could find Stuart watching any sport that was broadcast but he particularly loved the Florida Gators, a passion shared with his entire family.<br /><br />
+                        Stuart was a devoted husband and father. He was predeceased by his loving wife of 50 years, Patsy, in 2008. He is survived by his daughter, Karen McCloskey; son, Stuart McCloskey and his wife, Sande; grandsons, Chris McCloskey, and Greg McCloskey, and his wife, Jennifer.<br /><br />
+                        Services will be held at Florida Memorial Gardens, 5950 US-1 S, Rockledge, FL 32955. The family will hold a viewing on Friday, July 21, 2023, from 6:00-8:00 pm and a celebration of life service on Saturday, July 22, 2022, at 10:00 am with private interment following.<br /><br />
+                        In lieu of flowers, the family requests that donations be considered in Stuart's name to Holy Apostles Episcopal Church, 505 Grant Ave, Satellite Beach, FL 32937, or a charity of your choice.<br /><br />
+                        Fond memories and expressions of sympathy may be shared at  <a href="https://www.FloridaMemorialFH-Gardens.com/" target="_blank">Florida Memorial Gardens </a> for the McCloskey family.<br /><br />
+                        </p>
+                    </div>
+               </article>   
 <%--   Current Obits Donnald "Donnie" Nash Williamson - 7/4/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13926,7 +13964,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=3"></script>
+    <script src="_Scripts/myScript.js?v=4"></script>
        
     </form>
 </body>

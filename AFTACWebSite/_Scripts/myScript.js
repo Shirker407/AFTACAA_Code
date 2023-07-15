@@ -1464,10 +1464,17 @@ $(document).ready(function () {
     $('#myWilliamson').click(function () {
         OpenObit('Williamson');
     });
+    $('#myMcCloskey').click(function () {
+        OpenObit('McCloskey');
+    });
 
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
          switch (myText) {  
+             
+             case 'McCloskeyH2':
+                 ShowMyObit('McCloskey')
+                break;
              case 'WilliamsonH2':
                  ShowMyObit('Williamson')
                 break;
