@@ -287,7 +287,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 6/7/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 7/15/2023</span>
                     </div>
                 </div>
 
@@ -13969,7 +13969,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=4"></script>
+    <script src="_Scripts/myScript.js?v=5"></script>
        
     </form>
 </body>
