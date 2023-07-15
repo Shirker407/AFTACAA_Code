@@ -306,6 +306,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="Td2" runat="server" OnClick="obitsArchived_Click" class="announcement blueText">Obituary added to the archives for William Curtis Rogers, 8/27/2021.  Click on Obituaries and Archived in the main menu to search our archives.</td>
+                                    <td class="posted blueText">7/15/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">AFTAC Memorial Dedication Ceremony, 4 Aug 2023, 10:30 am.  <a href="https://einvitations.afit.edu/inv/anim.cfm?i=776508&k=0566440C7B5F" target="_blank">You played a big part in making this happen and are all invited (click for invitation)!</a>  Zoom Meeting details also included.</td>
                                     <td class="posted greenText">7/15/2023</td>
                                     <td class="event greenText"> 4 Aug 2023</td>
