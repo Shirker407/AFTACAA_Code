@@ -239,7 +239,7 @@ $(document).ready(function () {
     });
 
     $('#butCOE').click(function () {
-        window.open('_pdfs/Calendar_7_JUNE_2023.pdf', '');
+        window.open('_pdfs/Calendar_15_Jul_2023.pdf', '');
     });
 
     $('#myCorona').click(function () {
