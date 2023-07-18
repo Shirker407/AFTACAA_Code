@@ -306,6 +306,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myJohnson" class="announcement blueText">Notified by Maureen Hampson that Brent (BJ) Johnson passed, 7/6/2023.  Available information posted.</td>
+                                    <td class="posted blueText">7/18/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="Td2" runat="server" OnClick="obitsArchived_Click" class="announcement blueText">Obituary added to the archives for William Curtis Rogers, 8/27/2021.  Click on Obituaries and Archived in the main menu to search our archives.</td>
                                     <td class="posted blueText">7/15/2023</td>
                                     <td class="event blueText"></td>
@@ -345,65 +350,28 @@
                                     <td class="posted blueText">6/21/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+<!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">June Minutes Published</td>
                                     <td class="posted blueText">6/18/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecialLinks2" class="announcement blueText">Notified by Roger Hornsby that Garry Glover passed 6/17/2023.  Additional information will be posted when available.</td>
-                                    <td class="posted blueText">6/17/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
+
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="WWR2022RecentAddition" class="announcement blueText">2022 World Wide Reunion Article by Phil Godfrey Posted</td>
                                     <td class="posted blueText">6/17/2023</td>
                                     <td class="event blueText"></td>
-                                </tr>
-       <!--                             <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myJustman" class="announcement blueText">Robert Eugene Justman, 6/30/2006 obituary was posted.</td>
-                                    <td class="posted blueText">6/8/2023</td>
-                                    <td class="event blueText"></td> 
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpeciallinks" class="announcement blueText">Space Force names Patrick SFB as new home for STARCOM HQ:  <br /><a href="https://www.starcom.spaceforce.mil/News/Article-Display/Article/3412209/department-of-the-air-force-announces-preferred-locations-for-starcom-hq-three/" target="_blank">Air Force Announcement;<br /></a>  <a href="https://www.rickscott.senate.gov/2023/5/sen-rick-scott-applauds-florida-space-coast-s-selection-for-starcom-headquarters" target="_blank"> Sen Rick Scott Announcement.</a></td>
-                                    <td class="posted blueText">6/8/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPickel" class="announcement blueText">Craig Pickel, 4/28/2023 obituary was posted.</td>
-                                    <td class="posted blueText">5/30/2023</td>
-                                    <td class="event blueText"></td> 
-                                </tr> 
-                                
+                              
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPomo" class="announcement blueText">April Pomo was Published</td>
                                     <td class="posted blueText">4/27/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage4" class="announcement blueText"><a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card available as proof you are eligible for discounts added to Special Links page.</a></td>
-                                    <td class="posted blueText">4/22/2023</td>
-                                    <td class="event blueText"></td> 
-                                </tr> 
-
-                        
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage1" class="announcement blueText"><a href ="https://www.nps.gov/planyourvisit/veterans-and-gold-star-families-free-access.htm" target ="_bank")>Free ($10.00 on-line processing fee) Lifetime National Parks Pass available to Military Veterans and Gold Star Families</a></td>
-                                    <td class="posted blueText">4/19/2023</td>
-                                    <td class="event blueText"></td> 
-                                </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                          
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myLoftis" class="announcement blueText">John E. Loftis added to the 20 Year Wall.</td>
                                     <td class="posted blueText">4/12/2023</td>
                                     <td class="event blueText"></td>
                                 </tr> 
-
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySpecalLinksPage3" class="announcement blueText"><a href ="https://vimeo.com/807598018 " target ="_bank")>9S100 Career Field Awarded the Chief Master Sgt. Richard Etchberger Team Award at the AFA Warefare Symposium (see minutes 41:14 - 44:45 of the Video)</a></td>
-                                    <td class="posted blueText">3/30/2023</td>
-                                    <td class="event blueText"></td>  
-                                </tr>
                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySpecalLinksPage2" class="announcement blueText"><a href ="https://www.airandspaceforces.com/?p=185363#:" target ="_bank")>AFA Warefare Symposium: The Enlisted Imperative </a></td>
                                     <td class="posted blueText">3/30/2023</td>
@@ -13192,6 +13160,7 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+ 
 <%--   Current Obits Lt. Col. (Ret) Charles Stuart McCloskey Jr. - 7/8/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13213,6 +13182,21 @@
                         </p>
                     </div>
                </article>   
+<%--   Current Obits Brent (BJ) Johnson - 7/6/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="JohnsonH2" class="obitH1">Brent (BJ) Johnson - 7/6/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="JohnsonPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="JohnsonBJ.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/JohnsonBJ.jpg" />
+                        Brent (BJ) Johnson<br />
+                        Jul 6, 2023<br />
+                        From Maureen Hampson:  "I contacted BJ's (Brent Johnson) wife and there has not been an obituary published yet, however, she shared that on August 10th, there will be a graveside ceremony at the Arizona Veterans Cemetery - Marana, beginning at 10:00, and a celebration of life, on August 12th at 11:00,  the American Legion Post 36, in Tuscon.  BJ fought pancreatic cancer for about four years. He was always full of fun and life and saw the best in everyone and everything."<br /><br />
+                        </p>
+                    </div>
+               </article>  
 <%--   Current Obits Donnald "Donnie" Nash Williamson - 7/4/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13969,7 +13953,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=5"></script>
+    <script src="_Scripts/myScript.js?v=6"></script>
        
     </form>
 </body>
