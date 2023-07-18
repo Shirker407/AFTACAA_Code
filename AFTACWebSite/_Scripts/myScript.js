@@ -1455,23 +1455,23 @@ $(document).ready(function () {
     */
      
 
-    $('#myJustman').click(function () {
-        OpenObit('Justman');
-    });
-    $('#myPickel').click(function () {
-        OpenObit('Pickel');
-    });
+  
     $('#myWilliamson').click(function () {
         OpenObit('Williamson');
     });
     $('#myMcCloskey').click(function () {
         OpenObit('McCloskey');
     });
+    $('#myJohnson').click(function () {
+        OpenObit('Johnson');
+    });
 
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
          switch (myText) {  
-             
+             case 'JohnsonH2':
+                 ShowMyObit('Johnson')
+                 break;           
              case 'McCloskeyH2':
                  ShowMyObit('McCloskey')
                 break;
