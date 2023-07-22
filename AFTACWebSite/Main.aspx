@@ -306,7 +306,7 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Aug at Manatee Cove Golf Course, Patrick Space Force Base.  Contact <a href="mailto:piston_horse@hotmail.com"> Ed Lindsay</a> for details and to enter.</td>
+                                    <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Aug at Manatee Cove Golf Course, Patrick Space Force Base.  Contact <a href="mailto:piston_horse@hotmail.com"> Ed Lindsay</a> (piston_horse@hotmail.com) for details and to enter.</td>
                                     <td class="posted greenText">7/22/2023</td>
                                     <td class="event greenText"> 29 Aug 2023</td>
                                 </tr>
