@@ -305,6 +305,11 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                               <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Aug at Manatee Cove Golf Course, Patrick Space Force Base.  Contact <a href="mailto:piston_horse@hotmail.com"> Ed Lindsay</a> for details and to enter.</td>
+                                    <td class="posted greenText">7/22/2023</td>
+                                    <td class="event greenText"> 29 Aug 2023</td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myJohnson" class="announcement blueText">Notified by Maureen Hampson that Brent (BJ) Johnson passed, 7/6/2023.  Available information posted.</td>
                                     <td class="posted blueText">7/18/2023</td>
