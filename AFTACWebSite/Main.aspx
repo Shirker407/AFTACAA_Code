@@ -306,9 +306,14 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Aug at Manatee Cove Golf Course, Patrick Space Force Base.  Contact <a href="mailto:piston_horse@hotmail.com"> Ed Lindsay</a> (piston_horse@hotmail.com) for details and to enter.</td>
+                                    <td class="announcement greenText">AFTAC leadership invites the Aluimni to their 9/11 Retreat Ceremony, 6 Sep 2023, HQ AFTAC, Patrick Space Force Base.  Col Finlayson will address those assembled at 1620 with Retreat following at 1630.</td>
+                                    <td class="posted greenText">7/24/2023</td>
+                                    <td class="event greenText"> 6 Sep 2023</td>
+                                </tr>
+                               <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Sep at Manatee Cove Golf Course, Patrick Space Force Base.  Contact <a href="mailto:piston_horse@hotmail.com"> Ed Lindsay</a> (piston_horse@hotmail.com) for details and to enter.</td>
                                     <td class="posted greenText">7/22/2023</td>
-                                    <td class="event greenText"> 29 Aug 2023</td>
+                                    <td class="event greenText"> 29 Sep 2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myJohnson" class="announcement blueText">Notified by Maureen Hampson that Brent (BJ) Johnson passed, 7/6/2023.  Available information posted.</td>
