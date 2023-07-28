@@ -305,7 +305,17 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                               <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myFeakes" class="announcement blueText">Notified by Maureen Hampson that Glen Allen Feakes passed on 19 Jul 2023. Obituary posted here.</td>
+                                    <td class="posted blueText">7/28/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myLandry" class="announcement blueText">Roland Landry provided an obituary for Col. (Ret) Tannie Hamilton (Jones) Landry, 4/8/2023. We've posted it here.</td>
+                                    <td class="posted blueText">7/28/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">AFTAC leadership invites the Aluimni to their 9/11 Retreat Ceremony, 6 Sep 2023, HQ AFTAC, Patrick Space Force Base.  Col Finlayson will address those assembled at 1620 with Retreat following at 1630.</td>
                                     <td class="posted greenText">7/24/2023</td>
                                     <td class="event greenText"> 6 Sep 2023</td>
@@ -353,11 +363,6 @@
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myWilliamson" class="announcement blueText">Notified by Tony De Marco that Donald "Donnie" Nash Williamson has passed, 7/4/2023.  Obituary Posted.</td>
                                     <td class="posted blueText">7/10/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myArchivedObits" runat="server" OnClick="obitsArchived_Click" class="announcement blueText">Obituaries added to the archives for Thomas William Ciambrone, 9/8/2005, and Wilford C. (Clark) Wells, 9/20/2019.  Click on Obituaries and Archived in the main menu to search our archives.</td>
-                                    <td class="posted blueText">6/21/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
 <!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -13170,7 +13175,33 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
- 
+
+<%--   Current Obits Glen Allen Feakes - 7/19/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="FeakesH2" class="obitH1">Glen Allen Feakes - 7/19/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="FeakesPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Feakes.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Feakes.jpg" />
+                        Glen Allen Feakes<br />
+                        Aug 15, 1931 - Jul 19, 2023<br />
+                        Glen Allen Feakes, age 91, of Denver, Colorado departed this life on Wednesday, July 19, 2023. He was born in Fennimore, WI to Wayne and Florence (Fry) Feakes on August 15, 1931. He grew up in the Fennimore area and was a 1949 graduate of Fennimore High School. After graduating from high school, he joined the United States Air Force and was assigned to various locations in the United States and abroad during and after the Korean war. In 1957, he was stationed at the Air Force Technical Applications Center (AFTAC) in Encampment, WY. There he met his future wife, Joncee Arliene Newsom. On February 22, 1958, they were married at the Little Brown Church in Nashua, Iowa. The two of them were stationed in multiple overseas locations including Alice Springs, Australia, and twice in Toledo, Spain, which resulted in numerous memories and long-term friendships. He retired from the military as a Master Sergeant in 1971 and used his military benefits to pursue higher education at the University of Colorado at Denver, receiving bachelor's degrees in Electrical Engineering and International Business in 1974. This training led him to a second career in civilian contracting work with the Department of Defense, Defense Contracts Administration Services Office (DCASO). Later in his career, he had the opportunity to work with the manufacturers of the M1 Abrams tank at the Army Tank Plant in Lima, Ohio, the National Aeronautics and Space Administration (NASA) Goddard Space Flight Center in Greenbelt, Maryland during the development of the Hubbel Telescope, and with the Army Corps of Engineers at Fitzsimons Army Medical Center. Following his second retirement in 1989, Glen pursued his dream to build a cabin in Hartsel, Colorado, and received the Certificate of Occupancy in 1990. Glen was a member and an officer in the Ranch of the Rockies Homeowner's Association and a member of the Hartsel Volunteer Fire Department. Throughout his retirement, Glen was an active member of the AFTAC Alumni Association of Colorado. He loved his family, the mountains, fishing and hunting, patio gardening, opening presents on Christmas morning, traveling and exploring locations around the world.<br /><br />
+                        He is survived by Joncee, his wife of 65 years, their son, Randell, and his wife, Diann, of Denver, CO, their granddaughters Caitlin of Saratoga, WY and Sydney of Denver, CO, and their daughter, Debra, and her husband, Alejandro, of San Marcos, TX. Glen was also survived by two of his five sisters, Lela Murray of Calmar, IA, and Donna Glasbrenner of Boscabel, WI. He was preceded in death by his parents, two infant brothers, and three of his five sisters, Alice Noyes, LaVonne Peterson, and Joyce Harris.<br /><br />
+                        Following the service, there will be an informal gathering and reception at the Montclair Civic Building (6820 E 12th Ave, Denver, CO 80220) from 2:00 to 4:00 pm. Rather than flowers or donations, our family would like you to use those funds for a special celebration with your family in memory of Glen.<br /><br />
+                        Service:<br /><br />
+                        Friday, September 1, 2023 at 12:00pm<br />
+                        Ft. Logan National Cemetery<br /><br />
+                        Interment:<br />
+                        Ft. Logan National Cemetery<br />
+                        3698 S. Sheridan Blvd Denver, CO 80236<br /><br />
+                        Newcomer - East Metro Chapel (720-857-0700) is assisting the family<br /><br />
+                            
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href=https://www.newcomerdenver.com/Obituary/266519/Glen-Feakes/Denver-CO target="_blank">Newcommer.</a> <br /><br />
+                        </p>
+                    </div>
+               </article>  
 <%--   Current Obits Lt. Col. (Ret) Charles Stuart McCloskey Jr. - 7/8/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13310,6 +13341,26 @@
                         </p>
                    </div>
                 </article>  
+<%--   Current Obits Col. (Ret) Tannie Hamilton (Jones) Landry - 4/8/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="LandryH2" class="obitH1">Col. (Ret) Tannie Hamilton (Jones) Landry - 4/8/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="LandryPara" class="obitPara noDisplay">
+                        <p>
+                        <br /><br />Col. Tannie Hamilton (Jones) Landry<br />
+                        Jul 8, 1944 - Apr 8, 2023<br /><br />
+                        
+                        After a five-year battle with leukemia, Tannie Hamilton Landry (nee Jones) died on April 8, 2023, at the age of 78 in Rockledge, FL. Tannie was born on 8 July 1944 in West Hazelton, PA to Elwood H. Jones and Helen G. Jones (nee Schwarz), also of Hazelton, PA. Tannie spent her childhood in Pennsylvania. The oldest girl of seven children, Tannie knew responsibility from an early age and worked in her father's bank starting in high school. She attended Wyoming Seminary for high school and East Stroudsburg University where she earned a degree in Physical Education.<br /><br />
+                        Seeking equal pay for equal work, she joined the Air Force in 1968. She became one of the first female aircraft maintenance officers, reaching the rank of colonel several years before her retirement in 1995. <br /><br />
+                        Tannie retired in Melbourne, Florida with her husband Roland. While her military career was highly decorated, her post-Air Force years were her most valued time. She used her retirement years to build and contribute to her community including volunteering at the Food Bank, making stained glass windows for the sanctuary of her church, serving as an officer for her neighborhood committee for over 10 years, and forging deep connections with young people growing up in the neighborhood and in her church.<br /><br /> 
+                        She immensely enjoyed time with her children, grandchildren, and great-grandchildren. Tannie is survived by her husband Roland; her daughter Jessica Mulcahy; her stepchildren Christine Yandura and Michael Landry, her grandchildren Kelsey Yandura, Tessa Hemby, Eric Yandura, Federico, and Giuseppina Mulcahy; and her great-grandchildren Cheyann and Asher Hemby, and Olivia Yandura; and her siblings Rhett Jones, Cyndy Kountz, Terry Jones, Gayle Thear, and Woody Jones. A celebration of life is planned for 10 June 2023. Donations to her favorite charities (Samaritans Purse and Compassion Intl.) are welcome in lieu of flowers. <br /><br />
+                        Memories may be left at the <a href="https://www.floridatoday.com/obituaries/bft087636" target="_blank">Florida Today obituary site </a>.  <br /> 
+                        Additional career information may be found at <a href="https://prabook.com/web/mobile/#!profile/517506" target="_blank">Prabook.com</a>.  <br />
+                        </p>
+                    </div>
+               </article> 
 <%--   Current Obits James Carl Davis - 3/16/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13963,7 +14014,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=6"></script>
+    <script src="_Scripts/myScript.js?v=7"></script>
        
     </form>
 </body>
