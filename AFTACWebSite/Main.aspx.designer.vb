@@ -212,15 +212,6 @@ Partial Public Class _Default
     Protected WithEvents Td1 As Global.System.Web.UI.HtmlControls.HtmlTableCell
 
     '''<summary>
-    '''myArchivedObits control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents myArchivedObits As Global.System.Web.UI.HtmlControls.HtmlTableCell
-
-    '''<summary>
     '''lstMems control.
     '''</summary>
     '''<remarks>

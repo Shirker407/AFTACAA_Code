@@ -1465,13 +1465,25 @@ $(document).ready(function () {
     $('#myJohnson').click(function () {
         OpenObit('Johnson');
     });
+    $('#myLandry').click(function () {
+        OpenObit('Landry');
+    });
+    $('#myFeakes').click(function () {
+        OpenObit('Feakes');
+    });
 
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
          switch (myText) {  
              case 'JohnsonH2':
                  ShowMyObit('Johnson')
-                 break;           
+                 break;      
+             case 'FeakesH2':
+                 ShowMyObit('Feakes')
+                 break;    
+             case 'LandryH2':
+                 ShowMyObit('Landry')
+                 break;     
              case 'McCloskeyH2':
                  ShowMyObit('McCloskey')
                 break;
