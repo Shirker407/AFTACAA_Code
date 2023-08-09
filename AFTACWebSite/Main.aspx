@@ -305,6 +305,11 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myOverby" class="announcement blueText">Notified through Facebook that Donald Ray Overby passed in an accident, 7/8/2023.  Don served as an administrator at Det 426. Obituary Posted.</td>
+                                    <td class="posted blueText">8/9/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myFeakes" class="announcement blueText">Notified by Maureen Hampson that Glen Allen Feakes passed on 19 Jul 2023. Obituary posted here.</td>
                                     <td class="posted blueText">7/28/2023</td>
@@ -336,11 +341,6 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTAC Memorial Dedication Ceremony, 4 Aug 2023, 10:30 am.  <a href="https://einvitations.afit.edu/inv/anim.cfm?i=776508&k=0566440C7B5F" target="_blank">You played a big part in making this happen and are all invited (click for invitation)!</a>  Zoom Meeting details also included.</td>
-                                    <td class="posted greenText">7/15/2023</td>
-                                    <td class="event greenText"> 4 Aug 2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMcCloskey" class="announcement blueText">Notified by John Horsch that Charles Stuart McCloskey Jr. passed on 7/8/2023.  Obituary Posted.</td>
                                     <td class="posted blueText">7/14/2023</td>
                                     <td class="event blueText"></td>
@@ -355,17 +355,12 @@
                                     <td class="posted greenText">7/13/2023</td>
                                     <td class="event greenText"> 19 Oct 2023</td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+<!--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAgenda" class="announcement blueText">Agenda for 14 July 2023 Meeting Posted.</td>
                                     <td class="posted blueText">7/13/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWilliamson" class="announcement blueText">Notified by Tony De Marco that Donald "Donnie" Nash Williamson has passed, 7/4/2023.  Obituary Posted.</td>
-                                    <td class="posted blueText">7/10/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-<!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">June Minutes Published</td>
                                     <td class="posted blueText">6/18/2023</td>
                                     <td class="event blueText"></td>
@@ -13198,10 +13193,29 @@
                         3698 S. Sheridan Blvd Denver, CO 80236<br /><br />
                         Newcomer - East Metro Chapel (720-857-0700) is assisting the family<br /><br />
                             
-                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href=https://www.newcomerdenver.com/Obituary/266519/Glen-Feakes/Denver-CO target="_blank">Newcommer.</a> <br /><br />
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href="https://www.newcomerdenver.com/Obituary/266519/Glen-Feakes/Denver-CO" target="_blank">Newcommer.</a> <br /><br />
                         </p>
                     </div>
                </article>  
+<%--   Current Obits Donald Overby Obituary - 7/8/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="OverbyH2" class="obitH1">Donald Overby Obituary - 7/8/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="OverbyPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Overby.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Overby.jpg" />
+                        Donald Overby Obituary<br />
+                        May 19, 1937 - Jul 8, 2023<br />
+                        Donald Ray Overby, 86 of King, passed away Saturday, July 8, 2023, at Woltz Hospice Home. <br /><br />
+                        Donald was born on May 19, 1937, in Surry County to the late Clyde Taft and Mary (Willard) Overby. He retired from the US Air Force. He was a member of the VFW, and the American Legion Post 290. He was gifted with the ability to repair almost anything and was a talented artist. Donald enjoyed photography and woodworking. He took great joy in teaching his sons how to do things, like drawing or counting money, but mostly how to be a good man. He was a member of Calvary Baptist Church. He was a good person who gave to everyone he could and would help people with anything he could, whether he knew them or not. He was a loving and compassionate person. Donald also loved water and the beach, he enjoyed deep sea fishing at Hampton Beach and loved visiting Pilot Mountain.  <br /><br />
+                        In addition to his parents, he was preceded in death by his brothers: Jimmy, Gerald, and Larry Wayne Overby. Left to cherish his memory is his beloved wife, Josephine Overby, his children: Donnie Ray Overby, Jr., Lisa Capella, Mary Beth Ruder, Kimberly Maurer, Brian Overby, and Steven Overby, and his sister, Kaye Smith, along with several grandchildren, great-grandchildren, and other relatives, and friends. <br /><br /> 
+                        A memorial service will be held at 11 a.m., Tuesday, July 18, at Slate Funeral Home with Pastor Kevin Broyhill officiating. In lieu of flowers, memorial donations may be made to the Joan & Howard Woltz Hospice Home: 945 Zephyr Rd. Dobson, NC 27017. Slate Funeral Home is serving the family of Donald Ray Overby. <br /><br /> 
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href="https://www.slatefh.com/obituary/Donald-Overby" target="_blank">Slate Funeral Home.</a> <br /><br />
+                        </p>
+                    </div>
+               </article>
 <%--   Current Obits Lt. Col. (Ret) Charles Stuart McCloskey Jr. - 7/8/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13219,7 +13233,7 @@
                         Stuart was a devoted husband and father. He was predeceased by his loving wife of 50 years, Patsy, in 2008. He is survived by his daughter, Karen McCloskey; son, Stuart McCloskey and his wife, Sande; grandsons, Chris McCloskey, and Greg McCloskey, and his wife, Jennifer.<br /><br />
                         Services will be held at Florida Memorial Gardens, 5950 US-1 S, Rockledge, FL 32955. The family will hold a viewing on Friday, July 21, 2023, from 6:00-8:00 pm and a celebration of life service on Saturday, July 22, 2022, at 10:00 am with private interment following.<br /><br />
                         In lieu of flowers, the family requests that donations be considered in Stuart's name to Holy Apostles Episcopal Church, 505 Grant Ave, Satellite Beach, FL 32937, or a charity of your choice.<br /><br />
-                        Fond memories and expressions of sympathy may be shared at  <a href="https://www.FloridaMemorialFH-Gardens.com/" target="_blank">Florida Memorial Gardens </a> for the McCloskey family.<br /><br />
+                        Fond memories and expressions of sympathy may be shared at  <a href="https://www.dignitymemorial.com/obituaries/rockledge-fl/charles-mccloskey-11366490" target="_blank">Florida Memorial Gardens </a> for the McCloskey family.<br /><br />
                         </p>
                     </div>
                </article>   
@@ -14014,7 +14028,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=7"></script>
+    <script src="_Scripts/myScript.js?v=8"></script>
        
     </form>
 </body>
