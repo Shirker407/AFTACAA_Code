@@ -4163,6 +4163,14 @@ $(document).ready(function () {
             scrollTop: $("#mainHeader").offset().top
         }, 500);
     });
+    //Used for Recent Additions Table Announcement-CAN BE DELETED AFTER 9/10/2023
+    $('#myLittleGreenManAnouncement, #LittleGreenMan').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#LittleGreenManArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#LittleGreenManArt").offset().top
+        }, 500);
+    });
 
     $('#showMinutes').click(function () {
         subclicked = true;
@@ -4273,7 +4281,14 @@ $(document).ready(function () {
         }, 500);
         //    window.open('_PDFs/79 Years Ago.pdf');
     });
-
+    $('#myLittleGreenMan, #LittleGreenMan').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#LittleGreenManArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#LittleGreenManArt").offset().top
+        }, 500);
+       });
+    
     $('#mySpy').click(function () {
         window.open('https://www.scmp.com/news/china/military/article/3154476/us-spy-planes-over-south-china-sea-likely-surveyed-nuclear', '');
     });
