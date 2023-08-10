@@ -192,6 +192,7 @@
 
                     <li id="liHistory" class="liMainMenu bottomDot">Histories
                         <div id="divHistory" class="underMenu noDisplay">
+                            <span id="myLittleGreenMan" class="myHistories underSel block leftMargin1em bottomDot yellowText">X-file solved?</span>
                             <span id="mnubecoming99" class="myHistories underSel block leftMargin1em bottomDot yellowText">Becoming a "99"</span>
                             <span id="my79Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">79 Years Ago</span>
                             <span id="my91Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC 91 Years of Proud 99 Service</span>
@@ -304,6 +305,11 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myLittleGreenManAnouncement" class="announcement blueText">"x-file solved? truth behind roswell 'alien' that made a woman faint" - Article added to Histories</td>
+                                    <td class="posted blueText">8/10/2023</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myOverby" class="announcement blueText">Notified through Facebook that Donald Ray Overby passed in an accident, 7/8/2023.  Don served as an administrator at Det 426. Obituary Posted.</td>
@@ -801,6 +807,24 @@
                 <br /><br />
                 Michael Clark
 
+            </p>
+        </article>
+<article id="LittleGreenManArt" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">X-file solved? Truth behind Roswell 'alien' that made a woman faint</p>
+            <p>
+             <br />
+                By Rick Neale, FLORIDA TODAY reported on Feb. 6, 2020<br /><br />
+            <img alt="Singlevich.jpg" class="width20 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/Histories/Singlevich.jpg" />
+            <img alt="SamplingBalloon.jpg" class="width20 leftMargin20em bottomMargin1em maroonBorder showShadow" src="_Photos/Histories/SamplingBalloon.jpg" /> <br />
+            Walter Singlevich, a former Melbourne Beach resident, died in 1992 at age 73 - and in his later years, he joked that he was a Roswell alien.<br /><br />
+    	    After taking off from Roswell, Walter Singlevich's military helicopter flew across the dusty New Mexico plains to his top-secret Cold War-era target: a silvery balloon equipped to detect nuclear detonations that lay sprawled atop a knoll near a rural ranch house.<br /><br />
+            The helicopter landed nearby.  Singlevich and the pilot donned bulky 1950s-era radiation protective suits - complete with hoods and respirators - and hustled up the hill.  <br /><br />
+            That's when the short-statured Singlevich may have inadvertently added a chapter to the "little green men" alien conspiracy lore that swirls around Roswell, New Mexico, where some believe a UFO crashed in 1947.  "As they came over the rise where the balloon was, they ran into this woman who was coming from the ranch house," said Jim Whidden, Air Force Technical Applications Center director of staff.  "And when she saw them, she fainted," Whidden said.  "So they walked over and made sure that she didn't hurt herself, and basically left her there - this was very highly classified. They picked up the balloon and all the equipment and the sample, and took it back to the helicopter and left," he said.<br /><br />
+            AFTAC officials shared details of Singlevich's faint-inducing encounter with FLORIDA TODAY, marking the story's first public release. The incident occurred in 1951 or 1952 and was considered classified until 2017, said James Michael Young, AFTAC command historian.    <br /><br />
+            Additional details have been lost over the decades, Young said. The woman's identity and location remain a mystery. 
+            Singlevich, in his later years, joked that he was a Roswell space alien, Whidden said. He told friends that the stunned woman could have passed a lie detector test while contending she had seen extraterrestrial visitors and their ship.                <br /><br />
+            To view a video of the FLORIDA TODAY interview, visit <a href="https://www.floridatoday.com/videos/news/2020/02/06/roswell-alien-who-made-woman-faint-1950-s-patrick-air-force-base-icon-military-says/4669385002/?fbclid=IwAR0vcUTuDnTE21CNSOF4n5S85tjiccpHUPSaYWrMTsF_pyvq_nBapgCx8iQ" target="_blank">Roswell 'alien' who made woman faint in 1950s was Patrick AFB icon</a>. <br />
+            To view the published Florida Today article with additional detail and photos, visit <a href="https://www.floridatoday.com/in-depth/news/local/2020/02/06/military-roswell-alien-made-woman-faint-in-1950-patrick-air-force-base-scientist/2831138001/" target="_blank">X-file solved? Truth behind Roswell 'alien' that made a woman faint</a>. <br />
             </p>
         </article>
 
@@ -14028,7 +14052,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=8"></script>
+    <script src="_Scripts/myScript.js?v=9"></script>
        
     </form>
 </body>
