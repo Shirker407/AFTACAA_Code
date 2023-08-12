@@ -12,7 +12,7 @@
      <%--picnicArt = AFTAC Annual Spring Picnic --%>                                     
      <%--sbArt = SnowBall 2018 --%>                                      
      <%--2017AirShowArt = 2017 Air Show Video --%>                                      
-     <%--2018AirShowArt = 2018 Air Show Video --%>                                     
+     <%--2018AirShowArt = 2018 Air Show Video --%>                                  
      <%--dedicationArt =  Building Dedication Video --%>                                     
      <%--reunionArt = 2015 Reunion Video --%>                                      
      <%--WallofHonorArt = Wall of Honor Video --%>                                      
@@ -307,8 +307,13 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement redText">AFTAC Memorial Corp is placing their second order of walkway bricks for the Memorial.  Orders received after 31 August will be held until the next bulk order is placed. <a href ="https://donate.brickmarkers.com/aftacmc" target ="_bank")>Place on-line orders or download order form here.</a> </td>
+                                    <td class="posted redText">8/11/2023</td>
+                                    <td class="event redText">8/31/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">AFTAC Memorial Park fundraising night at Texas Roadhouse, Melbourne.  Present flyer for 10% of your food purchase to go to this worthy cause! <a href ="_pdfs/09062023FundRaiser.pdf" target ="_bank")>Get flyer here.</a> </td>
-                                    <td class="posted greenText">8/10/2023</td>
+                                    <td class="posted greenText">8/11/2023</td>
                                     <td class="event greenText">9/5/2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
