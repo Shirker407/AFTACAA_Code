@@ -307,6 +307,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement greenText">AFTAC Memorial Park fundraising night at Texas Roadhouse, Melbourne.  Present flyer for 10% of your food purchase to go to this worthy cause! <a href ="_pdfs/09062023FundRaiser.pdf" target ="_bank")>Get flyer here.</a> </td>
+                                    <td class="posted greenText">8/10/2023</td>
+                                    <td class="event greenText">9/5/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myLittleGreenManAnouncement" class="announcement blueText">"x-file solved? truth behind roswell 'alien' that made a woman faint" - Article added to Histories</td>
                                     <td class="posted blueText">8/10/2023</td>
                                     <td class="event blueText"></td>
@@ -329,12 +334,12 @@
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">AFTAC leadership invites the Aluimni to their 9/11 Retreat Ceremony, 6 Sep 2023, HQ AFTAC, Patrick Space Force Base.  Col Finlayson will address those assembled at 1620 with Retreat following at 1630.</td>
                                     <td class="posted greenText">7/24/2023</td>
-                                    <td class="event greenText"> 6 Sep 2023</td>
+                                    <td class="event greenText"> 9/6/2023</td>
                                 </tr>
                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Sep at Manatee Cove Golf Course, Patrick Space Force Base.  Contact <a href="mailto:piston_horse@hotmail.com"> Ed Lindsay</a> (piston_horse@hotmail.com) for details and to enter.</td>
                                     <td class="posted greenText">7/22/2023</td>
-                                    <td class="event greenText"> 29 Sep 2023</td>
+                                    <td class="event greenText"> 9/29/2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myJohnson" class="announcement blueText">Notified by Maureen Hampson that Brent (BJ) Johnson passed, 7/6/2023.  Available information posted.</td>
@@ -359,7 +364,7 @@
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">Notified by Kelly (Meisenheimer) Fetto that Col Robert (Bob) A. Meisenheimer will be interred at Arlington National Cemetery the morning of October 19th, 2023.  Anyone wishing to attend should meet at Arlington's Main Gate at 10:05 that day.  Additional Information will be posted when available.</td>
                                     <td class="posted greenText">7/13/2023</td>
-                                    <td class="event greenText"> 19 Oct 2023</td>
+                                    <td class="event greenText"> 10/19/2023</td>
                                 </tr>
 <!--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAgenda" class="announcement blueText">Agenda for 14 July 2023 Meeting Posted.</td>

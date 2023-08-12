@@ -1776,6 +1776,7 @@
     <Content Include="_Minutes\2023-6-9_Minutes.pdf" />
     <Content Include="_PDFs\Agenda_7_2023.pdf" />
     <Content Include="_PDFs\Calendar_15_Jul_2023.pdf" />
+    <Content Include="_PDFs\09062023FundRaiser.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
