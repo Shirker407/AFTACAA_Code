@@ -312,7 +312,7 @@
                                     <td class="event redText">8/31/2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTAC Memorial Park fundraising night at Texas Roadhouse, Melbourne.  Present flyer for 10% of your food purchase to go to this worthy cause! <a href ="_pdfs/09062023FundRaiser.pdf" target ="_bank")>Get flyer here.</a> </td>
+                                    <td class="announcement greenText">AFTAC Memorial Park fundraising night at Texas Roadhouse, Melbourne.  Present flyer (you must bring it with you!) for 10% of your food purchase to go to this worthy cause. <a href ="_pdfs/09062023FundRaiser.pdf" target ="_bank")>Get flyer here.</a> </td>
                                     <td class="posted greenText">8/11/2023</td>
                                     <td class="event greenText">9/5/2023</td>
                                 </tr>
