@@ -35,12 +35,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AFTAC Alumni Association</title>
     <meta charset="utf-8" />
-    <!--THis didn't work to cause the .js and .css files to reload is they were changed....
-        <filesMatch ".(js|css)$">
-                Header set Cache-Control "max-age=31536000, public"
-                Header unset Last-Modified
-                Header set ETag
-    </filesMatch>-->
+
     
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
@@ -288,7 +283,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 7/15/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 8/14/2023</span>
                     </div>
                 </div>
 
@@ -305,6 +300,11 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement redText">The 18 August AFTCAA General Membership Meeting location has changed to Beef O'Brady's 724 S Patrick Drive, Satellite Beach FL</td>
+                                    <td class="posted redText">8/14/2023</td>
+                                    <td class="event redText">8/18/2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement redText">AFTAC Memorial Corp is placing their second order of walkway bricks for the Memorial.  Orders received after 31 August will be held until the next bulk order is placed. <a href ="https://donate.brickmarkers.com/aftacmc" target ="_bank")>Place on-line orders or download order form here.</a> </td>
@@ -426,14 +426,16 @@
                         AFTAC Alumni Association General Membership Off-Site Luncheon and Teleconference Meeting<br />
                         <!--AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />-->
                         --------------------------<br />
+                        ***LOCATION CHANGE*** <br />
                         <!--HQ AFTAC <br />
                         Lobby Conference Room<br />
                         Patrick SFB FL<br />-->
                         Beef O'Brady's<br />
-                        3030 Lake Washington Road<br />
-                        Melbourne FL<br />
-                        <!--724 S Patrick Drive<br />                         
-                        Satellite Beach FL<br />-->
+                        <!--3030 Lake Washington Road<br />
+                        Melbourne FL<br />-->
+                        724 S Patrick Drive<br />                         
+                        Satellite Beach FL<br />
+                        ***LOCATION CHANGE*** <br />
                         Note:  Please arrive at 1100 if you desire to order food/beverages. <br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
@@ -14062,7 +14064,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=9"></script>
+    <script src="_Scripts/myScript.js?v=10"></script>
        
     </form>
 </body>
