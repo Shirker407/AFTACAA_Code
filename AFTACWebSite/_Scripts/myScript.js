@@ -2135,7 +2135,7 @@ $(document).ready(function () {
     //**********************************************************************
 
   $('#myMinutes').click(function () {
-        window.open('_Minutes/2023-6-9_Minutes.pdf', '');
+        window.open('_Minutes/2023-7-14_Minutes.pdf', '');
     });
 
     $('#AprilPomo').click(function () {
@@ -4189,14 +4189,14 @@ $(document).ready(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $('#showAgenda').css('color', 'lightgreen');
-        window.open('_PDFs/agenda_7_2023.pdf', '');
+        window.open('_PDFs/agenda_8_2023.pdf', '');
     });
 
     $('#showAgenda').click(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $('#showAgenda').css('color', 'lightgreen');
-        window.open('_PDFs/agenda_7_2023.pdf', '');
+        window.open('_PDFs/agenda_8_2023.pdf', '');
     });
 
     $('#showElected').click(function () {

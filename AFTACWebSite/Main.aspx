@@ -296,10 +296,21 @@
                         </div>
                         <div>
                             <table class="tableAnnouncements">
+ 
                                 <tr class="trAnnouncementsHeader bottomDotRedThick">
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myAgenda" class="announcement greenText">Agenda for 18 Aug 2023 Meeting Posted.</td>
+                                    <td class="posted greenText">8/16/2023</td>
+                                    <td class="event greenText">8/18/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">July Minutes Published</td>
+                                    <td class="posted blueText">8/16/2023</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement redText">The 18 August AFTCAA General Membership Meeting location has changed to Beef O'Brady's 724 S Patrick Drive, Satellite Beach FL</td>
@@ -3621,6 +3632,7 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/2023-7-14_Minutes.pdf" target="_blank">7-14-2023</a></li>
                     <li><a href="_Minutes/2023-6-9_Minutes.pdf" target="_blank">6-9-2023</a></li>
                     <li><a href="_Minutes/2023-5-8_Minutes.pdf" target="_blank">5-8-2023</a></li>
                     <li><a href="_Minutes/4-14-2023_Minutes.pdf" target="_blank">4-14-2023</a></li>
@@ -14064,7 +14076,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=10"></script>
+    <script src="_Scripts/myScript.js?v=11"></script>
        
     </form>
 </body>
