@@ -1456,12 +1456,6 @@ $(document).ready(function () {
      
 
   
-    $('#myMcCloskey').click(function () {
-        OpenObit('McCloskey');
-    });
-    $('#myJohnson').click(function () {
-        OpenObit('Johnson');
-    });
     $('#myLandry').click(function () {
         OpenObit('Landry');
     });
@@ -1471,10 +1465,16 @@ $(document).ready(function () {
     $('#myOverby').click(function () {
         OpenObit('Overby');
     });
-
+    $('#myMosley').click(function () {
+        OpenObit('Mosley');
+    });
+    
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
          switch (myText) {  
+             case 'MosleyH2':
+                 ShowMyObit('Mosley')
+                 break;
              case 'OverbyH2':
                  ShowMyObit('Overby')
                  break;

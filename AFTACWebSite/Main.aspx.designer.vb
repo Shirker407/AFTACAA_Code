@@ -194,24 +194,6 @@ Partial Public Class _Default
     Protected WithEvents Label20 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Td2 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Td2 As Global.System.Web.UI.HtmlControls.HtmlTableCell
-
-    '''<summary>
-    '''Td1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Td1 As Global.System.Web.UI.HtmlControls.HtmlTableCell
-
-    '''<summary>
     '''lstMems control.
     '''</summary>
     '''<remarks>
