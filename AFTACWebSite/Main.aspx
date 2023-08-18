@@ -253,7 +253,7 @@
 <%--Page Header  *****************************************************************************--%>
         <header id="mainHeader" class="myHeader topMargin1em showShadow block" style="margin-left:22%;" runat="server">
             <div class="floatLeft backMoccasin width25" style="background-color:chocolate;">
-                <asp:ImageButton ID="alumniLogo" CssClass="width50" ImageUrl="_Images/alumniLogo.png" runat="server" OnClick="alumniLogo_Click" />
+                <asp:ImageButton ID="alumniLogo" CssClass="width50 topPadding1em" ImageUrl="_Images/alumniLogo.png" runat="server" OnClick="alumniLogo_Click" />
             </div>
             <div class="floatLeft backMoccasin width45" style="margin-top:.25em;">
                 <asp:Label ID="Label1" CssClass="block" ForeColor="Yellow" BackColor="Chocolate" Font-Bold="true" Font-Size="2.5em" runat="server" Text="AFTAC ALUMNI"></asp:Label>
@@ -261,7 +261,7 @@
                 <asp:Label ID="Label20" CssClass="block" ForeColor="Yellow" BackColor="Chocolate" Font-Bold="true" Font-Size="2.5em" runat="server" Text="(AFTACAA)"></asp:Label>
             </div>  
             <div class="floatLeft backMoccasin width30" style="background-color:chocolate;">
-                <img id="clickImage" alt="_Images/EFAE.png" class="width50"  src="_Images/EFAE.png" />
+                <img id="clickImage" alt="_Images/EFAE.png" class="width50 topPadding1em"  src="_Images/EFAE.png" />
             </div>
 
             <div class="clear"></div>
@@ -302,20 +302,20 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                               <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Sep at Manatee Cove Golf Course, Patrick Space Force Base.  Click <a href ="_PDFs/20230929_Golf_Anouncement.pdf" target ="_bank")>here</a> for details and points of contact.</td>
+                                    <td class="posted greenText">8/18/2023</td>
+                                    <td class="event greenText"> 9/29/2023</td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myAgenda" class="announcement greenText">Agenda for 18 Aug 2023 Meeting Posted.</td>
-                                    <td class="posted greenText">8/16/2023</td>
-                                    <td class="event greenText">8/18/2023</td>
+                                    <td id="myMosley" class="announcement blueText">Notified by Gene Melchior that Donald R. "Ray" Mosley passed, 3/8/2023.  Obituary Posted.</td>
+                                    <td class="posted blueText">8/18/2023</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">July Minutes Published</td>
                                     <td class="posted blueText">8/16/2023</td>
                                     <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement redText">The 18 August AFTCAA General Membership Meeting location has changed to Beef O'Brady's 724 S Patrick Drive, Satellite Beach FL</td>
-                                    <td class="posted redText">8/14/2023</td>
-                                    <td class="event redText">8/18/2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement redText">AFTAC Memorial Corp is placing their second order of walkway bricks for the Memorial.  Orders received after 31 August will be held until the next bulk order is placed. <a href ="https://donate.brickmarkers.com/aftacmc" target ="_bank")>Place on-line orders or download order form here.</a> </td>
@@ -351,31 +351,6 @@
                                     <td class="announcement greenText">AFTAC leadership invites the Aluimni to their 9/11 Retreat Ceremony, 6 Sep 2023, HQ AFTAC, Patrick Space Force Base.  Col Finlayson will address those assembled at 1620 with Retreat following at 1630.</td>
                                     <td class="posted greenText">7/24/2023</td>
                                     <td class="event greenText"> 9/6/2023</td>
-                                </tr>
-                               <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Sep at Manatee Cove Golf Course, Patrick Space Force Base.  Contact <a href="mailto:piston_horse@hotmail.com"> Ed Lindsay</a> (piston_horse@hotmail.com) for details and to enter.</td>
-                                    <td class="posted greenText">7/22/2023</td>
-                                    <td class="event greenText"> 9/29/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myJohnson" class="announcement blueText">Notified by Maureen Hampson that Brent (BJ) Johnson passed, 7/6/2023.  Available information posted.</td>
-                                    <td class="posted blueText">7/18/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="Td2" runat="server" OnClick="obitsArchived_Click" class="announcement blueText">Obituary added to the archives for William Curtis Rogers, 8/27/2021.  Click on Obituaries and Archived in the main menu to search our archives.</td>
-                                    <td class="posted blueText">7/15/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMcCloskey" class="announcement blueText">Notified by John Horsch that Charles Stuart McCloskey Jr. passed on 7/8/2023.  Obituary Posted.</td>
-                                    <td class="posted blueText">7/14/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="Td1" runat="server" OnClick="obitsArchived_Click" class="announcement blueText">Obituary added to the archives for Lindsay Edward Miller, 6/3/1998.  Click on Obituaries and Archived in the main menu to search our archives.</td>
-                                    <td class="posted blueText">7/14/2023</td>
-                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">Notified by Kelly (Meisenheimer) Fetto that Col Robert (Bob) A. Meisenheimer will be interred at Arlington National Cemetery the morning of October 19th, 2023.  Anyone wishing to attend should meet at Arlington's Main Gate at 10:05 that day.  Additional Information will be posted when available.</td>
@@ -431,22 +406,22 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 18 August<br />
-                        11:30 - 12:30 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 22 September<br />
+                        11:30 - 13:00 Hrs<br />
                         --------------------------<br />
-                        AFTAC Alumni Association General Membership Off-Site Luncheon and Teleconference Meeting<br />
+                        AFTAC Alumni Association Annual General Membership Meeting and Elections Luncheon and Teleconference<br />
                         <!--AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />-->
                         --------------------------<br />
-                        ***LOCATION CHANGE*** <br />
+                        Putter's Lounge, Manatee Cove Golf Course<br />
                         <!--HQ AFTAC <br />
-                        Lobby Conference Room<br />
-                        Patrick SFB FL<br />-->
-                        Beef O'Brady's<br />
-                        <!--3030 Lake Washington Road<br />
-                        Melbourne FL<br />-->
+                        Lobby Conference Room<br />-->
+                        Patrick SFB FL<br />
+                        <!--Beef O'Brady's<br />
+                        3030 Lake Washington Road<br />
+                        Melbourne FL<br />
                         724 S Patrick Drive<br />                         
-                        Satellite Beach FL<br />
-                        ***LOCATION CHANGE*** <br />
+                        Satellite Beach FL<br />-->
+           
                         Note:  Please arrive at 1100 if you desire to order food/beverages. <br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
@@ -4511,7 +4486,7 @@
 <%--  AFTAC Mission Article *****************************************************************************--%>
         <article id="historyArt" class="myArts noDisplay">
             <div>
-                <img alt="AFTAC LOGO" class="autoMarginLeftRight width30 topMargin2em maroonBorder smallShadow" src="_Images/AFTACLogo.JPG" />
+                <img alt="AFTAC LOGO" class="autoMarginLeftRight width30 topmargin2em maroonBorder smallShadow" src="_Images/AFTACLogo.JPG" />
             </div>
 
             <p>
@@ -5487,11 +5462,11 @@
                     1982 and is now living the life of a retired civil servant. 
                 </p>
             </article>
-<%--   MSgt (Ret) Gene and Dee Mechior 2012 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
+<%--   MSgt (Ret) Gene and Dee Melchior 2012 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="melchior" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Alumni of the year, 2012<br />MSgt (Ret) Gene and Dee Mechior
+                    Alumni of the year, 2012<br />MSgt (Ret) Gene and Dee Melchior
                 </p>
 
                 <img alt="Melchoior1.png"  class="width50 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/Melchoior1.png"/>
@@ -13465,6 +13440,23 @@
                         </p>
                     </div>
                 </article>  
+<%--   Current Obits Donald R. "Ray" Mosley - 3/8/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="MosleyH2" class="obitH1">Donald R. "Ray" Mosley - 3/8/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="MosleyPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Mosley.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Mosley.png" />
+                        Donald Ray "Ray" Mosley, age 91 of Tazewell, Virginia passed away Wednesday, March 8, 2023, at Carilion Tazewell Community Hospital.  Donald was born on October 16, 1931, and was a son of the late George Mosley and Virginia Pearl Day Mosley. <br /><br />
+                        Donald attended Open Door Community Church in Baptist Valley, Virginia and was a member of Immanuel Lutheran Church of Joplin, MO.  He was a 1949 graduate of Gary High School in Gary, West Virginia.  He touched many lives as he traveled around the world.  Donald was very outgoing, and he was an active member in his church.  He and his wife, Verna, enjoyed collecting coin glass while traveling throughout the United States.  He was a retired Tech Sergeant with the U.S. Air Force.  After retirement, Donald oversaw the communications department of the Missouri Southern State University while teaching there.<br /><br />
+                        In addition to his parents, Donald was preceded in death by his wife of 48 years, Verna Mosely; brother, Walter Edward Mosley; nephew, Michael David Hash.<br /><br />
+                        Survivors cherishing his memory include his two brothers, Gene R. Mosley of Tazewell, VA and William W. Mosley and wife, Sharon of Bulls Gap, TN; Jerry and Linda Newman, who were like his children; brothers-in-law, Edwin Duer and wife, Lavonne, DeVern Orth; sisters-in-law, Vangie Barth, Cynthia Ludwig, and Pam Mosley; special first cousin, Donna Sue Cooper; special people, London Hurt, Ron and Naomi R. Magadieu, William, Carol, Coreena, Katie, and Robert Asbury. To this obituary we add our thoughts, prayers and memories of a life shared with Donald.<br /><br />
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href="https://www.zabkaperduefuneralhome.com/obituary/donald-mosley" target="_blank">Zabka-Perdue Funeral Home.</a> <br /><br />
+                        </p>
+                    </div>
+               </article>  
 
  <%--   Current Obits Tom Cameron - 2/25/2023 *****************************************************************************--%>
                <article>
@@ -14064,7 +14056,7 @@
             <div class="clear"></div>
             <hr class="myHR" />
             <p class="centerText" style="font-size:1.5em;">
-                Click on the link below to get an application to join the<br /> <asp:HyperLink ID="HyperLink6" ForeColor="DarkRed" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida Membership Application_2023.pdf" Target="_blank" runat="server"> Florida Association Membership Application. </asp:HyperLink>
+                Click on the link below to get an application to join the<br /> <asp:HyperLink ID="HyperLink6" ForeColor="DarkRed" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida Membership Application_Aug_2023.pdf" Target="_blank" runat="server"> Florida Association Membership Application. </asp:HyperLink>
             </p>
         </article>
     </div>
@@ -14076,7 +14068,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=11"></script>
+    <script src="_Scripts/myScript.js?v=12"></script>
        
     </form>
 </body>
