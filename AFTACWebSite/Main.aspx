@@ -302,7 +302,17 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                               <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement blueText">AFTAC Memorial Dedication Cerimony Article published in Florioda Today.  Check it out <a href ="https://www.floridatoday.com/picture-gallery/news/2023/08/04/aftac-memorial-dedication/8324605001/" target ="_bank")> here.</a> </td>
+                                    <td class="posted blueText">8/22/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myCaldwell" class="announcement blueText">Notified by Chuck Conrad that Robert "Bob" E. Caldwell passed, 11/5/2022.  Obituary Posted.</td>
+                                    <td class="posted blueText">8/22/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Sep at Manatee Cove Golf Course, Patrick Space Force Base.  Click <a href ="_PDFs/20230929_Golf_Anouncement.pdf" target ="_bank")>here</a> for details and points of contact.</td>
                                     <td class="posted greenText">8/18/2023</td>
                                     <td class="event greenText"> 9/29/2023</td>
@@ -3068,6 +3078,7 @@
                 <input id="btnDoSlide" class="myBut leftMargin4em" type="button" value=" Start Slide Show " />
             </div>
         </article>
+
 <%-- AFTAC MEMORIAL CORPORATION (AFTACMC) Article *****************************************************************************--%>
         <article id="wallMemArt" class="myArts noDisplay">
             <p id="menWallPara" class="centerText underLine">AFTAC MEMORIAL CORPORATION (AFTACMC) </p>
@@ -13563,8 +13574,30 @@
                         </p>
                     </div>
                 </article>
- 
-           
+ <%--   Current Obits Robert "Bob" E. Caldwell - 11/5/2022 *****************************************************************************--%>
+              <article>
+                   <div>
+                       <h2 id="CaldwellH2" class="obitH1">Robert "Bob" E. Caldwell - 11/5/2022</h2>
+                   </div>
+                   <div class="clear"></div>
+                   <div id="CaldwellPara" class="obitPara noDisplay">
+                       <p>
+                       <img alt="Caldwell.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Caldwell.jpg" />
+                       Robert "Bob" E. Caldwell<br />
+                       Feb 23, 1946 - Nov 5, 2022<br />
+                       Robert E. Caldwell, age 76, resident of Harborcreek Twp., passed away peacefully, at his residence, on Saturday, November 5, 2022, following an extended illness. Bob was born in Erie on February 23, 1946, the son of the late Earl W. and Marjorie K. (Ekstrom) Caldwell.<br /><br />
+                        Bob was a 1964 graduate of the former Lawrence Park High School and had attended both Mount Alto and Penn State Behrend colleges. He was employed by the General Electric Co. for a short period of time before enlisting in the U.S. Air Force during the Vietnam War. Bob went on to spend the next 21 years in a distinguished military career that took him and his wife, Millie, across the country and to overseas bases in Iran and the Philippines. Bob retired with an honorable discharge in 1987 and was awarded the Air Force Longevity Service Award Ribbon.<br /><br />
+                        Within days of his retirement from the Air Force, Bob began a second career as an operations manager with the Federal Emergency Management Administration. His service with FEMA would later come to include duties within the then newly created, Department of Homeland Security. While employed by the federal government, Bob and Millie had resided in Denver, CO, and later Winchester, VA, where he would retire after 20 years of devoted service.<br /><br />
+                        Having moved back and made Harborcreek Twp. home, Bob became a member of the Lawrence Park United Methodist Church. He was also a member of the Lawrence Park Athletic Club, East Erie Moose Lodge, American Legion Post #976 in Crosby, PA, and the Scenic Heights Golf Course. In addition to golf, Bob also enjoyed hunting and was an avid Pittsburgh Steelers and Penn State Nittany Lions fan.<br /><br />
+                        In addition to his parents, he was preceded in death by one niece, Donna Lineman; a sister-in-law, Sherry Zetwick and two brothers-in-law: Martin Ross and Harold "Budd" Musolff, Jr.<br /><br />
+                        Survivors include his beloved wife of 55 years, Mildred L. "Millie" (Weismiller) Caldwell; three siblings: Margaret J. Toothman (Wayne), Susan N. Musolff, and Mary Beth Ross; and several brothers and sisters-in-law, nieces, and nephews.<br /><br />
+                        Family and friends are warmly invited to call the Dusckas-Taylor Funeral Home & Cremation Services, 5151 Buffalo Rd. (at Hannon Rd. in Harborcreek), on Sunday, November 13, 2022, from 2 PM until the time of the Memorial Service there at 5 PM, to be conducted by the Reverend Karen Trask, Pastor of Lawrence Park United Methodist Church. Following the service, full military honors will be rendered by the American Legion, Carl Neff Post #571 Military Honor Guard. Memorial contributions may be designated to EUMA Liberty House c/o 1033 E. 26th St., Erie PA 16504.<br /><br />
+<br /><br />
+                     
+                       </p>
+                   </div>
+              </article> 
+             
  <%--   Current Obits Robert Eugene Justman - 6/30/2006 *****************************************************************************--%>
                <article>
                     <div>
@@ -14068,7 +14101,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=12"></script>
+    <script src="_Scripts/myScript.js?v=13"></script>
        
     </form>
 </body>
