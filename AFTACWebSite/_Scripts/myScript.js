@@ -1459,6 +1459,9 @@ $(document).ready(function () {
     $('#myLandry').click(function () {
         OpenObit('Landry');
     });
+    $('#myCaldwell').click(function () {
+        OpenObit('Caldwell');
+    });
     $('#myFeakes').click(function () {
         OpenObit('Feakes');
     });
@@ -1522,7 +1525,10 @@ $(document).ready(function () {
                 break;
             case 'BalentineH2':
                 ShowMyObit('Balentine')
-                break;
+                 break;
+             case 'CaldwellH2':
+                 ShowMyObit('Caldwell')
+                 break;
             case 'JustmanH2':
                 ShowMyObit('Justman')
                 break;
