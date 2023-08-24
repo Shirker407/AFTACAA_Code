@@ -303,6 +303,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myVickers" class="announcement blueText">Notified through Facebook that Eddie Jack Vickers passed, 8/1/2023.  Obituary Posted.</td>
+                                    <td class="posted blueText">8/9/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement blueText">AFTAC Memorial Dedication Cerimony Article published in Florioda Today.  Check it out <a href ="https://www.floridatoday.com/picture-gallery/news/2023/08/04/aftac-memorial-dedication/8324605001/" target ="_bank")> here.</a> </td>
                                     <td class="posted blueText">8/22/2023</td>
                                     <td class="event blueText"></td>
@@ -13204,7 +13209,36 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
-
+<%--   Current Obits Eddie Jack Vickers - 8/1/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="VickersH2" class="obitH1">Eddie Jack Vickers - 8/1/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="VickersPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Vickers.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Vickers.jpg" />
+                        Eddie Jack Vickers<br />
+                        Jul 19, 1935 - Aug 1, 2023<br />
+                        Eddie Jack Vickers, age 88, of Wesley Chapel, Florida passed away on Tuesday, August 1, 2023. <br /><br />
+                        He was born in Weeksbury, Kentucky on July 19, 1935, to Charles W. Vickers and Jessie A. Vickers. He is survived by his loving wife of 42 years, Erin Marie Vickers; their daughter, Melissa Vickers, and wife, Michelle Kne; son, Joshua Vickers; son, Gregory Vickers and wife, Amanda Vickers; four beautiful grandchildren that he adored Lilly, Sofie, Jax, and Elle.<br /><br />
+                        Preceded in his death are his parents, Charles W. Vickers, and Jessie A. Vickers; his sister, Barbara Murray; and his brother, Charlie Vickers.<br /><br />
+                        His family moved when he was a small child to Bethel, Ohio where he would love to go down to the airfield and watch the planes fly. He learned to fly a crop-duster at age 10, and then went on to get his pilot license. At that time he was also driving a milk truck, pumping gas at the local station, and working the projector at the family movie theater.<br /><br />
+                        Anyone who has ever spent time around him knows his love for music. On the weekends he would play in a dance band in Cincinnati and also enjoyed playing the piano and singing. For his high school graduation, he was asked to perform "Ave Maria," something he was very proud of.<br /><br />
+                        Eddie graduated from Bethel High School in 1954 and went on to join the United States Air Force. While serving our country he was awarded many medals. The one he was most proud of was The Airman's Medal. Eddie received this award for distinguishing himself by heroism involving voluntary risk of life near Korat Royal Thai Air Force Base, Thailand on September 6, 1969. Sergeant Vickers was a combat crew member aboard EC-121R which had a crash landing during a heavy rainstorm on its final approach. Despite the flames engulfing the aircraft, and with complete disregard for his own safety, he successfully removed an unconscious crew member from the wreckage. Once recovered, Eddie went on to complete over one hundred missions in Southeast Asia assigned to the 553rd Reconnaissance Wing, Korat Royal Thai Air Force Base. During his tour, he recorded 1200 combat flight hours. After returning to the States, he was assigned to the Air Force Academy as a flight instructor in Colorado Springs. After twenty years of service, he was honorably discharged from the United States Air Force.<br /><br />
+                        In civilian life, he worked in the private security sector at Vickers and Oxford Security. While working one day in 1981 he met, and fell in love with Erin, his sweetheart, who he lovingly referred to as "Jose." Erin and Eddie only dated for two weeks before he asked her to marry him. They went on to wed at the Don Cesar in Florida. They started a family and moved to Kennesaw, Georgia. While living in Georgia, Eddie became a Police Officer for the Department of Defense at Dobbins Air Force Base. He received "Officer of the Year" before retiring after 10 years of service, moving back to Florida.<br /><br />
+                        He always had a shovel, hammer, power tool, or paintbrush in hand and was quick to help others with their projects, big or small.<br /><br />
+                        He was a proud member of Tampa Scottish Rite, Egypt Shrine Temple, and J.F. Swartsel Lodge #251.<br /><br />
+                        Eddie lived a great big life and was loved by so many. He will be sorely missed.<br /><br />        
+                        The family would like to thank the staff at Baldomero-Lopez Memory Care for their great care of our loving Eddie J.<br /><br />
+                        A visitation for Eddie will be held Thursday, August 10, 2023, from 5:00 PM to 7:00 PM at Blount & Curry Funeral Home-Carrollwood located at 3207 W Bearss Ave, Tampa, FL 33618.<br /><br />
+                        A funeral service will occur Friday, August 11, 2023, from 10:00 AM to 11:00 AM also located at Blount and Curry Funeral Home Carrollwood located at 3207 W Bearss Ave, Tampa, FL 33618.<br /><br />
+                        Military honors will take place on Friday, August 11, 2023, from 12:30 PM to 1:00 PM at Florida National Cemetery located at 6502 S. W. 102nd Ave, Bushnell, FL 33513.<br /><br />
+                            
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href="https://www.dignitymemorial.com/obituaries/tampa-fl/eddie-vickers-11391769" target="_blank">Blount & Curry Funeral Home-Carrollwood.</a> <br /><br />
+                        </p>
+                    </div>
+               </article>  
 <%--   Current Obits Glen Allen Feakes - 7/19/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -14101,7 +14135,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=13"></script>
+    <script src="_Scripts/myScript.js?v=14"></script>
        
     </form>
 </body>
