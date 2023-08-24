@@ -1455,7 +1455,9 @@ $(document).ready(function () {
     */
      
 
-  
+    $('#myVickers').click(function () {
+        OpenObit('Vickers');
+    });
     $('#myLandry').click(function () {
         OpenObit('Landry');
     });
@@ -1487,6 +1489,9 @@ $(document).ready(function () {
              case 'FeakesH2':
                  ShowMyObit('Feakes')
                  break;    
+             case 'VickersH2':
+                 ShowMyObit('Vickers')
+                 break; 
              case 'LandryH2':
                  ShowMyObit('Landry')
                  break;     
