@@ -232,6 +232,7 @@
 
                     <li id="liVideos" class="liMainMenu bottomDot">Videos
                         <div id="divVideos" class="underMenu noDisplay">
+                            <span id="vidDrones" class="underSel block bottomDot leftMargin1em">Wolrd Record 4th of July Drone Show</span>
                             <span id="vidSeminar" class="underSel block bottomDot leftMargin1em">AFTAC Mission Briefing</span>
                             <span id="vid_2017AirShow" class="underSel block bottomDot leftMargin1em">2017 Melbourne Airshow</span>
 <%--                            <span id="vid_2018AirShow" class="underSel block bottomDot leftMargin1em">2018 Melbourne Airshow</span>--%>
@@ -301,6 +302,11 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr> _Videos/GUINNESS WORLD RECORD Fourth Of July Drone Show.mp4
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement blueText"> GUINNESS WORLD RECORD Fourth Of July 2023 Drone Show video added in Videos menu.  Click <a href ="_Videos/GUINNESS WORLD RECORD Fourth Of July Drone Show.mp4" target ="_bank")>here </a>to view.</td>
+                                    <td class="posted blueText">8/26/2023</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myVickers" class="announcement blueText">Notified through Facebook that Eddie Jack Vickers passed, 8/1/2023.  Obituary Posted.</td>
@@ -14135,7 +14141,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=14"></script>
+    <script src="_Scripts/myScript.js?v=16"></script>
        
     </form>
 </body>
