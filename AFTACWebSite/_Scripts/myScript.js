@@ -5067,7 +5067,9 @@ $(document).ready(function () {
             scrollTop: $("#mainHeader").offset().top
         }, 500);
     });
-
+    $('#vidDrones').click(function () {
+        window.open('_Videos/GUINNESS WORLD RECORD Fourth Of July Drone Show.mp4', '');
+    });
     $('#vidDedication').click(function () {
         window.open('https://www.youtube.com/embed/pjhml8xTMLI', '');
     });
