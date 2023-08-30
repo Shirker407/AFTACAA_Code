@@ -1453,8 +1453,10 @@ $(document).ready(function () {
         $('#CommInitial').removeClass('block').addClass('block');
     });
     */
-     
-
+    $('#myLindstedt').click(function () {
+        OpenObit('Lindstedt');
+    });
+    
     $('#myVickers').click(function () {
         OpenObit('Vickers');
     });
@@ -1482,6 +1484,9 @@ $(document).ready(function () {
                  break;
              case 'OverbyH2':
                  ShowMyObit('Overby')
+                 break;
+             case 'LindstedtH2':
+                 ShowMyObit('Lindstedt')
                  break;
              case 'JohnsonH2':
                  ShowMyObit('Johnson')
