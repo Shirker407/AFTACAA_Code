@@ -302,7 +302,12 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
-                                </tr> _Videos/GUINNESS WORLD RECORD Fourth Of July Drone Show.mp4
+                                </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myLindstedt" class="announcement blueText">Notified by George Mirda that Phillip J. "Phil" Lindstedt passed, 8/20/2023.  Obituary Posted.</td>
+                                    <td class="posted blueText">8/9/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement blueText"> GUINNESS WORLD RECORD Fourth Of July 2023 Drone Show video added in Videos menu.  Click <a href ="_Videos/GUINNESS WORLD RECORD Fourth Of July Drone Show.mp4" target ="_bank")>here </a>to view.</td>
                                     <td class="posted blueText">8/26/2023</td>
@@ -13215,6 +13220,25 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+<%--   Current Obits Phillip J. "Phil" Lindstedt - 8/20/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="LindstedtH2" class="obitH1">Phillip J. "Phil" Lindstedt - 8/20/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="LindstedtPara" class="obitPara noDisplay">
+                        <p>
+                        <br />
+                        Phillip J. "Phil" Lindstedt<br />
+                        Jan 23, 1959 - Aug 20, 2023<br /><br />
+                        Phillip J. "Phil" Lindstedt, 64, passed away on August 20, 2023 at his home in Malabar, Florida following a long illness.<br /><br />
+                        He was born to Lee Lindstedt and Shirley Oswald in 23 January 1959 in Los Angeles, California.  He grew up with his brother, Eddie and sister, Leann.  He attended Garden Grove High School and had keen abilities in math and science.  <br /><br />
+                        At 18 years old, Phil joined the US Air Force and began a life-long relationship with AFTAC. Graduating from tech school as a 99105 Scientific Analysis Technician, his first assignment was to Det 421, Alice Springs, Australia.  A crack analyst, he snagged a follow-on assignment to Det 313 Sonseca, Spain. Later assignments to Det 489 Pinedale, Wyoming and the HQ European Technical Operations Area on Lindsey Air Station, Germany.  Although he finished his service career at AFTAC Headquarters at Patrick Space Force Base, Florida, he traveled extensively to Det 301 Ankara, Turkey and a myriad of masked locations.  He retired from AFTAC and worked a few short months with Command Technologies Incorporated, Satellite Beach, Florida.  Soon afterwards, he began a new career as a civil servant working in the Treaty Monitoring Directorate (TT) culminating as a Senior Research Geophysicist.  He earned a BS in Mathematics from Rollins College, Winter Park Florida and a Master's degree in Computer Information Systems from Webster University, St Louis, Missouri.<br /><br />
+                        Phil was immensely proud of his 3 sons, Lt Commander Christopher, USCG (Christine Castro); Luis (Casey Keilman), and Michael (Ally Rayne) and 4 grandchildren.  They all enjoyed hunting and fishing trips.  Phil boasted many trophies of deer, wild boar and big horn sheep on his den's wall.  He was an avid poker player.   May he rest in peace.  <br /><br />
+                        Arrangements are pending but will be announced with an AFTAC Alumni e-Alert or note to this group when known.  A celebration of life is envisioned in lieu of funeral services.<br /><br />
+                        </p>
+                    </div>
+               </article>  
 <%--   Current Obits Eddie Jack Vickers - 8/1/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -14141,7 +14165,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=16"></script>
+    <script src="_Scripts/myScript.js?v=17"></script>
        
     </form>
 </body>
