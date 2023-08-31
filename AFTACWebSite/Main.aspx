@@ -304,8 +304,13 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myPomo" class="announcement blueText">August Pomo was Published</td>
+                                    <td class="posted blueText">8/31/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myLindstedt" class="announcement blueText">Notified by George Mirda that Phillip J. "Phil" Lindstedt passed, 8/20/2023.  Obituary Posted.</td>
-                                    <td class="posted blueText">8/9/2023</td>
+                                    <td class="posted blueText">8/29/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -315,7 +320,7 @@
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myVickers" class="announcement blueText">Notified through Facebook that Eddie Jack Vickers passed, 8/1/2023.  Obituary Posted.</td>
-                                    <td class="posted blueText">8/9/2023</td>
+                                    <td class="posted blueText">8/23/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -12844,7 +12849,11 @@
 
                 <div id="pomo2" class="noDisplay">
                     <p class="centerText">Click on the Pomo of your choice.</p>
-                    <div id="AprilPomo" class="floatLeft leftMargin8em width25">
+                    <div id="AugustPomo" class="floatLeft leftMargin8em width25">
+                        <img alt="August2023.png" class="myPomo blackBorder showShadow" src="_Images/August2023.png" style="height:15em;" />
+                        <p class="centerText">August 2023</p>
+                    </div>
+                    <div id="AprilPomo" class="floatLeft width25">
                         <img alt="April2023.png" class="myPomo blackBorder showShadow" src="_Images/April2023.png" style="height:15em;" />
                         <p class="centerText">April 2023</p>
                     </div>
@@ -12852,10 +12861,7 @@
                         <img alt="December2022.png" class="myPomo blackBorder showShadow" src="_Images/December2022.png" style="height:15em;" />
                         <p class="centerText">December 2022</p>
                     </div>
-                    <div id="AugustPomo" class="floatLeft width25">
-                        <img alt="August2022.png" class="myPomo blackBorder showShadow" src="_Images/August2022.png" style="height:15em;" />
-                        <p class="centerText">August 2022</p>
-                    </div>
+
                 </div>
 
                 <div id="pomo1" class="block autoMarginLeftRight width50">
@@ -12900,10 +12906,11 @@
                         <li><a class="maroonText" href="_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
                     </ul>
                 </div>--%>
-
+        
               <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
-                    <p class="underLine">20222</p>
+                    <p class="underLine">2022</p>
                     <ul class="archList">
+                        <li><a class="maroonText" href="_Pomos/PoMo2022_08.pdf" target="_blank">August</a></li>
                         <li><a class="maroonText" href="_Pomos/PoMo2022_04.pdf" target="_blank">April</a></li>
                     </ul>
                 </div>
@@ -14165,7 +14172,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=17"></script>
+    <script src="_Scripts/myScript.js?v=18"></script>
        
     </form>
 </body>

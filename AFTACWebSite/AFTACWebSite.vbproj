@@ -123,6 +123,7 @@
     <Content Include="_Images\April2022.png" />
     <Content Include="_Images\April2023.png" />
     <Content Include="_Images\August2021.png" />
+    <Content Include="_Images\August2023.png" />
     <Content Include="_Images\Bob Land Celebration.png" />
     <Content Include="_Images\Borowski Obituary.jpg" />
     <Content Include="_Images\CMS_Wright.png" />
@@ -1782,6 +1783,7 @@
     <Content Include="_PDFs\Agenda_8_2023.pdf" />
     <Content Include="_PDFs\Florida Membership Application_Aug_2023.pdf" />
     <Content Include="_PDFs\20230929_Golf_Anouncement.pdf" />
+    <Content Include="_Pomos\PoMo2023_08.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

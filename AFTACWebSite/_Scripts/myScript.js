@@ -2159,9 +2159,8 @@ $(document).ready(function () {
     });       
 
     $('#AugustPomo').click(function () {
-        window.open('http://aftacaa.us/_Pomos/PoMo2022_08.pdf', '');
+        window.open('http://aftacaa.us/_Pomos/PoMo2023_08.pdf', '');
     });
-
     $('#DecemberPomo').click(function () {
         window.open('http://aftacaa.us/_Pomos/PoMo2022_12.pdf', '');
     });
