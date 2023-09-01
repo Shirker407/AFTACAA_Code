@@ -13235,7 +13235,7 @@
                     <div class="clear"></div>
                     <div id="LindstedtPara" class="obitPara noDisplay">
                         <p>
-                        <br />
+                        <img alt="lindstedt.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/lindstedt.png" />
                         Phillip J. "Phil" Lindstedt<br />
                         Jan 23, 1959 - Aug 20, 2023<br /><br />
                         Phillip J. "Phil" Lindstedt, 64, passed away on August 20, 2023 at his home in Malabar, Florida following a long illness.<br /><br />
