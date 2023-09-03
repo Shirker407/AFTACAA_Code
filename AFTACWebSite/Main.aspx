@@ -304,6 +304,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myBrowning" class="announcement blueText"> Eric Larson's post found on Facebook noting, "Robert W. Browning passed away at his home in Fort Collins, Co on 17 May 2022 after a battle with liver cancer. Bob was Detachment Commander at 407 and assigned to HQ AFTAC/DO." Obituary Posted.</td>
+                                    <td class="posted blueText">9/3/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myPomo" class="announcement blueText">August Pomo was Published</td>
                                     <td class="posted blueText">8/31/2023</td>
                                     <td class="event blueText"></td>
@@ -366,16 +371,6 @@
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myOverby" class="announcement blueText">Notified through Facebook that Donald Ray Overby passed in an accident, 7/8/2023.  Don served as an administrator at Det 426. Obituary Posted.</td>
                                     <td class="posted blueText">8/9/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myFeakes" class="announcement blueText">Notified by Maureen Hampson that Glen Allen Feakes passed on 19 Jul 2023. Obituary posted here.</td>
-                                    <td class="posted blueText">7/28/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myLandry" class="announcement blueText">Roland Landry provided an obituary for Col. (Ret) Tannie Hamilton (Jones) Landry, 4/8/2023. We've posted it here.</td>
-                                    <td class="posted blueText">7/28/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -13227,6 +13222,7 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
+
 <%--   Current Obits Phillip J. "Phil" Lindstedt - 8/20/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13668,7 +13664,28 @@
                        </p>
                    </div>
               </article> 
-             
+ <%--   Current Obits Robert Browning - 5/17/2022 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="BrowningH2" class="obitH1">Robert Browning - 5/17/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="BrowningPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Browning.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Browning.jpg" />
+                        Robert Browning<br />
+                        May 17, 2022<br /><br />
+                        Bob serverd in AFTAC as the Detachment Commander at 407 and was assigned to HQ AFTAC/DO. <br /><br />
+                        Robert Browning, 77, of Fort Collins, CO, passed away on May 17, 2022. Bob was born to Robert and Dorothy Browning in Queens, New York. After attending the University of Rochester, where he met the love of his life, Susan, and received a Bachelor of Economics, Bob joined the United States Air Force. Bob and Susan were married and spent the next 21 years as an Air Force family. Bob served in the Vietnam War as a C-130 rescue pilot, where he was awarded the Distinguished Flying Cross. Throughout his life, his sense of service and duty never ceased. Bob and Susan retired to Fort Collins. During their 34 years here, their desire to give back to their community led to their many volunteer activities. Bob began his volunteer work with Habitat for Humanity, where he eventually became both president and chief of construction. After becoming involved in the construction of the first four Habitat homes, Bob designed and along with Susan supervised the construction of the next eight homes. This work included selection and mentoring of families chosen to receive homes, with the goal of helping them become successful homeowners.<br /><br />
+                        Additionally, Bob served as a member and eventually chairperson of the Fort Collins Affordable Housing Board and subsequently became chairperson of the Community Development Block Grant Commission. Bob and Susan served the community as Fort Collins Police Department Victim's Advocates for seven years. Bob became a passionate volunteer motorman for the Fort Collins Municipal Railway Society (the Fort Collins Trolley), and over the course of 18 years, was integral to its operation and the training of others to operate the historic trolley. He served as president of the organization for the last four years.<br /><br />
+                        Bob is survived by his wife of 54 years, Susan, of Fort Collins, CO, daughters Jennifer (Dean) Hughes, of Broomfield, CO, and Rebecca (Brian Floyd) Browning-Floyd, of Wellington, CO, and grandchildren Bailey, Nicholas, Madison, Zachary, and Brandon.<br /><br />
+                        Bob is preceded in death by his parents and brother. In lieu of flowers, the family asks that any donations be sent to the Tunnel to Towers Foundation in his honor, by going to <a href="https://www.t2t.org" target="_blank">www.t2t.org</a> or by calling (718)-987-1931.<br /><br />
+
+                        To plant trees in memory, please visit the Sympathy Store.  Memories and tributes can be posted and the original obituary read <a href="https://www.goesfuneralcare.com/obituaries/Robert-Browning-12/#!/TributeWall" target="_blank">at Goes Funeral Care & Crematory.</a><br /><br />
+                        The obituary was published on Legacy.com by Goes Funeral Care & Crematory - Fort Collins on May 20, 2022.<br /><br />
+                        </p>
+                    </div>
+               </article>              
  <%--   Current Obits Robert Eugene Justman - 6/30/2006 *****************************************************************************--%>
                <article>
                     <div>
@@ -14172,7 +14189,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=18"></script>
+    <script src="_Scripts/myScript.js?v=20"></script>
        
     </form>
 </body>
