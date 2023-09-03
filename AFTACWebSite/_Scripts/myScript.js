@@ -1460,20 +1460,17 @@ $(document).ready(function () {
     $('#myVickers').click(function () {
         OpenObit('Vickers');
     });
-    $('#myLandry').click(function () {
-        OpenObit('Landry');
-    });
     $('#myCaldwell').click(function () {
         OpenObit('Caldwell');
-    });
-    $('#myFeakes').click(function () {
-        OpenObit('Feakes');
     });
     $('#myOverby').click(function () {
         OpenObit('Overby');
     });
     $('#myMosley').click(function () {
         OpenObit('Mosley');
+    });
+    $('#myBrowning').click(function () {
+        OpenObit('Browning');
     });
     
      $('.obitH1').click(function () {
@@ -1539,6 +1536,9 @@ $(document).ready(function () {
              case 'CaldwellH2':
                  ShowMyObit('Caldwell')
                  break;
+             case 'BrowningH2':
+                 ShowMyObit('Browning')
+                 break;   
             case 'JustmanH2':
                 ShowMyObit('Justman')
                 break;
