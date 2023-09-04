@@ -304,7 +304,7 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">UPDATED:  AFTAC Memorial Park fundraising night at Texas Roadhouse, Melbourne.  Present flyer (you must bring it with you or have a picture of it on your cell phone!) when you turn in your receipt at the resturant for 10% of your food purchase to go to this worthy cause. <a href ="_pdfs/09062023FundRaiser.pdf" target ="_bank")>Get flyer here.</a> </td>
+                                    <td class="announcement greenText">UPDATED:  AFTAC Memorial Park fundraising night at Texas Roadhouse, Melbourne.  Present flyer (you must bring it with you or have a picture of it on your cell phone!) when you turn in your receipt at the restaurant for 10% of your food purchase to go to this worthy cause. <a href ="_pdfs/09062023FundRaiser.pdf" target ="_bank")>Get flyer here.</a> </td>
                                     <td class="posted greenText">9/4/2023</td>
                                     <td class="event greenText">9/5/2023</td>
                                 </tr>
@@ -354,12 +354,6 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">July Minutes Published</td>
-                                    <td class="posted blueText">8/16/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-       
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myLittleGreenManAnouncement" class="announcement blueText">"x-file solved? truth behind roswell 'alien' that made a woman faint" - Article added to Histories</td>
                                     <td class="posted blueText">8/10/2023</td>
                                     <td class="event blueText"></td>
@@ -370,7 +364,7 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTAC leadership invites the Aluimni to their 9/11 Retreat Ceremony, 6 Sep 2023, HQ AFTAC, Patrick Space Force Base.  Col Finlayson will address those assembled at 1620 with Retreat following at 1630.</td>
+                                    <td class="announcement greenText">AFTAC leadership invites the Alumni to their 9/11 Retreat Ceremony, 6 Sep 2023, HQ AFTAC, Patrick Space Force Base.  Col Finlayson will address those assembled at 1620 with Retreat following at 1630.</td>
                                     <td class="posted greenText">7/24/2023</td>
                                     <td class="event greenText"> 9/6/2023</td>
                                 </tr>
