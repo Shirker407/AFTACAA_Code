@@ -272,6 +272,9 @@ $(document).ready(function () {
     $('#btnMemWallDonation').click(function () {
         window.open('_pdfs/MemorialWallJune2023.pdf', '')
     });
+    $('#btnMemWallDonation2').click(function () {
+        window.open('_pdfs/MemorialWallJune2023.pdf', '')
+    });
 
     $('#btnMemWallLetter').click(function () {
         window.open('_pdfs/MemorialWallLetter.pdf', '')

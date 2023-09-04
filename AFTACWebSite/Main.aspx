@@ -272,7 +272,7 @@
             <div class="floatLeft width55">
                 <div class="floatLeft centerDiv width50">
                     <div id="butWallNames" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
-                        <span class="centerText backYellow bold" style="color:black;">Posting of Our Memorial<br />Names - 9/5/2020</span>
+                        <span class="centerText backYellow bold" style="color:black;">Posting of Our Memorial<br />Names - 9/4/2023</span>
                     </div>
                     <div id="butCoronaInfo" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue; border:solid;border:solid;border-radius:10px;">
                         <span class="centerText bold backDarkBlue lightBlueText">PSFB Current Status regarding Covid-19</span>
@@ -304,7 +304,12 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBrowning" class="announcement blueText"> Eric Larson's post found on Facebook noting, "Robert W. Browning passed away at his home in Fort Collins, Co on 17 May 2022 after a battle with liver cancer. Bob was Detachment Commander at 407 and assigned to HQ AFTAC/DO." Obituary Posted.</td>
+                                    <td class="announcement greenText">UPDATED:  AFTAC Memorial Park fundraising night at Texas Roadhouse, Melbourne.  Present flyer (you must bring it with you or have a picture of it on your cell phone!) when you turn in your receipt at the resturant for 10% of your food purchase to go to this worthy cause. <a href ="_pdfs/09062023FundRaiser.pdf" target ="_bank")>Get flyer here.</a> </td>
+                                    <td class="posted greenText">9/4/2023</td>
+                                    <td class="event greenText">9/5/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myBrowning" class="announcement blueText">Eric Larson's post found on Facebook noting, "Robert W. Browning passed away at his home in Fort Collins, Co on 17 May 2022 after a battle with liver cancer. Bob was Detachment Commander at 407 and assigned to HQ AFTAC/DO." Obituary Posted.</td>
                                     <td class="posted blueText">9/3/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -319,7 +324,7 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement blueText"> GUINNESS WORLD RECORD Fourth Of July 2023 Drone Show video added in Videos menu.  Click <a href ="_Videos/GUINNESS WORLD RECORD Fourth Of July Drone Show.mp4" target ="_bank")>here </a>to view.</td>
+                                    <td class="announcement blueText">GUINNESS WORLD RECORD Fourth Of July 2023 Drone Show video added in Videos menu.  Click <a href ="_Videos/GUINNESS WORLD RECORD Fourth Of July Drone Show.mp4" target ="_bank")>here </a>to view.</td>
                                     <td class="posted blueText">8/26/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -329,7 +334,7 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement blueText">AFTAC Memorial Dedication Cerimony Article published in Florioda Today.  Check it out <a href ="https://www.floridatoday.com/picture-gallery/news/2023/08/04/aftac-memorial-dedication/8324605001/" target ="_bank")> here.</a> </td>
+                                    <td class="announcement blueText">AFTAC Memorial Dedication Ceremony Article published in Florida Today.  Check it out <a href ="https://www.floridatoday.com/picture-gallery/news/2023/08/04/aftac-memorial-dedication/8324605001/" target ="_bank")> here.</a> </td>
                                     <td class="posted blueText">8/22/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -353,16 +358,7 @@
                                     <td class="posted blueText">8/16/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement redText">AFTAC Memorial Corp is placing their second order of walkway bricks for the Memorial.  Orders received after 31 August will be held until the next bulk order is placed. <a href ="https://donate.brickmarkers.com/aftacmc" target ="_bank")>Place on-line orders or download order form here.</a> </td>
-                                    <td class="posted redText">8/11/2023</td>
-                                    <td class="event redText">8/31/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTAC Memorial Park fundraising night at Texas Roadhouse, Melbourne.  Present flyer (you must bring it with you!) for 10% of your food purchase to go to this worthy cause. <a href ="_pdfs/09062023FundRaiser.pdf" target ="_bank")>Get flyer here.</a> </td>
-                                    <td class="posted greenText">8/11/2023</td>
-                                    <td class="event greenText">9/5/2023</td>
-                                </tr>
+       
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myLittleGreenManAnouncement" class="announcement blueText">"x-file solved? truth behind roswell 'alien' that made a woman faint" - Article added to Histories</td>
                                     <td class="posted blueText">8/10/2023</td>
@@ -2837,106 +2833,115 @@
             </div>
 
         </article>
-<%--Posting of Our Memorial  Names Article *****************************************************************************--%>        
+<%--Posting of Our Memorial Names Article *****************************************************************************--%>        
         <article id="MemorialArt" class="myArts noDisplay">
-            <p id="memTitle" class="pTitle centerText underLine">Posting of Our Memorial  Names </p>
-
+            <p id="memTitle" class="pTitle centerText underLine">Posting of Our Memorial Names</p>
+            <p class ="centerText marontext">(Updated September 2023)<br /></p>
             <p>
-                The AFTAC Memorial Project is still progressing and seeking donations, especially from those that served with AFTAC, the Long Range Detection (LRD) and AFOAT-1. We are actively pursuing as many ways to fund this project as possible. An article was posted in the Florida Today Newspaper on Sunday, August 30th.  You can read this article at:  
-                <span id ="FloridaTodayArticle" class="autoMarginLeftRight redText underLine italic fontSize1em" style="cursor:pointer;">Florida Today Article</span><br /> 
-                If you want to read this, please do it soon since they will pull the article after a short time.
+                The AFTAC Memorial has been built and dedicated, yet the project is still progressing and seeking donations, especially from those that served with AFTAC, the Long Range Detection (LRD) and AFOAT-1. We are focused on adding the sculpture of a Lithium atom and ensuring we have the ability to add individuals to the memorial and maintain the site over the long term.  We continue to pursue funding for this project.  An article was posted in the Florida Today Newspaper on Sunday, August 30th, 2020 describing our original purpose and goals. 
+               <%-- <span id ="FloridaTodayArticle" class="autoMarginLeftRight redText underLine italic fontSize1em" style="cursor:pointer;">Florida Today Article</span><br /> --%>
+               <br /><br />
+                Purchasing a brick is one of our best ways to contribute and create an enduring legacy of that contribution, however, any donation is helpful.  A donation form for internet donations can be found below or you can use the on line Brick Order/Donation Form 
+                <a class="autoMarginLeftRight" href="Https://donate.Brickmarkers.com/aftacmc" target="_blank">here</a>.
                 <br /><br />
-                We fully realize that we are in a pandemic state and that some of you might not be able to bear this expense.  However, while purchasing a brick is one of our best sellers, any donation is always helpful.  This eAllert will be posted on our website: www.aftacaa.us listed on the first page under the link: Posting of Our Memorial  Names - 9/5.  A donation form and links for internet donations can also be found there under: AFTAC Memorial Corp - Update 8/14.  It will also be printed in our next Post Monitor's December Issue. Finally, you can go directly to the Corporation site to place an order now at: 
-                <a class="autoMarginLeftRight" href="Https://donate.Brickmarkers.com/aftacmc" target="_blank">Brick Order Form</a>
-                <br /><br />
-                This listing, received from the AFTAC Historian, Dr Mike Young, is of those departed members that died while assigned to AFTAC (LRD). We have additional information on some of these individuals.  However, the one's marked with an asterisk (*) indicate those members that we have little, or no information.  As you go through the list, if you recognize the name and have knowledge of the date they passed, how it happened and any knowledge of their association with the AFTAC, LRD, AFOAT-1 organization, and anything else that might be pertinent, please provide what you know to our Alumni President, <a href="MailTo:afsophil@gmail.com">Phil Godfrey</a>. 
+                The listing below includes all the members that have died while assigned to AFTAC (LRD) through the years that AFTAC has approved for inclusion in the memorial. We have additional information on some of these individuals; however, there are some members that we have little, or no information. As you go through the list, if you recognize the name and have knowledge of the date they passed, how it happened and any knowledge of their association with the AFTAC, LRD, AFOAT-1 organization, and anything else that might be pertinent, and have not previously provided this information, please send that information to our Alumni President, <a href="MailTo:piston_horse@hotmail.com">Ed Lindsay</a>. 
                 <br /><br />
                 For additional questions about this project, please send email to the POC, <a href="MailTo:lseiler@cfl.rr.com">Maj (Ret) Lou Seiler</a>    
             </p>
-
+            <p><center><i>"Dedicated to all those who have given their lives in support of the Long Range Detection mission, And the Air Force Technical Applications Center. Their sacrifice will never be forgotten."</i></center></p>
+            <p class="centerText marontext underLine">Names are listed in the order they are on the wall</p>
             <div class="backGrey blackBorder">
                 <div class="memorialNames floatLeft width50">
                     <ul class="backGrey">
-                        <li>Adkins, Scott A., Airman</li>
-                        <li>*Allen, Fredric M., Technical Sergeant</li>
-                        <li>Annoni, Carlos J., Captain</li>
-                        <li>Arnette, Julian (Randy) R., Airman 2nd Class</li>
-                        <li>*Ball, Ronnie J., Staff Sergeant with family</li>
-                        <li>*Bludnick, Louie M., Technical Sergeant</li>
-                        <li>Britton, Beverly L., Major</li>
-                        <li>Brown, Richard K., Technical Sergeant</li>
-                        <li>*Bryan, Ismael R., Staff Sergeant</li>
-                        <li>Burgess, Claude M., Master Sergeant</li>
-                        <li>*Burns, Robert B., Staff Sergeant</li>
-                        <li>*Carroll, Billy R., Technical Sergeant</li>
-                        <li>*Chapin, Brian, Staff Sergeant</li>
-                        <li>Clark, Christopher, Technical Sergeant</li>
-                        <li>*Clishaw, Stephen A., Captain</li>
-                        <li>*Collins, Patrick M., Doctor</li>
-                        <li>Cruz Jr, George R. Technical Sergeant</li>
-                        <li>Davison, Fredrick P., Major</li>
-                        <li>*Drinkard, William W.</li>
-                        <li>*Ellingson, Steven</li>
-                        <li>*Foster, John K., Airman 2nd Class</li>
-                        <li>*Fruechte, Ronald D., Airman 2nd Class</li>
-                        <li>*Gardner, Bernard E., Technical Sergeant</li>
-                        <li>*Garsee, Gary C.</li>
-                        <li>*Gibbs, Charles F., Staff Sergeant</li>
-                        <li>Gleason, John Fredrick, Airman 2nd Class</li>
-                        <li>*Green, Alan H., Sergeant</li>
-                        <li>*Gustafson, David W., Technical Sergeant</li>
-                        <li>Hammons, Reginald L., Senior Airman</li>
-                        <li>*Hare, Donald P., Airman 1st Class</li>
-                        <li>Harris, Virgil G., Captain</li>
-                        <li>Hawley, "Bruce"</li>
-                        <li>Heckman, Charles E., Technical Sergeant</li>
-                        <li>Hendrickson, Charles, Contractor</li>
-                        <li>*Himes, Larry D.</li>
-                        <li>*Holden, Jack E., Master Sergeant</li>
-                        <li>*Homer, Frank A., Staff Sergeant with family</li>
-                        <li>*Jacob, Lee J., Staff Sergeant</li>
+                        <li>Beverly L. Britton, Maj</li>
+                        <li>George E. Silva, Sgt</li>
+                        <li>Edward F. O’Malley, AB </li>
+                        <li>Virgil G. Harris, Capt </li>
+                        <li>Stephen A. Clishaw, Capt </li>
+                        <li>Edmund S. McMahon, A1C</li>
+                        <li>Julian R. “Randy” Arnette, A2C</li>
+                        <li>Richard K. Brown, TSgt </li>
+                        <li>Lawrence L. LaPlante, A1C </li>
+                        <li>John K. Foster, A2C</li>
+                        <li>Jack E. Holden, MSgt </li>
+                        <li>Claude M. Burgess, MSgt</li>
+                        <li>Madelon J. Remus Ronald </li>
+                        <li>D. Fruechte, A2C</li>
+                        <li>Marvin H. Oleson</li>
+                        <li>Fredrick P. Davison, Maj </li>
+                        <li>Dr. William D. Urry </li>
+                        <li>Donald Pollock, Maj </li>
+                        <li>John F. Gleason, A2C</li>
+                        <li>Charles E. Heckman, TSgt</li>
+                        <li>Alcide O. Sylvestre, Capt </li>
+                        <li>Fred B. Stoss Jr., Maj Louie </li>
+                        <li>M. Bludnick, TSgt </li>
+                        <li>Billy R. Carroll, TSgt</li>
+                        <li>Thomas M. Quinney Jr., A1C</li>
+                        <li>Lenox T. McKimmey Jr., Maj </li>
+                        <li>Bernard E. Gardner, TSgt </li>
+                        <li>William M. Pennington, CMSgt </li>
+                        <li>Sylvester E. Nalley, SSgt </li>
+                        <li>Charles D. Moore, TSgt</li>
+                        <li>John E. Johnson, A2C </li>
+                        <li>Lee J. Jacob, SSgt </li>
+                        <li>Donald P. Hare, A1C </li>
+                        <li>Nancy C. Pollard </li>
+                        <li>Charles F. Gibbs, SSgt </li>
+                        <li>Robert H. Smith, A1C </li>
+                        <li>Robert B. Bums, SSgt </li>
+                        <li>Frank A. Homer, SSgt</li>
+                        <li>Robert L. Patterson, TSgt </li>
+                        <li>Ronnie J. Ball, SSgt </li>
+                        <li>Lavergne H. Sherrill </li>
+                        
                     </ul>
                 </div>
 
                 <div class="memorialNames backGrey floatLeft width50">
                     <ul class="backGrey">
-                        <li>Jacobson ll, Donald W., Sergeant</li>
-                        <li>*Johnson, John E., Airman 2nd Class</li>
-                        <li>*Keefer Jr., Edward., First Lieutenant</li>
-                        <li>Krebs, Richard A., Colonel</li>
-                        <li>*LaPlante, Lawrence L., Airman 1st Class</li>
-                        <li>*Mattes, ?</li>
-                        <li>*McKimmey Jr., Lenox T., Major</li>
-                        <li>*McMahon, Edmund S., Airman 1st Class</li>
-                        <li>*Monte/Monti, David</li>
-                        <li>*Moore, Charles D., Technical Sergeant</li>
-                        <li>Muchesko, David A., Senior Airman</li>
-                        <li>*Murphey, Ben</li>
-                        <li>*Nalley, Sylvester E., Staff Sergeant</li>
-                        <li>O'Brien, Christopher John</li>
-                        <li>*O'Mally, Edward F., Airman Basic</li>
-                        <li>*Oleson, Marvin H.</li>
-                        <li>*Patterson, Robert L., Technical Sergeant with family</li>
-                        <li>*Pennington, William M. Chief Master Sergeant</li>
-                        <li>Pollard, Nancy C.</li>
-                        <li>*Pollock, Donald, Major</li>
-                        <li>*Quinney Jr., Thomas M., Airman 1st Class</li>
-                        <li>Remus, Madelon J.</li>
-                        <li>*Rohde, Mark</li>
-                        <li>Schobel, Vincent, Technical Sergeant</li>
-                        <li>*Sherrill, Lavergne H.</li>
-                        <li>Shrull, James R., Major</li>
-                        <li>Silva, Geroge E., Sergeant</li>
-                        <li>Singlevich, Walter</li>
-                        <li>*Smith, Robert H., Airman 1st Class</li>
-                        <li>Steward, James C., Senior Airman</li>
-                        <li>Stoss, Fred B. Jr., Major</li>
-                        <li>Sylvestre, Alcide O., Captain</li>
-                        <li>*Thurman, Arthur R., Staff Sergeant</li>
-                        <li>Urry, William D., Doctor</li>
-                        <li>*Verhines, Dustin, Technical Sergeant </li>
-                        <li>*Watson lll, Robert S., Master Sergeant</li>
-                        <li>*White, Howard L., Senior Master Sergeant</li>
+                        <li>Arthur R. Thurman, SSgt</li>
+                        <li>Donald W. Jacobson II, Sgt </li>
+                        <li>Ismael R. Bryan, SSgt </li>
+                        <li>Howard L. White, SMSgt </li>
+                        <li>David W. Gustafson, TSgt </li>
+                        <li>James R. Shrull, Maj</li>
+                        <li>Alan H. Green, Sgt </li>
+                        <li>Robert S. Watson III, MSgt</li>
+                        <li>Carlos J. Annoni, Capt </li>
+                        <li>Fredric M. Allen, TSgt </li>
+                        <li>Edward J. Keefer Jr., 1Lt </li>
+                        <li>Brian Chapin, SSgt</li>
+                        <li>Gary C. Carsee </li>
+                        <li>Scott A. Adkins, Amn </li>
+                        <li>William W. Drinkard</li>
+                        <li>Bruce Holley </li>
+                        <li>Vincent Schobel, TSgt </li>
+                        <li>David A. Muchesko, SrA</li>
+                        <li>Walter Singlevich </li>
+                        <li>David Monte</li>
+                        <li>Dr. Patrick M. Collins </li>
+                        <li>Steven L. Ellingson </li>
+                        <li>Reginald L. Hammons, SrA</li>
+                        <li>George R. Cruz Jr., TSgt </li>
+                        <li>Larry D. Himes</li>
+                        <li>James R. Mattes Jr., Maj </li>
+                        <li>Mark Rohde</li>
+                        <li>James C. Steward, SrA </li>
+                        <li>Christopher J. O’Brien </li>
+                        <li>Christopher Clark, TSgt </li>
+                        <li>Charles Hendrickson </li>
+                        <li>Ben Murphy </li>
+                        <li>Dustin Verhines, TSgt </li>
+                        <li>Kathleen Henning </li>
+                        <li>Norvel E. Perkins, MSgt </li>
+                        <li>Joshua V. LeRette, SrA </li>
+                        <li>Donna Bickham</li>
+                        <li>Karen Jacobs, CMSgt </li>
+                        <li>Jose Herrera</li>
+                        <li>Edward A Mason, SMSgt </li>
+                        <li>Marcus A Zaharko, A1C</li>
+                        
                     </ul>
                 </div>
 
@@ -2944,10 +2949,11 @@
             </div>
 
             <p>
-                Dig into your piggy banks, let the moths out of your wallets, sell your car or your first born, get together with friends to help, and become a part of this honorable project.  Contact friends that might not get this eAllert and send it to them. Our peers, co-workers and friends deserve to be remembered. This is how we hope to do it.  Only you can make it happen.
-                <br /><br />
                 Respectfully,<br />Your AFTAC Alumni Association and the AFTAC Memorial Corporation
             </p>
+           <div>
+               <input id="btnMemWallDonation2" class="autoMarginLeftRight myBut" type="button" value="Printable Memorial Wall Donation Form" />
+           </div>
         </article>
 <%--Fun_Spot/Korean_Taxi Video *****************************************************************************--%> 
 <%--        <article id="FunSpotArt" class="myArts noDisplay">
@@ -14189,7 +14195,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=20"></script>
+    <script src="_Scripts/myScript.js?v=21"></script>
        
     </form>
 </body>
