@@ -135,7 +135,7 @@
                                     <span id="Golf2021" class="underSel block bottomDot">Golf N'Get Together</span>
                                     <span id="OH2021" class="underSel block bottomDot">AFTAC Open House</span>
                                     <span id="WOHAwards2021" class="underSel block bottomDot">WOH Awards</span>
-                                    <span id="AftacAwards2021" class="underSel block bottomDot">Aftac Awards Ceremony</span>
+                                    <span id="AftacAwards2021" class="underSel block bottomDot">AFTAC Awards Ceremony</span>
                                 </div>
                                 <hr class="myHR" />
                             </div>
@@ -232,7 +232,7 @@
 
                     <li id="liVideos" class="liMainMenu bottomDot">Videos
                         <div id="divVideos" class="underMenu noDisplay">
-                            <span id="vidDrones" class="underSel block bottomDot leftMargin1em">Wolrd Record 4th of July Drone Show</span>
+                            <span id="vidDrones" class="underSel block bottomDot leftMargin1em">World Record 4th of July Drone Show</span>
                             <span id="vidSeminar" class="underSel block bottomDot leftMargin1em">AFTAC Mission Briefing</span>
                             <span id="vid_2017AirShow" class="underSel block bottomDot leftMargin1em">2017 Melbourne Airshow</span>
 <%--                            <span id="vid_2018AirShow" class="underSel block bottomDot leftMargin1em">2018 Melbourne Airshow</span>--%>
@@ -304,17 +304,12 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">UPDATED:  AFTAC Memorial Park fundraising night at Texas Roadhouse, Melbourne.  Present flyer (you must bring it with you or have a picture of it on your cell phone!) when you turn in your receipt at the restaurant for 10% of your food purchase to go to this worthy cause. <a href ="_pdfs/09062023FundRaiser.pdf" target ="_bank")>Get flyer here.</a> </td>
-                                    <td class="posted greenText">9/4/2023</td>
-                                    <td class="event greenText">9/5/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myBrowning" class="announcement blueText">Eric Larson's post found on Facebook noting, "Robert W. Browning passed away at his home in Fort Collins, Co on 17 May 2022 after a battle with liver cancer. Bob was Detachment Commander at 407 and assigned to HQ AFTAC/DO." Obituary Posted.</td>
                                     <td class="posted blueText">9/3/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPomo" class="announcement blueText">August Pomo was Published</td>
+                                    <td id="myPomo" class="announcement blueText">August PoMo was Published</td>
                                     <td class="posted blueText">8/31/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -354,7 +349,7 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myLittleGreenManAnouncement" class="announcement blueText">"x-file solved? truth behind roswell 'alien' that made a woman faint" - Article added to Histories</td>
+                                    <td id="myLittleGreenManAnouncement" class="announcement blueText">"x-file solved? truth behind Roswell 'alien' that made a woman faint" - Article added to Histories</td>
                                     <td class="posted blueText">8/10/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -390,7 +385,7 @@
                                     <td class="event blueText"></td>
                               
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPomo" class="announcement blueText">April Pomo was Published</td>
+                                    <td id="myPomo" class="announcement blueText">April PoMo was Published</td>
                                     <td class="posted blueText">4/27/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -1054,7 +1049,7 @@
             <div class="clear"></div>
 
             <p class="centerText bold fontSize1_Halfem">
-                The last two remaining survivers
+                The last two remaining survivors
             </p>
 
             <figure>
@@ -1064,7 +1059,7 @@
 
             <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
         </article>
-<%--Colorado Chapter Breacfast 2023 Article  *****************************************************************************--%>  
+<%--Colorado Chapter Breakfast 2023 Article  *****************************************************************************--%>  
         <article id="CoBreakfastArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Colorado Chapter Breakfast </p>
 
@@ -1408,7 +1403,7 @@
                         <div>
                             <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
                             <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
-<!-- This tet box is a troubleshooting aid and can be assigned values in Main.aspx.vb on lines 1240 and 1273********************************************************************** --> 
+<!-- This text box is a troubleshooting aid and can be assigned values in Main.aspx.vb on lines 1240 and 1273********************************************************************** --> 
                        <!--<asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox>--->
                         
                         
