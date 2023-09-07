@@ -16,6 +16,7 @@
      <%--dedicationArt =  Building Dedication Video --%>                                     
      <%--reunionArt = 2015 Reunion Video --%>                                      
      <%--WallofHonorArt = Wall of Honor Video --%>                                      
+
      <%--underArt = Video of New Building Upgrade --%>                                      
      <%--historyAlumniArt = History of Alumni Association --%>                                      
      <%--historyArt =  History of AFTAC --%>                                      
@@ -303,6 +304,11 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr> 
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="mySweet" class="announcement blueText">Notified by Tom Dunn that Richard (Rick) E. Sweet passed away on 27 Aug 2023.  Obituary Posted.</td>
+                                    <td class="posted blueText">9/3/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myBrowning" class="announcement blueText">Eric Larson's post found on Facebook noting, "Robert W. Browning passed away at his home in Fort Collins, Co on 17 May 2022 after a battle with liver cancer. Bob was Detachment Commander at 407 and assigned to HQ AFTAC/DO." Obituary Posted.</td>
                                     <td class="posted blueText">9/3/2023</td>
@@ -13217,7 +13223,29 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
-
+<%--   Current Obits Richard (Rick) E. Sweet - 8/27/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="SweetH2" class="obitH1">Richard (Rick) E. Sweet - 8/27/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="SweetPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Sweet.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Sweet.jpg" />
+                        Richard (Rick) E. Sweet<br />
+                        Sep 15, 1945 - Aug 27, 2023<br /><br />
+                        Richard (Rick) E. Sweet, age 77, passed away on August 27, 2023, in Parker Colorado. He was born in Morrisville, Vermont on September 15, 1945, attending both elementary and high school while in Vermont. After his 18th birthday, Rick joined the U.S. Army on September 18, 1962, in the Signal Corps, serving two tours of duty in Vietnam. He received an honorable discharge from the Army on June 16, 1971.  On August 25, 1971, he joined the U.S. Air Force as an Electric Power Production Specialist and later as a Safety Technician before retiring on November 30, 1982. He then worked for the U.S. Postal Service for 3 years before joining NASA for 23 years as a Safety Engineer and retired in 2006.<br /><br />
+                        He loved fishing, traveling to all 50 states, and spending time with family across the country. He volunteered with the Boy Scouts of America, coached youth baseball, and volunteered with the Robotics Club in Brevard County, Florida.<br /><br />
+                        Rick is survived by his wife Carol of 57 years, their son Gary (and his wife Peggy), daughter Christine (and her husband Michael), five grandchildren (Michael, Julie, Owen, Shane, Scharle'), and two great-grandchildren (Eva and Eric).  He is also survived by his brother Jim (and his wife Sherry), cousins, nieces and nephews, and many friends. He was preceded in death by his parents and three brothers.<br /><br />
+                        Services will take place at Pike's Peak National Cemetery in Colorado Springs, Colorado on September 12th, 2023 at 1 PM Mountain Standard Time. In lieu of flowers, donations may be made to the Disabled American Veteran's (DAV) organization at this address:  DAV<br /><br />
+                        Rick's legacy will live on in the hearts and minds of everyone who interacted with him throughout his wonderful life.<br /><br />
+                        To plant trees in memory, please visit the Sympathy Store. Obituary published on Legacy.com by Horan & McConaty - Southeast Denver/Aurora on Sep. 6, 2023.<br /><br />
+                        Original obituary can be viewed at <a href="https://www.horancares.com/obituaries/richard-sweet" target="_blank">Hroan & McConaty.</a> <br /><br />
+                        </p>
+                    </div>
+                        </p>
+                    </div>
+               </article> 
 <%--   Current Obits Phillip J. "Phil" Lindstedt - 8/20/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -14184,7 +14212,7 @@
     
     <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=21"></script>
+    <script src="_Scripts/myScript.js?v=22"></script>
        
     </form>
 </body>

@@ -1456,10 +1456,12 @@ $(document).ready(function () {
         $('#CommInitial').removeClass('block').addClass('block');
     });
     */
+    $('#mySweet').click(function () {
+        OpenObit('Sweet');
+    });
     $('#myLindstedt').click(function () {
         OpenObit('Lindstedt');
     });
-    
     $('#myVickers').click(function () {
         OpenObit('Vickers');
     });
@@ -1479,6 +1481,9 @@ $(document).ready(function () {
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
          switch (myText) {  
+             case 'SweetH2':
+                 ShowMyObit('Sweet')
+                 break;
              case 'MosleyH2':
                  ShowMyObit('Mosley')
                  break;
