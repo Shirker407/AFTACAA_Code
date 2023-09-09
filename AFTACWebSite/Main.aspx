@@ -13243,8 +13243,7 @@
                         Original obituary can be viewed at <a href="https://www.horancares.com/obituaries/richard-sweet" target="_blank">Hroan & McConaty.</a> <br /><br />
                         </p>
                     </div>
-                        </p>
-                    </div>
+                       
                </article> 
 <%--   Current Obits Phillip J. "Phil" Lindstedt - 8/20/2023 *****************************************************************************--%>
                <article>
