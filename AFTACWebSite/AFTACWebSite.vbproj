@@ -1631,7 +1631,6 @@
     <Content Include="_Minutes\2-8-2021_Minutes.pdf" />
     <Content Include="_PDFs\2021 Cocoa Beach Air Show.pdf" />
     <Content Include="_Minutes\3-8-2021_Minutes.pdf" />
-    <Content Include="_PDFs\3-8-2021_Minutes.pdf" />
     <Content Include="_Minutes\4-12-2021_Minutes.pdf" />
     <Content Include="_PDFs\Letter auction.pdf" />
     <Content Include="_Minutes\5-10-2021_Minutes.pdf" />
@@ -1661,7 +1660,6 @@
     <Content Include="_Minutes\1-9-2023_Minutes.pdf" />
     <Content Include="_Minutes\2-13-2023_Minutes.pdf" />
     <Content Include="_Minutes\3-10-2023_Minutes.pdf" />
-    <Content Include="_PDFs\Agenda2.pdf" />
     <Content Include="_Pomos\Pomo1985-06.pdf" />
     <Content Include="_Pomos\PoMo1993-06.pdf" />
     <Content Include="_Pomos\PoMo1993-09.pdf" />
@@ -1770,22 +1768,17 @@
     <Content Include="_Pomos\PoMo2022_04.pdf" />
     <Content Include="_Pomos\PoMo2022_08.pdf" />
     <Content Include="_Pomos\PoMo2023_04.pdf" />
-    <Content Include="_PDFs\Calendar2.pdf" />
-    <Content Include="_PDFs\Agenda_5_2023.pdf" />
     <Content Include="_Minutes\4-14-2023_Minutes.pdf" />
     <Content Include="_PDFs\MemorialWallJune2023.pdf" />
     <Content Include="_Minutes\2023-5-8_Minutes.pdf" />
-    <Content Include="_PDFs\Agenda_6_2023.pdf" />
-    <Content Include="_PDFs\Calendar_7_JUNE_2023.pdf" />
     <Content Include="_Minutes\2023-6-9_Minutes.pdf" />
-    <Content Include="_PDFs\Agenda_7_2023.pdf" />
-    <Content Include="_PDFs\Calendar_15_Jul_2023.pdf" />
     <Content Include="_PDFs\Calendar_14_August_2023.pdf" />
     <Content Include="_Minutes\2023-7-14_Minutes.pdf" />
     <Content Include="_PDFs\Agenda_8_2023.pdf" />
     <Content Include="_PDFs\Florida Membership Application_Aug_2023.pdf" />
     <Content Include="_PDFs\20230929_Golf_Anouncement.pdf" />
     <Content Include="_Pomos\PoMo2023_08.pdf" />
+    <Content Include="_PDFs\Calendar_10_Sep_2023.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
