@@ -1468,9 +1468,6 @@ $(document).ready(function () {
     $('#myCaldwell').click(function () {
         OpenObit('Caldwell');
     });
-    $('#myOverby').click(function () {
-        OpenObit('Overby');
-    });
     $('#myMosley').click(function () {
         OpenObit('Mosley');
     });
@@ -4187,13 +4184,6 @@ $(document).ready(function () {
         }, 500);
     });
     //Used for Recent Additions Table Announcement-CAN BE DELETED AFTER 9/10/2023
-    $('#myLittleGreenManAnouncement, #LittleGreenMan').click(function () {
-        $('.myArts').removeClass('block').addClass('noDisplay');
-        $('#LittleGreenManArt').removeClass('noDisplay').addClass('block');
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#LittleGreenManArt").offset().top
-        }, 500);
-    });
 
     $('#showMinutes').click(function () {
         subclicked = true;

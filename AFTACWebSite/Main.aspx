@@ -355,21 +355,6 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myLittleGreenManAnouncement" class="announcement blueText">"x-file solved? truth behind Roswell 'alien' that made a woman faint" - Article added to Histories</td>
-                                    <td class="posted blueText">8/10/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myOverby" class="announcement blueText">Notified through Facebook that Donald Ray Overby passed in an accident, 7/8/2023.  Don served as an administrator at Det 426. Obituary Posted.</td>
-                                    <td class="posted blueText">8/9/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTAC leadership invites the Alumni to their 9/11 Retreat Ceremony, 6 Sep 2023, HQ AFTAC, Patrick Space Force Base.  Col Finlayson will address those assembled at 1620 with Retreat following at 1630.</td>
-                                    <td class="posted greenText">7/24/2023</td>
-                                    <td class="event greenText"> 9/6/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">Notified by Kelly (Meisenheimer) Fetto that Col Robert (Bob) A. Meisenheimer will be interred at Arlington National Cemetery the morning of October 19th, 2023.  Anyone wishing to attend should meet at Arlington's Main Gate at 10:05 that day.  Additional Information will be posted when available.</td>
                                     <td class="posted greenText">7/13/2023</td>
                                     <td class="event greenText"> 10/19/2023</td>
