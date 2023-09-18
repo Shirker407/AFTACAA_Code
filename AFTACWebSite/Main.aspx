@@ -303,6 +303,11 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">Aug Meeting Minutes Published</td>
+                                    <td class="posted blueText">9/18/2023</td>
+                                    <td class="event blueText"></td>
                                 </tr> 
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="mySweet" class="announcement blueText">Notified by Tom Dunn that Richard (Rick) E. Sweet passed away on 27 Aug 2023.  Obituary Posted.</td>
@@ -3620,6 +3625,7 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/2023-8-18_Minutes.pdf" target="_blank">8-18-2023</a></li>
                     <li><a href="_Minutes/2023-7-14_Minutes.pdf" target="_blank">7-14-2023</a></li>
                     <li><a href="_Minutes/2023-6-9_Minutes.pdf" target="_blank">6-9-2023</a></li>
                     <li><a href="_Minutes/2023-5-8_Minutes.pdf" target="_blank">5-8-2023</a></li>
@@ -14184,7 +14190,7 @@
             <div class="clear"></div>
             <hr class="myHR" />
             <p class="centerText" style="font-size:1.5em;">
-                Click on the link below to get an application to join the<br /> <asp:HyperLink ID="HyperLink6" ForeColor="DarkRed" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida Membership Application_Aug_2023.pdf" Target="_blank" runat="server"> Florida Association Membership Application. </asp:HyperLink>
+                Click on the link below to get an application to join the<br /> <asp:HyperLink ID="HyperLink6" ForeColor="DarkRed" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida_Membership_Application_Sep_2023.pdf" Target="_blank" runat="server"> Florida Association Membership Application. </asp:HyperLink>
             </p>
         </article>
     </div>
@@ -14194,9 +14200,8 @@
     </ContentTemplate>
     </asp:UpdatePanel>
     
-    <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=23"></script>
+    <script src="_Scripts/myScript.js?v=24"></script>
        
     </form>
 </body>

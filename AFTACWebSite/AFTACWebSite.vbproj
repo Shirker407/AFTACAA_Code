@@ -1779,6 +1779,8 @@
     <Content Include="_PDFs\20230929_Golf_Anouncement.pdf" />
     <Content Include="_Pomos\PoMo2023_08.pdf" />
     <Content Include="_PDFs\Calendar_10_Sep_2023.pdf" />
+    <Content Include="_Minutes\2023-8-18_Minutes.pdf" />
+    <Content Include="_PDFs\Florida_Membership_Application_Sep_2023.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -2156,7 +2156,7 @@ $(document).ready(function () {
     //**********************************************************************
 
   $('#myMinutes').click(function () {
-        window.open('_Minutes/2023-7-14_Minutes.pdf', '');
+      window.open('_Minutes/2023-8-18_Minutes.pdf', '');
     });
 
     $('#AprilPomo').click(function () {
