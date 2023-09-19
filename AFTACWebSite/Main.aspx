@@ -305,6 +305,11 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myAgenda" class="announcement blueText">Agenda for 22 September 2023 Meeting Posted.</td>
+                                    <td class="posted blueText">9/19/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">Aug Meeting Minutes Published</td>
                                     <td class="posted blueText">9/18/2023</td>
                                     <td class="event blueText"></td>
@@ -14201,7 +14206,7 @@
     </asp:UpdatePanel>
     
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=24"></script>
+    <script src="_Scripts/myScript.js?v=25"></script>
        
     </form>
 </body>
