@@ -304,9 +304,10 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myAgenda" class="announcement blueText">Agenda for 22 September 2023 Meeting Posted.</td>
-                                    <td class="posted blueText">9/19/2023</td>
+                                    <td id="myShanahan" class="announcement blueText">Notified through Facebook that Patrick Erin Shanahan passed away unexpectedly on 19 Sep 2023.  Obituary Posted.</td>
+                                    <td class="posted blueText">9/25/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -345,24 +346,9 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement blueText">AFTAC Memorial Dedication Ceremony Article published in Florida Today.  Check it out <a href ="https://www.floridatoday.com/picture-gallery/news/2023/08/04/aftac-memorial-dedication/8324605001/" target ="_bank")> here.</a> </td>
-                                    <td class="posted blueText">8/22/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myCaldwell" class="announcement blueText">Notified by Chuck Conrad that Robert "Bob" E. Caldwell passed, 11/5/2022.  Obituary Posted.</td>
-                                    <td class="posted blueText">8/22/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Sep at Manatee Cove Golf Course, Patrick Space Force Base.  Click <a href ="_PDFs/20230929_Golf_Anouncement.pdf" target ="_bank")>here</a> for details and points of contact.</td>
                                     <td class="posted greenText">8/18/2023</td>
                                     <td class="event greenText"> 9/29/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMosley" class="announcement blueText">Notified by Gene Melchior that Donald R. "Ray" Mosley passed, 3/8/2023.  Obituary Posted.</td>
-                                    <td class="posted blueText">8/18/2023</td>
-                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">Notified by Kelly (Meisenheimer) Fetto that Col Robert (Bob) A. Meisenheimer will be interred at Arlington National Cemetery the morning of October 19th, 2023.  Anyone wishing to attend should meet at Arlington's Main Gate at 10:05 that day.  Additional Information will be posted when available.</td>
@@ -418,15 +404,16 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 22 September<br />
-                        11:30 - 13:00 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Tuesday 10 October<br />
+                        <!--11:30 - 13:00 Hrs<br />-->
+                        15:00 - 16:00 Hrs<br />
                         --------------------------<br />
-                        AFTAC Alumni Association Annual General Membership Meeting and Elections Luncheon and Teleconference<br />
-                        <!--AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />-->
+                        <!--AFTAC Alumni Association Annual General Membership Meeting and Elections Luncheon and Teleconference<br />-->
+                        AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
-                        Putter's Lounge, Manatee Cove Golf Course<br />
-                        <!--HQ AFTAC <br />
-                        Lobby Conference Room<br />-->
+                        <!--Putter's Lounge, Manatee Cove Golf Course<br />-->
+                        HQ AFTAC <br />
+                        Heritage Room<br />
                         Patrick SFB FL<br />
                         <!--Beef O'Brady's<br />
                         3030 Lake Washington Road<br />
@@ -434,7 +421,7 @@
                         724 S Patrick Drive<br />                         
                         Satellite Beach FL<br />-->
            
-                        Note:  Please arrive at 1100 if you desire to order food/beverages. <br />
+                        <!--Note:  Please arrive at 1100 if you desire to order food/beverages. <br />-->
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Ed Lindsay, AFTACAA President, at <a href="MailTo: piston_horse@hotmail.com">piston_horse@hotmail.com</a>
@@ -13222,6 +13209,38 @@
 <%--   Current Obits Richard (Rick) E. Sweet - 8/27/2023 *****************************************************************************--%>
                <article>
                     <div>
+                        <h2 id="ShanahanH2" class="obitH1">Patrick Erin Shanahan - 9/19/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="ShanahanPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Shanahan.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Shanahan.jpg" />
+                        Patrick Shanahan<br />
+                        Nov 10, 1987 - Sep 19, 2023<br /><br />
+                        Patrick Erin Shanahan, of Staples, passed away unexpectedly on Tuesday, September 19, 2023. A Memorial Service will be held on Saturday September 30 at 2pm at the Brenny Family Funeral Chapel in Staples. A visitation will be held one hour prior to the start of the service.<br /><br />
+                        Patrick was born on November 10, 1987, in Milwaukee Wisconsin. He graduated from Chaska High School in Chaska with the class of 2005. Following graduation, he joined the U.S. Air Force and served his country with honor. After discharge from his military service Patrick relocated to Staples, MN and quickly made it his new home. He worked as a CNA for Lakewood Health System working on their Lakewood Reflections team. Patrick loved his job and his work family and worked there until his untimely passing.<br /><br />
+                        Patrick is survived by his cat Carrot, his sister Amanda and husband Kevin, sister Cathryn, Father Patrick, stepmother Karol, stepbrother Jeremy (Erin) Macheel, and stepsister Heidi (Rob) Dorfner. He is also survived by his Grandma Vee and many uncles, aunts, cousins, nephews, and nieces.<br /><br />
+                        He is preceded in death by his mother Shana (Strom).<br /><br />
+                        Patrick's ashes will be laid to rest at Camp Ripley at a later date.  <br /><br />
+                        Arrangements entrusted to Brenny Family Funeral Chapel, Staples.<br /><br />
+                        To order memorial <a href="https://manage2.tukioswebsites.com/o/v2/trees/d7f445e4-c94f-45b8-aea7-12debe3eb88d" target="_blank">trees</a> or send flowers to the family in memory of Patrick Shanahan, please visit our <a href="https://manage2.tukioswebsites.com/orders/v2/flowers/d7f445e4-c94f-45b8-aea7-12debe3eb88d" target="_blank">flower store</a>.<br /><br />
+                        Service Schedule<br /><br />
+                        Visitation<br />
+                        Saturday, September 30, 2023<br />
+                        1:00 - 2:00pm (Central time)<br /><br />
+                        Memorial Service<br />
+                        Saturday, September 30, 2023<br />
+                        2:00 - 3:00pm (Central time)<br /><br />
+                        Brenny Family Funeral Chapel and Cremation Services - Staples<br />
+                        309 N Fourth Street, Staples, MN 56479<br /><br />
+                        Original obituary can be viewed at <a href="https://www.brenny.com/obituaries/patrick-shanahan" target="_blank">Brenny Family Funeral Chapel and Cremation Services.</a> <br /><br />
+                        </p>
+                    </div>
+                       
+               </article> 
+<%--   Current Obits Richard (Rick) E. Sweet - 8/27/2023 *****************************************************************************--%>
+               <article>
+                    <div>
                         <h2 id="SweetH2" class="obitH1">Richard (Rick) E. Sweet - 8/27/2023</h2>
                     </div>
                     <div class="clear"></div>
@@ -14206,7 +14225,7 @@
     </asp:UpdatePanel>
     
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=25"></script>
+    <script src="_Scripts/myScript.js?v=26"></script>
        
     </form>
 </body>
