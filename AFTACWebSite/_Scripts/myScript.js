@@ -1456,6 +1456,9 @@ $(document).ready(function () {
         $('#CommInitial').removeClass('block').addClass('block');
     });
     */
+    $('#myShanahan').click(function () {
+        OpenObit('Shanahan');
+    });
     $('#mySweet').click(function () {
         OpenObit('Sweet');
     });
@@ -1478,6 +1481,9 @@ $(document).ready(function () {
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
          switch (myText) {  
+             case 'ShanahanH2':
+                 ShowMyObit('Shanahan')
+                  break;
              case 'SweetH2':
                  ShowMyObit('Sweet')
                  break;
