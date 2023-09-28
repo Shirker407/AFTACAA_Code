@@ -239,7 +239,7 @@ $(document).ready(function () {
     });
 
     $('#butCOE').click(function () {
-        window.open('_pdfs/Calendar_10_Sep_2023.pdf', '');
+        window.open('_pdfs/Calendar_28_Sep_2023.pdf', '');
     });
 
     $('#myCorona').click(function () {
