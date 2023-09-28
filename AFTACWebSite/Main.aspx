@@ -285,7 +285,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 9/10/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 9/28/2023</span>
                     </div>
                 </div>
 
@@ -304,7 +304,11 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
-                                
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement greenText">Due to weather and course conditions, the AFTACAA Fall Golf N'GetTogether has been rescheduled for 20 Oct at Manatee Cove Golf Course, Patrick Space Force Base.  Click <a href ="_PDFs/20230929_Golf_Anouncement.pdf" target ="_bank")>here</a> for details and points of contact.</td>
+                                    <td class="posted greenText">9/28/2023</td>
+                                    <td class="event greenText"> 10/20/2023</td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myShanahan" class="announcement blueText">Notified through Facebook that Patrick Erin Shanahan passed away unexpectedly on 19 Sep 2023.  Obituary Posted.</td>
                                     <td class="posted blueText">9/25/2023</td>
@@ -345,11 +349,7 @@
                                     <td class="posted blueText">8/23/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Sep at Manatee Cove Golf Course, Patrick Space Force Base.  Click <a href ="_PDFs/20230929_Golf_Anouncement.pdf" target ="_bank")>here</a> for details and points of contact.</td>
-                                    <td class="posted greenText">8/18/2023</td>
-                                    <td class="event greenText"> 9/29/2023</td>
-                                </tr>
+
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">Notified by Kelly (Meisenheimer) Fetto that Col Robert (Bob) A. Meisenheimer will be interred at Arlington National Cemetery the morning of October 19th, 2023.  Anyone wishing to attend should meet at Arlington's Main Gate at 10:05 that day.  Additional Information will be posted when available.</td>
                                     <td class="posted greenText">7/13/2023</td>
@@ -14225,7 +14225,7 @@
     </asp:UpdatePanel>
     
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=26"></script>
+    <script src="_Scripts/myScript.js?v=27"></script>
        
     </form>
 </body>
