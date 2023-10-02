@@ -285,7 +285,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 9/28/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 10/2/2023</span>
                     </div>
                 </div>
 
@@ -303,6 +303,11 @@
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement blueText">Checkout the latest DFAS Retiree Newsletter from our Special Links page or click <a href ="https://www.dfas.mil/RetiredMilitary/newsevents/newsletter" target ="_bank")>here</a>.  SBP and FEDVIP open seasons start soon!</td>
+                                    <td class="posted blueText">10/2/2023</td>
+                                    <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">Due to weather and course conditions, the AFTACAA Fall Golf N'GetTogether has been rescheduled for 20 Oct at Manatee Cove Golf Course, Patrick Space Force Base.  Click <a href ="_PDFs/20230929_Golf_Anouncement.pdf" target ="_bank")>here</a> for details and points of contact.</td>
@@ -329,27 +334,6 @@
                                     <td class="posted blueText">9/3/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPomo" class="announcement blueText">August PoMo was Published</td>
-                                    <td class="posted blueText">8/31/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myLindstedt" class="announcement blueText">Notified by George Mirda that Phillip J. "Phil" Lindstedt passed, 8/20/2023.  Obituary Posted.</td>
-                                    <td class="posted blueText">8/29/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement blueText">GUINNESS WORLD RECORD Fourth Of July 2023 Drone Show video added in Videos menu.  Click <a href ="_Videos/GUINNESS WORLD RECORD Fourth Of July Drone Show.mp4" target ="_bank")>here </a>to view.</td>
-                                    <td class="posted blueText">8/26/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myVickers" class="announcement blueText">Notified through Facebook that Eddie Jack Vickers passed, 8/1/2023.  Obituary Posted.</td>
-                                    <td class="posted blueText">8/23/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement greenText">Notified by Kelly (Meisenheimer) Fetto that Col Robert (Bob) A. Meisenheimer will be interred at Arlington National Cemetery the morning of October 19th, 2023.  Anyone wishing to attend should meet at Arlington's Main Gate at 10:05 that day.  Additional Information will be posted when available.</td>
                                     <td class="posted greenText">7/13/2023</td>
@@ -6176,11 +6160,15 @@
         <article id="specialLinksArt" class="myArts noDisplay">
             <asp:Label ID="Label22" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="SPECIAL LINKS"></asp:Label>
             <p class="width100 topMargin1em autoMarginLeftRight smallShadow maroonBorder">
-                This is a list of web pages that we feel would be useful to you. If you would like to see more, please contact the webmaster and let us know.
+                This is a list of web pages that we feel would be useful to you. If you would like to see more, please contact the web master and let us know.
             </p>
             <ul id="linkUl" class="autoMarginLeftRight topMargin2em">
-                  <li>
+                <li>
                     --NEWS--
+                </li>    
+                <li>
+                    <a href="https://www.dfas.mil/RetiredMilitary/newsevents/newsletter" target="_blank">DFAS Retiree Newsletter</a>
+                </li>
                 <li>
                     <a href="https://blogs.va.gov/VAntage" target="_blank">Current VA News that you might like to read.</a>
                 </li>
@@ -6203,22 +6191,22 @@
                     --VETERANS ADMINISTRATION/HEALTHCARE/BENEFITS--
                 </li>
                 <li>
-                    <a href="http://www.va.gov" target="_blank">Veterans Admin</a>
+                    <a href="http://www.va.gov" target="_blank">Veterans Administration</a>
                 </li>
                 <li>
-                    <a href="http://www.tricare.com" target="_blank">Tricare</a>
+                    <a href="http://www.tricare.com" target="_blank">TRICARE</a>
                 </li>
                 <li>
-                    <a href="https://www.tricare.mil/CoveredServices/Pharmacy/Drugs.aspx/" target="_blank">Tricare Covered Services, Pharmacy, Drugs Information</a>
+                    <a href="https://www.tricare.mil/CoveredServices/Pharmacy/Drugs.aspx/" target="_blank">TRICARE Covered Services, Pharmacy, Drugs Information</a>
                 </li>
                 <li>
                     <a href="https://www.va.gov/health-care/get-medical-records/" target="_blank">Your VA Medical records are within reach</a>
                 </li>
                 <li>
-                    <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantag:  Benifits/Blog</a>
+                    <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantage:  Benefits/Blog</a>
                 </li>
                 <li>
-                     <a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card avaialbe as prove you are eligable for discounts</a>
+                     <a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card available as proof you are eligible for discounts</a>
                 </li>
                 <li>
                    --DISCOUNTS--
@@ -14225,7 +14213,7 @@
     </asp:UpdatePanel>
     
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=27"></script>
+    <script src="_Scripts/myScript.js?v=28"></script>
        
     </form>
 </body>
