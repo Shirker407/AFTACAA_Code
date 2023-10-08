@@ -305,6 +305,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myAgenda" class="announcement blueText">Agenda for 10 October 2023 Meeting Posted.</td>
+                                    <td class="posted blueText">10/8/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myMinutes" class="announcement blueText">September Minutes Published</td>
+                                    <td class="posted blueText">10/8/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement blueText">Checkout the latest DFAS Retiree Newsletter from our Special Links page or click <a href ="https://www.dfas.mil/RetiredMilitary/newsevents/newsletter" target ="_bank")>here</a>.  SBP and FEDVIP open seasons start soon!</td>
                                     <td class="posted blueText">10/2/2023</td>
                                     <td class="event blueText"></td>
@@ -317,21 +327,6 @@
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myShanahan" class="announcement blueText">Notified through Facebook that Patrick Erin Shanahan passed away unexpectedly on 19 Sep 2023.  Obituary Posted.</td>
                                     <td class="posted blueText">9/25/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMinutes" class="announcement blueText">Aug Meeting Minutes Published</td>
-                                    <td class="posted blueText">9/18/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr> 
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="mySweet" class="announcement blueText">Notified by Tom Dunn that Richard (Rick) E. Sweet passed away on 27 Aug 2023.  Obituary Posted.</td>
-                                    <td class="posted blueText">9/3/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myBrowning" class="announcement blueText">Eric Larson's post found on Facebook noting, "Robert W. Browning passed away at his home in Fort Collins, Co on 17 May 2022 after a battle with liver cancer. Bob was Detachment Commander at 407 and assigned to HQ AFTAC/DO." Obituary Posted.</td>
-                                    <td class="posted blueText">9/3/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
@@ -3601,6 +3596,7 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/2023-9-22_Minutes.pdf" target="_blank">9-22-2023</a></li>
                     <li><a href="_Minutes/2023-8-18_Minutes.pdf" target="_blank">8-18-2023</a></li>
                     <li><a href="_Minutes/2023-7-14_Minutes.pdf" target="_blank">7-14-2023</a></li>
                     <li><a href="_Minutes/2023-6-9_Minutes.pdf" target="_blank">6-9-2023</a></li>
@@ -14213,7 +14209,7 @@
     </asp:UpdatePanel>
     
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=28"></script>
+    <script src="_Scripts/myScript.js?v=29"></script>
        
     </form>
 </body>

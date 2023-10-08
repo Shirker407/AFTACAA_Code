@@ -1459,24 +1459,8 @@ $(document).ready(function () {
     $('#myShanahan').click(function () {
         OpenObit('Shanahan');
     });
-    $('#mySweet').click(function () {
-        OpenObit('Sweet');
-    });
-    $('#myLindstedt').click(function () {
-        OpenObit('Lindstedt');
-    });
-    $('#myVickers').click(function () {
-        OpenObit('Vickers');
-    });
-    $('#myCaldwell').click(function () {
-        OpenObit('Caldwell');
-    });
-    $('#myMosley').click(function () {
-        OpenObit('Mosley');
-    });
-    $('#myBrowning').click(function () {
-        OpenObit('Browning');
-    });
+
+
     
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
@@ -2162,7 +2146,7 @@ $(document).ready(function () {
     //**********************************************************************
 
   $('#myMinutes').click(function () {
-      window.open('_Minutes/2023-8-18_Minutes.pdf', '');
+      window.open('_Minutes/2023-9-22_Minutes.pdf', '');
     });
 
     $('#AprilPomo').click(function () {
@@ -4208,14 +4192,14 @@ $(document).ready(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $('#showAgenda').css('color', 'lightgreen');
-        window.open('_PDFs/Agenda_9_2023.pdf', '');
+        window.open('_PDFs/Agenda_10_2023.pdf', '');
     });
 
     $('#showAgenda').click(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $('#showAgenda').css('color', 'lightgreen');
-        window.open('_PDFs/Agenda_9_2023.pdf', '');
+        window.open('_PDFs/Agenda_10_2023.pdf', '');
     });
 
     $('#showElected').click(function () {
