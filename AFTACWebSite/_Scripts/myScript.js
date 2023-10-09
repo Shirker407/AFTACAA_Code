@@ -4345,7 +4345,7 @@ $(document).ready(function () {
 
     $('#liSageShop').click(function () {
         resetpage()
-        window.open('/_pdfs/SageStore.pdf', '');
+        window.open('/_pdfs/SageStore_10_2023.pdf', '');
     });
 
     $('#liWall').click(function () {
