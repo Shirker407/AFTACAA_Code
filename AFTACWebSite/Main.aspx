@@ -304,6 +304,11 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td class="announcement blueText">Notified by Glenn A Woods that his father, Dale F Woods passed on 9 June 2023 of natural causes.  Glenn tells us his dad's time in AFTAC included a TDY, a short tour, RAF Edzell (71-75), and McClellan AFB.  He retired at Shaw in 1977. Glenn: "I can tell y'all that he was very, very proud of his time in AFTAC."  There is no obituary.   </td>
+                                    <td class="posted blueText">10/15/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                                  <tr class="trAnnouncementsEntry bottomDotRed">                    
                                    <td class="announcement greenText">Colorado Chapter Fall/Veterans Dinner set for 11 November 2023.  Click <a href ="/_PDFs/11102023Col_Dinner.pdf" target ="_bank")>here</a> for details and point of contact.</td>
                                    <td class="posted greenText">10/14/2023</td>
