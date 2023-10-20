@@ -305,6 +305,16 @@
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                   <td class="announcement greenText">AFTAC Toilet Bowel 2023 - 27 Oct 0830 hrs at Viera Regional Park. Click <a href ="\_Images\2023_Oct_27_Event_Softball_Poster_DV.jpg" target ="_bank")>here</a> for details and POC.</td>
+                                   <td class="posted greenText">10/20/2023</td>
+                                   <td class="event greenText"> 10/27/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myDesrosier"class="announcement blueText">Notified by Marv Owens that Charles Phillip Desrosier, SMSgt (Ret), passed on Feb 1, 2018.  Obituary posted.   </td>
+                                    <td class="posted blueText">10/20/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td class="announcement blueText">Notified by Glenn A Woods that his father, Dale F Woods passed on 9 June 2023 of natural causes.  Glenn tells us his dad's time in AFTAC included a TDY, a short tour, RAF Edzell (71-75), and McClellan AFB.  He retired at Shaw in 1977. Glenn: "I can tell y'all that he was very, very proud of his time in AFTAC."  There is no obituary.   </td>
                                     <td class="posted blueText">10/15/2023</td>
                                     <td class="event blueText"></td>
@@ -13217,7 +13227,7 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
-<%--   Current Obits Richard (Rick) E. Sweet - 8/27/2023 *****************************************************************************--%>
+ <%--   Current Obits Richard (Rick) E. Sweet - 8/27/2023 *****************************************************************************--%>
                <article>
                     <div>
                         <h2 id="ShanahanH2" class="obitH1">Patrick Erin Shanahan - 9/19/2023</h2>
@@ -13733,7 +13743,26 @@
                         The obituary was published on Legacy.com by Goes Funeral Care & Crematory - Fort Collins on May 20, 2022.<br /><br />
                         </p>
                     </div>
-               </article>              
+               </article>  
+ <%--                   Current Obits Charles Desrosier - 2/1/2018 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="DesrosierH2" class="obitH1">Charles Desrosier - 2/1/2018</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="DesrosierPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Desrosier.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Desrosier.jpg" />
+                        Charles Desrosier<br />
+                        Oct 7, 1936 - Feb 1, 2018<br /><br />
+                        Charles Phillip Desrosier was born on October 7, 1936 and passed away on February 1, 2018 in Orange Park, Florida.  He joined the USAF and AFTAC in 1957 with assignments to Spain, Alaska, Wyoming, Ascension Island, Panama, and Florida, retiring in 1980.  Charlie is survived by wife Isabel, sons Rick (USN ret), Tom (USA ret), and Greg (USA ret).
+                        To send flowers or add memories visit the original obituary link below.<br /><br />
+                                          
+                        Original obituary can be viewed at <a href="https://www.dignitymemorial.com/obituaries/orange-park-fl/charles-desrosier-7748805" target="_blank">Hardage-Giddens Rivermead Funeral Home.</a> <br /><br />
+                        </p>
+                    </div>
+                       
+               </article> 
  <%--   Current Obits Robert Eugene Justman - 6/30/2006 *****************************************************************************--%>
                <article>
                     <div>
@@ -14236,7 +14265,7 @@
     </asp:UpdatePanel>
     
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=30"></script>
+    <script src="_Scripts/myScript.js?v=31"></script>
        
     </form>
 </body>
