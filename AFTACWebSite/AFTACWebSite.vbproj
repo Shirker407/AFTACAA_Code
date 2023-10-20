@@ -113,6 +113,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Main.aspx" />
     <Content Include="PhotoGallery.html" />
+    <Content Include="_Images\2023_Oct_27_Event_Softball_Poster_DV.jpg" />
     <Content Include="_Images\91Years\4Photos.png" />
     <Content Include="_Images\91Years\Badge.png" />
     <Content Include="_Images\91Years\Logo1.png" />
@@ -141,6 +142,7 @@
     <Content Include="_Photos\ObitPics\Browning.jpg" />
     <Content Include="_Photos\ObitPics\caldwell.jpg" />
     <Content Include="_Photos\ObitPics\ciambroneTom.jpg" />
+    <Content Include="_Photos\ObitPics\Desrosier.jpg" />
     <Content Include="_Photos\ObitPics\Feakes.jpg" />
     <Content Include="_Photos\ObitPics\JohnsonBJ.jpg" />
     <Content Include="_Photos\ObitPics\Justman.jpg" />

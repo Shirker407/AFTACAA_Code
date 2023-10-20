@@ -1459,6 +1459,9 @@ $(document).ready(function () {
     $('#myShanahan').click(function () {
         OpenObit('Shanahan');
     });
+    $('#myDesrosier').click(function () {
+        OpenObit('Desrosier');
+    });
 
 
     
@@ -1536,7 +1539,11 @@ $(document).ready(function () {
                  break;   
             case 'JustmanH2':
                 ShowMyObit('Justman')
-                break;
+                 break;
+             case 'DesrosierH2':
+                 ShowMyObit('Desrosier')
+                 break;
+                 
         }
 
         $('#butShowListings').val('Return to Obituaries');
