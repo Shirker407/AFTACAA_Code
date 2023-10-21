@@ -335,19 +335,9 @@
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">Due to weather and course conditions, the AFTACAA Fall Golf N'GetTogether has been rescheduled for 20 Oct at Manatee Cove Golf Course, Patrick Space Force Base.  Click <a href ="_PDFs/20230929_Golf_Anouncement.pdf" target ="_bank")>here</a> for details and points of contact.</td>
-                                    <td class="posted greenText">9/28/2023</td>
-                                    <td class="event greenText"> 10/20/2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myShanahan" class="announcement blueText">Notified through Facebook that Patrick Erin Shanahan passed away unexpectedly on 19 Sep 2023.  Obituary Posted.</td>
                                     <td class="posted blueText">9/25/2023</td>
                                     <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">Notified by Kelly (Meisenheimer) Fetto that Col Robert (Bob) A. Meisenheimer will be interred at Arlington National Cemetery the morning of October 19th, 2023.  Anyone wishing to attend should meet at Arlington's Main Gate at 10:05 that day.  Additional Information will be posted when available.</td>
-                                    <td class="posted greenText">7/13/2023</td>
-                                    <td class="event greenText"> 10/19/2023</td>
                                 </tr>
 <!--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAgenda" class="announcement blueText">Agenda for 14 July 2023 Meeting Posted.</td>
@@ -398,24 +388,24 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Tuesday 10 October<br />
-                        <!--11:30 - 13:00 Hrs<br />-->
-                        15:00 - 16:00 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 17 November<br />
+                        11:30 - 13:00 Hrs<br />
+                        <%--15:00 - 16:00 Hrs<br />--%>
                         --------------------------<br />
                         <!--AFTAC Alumni Association Annual General Membership Meeting and Elections Luncheon and Teleconference<br />-->
                         AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
                         <!--Putter's Lounge, Manatee Cove Golf Course<br />-->
-                        HQ AFTAC <br />
+                        <%--HQ AFTAC <br />
                         Heritage Room<br />
-                        Patrick SFB FL<br />
-                        <!--Beef O'Brady's<br />
+                        Patrick SFB FL<br />--%>
+                        Beef O'Brady's<br />
                         3030 Lake Washington Road<br />
                         Melbourne FL<br />
-                        724 S Patrick Drive<br />                         
+                        <!--724 S Patrick Drive<br />                         
                         Satellite Beach FL<br />-->
            
-                        <!--Note:  Please arrive at 1100 if you desire to order food/beverages. <br />-->
+                        Note:  Please arrive at 1100 if you desire to order food/beverages. <br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
                         Ed Lindsay, AFTACAA President, at <a href="MailTo: piston_horse@hotmail.com">piston_horse@hotmail.com</a>
