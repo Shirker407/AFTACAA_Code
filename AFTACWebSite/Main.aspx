@@ -304,6 +304,12 @@
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myTillman"class="announcement blueText">Notified by Chuck Conrad that Manning Tillman passed on Aug 2, 2023.  Obituary posted.   </td>
+                                    <td class="posted blueText">10/24/2023</td>
+                                    <td class="event blueText"></td>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                    <td class="announcement greenText">AFTAC Toilet Bowel 2023 - 27 Oct 0830 hrs at Viera Regional Park. Click <a href ="\_Images\2023_Oct_27_Event_Softball_Poster_DV.jpg" target ="_bank")>here</a> for details and POC.</td>
                                    <td class="posted greenText">10/20/2023</td>
@@ -13289,6 +13295,31 @@
                         Arrangements are pending but will be announced with an AFTAC Alumni e-Alert or note to this group when known.  A celebration of life is envisioned in lieu of funeral services.<br /><br />
                         </p>
                     </div>
+               </article> 
+<%--   Current Obits Manning Franklin Tillman - 8/2/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="TillmanH2" class="obitH1">Manning Franklin Tillman - 8/2/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="TillmanPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Tillman.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Tillman.jpg" />
+                        Manning Franklin Tillman<br />
+                        1939 - 2023<br /><br />
+                        Mr. Manning Tillman, 83, of Kernersville passed away on August 2, 2023 at his home. Born in San Diego, California, he was the son of the late Marne Jaxon.<br /><br />
+                        At the beginning of the Vietnam War, Manning enlisted in the United States Air Force, where he served for twelve years. He then was employed by Teledyne Geotech, Boeing and finally retired from the Center for Science and the Public Interest in Washington D. C.. After retiring and moving to North Carolina, he enjoyed working at Salem Lake.<br /><br />
+                        He attended George Mason University and graduated with a Bachelor's of Science degree.<br /><br />
+                        Manning had many interests including photography, tennis, coaching soccer, target shooting, bridge, fishing, reading, and football.<br /><br />
+                        Family always came first for Manning. His wife, daughter, granddaughter and friends could always depend on him. Manning will always be in our hearts and missed forever.<br /><br />
+                        He is survived by his loving wife, Mona Harris; his daughter, Elizabeth Tillman; his granddaughter, Madeline Harris Teague; his brother, Paul Tillman (Christy); and a large, extended family including nieces, nephews, and many loving in-laws.<br /><br />
+                        In addition to his parents, he was preceded in death by his son, Todd Tillman; and his brother, Bruce Jonathan Tillman.<br /><br />
+                        Floral arrangements may be sent to Pierce-Jefferson Funeral Service and memorial contributions may be donated to the American Cancer Society.<br /><br />
+                        Friends and family may sign the guestbook online at www.piercejeffersonfh.com<br /><br />
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href="https://piercejeffersonfh.com/tribute/details/321888/Manning-Tillman/obituary.html" target="_blank">Pierce-Jefferson Funeral Service.</a><br /><br />
+                        A memorial video may be viewed <a href="https://piercejeffersonfh.com/tribute/details/321888/Manning-Tillman/memorial-video.html#content-start" target="_blank">here.</a><br /><br />
+                        </p>
+                    </div>
                </article>  
 <%--   Current Obits Eddie Jack Vickers - 8/1/2023 *****************************************************************************--%>
                <article>
@@ -14255,7 +14286,7 @@
     </asp:UpdatePanel>
     
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=31"></script>
+    <script src="_Scripts/myScript.js?v=32"></script>
        
     </form>
 </body>

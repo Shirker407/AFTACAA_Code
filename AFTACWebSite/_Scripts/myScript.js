@@ -1462,12 +1462,18 @@ $(document).ready(function () {
     $('#myDesrosier').click(function () {
         OpenObit('Desrosier');
     });
+    $('#myTillman').click(function () {
+        OpenObit('Tillman');
+    });
 
 
     
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
          switch (myText) {  
+             case 'TillmanH2':
+                 ShowMyObit('Tillman')
+                 break;
              case 'ShanahanH2':
                  ShowMyObit('Shanahan')
                   break;
