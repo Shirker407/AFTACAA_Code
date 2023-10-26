@@ -32,7 +32,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>AFTAC Alumni Association</title>
     <meta charset="utf-8" />
     <!--THis didn't work to cause the .js and .css files to reload is they were changed....
