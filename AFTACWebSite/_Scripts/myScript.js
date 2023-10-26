@@ -239,7 +239,7 @@ $(document).ready(function () {
     });
 
     $('#butCOE').click(function () {
-        window.open('_pdfs/Calendar_15_Jul_2023.pdf', '');
+        window.open('_pdfs/Calendar_24_Oct_2023.pdf', '');
     });
 
     $('#myCorona').click(function () {
@@ -270,6 +270,9 @@ $(document).ready(function () {
     });
 
     $('#btnMemWallDonation').click(function () {
+        window.open('_pdfs/MemorialWallJune2023.pdf', '')
+    });
+    $('#btnMemWallDonation2').click(function () {
         window.open('_pdfs/MemorialWallJune2023.pdf', '')
     });
 
@@ -1453,34 +1456,48 @@ $(document).ready(function () {
         $('#CommInitial').removeClass('block').addClass('block');
     });
     */
-     
-
-  
-    $('#myWilliamson').click(function () {
-        OpenObit('Williamson');
+    $('#myShanahan').click(function () {
+        OpenObit('Shanahan');
     });
-    $('#myMcCloskey').click(function () {
-        OpenObit('McCloskey');
+    $('#myDesrosier').click(function () {
+        OpenObit('Desrosier');
     });
-    $('#myJohnson').click(function () {
-        OpenObit('Johnson');
-    });
-    $('#myLandry').click(function () {
-        OpenObit('Landry');
-    });
-    $('#myFeakes').click(function () {
-        OpenObit('Feakes');
+    $('#myTillman').click(function () {
+        OpenObit('Tillman');
     });
 
+
+    
      $('.obitH1').click(function () {
         myText = $(this).attr('id');
          switch (myText) {  
+             case 'TillmanH2':
+                 ShowMyObit('Tillman')
+                 break;
+             case 'ShanahanH2':
+                 ShowMyObit('Shanahan')
+                  break;
+             case 'SweetH2':
+                 ShowMyObit('Sweet')
+                 break;
+             case 'MosleyH2':
+                 ShowMyObit('Mosley')
+                 break;
+             case 'OverbyH2':
+                 ShowMyObit('Overby')
+                 break;
+             case 'LindstedtH2':
+                 ShowMyObit('Lindstedt')
+                 break;
              case 'JohnsonH2':
                  ShowMyObit('Johnson')
                  break;      
              case 'FeakesH2':
                  ShowMyObit('Feakes')
                  break;    
+             case 'VickersH2':
+                 ShowMyObit('Vickers')
+                 break; 
              case 'LandryH2':
                  ShowMyObit('Landry')
                  break;     
@@ -1519,10 +1536,20 @@ $(document).ready(function () {
                 break;
             case 'BalentineH2':
                 ShowMyObit('Balentine')
-                break;
+                 break;
+             case 'CaldwellH2':
+                 ShowMyObit('Caldwell')
+                 break;
+             case 'BrowningH2':
+                 ShowMyObit('Browning')
+                 break;   
             case 'JustmanH2':
                 ShowMyObit('Justman')
-                break;
+                 break;
+             case 'DesrosierH2':
+                 ShowMyObit('Desrosier')
+                 break;
+                 
         }
 
         $('#butShowListings').val('Return to Obituaries');
@@ -2132,7 +2159,7 @@ $(document).ready(function () {
     //**********************************************************************
 
   $('#myMinutes').click(function () {
-        window.open('_Minutes/2023-6-9_Minutes.pdf', '');
+      window.open('_Minutes/2023-9-22_Minutes.pdf', '');
     });
 
     $('#AprilPomo').click(function () {
@@ -2140,9 +2167,8 @@ $(document).ready(function () {
     });       
 
     $('#AugustPomo').click(function () {
-        window.open('http://aftacaa.us/_Pomos/PoMo2022_08.pdf', '');
+        window.open('http://aftacaa.us/_Pomos/PoMo2023_08.pdf', '');
     });
-
     $('#DecemberPomo').click(function () {
         window.open('http://aftacaa.us/_Pomos/PoMo2022_12.pdf', '');
     });
@@ -4160,6 +4186,7 @@ $(document).ready(function () {
             scrollTop: $("#mainHeader").offset().top
         }, 500);
     });
+    //Used for Recent Additions Table Announcement-CAN BE DELETED AFTER 9/10/2023
 
     $('#showMinutes').click(function () {
         subclicked = true;
@@ -4178,14 +4205,14 @@ $(document).ready(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $('#showAgenda').css('color', 'lightgreen');
-        window.open('_PDFs/agenda_7_2023.pdf', '');
+        window.open('_PDFs/Agenda_10_2023.pdf', '');
     });
 
     $('#showAgenda').click(function () {
         subclicked = true;
         $('.underSel').css('color', 'yellow');
         $('#showAgenda').css('color', 'lightgreen');
-        window.open('_PDFs/agenda_7_2023.pdf', '');
+        window.open('_PDFs/Agenda_10_2023.pdf', '');
     });
 
     $('#showElected').click(function () {
@@ -4270,7 +4297,14 @@ $(document).ready(function () {
         }, 500);
         //    window.open('_PDFs/79 Years Ago.pdf');
     });
-
+    $('#myLittleGreenMan, #LittleGreenMan').click(function () {
+        $('.myArts').removeClass('block').addClass('noDisplay');
+        $('#LittleGreenManArt').removeClass('noDisplay').addClass('block');
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#LittleGreenManArt").offset().top
+        }, 500);
+       });
+    
     $('#mySpy').click(function () {
         window.open('https://www.scmp.com/news/china/military/article/3154476/us-spy-planes-over-south-china-sea-likely-surveyed-nuclear', '');
     });
@@ -4324,7 +4358,7 @@ $(document).ready(function () {
 
     $('#liSageShop').click(function () {
         resetpage()
-        window.open('/_pdfs/SageStore.pdf', '');
+        window.open('/_pdfs/SageStore_10_2023.pdf', '');
     });
 
     $('#liWall').click(function () {
@@ -5038,7 +5072,9 @@ $(document).ready(function () {
             scrollTop: $("#mainHeader").offset().top
         }, 500);
     });
-
+    $('#vidDrones').click(function () {
+        window.open('_Videos/GUINNESS WORLD RECORD Fourth Of July Drone Show.mp4', '');
+    });
     $('#vidDedication').click(function () {
         window.open('https://www.youtube.com/embed/pjhml8xTMLI', '');
     });

@@ -12,10 +12,11 @@
      <%--picnicArt = AFTAC Annual Spring Picnic --%>                                     
      <%--sbArt = SnowBall 2018 --%>                                      
      <%--2017AirShowArt = 2017 Air Show Video --%>                                      
-     <%--2018AirShowArt = 2018 Air Show Video --%>                                     
+     <%--2018AirShowArt = 2018 Air Show Video --%>                                  
      <%--dedicationArt =  Building Dedication Video --%>                                     
      <%--reunionArt = 2015 Reunion Video --%>                                      
      <%--WallofHonorArt = Wall of Honor Video --%>                                      
+
      <%--underArt = Video of New Building Upgrade --%>                                      
      <%--historyAlumniArt = History of Alumni Association --%>                                      
      <%--historyArt =  History of AFTAC --%>                                      
@@ -35,12 +36,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>AFTAC Alumni Association</title>
     <meta charset="utf-8" />
-    <!--THis didn't work to cause the .js and .css files to reload is they were changed....
-        <filesMatch ".(js|css)$">
-                Header set Cache-Control "max-age=31536000, public"
-                Header unset Last-Modified
-                Header set ETag
-    </filesMatch>-->
+
     
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
@@ -140,7 +136,7 @@
                                     <span id="Golf2021" class="underSel block bottomDot">Golf N'Get Together</span>
                                     <span id="OH2021" class="underSel block bottomDot">AFTAC Open House</span>
                                     <span id="WOHAwards2021" class="underSel block bottomDot">WOH Awards</span>
-                                    <span id="AftacAwards2021" class="underSel block bottomDot">Aftac Awards Ceremony</span>
+                                    <span id="AftacAwards2021" class="underSel block bottomDot">AFTAC Awards Ceremony</span>
                                 </div>
                                 <hr class="myHR" />
                             </div>
@@ -192,6 +188,7 @@
 
                     <li id="liHistory" class="liMainMenu bottomDot">Histories
                         <div id="divHistory" class="underMenu noDisplay">
+                            <span id="myLittleGreenMan" class="myHistories underSel block leftMargin1em bottomDot yellowText">X-file solved?</span>
                             <span id="mnubecoming99" class="myHistories underSel block leftMargin1em bottomDot yellowText">Becoming a "99"</span>
                             <span id="my79Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">79 Years Ago</span>
                             <span id="my91Years" class="myHistories underSel block leftMargin1em bottomDot yellowText">AFTAC 91 Years of Proud 99 Service</span>
@@ -236,6 +233,7 @@
 
                     <li id="liVideos" class="liMainMenu bottomDot">Videos
                         <div id="divVideos" class="underMenu noDisplay">
+                            <span id="vidDrones" class="underSel block bottomDot leftMargin1em">World Record 4th of July Drone Show</span>
                             <span id="vidSeminar" class="underSel block bottomDot leftMargin1em">AFTAC Mission Briefing</span>
                             <span id="vid_2017AirShow" class="underSel block bottomDot leftMargin1em">2017 Melbourne Airshow</span>
 <%--                            <span id="vid_2018AirShow" class="underSel block bottomDot leftMargin1em">2018 Melbourne Airshow</span>--%>
@@ -257,7 +255,7 @@
 <%--Page Header  *****************************************************************************--%>
         <header id="mainHeader" class="myHeader topMargin1em showShadow block" style="margin-left:22%;" runat="server">
             <div class="floatLeft backMoccasin width25" style="background-color:chocolate;">
-                <asp:ImageButton ID="alumniLogo" CssClass="width50" ImageUrl="_Images/alumniLogo.png" runat="server" OnClick="alumniLogo_Click" />
+                <asp:ImageButton ID="alumniLogo" CssClass="width50 topPadding1em" ImageUrl="_Images/alumniLogo.png" runat="server" OnClick="alumniLogo_Click" />
             </div>
             <div class="floatLeft backMoccasin width45" style="margin-top:.25em;">
                 <asp:Label ID="Label1" CssClass="block" ForeColor="Yellow" BackColor="Chocolate" Font-Bold="true" Font-Size="2.5em" runat="server" Text="AFTAC ALUMNI"></asp:Label>
@@ -265,7 +263,7 @@
                 <asp:Label ID="Label20" CssClass="block" ForeColor="Yellow" BackColor="Chocolate" Font-Bold="true" Font-Size="2.5em" runat="server" Text="(AFTACAA)"></asp:Label>
             </div>  
             <div class="floatLeft backMoccasin width30" style="background-color:chocolate;">
-                <img id="clickImage" alt="_Images/EFAE.png" class="width50"  src="_Images/EFAE.png" />
+                <img id="clickImage" alt="_Images/EFAE.png" class="width50 topPadding1em"  src="_Images/EFAE.png" />
             </div>
 
             <div class="clear"></div>
@@ -275,7 +273,7 @@
             <div class="floatLeft width55">
                 <div class="floatLeft centerDiv width50">
                     <div id="butWallNames" class="autoMarginLeftRight backYellow width90 blackBorder padding5 showShadow" style="cursor:pointer;">
-                        <span class="centerText backYellow bold" style="color:black;">Posting of Our Memorial<br />Names - 9/5/2020</span>
+                        <span class="centerText backYellow bold" style="color:black;">Posting of Our Memorial<br />Names - 9/4/2023</span>
                     </div>
                     <div id="butCoronaInfo" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue; border:solid;border:solid;border-radius:10px;">
                         <span class="centerText bold backDarkBlue lightBlueText">PSFB Current Status regarding Covid-19</span>
@@ -287,7 +285,7 @@
                     </div>
 
                     <div id="butCOE" class="autoMarginLeftRight topMargin1em backDarkBlue width90 padding5 showShadow" style="cursor:pointer;border-color:lightblue;border:solid;border:solid;border-radius:10px;">
-                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 7/15/2023</span>
+                        <span class="centerText bold backDarkBlue lightBlueText">Calendar of Events<br />Updated 10/24/2023</span>
                     </div>
                 </div>
 
@@ -300,72 +298,59 @@
                         </div>
                         <div>
                             <table class="tableAnnouncements">
+ 
                                 <tr class="trAnnouncementsHeader bottomDotRedThick">
                                     <td class="announcementHdr"><span class='blueText'>Additions (Blue),</span><br /><span class="redText">Hot Topics (Red),</span><br /><span class="greenText">Upcoming Events (Green)</span></td>
                                     <td class="posted redText">Date<br />Posted</td>
                                     <td class="event redText">Event<br />Date</td>
                                 </tr>
+                                </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myFeakes" class="announcement blueText">Notified by Maureen Hampson that Glen Allen Feakes passed on 19 Jul 2023. Obituary posted here.</td>
-                                    <td class="posted blueText">7/28/2023</td>
+                                    <td id="myTillman"class="announcement blueText">Notified by Chuck Conrad that Manning Tillman passed on Aug 2, 2023.  Obituary posted.   </td>
+                                    <td class="posted blueText">10/24/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myLandry" class="announcement blueText">Roland Landry provided an obituary for Col. (Ret) Tannie Hamilton (Jones) Landry, 4/8/2023. We've posted it here.</td>
-                                    <td class="posted blueText">7/28/2023</td>
+                                   <td class="announcement greenText">AFTAC Toilet Bowel 2023 - 27 Oct 0830 hrs at Viera Regional Park. Click <a href ="\_Images\2023_Oct_27_Event_Softball_Poster_DV.jpg" target ="_bank")>here</a> for details and POC.</td>
+                                   <td class="posted greenText">10/20/2023</td>
+                                   <td class="event greenText"> 10/27/2023</td>
+                                </tr>
+                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                    <td id="myDesrosier"class="announcement blueText">Notified by Marv Owens that Charles Phillip Desrosier, SMSgt (Ret), passed on Feb 1, 2018.  Obituary posted.   </td>
+                                    <td class="posted blueText">10/20/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTAC leadership invites the Aluimni to their 9/11 Retreat Ceremony, 6 Sep 2023, HQ AFTAC, Patrick Space Force Base.  Col Finlayson will address those assembled at 1620 with Retreat following at 1630.</td>
-                                    <td class="posted greenText">7/24/2023</td>
-                                    <td class="event greenText"> 6 Sep 2023</td>
+                                    <td class="announcement blueText">Notified by Glenn A Woods that his father, Dale F Woods passed on 9 June 2023 of natural causes.  Glenn tells us his dad's time in AFTAC included a TDY, a short tour, RAF Edzell (71-75), and McClellan AFB.  He retired at Shaw in 1977. Glenn: "I can tell y'all that he was very, very proud of his time in AFTAC."  There is no obituary.   </td>
+                                    <td class="posted blueText">10/15/2023</td>
+                                    <td class="event blueText"></td>
                                 </tr>
-                               <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTACAA Fall Golf N'GetTogether set for 29 Sep at Manatee Cove Golf Course, Patrick Space Force Base.  Contact <a href="mailto:piston_horse@hotmail.com"> Ed Lindsay</a> (piston_horse@hotmail.com) for details and to enter.</td>
-                                    <td class="posted greenText">7/22/2023</td>
-                                    <td class="event greenText"> 29 Sep 2023</td>
+                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
+                                   <td class="announcement greenText">Colorado Chapter Fall/Veterans Dinner set for 11 November 2023.  Click <a href ="/_PDFs/11102023Col_Dinner.pdf" target ="_bank")>here</a> for details and point of contact.</td>
+                                   <td class="posted greenText">10/14/2023</td>
+                                   <td class="event greenText"> 11/11/2023</td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myJohnson" class="announcement blueText">Notified by Maureen Hampson that Brent (BJ) Johnson passed, 7/6/2023.  Available information posted.</td>
-                                    <td class="posted blueText">7/18/2023</td>
+                                    <td class="announcement blueText">Deep discount (67% off!) offered to Brevard County residents for 16-29 October admission at Kennedy Space Center Visitor Complex. Click <a href ="https://www.kennedyspacecenter.com/info/tickets" target ="_bank")>here</a> to go to Kennedy Space Center tickets page.  Look for 'Salute To Brevard' under Special Offers.</td>
+                                    <td class="posted blueText">10/14/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="Td2" runat="server" OnClick="obitsArchived_Click" class="announcement blueText">Obituary added to the archives for William Curtis Rogers, 8/27/2021.  Click on Obituaries and Archived in the main menu to search our archives.</td>
-                                    <td class="posted blueText">7/15/2023</td>
+                                    <td class="announcement blueText">Checkout the latest DFAS Retiree Newsletter from our Special Links page or click <a href ="https://www.dfas.mil/RetiredMilitary/newsevents/newsletter" target ="_bank")>here</a>.  SBP and FEDVIP open seasons start soon!</td>
+                                    <td class="posted blueText">10/2/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">AFTAC Memorial Dedication Ceremony, 4 Aug 2023, 10:30 am.  <a href="https://einvitations.afit.edu/inv/anim.cfm?i=776508&k=0566440C7B5F" target="_blank">You played a big part in making this happen and are all invited (click for invitation)!</a>  Zoom Meeting details also included.</td>
-                                    <td class="posted greenText">7/15/2023</td>
-                                    <td class="event greenText"> 4 Aug 2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myMcCloskey" class="announcement blueText">Notified by John Horsch that Charles Stuart McCloskey Jr. passed on 7/8/2023.  Obituary Posted.</td>
-                                    <td class="posted blueText">7/14/2023</td>
+                                    <td id="myShanahan" class="announcement blueText">Notified through Facebook that Patrick Erin Shanahan passed away unexpectedly on 19 Sep 2023.  Obituary Posted.</td>
+                                    <td class="posted blueText">9/25/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="Td1" runat="server" OnClick="obitsArchived_Click" class="announcement blueText">Obituary added to the archives for Lindsay Edward Miller, 6/3/1998.  Click on Obituaries and Archived in the main menu to search our archives.</td>
-                                    <td class="posted blueText">7/14/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td class="announcement greenText">Notified by Kelly (Meisenheimer) Fetto that Col Robert (Bob) A. Meisenheimer will be interred at Arlington National Cemetery the morning of October 19th, 2023.  Anyone wishing to attend should meet at Arlington's Main Gate at 10:05 that day.  Additional Information will be posted when available.</td>
-                                    <td class="posted greenText">7/13/2023</td>
-                                    <td class="event greenText"> 19 Oct 2023</td>
-                                </tr>
-                                <tr class="trAnnouncementsEntry bottomDotRed">                    
+<!--                                <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myAgenda" class="announcement blueText">Agenda for 14 July 2023 Meeting Posted.</td>
                                     <td class="posted blueText">7/13/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myWilliamson" class="announcement blueText">Notified by Tony De Marco that Donald "Donnie" Nash Williamson has passed, 7/4/2023.  Obituary Posted.</td>
-                                    <td class="posted blueText">7/10/2023</td>
-                                    <td class="event blueText"></td>
-                                </tr>
-<!--                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
                                     <td id="myMinutes" class="announcement blueText">June Minutes Published</td>
                                     <td class="posted blueText">6/18/2023</td>
                                     <td class="event blueText"></td>
@@ -377,7 +362,7 @@
                                     <td class="event blueText"></td>
                               
                                 <tr class="trAnnouncementsEntry bottomDotRed">                    
-                                    <td id="myPomo" class="announcement blueText">April Pomo was Published</td>
+                                    <td id="myPomo" class="announcement blueText">April PoMo was Published</td>
                                     <td class="posted blueText">4/27/2023</td>
                                     <td class="event blueText"></td>
                                 </tr>
@@ -409,20 +394,23 @@
                 <div id="meetingBox" class="width90 autoMarginLeftRight backYellow redBorder showShadow">
 <%--                    <p class="centerText"><span class="redText topMargin1em underLine" style="font-size:1.2em;">Florida AFTAC Alumni Association Regular Teleconference Meeting</span><br /><br />--%>
 
-                    <p class="blueText fontSize1_Halfem centerText">Friday 18 August<br />
-                        11:30 - 12:30 Hrs<br />
+                    <p class="blueText fontSize1_Halfem centerText">Friday 17 November<br />
+                        11:30 - 13:00 Hrs<br />
+                        <%--15:00 - 16:00 Hrs<br />--%>
                         --------------------------<br />
-                        AFTAC Alumni Association General Membership Off-Site Luncheon and Teleconference Meeting<br />
-                        <!--AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />-->
+                        <!--AFTAC Alumni Association Annual General Membership Meeting and Elections Luncheon and Teleconference<br />-->
+                        AFTAC Alumni Association Monthly General Membership and Teleconference Meeting<br />
                         --------------------------<br />
-                        <!--HQ AFTAC <br />
-                        Lobby Conference Room<br />
-                        Patrick SFB FL<br />-->
+                        <!--Putter's Lounge, Manatee Cove Golf Course<br />-->
+                        <%--HQ AFTAC <br />
+                        Heritage Room<br />
+                        Patrick SFB FL<br />--%>
                         Beef O'Brady's<br />
                         3030 Lake Washington Road<br />
                         Melbourne FL<br />
                         <!--724 S Patrick Drive<br />                         
                         Satellite Beach FL<br />-->
+           
                         Note:  Please arrive at 1100 if you desire to order food/beverages. <br />
                         --------------------------<br />
                         For Teleconference connectivity, please email<br />
@@ -808,6 +796,24 @@
 
             </p>
         </article>
+<article id="LittleGreenManArt" class="myArts noDisplay">
+            <p class="pTitle centerText underLine">X-file solved? Truth behind Roswell 'alien' that made a woman faint</p>
+            <p>
+             <br />
+                By Rick Neale, FLORIDA TODAY reported on Feb. 6, 2020<br /><br />
+            <img alt="Singlevich.jpg" class="width20 autoMarginLeftRight bottomMargin1em maroonBorder showShadow" src="_Photos/Histories/Singlevich.jpg" />
+            <img alt="SamplingBalloon.jpg" class="width20 leftMargin20em bottomMargin1em maroonBorder showShadow" src="_Photos/Histories/SamplingBalloon.jpg" /> <br />
+            Walter Singlevich, a former Melbourne Beach resident, died in 1992 at age 73 - and in his later years, he joked that he was a Roswell alien.<br /><br />
+    	    After taking off from Roswell, Walter Singlevich's military helicopter flew across the dusty New Mexico plains to his top-secret Cold War-era target: a silvery balloon equipped to detect nuclear detonations that lay sprawled atop a knoll near a rural ranch house.<br /><br />
+            The helicopter landed nearby.  Singlevich and the pilot donned bulky 1950s-era radiation protective suits - complete with hoods and respirators - and hustled up the hill.  <br /><br />
+            That's when the short-statured Singlevich may have inadvertently added a chapter to the "little green men" alien conspiracy lore that swirls around Roswell, New Mexico, where some believe a UFO crashed in 1947.  "As they came over the rise where the balloon was, they ran into this woman who was coming from the ranch house," said Jim Whidden, Air Force Technical Applications Center director of staff.  "And when she saw them, she fainted," Whidden said.  "So they walked over and made sure that she didn't hurt herself, and basically left her there - this was very highly classified. They picked up the balloon and all the equipment and the sample, and took it back to the helicopter and left," he said.<br /><br />
+            AFTAC officials shared details of Singlevich's faint-inducing encounter with FLORIDA TODAY, marking the story's first public release. The incident occurred in 1951 or 1952 and was considered classified until 2017, said James Michael Young, AFTAC command historian.    <br /><br />
+            Additional details have been lost over the decades, Young said. The woman's identity and location remain a mystery. 
+            Singlevich, in his later years, joked that he was a Roswell space alien, Whidden said. He told friends that the stunned woman could have passed a lie detector test while contending she had seen extraterrestrial visitors and their ship.                <br /><br />
+            To view a video of the FLORIDA TODAY interview, visit <a href="https://www.floridatoday.com/videos/news/2020/02/06/roswell-alien-who-made-woman-faint-1950-s-patrick-air-force-base-icon-military-says/4669385002/?fbclid=IwAR0vcUTuDnTE21CNSOF4n5S85tjiccpHUPSaYWrMTsF_pyvq_nBapgCx8iQ" target="_blank">Roswell 'alien' who made woman faint in 1950s was Patrick AFB icon</a>. <br />
+            To view the published Florida Today article with additional detail and photos, visit <a href="https://www.floridatoday.com/in-depth/news/local/2020/02/06/military-roswell-alien-made-woman-faint-in-1950-patrick-air-force-base-scientist/2831138001/" target="_blank">X-file solved? Truth behind Roswell 'alien' that made a woman faint</a>. <br />
+            </p>
+        </article>
 
 <%--79 Years Article  *****************************************************************************--%>  
         <article id="79YearsArt" class="myArts noDisplay">
@@ -1021,7 +1027,7 @@
             <div class="clear"></div>
 
             <p class="centerText bold fontSize1_Halfem">
-                The last two remaining survivers
+                The last two remaining survivors
             </p>
 
             <figure>
@@ -1031,7 +1037,7 @@
 
             <p class="fontSize2em bold centerText">They are all gone and should never be forgotten.</p>
         </article>
-<%--Colorado Chapter Breacfast 2023 Article  *****************************************************************************--%>  
+<%--Colorado Chapter Breakfast 2023 Article  *****************************************************************************--%>  
         <article id="CoBreakfastArt" class="myArts noDisplay">
             <p class="pTitle centerText underLine">Colorado Chapter Breakfast </p>
 
@@ -1375,7 +1381,7 @@
                         <div>
                             <asp:Button ID="btnMemSave" CssClass="myBut autoMarginLeftRight block" Width="9em" runat="server" Text=" Save Changes " OnClick="btnSave_Click" />
                             <asp:Button ID="btnAdd" CssClass="myBut autoMarginLeftRight block topMargin1em" Width="9em" runat="server" Text=" Add New " OnClick="btnAdd_Click"  />
-<!-- This tet box is a troubleshooting aid and can be assigned values in Main.aspx.vb on lines 1240 and 1273********************************************************************** --> 
+<!-- This text box is a troubleshooting aid and can be assigned values in Main.aspx.vb on lines 1240 and 1273********************************************************************** --> 
                        <!--<asp:TextBox ID="txtsql" runat="server" Width="90%" TextMode="MultiLine"></asp:TextBox>--->
                         
                         
@@ -2794,106 +2800,115 @@
             </div>
 
         </article>
-<%--Posting of Our Memorial  Names Article *****************************************************************************--%>        
+<%--Posting of Our Memorial Names Article *****************************************************************************--%>        
         <article id="MemorialArt" class="myArts noDisplay">
-            <p id="memTitle" class="pTitle centerText underLine">Posting of Our Memorial  Names </p>
-
+            <p id="memTitle" class="pTitle centerText underLine">Posting of Our Memorial Names</p>
+            <p class ="centerText marontext">(Updated September 2023)<br /></p>
             <p>
-                The AFTAC Memorial Project is still progressing and seeking donations, especially from those that served with AFTAC, the Long Range Detection (LRD) and AFOAT-1. We are actively pursuing as many ways to fund this project as possible. An article was posted in the Florida Today Newspaper on Sunday, August 30th.  You can read this article at:  
-                <span id ="FloridaTodayArticle" class="autoMarginLeftRight redText underLine italic fontSize1em" style="cursor:pointer;">Florida Today Article</span><br /> 
-                If you want to read this, please do it soon since they will pull the article after a short time.
+                The AFTAC Memorial has been built and dedicated, yet the project is still progressing and seeking donations, especially from those that served with AFTAC, the Long Range Detection (LRD) and AFOAT-1. We are focused on adding the sculpture of a Lithium atom and ensuring we have the ability to add individuals to the memorial and maintain the site over the long term.  We continue to pursue funding for this project.  An article was posted in the Florida Today Newspaper on Sunday, August 30th, 2020 describing our original purpose and goals. 
+               <%-- <span id ="FloridaTodayArticle" class="autoMarginLeftRight redText underLine italic fontSize1em" style="cursor:pointer;">Florida Today Article</span><br /> --%>
+               <br /><br />
+                Purchasing a brick is one of our best ways to contribute and create an enduring legacy of that contribution, however, any donation is helpful.  A donation form for internet donations can be found below or you can use the on line Brick Order/Donation Form 
+                <a class="autoMarginLeftRight" href="Https://donate.Brickmarkers.com/aftacmc" target="_blank">here</a>.
                 <br /><br />
-                We fully realize that we are in a pandemic state and that some of you might not be able to bear this expense.  However, while purchasing a brick is one of our best sellers, any donation is always helpful.  This eAllert will be posted on our website: www.aftacaa.us listed on the first page under the link: Posting of Our Memorial  Names - 9/5.  A donation form and links for internet donations can also be found there under: AFTAC Memorial Corp - Update 8/14.  It will also be printed in our next Post Monitor's December Issue. Finally, you can go directly to the Corporation site to place an order now at: 
-                <a class="autoMarginLeftRight" href="Https://donate.Brickmarkers.com/aftacmc" target="_blank">Brick Order Form</a>
-                <br /><br />
-                This listing, received from the AFTAC Historian, Dr Mike Young, is of those departed members that died while assigned to AFTAC (LRD). We have additional information on some of these individuals.  However, the one's marked with an asterisk (*) indicate those members that we have little, or no information.  As you go through the list, if you recognize the name and have knowledge of the date they passed, how it happened and any knowledge of their association with the AFTAC, LRD, AFOAT-1 organization, and anything else that might be pertinent, please provide what you know to our Alumni President, <a href="MailTo:afsophil@gmail.com">Phil Godfrey</a>. 
+                The listing below includes all the members that have died while assigned to AFTAC (LRD) through the years that AFTAC has approved for inclusion in the memorial. We have additional information on some of these individuals; however, there are some members that we have little, or no information. As you go through the list, if you recognize the name and have knowledge of the date they passed, how it happened and any knowledge of their association with the AFTAC, LRD, AFOAT-1 organization, and anything else that might be pertinent, and have not previously provided this information, please send that information to our Alumni President, <a href="MailTo:piston_horse@hotmail.com">Ed Lindsay</a>. 
                 <br /><br />
                 For additional questions about this project, please send email to the POC, <a href="MailTo:lseiler@cfl.rr.com">Maj (Ret) Lou Seiler</a>    
             </p>
-
+            <p><center><i>"Dedicated to all those who have given their lives in support of the Long Range Detection mission, And the Air Force Technical Applications Center. Their sacrifice will never be forgotten."</i></center></p>
+            <p class="centerText marontext underLine">Names are listed in the order they are on the wall</p>
             <div class="backGrey blackBorder">
                 <div class="memorialNames floatLeft width50">
                     <ul class="backGrey">
-                        <li>Adkins, Scott A., Airman</li>
-                        <li>*Allen, Fredric M., Technical Sergeant</li>
-                        <li>Annoni, Carlos J., Captain</li>
-                        <li>Arnette, Julian (Randy) R., Airman 2nd Class</li>
-                        <li>*Ball, Ronnie J., Staff Sergeant with family</li>
-                        <li>*Bludnick, Louie M., Technical Sergeant</li>
-                        <li>Britton, Beverly L., Major</li>
-                        <li>Brown, Richard K., Technical Sergeant</li>
-                        <li>*Bryan, Ismael R., Staff Sergeant</li>
-                        <li>Burgess, Claude M., Master Sergeant</li>
-                        <li>*Burns, Robert B., Staff Sergeant</li>
-                        <li>*Carroll, Billy R., Technical Sergeant</li>
-                        <li>*Chapin, Brian, Staff Sergeant</li>
-                        <li>Clark, Christopher, Technical Sergeant</li>
-                        <li>*Clishaw, Stephen A., Captain</li>
-                        <li>*Collins, Patrick M., Doctor</li>
-                        <li>Cruz Jr, George R. Technical Sergeant</li>
-                        <li>Davison, Fredrick P., Major</li>
-                        <li>*Drinkard, William W.</li>
-                        <li>*Ellingson, Steven</li>
-                        <li>*Foster, John K., Airman 2nd Class</li>
-                        <li>*Fruechte, Ronald D., Airman 2nd Class</li>
-                        <li>*Gardner, Bernard E., Technical Sergeant</li>
-                        <li>*Garsee, Gary C.</li>
-                        <li>*Gibbs, Charles F., Staff Sergeant</li>
-                        <li>Gleason, John Fredrick, Airman 2nd Class</li>
-                        <li>*Green, Alan H., Sergeant</li>
-                        <li>*Gustafson, David W., Technical Sergeant</li>
-                        <li>Hammons, Reginald L., Senior Airman</li>
-                        <li>*Hare, Donald P., Airman 1st Class</li>
-                        <li>Harris, Virgil G., Captain</li>
-                        <li>Hawley, "Bruce"</li>
-                        <li>Heckman, Charles E., Technical Sergeant</li>
-                        <li>Hendrickson, Charles, Contractor</li>
-                        <li>*Himes, Larry D.</li>
-                        <li>*Holden, Jack E., Master Sergeant</li>
-                        <li>*Homer, Frank A., Staff Sergeant with family</li>
-                        <li>*Jacob, Lee J., Staff Sergeant</li>
+                        <li>Beverly L. Britton, Maj</li>
+                        <li>George E. Silva, Sgt</li>
+                        <li>Edward F. O’Malley, AB </li>
+                        <li>Virgil G. Harris, Capt </li>
+                        <li>Stephen A. Clishaw, Capt </li>
+                        <li>Edmund S. McMahon, A1C</li>
+                        <li>Julian R. “Randy” Arnette, A2C</li>
+                        <li>Richard K. Brown, TSgt </li>
+                        <li>Lawrence L. LaPlante, A1C </li>
+                        <li>John K. Foster, A2C</li>
+                        <li>Jack E. Holden, MSgt </li>
+                        <li>Claude M. Burgess, MSgt</li>
+                        <li>Madelon J. Remus Ronald </li>
+                        <li>D. Fruechte, A2C</li>
+                        <li>Marvin H. Oleson</li>
+                        <li>Fredrick P. Davison, Maj </li>
+                        <li>Dr. William D. Urry </li>
+                        <li>Donald Pollock, Maj </li>
+                        <li>John F. Gleason, A2C</li>
+                        <li>Charles E. Heckman, TSgt</li>
+                        <li>Alcide O. Sylvestre, Capt </li>
+                        <li>Fred B. Stoss Jr., Maj Louie </li>
+                        <li>M. Bludnick, TSgt </li>
+                        <li>Billy R. Carroll, TSgt</li>
+                        <li>Thomas M. Quinney Jr., A1C</li>
+                        <li>Lenox T. McKimmey Jr., Maj </li>
+                        <li>Bernard E. Gardner, TSgt </li>
+                        <li>William M. Pennington, CMSgt </li>
+                        <li>Sylvester E. Nalley, SSgt </li>
+                        <li>Charles D. Moore, TSgt</li>
+                        <li>John E. Johnson, A2C </li>
+                        <li>Lee J. Jacob, SSgt </li>
+                        <li>Donald P. Hare, A1C </li>
+                        <li>Nancy C. Pollard </li>
+                        <li>Charles F. Gibbs, SSgt </li>
+                        <li>Robert H. Smith, A1C </li>
+                        <li>Robert B. Bums, SSgt </li>
+                        <li>Frank A. Homer, SSgt</li>
+                        <li>Robert L. Patterson, TSgt </li>
+                        <li>Ronnie J. Ball, SSgt </li>
+                        <li>Lavergne H. Sherrill </li>
+                        
                     </ul>
                 </div>
 
                 <div class="memorialNames backGrey floatLeft width50">
                     <ul class="backGrey">
-                        <li>Jacobson ll, Donald W., Sergeant</li>
-                        <li>*Johnson, John E., Airman 2nd Class</li>
-                        <li>*Keefer Jr., Edward., First Lieutenant</li>
-                        <li>Krebs, Richard A., Colonel</li>
-                        <li>*LaPlante, Lawrence L., Airman 1st Class</li>
-                        <li>*Mattes, ?</li>
-                        <li>*McKimmey Jr., Lenox T., Major</li>
-                        <li>*McMahon, Edmund S., Airman 1st Class</li>
-                        <li>*Monte/Monti, David</li>
-                        <li>*Moore, Charles D., Technical Sergeant</li>
-                        <li>Muchesko, David A., Senior Airman</li>
-                        <li>*Murphey, Ben</li>
-                        <li>*Nalley, Sylvester E., Staff Sergeant</li>
-                        <li>O'Brien, Christopher John</li>
-                        <li>*O'Mally, Edward F., Airman Basic</li>
-                        <li>*Oleson, Marvin H.</li>
-                        <li>*Patterson, Robert L., Technical Sergeant with family</li>
-                        <li>*Pennington, William M. Chief Master Sergeant</li>
-                        <li>Pollard, Nancy C.</li>
-                        <li>*Pollock, Donald, Major</li>
-                        <li>*Quinney Jr., Thomas M., Airman 1st Class</li>
-                        <li>Remus, Madelon J.</li>
-                        <li>*Rohde, Mark</li>
-                        <li>Schobel, Vincent, Technical Sergeant</li>
-                        <li>*Sherrill, Lavergne H.</li>
-                        <li>Shrull, James R., Major</li>
-                        <li>Silva, Geroge E., Sergeant</li>
-                        <li>Singlevich, Walter</li>
-                        <li>*Smith, Robert H., Airman 1st Class</li>
-                        <li>Steward, James C., Senior Airman</li>
-                        <li>Stoss, Fred B. Jr., Major</li>
-                        <li>Sylvestre, Alcide O., Captain</li>
-                        <li>*Thurman, Arthur R., Staff Sergeant</li>
-                        <li>Urry, William D., Doctor</li>
-                        <li>*Verhines, Dustin, Technical Sergeant </li>
-                        <li>*Watson lll, Robert S., Master Sergeant</li>
-                        <li>*White, Howard L., Senior Master Sergeant</li>
+                        <li>Arthur R. Thurman, SSgt</li>
+                        <li>Donald W. Jacobson II, Sgt </li>
+                        <li>Ismael R. Bryan, SSgt </li>
+                        <li>Howard L. White, SMSgt </li>
+                        <li>David W. Gustafson, TSgt </li>
+                        <li>James R. Shrull, Maj</li>
+                        <li>Alan H. Green, Sgt </li>
+                        <li>Robert S. Watson III, MSgt</li>
+                        <li>Carlos J. Annoni, Capt </li>
+                        <li>Fredric M. Allen, TSgt </li>
+                        <li>Edward J. Keefer Jr., 1Lt </li>
+                        <li>Brian Chapin, SSgt</li>
+                        <li>Gary C. Carsee </li>
+                        <li>Scott A. Adkins, Amn </li>
+                        <li>William W. Drinkard</li>
+                        <li>Bruce Holley </li>
+                        <li>Vincent Schobel, TSgt </li>
+                        <li>David A. Muchesko, SrA</li>
+                        <li>Walter Singlevich </li>
+                        <li>David Monte</li>
+                        <li>Dr. Patrick M. Collins </li>
+                        <li>Steven L. Ellingson </li>
+                        <li>Reginald L. Hammons, SrA</li>
+                        <li>George R. Cruz Jr., TSgt </li>
+                        <li>Larry D. Himes</li>
+                        <li>James R. Mattes Jr., Maj </li>
+                        <li>Mark Rohde</li>
+                        <li>James C. Steward, SrA </li>
+                        <li>Christopher J. O’Brien </li>
+                        <li>Christopher Clark, TSgt </li>
+                        <li>Charles Hendrickson </li>
+                        <li>Ben Murphy </li>
+                        <li>Dustin Verhines, TSgt </li>
+                        <li>Kathleen Henning </li>
+                        <li>Norvel E. Perkins, MSgt </li>
+                        <li>Joshua V. LeRette, SrA </li>
+                        <li>Donna Bickham</li>
+                        <li>Karen Jacobs, CMSgt </li>
+                        <li>Jose Herrera</li>
+                        <li>Edward A Mason, SMSgt </li>
+                        <li>Marcus A Zaharko, A1C</li>
+                        
                     </ul>
                 </div>
 
@@ -2901,10 +2916,11 @@
             </div>
 
             <p>
-                Dig into your piggy banks, let the moths out of your wallets, sell your car or your first born, get together with friends to help, and become a part of this honorable project.  Contact friends that might not get this eAllert and send it to them. Our peers, co-workers and friends deserve to be remembered. This is how we hope to do it.  Only you can make it happen.
-                <br /><br />
                 Respectfully,<br />Your AFTAC Alumni Association and the AFTAC Memorial Corporation
             </p>
+           <div>
+               <input id="btnMemWallDonation2" class="autoMarginLeftRight myBut" type="button" value="Printable Memorial Wall Donation Form" />
+           </div>
         </article>
 <%--Fun_Spot/Korean_Taxi Video *****************************************************************************--%> 
 <%--        <article id="FunSpotArt" class="myArts noDisplay">
@@ -3051,6 +3067,7 @@
                 <input id="btnDoSlide" class="myBut leftMargin4em" type="button" value=" Start Slide Show " />
             </div>
         </article>
+
 <%-- AFTAC MEMORIAL CORPORATION (AFTACMC) Article *****************************************************************************--%>
         <article id="wallMemArt" class="myArts noDisplay">
             <p id="menWallPara" class="centerText underLine">AFTAC MEMORIAL CORPORATION (AFTACMC) </p>
@@ -3590,6 +3607,9 @@
                 <p class="centerText">2023</p>
                 <div class="backYellow maroonBorder showShadow" style="height:20em;margin-top:-1em;">
                     <ul class="minutesUL">
+                    <li><a href="_Minutes/2023-9-22_Minutes.pdf" target="_blank">9-22-2023</a></li>
+                    <li><a href="_Minutes/2023-8-18_Minutes.pdf" target="_blank">8-18-2023</a></li>
+                    <li><a href="_Minutes/2023-7-14_Minutes.pdf" target="_blank">7-14-2023</a></li>
                     <li><a href="_Minutes/2023-6-9_Minutes.pdf" target="_blank">6-9-2023</a></li>
                     <li><a href="_Minutes/2023-5-8_Minutes.pdf" target="_blank">5-8-2023</a></li>
                     <li><a href="_Minutes/4-14-2023_Minutes.pdf" target="_blank">4-14-2023</a></li>
@@ -4468,45 +4488,67 @@
 <%--  AFTAC Mission Article *****************************************************************************--%>
         <article id="historyArt" class="myArts noDisplay">
             <div>
-                <img alt="AFTAC LOGO" class="autoMarginLeftRight width30 topMargin2em maroonBorder smallShadow" src="_Images/AFTACLogo.JPG" />
+                <img alt="AFTAC LOGO" class="autoMarginLeftRight width30 topmargin2em maroonBorder smallShadow" src="_Images/AFTACLogo.JPG" />
             </div>
 
             <p>
                 <span class="redText underLine">Mission</span><br /> 
-                The Air Force Technical Applications Center (AFTAC) provides national authorities quality technical measurements to monitor nuclear treaty compliance and develops advanced proliferation monitoring technologies to preserve our nation's security.  It is the sole organization in the federal government whose mission is to detect and report technical data from foreign nuclear explosions.
+                The Air Force Technical Applications Center provides national authorities quality technical measurements to monitor nuclear treaty compliance and develops advanced proliferation monitoring technologies to preserve our nation's security. It is the sole organization in the federal government whose mission is to detect and report technical data from foreign nuclear explosions to national decision makers. 
                 <br /><br />
-                Consisting of more than 3,600 sensors worldwide, AFTAC operates and maintains a global network of nuclear event detection equipment called the U.S. Atomic Energy Detection Systems (USAEDS), the largest sensor network in the U.S. Air Force.  Once a disturbance is detected underground, underwater, in the atmosphere or in space, the event is analyzed for nuclear identification, and the findings are reported to national command authorities.
+                Consisting of more than 3,600 sensors worldwide, AFTAC operates and maintains a global network of nuclear event detection equipment called the U.S. Atomic Energy Detection Systems (USAEDS), the largest sensor network in the U.S. Air Force. Once a disturbance is detected underground, underwater, in the atmosphere or in space, the event is analyzed for nuclear identification, and the findings are reported to command authorities. 
                 <br /><br />
-                AFTAC's nuclear event detection mission is directly linked to its nuclear treaty monitoring mission.  AFTAC monitors signatory countries' compliance with the 1963 Limited Test Ban Treaty.  This treaty prohibits nuclear testing anywhere but underground and prohibits the venting of nuclear debris or radiation from those tests into the atmosphere outside the country's national borders.  AFTAC also monitors the Threshold Test Ban Treaty of 1974 and the Peaceful Nuclear Explosion Treaty of 1976. The 1974 treaty limits the size of underground nuclear tests to 150 kilotons, while the 1976 treaty prohibits the testing of nuclear devices outside of agreed treaty sites.
+                AFTAC has been a member of the International Atomic Energy Agency's network of labs since 1991. The center provides analytical support to the Department of Defense with a laboratory system designed and developed for nuclear treaty monitoring in direct support to the IAEA. Additionally, AFTAC provides direct technical, analytical and evaluative support to the IAEA through its program of enhanced safeguards inspections to monitor nuclear proliferation activities in signatory states. The Nonproliferation Treaty, or NPT, is the cornerstone of international efforts to prevent the spread of nuclear weapons and promote arms control and disarmament in order to achieve and maintain an effective international safeguards system while promoting peaceful cooperation in nuclear energy.
                 <br /><br />
-                AFTAC is on the leading edge of technological research and the evaluation of verification technologies for current and future treaties involving weapons of mass destruction which threaten our national security.  In 2014, AFTAC supplemented its extensive network of contracted laboratories by opening its state-of-the-art Ciambrone Radiochemistry Lab to analyze and assess compliance with nuclear weapons testing in support of USAEDS and AFTAC's Nuclear Debris Collection and Analysis Program.  The 38,000 square foot lab filled a void created when the center's central laboratory at McClellan AFB, Calif. closed after the 1995 Base Realignment and Closure actions.
+                AFTAC's nuclear event detection mission is directly linked to its nuclear treaty monitoring mission. AFTAC monitors signatory countries' compliance with the 1963 Limited Test Ban Treaty. This treaty prohibits nuclear testing anywhere but underground and prohibits the venting of nuclear debris or radiation from those tests into the atmosphere outside the country's national borders. AFTAC also monitors the Threshold Test Ban Treaty of 1974 and the Peaceful Nuclear Explosion Treaty of 1976. The 1974 treaty limits the size of underground nuclear tests to 150 kilotons, while the 1976 treaty prohibits the testing of nuclear devices outside of agreed treaty sites.              
+                <br /><br />
+                In 2014, AFTAC supplemented its extensive network of contracted laboratories by opening its state-of-the-art Ciambrone Radiochemistry Lab to analyze and assess compliance with nuclear weapons testing in support of USAEDS and AFTAC's Nuclear Debris Collection and Analysis Program. The 38,000 square foot lab filled a void created when the center's central laboratory at McClellan AFB, Calif., closed after the 1995 Base Realignment and Closure actions.
+                <br /><br />
+                AFTAC is on the leading edge of technological research and the evaluation of verification technologies for current and future treaties involving weapons of mass destruction, which threaten our national security.
                 <br /><br />
                 <span class="redText underLine">People</span><br />
-                AFTAC employs more than 1,000 personnel and boasts a highly educated force possessing 171 associate degrees, 121 bachelor's degrees, 214 master's degrees and 63 doctorate degrees.
-                <br /><br />
+                AFTAC employs more than 1,100 personnel and boasts a highly educated force possessing no fewer than 226 associate degrees, 262 bachelor's degrees, 274 master's degrees and 68 doctorate degrees.
+                 <br /><br />
                 <span class="redText underLine">Organization</span><br />
-                AFTAC is a surveillance organization subordinate to 25th Air Force, an Air Combat Command Numbered Air Force, located at Lackland AFB, Texas.  AFTAC is located at Patrick AFB on Florida's east coast, less than 30 miles south of the Kennedy Space Center.  AFTAC includes nine detachments, six operating locations and more than 60 unmanned equipment locations around the world supporting AFTAC's long range nuclear detection mission. In addition, AFTAC manages 11 world-class laboratories to assist the International Atomic Energy Agency with the promotion of safe, secure and peaceful use of nuclear technologies.  In 2015, AFTAC became a wing-level organization within the Air Force, paving the way for partial unitization with the establishment of squadrons. This organizational restructure better reflects the center's global mission importance.  Since becoming a wing equivalent, AFTAC activated five newly-designated squadrons in October 2015 to better align with the wing structure.  The new squadrons are the Technical Surveillance Squadron, the Technical Operations Squadron, the Technical Support Squadron, the Technical Sustainment Squadron, and the Cyber Capabilities Squadron.
+                AFTAC is a surveillance organization subordinate to 16th Air Force, an Air Combat Command Numbered Air Force, located at Joint Base San Antonio, Texas. AFTAC is located at Patrick Space Force Base on Florida's east coast, less than 30 miles south of the Kennedy Space Center and Cape Canaveral Space Force Station. AFTAC includes 11 detachments, five operating locations and more than 60 unmanned equipment locations around the world supporting AFTAC's long range nuclear detection mission. In addition, AFTAC manages 11 world-class laboratories to assist the IAEA with the promotion of safe, secure and peaceful use of nuclear technologies. In 2015, AFTAC became a wing equivalent within the Air Force, and in April 2018, the center added two new groups and nine new squadrons after its organizational change request became a reality. The new structure establishes clear responsibilities with common skills that allow commanders to develop the workforce more effectively.
                 <br /><br />
                 <span class="redText underLine">History</span><br />
-                Soon after the end of World War II, Gen. Dwight D. Eisenhower recognized the need to monitor nuclear programs.  In 1947 he directed the Army Air Forces to develop technologies capable of detecting "atomic explosions anywhere in the world."  In 1949, a particulate sampler aboard an Air Weather Service modified B-29 flying between Alaska and Japan detected debris from the first Russian atomic test - an event experts predicted could not happen until the mid-1950s.  
+                Soon after the end of World War II, Gen. Dwight D. Eisenhower recognized the need to monitor nuclear testing programs. In 1947 he directed the Army Air Forces to develop technologies capable of detecting "atomic explosions anywhere in the world." In 1949, a particulate sampler aboard an Air Weather Service modified B-29 flying between Alaska and Japan detected debris from the first Russian atomic test - an event experts predicted could not happen until the mid-1950s. 
                 <br /><br />
-                As the Air Force activated AFTAC in 1959 to prepare to monitor compliance with the Limited Test Ban Treaty (LTBT), AFTAC assumed some responsibilities for the USAEDS and the advancement of Long Range Detection capabilities.  Over time, AFTAC's various programs evolved into a unique resource system monitoring compliance with nuclear treaties; supporting our nation's space program; and helping to protect citizens during emergencies involving nuclear materials.
+                As the Air Force activated AFTAC in 1959 to prepare to monitor compliance with the Limited Test Ban Treaty, AFTAC assumed some responsibilities for the USAEDS and the advancement of Long Range Detection capabilities. Over time, AFTAC's various programs evolved into a unique resource system monitoring compliance with nuclear treaties; supporting our nation's space program; and helping to protect citizens during emergencies involving nuclear materials.
                 <br /><br />
-                Over the years, the Air Force tasked the nuclear treaty monitoring center to conduct short-notice collection operations.  In April 1986, AFTAC responded to the Ukrainian nuclear accident at the Chernobyl Nuclear Power Plant in the former Soviet Union.  In total, AFTAC flew 55 sorties compiling 502 flying hours, and AFTAC's McClellan Central Laboratory processed 354 samples and logged more than 2,500 man-hours.
+                Over the years, the Air Force tasked the nuclear treaty monitoring center to conduct short-notice collection operations. In April 1986, AFTAC responded to the Ukrainian nuclear accident at the Chernobyl Nuclear Power Plant in the former Soviet Union. In total, AFTAC flew 55 sorties compiling 502 flying hours, and AFTAC's McClellan Central Laboratory processed 354 samples and logged more than 2,500 man-hours.
                 <br /><br />
                 In October 2006, AFTAC detected an event associated with North Korea's claim of a nuclear test and later provided verification of the nuclear event to national authorities.
                 <br /><br />
-                More recently, the center supported Operation Tomodachi, the U.S. government's response to the 9.0 earthquake and subsequent tsunami that hit Japan.  The Fukushima Daiichi Nuclear Power Plant experienced a nuclear meltdown in three of the plant's six nuclear reactors.  AFTAC personnel flew nine nuclear debris collection sorties, processing 342 seismic events, and analyzed 660 samples from the affected Pacific peninsula.
+                After a tsunami struck Japan and led to the meltdown in three of the six nuclear reactors at the Fukushima Daiichi Nuclear Power Plant in 2011, AFTAC directly supported Operation Tomodachi, the U.S. government's response to the 9.0 earthquake. AFTAC personnel flew nine nuclear debris collection sorties, processed 342 seismic events, and analyzed 660 samples from the affected Pacific peninsula.
                 <br /><br />
-                In the summer of 2015, AFTAC led the removal of 10 Radioactive Thermoelectric Generators, or RTGs, from Alaska, which were no longer required to power AFTAC's seismic array.  The power source was the Air Force's largest source of sensitive radioactive material.  This endeavor safely and successfully removed nuclear radiation from the environment and eliminated a potential source of material for use by terrorists in improvised radiological explosive devices or dirty bombs.
+                In the summer of 2015, AFTAC led the removal of 10 Radioactive Thermoelectric Generators, or RTGs, from Alaska, which were no longer required to power AFTAC's seismic array. This power source was the Air Force's largest source of sensitive radioactive material. This endeavor safely and successfully removed nuclear radiation from the environment and eliminated a potential source of material for use by terrorists in improvised radiological explosive devices or dirty bombs.
                 <br /><br />
-                In December 2015, the IAEA released its final assessment on "Past and Present Outstanding Issues" regarding Iran's nuclear program.  AFTAC provided trace forensic analysis of samples supporting the IAEA's mission to monitor Iranian compliance with the Joint Comprehensive Plan of Action.  As a major component of the IAEA's network of analytical labs, AFTAC's analysis was foundational to the report.
+                The following December, the IAEA released its final assessment on "Past and Present Outstanding Issues" regarding Iran's nuclear program. AFTAC provided trace forensic analysis of samples supporting the IAEA's mission to monitor Iranian compliance with the Joint Comprehensive Plan of Action. As a major component of the IAEA's network of analytical labs, AFTAC's analysis was foundational to the report.
                 <br /><br />
-                AFTAC is also on the forefront of protecting the homeland as it establishes an array of sensors across the United States as part of the National Technical Nuclear Forensics program.  This program is designed to collect forensic analysis after detonations to aid the Federal Bureau of Investigation in attributing attacks on U.S. soil to foreign governments or terrorist entities to swiftly bring those responsible to justice.  AFTAC's efforts are making the Department of Defense's vision to protect U.S. personnel and interests from the threat of a domestic nuclear detonation a reality.
+                In January and September 2016, AFTAC sensors detected underground disturbances in the vicinity of North Korea's reported nuclear tests. The center's findings were based on seismic activity, which was quickly analyzed, packaged and elevated to national decision makers.
                 <br /><br />
-                Today, AFTAC continues to improve the USAEDS. As the nation's caretaker of USAEDS, AFTAC works closely with the Comprehensive Test Ban Treaty Organization in Vienna, Austria. Together, both parties are significantly improving the International Monitoring System (IMS). In fact, AFTAC now contributes six of its U.S.-based USAEDS seismic monitoring stations to the IMS. 
+                As Hurricane Irma barreled up the Florida peninsula in September 2017, members of the nuclear treaty monitoring center were simultaneously analyzing and reporting their findings on North Korea's purported nuclear test that registered a 6.3 on the Richter scale - 10 times more powerful than N. Korea's detonation in 2016.
                 <br /><br />
-                (Current as of March 2016)
+                When a failed Russian missile launch resulted in the dispersal of nuclear materials in the fall of 2019, AFTAC Airmen were the first to recognize the explosion. Through synchronized efforts, the center analyzed and investigated the explosion, ultimately shaping the U.S. strategic response to the event and enabling the U.S. Department of State to expose Russia's harmful behavior to partners across the region.
+                <br /><br />
+                AFTAC is also on the forefront of protecting the homeland as it establishes an array of sensors across the United States as part of the National Technical Nuclear Forensics program. This program is designed to collect forensic analysis after detonations to aid the Federal Bureau of Investigation in attributing attacks on U.S. soil to foreign governments or terrorist entities to swiftly bring those responsible to justice. AFTAC's efforts are making the Department of Defense's vision to protect U.S. personnel and interests from the threat of a domestic nuclear detonation a reality.
+                <br /><br />
+                Operated by Military Sealift Command through a support agreement with the U.S. Air Force, AFTAC leads the onboard operations team aboard the USNS Howard O. Lorenzen (HOLO). The ship is home to the COBRA KING radar system, an integrated surveillance and ballistic missile data collection platform to support U.S. nuclear treaty monitoring activities. The radar suite consists of X-band and S-band phased-array sensors, a common radar suite controller, and other mission-related equipment. COBRA KING provides the U.S. with highly flexible, long-loiter, ballistic missile data collection capabilities and provides short-notice response capability to satisfy worldwide Defense Department taskings.
+                <br /><br />
+                In December 2021 and in concert with Military Sealift Command, AFTAC inactivated its second ballistic missile radar tracking ship, USNS Invincible, which housed the GRAY STAR radar system that provided unique, high quality, high resolution, multi-wavelength radar products that were used to monitor U.S. or foreign missile, space or weapons tests worldwide. Launched in 1986 and put into full operational service in 1987, Invincible's original mission was to patrol the seas looking for submarines using its sonar array. The vessel was refitted in 2000 to support Joint Chiefs of Staff missions to monitor missile or weapons test events that could pose hazards or threats to air or surface navigation. The decision to inactivate the ship was based on higher headquarters requirements to balance sustainment costs, operational effectiveness, and the Department of Defense's pivot to strategic competition. The DoD has a wide range of capabilities to support ballistic missile defense operations that continue to operate throughout the world today.
+                <br /><br />
+                AFTAC also provides airborne Special Equipment Operators and mission systems maintenance personnel on the WC-135C/W Constant Phoenix, an atmospheric collection aircraft that collects particulate and gaseous effluents and debris from accessible regions of the atmosphere in support of the Limited Test Ban Treaty. The onboard atmospheric collection suite allows the mission crew to detect radioactive "clouds" in real time through its external flow-through devices that collect particulates on filter paper and through its internal compressor system that collects whole air samples. Operated and maintained by the 45th Reconnaissance Squadron at Offutt AFB, Neb., in support of AFTAC's 21st Surveillance Squadron, the WC-135 is the only aircraft in the Air Force inventory that conducts air sampling operations.
+                <br /><br />
+                In November 2020, the Air Force officially decommissioned WC-135 Tail #582 after more than 29,600 flying hours. In July 2022, AFTAC welcomed a new aircraft to its inventory for the first time in decades - Tail #836, a modified KC-135R Stratotanker to replace the aging WC-135C/W fleet. The center expects to accept delivery of a second WC-135R by the end of 2023, and a third in early 2024.
+                <br /><br />
+                Today, AFTAC continues to improve the USAEDS. As the nation's caretaker of USAEDS, AFTAC works closely with the Comprehensive Test Ban Treaty Organization in Vienna, Austria. Together, both parties are significantly improving the International Monitoring System. In fact, AFTAC now contributes six of its U.S.-based USAEDS seismic monitoring stations to the IMS.
+                <br /><br />
+                <span class="redText underLine">AFTAC Mission Statement:</span> Deliver Decision Advantage Against Enduring WMD Threats and Emerging Weapons Systems.
+                <br /><br />
+                 <span class="redText underLine">AFTAC Vision Statement:</span> Science for Consequence
+                 <br /><br />
+                (Current as of March 2023)
                 <br /><br />
                 Point of Contact
                 <br />
@@ -4657,7 +4699,7 @@
                             <li id="McCauley" class="my20YearLi">McCauley, John P.</li>
                             <li id="McClellan" class="my20YearLi">McClellan, Michael</li>
                             <li id="McGettigan" class="my20YearLi">McGettigan, John W.</li>
-                            <li id="Merker" class="my20YearLi">Merker, David C.</li>
+                            <li id="Merker2" class="my20YearLi">Merker, David C.</li>
                             <li id="Milam" class="my20YearLi">Milam, Judy</li>
                             <li id="Miller" class="my20YearLi">Miller, Curtis R.</li>
                             <li id="Mirda" class="my20YearLi">Mirda, George M.</li>
@@ -5444,11 +5486,11 @@
                     1982 and is now living the life of a retired civil servant. 
                 </p>
             </article>
-<%--   MSgt (Ret) Gene and Dee Mechior 2012 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
+<%--   MSgt (Ret) Gene and Dee Melchior 2012 ALUMNUS OF THE YEAR Article *****************************************************************************--%>
 
             <article id="melchior" class="alumArt myAlumni noDisplay">
                 <p class="pTitle centerText titlePara">
-                    Alumni of the year, 2012<br />MSgt (Ret) Gene and Dee Mechior
+                    Alumni of the year, 2012<br />MSgt (Ret) Gene and Dee Melchior
                 </p>
 
                 <img alt="Melchoior1.png"  class="width50 autoMarginLeftRight maroonBorder showShadow" src="_Photos/AOY/Melchoior1.png"/>
@@ -6147,11 +6189,15 @@
         <article id="specialLinksArt" class="myArts noDisplay">
             <asp:Label ID="Label22" CssClass="block" ForeColor="DarkRed" Font-Bold="true" Font-Size="2.5em" runat="server" Text="SPECIAL LINKS"></asp:Label>
             <p class="width100 topMargin1em autoMarginLeftRight smallShadow maroonBorder">
-                This is a list of web pages that we feel would be useful to you. If you would like to see more, please contact the webmaster and let us know.
+                This is a list of web pages that we feel would be useful to you. If you would like to see more, please contact the web master and let us know.
             </p>
             <ul id="linkUl" class="autoMarginLeftRight topMargin2em">
-                  <li>
+                <li>
                     --NEWS--
+                </li>    
+                <li>
+                    <a href="https://www.dfas.mil/RetiredMilitary/newsevents/newsletter" target="_blank">DFAS Retiree Newsletter</a>
+                </li>
                 <li>
                     <a href="https://blogs.va.gov/VAntage" target="_blank">Current VA News that you might like to read.</a>
                 </li>
@@ -6174,22 +6220,22 @@
                     --VETERANS ADMINISTRATION/HEALTHCARE/BENEFITS--
                 </li>
                 <li>
-                    <a href="http://www.va.gov" target="_blank">Veterans Admin</a>
+                    <a href="http://www.va.gov" target="_blank">Veterans Administration</a>
                 </li>
                 <li>
-                    <a href="http://www.tricare.com" target="_blank">Tricare</a>
+                    <a href="http://www.tricare.com" target="_blank">TRICARE</a>
                 </li>
                 <li>
-                    <a href="https://www.tricare.mil/CoveredServices/Pharmacy/Drugs.aspx/" target="_blank">Tricare Covered Services, Pharmacy, Drugs Information</a>
+                    <a href="https://www.tricare.mil/CoveredServices/Pharmacy/Drugs.aspx/" target="_blank">TRICARE Covered Services, Pharmacy, Drugs Information</a>
                 </li>
                 <li>
                     <a href="https://www.va.gov/health-care/get-medical-records/" target="_blank">Your VA Medical records are within reach</a>
                 </li>
                 <li>
-                    <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantag:  Benifits/Blog</a>
+                    <a href="http://militaryadvantage.military.com/" target="_blank">The Military Advantage:  Benefits/Blog</a>
                 </li>
                 <li>
-                     <a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card avaialbe as prove you are eligable for discounts</a>
+                     <a href="https://news.va.gov/117828/va-id-card-proof-discounts/" target="_blank">Veteran's ID card available as proof you are eligible for discounts</a>
                 </li>
                 <li>
                    --DISCOUNTS--
@@ -12799,7 +12845,11 @@
 
                 <div id="pomo2" class="noDisplay">
                     <p class="centerText">Click on the Pomo of your choice.</p>
-                    <div id="AprilPomo" class="floatLeft leftMargin8em width25">
+                    <div id="AugustPomo" class="floatLeft leftMargin8em width25">
+                        <img alt="August2023.png" class="myPomo blackBorder showShadow" src="_Images/August2023.png" style="height:15em;" />
+                        <p class="centerText">August 2023</p>
+                    </div>
+                    <div id="AprilPomo" class="floatLeft width25">
                         <img alt="April2023.png" class="myPomo blackBorder showShadow" src="_Images/April2023.png" style="height:15em;" />
                         <p class="centerText">April 2023</p>
                     </div>
@@ -12807,10 +12857,7 @@
                         <img alt="December2022.png" class="myPomo blackBorder showShadow" src="_Images/December2022.png" style="height:15em;" />
                         <p class="centerText">December 2022</p>
                     </div>
-                    <div id="AugustPomo" class="floatLeft width25">
-                        <img alt="August2022.png" class="myPomo blackBorder showShadow" src="_Images/August2022.png" style="height:15em;" />
-                        <p class="centerText">August 2022</p>
-                    </div>
+
                 </div>
 
                 <div id="pomo1" class="block autoMarginLeftRight width50">
@@ -12855,10 +12902,11 @@
                         <li><a class="maroonText" href="_Pomos/PoMo2021_04.pdf" target="_blank">April</a></li>
                     </ul>
                 </div>--%>
-
+        
               <div class="floatLeft leftMargin3em aLeft width15" style="margin-top:-1em;">
-                    <p class="underLine">20222</p>
+                    <p class="underLine">2022</p>
                     <ul class="archList">
+                        <li><a class="maroonText" href="_Pomos/PoMo2022_08.pdf" target="_blank">August</a></li>
                         <li><a class="maroonText" href="_Pomos/PoMo2022_04.pdf" target="_blank">April</a></li>
                     </ul>
                 </div>
@@ -13175,7 +13223,134 @@
         <article id="currentObitsArt" class="myArts noDisplay">
                 <p class="pTitle centerText underLine" style="font-size:2.5em;color:darkblue">Current Obits</p>
                 <div class="centerDiv">
-
+ <%--   Current Obits Richard (Rick) E. Sweet - 8/27/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="ShanahanH2" class="obitH1">Patrick Erin Shanahan - 9/19/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="ShanahanPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Shanahan.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Shanahan.jpg" />
+                        Patrick Shanahan<br />
+                        Nov 10, 1987 - Sep 19, 2023<br /><br />
+                        Patrick Erin Shanahan, of Staples, passed away unexpectedly on Tuesday, September 19, 2023. A Memorial Service will be held on Saturday September 30 at 2pm at the Brenny Family Funeral Chapel in Staples. A visitation will be held one hour prior to the start of the service.<br /><br />
+                        Patrick was born on November 10, 1987, in Milwaukee Wisconsin. He graduated from Chaska High School in Chaska with the class of 2005. Following graduation, he joined the U.S. Air Force and served his country with honor. After discharge from his military service Patrick relocated to Staples, MN and quickly made it his new home. He worked as a CNA for Lakewood Health System working on their Lakewood Reflections team. Patrick loved his job and his work family and worked there until his untimely passing.<br /><br />
+                        Patrick is survived by his cat Carrot, his sister Amanda and husband Kevin, sister Cathryn, Father Patrick, stepmother Karol, stepbrother Jeremy (Erin) Macheel, and stepsister Heidi (Rob) Dorfner. He is also survived by his Grandma Vee and many uncles, aunts, cousins, nephews, and nieces.<br /><br />
+                        He is preceded in death by his mother Shana (Strom).<br /><br />
+                        Patrick's ashes will be laid to rest at Camp Ripley at a later date.  <br /><br />
+                        Arrangements entrusted to Brenny Family Funeral Chapel, Staples.<br /><br />
+                        To order memorial <a href="https://manage2.tukioswebsites.com/o/v2/trees/d7f445e4-c94f-45b8-aea7-12debe3eb88d" target="_blank">trees</a> or send flowers to the family in memory of Patrick Shanahan, please visit our <a href="https://manage2.tukioswebsites.com/orders/v2/flowers/d7f445e4-c94f-45b8-aea7-12debe3eb88d" target="_blank">flower store</a>.<br /><br />
+                        Service Schedule<br /><br />
+                        Visitation<br />
+                        Saturday, September 30, 2023<br />
+                        1:00 - 2:00pm (Central time)<br /><br />
+                        Memorial Service<br />
+                        Saturday, September 30, 2023<br />
+                        2:00 - 3:00pm (Central time)<br /><br />
+                        Brenny Family Funeral Chapel and Cremation Services - Staples<br />
+                        309 N Fourth Street, Staples, MN 56479<br /><br />
+                        Original obituary can be viewed at <a href="https://www.brenny.com/obituaries/patrick-shanahan" target="_blank">Brenny Family Funeral Chapel and Cremation Services.</a> <br /><br />
+                        </p>
+                    </div>
+                       
+               </article> 
+<%--   Current Obits Richard (Rick) E. Sweet - 8/27/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="SweetH2" class="obitH1">Richard (Rick) E. Sweet - 8/27/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="SweetPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Sweet.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Sweet.jpg" />
+                        Richard (Rick) E. Sweet<br />
+                        Sep 15, 1945 - Aug 27, 2023<br /><br />
+                        Richard (Rick) E. Sweet, age 77, passed away on August 27, 2023, in Parker Colorado. He was born in Morrisville, Vermont on September 15, 1945, attending both elementary and high school while in Vermont. After his 18th birthday, Rick joined the U.S. Army on September 18, 1962, in the Signal Corps, serving two tours of duty in Vietnam. He received an honorable discharge from the Army on June 16, 1971.  On August 25, 1971, he joined the U.S. Air Force as an Electric Power Production Specialist and later as a Safety Technician before retiring on November 30, 1982. He then worked for the U.S. Postal Service for 3 years before joining NASA for 23 years as a Safety Engineer and retired in 2006.<br /><br />
+                        He loved fishing, traveling to all 50 states, and spending time with family across the country. He volunteered with the Boy Scouts of America, coached youth baseball, and volunteered with the Robotics Club in Brevard County, Florida.<br /><br />
+                        Rick is survived by his wife Carol of 57 years, their son Gary (and his wife Peggy), daughter Christine (and her husband Michael), five grandchildren (Michael, Julie, Owen, Shane, Scharle'), and two great-grandchildren (Eva and Eric).  He is also survived by his brother Jim (and his wife Sherry), cousins, nieces and nephews, and many friends. He was preceded in death by his parents and three brothers.<br /><br />
+                        Services will take place at Pike's Peak National Cemetery in Colorado Springs, Colorado on September 12th, 2023 at 1 PM Mountain Standard Time. In lieu of flowers, donations may be made to the Disabled American Veteran's (DAV) organization at this address:  DAV<br /><br />
+                        Rick's legacy will live on in the hearts and minds of everyone who interacted with him throughout his wonderful life.<br /><br />
+                        To plant trees in memory, please visit the Sympathy Store. Obituary published on Legacy.com by Horan & McConaty - Southeast Denver/Aurora on Sep. 6, 2023.<br /><br />
+                        Original obituary can be viewed at <a href="https://www.horancares.com/obituaries/richard-sweet" target="_blank">Hroan & McConaty.</a> <br /><br />
+                        </p>
+                    </div>
+                       
+               </article> 
+<%--   Current Obits Phillip J. "Phil" Lindstedt - 8/20/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="LindstedtH2" class="obitH1">Phillip J. "Phil" Lindstedt - 8/20/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="LindstedtPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="lindstedt.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/lindstedt.png" />
+                        Phillip J. "Phil" Lindstedt<br />
+                        Jan 23, 1959 - Aug 20, 2023<br /><br />
+                        Phillip J. "Phil" Lindstedt, 64, passed away on August 20, 2023 at his home in Malabar, Florida following a long illness.<br /><br />
+                        He was born to Lee Lindstedt and Shirley Oswald in 23 January 1959 in Los Angeles, California.  He grew up with his brother, Eddie and sister, Leann.  He attended Garden Grove High School and had keen abilities in math and science.  <br /><br />
+                        At 18 years old, Phil joined the US Air Force and began a life-long relationship with AFTAC. Graduating from tech school as a 99105 Scientific Analysis Technician, his first assignment was to Det 421, Alice Springs, Australia.  A crack analyst, he snagged a follow-on assignment to Det 313 Sonseca, Spain. Later assignments to Det 489 Pinedale, Wyoming and the HQ European Technical Operations Area on Lindsey Air Station, Germany.  Although he finished his service career at AFTAC Headquarters at Patrick Space Force Base, Florida, he traveled extensively to Det 301 Ankara, Turkey and a myriad of masked locations.  He retired from AFTAC and worked a few short months with Command Technologies Incorporated, Satellite Beach, Florida.  Soon afterwards, he began a new career as a civil servant working in the Treaty Monitoring Directorate (TT) culminating as a Senior Research Geophysicist.  He earned a BS in Mathematics from Rollins College, Winter Park Florida and a Master's degree in Computer Information Systems from Webster University, St Louis, Missouri.<br /><br />
+                        Phil was immensely proud of his 3 sons, Lt Commander Christopher, USCG (Christine Castro); Luis (Casey Keilman), and Michael (Ally Rayne) and 4 grandchildren.  They all enjoyed hunting and fishing trips.  Phil boasted many trophies of deer, wild boar and big horn sheep on his den's wall.  He was an avid poker player.   May he rest in peace.  <br /><br />
+                        Arrangements are pending but will be announced with an AFTAC Alumni e-Alert or note to this group when known.  A celebration of life is envisioned in lieu of funeral services.<br /><br />
+                        </p>
+                    </div>
+               </article> 
+<%--   Current Obits Manning Franklin Tillman - 8/2/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="TillmanH2" class="obitH1">Manning Franklin Tillman - 8/2/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="TillmanPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Tillman.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Tillman.jpg" />
+                        Manning Franklin Tillman<br />
+                        1939 - 2023<br /><br />
+                        Mr. Manning Tillman, 83, of Kernersville passed away on August 2, 2023 at his home. Born in San Diego, California, he was the son of the late Marne Jaxon.<br /><br />
+                        At the beginning of the Vietnam War, Manning enlisted in the United States Air Force, where he served for twelve years. He then was employed by Teledyne Geotech, Boeing and finally retired from the Center for Science and the Public Interest in Washington D. C.. After retiring and moving to North Carolina, he enjoyed working at Salem Lake.<br /><br />
+                        He attended George Mason University and graduated with a Bachelor's of Science degree.<br /><br />
+                        Manning had many interests including photography, tennis, coaching soccer, target shooting, bridge, fishing, reading, and football.<br /><br />
+                        Family always came first for Manning. His wife, daughter, granddaughter and friends could always depend on him. Manning will always be in our hearts and missed forever.<br /><br />
+                        He is survived by his loving wife, Mona Harris; his daughter, Elizabeth Tillman; his granddaughter, Madeline Harris Teague; his brother, Paul Tillman (Christy); and a large, extended family including nieces, nephews, and many loving in-laws.<br /><br />
+                        In addition to his parents, he was preceded in death by his son, Todd Tillman; and his brother, Bruce Jonathan Tillman.<br /><br />
+                        Floral arrangements may be sent to Pierce-Jefferson Funeral Service and memorial contributions may be donated to the American Cancer Society.<br /><br />
+                        Friends and family may sign the guestbook online at www.piercejeffersonfh.com<br /><br />
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href="https://piercejeffersonfh.com/tribute/details/321888/Manning-Tillman/obituary.html" target="_blank">Pierce-Jefferson Funeral Service.</a><br /><br />
+                        A memorial video may be viewed <a href="https://piercejeffersonfh.com/tribute/details/321888/Manning-Tillman/memorial-video.html#content-start" target="_blank">here.</a><br /><br />
+                        </p>
+                    </div>
+               </article>  
+<%--   Current Obits Eddie Jack Vickers - 8/1/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="VickersH2" class="obitH1">Eddie Jack Vickers - 8/1/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="VickersPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Vickers.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Vickers.jpg" />
+                        Eddie Jack Vickers<br />
+                        Jul 19, 1935 - Aug 1, 2023<br />
+                        Eddie Jack Vickers, age 88, of Wesley Chapel, Florida passed away on Tuesday, August 1, 2023. <br /><br />
+                        He was born in Weeksbury, Kentucky on July 19, 1935, to Charles W. Vickers and Jessie A. Vickers. He is survived by his loving wife of 42 years, Erin Marie Vickers; their daughter, Melissa Vickers, and wife, Michelle Kne; son, Joshua Vickers; son, Gregory Vickers and wife, Amanda Vickers; four beautiful grandchildren that he adored Lilly, Sofie, Jax, and Elle.<br /><br />
+                        Preceded in his death are his parents, Charles W. Vickers, and Jessie A. Vickers; his sister, Barbara Murray; and his brother, Charlie Vickers.<br /><br />
+                        His family moved when he was a small child to Bethel, Ohio where he would love to go down to the airfield and watch the planes fly. He learned to fly a crop-duster at age 10, and then went on to get his pilot license. At that time he was also driving a milk truck, pumping gas at the local station, and working the projector at the family movie theater.<br /><br />
+                        Anyone who has ever spent time around him knows his love for music. On the weekends he would play in a dance band in Cincinnati and also enjoyed playing the piano and singing. For his high school graduation, he was asked to perform "Ave Maria," something he was very proud of.<br /><br />
+                        Eddie graduated from Bethel High School in 1954 and went on to join the United States Air Force. While serving our country he was awarded many medals. The one he was most proud of was The Airman's Medal. Eddie received this award for distinguishing himself by heroism involving voluntary risk of life near Korat Royal Thai Air Force Base, Thailand on September 6, 1969. Sergeant Vickers was a combat crew member aboard EC-121R which had a crash landing during a heavy rainstorm on its final approach. Despite the flames engulfing the aircraft, and with complete disregard for his own safety, he successfully removed an unconscious crew member from the wreckage. Once recovered, Eddie went on to complete over one hundred missions in Southeast Asia assigned to the 553rd Reconnaissance Wing, Korat Royal Thai Air Force Base. During his tour, he recorded 1200 combat flight hours. After returning to the States, he was assigned to the Air Force Academy as a flight instructor in Colorado Springs. After twenty years of service, he was honorably discharged from the United States Air Force.<br /><br />
+                        In civilian life, he worked in the private security sector at Vickers and Oxford Security. While working one day in 1981 he met, and fell in love with Erin, his sweetheart, who he lovingly referred to as "Jose." Erin and Eddie only dated for two weeks before he asked her to marry him. They went on to wed at the Don Cesar in Florida. They started a family and moved to Kennesaw, Georgia. While living in Georgia, Eddie became a Police Officer for the Department of Defense at Dobbins Air Force Base. He received "Officer of the Year" before retiring after 10 years of service, moving back to Florida.<br /><br />
+                        He always had a shovel, hammer, power tool, or paintbrush in hand and was quick to help others with their projects, big or small.<br /><br />
+                        He was a proud member of Tampa Scottish Rite, Egypt Shrine Temple, and J.F. Swartsel Lodge #251.<br /><br />
+                        Eddie lived a great big life and was loved by so many. He will be sorely missed.<br /><br />        
+                        The family would like to thank the staff at Baldomero-Lopez Memory Care for their great care of our loving Eddie J.<br /><br />
+                        A visitation for Eddie will be held Thursday, August 10, 2023, from 5:00 PM to 7:00 PM at Blount & Curry Funeral Home-Carrollwood located at 3207 W Bearss Ave, Tampa, FL 33618.<br /><br />
+                        A funeral service will occur Friday, August 11, 2023, from 10:00 AM to 11:00 AM also located at Blount and Curry Funeral Home Carrollwood located at 3207 W Bearss Ave, Tampa, FL 33618.<br /><br />
+                        Military honors will take place on Friday, August 11, 2023, from 12:30 PM to 1:00 PM at Florida National Cemetery located at 6502 S. W. 102nd Ave, Bushnell, FL 33513.<br /><br />
+                            
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href="https://www.dignitymemorial.com/obituaries/tampa-fl/eddie-vickers-11391769" target="_blank">Blount & Curry Funeral Home-Carrollwood.</a> <br /><br />
+                        </p>
+                    </div>
+               </article>  
 <%--   Current Obits Glen Allen Feakes - 7/19/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13198,10 +13373,29 @@
                         3698 S. Sheridan Blvd Denver, CO 80236<br /><br />
                         Newcomer - East Metro Chapel (720-857-0700) is assisting the family<br /><br />
                             
-                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href=https://www.newcomerdenver.com/Obituary/266519/Glen-Feakes/Denver-CO target="_blank">Newcommer.</a> <br /><br />
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href="https://www.newcomerdenver.com/Obituary/266519/Glen-Feakes/Denver-CO" target="_blank">Newcommer.</a> <br /><br />
                         </p>
                     </div>
                </article>  
+<%--   Current Obits Donald Overby Obituary - 7/8/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="OverbyH2" class="obitH1">Donald Overby Obituary - 7/8/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="OverbyPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Overby.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Overby.jpg" />
+                        Donald Overby Obituary<br />
+                        May 19, 1937 - Jul 8, 2023<br />
+                        Donald Ray Overby, 86 of King, passed away Saturday, July 8, 2023, at Woltz Hospice Home. <br /><br />
+                        Donald was born on May 19, 1937, in Surry County to the late Clyde Taft and Mary (Willard) Overby. He retired from the US Air Force. He was a member of the VFW, and the American Legion Post 290. He was gifted with the ability to repair almost anything and was a talented artist. Donald enjoyed photography and woodworking. He took great joy in teaching his sons how to do things, like drawing or counting money, but mostly how to be a good man. He was a member of Calvary Baptist Church. He was a good person who gave to everyone he could and would help people with anything he could, whether he knew them or not. He was a loving and compassionate person. Donald also loved water and the beach, he enjoyed deep sea fishing at Hampton Beach and loved visiting Pilot Mountain.  <br /><br />
+                        In addition to his parents, he was preceded in death by his brothers: Jimmy, Gerald, and Larry Wayne Overby. Left to cherish his memory is his beloved wife, Josephine Overby, his children: Donnie Ray Overby, Jr., Lisa Capella, Mary Beth Ruder, Kimberly Maurer, Brian Overby, and Steven Overby, and his sister, Kaye Smith, along with several grandchildren, great-grandchildren, and other relatives, and friends. <br /><br /> 
+                        A memorial service will be held at 11 a.m., Tuesday, July 18, at Slate Funeral Home with Pastor Kevin Broyhill officiating. In lieu of flowers, memorial donations may be made to the Joan & Howard Woltz Hospice Home: 945 Zephyr Rd. Dobson, NC 27017. Slate Funeral Home is serving the family of Donald Ray Overby. <br /><br /> 
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href="https://www.slatefh.com/obituary/Donald-Overby" target="_blank">Slate Funeral Home.</a> <br /><br />
+                        </p>
+                    </div>
+               </article>
 <%--   Current Obits Lt. Col. (Ret) Charles Stuart McCloskey Jr. - 7/8/2023 *****************************************************************************--%>
                <article>
                     <div>
@@ -13219,7 +13413,7 @@
                         Stuart was a devoted husband and father. He was predeceased by his loving wife of 50 years, Patsy, in 2008. He is survived by his daughter, Karen McCloskey; son, Stuart McCloskey and his wife, Sande; grandsons, Chris McCloskey, and Greg McCloskey, and his wife, Jennifer.<br /><br />
                         Services will be held at Florida Memorial Gardens, 5950 US-1 S, Rockledge, FL 32955. The family will hold a viewing on Friday, July 21, 2023, from 6:00-8:00 pm and a celebration of life service on Saturday, July 22, 2022, at 10:00 am with private interment following.<br /><br />
                         In lieu of flowers, the family requests that donations be considered in Stuart's name to Holy Apostles Episcopal Church, 505 Grant Ave, Satellite Beach, FL 32937, or a charity of your choice.<br /><br />
-                        Fond memories and expressions of sympathy may be shared at  <a href="https://www.FloridaMemorialFH-Gardens.com/" target="_blank">Florida Memorial Gardens </a> for the McCloskey family.<br /><br />
+                        Fond memories and expressions of sympathy may be shared at  <a href="https://www.dignitymemorial.com/obituaries/rockledge-fl/charles-mccloskey-11366490" target="_blank">Florida Memorial Gardens </a> for the McCloskey family.<br /><br />
                         </p>
                     </div>
                </article>   
@@ -13403,6 +13597,23 @@
                         </p>
                     </div>
                 </article>  
+<%--   Current Obits Donald R. "Ray" Mosley - 3/8/2023 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="MosleyH2" class="obitH1">Donald R. "Ray" Mosley - 3/8/2023</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="MosleyPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Mosley.png" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Mosley.png" />
+                        Donald Ray "Ray" Mosley, age 91 of Tazewell, Virginia passed away Wednesday, March 8, 2023, at Carilion Tazewell Community Hospital.  Donald was born on October 16, 1931, and was a son of the late George Mosley and Virginia Pearl Day Mosley. <br /><br />
+                        Donald attended Open Door Community Church in Baptist Valley, Virginia and was a member of Immanuel Lutheran Church of Joplin, MO.  He was a 1949 graduate of Gary High School in Gary, West Virginia.  He touched many lives as he traveled around the world.  Donald was very outgoing, and he was an active member in his church.  He and his wife, Verna, enjoyed collecting coin glass while traveling throughout the United States.  He was a retired Tech Sergeant with the U.S. Air Force.  After retirement, Donald oversaw the communications department of the Missouri Southern State University while teaching there.<br /><br />
+                        In addition to his parents, Donald was preceded in death by his wife of 48 years, Verna Mosely; brother, Walter Edward Mosley; nephew, Michael David Hash.<br /><br />
+                        Survivors cherishing his memory include his two brothers, Gene R. Mosley of Tazewell, VA and William W. Mosley and wife, Sharon of Bulls Gap, TN; Jerry and Linda Newman, who were like his children; brothers-in-law, Edwin Duer and wife, Lavonne, DeVern Orth; sisters-in-law, Vangie Barth, Cynthia Ludwig, and Pam Mosley; special first cousin, Donna Sue Cooper; special people, London Hurt, Ron and Naomi R. Magadieu, William, Carol, Coreena, Katie, and Robert Asbury. To this obituary we add our thoughts, prayers and memories of a life shared with Donald.<br /><br />
+                        The original Obituary may be viewed and memories and expressions of sympathy may be shared at <a href="https://www.zabkaperduefuneralhome.com/obituary/donald-mosley" target="_blank">Zabka-Perdue Funeral Home.</a> <br /><br />
+                        </p>
+                    </div>
+               </article>  
 
  <%--   Current Obits Tom Cameron - 2/25/2023 *****************************************************************************--%>
                <article>
@@ -13509,8 +13720,70 @@
                         </p>
                     </div>
                 </article>
- 
-           
+ <%--   Current Obits Robert "Bob" E. Caldwell - 11/5/2022 *****************************************************************************--%>
+              <article>
+                   <div>
+                       <h2 id="CaldwellH2" class="obitH1">Robert "Bob" E. Caldwell - 11/5/2022</h2>
+                   </div>
+                   <div class="clear"></div>
+                   <div id="CaldwellPara" class="obitPara noDisplay">
+                       <p>
+                       <img alt="Caldwell.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Caldwell.jpg" />
+                       Robert "Bob" E. Caldwell<br />
+                       Feb 23, 1946 - Nov 5, 2022<br />
+                       Robert E. Caldwell, age 76, resident of Harborcreek Twp., passed away peacefully, at his residence, on Saturday, November 5, 2022, following an extended illness. Bob was born in Erie on February 23, 1946, the son of the late Earl W. and Marjorie K. (Ekstrom) Caldwell.<br /><br />
+                        Bob was a 1964 graduate of the former Lawrence Park High School and had attended both Mount Alto and Penn State Behrend colleges. He was employed by the General Electric Co. for a short period of time before enlisting in the U.S. Air Force during the Vietnam War. Bob went on to spend the next 21 years in a distinguished military career that took him and his wife, Millie, across the country and to overseas bases in Iran and the Philippines. Bob retired with an honorable discharge in 1987 and was awarded the Air Force Longevity Service Award Ribbon.<br /><br />
+                        Within days of his retirement from the Air Force, Bob began a second career as an operations manager with the Federal Emergency Management Administration. His service with FEMA would later come to include duties within the then newly created, Department of Homeland Security. While employed by the federal government, Bob and Millie had resided in Denver, CO, and later Winchester, VA, where he would retire after 20 years of devoted service.<br /><br />
+                        Having moved back and made Harborcreek Twp. home, Bob became a member of the Lawrence Park United Methodist Church. He was also a member of the Lawrence Park Athletic Club, East Erie Moose Lodge, American Legion Post #976 in Crosby, PA, and the Scenic Heights Golf Course. In addition to golf, Bob also enjoyed hunting and was an avid Pittsburgh Steelers and Penn State Nittany Lions fan.<br /><br />
+                        In addition to his parents, he was preceded in death by one niece, Donna Lineman; a sister-in-law, Sherry Zetwick and two brothers-in-law: Martin Ross and Harold "Budd" Musolff, Jr.<br /><br />
+                        Survivors include his beloved wife of 55 years, Mildred L. "Millie" (Weismiller) Caldwell; three siblings: Margaret J. Toothman (Wayne), Susan N. Musolff, and Mary Beth Ross; and several brothers and sisters-in-law, nieces, and nephews.<br /><br />
+                        Family and friends are warmly invited to call the Dusckas-Taylor Funeral Home & Cremation Services, 5151 Buffalo Rd. (at Hannon Rd. in Harborcreek), on Sunday, November 13, 2022, from 2 PM until the time of the Memorial Service there at 5 PM, to be conducted by the Reverend Karen Trask, Pastor of Lawrence Park United Methodist Church. Following the service, full military honors will be rendered by the American Legion, Carl Neff Post #571 Military Honor Guard. Memorial contributions may be designated to EUMA Liberty House c/o 1033 E. 26th St., Erie PA 16504.<br /><br />
+<br /><br />
+                     
+                       </p>
+                   </div>
+              </article> 
+ <%--   Current Obits Robert Browning - 5/17/2022 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="BrowningH2" class="obitH1">Robert Browning - 5/17/2022</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="BrowningPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Browning.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Browning.jpg" />
+                        Robert Browning<br />
+                        May 17, 2022<br /><br />
+                        Bob serverd in AFTAC as the Detachment Commander at 407 and was assigned to HQ AFTAC/DO. <br /><br />
+                        Robert Browning, 77, of Fort Collins, CO, passed away on May 17, 2022. Bob was born to Robert and Dorothy Browning in Queens, New York. After attending the University of Rochester, where he met the love of his life, Susan, and received a Bachelor of Economics, Bob joined the United States Air Force. Bob and Susan were married and spent the next 21 years as an Air Force family. Bob served in the Vietnam War as a C-130 rescue pilot, where he was awarded the Distinguished Flying Cross. Throughout his life, his sense of service and duty never ceased. Bob and Susan retired to Fort Collins. During their 34 years here, their desire to give back to their community led to their many volunteer activities. Bob began his volunteer work with Habitat for Humanity, where he eventually became both president and chief of construction. After becoming involved in the construction of the first four Habitat homes, Bob designed and along with Susan supervised the construction of the next eight homes. This work included selection and mentoring of families chosen to receive homes, with the goal of helping them become successful homeowners.<br /><br />
+                        Additionally, Bob served as a member and eventually chairperson of the Fort Collins Affordable Housing Board and subsequently became chairperson of the Community Development Block Grant Commission. Bob and Susan served the community as Fort Collins Police Department Victim's Advocates for seven years. Bob became a passionate volunteer motorman for the Fort Collins Municipal Railway Society (the Fort Collins Trolley), and over the course of 18 years, was integral to its operation and the training of others to operate the historic trolley. He served as president of the organization for the last four years.<br /><br />
+                        Bob is survived by his wife of 54 years, Susan, of Fort Collins, CO, daughters Jennifer (Dean) Hughes, of Broomfield, CO, and Rebecca (Brian Floyd) Browning-Floyd, of Wellington, CO, and grandchildren Bailey, Nicholas, Madison, Zachary, and Brandon.<br /><br />
+                        Bob is preceded in death by his parents and brother. In lieu of flowers, the family asks that any donations be sent to the Tunnel to Towers Foundation in his honor, by going to <a href="https://www.t2t.org" target="_blank">www.t2t.org</a> or by calling (718)-987-1931.<br /><br />
+
+                        To plant trees in memory, please visit the Sympathy Store.  Memories and tributes can be posted and the original obituary read <a href="https://www.goesfuneralcare.com/obituaries/Robert-Browning-12/#!/TributeWall" target="_blank">at Goes Funeral Care & Crematory.</a><br /><br />
+                        The obituary was published on Legacy.com by Goes Funeral Care & Crematory - Fort Collins on May 20, 2022.<br /><br />
+                        </p>
+                    </div>
+               </article>  
+ <%--                   Current Obits Charles Desrosier - 2/1/2018 *****************************************************************************--%>
+               <article>
+                    <div>
+                        <h2 id="DesrosierH2" class="obitH1">Charles Desrosier - 2/1/2018</h2>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="DesrosierPara" class="obitPara noDisplay">
+                        <p>
+                        <img alt="Desrosier.jpg" class="floatLeft width30 rightMargin1em maroonBorder showShadow" src="_Photos/obitpics/Desrosier.jpg" />
+                        Charles Desrosier<br />
+                        Oct 7, 1936 - Feb 1, 2018<br /><br />
+                        Charles Phillip Desrosier was born on October 7, 1936 and passed away on February 1, 2018 in Orange Park, Florida.  He joined the USAF and AFTAC in 1957 with assignments to Spain, Alaska, Wyoming, Ascension Island, Panama, and Florida, retiring in 1980.  Charlie is survived by wife Isabel, sons Rick (USN ret), Tom (USA ret), and Greg (USA ret).
+                        To send flowers or add memories visit the original obituary link below.<br /><br />
+                                          
+                        Original obituary can be viewed at <a href="https://www.dignitymemorial.com/obituaries/orange-park-fl/charles-desrosier-7748805" target="_blank">Hardage-Giddens Rivermead Funeral Home.</a> <br /><br />
+                        </p>
+                    </div>
+                       
+               </article> 
  <%--   Current Obits Robert Eugene Justman - 6/30/2006 *****************************************************************************--%>
                <article>
                     <div>
@@ -14002,7 +14275,7 @@
             <div class="clear"></div>
             <hr class="myHR" />
             <p class="centerText" style="font-size:1.5em;">
-                Click on the link below to get an application to join the<br /> <asp:HyperLink ID="HyperLink6" ForeColor="DarkRed" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida Membership Application_2023.pdf" Target="_blank" runat="server"> Florida Association Membership Application. </asp:HyperLink>
+                Click on the link below to get an application to join the<br /> <asp:HyperLink ID="HyperLink6" ForeColor="DarkRed" Font-Underline="true" Font-Size="1em" NavigateUrl="~/_PDFs/Florida_Membership_Application_Sep_2023.pdf" Target="_blank" runat="server"> Florida Association Membership Application. </asp:HyperLink>
             </p>
         </article>
     </div>
@@ -14012,9 +14285,8 @@
     </ContentTemplate>
     </asp:UpdatePanel>
     
-    <!--<script type="text/javascript" src= PageMethods.SetJsVersion(Context,"/_Scripts/myScript.js") </script>-->
     <!--<script src="_Scripts/myScript.js"></script>-->
-    <script src="_Scripts/myScript.js?v=7"></script>
+    <script src="_Scripts/myScript.js?v=33"></script>
        
     </form>
 </body>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
-  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.Toolset.4.7.0\build\Microsoft.Net.Compilers.Toolset.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.Toolset.4.7.0\build\Microsoft.Net.Compilers.Toolset.props')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -48,16 +48,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\lib\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -82,7 +79,6 @@
     <Folder Include="_Photos\App_LocalResources\" />
     <Folder Include="_Photos\Wall\" />
     <Folder Include="_Reports\" />
-    <Folder Include="_Videos\" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -117,6 +113,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Main.aspx" />
     <Content Include="PhotoGallery.html" />
+    <Content Include="_Images\2023_Oct_27_Event_Softball_Poster_DV.jpg" />
     <Content Include="_Images\91Years\4Photos.png" />
     <Content Include="_Images\91Years\Badge.png" />
     <Content Include="_Images\91Years\Logo1.png" />
@@ -127,24 +124,38 @@
     <Content Include="_Images\April2022.png" />
     <Content Include="_Images\April2023.png" />
     <Content Include="_Images\August2021.png" />
+    <Content Include="_Images\August2023.png" />
     <Content Include="_Images\Bob Land Celebration.png" />
     <Content Include="_Images\Borowski Obituary.jpg" />
     <Content Include="_Images\CMS_Wright.png" />
     <Content Include="_Images\EFAE.png" />
     <Content Include="_Photos\20YearWall\Horsch1.jpg" />
     <Content Include="_Photos\20YearWall\Marshall3.jpg" />
+    <Content Include="_Photos\20YearWall\Merker2.jpg" />
     <Content Include="_Photos\20YearWall\Moran.jpg" />
     <Content Include="_Photos\20YearWall\Silhanek1.jpg" />
     <Content Include="_Photos\AOY\Milam_AOY.png" />
+    <Content Include="_Photos\Histories\SamplingBalloon.jpg" />
+    <Content Include="_Photos\Histories\Singlevich.jpg" />
     <Content Include="_Photos\News2Know\mem1.jpg" />
     <Content Include="_Photos\News2Know\mem2.jpg" />
+    <Content Include="_Photos\ObitPics\Browning.jpg" />
+    <Content Include="_Photos\ObitPics\caldwell.jpg" />
     <Content Include="_Photos\ObitPics\ciambroneTom.jpg" />
+    <Content Include="_Photos\ObitPics\Desrosier.jpg" />
     <Content Include="_Photos\ObitPics\Feakes.jpg" />
     <Content Include="_Photos\ObitPics\JohnsonBJ.jpg" />
     <Content Include="_Photos\ObitPics\Justman.jpg" />
+    <Content Include="_Photos\ObitPics\lindstedt.png" />
     <Content Include="_Photos\ObitPics\McCloskey.jpg" />
     <Content Include="_Photos\ObitPics\miller.jpg" />
+    <Content Include="_Photos\ObitPics\mosley.png" />
+    <Content Include="_Photos\ObitPics\Overby.jpg" />
     <Content Include="_Photos\ObitPics\Rogers.jpg" />
+    <Content Include="_Photos\ObitPics\shanahan.jpg" />
+    <Content Include="_Photos\ObitPics\sweet.jpg" />
+    <Content Include="_Photos\ObitPics\Tillman.jpg" />
+    <Content Include="_Photos\ObitPics\Vickers.jpg" />
     <Content Include="_Photos\ObitPics\WellsClark.jpg" />
     <Content Include="_Photos\ObitPics\Williamson_Donald.jpg" />
     <Content Include="_Photos\WOH\Coin.png" />
@@ -1431,6 +1442,7 @@
     <Content Include="_Styles\BasicStyles.css" />
     <Content Include="_Styles\myStyles.css" />
     <Content Include="_Styles\PhotoGallery.css" />
+    <Content Include="_Videos\GUINNESS WORLD RECORD Fourth Of July Drone Show.mp4" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\AFTAC.vb" />
@@ -1521,8 +1533,8 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <Content Include="packages.config" />
     <Content Include="site.webmanifest" />
+    <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1532,7 +1544,6 @@
     <Content Include="_Audio\taps.ogg" />
     <Content Include="_PDFs\California Membership Application.pdf" />
     <Content Include="_PDFs\Colorado Membership Application.pdf" />
-    <Content Include="_PDFs\Florida Membership Application_2023.pdf" />
     <Content Include="_PDFs\Requested Calendar.pdf" />
     <Content Include="_PDFs\AFTACAA Bylaws.pdf" />
     <Content Include="_PDFs\AFTACAA Constitution.pdf" />
@@ -1624,7 +1635,6 @@
     <Content Include="_Minutes\2-8-2021_Minutes.pdf" />
     <Content Include="_PDFs\2021 Cocoa Beach Air Show.pdf" />
     <Content Include="_Minutes\3-8-2021_Minutes.pdf" />
-    <Content Include="_PDFs\3-8-2021_Minutes.pdf" />
     <Content Include="_Minutes\4-12-2021_Minutes.pdf" />
     <Content Include="_PDFs\Letter auction.pdf" />
     <Content Include="_Minutes\5-10-2021_Minutes.pdf" />
@@ -1654,7 +1664,6 @@
     <Content Include="_Minutes\1-9-2023_Minutes.pdf" />
     <Content Include="_Minutes\2-13-2023_Minutes.pdf" />
     <Content Include="_Minutes\3-10-2023_Minutes.pdf" />
-    <Content Include="_PDFs\Agenda2.pdf" />
     <Content Include="_Pomos\Pomo1985-06.pdf" />
     <Content Include="_Pomos\PoMo1993-06.pdf" />
     <Content Include="_Pomos\PoMo1993-09.pdf" />
@@ -1763,16 +1772,21 @@
     <Content Include="_Pomos\PoMo2022_04.pdf" />
     <Content Include="_Pomos\PoMo2022_08.pdf" />
     <Content Include="_Pomos\PoMo2023_04.pdf" />
-    <Content Include="_PDFs\Calendar2.pdf" />
-    <Content Include="_PDFs\Agenda_5_2023.pdf" />
     <Content Include="_Minutes\4-14-2023_Minutes.pdf" />
     <Content Include="_PDFs\MemorialWallJune2023.pdf" />
     <Content Include="_Minutes\2023-5-8_Minutes.pdf" />
-    <Content Include="_PDFs\Agenda_6_2023.pdf" />
-    <Content Include="_PDFs\Calendar_7_JUNE_2023.pdf" />
     <Content Include="_Minutes\2023-6-9_Minutes.pdf" />
-    <Content Include="_PDFs\Agenda_7_2023.pdf" />
-    <Content Include="_PDFs\Calendar_15_Jul_2023.pdf" />
+    <Content Include="_Minutes\2023-7-14_Minutes.pdf" />
+    <Content Include="_PDFs\Florida Membership Application_Aug_2023.pdf" />
+    <Content Include="_Pomos\PoMo2023_08.pdf" />
+    <Content Include="_Minutes\2023-8-18_Minutes.pdf" />
+    <Content Include="_PDFs\Florida_Membership_Application_Sep_2023.pdf" />
+    <Content Include="_PDFs\Calendar_2_Oct_2023.pdf" />
+    <Content Include="_PDFs\Agenda_10_2023.pdf" />
+    <Content Include="_Minutes\2023-9-22_Minutes.pdf" />
+    <Content Include="_PDFs\SageStore_10_2023.pdf" />
+    <Content Include="_PDFs\11102023Col_Dinner.pdf" />
+    <Content Include="_PDFs\Calendar_24_Oct_2023.pdf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -1818,9 +1832,13 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.Toolset.4.7.0\build\Microsoft.Net.Compilers.Toolset.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.Toolset.4.7.0\build\Microsoft.Net.Compilers.Toolset.props'))" />
   </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
