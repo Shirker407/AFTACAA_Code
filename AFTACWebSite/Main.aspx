@@ -4638,7 +4638,7 @@
                             <li id="DeForest" class="my20YearLi">DeForest, Daniel L.</li>
                             <li id="DeMarco2" class="my20YearLi">De Marco, Anthony S.</li>
                             <li id="Dennis" class="my20YearLi">Dennis, Paul L.</li>
-                            <li id="Desrosier" class="my20YearLi">Desrosier, Charles P.</li>
+                            <li id="Desrosier" class="my20YearLi">Desrosier, Charles P. (D)</li>
                             <li id="Doberstein" class="my20YearLi">Doberstein, John W.</li>
                             <li id="Dohaney" class="my20YearLi">Dohaney, Brian T.</li>
                             <li id="Draper" class="my20YearLi">Draper, Reginald A.</li>
