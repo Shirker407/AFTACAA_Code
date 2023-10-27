@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <link href="_Styles/BasicStyles.css" rel="stylesheet" />
+    <link href="https://localhost:44340/_Styles/myStyles.css" rel="stylesheet" />
     <link href="_Styles/myStyles.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <%--<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0" />--%>
